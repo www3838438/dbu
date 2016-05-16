@@ -1,0 +1,2 @@
+// Do not install 'recommended' packages
+Apt::Install-Recommends "false";
