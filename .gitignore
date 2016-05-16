@@ -1,0 +1,5 @@
+config/packages.chroot/*.bz2
+config/packages.chroot/*.xz
+config/packages.chroot/*.dsc
+config/packages.chroot/*.deb
+config/packages.chroot/*.gz
