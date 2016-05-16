@@ -1,0 +1,25 @@
+[color]
+	ui = true
+[merge]
+	tool = meld
+[alias]
+	st = status
+	a = add
+	p = push
+	ch = checkout
+	b = branch -a
+	bch = "branch --checkout"
+	c = commit
+	f = fetch
+	track = "branch --set-upstream"
+	l = "log --graph --abbrev-commit --decorate --date=relative --pretty=oneline  --all"
+	d = diff
+    wd = diff --color-words=.
+	undolastcommit = git reset --soft HEAD^
+	amend = commit --amend
+	graph = log --pretty=oneline --abbrev-commit --graph --decorate
+	rmbranch = !echo "delete a remot branch: git push origin :ma_branche"
+	sl = shortlog
+	zip = !git archive --format=zip  -9 HEAD -o `basename $PWD`-`date +%F-%T`.zip
+	rp = !git repack && git prune
+	thanks = shortlog -sne
