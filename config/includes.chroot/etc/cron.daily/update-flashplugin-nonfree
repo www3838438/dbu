@@ -1,0 +1,3 @@
+#!/bin/sh
+test -x /usr/sbin/update-flashplugin-nonfree || exit 0
+/usr/sbin/update-flashplugin-nonfree --install --quiet >/dev/null 2>&1
