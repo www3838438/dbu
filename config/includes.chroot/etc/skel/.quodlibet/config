@@ -1,0 +1,95 @@
+[header_maps]
+
+[player]
+fallback_gain = 0.0
+gst_pipeline = 
+pre_amp_gain = 0.0
+replaygain = false
+time_remaining = false
+backend = gstbe
+
+[rename]
+windows = true
+spaces = false
+ascii = false
+
+[browsers]
+panes = ~people	<~year|<~year> - <album>|<album>>
+rating_click = true
+color = true
+pane_selection = 0
+rating_confirm_multiple = false
+album_covers = 1
+background = 
+albums = 
+query_text = 
+album_sort = 0
+album_substrings = 1
+
+[memory]
+shufflequeue = false
+song = 
+volume = 1.0
+browser_size = 500 300
+seek = 0
+songlist = true
+exfalso_size = 700 500
+exfalso_maximized = 0
+queue = false
+sortby = 0~#track
+maximized = 0
+position = 0 0
+size = 400 350
+order = inorder
+browser = AlbumList
+
+[editing]
+split_on = / & ,
+save_to_songs = true
+save_email = quodlibet@lists.sacredchao.net
+id3encoding = 
+alltags = true
+human_title_case = true
+
+[settings]
+jump = true
+ratings = 4
+disable_hints = false
+default_rating = 0.5
+scan = 
+eager_search = true
+round = true
+repeat = false
+headers = ~#track ~title~version ~album~discsubtitle ~#rating ~#length
+
+[plugins]
+k3b = Brasero
+browsefolders = thunar
+wikipedia = en
+active_songsmenuplugins = CDDB lookup
+	Burn CD
+	Export to HTML
+	View in Nautilus
+	Download Album art
+	ExportMeta
+	APEv2 to ID3v2
+	Browse Folders
+cover_engine_coverparadise = true
+cover_engine_amazon = true
+cover_engine_discogs = true
+active_editingplugins = Title Case
+cover_fit = true
+cover_edit = false
+cover_edit_cmd = gimp
+cover_fn = folder.jpg
+
+[tagsfrompath]
+add = false
+underscores = false
+split = false
+titlecase = false
+
+[library]
+exclude = 
+refresh_on_start = true
+
