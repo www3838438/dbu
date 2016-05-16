@@ -1,0 +1,18 @@
+item Blur Scope
+pane -1
+x 10
+y 66
+w 256
+h 142
+item Cairo Spectrum
+pane -1
+x 10
+y 66
+w 178
+h 108
+item Album Art
+pane -1
+x 10
+y 66
+w 128
+h 142
