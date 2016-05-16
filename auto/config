@@ -1,0 +1,140 @@
+#!/bin/sh
+# Live-build configuration script
+#live-build 1:20151215
+
+lb config noauto \
+--apt-recommends false \
+--architectures amd64 \
+--binary-images iso-hybrid \
+--binary-filesystem ext4 \
+--bootappend-install "locales=fr_FR.UTF-8" \
+--bootappend-live "boot=live config locales=fr_FR.UTF-8" \
+--checksums sha256 \
+--clean \
+--debconf-frontend dialog \
+--debian-installer live \
+--debian-installer-distribution jessie \
+--debian-installer-gui true \
+--distribution jessie \
+--firmware-binary true \
+--firmware-chroot true \
+--initramfs live-boot \
+--iso-application dbu \
+--iso-preparer dbu \
+--iso-publisher dbu \
+--iso-volume dbu \
+--memtest memtest86+ \
+--archive-areas 'main contrib non-free' \
+--security true \
+--source false \
+--win32-loader true
+
+"${@}"
+
+
+# lb config
+#   [--apt apt|aptitude]
+#   [--apt-ftp-proxy URL]
+#   [--apt-http-proxy URL]
+#   [--apt-indices true|false]
+#   [--apt-options OPTION|"OPTIONS"]
+#   [--aptitude-options OPTION|"OPTIONS"]
+#   [--apt-pipeline PROFONDEUR]
+#   [--apt-recommends true|false]
+#   [--apt-secure true|false]
+#   [--apt-source-archives true|false]
+#   [-a|--architectures ARCHITECTURE]
+#   [-b|--binary-images iso|iso-hybrid|netboot|tar|hdd]
+#   [--binary-filesystem fat16|fat32|ext2|ext3|ext4]
+#   [--bootappend-install PARAMÈTRES|"PARAMÈTRES"]
+#   [--bootappend-live PARAMÈTRES|"PARAMÈTRES"]
+#   [--bootloader grub|grub2|syslinux]
+#   [--cache true|false]
+#   [--cache-indices true|false]
+#   [--cache-packages true|false]
+#   [--cache-stages STAGE|"STAGES"]
+#   [--checksums md5|sha1|sha256|none]
+#   [--compression bzip2|gzip|lzip|none]
+#   [--config GIT_URL::GIT_ID]
+#   [--build-with-chroot true|false]
+#   [--chroot-filesystem ext2|ext3|ext4|squashfs|jffs2|none]
+#   [--clean]
+#   [-c|--conffile FICHIER]
+#   [--debconf-frontend dialog|editor|noninteractive|readline]
+#   [--debconf-priority low|medium|high|critical]
+#   [--debian-installer true|cdrom|netinst|netboot|businesscard|live|false]
+#   [--debian-installer-distribution daily|NOM_DE_CODE]
+#   [--debian-installer-preseedfile FICHIER|URL]
+#   [--debian-installer-gui true|false]
+#   [--debug]
+#   [-d|--distribution NOM_DE_CODE]
+#   [--parent-distribution NOM_DE_CODE]
+#   [--parent-debian-installer-distribution NOM_DE_CODE]
+#   [--dump]
+#   [--fdisk fdisk|fdisk.dist]
+#   [--firmware-binary true|false]
+#   [--firmware-chroot true|false]
+#   [--force]
+#   [--grub-splash FICHIER]
+#   [--gzip-options OPTION|"OPTIONS"]
+#   [--hooks FICHIER]
+#   [--ignore-system-defaults]
+#   [--initramfs auto|none|live-boot|casper]
+#   [--initramfs-compression bzip2|gzip|lzma]
+#   [--initsystem sysvinit|runit|systemd|upstart|none]
+#   [--interactive shell]
+#   [--isohybrid-options OPTION|"OPTIONS"]
+#   [--iso-application NOM]
+#   [--iso-preparer NOM]
+#   [--iso-publisher NOM]
+#   [--iso-volume NOM]
+#   [--jffs2-eraseblock TAILLE]
+#   [--keyring-packages PAQUET|"PAQUETS"]
+#   [-k|--linux-flavours VARIÉTÉ|"VARIÉTÉS"]
+#   [--linux-packages "PAQUETS"]
+#   [--losetup losetup|losetup.orig]
+#   [--memtest memtest86+|memtest86|none]
+#   [-m|--parent-mirror-bootstrap URL]
+#   [--parent-mirror-chroot URL]
+#   [--parent-mirror-chroot-security URL]
+#   [--parent-mirror-chroot-updates URL]
+#   [--parent-mirror-chroot-backports URL]
+#   [--parent-mirror-binary URL]
+#   [--parent-mirror-binary-security URL]
+#   [--parent-mirror-binary-updates URL]
+#   [--parent-mirror-binary-backports URL]
+#   [--parent-mirror-debian-installer URL]
+#   [--mirror-bootstrap URL]
+#   [--mirror-chroot URL]
+#   [--mirror-chroot-security URL]
+#   [--mirror-chroot-updates URL]
+#   [--mirror-chroot-backports URL]
+#   [--mirror-binary URL]
+#   [--mirror-binary-security URL]
+#   [--mirror-binary-updates URL]
+#   [--mirror-binary-backports URL]
+#   [--mirror-debian-installer URL]
+#   [--mode debian|progress-linux|ubuntu]
+#   [--system live|normal]
+#   [--net-root-filesystem nfs|cfs]
+#   [--net-root-mountoptions OPTIONS]
+#   [--net-root-path CHEMIN]
+#   [--net-root-server IP|NOM_D_HÔTE]
+#   [--net-cow-filesystem nfs|cfs]
+#   [--net-cow-mountoptions OPTIONS]
+#   [--net-cow-path CHEMIN]
+#   [--net-cow-server IP|NOM_D_HÔTE]
+#   [--net-tarball true|false]
+#   [--quiet]
+#   [--archive-areas DOMAINE_D'ARCHIVE|"DOMAINES_D'ARCHIVE"]
+#   [--parent-archive-areas DOMAINE_D'ARCHIVE_PARENT|"DOMAINE_D'ARCHIVE_PARENT"]
+#   [--security true|false]
+#   [--source true|false]
+#   [-s|--source-images iso|netboot|tar|hdd]
+#   [--tasksel apt|aptitude|tasksel]
+#   [--templates CHEMIN]
+#   [--hdd-size MB]
+#   [--updates true|false]
+#   [--backports true|false]
+#   [--verbose]
+#   [--win32-loader true|false]
