@@ -1,0 +1,59 @@
+<bookmarks>
+    <group name="root">
+<group name="France">
+<bookmark name="Radio Nova" url="http://broadcast.infomaniak.ch/radionova-high.mp3"/>
+<bookmark name="Sing Sing" url="http://www.sing-sing.org/confort2.pls"/>
+<bookmark name="RTL2" url="http://streaming.radio.rtl2.fr/rtl2-1-44-96"/>
+<bookmark name="France Inter" url="http://www.listenlive.eu/franceinter128.m3u"/>
+<bookmark name="France Info" url="http://www.listenlive.eu/franceinfo.m3u"/>
+<bookmark name="France Culture" url="http://www.listenlive.eu/franceculture128.m3u"/>
+<bookmark name="France Musique" url="http://www.listenlive.eu/francemusique128.m3u"/>
+<bookmark name="FIP" url="http://www.listenlive.eu/fip128.m3u"/>
+<bookmark name="Mouv" url="http://www.listenlive.eu/lemouv128.m3u"/>
+<bookmark name="France Bleu" url="http://www.listenlive.eu/fbidf.m3u"/>
+<bookmark name="Radio Orient" url="http://radioorient.scdn.arkena.com/radioorient.mp3"/>
+</group>
+<group name="Soma FM">
+<bookmark name="SOMAFM | Groove Salad" url="http://ice.somafm.com/groovesalad"/>
+<bookmark name="SOMAFM | Secret Agent" url="http://ice.somafm.com/secretagent"/>
+<bookmark name="SOMAFM | Lush" url="http://ice.somafm.com/lush"/>
+<bookmark name="SOMAFM | Indie Pop" url="http://ice.somafm.com/indiepop"/>
+<bookmark name="SOMAFM | Boot Liquor" url="http://ice.somafm.com/bootliquor"/>
+<bookmark name="SOMAFM | Suburbs of Goa" url="http://ice.somafm.com/suburbsofgoa"/>
+<bookmark name="SOMAFM | Digitalis" url="http://ice.somafm.com/digitalis"/>
+<bookmark name="SOMAFM | Doomed" url="http://ice.somafm.com/doomed"/>
+<bookmark name="SOMAFM | Covers" url="http://ice.somafm.com/covers"/>
+<bookmark name="SOMAFM | Tags" url="http://ice.somafm.com/tags"/>
+<bookmark name="SOMAFM | Poptron" url="http://ice.somafm.com/poptron"/>
+<bookmark name="SOMAFM | Beat Blender" url="http://ice.somafm.com/beatblender"/>
+<bookmark name="SOMAFM | Sonic Universe" url="http://ice.somafm.com/sonicuniverse"/>
+<bookmark name="SOMAFM | Dronezone" url="http://ice.somafm.com/dronezone"/>
+<bookmark name="SOMAFM | Cliq Hop" url="http://ice.somafm.com/cliqhop"/>
+<bookmark name="SOMAFM | Space Station" url="http://ice.somafm.com/spacestation"/>
+<bookmark name="SOMAFM | Xmas in Frisko" url="http://ice.somafm.com/xmasinfrisko"/>
+<bookmark name="SOMAFM | u80s" url="http://ice.somafm.com/u80s"/>
+<bookmark name="SOMAFM | BrFM" url="http://ice.somafm.com/brfm"/>
+</group>
+<group name="WebradioSh">
+<bookmark name="deepmix" url="http://deepmix.ru/deepmix128.pls"/>
+<bookmark name="mottt" url="http://mottt.fm/motttfm192.pls"/>
+<bookmark name="bytefm" url="http://www.byte.fm/stream/bytefm.pls"/>
+<bookmark name="bassdrive" url="http://bassdrive.com/v2/streams/BassDrive.pls"/>
+<bookmark name="dlf" url="http://www.dradio.de/streaming/dlf.m3u"/>
+<bookmark name="dradio" url="http://www.dradio.de/streaming/dkultur.m3u"/>
+<bookmark name="classic101" url="http://icy2.abacast.com/wrr-wrr101mp3-64.m3u"/>
+<bookmark name="classic" url="http://players.creacast.com/creacast/classique/playlist.pls"/>
+<bookmark name="hertz879" url="http://stream.radiohertz.de/hertz-q5.m3u"/>
+<bookmark name="dubterrain" url="http://www.dubterrain.net/stream/high"/>
+<bookmark name="downtunedradio" url="http://uk3.my-shoutcast.net/tunein.php/taronopo/playlist.pls"/>
+<bookmark name="subfm" url="http://www.sub.fm/listen.pls"/>
+<bookmark name="rockantenne" url="http://www.rockantenne.de/webradio/rockantenne.m3u"/>
+<bookmark name="deepgrooveradio" url="http://tiny.cc/sitestream"/>
+<bookmark name="wdr3" url="http://www.wdr.de/wdrlive/media/wdr3_hq.m3u"/>
+<bookmark name="turntables24" url="http://stream.turntables24.de:9400/listen.pls"/>
+<bookmark name="metal-only" url="http://metal-only.blitz-stream.de/listen.pls"/>
+<bookmark name="fm4" url="http://mp3stream1.apasf.apa.at:8000/listen.pls"/>
+<bookmark name="jazzradio" url="http://www.jazzradio.net/docs/stream/jazzradio.pls"/>
+</group>
+</group>
+</bookmarks>
