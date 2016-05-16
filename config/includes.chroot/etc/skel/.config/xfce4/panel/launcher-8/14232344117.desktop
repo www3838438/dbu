@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Alarm Clock
+Name[fr]=Réveil
+Comment=Wake up in the morning
+Comment[fr]=Se reveiller le matin
+Icon=alarm-clock
+Exec=alarm-clock-applet
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+X-Ubuntu-Gettext-Domain=alarm-clock
+X-XFCE-Source=file:///usr/share/applications/alarm-clock-applet.desktop

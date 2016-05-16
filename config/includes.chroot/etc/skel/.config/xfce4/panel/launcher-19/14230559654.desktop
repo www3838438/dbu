@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Liferea
+Name[fr]=Liferea
+GenericName=Feed Reader
+GenericName[fr]=Lecteur de flux
+X-GNOME-FullName=Liferea Feed Reader
+X-GNOME-FullName[fr]=Lecteur de flux Liferea
+Comment=Read news feeds and blogs
+Comment[fr]=Lisez les actualités des flux et blogs
+Keywords=news;feed;aggregator;blog;podcast;
+Exec=liferea
+Icon=liferea
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Network;Feed;
+Version=1.1
+MimeType=application/rss+xml;application/atom+xml;application/rdf+xml;
+X-XFCE-Source=file:///usr/share/applications/liferea.desktop
