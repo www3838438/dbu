@@ -1,0 +1,37 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Ouvrir un terminal ici</name>
+	<unique-id>1376925988838423-2</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Ouvre une fenêtre de terminal dans le répertoire</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+
+<action>
+	<icon>system-search</icon>
+	<name>Rechercher...</name>
+	<unique-id>1376145324304167-1</unique-id>
+	<command>gnome-search-tool --path=%f</command>
+	<description>Rechercher des fichiers ou dossiers</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>package-remove</icon>
+	<name>Détruire</name>
+	<unique-id>1384303108769944-5</unique-id>
+	<command>srm-zenity %F</command>
+	<description>Ecrase les données pour les rendre irrécupérables</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>
