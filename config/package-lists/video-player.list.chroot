@@ -1,0 +1,29 @@
+#Name: Video players
+#Descr: vlc
+#Descr: mpv
+#Screenshot: vlc
+#Screenshot: mpv
+
+vlc
+vlc-plugin-notify
+vlc-plugin-vlsub
+vlc-plugin-jack
+vlc-plugin-samba
+libdvdread4
+mpv
+
+#Alt: mplayer2
+#Alt: gnome-mplayer
+#Alt: smplayer
+#Alt: umplayer
+#Alt: totem
+#Alt: parole
+#Alt: gnome-dvb-client
+#Alt: zapping
+#Alt: freetuxtv
+#Alt: kodi
+#Alt: browser-plugin-vlc
+#Alt: mpv
+#Alt: subdownloader
+
+#Cat: Multimedia
