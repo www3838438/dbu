@@ -1,0 +1,28 @@
+#Name: System configuration utilities
+#Descr: xfce4-settings
+#Screenshot: xfce4-settings
+#Descr: gnome-system-tools
+#Screenshot: gnome-system-tools
+#Descr: startupmanager
+#Screenshot: startupmanager
+#Descr: menulibre
+#Screenshot: menulibre
+#Descr: gconf-editor
+#Screenshot: gconf-editor
+
+xfce4-settings
+startupmanager
+gnome-system-tools
+menulibre
+gconf-editor
+dconf-tools
+qt4-qtconfig
+
+#Cat: System
+#Cat: Utility
+#Alt: gnome-color-manager
+#Alt: galternatives
+#Alt: arandr
+#Alt: disper
+#Alt: lightdm-gtk-greeter-settings
+#Alt: gddccontrol
