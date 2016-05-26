@@ -1,0 +1,30 @@
+#Name: Windows compatibility layer
+#Descr: wine
+#Descr: playonlinux
+#Screenshot: playonlinux
+
+playonlinux
+wine
+#gnome-exe-thumbnailer
+winetricks
+#fonts-wine
+
+#if ARCHITECTURES amd64
+#wine64
+#TODO DOWNLOAD FROM SCRIPT ON FIRST RUN
+#wine64-bin
+#wine-bin:i386
+#libasound2-plugins:i386
+#wine32-development:i386
+#libgl1-mesa-dri:i386
+#TODO Requires enabling multiarch with dpkg --add-architecture i386; apt-get update
+
+#endif
+
+
+#Cat: Utility
+#Res: https://wiki.debian.org/fr/Wine
+#Res: http://doc.ubuntu-fr.org/wine
+#Res: http://appdb.winehq.org/
+#Res: http://doc.ubuntu-fr.org/wine_trucs_et_astuces
+#Res: http://fr.wikipedia.org/wiki/Wine
