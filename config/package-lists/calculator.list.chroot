@@ -1,0 +1,18 @@
+#Name: Calculator
+#Descr: gnome-calculator
+#Screenshot: gnome-calculator
+
+gnome-calculator
+
+# Command line
+bc
+units
+
+
+#Alt: qalculate
+
+#Cat: Utility
+#Cat: Office
+#Res: http://fr.wikipedia.org/wiki/GCalctool
+#Res: http://doc.ubuntu-fr.org/gcalctool
+
