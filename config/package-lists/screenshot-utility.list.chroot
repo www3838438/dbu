@@ -1,0 +1,14 @@
+#Name: Screenshot utility
+#Descr: xfce4-screenshooter
+#Screenshot: xfce4-screenshooter
+
+xfce4-screenshooter
+
+# Command line
+scrot
+
+#Cat: Utility
+#Cat: Graphics
+
+#Alt: shutter
+#Alt: gnome-screenshot
