@@ -1,0 +1,11 @@
+#Name: Cellphone and Modem Support
+modemmanager
+modem-manager-gui
+mobile-broadband-provider-info
+usb-modeswitch
+
+#Alt: wader-core
+#Alt: gnome-phone-manager
+
+#Cat: System
+#Cat: Network
