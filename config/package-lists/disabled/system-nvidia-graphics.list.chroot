@@ -1,0 +1,18 @@
+#Name: NVidia Graphics Drivers
+#Replace: Pilotes pour cartes NVidia GeForce 6xxx et + récentes. Ces pilotes peuvent s'avérer nécessaires pour accéler l'affichage avec les cartes NVidia. Il s'agit des drivers propriétaires développés par NVidia.Les paquets à installer varient selon le modèle de carte graphique.
+
+nvidia-glx
+libgl1-nvidia-glx
+nvidia-kernel-dkms
+nvidia-vdpau-driver
+nvidia-settings
+nvidia-xconfig
+libgl1-nvidia-glx-ia32
+nvidia-vdpau-driver-ia32
+nvidia-glx-ia32
+vdpau-driver-all
+
+#Alt: nvclock-gtk
+#Alt: nvidia-detect
+
+#Note: You must run `sudo nvidia-xconfig` to make this display driver the default one.
