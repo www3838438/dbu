@@ -1,0 +1,10 @@
+#Name: PackageKit
+packagekit
+gnome-packagekit
+packagekit-tools
+
+
+#Alt: gnome-software
+#Alt: aptdaemon
+
+#Cat: System
