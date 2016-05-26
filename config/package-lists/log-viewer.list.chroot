@@ -1,0 +1,11 @@
+#Name: System log viewer
+#Descr: gnome-system-log
+#Screenshot: gnome-system-log
+
+gnome-system-log
+
+#Alt: lnav
+#Alt: glogg
+#Alt: logtop
+
+#Cat: System
