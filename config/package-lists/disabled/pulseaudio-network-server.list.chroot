@@ -1,0 +1,13 @@
+#Name: PulseAudio network sound server
+#Descr: avahi-daemon
+#Descr: paprefs
+#Screenshot: paprefs
+
+avahi-daemon
+libnss-mdns
+avahi-autoipd
+avahi-dnsconfd
+paprefs
+
+#Alt: avahi-discover
+#Alt: avahi-ui-utils
