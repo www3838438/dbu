@@ -1,0 +1,9 @@
+#Name: Diagram Editor
+#Descr: dia
+#Screenshot: dia
+
+dia
+dia-shapes
+gsfonts-x11 
+
+#Cat: Graphics
