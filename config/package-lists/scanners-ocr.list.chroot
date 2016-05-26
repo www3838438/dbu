@@ -1,0 +1,22 @@
+#Name: Document scanning and OCR
+#Descr: simple-scan
+#Screenshot: simple-scan
+#Descr: ocrfeeder
+#Screenshot: ocrfeeder
+
+simple-scan
+imagemagick
+sane-utils
+libsane-extras
+ocrfeeder
+tesseract-ocr-fra
+unpaper
+
+
+#Alt: scanbuttond
+#Alt: xsane
+#Alt: yagf
+#Alt: ocrad
+
+#Cat: Graphics
+#Cat: Office
