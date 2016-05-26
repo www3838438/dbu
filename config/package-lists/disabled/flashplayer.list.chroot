@@ -1,0 +1,13 @@
+#Name: Adobe Flash Player
+flashplugin-nonfree
+
+#Replace: Adobe Flash Player est un logiciel permettant de lire des animations vectorielles interactives (.swf) et des vidéos au format Flash (.flv) développé par Adobe Systems. Il est communément rencontré sous forme de greffon pour navigateur web, lisant le contenu multimédia de nombreux sites (vidéos, jeux…). 
+
+#Note: Flash Player is proprietary software. It suffers many performance (CPU and RAM usage) and **security bugs**. Flash content is being slowly rolled out of the modern web, and many major websites already distribute their audio/video content without a requirement on Flash Player.
+
+#Res: http://vincent.bernat.im/en/blog/2011-flash-on-debian.html
+#Res: http://www.reddit.com/r/linux/comments/q0s6i/flash_for_linux_will_be_chromeium_only/
+#Res: http://www.numerama.com/magazine/21788-flash-sous-linux-va-devenir-une-exclusivite-google-chrome.html
+
+#Alt: browser-plugin-gnash
+#Alt: browser-plugin-lightspark
