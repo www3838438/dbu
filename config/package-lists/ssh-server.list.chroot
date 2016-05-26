@@ -1,0 +1,7 @@
+#Name: OpenSSH server
+#Descr: openssh-server
+
+openssh-server
+openssh-blacklist
+
+#Note: Port `TCP 822`
