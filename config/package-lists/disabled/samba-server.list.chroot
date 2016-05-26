@@ -1,0 +1,14 @@
+#Name: Serveur Samba
+samba
+libpam-smbpass
+samba-vfs-modules 
+smbclient
+
+#Alt: smbc
+
+
+#Replace: Le logiciel Samba est un outil permettant de partager des dossiers et des imprimantes à travers un réseau local. Il permet de partager et d'accéder aux ressources d'autres ordinateurs fonctionnant avec des systèmes d'exploitation Microsoft® Windows® et Apple® Mac OS® X, ainsi que des systèmes GNU/Linux, *BSD et Solaris dans lesquels une implémentation de Samba est installée.
+
+#Res: http://doc.ubuntu-fr.org/samba
+#Res: http://fr.wikipedia.org/wiki/Samba_(informatique)
+#Res: http://www.samba.org/
