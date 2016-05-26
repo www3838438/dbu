@@ -1,0 +1,14 @@
+#Name: Multimedia utilities
+
+sox
+ffmpeg
+mediainfo
+media-player-info
+moc
+xdotool
+
+#Alt: mpg123
+#Alt: oggvideotools
+
+#Cat: Multimedia
+#Cat: Utility
