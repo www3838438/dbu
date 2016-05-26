@@ -1,0 +1,34 @@
+#Name: Instant messaging client
+#Descr: pidgin
+#Screenshot: pidgin
+
+pidgin
+pidgin-libnotify
+pidgin-otr
+libpurple-bin
+pidgin-plugin-pack
+pidgin-extprefs
+#pidgin-gnome-keyring
+
+#Res: http://fr.wikipedia.org/wiki/Pidgin_(logiciel)
+#Res: http://wiki.jabberfr.org
+#Res: http://doc.ubuntu-fr.org/pidgin
+
+#Alt: sflphone
+#Alt: mumble
+#Alt: empathy
+#Alt: finch
+#Alt: weechat
+#Alt: irssi
+#Alt: hotot
+#Alt: turpial
+#Alt: twidge
+#Alt: turses
+#Alt: centerim
+#Alt: ekg2
+#Alt: mcabber
+#Alt: xchat
+#Alt: gajim
+#Alt: yowsup-cli
+#Alt: twitux
+#Alt: https://github.com/nitroshare/nitroshare-desktop
