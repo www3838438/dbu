@@ -1,0 +1,22 @@
+#Name: Virtualization software
+#Descr: virtualbox
+#Screenshot: virtualbox-qt
+
+virtualbox
+virtualbox-dkms
+virtualbox-guest-additions-iso
+#virtualbox-ext-pack
+virtualbox-guest-dkms
+virtualbox-guest-source
+virtualbox-guest-utils
+virtualbox-guest-x11
+virtualbox-qt
+
+
+#Alt: virt-manager
+
+#Cat: System
+#Cat: Utility
+#Res: https://wiki.archlinux.org/index.php/VirtualBox
+#Res: http://en.wikipedia.org/wiki/Oracle_VM_VirtualBox
+#Res: http://www.howtogeek.com/171228/10-virtualbox-tricks-and-advanced-features-you-should-know-about/
