@@ -1,0 +1,25 @@
+#Name: Bittorrent client
+#Descr: transmission-gtk
+#Screenshot: transmission-gtk
+
+transmission-gtk
+
+#Command line: 
+transmission-cli
+
+#Note: Ports: `TCP 52943`, `UDP /52943` Web interface: `TCP 52913`
+
+#Alt: qbittorrent
+#Alt: deluge-gtk
+#Alt: deluge-web
+#Alt: uget
+#Alt: steadyflow
+#Alt: transgui
+#Alt: transmission-remote-gtk
+#Alt: amule
+#Alt: amule-gnome-support
+#Alt: nicotine
+#Alt: tribler
+#Alt: lottanzb
+
+#Cat: Network
