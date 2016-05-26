@@ -1,0 +1,36 @@
+#Name: Package management
+#Descr: synaptic
+#Screenshot: synaptic
+#Screenshot: gdebi
+#Screenshot: software-properties-gtk
+
+synaptic
+deborphan
+software-properties-gtk
+unattended-upgrades
+apt-listbugs
+apt-listchanges
+debconf-utils
+gdebi
+vrms
+
+# Command line
+aptitude
+aptitude-doc-fr
+debsecan
+needrestart
+reportbug
+
+#Cat: System
+
+#Res: http://fr.wikipedia.org/wiki/Synaptic
+#Res: http://doc.ubuntu-fr.org/gestionnaire_de_paquets
+#Res: http://doc.ubuntu-fr.org/synaptic
+#Res: https://wiki.debian.org/UnattendedUpgrades
+
+#Alt: apturl
+#Alt: apt-fast
+#Alt: apt-p2p
+#Alt: aptoncd
+#Alt: apt-file
+#Alt: pk-update-icon
