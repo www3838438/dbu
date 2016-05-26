@@ -1,0 +1,34 @@
+#Name: Power management
+#Descr: xfce4-power-manager
+#Screenshot: xfce4-power-manager
+
+xfce4-power-manager
+xfce4-battery-plugin
+powertop
+hdparm
+sdparm
+usbutils
+acpi
+acpi-support
+acpi-support-base
+laptop-mode-tools
+apmd
+fancontrol
+rfkill
+cpufrequtils
+hibernate
+pm-utils
+
+# Command line
+radeontool
+bumblebee
+primus
+vbetool
+
+#Alt: toshset
+#Alt: eeepc-acpi-scripts
+#Alt: powerdebug
+#Alt: tlp
+#Alt: powerstat
+
+#Cat: System
