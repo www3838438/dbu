@@ -1,0 +1,39 @@
+#Name: System monitoring
+#Descr: xfce4-taskmanager
+#Screenshot: xfce4-taskmanager
+
+xfce4-taskmanager
+
+#Command line
+htop
+iotop
+lm-sensors
+hddtemp
+inxi
+lsof
+strace
+memtest86+
+
+#Alt: gnome-system-monitor
+#Alt: glances
+#Alt: cpulimit
+#Alt: screentest
+#Alt: hardinfo
+#Alt: sysinfo
+#Alt: cputool
+#Alt: usbview
+#Alt: stress
+#Alt: stressapptest
+#Alt: cpuburn
+#Alt: tiobench
+#Alt: lshw
+#Alt: bonnie++
+#Alt: x86info
+#Alt: memtester
+#Alt: dstat
+#Alt: sysstat
+#Alt: cacti
+
+#Cat: System
+#Cat: Utility
+#Res: http://www.thegeekstuff.com/2011/09/linux-htop-examples/
