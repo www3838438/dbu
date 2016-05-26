@@ -1,0 +1,18 @@
+#Name: File search utility
+#Descr: gnome-search-tool
+#Screenshot: gnome-search-tool
+
+gnome-search-tool
+mlocate
+
+#Alt: catfish
+#Alt: recoll
+#Alt: tracker
+#Alt: tracker-miner-fs
+#Alt: tracker-gui
+#Alt: tracker-extract
+#Alt: tracker-utils
+#Alt: xfe
+
+#Cat: Utility
+#Res: http://library.gnome.org/users/gnome-search-tool/stable/
