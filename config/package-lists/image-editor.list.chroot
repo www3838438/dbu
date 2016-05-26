@@ -1,0 +1,74 @@
+#Name: Image editor
+#Descr: gimp
+#Descr: create-resources
+#Screenshot: gimp
+
+gimp
+gimp-data-extras
+gimp-gap
+gimp-plugin-registry
+gimp-texturize
+gimp-ufraw
+gimp-gutenprint
+#gimp-help-fr
+gimp-gmic
+gimp-lensfun
+gimp-resynthesizer
+create-resources
+
+
+#Alt: luminance-hdr
+#Alt: krita
+#Alt: pinta
+#Alt: mypaint
+#Alt: hugin
+#Alt: pencil2d
+#Alt: gcolor2
+#Alt: agave
+#Alt: mtpaint
+#Alt: aspic
+#Alt: aseprite
+#Alt: tiled
+#Alt: gthumb
+#Alt: nomacs
+#Alt: games-content-dev
+#Alt: pixelize
+#Alt: toonloop
+#Alt: gpick
+#Alt: gnome-paint
+#Alt: xpaint
+#Alt: openclipart2
+
+#Cat: Graphics
+#Res: https://en.wikipedia.org/wiki/GIMP
+#Res: http://gimpmagazine.org/resources/
+#Res: http://registry.gimp.org/
+#Res: http://libregraphicsmag.com
+#Res: http://libregraphicsworld.org
+#Res: https://www.reddit.com/r/gimp/
+#Res: http://gimpforums.com/ 
+#Res: http://gimpchat.com/
+#Res: http://gimper.net/
+#Res: http://www.gimptalk.com/
+#Res: http://www.gimpology.com/ 
+#Res: http://gimp-tutorials.net/
+#Res: http://gimp.pixtuts.com/
+#Res: http://gimpedtutorials.com/
+#Res: http://www.gimpusers.com/
+#Res: http://www.chethstudios.net/2010/05/100-exceptional-gimp-tutorials-and.html 
+#Res: http://www.noupe.com/how-tos/30-exceptional-gimp-tutorials-and-resources.html 
+#Res: https://steveczajka.posterous.com/essential-gimp-scripts-and-gimp-plugins
+#Res: http://www.techzilo.com/download-free-gimp-plugins/
+#Res: http://scribblesandsnaps.com/linux-tools-for-serious-photographers/
+#Res: http://www.rileybrandt.com/2012/07/31/linux-photo-1/
+#Res: https://sourceforge.net/projects/gmic/
+#Res: https://github.com/ksze/gps-gimp-paint-studio
+#Res: https://grindgod.deviantart.com/art/Brushcollection-Converted-gbr-Version-416017673
+#Res: https://www.youtube.com/user/GIMPtricks
+#Res: https://www.youtube.com/user/malgalin 
+#Res: https://www.youtube.com/user/steveczajka
+#Res: http://www.1point2vue.com/fusionner-jour-nuit-gimp/
+#Res: http://www.commentcamarche.net/faq/10311-decouper-un-objet-de-l-arriere-plan-detourage 
+#Res: http://etude-gimp.fr/index.php
+#Res: http://doc.ubuntu-fr.org/graphisme
+#Res: https://en.wikipedia.org/wiki/Cat:Free_graphics_software
