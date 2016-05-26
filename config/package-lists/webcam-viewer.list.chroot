@@ -1,0 +1,14 @@
+#Name: Webcam viewer
+#Descr: cheese
+#Screenshot: cheese
+
+cheese
+gnome-video-effects
+gnome-video-effects-frei0r
+
+#Alt: guvcview
+#Alt: luvcview
+
+#Cat: Media
+#Res: http://fr.wikipedia.org/wiki/Cheese_(logiciel)
+#Res: http://doc.ubuntu-fr.org/cheese
