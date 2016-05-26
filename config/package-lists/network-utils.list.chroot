@@ -1,0 +1,34 @@
+#Name: Network utilities
+#Description: gnome-nettool
+#Screenshot: gnome-nettool
+
+gnome-nettool
+
+# Command line
+hostname
+bridge-utils
+ethtool
+curl
+wget
+rsync
+
+#Cat: Network
+#Cat: Utility
+#Alt: snetz
+#Alt: ntopng
+#Alt: iftop
+#Alt: iptraf
+#Alt: ntop
+#Alt: nmon
+#Alt: nethogs
+#Alt: speedtest-cli
+#Alt: vnstat
+#Alt: vnstati
+#Alt: httrack
+#Alt: pavuk
+#Alt: aria2
+#Alt: rtorrent
+#Alt: axel
+#Alt: lftp
+#Alt: plowshare
+#Alt: btfs
