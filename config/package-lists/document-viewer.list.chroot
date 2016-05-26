@@ -1,0 +1,17 @@
+#Name: Document viewer
+#Descr: evince
+#Screenshot: evince
+
+evince
+
+#Alt: mupdf
+#Alt: apvlv
+#Alt: epdfview
+#Alt: xpdf
+#Alt: calibre
+#Alt: zathura
+#Alt: fbreader
+#Alt: evince-gtk
+
+#Cat: Office
+#Cat: Utility
