@@ -1,0 +1,61 @@
+#Name: Games
+
+supertuxkart
+hedgewars
+0ad
+minetest
+wesnoth-1.12
+nexuiz
+cube2
+redeclips
+chromium-bsu
+gunroar
+marsshooter
+playonlinux
+gnome-games
+pychess
+gweled
+
+#Alt: games-adventure
+#Alt: games-emulator
+#Alt: games-programming
+#Alt: games-sport
+#Alt: games-arcade
+#Alt: games-finest
+#Alt: games-puzzle
+#Alt: games-strategy
+#Alt: games-board
+#Alt: games-finest-light
+#Alt: games-python2-dev
+#Alt: games-tasks
+#Alt: games-card
+#Alt: games-fps
+#Alt: games-python3-dev
+#Alt: games-tetris
+#Alt: games-c++-dev
+#Alt: games-java-dev
+#Alt: games-racing
+#Alt: games-thumbnails
+#Alt: games-chess
+#Alt: games-minesweeper
+#Alt: games-rogue
+#Alt: games-toys
+#Alt: games-console
+#Alt: games-mud
+#Alt: games-rpg
+#Alt: games-typing
+#Alt: games-content-dev
+#Alt: games-perl-dev
+#Alt: games-shootemup
+#Alt: games-education
+#Alt: games-platform
+#Alt: games-simulation  
+#Alt: steam
+
+#Res: https://www.reddit.com/r/linux_gaming/wiki/index
+#Res: https://wiki.debian.org/Games/
+#Res: http://www.desura.com/
+#Res: https://wiki.debian.org/Games/Suggested
+#Res: https://wiki.debian.org/Games/Links
+#Res: http://www.reddit.com/r/Linux_Gaming
+#Res: http://store.steampowered.com/browse/linux
