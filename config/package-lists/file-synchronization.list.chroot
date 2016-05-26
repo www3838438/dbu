@@ -1,0 +1,22 @@
+#Name: File synchronization
+#Descr: owncloud-client
+#Screenshot: owncloud-client
+
+owncloud-client
+
+#Alt: git-annex
+#Alt: nautilus-dropbox
+#Alt: syncthing
+#Alt: unison-gtk
+#Alt: sparkleshare
+#Alt: seafile
+#Alt: grsync
+#Alt: filezilla
+#Alt: gftp
+#Alt: grive
+#Alt: syncany
+
+
+#Cat: Network
+#Res: https://fr.wikipedia.org/wiki/OwnCloud
+#Res: http://doc.ubuntu-fr.org/owncloud
