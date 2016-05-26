@@ -1,0 +1,38 @@
+#Name: Disk utilities
+#Description: gnome-disk-utility
+#Screenshot: gnome-disk-utility
+#Description: gparted
+#Description: gparted
+#Descr: baobab
+#Screenshot: baobab
+
+gnome-disk-utility
+gparted
+dosfstools
+hfsprogs
+mtools
+smartmontools
+ntfs-3g
+baobab
+cryptsetup
+
+# Command line
+parted
+dfc
+ncdu
+
+
+#Alt: gdmap
+#Alt: cfdisk
+#Alt: pmount
+#Alt: cryptkeeper
+#Alt: ecryptfs-utils
+#Alt: zulucrypt
+
+#Cat: System
+#Cat: Utility
+#Res: http://doc.ubuntu-fr.org/gnome-disk-utility
+#Res: http://library.gnome.org/users/palimpsest/stable/
+#Res: http://en.wikipedia.org/wiki/Palimpsest_Disk_Utility
+#Res: http://doc.ubuntu-fr.org/baobab
+#Res: http://www.marzocca.net/linux/baobab/
