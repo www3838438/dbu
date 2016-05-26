@@ -1,0 +1,10 @@
+#Name: Avahi/Zeroconf/Bonjour
+avahi-daemon
+libnss-mdns
+avahi-autoipd
+avahi-dnsconfd
+
+#Replace: ZeroConf est une collection d'outils et de protocoles servant à l'autoconfiguration des réseaux. La conception décentralisée de ZeroConf est plus appropriée dans certaines situations, comme pour les réseaux _ad hoc_. Zeroconf permet la résolution de noms, le MDNS, la publication de services sur le réseau et l'allocation automatique d'adresses.
+
+#Alt: avahi-discover
+#Alt: avahi-ui-utils
