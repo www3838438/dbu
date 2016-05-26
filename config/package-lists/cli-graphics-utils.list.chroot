@@ -1,0 +1,23 @@
+#Name: Graphics utilities
+#Descr: imagemagick
+
+imagemagick
+libmagickcore-6.q16-2-extra 
+exifprobe
+findimagedupes
+optipng
+jpegoptim
+librsvg2-bin
+cmatrix
+figlet
+toilet
+
+#Alt: phatch
+#Alt: converseen
+#Alt: caca-utils
+#Alt: fbi
+#Alt: gifsicle
+
+#Cat: Graphics
+#Res: http://xahlee.info/img/imagemagic.html
+#Res: http://www.fmwconcepts.com/imagemagick/
