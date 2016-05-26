@@ -1,0 +1,25 @@
+#Name: Command line shell utilities
+
+less
+source-highlight
+sed
+sl
+dos2unix
+util-linux
+bash-completion
+beep
+moreutils
+autojump
+tty-clock
+manpages-fr
+
+#Alt: detox
+#Alt: tmux
+#Alt: command-not-found
+#Alt: ttyrec
+#Alt: multitail
+#Alt: cowsay
+#Alt: fortune
+#Alt: ack-grep
+
+#Cat: Utility
