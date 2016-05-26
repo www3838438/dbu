@@ -1,0 +1,12 @@
+#Name: Alarm clock
+#Descr: alarm-clock-applet
+#Screenshot: alarm-clock-applet
+
+alarm-clock-applet
+
+#Alt: alarm-clock
+#Alt: xfce4-timer-plugin
+#Alt: gtimer
+
+#Cat: Office
+#Cat: Utility
