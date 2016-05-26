@@ -1,0 +1,14 @@
+#Name: CD/DVD burning
+#Descr: xfburn
+#Screenshot: xfburn
+
+xfburn
+
+#Res: https://fr.wikipedia.org/wiki/Xfburn
+#Res: https://wiki.archlinux.org/index.php/CD_Burning
+
+#Cat: Media
+#Cat: Utility
+#Alt: brasero
+#Alt: brasero-cdrkit
+#Alt: cdrdao
