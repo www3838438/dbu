@@ -1,0 +1,139 @@
+#Name: Desktop Environment
+#Descr: xfce4
+#Screenshot: xfce4
+
+xfdesktop4
+xfwm4
+xfce4-panel
+xfce4-session
+xfce4-notifyd
+
+# Display
+mesa-utils
+libgl1-mesa-dri
+libtxc-dxtn-s2tc0
+va-driver-all
+xinput
+xorg
+xinit
+xfonts-base
+xfonts-scalable
+xfonts-75dpi
+xfonts-100dpi
+xserver-xorg
+xserver-xorg-input-all
+xserver-xorg-input-wacom
+xserver-xorg-input-acecad
+xserver-xorg-input-aiptek
+xserver-xorg-input-elographics
+xserver-xorg-input-joystick
+xserver-xorg-input-kbd
+xserver-xorg-input-mouse
+xserver-xorg-input-mutouch
+xserver-xorg-input-multitouch
+xserver-xorg-input-synaptics
+xserver-xorg-video-all
+xfonts-base
+hwdata
+
+# Display manager
+lightdm
+lightdm-gtk-greeter
+
+# Screen locker
+light-locker
+
+# Resources
+desktop-base
+faenza-icon-theme
+gnome-audio
+clearlooks-phenix-theme
+gnome-themes-standard
+tango-icon-theme
+
+# Utilities
+gmrun
+libnotify-bin
+zenity
+numlockx
+conky
+x11-apps
+xbitmaps
+
+# Command line utils
+wmctrl
+xclip
+xcalib
+xbacklight
+
+# Misc
+gtk2-engines
+gtk2-engines-murrine
+gtk2-engines-pixbuf
+#gtk3-engines-unico
+gtk2-engines-xfce
+xdg-user-dirs-gtk
+libfile-mimeinfo-perl
+policykit-1-gnome
+python-appindicator
+dconf-gsettings-backend
+
+#Splash screen
+#plymouth
+#plymouth-x11
+#plymouth-drm
+
+#Alt: openbox
+#Alt: obconf
+#Alt: tint2
+#Alt: clipit
+#Alt: xfce4-clipman
+#Alt: diodon
+#Alt: glipper
+#Alt: x-tile
+#Alt: notify-osd
+#Alt: gxkb
+#Alt: nitrogen
+#Alt: compton
+#Alt: compton-conf
+#Alt: brightside
+#Alt: winwrangler
+#Alt: dvtm
+#Alt: slim
+#Alt: gdm3
+#Alt: xscreensaver
+#Alt: xscreensaver-gl-extra
+#Alt: xscreensaver-data-extra
+#Alt: xscreensaver-gl
+#Alt: tint2
+#Alt: gsimplecal
+#Alt: lxpanel
+#Alt: fbxkb
+#Alt: wbar
+#Alt: fvwm
+#Alt: gnome-mag
+#Alt: gexec
+#Alt: unclutter
+#Alt: indicator-workspaces
+#Alt: screenlets
+#Alt: dunst
+#Alt: xdotool
+
+
+#Cat: System
+#Cat: Utility
+#Res: http://docs.xfce.org/
+#Res: http://xfce.org/about/tour
+#Res: https://en.wikipedia.org/wiki/Xfce
+#Res: https://wiki.archlinux.org/index.php/XFCE
+#Res: https://wiki.archlinux.org/index.php/Thunar
+#Res: https://wiki.archlinux.org/index.php/Xfwm
+#Res: https://wiki.archlinux.org/index.php/Desktop_environment
+#Res: https://wiki.archlinux.org/index.php/Window_Manager
+#Res: https://en.wikipedia.org/wiki/Comparison_of_X_window_managers
+#Res: https://wiki.archlinux.org/index.php/Cursor_themes
+#Res: http://doc.ubuntu-fr.org/gnome-system-tools
+#Res: http://en.wikipedia.org/wiki/GNOME_System_Tools
+#Res: http://projects.gnome.org/gst/
+#Res: https://wiki.archlinux.org/index.php/Xorg
+#Res: http://doc.ubuntu-fr.org/conky
