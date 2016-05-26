@@ -1,0 +1,110 @@
+#Name: Development tools
+
+# Version control systems
+gitg
+git
+git-svn
+hg-fast-export
+mercurial
+subversion
+tig
+github-backup
+gource
+myrepos
+shellcheck
+
+# Viz/Editors/Tools
+colordiff
+colortail
+meld
+retext
+pv
+wxhexeditor
+cloc
+asciinema
+nss-passwords
+tdfsb
+dwdiff
+randtype
+mat
+gcolor2
+ansible
+python-selinux
+dialog
+whiptail
+inotify-tools
+#faker
+
+# Parsers/converters
+pandoc
+jq
+xmlstarlet
+aha
+
+# Packaging
+debhelper
+autoconf
+devscripts
+equivs
+build-essential
+checkinstall
+fakeroot
+#dgit
+debconf-utils
+lintian
+git-buildpackage
+
+# Python dev
+python-virtualenv
+virtualenv
+python-all-dev
+python-demjson
+#python-praw
+python-stdeb
+#pypi2deb
+
+# Live system
+live-build
+live-config-doc
+live-manual-pdf
+live-manual-html
+debootstrap
+
+# Debian-cd
+#debian-cd
+#libfile-fcntllock-perl
+#libalgorithm-merge-perl
+
+
+# Ruby/Node/Webdev/other
+rubygems
+ruby-dev
+npm
+nodejs
+csstidy
+sqlite3
+sqlitebrowser
+#adb
+#android-sdk-platform-tools-common
+#fastboot
+#android-tools-fastboot
+#gplaycli
+#python-ndg-httpsclient
+webcheck
+#php5-cli
+
+#Alt: txt2tags
+#Alt: geany
+#Alt: geany-plugins
+#Alt: fossil
+#Alt: aptly
+#Alt: vagrant
+#Alt: hexcurse
+#Alt: dhex
+#Alt: diffuse
+#Alt: icdiff
+#Alt: qgit
+#Alt: lolcat
+#Alt: mkdocs
+#Alt: thunar-vcs-plugin
+#Alt: reglookup
