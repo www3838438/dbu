@@ -1,0 +1,19 @@
+#Name: RSS/Atom Feed Reader
+#Descr: liferea
+#Screenshot: liferea
+
+liferea
+gir1.2-gnomekeyring-1.0
+dconf-gsettings-backend
+
+#Alt: yarssr
+#Alt: newsbeuter
+#Alt: olive
+#Alt: specto
+#Alt: quiterss
+
+#Cat: Network
+#Res: http://www.commentcamarche.net/faq/3339-agregateurs-rss-lecteurs-de-fils-rss
+#Res: http://liferea.sourceforge.net/
+#Res: http://doc.ubuntu-fr.org/liferea
+#Res: http://fr.wikipedia.org/wiki/Liferea
