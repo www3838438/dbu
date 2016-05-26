@@ -1,0 +1,10 @@
+#Name: Firewall management
+#Descr: gufw
+#Screenshot: gufw 
+
+ufw
+gufw
+iptables
+
+#Cat: System
+#Cat: Network
