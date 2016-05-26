@@ -1,0 +1,27 @@
+#Name: Map viewer
+#Descr: marble-qt
+#Screenshot: marble-qt
+
+marble-qt
+marble-plugins
+
+#Alt: qlandkarte
+#Alt: gnome-maps
+#Alt: openstreetmap-client
+#Alt: emerillon
+#Alt: merkaator
+#Alt: josm
+#Alt: navit
+#Alt: gpsd
+#Alt: gosmore
+#Alt: monav
+#Alt: routino
+#Alt: gpsdrive
+#Alt: mkgmapgui
+#Alt: mkgmap
+
+#Category: Office
+#Category: Utility
+#Res: http://marble.kde.org/
+#Res: http://code.google.com/p/gmapcatcher/
+#Res: https://fr.wikipedia.org/wiki/Marble
