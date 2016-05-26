@@ -1,0 +1,71 @@
+#Name: LibreOffice office suite
+#Descr: libreoffice-writer
+#Screenshot: libreoffice-writer
+#Descr: libreoffice-calc
+#Screenshot: libreoffice-calc
+#Descr: libreoffice-draw
+#Screenshot: libreoffice-draw
+#Descr: libreoffice-impress
+#Screenshot: libreoffice-impress
+
+
+libreoffice-writer
+libreoffice-impress
+libreoffice-draw
+libreoffice-calc
+libreoffice-base
+libreoffice-gtk
+libreoffice-gtk3
+libreoffice-l10n-fr
+libreoffice-style-tango
+hyphen-fr
+libreoffice-pdfimport
+libreoffice-help-fr
+hunspell
+hunspell-fr
+hunspell-en-us
+libreoffice-java-common
+libreoffice-gnome
+libreoffice-avmedia-backend-gstreamer
+libreoffice-avmedia-backend-vlc
+libwmf-bin 
+#python3-uno
+
+#Alt: libreoffice-math
+#Alt: gnumeric
+#Alt: abiword
+#Alt: scribus
+#Alt: lyx
+#Alt: key2odp
+#Alt: ebook2odt
+#Alt: libreoffice-dmaths
+#Alt: calligrawords
+#Alt: calligraflow
+#Alt: calligrasheets
+#Alt: calligrastage
+#Alt: calligraplan
+#Alt: braindump
+#Alt: kthesaurus
+#Alt: krita
+#Alt: karbon
+#Alt: tpp
+#Alt: sozi
+#Alt: dia
+#Alt: asciio
+#Alt: drgeo
+#Alt: impressive
+#Alt: libreoffice-style-sifr
+#Alt: plume-creator
+
+#Cat: Office
+#Cat: Graphics
+#Res: http://doc.ubuntu-fr.org/openoffice.org
+#Res: https://fr.wikipedia.org/wiki/Libreoffice
+#Res: http://extensions.libreoffice.org/extension-center
+#Res: http://templates.libreoffice.org/template-center
+#Res: https://www.languagetool.org/
+#Res: https://extensions.libreoffice.org/extension-center/export-as-images
+#Res: https://extensions.libreoffice.org/extension-center/multisave
+#Res: https://extensions.libreoffice.org/extension-center/calendar-for-calc
+#Res: https://extensions.libreoffice.org/extension-center/barcode
+#Res: https://extensions.libreoffice.org/extension-center/webdav-integration
