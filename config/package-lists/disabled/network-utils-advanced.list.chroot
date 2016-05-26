@@ -1,0 +1,85 @@
+#Name: Advanced network/security tools
+aircrack-ng
+kismet
+kismet-plugins
+reaver
+wifite
+pyrit
+python-scapy
+nikto
+nmap
+zmap
+hydra
+#hashcat
+#hashcat-data
+prads
+wireshark
+mitmproxy
+sslsniff
+sslstrip
+dsniff
+thc-ipv6
+pcredz
+dnsutils
+dnsmasq
+dnscrypt-proxy
+tcpdump
+socat
+httpry
+arp-scan
+arping
+whatweb
+trickle
+skipfish
+siege
+tsung
+themole
+sshuttle
+sslh
+bwm-ng
+mtr
+ipcalc
+sqlmap
+netmask
+geoip-bin
+hostapd
+btscanner
+drfitnet
+w3af
+tor
+torsocks
+tor-geoipdb
+vidalia
+logstalgia
+sshfs
+pssh
+subnetcalc
+geoip-database
+geoip-database-extra
+geoip-database-contrib
+geoip-bin
+logstalgia
+tails-installer
+ooniprobe
+putty-tools
+
+#Alt: ndiff
+#Alt: speedometer
+#Alt: slurm
+#Alt: zenmap
+#Alt: hydra-gtk
+#Alt: macchanger-gtk
+#Alt: netperf
+#Alt: iperf
+#Alt: udhcpd
+#Alt: privoxy
+#Alt: torbrowser-launcher
+#Alt: gurlchecker
+#Alt: gstm
+#Alt: usbip
+#Alt: ophcrack
+#Alt: masscan
+#Alt: tcpstat
+#Alt: ifstat
+
+#Res: http://xmodulo.com/useful-command-line-network-monitors-linux.html
