@@ -1,0 +1,12 @@
+#Name: ATI Graphics Drivers
+#Replace: Il s'agit des drivers propriétaires développés pour les cartes graphiques ATI/AMD. Ils peuvent s'avérer nécessaires si l'on rencontre des problèmes d'affichage ou de performance avec les pilotes libres radeon (particulièrement sur des jeux ou des applications 3D)
+
+fglrx-atieventsd
+fglrx-driver
+fglrx-glx
+fglrx-glx-ia32
+fglrx-modules-dkms
+fglrx-control
+radeontool
+
+#Alt: rovclock
