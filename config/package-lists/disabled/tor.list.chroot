@@ -1,0 +1,9 @@
+#Name: Tor anonymizing overlay network
+#Descr: tor
+
+tor
+torsocks
+tor-geoipdb
+
+#Alt: privoxy
+#Alt: torbrowser-launcher
