@@ -1,0 +1,39 @@
+#Name: Game console emulators
+
+pcsxr
+higan
+#dolphin-emu
+#pcsx2
+desmume
+mupen64plus
+mupen64plus-input-all
+mupen64plus-audio-all
+mupen64plus-rsp-all
+mupen64plus-video-all
+
+#Alt: yabause-gtk
+#Alt: games-emulator
+#Alt: fceu
+#Alt: gnome-video-arcade
+#Alt: zsnes
+#Alt: mednafen
+#Alt: virtualjaguar
+#Alt: mame
+#Alt: stella
+#Alt: mame
+#Alt: mame-tools
+#Alt: mame-extra
+#Alt: mess
+#Alt: mess-desktop-entries
+#Alt: nestopia
+#Alt: visualboyadvance-gtk
+
+
+#Res: http://www.codeplex.com/pcsxr/
+#Res: http://fr.wikipedia.org/wiki/PCSX
+#Res: https://wiki.debian.org/Emulator
+#Res: https://www.reddit.com/r/linux/comments/vjfmg/emulation_and_linux/
+
+#Cat: Games
+
+
