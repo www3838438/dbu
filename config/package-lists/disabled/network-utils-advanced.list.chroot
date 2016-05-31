@@ -23,6 +23,7 @@ pcredz
 dnsutils
 dnsmasq
 dnscrypt-proxy
+dns-root-data
 tcpdump
 socat
 httpry
