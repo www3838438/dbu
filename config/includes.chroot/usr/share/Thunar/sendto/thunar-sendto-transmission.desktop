@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Transmission (Share)
+Name[fr]=Transmission (Partager)
+Encoding=UTF-8
+Exec=transmission-create-gtk %f
+TryExec=transmission-create-gtk
+Icon=application-x-bittorrent
+Terminal=false
+Type=Application

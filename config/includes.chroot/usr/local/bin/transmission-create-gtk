@@ -1,0 +1,55 @@
+#!/bin/bash
+#Description: gtk/zenity wrapper for torrent creation using transmission-create
+#License: MIT
+
+infile="$1"
+
+if [[ ! -e "$infile" ]]; then
+    echo "ERROR: no input file"; exit 1
+fi
+
+_savetorrent() {
+    zenity \
+    --title "Save torrent file..." \
+    --window-icon="info" \
+    --file-selection --confirm-overwrite --save \
+    --filename="$1.torrent" \
+    --file-filter="*.torrent"
+}
+
+outfile=$(_savetorrent "$infile") 
+outdir=$(dirname "$infile")
+
+
+
+transmission-create \
+	--tracker udp://tracker.openbittorrent.com:80 \
+	--tracker udp://tracker.ccc.de:80 \
+	--tracker udp://tracker.publicbt.com:80 \
+	--tracker udp://tracker.istole.it:80 \
+	--outfile="$outfile" \
+    "$infile" | \
+zenity --auto-close --auto-kill --progress --pulsate --title="Creating torrent..." \
+    --text="Please wait while creating torrent..." 
+
+
+_servertest() {
+    transmission-remote 127.0.0.1:52913 -l
+}
+
+_addtorrent() {
+    transmission-gtk & sleep 3
+    transmission-remote \
+    127.0.0.1:52913 \
+    --add "$outfile" \
+    --download-dir "$outdir"
+}
+
+if $(zenity --question --title "Torrent created" --text "<b>Done!</b>\nWould you like to start seeding\n this torrent now?")
+then
+    _addtorrent & sleep 5
+    if [ ! $(_servertest) ]
+    then zenity --warning --title="Failed adding torrent" --text="<b>Error:</b> transmission-gtk is unreachable!\nPlease check that it is allowed to accept remote connections.\nThe torrent was not added to transmission."
+    fi
+fi
+
