@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Activity Log Manager
+GenericName=Activity Log Manager
+Comment=Configure what gets logged in your Zeitgeist activity log
+Exec=activity-log-manager
+Icon=activity-log-manager
+Categories=GTK;Utility;DesktopSettings;X-XFCE-SettingsDialog;Settings;X-XFCE-PersonalSettings
