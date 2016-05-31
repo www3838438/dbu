@@ -119,8 +119,8 @@ _Package management_ allows you to install, remove or upgrade every component of
 
 #### Maintenance
 
- * **Backups** of your data on an external drive.
- * Upgrade installed software
+ * **Backup** your data periodically to an external storage.
+ * Upgrade installed software.
  * Run `Bleachbit` to clear temporary files and free up disk space.
  * Battery/power: Lower screen brightness! Turn off wifi, bluetooth and other unused hardware. Use hibernation mode (suspend to disk) instead of sleep (suspend to RAM).
  * Performance: Close unused applications, disable unused `Services` and autostart programs in `Session and startup`.
@@ -185,6 +185,15 @@ Can be changed through `Settings > Keyboard` and `Settings > Window manager`
 
 
 
+#### Contributing
+
+ * Write translations
+ * Write documentation
+ * Contribute code
+ * Report bugs, help debugging, provide user support on forums.
+ * Create templates and audio/video resources under Free licenses
+ * Donate to software projects
+
 #### Reporting bugs
 
 When reporting a bug, please include the following information:
@@ -198,16 +207,6 @@ When reporting a bug, please include the following information:
 Each software's homepage has information on how to report bugs
 
 Use the [Debian Bug Tracking System](https://www.debian.org/Bugs/) for bugs in Debian packages.
-
-#### Contributing
-
- * Write translations
- * Write documentation
- * Contribute code
- * Report bugs, help debugging, provide user support on forums.
- * Create templates and audio/video resources under Free licenses
- * Donate to software projects
-
 
 #### Customize/Build your own
 
@@ -225,24 +224,11 @@ DIRECTORIES
 │   ├── package-lists           #packages to install on live system/place in installation media's pool/ directory
 │   ├── packages.chroot         #.deb packages to install on live system
 │   └── task-lists              #tasksel tasks to install on live system
-├── doc
-│   └── res
-├── scripts
-└── Makefile
+├── doc     #user documentation
+├── scripts #scripts used to generate build configuration, documentation...
+└── Makefile #main build automation, dependencies management, etc
 
 
-BUILD
-
-make all            #download/update all dependencies and build the iso image
-make update         #download/update dependencies
-make lbbuild        #build the iso image
-make packageschroot #download/update third party deb packages
-make dotfiles       #download/update third party config files
-make purpleplugins  #download/update third party pidgin plugins
-make themes         #download/update third party gtk/wm themes
-make ffaddons       #download/update firefox addons
-make tbaddons       #download/update thunderbird addons
-make xpi            #correct ff/tb addons naming format
 
 ```
 
