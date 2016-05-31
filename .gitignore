@@ -3,3 +3,9 @@ config/packages.chroot/*.xz
 config/packages.chroot/*.dsc
 config/packages.chroot/*.deb
 config/packages.chroot/*.gz
+config/includes.chroot/etc/skel/.nano
+config/includes.chroot/etc/skel/.conky
+config/includes.chroot/usr/lib/purple-2/*.so
+config/includes.chroot/usr/share/bleachbit/cleaners/*.xml
+config/includes.chroot/usr/share/themes/
+config/includes.chroot/usr/share/fonts/
