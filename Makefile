@@ -1,5 +1,7 @@
-addonsdir="config/includes.chroot/etc/iceweasel/profile/extensions"
-
+addonsdir="config/includes.chroot/etc/iceweasel/profile/extensions/"
+#addonsdir="/usr/share/firefox-esr/distribution/extensions/" #stretch, used for default profile creation
+#addonsdir="/usr/lib/firefox-esr/browser/extensions/" #stretch, system-wide
+tbaddonsdir="config/includes.chroot/etc/icedove/extensions/"
 all: update lbbuild
 
 update: ffaddons tbaddons xpi packageschroot purpleplugins themes dotfiles
@@ -22,8 +24,8 @@ ffaddons:
 	wget --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/457553/addon-457553-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
 	wget --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
-	#https://www.eff.org/https-everywhere
-	wget --directory-prefix=$(addonsdir) https://www.eff.org/files/https-everywhere-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/
+	wget --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
 	#https://addons.mozilla.org/en-us/firefox/addon/ssleuth/
 	wget --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/479492/addon-479492-latest.xpi
 	#https://addons.mozilla.org/fr/firefox/addon/greasemonkey/ 
@@ -48,29 +50,39 @@ ffaddons:
 
 #rename xpis from their id
 xpi:
+    mv $(addonsdir)/addon-3682-latest.xpi $(addonsdir)/add-to-searchbox@maltekraus.de #workaround, script doesn't work on this addon
 	@for xpi in $$(find $(addonsdir) -name '*.xpi'); do \
 	extid=$$(./scripts/get-xul-extension-id.sh "$$xpi"); echo "$$xpi - $$extid"; \
 	mv "$$xpi" $(addonsdir)"$$extid".xpi ; \
 	done
+    mv $(addonsdir)/add-to-searchbox@maltekraus.de $(addonsdir)/add-to-searchbox@maltekraus.de.xpi #workaround, 2nd part
 
 #update thunderbird addons TODO
 tbaddons:
+	#https://addons.mozilla.org/en-US/thunderbird/addon/gmail-conversation-view/
+	wget --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/54035/addon-54035-latest.xpi
 	#https://addons.mozilla.org/fr/thunderbird/addon/importexporttools/
-	#https://addons.mozilla.org/fr/thunderbird/addon/todotxt-extension/
+	wget --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/file/348080/addon-348080-latest.xpi
+	#https://addons.mozilla.org/en-US/thunderbird/addon/lightning/
+	wget --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/2313/platform:2/addon-2313-latest.xpi
+	#https://addons.mozilla.org/en-US/thunderbird/addon/quote-colors/
+	wget --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/170/addon-170-latest.xpi
+	#https://addons.mozilla.org/en-US/thunderbird/addon/enigmail/
+	wget --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/71/addon-71-latest.xpi
 	#http://sogo.nu/download.html#/frontends
-	#https://addons.mozilla.org/fr/thunderbird/addon/gmail-conversation-view/?src=ss
-	#https://addons.mozilla.org/fr/thunderbird/addon/minimizetotray-revived/?src=cb-dl-users
-	#https://addons.mozilla.org/fr/thunderbird/addon/categorymanager/?src=search
-	#https://addons.mozilla.org/fr/thunderbird/addon/send-later-3/
-	#https://addons.mozilla.org/fr/thunderbird/addon/additional-chat-protocols/
-	#https://addons.mozilla.org/en-US/thunderbird/addon/automatic-export/
-	#https://addons.mozilla.org/thunderbird/downloads/file/348080/importexporttools-3.2.4.1-sm+tb.xpi
-	#http://www.sogo.nu/files/downloads/SOGo/Thunderbird/sogo-connector-31.0.2.xpi
-	#https://addons.mozilla.org/thunderbird/downloads/latest/54035/addon-54035-latest.xpi
-	#https://addons.mozilla.org/thunderbird/downloads/latest/12581/addon-12581-latest.xpi
-	#https://addons.mozilla.org/thunderbird/downloads/latest/472193/addon-472193-latest.xpi
-	#https://addons.mozilla.org/thunderbird/downloads/file/342656/send_later-4.4.4-sm+tb.xpi
-	#https://addons.mozilla.org/thunderbird/downloads/latest/3740/addon-3740-latest.xpi?
+	wget --directory-prefix=$(tbaddonsdir) http://www.sogo.nu/files/downloads/SOGo/Thunderbird/sogo-connector-31.0.3.xpi
+	#https://addons.mozilla.org/fr/thunderbird/addon/categorymanager/
+	wget --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/472193/addon-472193-latest.xpi
+	#https://addons.mozilla.org/en-US/thunderbird/addon/duplicate-contact-manager/
+	wget --directory-prefix=$(tbaddonsdir)  https://addons.mozilla.org/thunderbird/downloads/latest/2505/addon-2505-latest.xpi
+	#https://addons.mozilla.org/en-US/thunderbird/addon/contact-tabs/
+	wget --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/306600/addon-306600-latest.xpi
+	#https://addons.mozilla.org/en-US/thunderbird/addon/send-later-3/
+	wget --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/file/423919/addon-423919-latest.xpi
+	#https://addons.mozilla.org/fr/thunderbird/addon/todotxt-extension/
+	wget --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/650068/platform:2/addon-650068-latest.xpi
+
+
 
 #download non-debian chroot packages
 packageschroot:
@@ -103,7 +115,7 @@ packageschroot:
 	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r386~daily~ubuntu16.04.1.dsc
 	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r386~daily~ubuntu16.04.1.tar.xz
 	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r386~daily~ubuntu16.04.1_all.deb
-	wget --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/arc-theme_1459454111.c561afa_all.deb
+	#wget --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/arc-theme_1459454111.c561afa_all.deb
 	wget --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/arc-theme-solid_1459454111.c561afa_all.deb
 	wget --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/ceti-2-theme_1442961272.9fe3d9f_all.deb
 	wget --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/vertex-theme_1459280359.d828032_all.deb
@@ -160,6 +172,7 @@ dotfiles:
 
 lbbuild:
 	sudo lb clean --all
+    #sudo lb clean --purge #only necessary when changing the mirrors/architecture config
 	sudo lb config
 	sudo lb build
 
