@@ -1,10 +1,19 @@
 #Name: PackageKit
+#Desc: packagekit
+#Cat: System
+#Screenshot: gnome-software
+
 packagekit
 gnome-packagekit
 packagekit-tools
-
+packagekit
+gnome-packagekit
+gnome-software
+gstreamer1.0-packagekit
+packagekit-command-not-found
+packagekit-gtk3-module
+packagekit-tools
+pk-update-icon
 
 #Alt: gnome-software
 #Alt: aptdaemon
-
-#Cat: System
