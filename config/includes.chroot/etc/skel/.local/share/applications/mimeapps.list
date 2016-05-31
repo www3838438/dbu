@@ -1,5 +1,5 @@
 [Default Applications]
-x-scheme-handler/mailto=gnome-gmail.desktop
+x-scheme-handler/mailto=thunderbird.desktop
 inode/directory=Thunar-folder-handler.desktop;
 image/jpg=ristretto.desktop
 image/jpeg=ristretto.desktop
