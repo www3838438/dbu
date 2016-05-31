@@ -1,6 +1,7 @@
 ## dbu - TODO
 
   ☐ [bug] greasemonkey scripts not detected!
+  ☐ [bug] include mousepad config (path?)
   ☐ [maybe] switch build system?  https://lists.debian.org/debian-live/2015/11/msg00128.html
   ☐ offline installer, live image
   ☐ documentation system (readthedocs?)
@@ -30,6 +31,7 @@
   ☐ [enh] theme numix + numix circle
   ☐ [enh] copy firefox search engines to synapse
   ☐ [enh] [sec] setup SELinux
+  ☐ [enh] [desktop] xcalib "invert screen colors" script is incompatible with redshift (colors reset)
   ☐ [maybe] build with debian-cd
   ☐ [maybe] Better GRUB look and bootsplash: add pylmouth + debian-logo plymouth theme, add wallpaper in grub's dir, add `splash` to `\/etc\/default\/grub` options, and make sure `update-grub` runs during the build.
 
