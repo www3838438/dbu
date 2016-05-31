@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Gthumb (Browse)
+Name[fr]=Gthumb (Parcourir)
+Encoding=UTF-8
+Exec=gthumb %f
+TryExec=gthumb
+Icon=gthumb
+Terminal=false
+Type=Application
+MimeType=inode/directory
