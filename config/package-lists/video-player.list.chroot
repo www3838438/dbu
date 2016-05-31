@@ -1,17 +1,17 @@
-#Name: Video players
-#Descr: vlc
+#Name: Video player
 #Descr: mpv
-#Screenshot: vlc
 #Screenshot: mpv
+#Cat: Multimedia
 
-vlc
-vlc-plugin-notify
-vlc-plugin-vlsub
-vlc-plugin-jack
-vlc-plugin-samba
 libdvdread4
 mpv
+gnome-mpv
 
+#Alt: vlc
+#Alt: vlc-plugin-notify
+#Alt: vlc-plugin-vlsub
+#Alt: vlc-plugin-jack
+#Alt: vlc-plugin-samba
 #Alt: mplayer2
 #Alt: gnome-mplayer
 #Alt: smplayer
@@ -26,4 +26,3 @@ mpv
 #Alt: mpv
 #Alt: subdownloader
 
-#Cat: Multimedia
