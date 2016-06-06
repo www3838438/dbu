@@ -1,7 +1,9 @@
 #Name: Virtual keyboard
+#Cat: Utility
+
 onboard
+onboard-data
 
 #Alt: cellwriter
 #Alt: florence
 
-#Cat: Utility
