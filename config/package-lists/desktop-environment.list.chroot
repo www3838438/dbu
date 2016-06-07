@@ -79,9 +79,9 @@ python-appindicator
 dconf-gsettings-backend
 
 #Splash screen
-#plymouth
-#plymouth-x11
-#plymouth-drm
+plymouth
+plymouth-x11
+plymouth-themes
 
 #Alt: openbox
 #Alt: obconf
