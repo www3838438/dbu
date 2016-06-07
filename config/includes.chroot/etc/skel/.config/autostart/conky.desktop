@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Conky
+Comment=Display information on your desktop
+Comment[fr]=Affiche des informations sur le bureau
+Categories=Application;Utility;System
+Exec=conky-starter start
+Icon=gnome-mime-text-css
+Terminal=false
+StartupNotify=false
+Hidden=True
