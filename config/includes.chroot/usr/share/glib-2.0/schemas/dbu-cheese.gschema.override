@@ -1,0 +1,7 @@
+[org.gnome.Cheese]
+burst-delay=1000
+burst-repeat=5
+countdown=true
+flash=true
+fullscreen=false
+wide-mode=true
