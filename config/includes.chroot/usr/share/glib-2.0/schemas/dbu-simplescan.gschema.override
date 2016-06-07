@@ -1,0 +1,5 @@
+[org.gnome.SimpleScan]
+document-type='photo'
+page-dpi=72
+photo-dpi=300
+text-dpi=150
