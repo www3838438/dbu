@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Flickr</os:ShortName>
+<os:Description>Flickr</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA8klEQVQ4jWNgGAUIkHDVgCH9ZhFD2u1MhrS7cujS/wXLdf+L1Rb9F63N+c9foogqm36riyHr7n84zrzzjSH1Zixcs1h943/Jxv9wLFH/869YXSZENvVmIIpmZENiLyr+F6pyRdGMZMh/wXJdBob02yuwGpB19z9D+q38/+J1c7AaINn4/79YbR0DQ8bt1bgNuFn0X7x+KU4DROtaGBjSbyRj1Zxx5w9DwlWD/yK1UTgNEKy2gYRDxq11mAbcqoYHonjdCkzn13WhxkTKjRCGzDszGTJuT2ZIvW6PEY3C1YH/Jetn/hevn/xfqMqV/PQy/AAAuXrkMa1I5jkAAAAASUVORK5CYII=</os:Image>
+<SearchForm>https://secure.flickr.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="https://secure.flickr.com/search/">
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

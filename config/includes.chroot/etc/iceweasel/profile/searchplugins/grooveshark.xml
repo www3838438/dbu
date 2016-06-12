@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Grooveshark</os:ShortName>
+<os:Description>Grooveshark</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABJElEQVQ4jaWTMWvCUBDHDwr9AF2FTJ2ydu3HKAiCH0DoKg6CoZ2KQ6GQpUMXwaEoASElECgE6gcQoVIpVJwK6VLQJSD8OhzhKUlq0IMb3t3/fty9d09oSwVHRnRkgyOUctWOaEtF6EhYujALigRHkkzi+QomPYjf1Sc9jeV0IjuBuzOYeRTazFPNVo0B3JzA16sKkxX4DXBteLyAsAnrWHOLSLUZwLCmgnUM9xaMu7ttP5wbyLCWA5j7mvQbev4M9DzuGsjLtcbmfg5g9a1J14bbU/hdmtnDpmpc23SZAaTteXW99W3bJDCowtPlP4B0hDKWO0J6iWXMqxc84yLaX7x8K3jGIxYpu8qDKkz78POhPu1rLHeVj/5MLbFwJDgAENAS6w/EGf1IXfoNkAAAAABJRU5ErkJggg==</os:Image>
+<SearchForm>http://html5.grooveshark.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://html5.grooveshark.com/">
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

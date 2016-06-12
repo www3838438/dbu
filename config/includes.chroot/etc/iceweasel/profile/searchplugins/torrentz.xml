@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Torrentz</os:ShortName>
+<os:Description>Torrentz</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQ0lEQVQ4jWNgYGBgME6b+Z8czECJZrghVDGAAQvA6lwsarCJE20AXjBqwGA1AGdyJscFBF2FzwCivITLAKLDg9gwAAA0gPeiz9GUnwAAAABJRU5ErkJggg==</os:Image>
+<SearchForm>https://torrentz.eu/</SearchForm>
+<os:Url type="text/html" method="GET" template="https://torrentz.eu/search">
+  <os:Param name="f" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

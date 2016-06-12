@@ -1,0 +1,16 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Ixquick</os:ShortName>
+<os:Description>Ixquick</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABiklEQVQ4jZ2RsUtCURTGz7/gn+Do0ODc6OgmSJCQLUougohveThZBpecXMRsEIxMjAyhlEeZpAiBvKLQNETSDC3wwQtzcPgarrmoj/DA5Q73fL/vnO8SNEo4eYIymmi1gLQe9WIZ0du31QDy+w/IXYE1Vl8NIOS/QMIjyF3RXGMpwBBqgsQGyFtFtPSxHMAuW2BSF6wwALsbglW+IRRHoGAP5G+CfDIMoSbYZQvsogaWlsGS92CJElL5B5D0/Am9WAZ5q9wx0OHiQGc2AbmKIHsWZD0GmSMgUwhCOAdFHfMVlNEE1lid7yw2uLPYmGVATglkOwNZ4tBZj5AqvCzOgF33uKNP5re7Atq5AW1nQRtJGD3naPdV7RCZ1OUju4rc2c7FZIn/7xeM/um+9iwfeyomcwSpYkMb0O6rPKjp2TqQoLMlZsE5gxltAEvLvNkcAUvLM6jREQet70Jn2tMGGB1x6DcPIb8O5hqFcA605kHqqroY0O4N4QxmoKjjOfFfSeUahP3T5ROsUr/tPVtLvBGVHwAAAABJRU5ErkJggg==</os:Image>
+<SearchForm>https://www.ixquick.com/</SearchForm>
+<os:Url type="text/html" method="POST" template="https://www.ixquick.com/do/search">
+  <os:Param name="cat" value="web"/>
+  <os:Param name="cmd" value="process_search"/>
+  <os:Param name="language" value="english"/>
+  <os:Param name="engine0" value="v1all"/>
+  <os:Param name="query" value="{searchTerms}"/>
+  <os:Param name="abp" value="1"/>
+  <os:Param name="src" value=""/>
+</os:Url>
+</SearchPlugin>
