@@ -9,3 +9,5 @@ config/includes.chroot/usr/lib/purple-2/*.so
 config/includes.chroot/usr/share/bleachbit/cleaners/*.xml
 config/includes.chroot/usr/share/themes/
 config/includes.chroot/usr/share/fonts/
+config/includes.chroot/etc/icedove/extensions/*.xpi
+config/includes.chroot/etc/iceweasel/profile/extensions/*.xpi
