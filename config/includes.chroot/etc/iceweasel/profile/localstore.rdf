@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="chrome://browser/content/preferences/preferences.xul">
+    <NC:persist RDF:resource="chrome://browser/content/preferences/preferences.xul#BrowserPreferences"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-box"
+                   sidebarcommand=""
+                   width=""
+                   src="" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#PersonalToolbar"
+                   collapsed="false"
+                   currentset="personal-bookmarks,ScrapBookStatusPanel,widget:jid0-9XfBwUWnvPx4wWsfBWMCm4Jj69E@jetpack-self-destructing-cookies,requestpolicyToolbarButton,greasemonkey-tbb,abp-toolbarbutton" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#nav-bar"
+                   currentset="urlbar-container,search-container,webrtc-status-button,bookmarks-menu-button,feed-button,downloads-button,social-share-button,readable-toolbarbutton" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#TabsToolbar"
+                   currentset="tabbrowser-tabs,new-tab-button,alltabs-button,tabview-button" />
+
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#toolbar-menubar"
+                   currentset="menubar-items" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#navigator-toolbox"
+                   iconsize="small" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#addon-bar"
+                   currentset="addonbar-closebutton,status-bar" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul">
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#navigator-toolbox"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#main-window"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-box"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-title"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#nav-bar"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#PersonalToolbar"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#toolbar-menubar"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#TabsToolbar"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#addon-bar"/>
+  </RDF:Description>
+</RDF:RDF>
