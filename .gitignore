@@ -11,3 +11,4 @@ config/includes.chroot/usr/share/themes/
 config/includes.chroot/usr/share/fonts/
 config/includes.chroot/etc/icedove/extensions/*.xpi
 config/includes.chroot/etc/iceweasel/profile/extensions/*.xpi
+config/includes.chroot/etc/iceweasel/pref
