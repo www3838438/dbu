@@ -33,6 +33,7 @@ python-selinux
 dialog
 whiptail
 inotify-tools
+#incron
 #faker
 
 # Parsers/converters
@@ -92,6 +93,11 @@ sqlitebrowser
 #python-ndg-httpsclient
 webcheck
 #php5-cli
+
+# Security/sandboxing
+#firejail #stretch only
+#xpra
+#xephyr
 
 #Alt: txt2tags
 #Alt: geany

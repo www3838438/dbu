@@ -108,6 +108,8 @@ plymouth-themes
 #Alt: tint2
 #Alt: gsimplecal
 #Alt: lxpanel
+#Alt: plank
+#Alt: docky
 #Alt: fbxkb
 #Alt: wbar
 #Alt: fvwm
@@ -120,7 +122,6 @@ plymouth-themes
 #Alt: xdotool
 
 
-#Cat: System
 #Cat: Utility
 #Res: http://docs.xfce.org/
 #Res: http://xfce.org/about/tour

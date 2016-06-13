@@ -20,7 +20,6 @@ module-assistant
 irqbalance
 
 # Command line
-#firejail #stretch only
 sudo
 
 #Cat: System

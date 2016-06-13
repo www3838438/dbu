@@ -1,6 +1,9 @@
 #Name: Adobe Flash Player
 flashplugin-nonfree
 
+#browser-plugin-freshplayer-pepperflash #stretch only
+#pepperflashplugin-nonfree #stretch only
+
 #Replace: Adobe Flash Player est un logiciel permettant de lire des animations vectorielles interactives (.swf) et des vidéos au format Flash (.flv) développé par Adobe Systems. Il est communément rencontré sous forme de greffon pour navigateur web, lisant le contenu multimédia de nombreux sites (vidéos, jeux…). 
 
 #Note: Flash Player is proprietary software. It suffers many performance (CPU and RAM usage) and **security bugs**. Flash content is being slowly rolled out of the modern web, and many major websites already distribute their audio/video content without a requirement on Flash Player.

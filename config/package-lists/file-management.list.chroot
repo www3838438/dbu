@@ -10,6 +10,7 @@ ooo-thumbnailer
 gvfs-bin
 gvfs-fuse
 gvfs-backends
+usbmuxd
 libgphoto2-l10n
 libmtp-runtime
 thunar-volman

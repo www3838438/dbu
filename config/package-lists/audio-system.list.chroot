@@ -20,7 +20,7 @@ pulseaudio-module-lirc
 pulseaudio-module-zeroconf
 pulseaudio-module-jack
 pavucontrol
-#xfce4-pulseaudio-plugin
+#xfce4-pulseaudio-plugin #stretch only
 xfce4-mixer
 rtkit
 
@@ -30,6 +30,6 @@ rtkit
 #Alt: pnmixer
 
 #Cat: System
-#Cat: Media
+#Cat: Multimedia
 #Res: https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
 #Res: https://fr.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
