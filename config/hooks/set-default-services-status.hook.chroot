@@ -1,0 +1,21 @@
+#!/bin/bash
+systemctl laptop-mode.service enable
+systemctl cups.service enable
+systemctl cups-browsed.service enable
+systemctl avahi-daemon.service enable
+systemctl avahi-dnsconfd.service enable
+systemctl samba.service enable
+systemctl nmbd.service disable
+systemctl bumblebeed.service enable
+systemctl ssh.service disable
+systemctl openvpn.service disable
+systemctl saned.service disable
+systemctl bluetooth.service enable
+systemctl fancontrol.service disable
+systemctl rsync.service disable
+systemctl tor.service disable
+systemctl exim4.service disable
+systemctl iodined.service disable
+systemctl nfs-common.service disable
+systemctl rpcbind.service disable
+systemctl samba-ad-dc.service disable
