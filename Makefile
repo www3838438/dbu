@@ -50,12 +50,12 @@ ffaddons:
 
 #rename xpis from their id
 xpi:
-    mv $(addonsdir)/addon-3682-latest.xpi $(addonsdir)/add-to-searchbox@maltekraus.de #workaround, script doesn't work on this addon
+	mv $(addonsdir)/addon-3682-latest.xpi $(addonsdir)/add-to-searchbox@maltekraus.de #workaround, script doesn't work on this addon
 	@for xpi in $$(find $(addonsdir) -name '*.xpi'); do \
 	extid=$$(./scripts/get-xul-extension-id.sh "$$xpi"); echo "$$xpi - $$extid"; \
 	mv "$$xpi" $(addonsdir)"$$extid".xpi ; \
 	done
-    mv $(addonsdir)/add-to-searchbox@maltekraus.de $(addonsdir)/add-to-searchbox@maltekraus.de.xpi #workaround, 2nd part
+	mv $(addonsdir)/add-to-searchbox@maltekraus.de $(addonsdir)/add-to-searchbox@maltekraus.de.xpi #workaround, 2nd part
 
 #update thunderbird addons TODO
 tbaddons:
@@ -172,7 +172,7 @@ dotfiles:
 
 lbbuild:
 	sudo lb clean --all
-    #sudo lb clean --purge #only necessary when changing the mirrors/architecture config
+	#sudo lb clean --purge #only necessary when changing the mirrors/architecture config
 	sudo lb config
 	sudo lb build
 
