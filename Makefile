@@ -157,7 +157,7 @@ themes:
 
 # download misc configuration files
 dotfiles:
-	-rm -rf config/includes.chroot/etc/skel/.nano config/includes.chroot/etc/skel/.conky config/includes.chroot/etc/iceweasel/pref config/usr/share/fonts/
+	-rm -rf config/includes.chroot/etc/skel/.nano config/includes.chroot/etc/skel/.conky config/includes.chroot/etc/iceweasel/pref config/includes.chroot/usr/share/fonts/
 	-mkdir -pv config/includes.chroot/etc/skel/ config/includes.chroot/etc/iceweasel/
 	git clone https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
 	git clone --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky
