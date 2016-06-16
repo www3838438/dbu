@@ -1,17 +1,17 @@
 #Name: Video player
-#Descr: mpv
-#Screenshot: mpv
+#Descr: vlc
+#Screenshot: vlc
 #Cat: Multimedia
 
 libdvdread4
 mpv
-gnome-mpv
+vlc
+vlc-plugin-notify
+vlc-plugin-vlsub
+vlc-plugin-jack
+vlc-plugin-samba
+#gnome-mpv stretch only
 
-#Alt: vlc
-#Alt: vlc-plugin-notify
-#Alt: vlc-plugin-vlsub
-#Alt: vlc-plugin-jack
-#Alt: vlc-plugin-samba
 #Alt: mplayer2
 #Alt: gnome-mplayer
 #Alt: smplayer

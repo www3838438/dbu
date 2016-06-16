@@ -15,12 +15,11 @@ smartmontools
 ntfs-3g
 baobab
 cryptsetup
-fdisk
 gdisk
 
 # Command line
 parted
-dfc
+dfc #stretch only
 ncdu
 
 

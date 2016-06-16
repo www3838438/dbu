@@ -45,7 +45,7 @@ fonts-roboto
 fonts-averia-gwf
 ttf-mscorefonts-installer
 fonts-freefont-ttf
-fonts-hack-ttf
+fonts-hack-ttf #stretch only
 
 #Cat: Graphics
 #Res: http://screenshots.debian.net/packages/with_screenshots?search=fonts
