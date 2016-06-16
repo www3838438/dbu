@@ -14,6 +14,7 @@ lzip
 unace
 unalz
 unrar-free
+rar
 unzip
 zip
 
@@ -23,7 +24,6 @@ atool
 
 #Alt: squeeze
 #Alt: xarchiver
-#Alt: rar
 #Alt: p7zip-rar
 
 #Cat: Utility
