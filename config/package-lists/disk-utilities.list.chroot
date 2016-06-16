@@ -19,7 +19,7 @@ gdisk
 
 # Command line
 parted
-dfc #stretch only
+#dfc #stretch only
 ncdu
 
 
