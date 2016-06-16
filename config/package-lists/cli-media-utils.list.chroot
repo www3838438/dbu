@@ -1,7 +1,8 @@
 #Name: Multimedia utilities
 
 sox
-ffmpeg
+#ffmpeg #stretch only
+libav-tools #jessie only
 mediainfo
 media-player-info
 moc

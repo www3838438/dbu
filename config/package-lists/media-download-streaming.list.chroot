@@ -5,6 +5,8 @@
 
 youtube-dl
 livestreamer
+libav-tools #jessie only
+#ffmpeg #stretch only
 
 #Alt: get-flash-videos
 #Alt: mps-youtube
