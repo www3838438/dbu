@@ -2,7 +2,8 @@
 
 sox
 #ffmpeg #stretch only
-libav-tools #jessie only
+#libav-tools jessie only
+libav-tools
 mediainfo
 media-player-info
 moc

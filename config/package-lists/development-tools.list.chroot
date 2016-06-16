@@ -86,6 +86,7 @@ csstidy
 sqlite3
 sqlitebrowser
 #adb
+#android-sdk
 #android-sdk-platform-tools-common
 #fastboot
 #android-tools-fastboot
