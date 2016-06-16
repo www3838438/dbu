@@ -2,7 +2,8 @@
 #Descr: backintime-qt4
 #Screenshot: backintime-qt4
 
-backintime-qt4
+backintime-gnome
+#backintime-qt4 stretch only
 
 #Alt: duplicity
 #Alt: obnam
