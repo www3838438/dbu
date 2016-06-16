@@ -162,7 +162,7 @@ dotfiles:
 	git clone https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
 	git clone --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky
 	git clone -b dbu https://github.com/nodiscc/user.js config/includes.chroot/etc/iceweasel/pref
-	git clone https://github.com/nodiscc/fonts config/usr/share/fonts/
+	git clone https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
 	
 	git clone https://github.com/az0/cleanerml/ tmp-cleanerml
 	-rm -rf config/includes.chroot/usr/share/bleachbit/
