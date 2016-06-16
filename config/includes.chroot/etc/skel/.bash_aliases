@@ -112,3 +112,9 @@ export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
 #	export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 #	export LESS=' -R '
 #fi
+
+#git prompt configuration
+GIT_PS1_SHOWDIRTYSTATE=1
+GIT_PS1_SHOWSTASHSTATE=1
+GIT_PS1_SHOWUNTRACKEDFILES=1
+GIT_PS1_SHOWUPSTREAM="auto"
