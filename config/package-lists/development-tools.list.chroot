@@ -92,8 +92,9 @@ sqlitebrowser
 #android-tools-fastboot
 #gplaycli
 #python-ndg-httpsclient
+#poedit
 webcheck
-#php5-cli
+php5-cli
 
 # Security/sandboxing
 #firejail #stretch only
@@ -116,3 +117,6 @@ webcheck
 #Alt: thunar-vcs-plugin
 #Alt: reglookup
 #Alt: roffit
+#Alt: ghex
+#Alt: bless
+#Alt: since
