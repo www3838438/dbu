@@ -18,6 +18,7 @@ linux-headers-amd64
 build-essential
 module-assistant
 irqbalance
+console-setup
 
 # Command line
 sudo
