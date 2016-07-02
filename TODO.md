@@ -1,6 +1,7 @@
 ## dbu - TODO
 
   ☐ [bug] greasemonkey scripts not detected!
+  ☐ [enh] preseed keyboard configuration
   ☐ [bug] include mousepad config (path?)
   ☐ [maybe] switch build system?  https://lists.debian.org/debian-live/2015/11/msg00128.html
   ☐ offline installer, live image
