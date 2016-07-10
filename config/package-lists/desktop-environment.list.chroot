@@ -50,6 +50,7 @@ gnome-audio
 clearlooks-phenix-theme
 gnome-themes-standard
 tango-icon-theme
+#arc-theme #stretch only
 
 # Utilities
 gmrun
