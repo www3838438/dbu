@@ -23,6 +23,7 @@ lb config noauto \
 --iso-preparer dbu \
 --iso-publisher dbu \
 --iso-volume dbu \
+--linux-packages "linux-image linux-headers" \
 --memtest memtest86+ \
 --archive-areas 'main contrib non-free' \
 --security true \
