@@ -14,3 +14,12 @@ config/includes.chroot/etc/iceweasel/profile/extensions/*.xpi
 config/includes.chroot/etc/iceweasel/pref
 cache/
 build.log
+.build/
+.lock
+chroot/
+config/binary
+config/bootstrap
+config/build
+config/chroot
+config/common
+config/source
