@@ -59,6 +59,7 @@ xpi:
 
 #update thunderbird addons TODO
 tbaddons:
+	-rm $(tbaddonsdir)/*.xpi
 	#https://addons.mozilla.org/en-US/thunderbird/addon/gmail-conversation-view/
 	wget --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/54035/addon-54035-latest.xpi
 	#https://addons.mozilla.org/fr/thunderbird/addon/importexporttools/
@@ -96,9 +97,9 @@ packageschroot:
 	wget --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/i386/purple-facebook_20160409~2a24dff~66ee77378d82~110_i386.deb
 	wget --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20160409~2a24dff~66ee77378d82~110.dsc
 	wget --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20160409~2a24dff~66ee77378d82~110.tar.gz
-	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-gtk-theme/numix-gtk-theme_2.6.0+512~201607200047~ubuntu16.10.1.dsc
-	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-gtk-theme/numix-gtk-theme_2.6.0+512~201607200047~ubuntu16.10.1.tar.xz
-	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-gtk-theme/numix-gtk-theme_2.6.0+512~201607200047~ubuntu16.10.1_all.deb
+	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-gtk-theme/numix-gtk-theme_2.6.0+513~201607210047~ubuntu16.10.1.dsc
+	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-gtk-theme/numix-gtk-theme_2.6.0+513~201607210047~ubuntu16.10.1.tar.xz
+	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-gtk-theme/numix-gtk-theme_2.6.0+513~201607210047~ubuntu16.10.1_all.deb
 	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.dsc
 	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.tar.xz
 	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1_all.deb
