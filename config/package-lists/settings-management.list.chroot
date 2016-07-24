@@ -3,15 +3,12 @@
 #Screenshot: xfce4-settings
 #Descr: gnome-system-tools
 #Screenshot: gnome-system-tools
-#Descr: startupmanager
-#Screenshot: startupmanager
 #Descr: menulibre
 #Screenshot: menulibre
 #Descr: gconf-editor
 #Screenshot: gconf-editor
 
 xfce4-settings
-startupmanager
 gnome-system-tools
 menulibre
 gconf-editor
@@ -26,3 +23,4 @@ qt4-qtconfig
 #Alt: disper
 #Alt: lightdm-gtk-greeter-settings
 #Alt: gddccontrol
+#Alt: startupmanager
