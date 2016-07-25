@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=PNMixer
+Name[de]=PNMixer
+Name[fr]=PNMixer
+Name[it]=PNMixer
+Name[ru]=PNMixer
+GenericName=System Tray Mixer
+GenericName[de]=Benachrichtigungsfeld Mixer
+GenericName[fr]=Zone de Notification Mixeur
+GenericName[ru]=Микшер для системного трея
+Comment=An audio mixer for the system tray
+Comment[de]=Ein Audiomixer für das Benachrichtigungsfeld
+Comment[fr]=Un Mixeur Audio pour la Zone de Notification
+Comment[it]=Un mixer per la system tray.
+Comment[ru]=Звуковой микшер для системного трея
+Exec=pnmixer
+TryExec=pnmixer
+Icon=pnmixer
+Terminal=false
+Type=Application
+Categories=AudioVideo;
