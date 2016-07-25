@@ -9,6 +9,7 @@
 ## firefox release - stable with backports, or testing
 firefox
 firefox-l10n-fr
+pkg-mozilla-archive-keyring
 
 # Command line
 elinks
