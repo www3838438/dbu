@@ -18,10 +18,10 @@
           <value type="int" value="-1"/>
         </property>
         <property name="color-style" type="empty"/>
-        <property name="image-path" type="string" value="usr/share/dbu/backgrounds/cc0-wallpapers/unsplash5.jpg"/>
+        <property name="image-path" type="string" value="/usr/share/dbu/backgrounds/cc0-wallpapers/unsplash5.jpg"/>
         <property name="image-show" type="bool" value="true"/>
         <property name="last-image" type="empty"/>
-        <property name="last-single-image" type="empty"/>
+        <property name="last-single-image" type="string" value="/usr/share/dbu/backgrounds/cc0-wallpapers/unsplash5.jpg"/>
         <property name="backdrop-cycle-enable" type="bool" value="true"/>
         <property name="backdrop-cycle-timer" type="uint" value="600"/>
         <property name="image-style" type="int" value="0"/>

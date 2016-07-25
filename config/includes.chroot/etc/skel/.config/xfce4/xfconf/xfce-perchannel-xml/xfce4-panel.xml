@@ -13,11 +13,10 @@
         <value type="int" value="1"/>
         <value type="int" value="18"/>
         <value type="int" value="19"/>
-        <value type="int" value="8"/>
+        <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="15"/>
         <value type="int" value="6"/>
-        <value type="int" value="9"/>
         <value type="int" value="5"/>
         <value type="int" value="4"/>
         <value type="int" value="16"/>
@@ -25,11 +24,6 @@
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu">
-      <property name="button-icon" type="string" value="distributor-logo-debian"/>
-      <property name="show-button-title" type="bool" value="false"/>
-      <property name="show-tooltips" type="bool" value="true"/>
-    </property>
     <property name="plugin-3" type="string" value="tasklist"/>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -76,15 +70,11 @@
       <property name="arrow-position" type="uint" value="5"/>
       <property name="move-first" type="bool" value="false"/>
     </property>
-    <property name="plugin-8" type="string" value="launcher">
+    <property name="plugin-1" type="string" value="whiskermenu"/>
+    <property name="plugin-2" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="14590107631.desktop"/>
+        <value type="string" value="14693847834.desktop"/>
       </property>
-      <property name="show-label" type="bool" value="false"/>
-      <property name="arrow-position" type="uint" value="5"/>
-    </property>
-    <property name="plugin-9" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
     </property>
   </property>
 </channel>
