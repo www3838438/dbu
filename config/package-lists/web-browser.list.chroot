@@ -1,12 +1,14 @@
 #Name: Web Browser
-#Descr: iceweasel
-#Screenshot: iceweasel
+#Descr: firefox
+#Screenshot: firefox
 
-iceweasel
-iceweasel-l10n-fr
+## stable without backports
+#iceweasel
+#iceweasel-l10n-fr
 
-#firefox #stretch
-#firefox-l10n-fr #stretch
+## firefox release - stable with backports, or testing
+firefox
+firefox-l10n-fr
 
 # Command line
 elinks

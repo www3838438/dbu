@@ -1,7 +1,22 @@
-addonsdir="/usr/share/firefox-esr/distribution/extensions/" #firefox-esr, used as template for new Firefox profiles
-#addonsdir="config/includes.chroot/etc/iceweasel/profile/extensions/" #deprecated, legacy iceweasel path
-#addonsdir="/usr/lib/firefox-esr/browser/extensions/" #stretch, system-wide
+#!/usr/bin/make -f
+
+#############
+## config - firefox/thunderbird addons location
+
+# firefox 45+ (backports/testing) default addons for new profiles
+addonsdir=config/includes.chroot/usr/share/firefox/distribution/extensions/
+#addonsdir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
+
+# firefox/esr system-wide addons installation
+#addonsdir="/usr/lib/firefox/browser/extensions/"
+
+# deprecated, legacy iceweasel addons path
+# addonsdir="config/includes.chroot/etc/iceweasel/profile/extensions/" 
+
+#thunderbird/icedove addons path
 tbaddonsdir="config/includes.chroot/etc/icedove/extensions/"
+
+#############
 
 all: update lbbuild
 
@@ -132,7 +147,7 @@ packageschroot:
 	wget --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1.debian.tar.xz
 	wget --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1_amd64.deb
 	wget --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1.dsc
-	wget --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1.orig.tar.gz
+	wget --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1.orig.tar.gz
 
 
 
@@ -165,11 +180,11 @@ themes:
 
 # download misc configuration files
 dotfiles:
-	-rm -rf config/includes.chroot/etc/skel/.nano config/includes.chroot/etc/skel/.conky config/includes.chroot/etc/iceweasel/pref config/includes.chroot/usr/share/fonts/
-	-mkdir -pv config/includes.chroot/etc/skel/ config/includes.chroot/etc/iceweasel/
+	-rm -rf config/includes.chroot/etc/skel/.nano config/includes.chroot/etc/skel/.conky config/includes.chroot/etc/firefox config/includes.chroot/usr/share/fonts/
+	-mkdir -pv config/includes.chroot/etc/skel/ config/includes.chroot/etc/firefox/
 	git clone https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
 	git clone --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky
-	git clone -b dbu https://github.com/nodiscc/user.js config/includes.chroot/etc/firefox-esr/
+	git clone -b dbu https://github.com/nodiscc/user.js config/includes.chroot/etc/firefox/
 	git clone https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
 	
 	git clone https://github.com/az0/cleanerml/ tmp-cleanerml
