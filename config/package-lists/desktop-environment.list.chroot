@@ -122,6 +122,16 @@ plymouth-themes
 #Alt: screenlets
 #Alt: dunst
 #Alt: xdotool
+#Alt: synapse
+#Alt: zeitgeist-datahub
+#Alt: zeitgeist
+#Alt: activity-log-manager
+#Alt: gnome-activity-journal
+#Alt: gnome-pie
+#Alt: kupfer
+#Alt: gnome-do
+#Alt: xfce4-appfinder
+#Alt: rofi
 
 
 #Cat: Utility
@@ -140,3 +150,4 @@ plymouth-themes
 #Res: http://projects.gnome.org/gst/
 #Res: https://wiki.archlinux.org/index.php/Xorg
 #Res: http://doc.ubuntu-fr.org/conky
+

@@ -21,13 +21,13 @@ pulseaudio-module-zeroconf
 pulseaudio-module-jack
 pavucontrol
 #xfce4-pulseaudio-plugin #stretch only
-xfce4-mixer
 rtkit
 
 #Alt: pasystray
 #Alt: padevchooser
 #Alt: paprefs
 #Alt: pnmixer
+#Alt: xfce4-mixer
 
 #Cat: System
 #Cat: Multimedia
