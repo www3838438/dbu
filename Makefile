@@ -1,7 +1,8 @@
-addonsdir="config/includes.chroot/etc/iceweasel/profile/extensions/"
-#addonsdir="/usr/share/firefox-esr/distribution/extensions/" #stretch, used for default profile creation
+addonsdir="/usr/share/firefox-esr/distribution/extensions/" #firefox-esr, used as template for new Firefox profiles
+#addonsdir="config/includes.chroot/etc/iceweasel/profile/extensions/" #deprecated, legacy iceweasel path
 #addonsdir="/usr/lib/firefox-esr/browser/extensions/" #stretch, system-wide
 tbaddonsdir="config/includes.chroot/etc/icedove/extensions/"
+
 all: update lbbuild
 
 update: ffaddons tbaddons xpi packageschroot purpleplugins themes dotfiles
@@ -128,6 +129,12 @@ packageschroot:
 	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8-1~webupd8~xenial3.dsc
 	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8-1~webupd8~xenial3_all.deb
 	wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8.orig.tar.gz
+	wget --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1.debian.tar.xz
+	wget --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1_amd64.deb
+	wget --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1.dsc
+	wget --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1.orig.tar.gz
+
+
 
 
 # download pidgin plugins
@@ -162,7 +169,7 @@ dotfiles:
 	-mkdir -pv config/includes.chroot/etc/skel/ config/includes.chroot/etc/iceweasel/
 	git clone https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
 	git clone --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky
-	git clone -b dbu https://github.com/nodiscc/user.js config/includes.chroot/etc/iceweasel/pref
+	git clone -b dbu https://github.com/nodiscc/user.js config/includes.chroot/etc/firefox-esr/
 	git clone https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
 	
 	git clone https://github.com/az0/cleanerml/ tmp-cleanerml
