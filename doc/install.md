@@ -29,6 +29,6 @@
 
  * Turn computer off. Insert the installation USB/DVD, turn computer on.
   * Check that the computer BIOS is configured to boot from CD/DVD or USB.
-  * On some computers you need to disable [Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_boot) before installing a Linux distribution. See [Disabling Secure Boot in Windows 8](https://github.com/nodiscc/scriptz/blob/master/SHEETS/disabling_secure_boot_in_windows_8.md).
+  * On some computers you need to disable [Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_boot) before installing a Linux distribution. See **[Disabling Secure Boot in Windows 8](disable-secure-boot.md)**.
  * In the boot menu, select `Graphical install`
  * Follow the installation procedure

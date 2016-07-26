@@ -5,7 +5,7 @@ Custom fast [Debian GNU/Linux](http://www.debian.org/) installer and live system
 
 [Debian GNU/Linux](https://en.wikipedia.org/wiki/Debian) is a major and widely used [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution). [GNU/Linux](https://en.wikipedia.org/wiki/Linux) is a [Free](https://en.wikipedia.org/wiki/Free_software) and open source [operating system](https://en.wikipedia.org/wiki/Operating_system).
 
-**[Download](live.iso)**
+**[Download (64-bit)](live-image-amd64.hybrid.iso)**
 
 ### Required Hardware
 
