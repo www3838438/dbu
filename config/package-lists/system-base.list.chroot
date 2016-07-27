@@ -19,8 +19,11 @@ build-essential
 module-assistant
 irqbalance
 console-setup
+grub2
+
 
 # Command line
 sudo
 
 #Cat: System
+
