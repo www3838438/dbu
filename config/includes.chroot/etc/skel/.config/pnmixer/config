@@ -1,0 +1,8 @@
+[PNMixer]
+IconTheme=Paper
+EnableNotifications=true
+HotkeyNotifications=true
+MouseNotifications=true
+PopupNotifications=true
+ExternalNotifications=false
+NotificationTimeout=1500

@@ -1,9 +1,11 @@
 ## Usage
 
- * Have a look at the [Installed software documentation](packages.md)
- * `Help` menu inside the application.
+ * Refer to each package's [online documentation](packages.md)
+ * Use the `Help` menu inside programs.
  * [More documentation](more-docs.md)
 
+_Note: The user account created during installation will have `sudo` administrator access (this account can perform administrator tasks, after password verification)
+ 
 -------------------------------------------
 
 #### Configuration
