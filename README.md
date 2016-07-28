@@ -1,11 +1,15 @@
+# dbu
 
-#dbu
-
-Custom fast [Debian GNU/Linux](http://www.debian.org/) installer and live system.
+Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
 
 [Debian GNU/Linux](https://en.wikipedia.org/wiki/Debian) is a major and widely used [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution). [GNU/Linux](https://en.wikipedia.org/wiki/Linux) is a [Free](https://en.wikipedia.org/wiki/Free_software) and open source [operating system](https://en.wikipedia.org/wiki/Operating_system).
 
-**[Download (64-bit)](live-image-amd64.hybrid.iso)**
+**[Download ISO (64-bit)](live-image-amd64.hybrid.iso)**
+
+ * Runs as a Live system or as an offline installer
+ * Preinstalled software, preconfigured for desktop machines
+ * Based on Debian 8 Jessie (stable Debian release).
+
 
 ### Required Hardware
 
@@ -21,13 +25,14 @@ Custom fast [Debian GNU/Linux](http://www.debian.org/) installer and live system
 
  * [Installation](doc/install.md)
  * [Usage](doc/usage.md)
-  * [Preinstalled software](doc/packages.md)
+ * [Installed software](doc/packages.md)
  * [More documentation](doc/more-docs.md)
- * [Contributing](doc/contributing.md)
- * [Customize/build your own](doc/custom.md)
  * [Bugs/TODO](TODO.md)
+ * [Customize/Build your own](doc/custom.md)
+ * [Contributing](doc/contributing.md)
 
 
-## License
+
+### License
 
 [GNU GPLv3](LICENSE). Documentation under [CreativeCommons Attribution-ShareAlike](LICENSE)

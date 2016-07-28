@@ -17,10 +17,11 @@ Configuration files are generally found in `~/.config` or `/etc/` directories.
 
 #### Running programs and working with files
 
- * _Application Menu_ (bottom left corner or the screen)
- * _Synapse launcher_ (`²` key, begin typing, Use `arrows` and `Tab` keys).
- * _File Manager_
- * _Terminal emulator_ (command line)
+Programs and files can be opened with
+
+ * The _Application Menu_ (bottom left corner)
+ * The _File Manager_
+ * A _Terminal emulator_ (command line)
  
 Your _Home directory_ contains all personal files belonging to your user account on the computer.
 
@@ -28,7 +29,7 @@ Your _Home directory_ contains all personal files belonging to your user account
 
 #### Installing/removing/updating software
 
-_Package management_ allows you to install, remove or upgrade every component of your system (applications, system services, libraries, operating system kernel...).
+The _package management_ system allows you to install, remove or upgrade every component of your system (applications, system services, libraries, operating system kernel...).
 
  * **[All Debian packages](https://packages.debian.org)** (+40 000 packages)
 
@@ -86,7 +87,7 @@ _Package management_ allows you to install, remove or upgrade every component of
 
 Can be changed through `Settings > Keyboard` and `Settings > Window manager`
 
- * `²` Open launcher
+ * `²` Open Applications menu
  * `Win + N` Show/Hide notes
  * `Win + E` File manager
  * `Win + F` Find files

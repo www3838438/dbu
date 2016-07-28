@@ -33,6 +33,7 @@ python-selinux
 dialog
 whiptail
 inotify-tools
+pastebinit
 #incron
 #faker
 

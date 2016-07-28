@@ -1,5 +1,8 @@
 ## dbu - TODO
 
+
+```
+
   ☐ [enh] setup assistant
     - set noatime/nodiratime for ext3/4 partitions
 	- remove sudo from /etc/adduser.conf
@@ -32,3 +35,9 @@
   ☐ [feature] New Thunar UCA: edit text files as root
   ☐ [enh] [security] setup SELinux
   ☐ [enh] Better GRUB look and bootsplash: add pylmouth + debian-logo plymouth theme, add wallpaper in grub's dir, add `splash` to `\/etc\/default\/grub` options, and make sure `update-grub` runs during the build.
+
+
+
+
+
+```
