@@ -25,6 +25,7 @@ Custom fast [Debian GNU/Linux](http://www.debian.org/) installer and live system
  * [More documentation](doc/more-docs.md)
  * [Contributing](doc/contributing.md)
  * [Customize/build your own](doc/custom.md)
+ * [Bugs/TODO](TODO.md)
 
 
 ## License

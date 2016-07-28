@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Icon=folder-home
+Icon=system-file-manager
 TryExec=xdg-file-manager
 Exec=xdg-file-manager
 Name=File Manager

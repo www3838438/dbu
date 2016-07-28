@@ -17,7 +17,7 @@ shellcheck
 colordiff
 colortail
 meld
-retext
+#retext
 pv
 wxhexeditor
 cloc

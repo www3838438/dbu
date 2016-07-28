@@ -45,7 +45,7 @@ ffaddons:
 	#https://addons.mozilla.org/en-us/firefox/addon/ssleuth/
 	wget --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/479492/addon-479492-latest.xpi
 	#https://addons.mozilla.org/fr/firefox/addon/greasemonkey/ 
-	wget --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/748/addon-748-latest.xpi
+	#wget --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/748/addon-748-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/
 	wget --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/536392/addon-536392-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
