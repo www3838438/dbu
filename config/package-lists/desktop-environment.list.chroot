@@ -40,6 +40,7 @@ hwdata
 # Display manager
 lightdm
 lightdm-gtk-greeter
+#dbus-user-session #stretch only
 
 # Screen locker
 light-locker
@@ -50,7 +51,6 @@ faenza-icon-theme
 gnome-audio
 clearlooks-phenix-theme
 gnome-themes-standard
-tango-icon-theme
 #arc-theme #stretch only
 
 # Utilities
@@ -132,7 +132,7 @@ plymouth-themes
 #Alt: gnome-do
 #Alt: xfce4-appfinder
 #Alt: rofi
-
+#Alt: tango-icon-theme
 
 #Cat: Utility
 #Res: http://docs.xfce.org/
@@ -150,4 +150,3 @@ plymouth-themes
 #Res: http://projects.gnome.org/gst/
 #Res: https://wiki.archlinux.org/index.php/Xorg
 #Res: http://doc.ubuntu-fr.org/conky
-
