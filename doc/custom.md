@@ -1,8 +1,8 @@
 #### Customize/Build your own
 
-
-Dependencies are downloaded and setup from the [`Makefile`](../Makefile).  
-`live-build` is used to build the system. 
+ * `live-build` is used to build the system. Install the `live-build` package.
+ * Dependencies are downloaded and setup from the [`Makefile`](../Makefile). To run the build process with the default configuration, run `make all` from the root of this repository.
+ * You must build from the same distribution as the target distribution (build *stable* systems on a build machine running *stable*, *testing* on a machine running *testing*...)
 
 ```
 DIRECTORIES
@@ -19,7 +19,8 @@ DIRECTORIES
 │   ├── packages.chroot         #.deb packages to install on live system
 │   └── task-lists              #tasksel tasks to install on live system
 ├── doc     #user documentation
-└── scripts #scripts used to generate build configuration, documentation...
+├── scripts #scripts used to generate build configuration, documentation...
+└── Makefile #main build automation, dependencies management, etc
 
 ```
 
@@ -28,4 +29,4 @@ DIRECTORIES
 * [`man lb config`](https://manpages.debian.org/cgi-bin/man.cgi?query=lb_config&sektion=1&apropos=0&manpath=Debian+8+jessie&locale=)
 * [`man lb build`](https://manpages.debian.org/cgi-bin/man.cgi?query=lb_build&sektion=1&apropos=0&manpath=Debian+8+jessie&locale=)
 
-To run the build process with the default configuration, run `make all` from the root of this repository.
+
