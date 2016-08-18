@@ -64,8 +64,9 @@ Use the [Debian Bug Tracking System](https://www.debian.org/Bugs/) for bugs in D
 
 ### Customize/Build your own
 
- * `live-build` is used to build the system. Install the `live-build` package.
- * Dependencies are downloaded and setup from the [`Makefile`](../Makefile). To run the build process with the default configuration, run `make all` from the root of this repository.
+ * [`live-build`](https://www.debian.org/devel/debian-live/) is used to build the system.
+ * Install the `live-build make build-essential wget git` packages.
+ * Build dependencies are downloaded and setup from the [`Makefile`](../Makefile). To run the build process with the default configuration, run `make all` from the root of this repository.
  * You must build from the same distribution as the target distribution (build *stable* systems on a build machine running *stable*, *testing* on a machine running *testing*...)
 
 ```
