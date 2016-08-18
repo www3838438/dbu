@@ -6,8 +6,8 @@ Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
 
 **[Download ISO (64-bit)](live-image-amd64.hybrid.iso)**
 
- * Preconfigured for desktop machines (installed software/configuration)
  * Runs as a Live system or as an offline installer
+ * Preinstalled software, preconfigured for desktop machines
  * Based on Debian 8 Jessie (stable Debian release).
 
 
@@ -35,9 +35,9 @@ Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
 This project is aimed at users who want to install a fully configured operating system + common utilities for personal computers without going through the procedure of installing and setting up Debian manually. System administrators and advanced users may want to customize the live-build configuration before rebuilding an image (see below). The installer should run as much unattended as possible. The resulting system should run on ~5 years old machines with a focus on stability, security, performance and ease of use. It should only rely on Free and Open Source Software as defined in the DFSG. It is intended as a quick way to reinstall an OS on old computers, and as a basic live-build configuration example for similar projects.
 
 
-#### Contributing
+### Contributing
 
-For each software project you use, you can
+For each software package available in Debian, you can
 
  * Help testing the software, report bugs and help debugging.
  * Write translations.
@@ -45,9 +45,9 @@ For each software project you use, you can
  * Contribute code.
  * Provide user support on forums, discussion channels, ...
  * Create templates and audio/video resources under Free licenses.
- * Donate to software projects.
+ * Make donations to software developers.
 
-#### Reporting bugs
+### Reporting bugs
 
 When reporting a bug, please include the following information:
 
