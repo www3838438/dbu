@@ -70,6 +70,7 @@ live-config-doc
 live-manual-pdf
 live-manual-html
 debootstrap
+live-images
 
 # Debian-cd
 #debian-cd
