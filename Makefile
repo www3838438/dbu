@@ -26,6 +26,7 @@ update: ffaddons tbaddons xpi packageschroot purpleplugins themes dotfiles
 #update firefox addons
 ffaddons:
 	-rm $(addonsdir)/*.xpi
+	-rm $(addonsdir)/*.[1-9]
 	#https://addons.mozilla.org/en-US/firefox/addon/downthemall/
 	wget --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/201/addon-201-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/
@@ -76,6 +77,7 @@ xpi:
 #update thunderbird addons TODO
 tbaddons:
 	-rm $(tbaddonsdir)/*.xpi
+	-rm $(tbaddonsdir)/*.[1-9]
 	#https://addons.mozilla.org/en-US/thunderbird/addon/gmail-conversation-view/
 	wget --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/54035/addon-54035-latest.xpi
 	#https://addons.mozilla.org/fr/thunderbird/addon/importexporttools/
