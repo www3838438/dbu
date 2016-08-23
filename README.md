@@ -10,6 +10,7 @@ Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
  * Preinstalled software, preconfigured for desktop machines
  * Based on Debian 8 Jessie (stable Debian release).
 
+![](doc/screenshot-main.png)
 
 ### Required Hardware
 

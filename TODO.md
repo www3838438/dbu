@@ -8,6 +8,7 @@
 	- remove sudo from /etc/adduser.conf
   ☐ [bug] locale is not set during installation
   ☐ [bug] [firefox] default ublock configuration
+  ☐ [bug] [firefox] remove firefox default first run page (firefox accounts)
   ☐ [bug] [firefox] customize/reorganize UI elements (localstore.rdf)
   ☐ [enh] [security] [firefox] add mozilla-gnome-keyring addon
   ☐ [enh] autostart: conky/clock

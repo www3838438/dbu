@@ -18,7 +18,7 @@ tbaddonsdir="config/includes.chroot/etc/icedove/extensions/"
 
 #############
 
-all: update lbbuild
+all: update doc lbbuild
 
 update: ffaddons tbaddons xpi packageschroot purpleplugins themes dotfiles
 
@@ -194,6 +194,9 @@ dotfiles:
 	mkdir -p config/includes.chroot/usr/share/bleachbit/
 	mv tmp-cleanerml/release config/includes.chroot/usr/share/bleachbit/cleaners
 	rm -rf tmp-cleanerml
+
+doc:
+	@./scripts/doc-generator.sh
 
 lbbuild:
 	sudo lb clean --all
