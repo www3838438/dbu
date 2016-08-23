@@ -1,14 +1,11 @@
 #Name: LibreOffice office suite
-#Desc: libreoffice-writer
+#Desc: libreoffice
 #Screenshot: libreoffice-writer
-#Desc: libreoffice-calc
 #Screenshot: libreoffice-calc
-#Desc: libreoffice-draw
 #Screenshot: libreoffice-draw
-#Desc: libreoffice-impress
 #Screenshot: libreoffice-impress
 
-
+libreoffice
 libreoffice-writer
 libreoffice-impress
 libreoffice-draw
