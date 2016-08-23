@@ -62,7 +62,7 @@ echo '</sub>'
 function _main {
 for i in config/package-lists/*.list.chroot; do
     echo "$i"
-    _genPackagesDoc $i > doc/packages/$i.md
+    _genPackagesDoc $i > doc/packages/$(basename $i).md
 done
 }
 
