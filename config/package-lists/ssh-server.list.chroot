@@ -1,5 +1,5 @@
 #Name: OpenSSH server
-#Descr: openssh-server
+#Desc: openssh-server
 
 openssh-server
 openssh-blacklist

@@ -1,5 +1,5 @@
 #Name: Graphics utilities
-#Descr: imagemagick
+#Desc: imagemagick
 
 imagemagick
 libmagickcore-6.q16-2-extra 

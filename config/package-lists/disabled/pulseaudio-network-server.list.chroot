@@ -1,6 +1,6 @@
 #Name: PulseAudio network sound server
-#Descr: avahi-daemon
-#Descr: paprefs
+#Desc: avahi-daemon
+#Desc: paprefs
 #Screenshot: paprefs
 
 avahi-daemon

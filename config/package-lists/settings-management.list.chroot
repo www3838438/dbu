@@ -1,11 +1,11 @@
 #Name: System configuration utilities
-#Descr: xfce4-settings
+#Desc: xfce4-settings
 #Screenshot: xfce4-settings
-#Descr: gnome-system-tools
+#Desc: gnome-system-tools
 #Screenshot: gnome-system-tools
-#Descr: menulibre
+#Desc: menulibre
 #Screenshot: menulibre
-#Descr: gconf-editor
+#Desc: gconf-editor
 #Screenshot: gconf-editor
 
 xfce4-settings

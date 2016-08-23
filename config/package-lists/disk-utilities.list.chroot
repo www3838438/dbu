@@ -1,9 +1,9 @@
 #Name: Disk utilities
-#Description: gnome-disk-utility
+#Desc: gnome-disk-utility
 #Screenshot: gnome-disk-utility
-#Description: gparted
-#Description: gparted
-#Descr: baobab
+#Desc: gparted
+#Desc: gparted
+#Desc: baobab
 #Screenshot: baobab
 
 gnome-disk-utility
