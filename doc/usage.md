@@ -2,7 +2,7 @@
 
  * Refer to each package's [online documentation](packages.md)
  * Use the `Help` menu inside programs.
- * [More documentation](more-docs.md)
+ * [More documentation](#more-documentation)
 
 _Note: The user account created during installation will have `sudo` administrator access (this account can perform administrator tasks, after password verification)
  
@@ -110,3 +110,71 @@ Can be changed through `Settings > Keyboard` and `Settings > Window manager`
  * `Alt + F7` Move windows
  * `Alt + F8` Resize windows
  * `Alt + mouse wheel` Zoom/dezoom display
+
+
+--------------------------------------------
+
+## More Documentation
+
+_Documentation, forums, communities, support channels..._
+
+### Debian/General
+
+ * **[Debian wiki](https://wiki.debian.org/fr/FrontPage)**
+ * **[Arch Linux wiki](https://wiki.archlinux.org/)**
+ * **[Wikipedia](https://en.wikipedia.org/wiki/Main_Page)**
+ * **[Debian Forums](http://forums.debian.net)**
+ * **[Debian IRC channels](https://wiki.debian.org/IRC)**
+ * **[Debian Homepage](https://www.debian.org/)**
+  * [Debian - Wikipedia](https://en.wikipedia.org/wiki/Debian)
+  * [Debian Social Contract](https://www.debian.org/social_contract)
+  * [Debian Constitution](https://www.debian.org/devel/constitution)
+ * [Debian Documentation](https://www.debian.org/doc/)
+ * [Debian Packages](https://www.debian.org/distrib/packages)
+  * [Debian Screenshots] https://screenshots.debian.net/
+ * [Forum Debian FR](https://www.debian-fr.org/) (fr)
+  * [Debian FAQ - CCM](http://www.commentcamarche.net/faq/linux-97) (fr)
+ * [Debian Hardware Compatibility List](http://kmuto.jp/debian/hcl/index.cgi)
+  * [Linux Laptop Wiki](http://www.linlap.com/)
+ * [Debian CD images](http://cdimage.debian.org/cdimage/)
+  * [Unofficial CD images including firmware](http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/)
+  * [Installing Debian step by step](https://debian-handbook.info/browse/stable/sect.installation-steps.html)
+  * [Debian GNU/Linux Installation Guide](https://www.debian.org/releases/stable/amd64/index.html.en)
+ * [Linux Journey](https://linuxjourney.com/)
+ * [FOSSManuals](http://en.flossmanuals.net/)
+
+### Software lists
+
+
+ * [AlternativeTo - Crowdsourced software recommendations](http://alternativeto.net/)
+  * [Recently Added Open Source Linux Software - AlternativeTo.net](https://alternativeto.net/platform/linux/?license=opensource&sort=addeddate)
+ * [GitHub - Kickball/awesome-selfhosted: This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.](https://github.com/Kickball/awesome-selfhosted)
+ * [GitHub - n1trux/awesome-sysadmin: A curated list of amazingly awesome open source sysadmin resources.](https://github.com/n1trux/awesome-sysadmin)
+ * [GitHub - nodiscc/awesome-linuxaudio: A list of software and resources for professional audio/video/live events production on Linux.](https://github.com/nodiscc/awesome-linuxaudio)
+ * [GitHub - alebcay/awesome-shell: A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.](https://github.com/alebcay/awesome-shell)
+ * [Libre Projects](http://libreprojects.net/)
+ * [All Projects - PRISM Break](https://prism-break.org/en/all/)
+ * [List of applications - ArchWiki](https://wiki.archlinux.org/index.php/List_of_Applications)
+ * [List of applications/Other - ArchWiki](https://wiki.archlinux.org/index.php/List_of_Applications/Other)
+ * [List of applications/Internet - ArchWiki](https://wiki.archlinux.org/index.php/List_of_applications/Internet)
+ * [List of applications/Multimedia - ArchWiki](https://wiki.archlinux.org/index.php/List_of_applications/Multimedia)
+ * [List of applications/Utilities - ArchWiki](https://wiki.archlinux.org/index.php/List_of_applications/Utilities)
+ * [List of applications/Documents - ArchWiki](https://wiki.archlinux.org/index.php/List_of_applications/Documents)
+ * [List of applications/Security - ArchWiki](https://wiki.archlinux.org/index.php/List_of_applications/Security)
+ * [List of applications/Science - ArchWiki](https://wiki.archlinux.org/index.php/List_of_applications/Science)
+ * [List of free and open-source software packages - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages)
+ * [Logiciels Libres - Framasoft](http://www.framasoft.net/rubrique2.html)
+ * [One Thing Well](http://onethingwell.org/)
+ * [Index 0-K | Inconsolation](http://inconsolation.wordpress.com/index/)
+ * [Xmodulo List - Best Linux applications and software](http://list.xmodulo.com/)
+ * [FossHub](http://www.fosshub.com/)
+ * [Projects · Explore · GitLab](https://gitlab.com/explore)
+ * [Explore - Projects - Github](https://github.com/explore)
+ * [linux-apps.com](http://gtk-apps.org/)
+ * [Download & Streaming : The Internet Archive Software Collection : Internet Archive](https://archive.org/details/software)
+ * [Linux App Finder | Helping find the Linux apps you need](http://linuxappfinder.com/)
+ * [The Linux Alternative Project](http://www.linuxalt.com/)
+ * [Open Source Alternatives to Commercial Software](http://www.osalt.com/)
+ * [List of Linux distributions - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
+ * [The LiveCD List &middot; The LiveCD List](http://www.livecdlist.com/)
+ * [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](http://distrowatch.com/)

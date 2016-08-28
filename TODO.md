@@ -3,10 +3,9 @@
 
 ```
 
-  ☐ [enh] setup assistant
-    - set noatime/nodiratime for ext3/4 partitions
-	- remove sudo from /etc/adduser.conf
-  ☐ [bug] locale is not set during installation
+  ☐ [bug] doc: generate an index of package documentation pages, by category
+  ☐ [bug] doc: generate documentation for disabled/*.chroot packages, add them to the index tagged `disabled`
+  ☐ [bug] [firefox] add https://addons.mozilla.org/fr/firefox/addon/no-resource-uri-leak/
   ☐ [bug] [firefox] default ublock configuration
   ☐ [bug] [firefox] remove firefox default first run page (firefox accounts)
   ☐ [bug] [firefox] customize/reorganize UI elements (localstore.rdf)
@@ -21,6 +20,7 @@
   ☐ [bug] [l10n] re-add icedove-l10n-fr
   ☐ [debian] package unpackaged software for debian, see https://github.com/nodiscc/dbu-deb-packages
   ☐ [maint] remove gksu - gdebi still needs it - http://forums.debian.net/viewtopic.php?f=16&t=73497
+  ☐ [enh] makefile: use shallow git clones (saves disk space, faster download)
   ☐ [enh] mousepad: add config (path?)
   ☐ [enh] onboard: add config (dconf)
   ☐ [enh] [live] add persistence http://live.debian.net/manual/stable/html/live-manual/customizing-run-time-behaviours#persistence

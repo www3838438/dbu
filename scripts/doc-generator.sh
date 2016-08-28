@@ -29,7 +29,7 @@ if egrep "^#Screenshot:" $packagelist >/dev/null; then
     else screenshotpackage=$mainpackage
 fi
 
-md_screenshot="[![](https://screenshots.debian.net/thumbnail/$screenshotpackage/)](https://screenshots.debian.net/package/$screenshotpackage"
+md_screenshot="![](https://screenshots.debian.net/thumbnail/$screenshotpackage/)"
 
 _renderMarkdown
 
@@ -42,7 +42,7 @@ apt-cache show $1 | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | 
 
 function _renderMarkdown {
 echo -e "$md_title"
-echo -e "\n${md_shortdescription}_\n"
+echo -e "\n_${md_shortdescription}_\n"
 echo -e '```'
 echo -e "\n$md_description\n"
 echo '```'
@@ -52,9 +52,9 @@ echo -e "\n### Installed packages\n"
 for i in $packages; do echo "* [$i](https://packages.debian.org/jessie/$i) - $(_getShortDescription $i)"; done
 
 echo -e "\n### Related packages\n"
-echo '<sub>'
-for i in $alts; do echo "* [$i](https://packages.debian.org/jessie/$i)"; done
-echo '</sub>'
+echo -n '<sub> '
+for i in $alts; do echo -n "[$i](https://packages.debian.org/jessie/$i) "; done
+echo ' </sub>'
 
 }
 
@@ -67,3 +67,20 @@ done
 }
 
 _main $@
+
+
+#generate index
+pkgindex=$(for i in Games Graphics Multimedia Network Office Science System Utility; do
+    echo -e "\n### $i";
+    for plist in config/package-lists/*.chroot; do
+        if egrep -q "^#Cat: $i" $plist; then
+            pname=$(egrep "^#Name:" $plist | cut -d" " -f1 --complement)
+            echo " - [$pname](packages/$(basename $plist).md)"
+        fi
+    done
+done)
+
+pkgheader="# Installed software"
+
+
+ > doc/packages.md

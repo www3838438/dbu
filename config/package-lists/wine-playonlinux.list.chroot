@@ -23,8 +23,7 @@ winetricks
 
 
 #Cat: Utility
-#Res: https://wiki.debian.org/fr/Wine
-#Res: http://doc.ubuntu-fr.org/wine
+#Res: https://wiki.debian.org/Wine
 #Res: http://appdb.winehq.org/
-#Res: http://doc.ubuntu-fr.org/wine_trucs_et_astuces
-#Res: http://fr.wikipedia.org/wiki/Wine
+#Res: http://appdb.winehq.org/objectManager.php?sClass=application&sTitle=Browse%20Applications&sOrderBy=appName&bAscending=true
+#Res: http://en.wikipedia.org/wiki/Wine

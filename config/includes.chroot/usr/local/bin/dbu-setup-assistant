@@ -1,0 +1,109 @@
+#!/bin/bash
+#Description: Step-by-step setup/customization script for new installs
+#https://github.com/nodiscc/dbu
+#License: GPLv3 (https://www.gnu.org/copyleft/gpl.html)
+
+#TODO remove sudo group by default from /etc/adduser.conf
+#TODO [enh] create/import/publish GPG key
+#TODO setup time
+#TODO setup sambe shares
+#TODO: remove the autostart entry.
+#TODO: do not create another crontab entry if it already exists
+#TODO set noatime/nodiratime for ext3/4 partitions?
+
+###########################################
+
+function _dbuCheckInetAccess() {
+    netaccess=$(LANG=C nmcli networking connectivity)
+    if [ "$netaccess" != "full" ]
+        then
+        _dbuSetupInetAccess
+    fi
+}
+
+function _dbuSetupInetAccess() {
+    zenity --no-wrap --question --ok-label "Retry" --cancel-label "Stay offline" \
+    --title "Network connection" --text \
+"It appears this computer is curently not connected
+to the Internet. An Internet connection is required to
+update software to latest versions. Please connect to
+a network using the network manager menu in panel, then
+clock retry. If you choose to continue without a network
+connection, software updates will be unavailable."
+    if [ $? = 0 ]
+        then _dbuCheckInetAccess
+    fi
+}
+
+function _dbuAddUpdateCrontab() {
+    #adds a package upgrade notification every 2 hours
+    #thx http://askubuntu.com/questions/58575/add-lines-to-cron-from-script
+    echo "Adding periodic update check task..."
+    newtask="0 * * * * DISPLAY=':0.0' /usr/local/bin/dbu-notify-updates"
+    (crontab -l; echo "$newtask" ) | crontab -
+}
+
+function _dbuAptUpgrade() {
+    #aptitude update, upgrade
+    pkexec aptitude update | while read line; do echo "#$line" | cut --characters=-70; done |  zenity --progress --pulsate --text="Updating package lists..." --title="Updating package lists..." --auto-close --width=400
+    num_upgrades_avail=$(aptitude search ~U | wc -l)
+    export APT_LISTBUGS_FRONTEND=none #required else apt-listbugs blocks the upgrade, even with -y
+    pkexec aptitude -y upgrade | while read line; do echo "#$line" | cut --characters=-70; done |  zenity --progress --pulsate --text="Upgrading installed packages..." --title="Upgrading installed packages..." --auto-close --width=400
+    }
+
+############################################
+
+function _dbuSetupDialog {
+    answer=$(zenity --width 120 --height 330 --list --checklist --hide-header --column=C1 --column=C2 \
+    FALSE "Setup appearance" \
+    FALSE "Setup panel" \
+    FALSE "Setup desktop" \
+    TRUE "Setup virtual workspaces" \
+    TRUE "Setup power management" \
+    TRUE "Setup instant messaging accounts" \
+    TRUE "Setup e-mail accounts" \
+    TRUE "Setup RSS news feeds" \
+    TRUE "Setup printers" \
+    TRUE "Setup desktop session/autostart" \
+    TRUE "Setup system services" \
+    TRUE "Setup user accounts and passwords" \
+    TRUE "Upgrade all packages" \
+    )
+
+    IFS=$'|'
+    for action in $answer; do 
+        case "$action" in 
+            "Setup appearance") xfce4-appearance-settings; xfwm4-settings
+            ;;
+            "Setup panel") xfce4-panel -p
+            ;;
+            "Setup desktop") xfdesktop-settings
+            ;;
+            "Setup virtual workspaces") xfwm4-workspace-settings
+            ;;
+            "Setup power management") xfce4-power-manager-settings
+            ;;
+            "Setup instant messaging accounts") pidgin &
+            ;;
+            "Setup e-mail accounts") icedove
+            ;;
+            "Setup RSS news feeds") liferea & 
+            ;;
+            "Setup printers") system-config-printer
+            ;;
+            "Setup desktop session/autostart") xfce4-session-settings
+            ;;
+            "Setup system services") services-admin
+            ;;
+            "Setup user accounts and passwords") users-admin
+            ;;
+            "Upgrade all packages") _dbuAptUpgrade
+        esac
+    done
+    unset IFS
+}
+
+_dbuCheckInetAccess
+_dbuSetupDialog
+_dbuAddUpdateCrontab
+

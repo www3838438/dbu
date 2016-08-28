@@ -27,7 +27,6 @@ Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
  * [Installation](doc/install.md)
  * [Usage](doc/usage.md)
  * [Installed software](doc/packages.md)
- * [More documentation](doc/more-docs.md)
  * [Bugs/TODO](TODO.md)
  * [Customize/Build your own](doc/custom.md)
  * [Contributing](doc/contributing.md)
