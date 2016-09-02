@@ -1,9 +1,11 @@
 ### Customize/Build your own
 
- * [`live-build`](https://www.debian.org/devel/debian-live/) is used to build the system.
+ * You must build from the same distribution as the target distribution (build *stable* systems on a build machine running Debian *stable*, *testing* systems on a machine running Debian *testing*...)
+ * [`live-build`](https://www.debian.org/devel/debian-live/) is used to build the live system/installer/ISO image.
+ * Run `git clone https://github.com/nodiscc/dbu`
  * Install the `live-build make build-essential wget git xmlstarlet unzip` packages.
  * Build dependencies are downloaded and setup from the [`Makefile`](../Makefile). To run the build process with the default configuration, run `make all` from the root of this repository.
- * You must build from the same distribution as the target distribution (build *stable* systems on a build machine running *stable*, *testing* on a machine running *testing*...)
+
 
 ```
 DIRECTORIES
@@ -30,3 +32,19 @@ DIRECTORIES
 * [`man lb config`](https://manpages.debian.org/cgi-bin/man.cgi?query=lb_config&sektion=1&apropos=0&manpath=Debian+8+jessie&locale=)
 * [`man lb build`](https://manpages.debian.org/cgi-bin/man.cgi?query=lb_build&sektion=1&apropos=0&manpath=Debian+8+jessie&locale=)
 
+
+##### config/includes.chroot/
+
+##### config/package-lists/
+
+    *.chroot: packages to be installed on the resulting image/system (live or installed)
+    *.binary: packages to be added to the resulting ISO filesystem (as an offline package repository - pool/ directory)
+ 
+live-build ignores lines starting with `#` in package lists. Additional data in these files is used by the documentation generation script at `scripts/doc-generator.sh`:
+
+ * #Name: Name for the package list (eg. Document Viewer)
+ * #Screenshot: package name to lookup on screenshots.debian.net
+ * #Cat: Category for the package list (eg Office)
+ * #Desc: Package name to use for the description. If this is omitted, the description for first package in the list is used.
+ * #Alt: name of an alternative package, or other package related to this list
+ * #Res: URL to a resource/help link to add on the package doc page (using the target webpage title)
