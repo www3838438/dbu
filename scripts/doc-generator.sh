@@ -70,7 +70,7 @@ _main $@
 
 
 #generate index
-pkgindex=$(for i in Games Graphics Multimedia Network Office Science System Utility; do
+pkgindex=$(for i in Utility Office Multimedia Graphics Network System Games Science; do
     echo -e "\n### $i";
     for plist in config/package-lists/*.chroot; do
         if egrep -q "^#Cat: $i" $plist; then
