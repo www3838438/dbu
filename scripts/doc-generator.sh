@@ -83,4 +83,5 @@ done)
 pkgheader="# Installed software"
 
 
- > doc/packages.md
+echo "$pkgheader
+$pkgindex" > doc/packages.md

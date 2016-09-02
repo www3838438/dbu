@@ -4,7 +4,15 @@ __GNOME front-end for backintime__
 
 ```
 
+Back In Time is a framework for rsync, diff and cron for the purpose of
+taking snapshots and backups of specified folders. It minimizes disk space use
+by taking a snapshot only if the directory has been changed, and hard links
+for unmodified files if it has. The user can schedule regular backups using
+cron.
 
+This is the GNOME front-end for the backintime-common package. If you also
+install the package nautilus-actions, it can be integrated with the Nautilus
+file manager to provide context-menu options.
 
 ```
 
