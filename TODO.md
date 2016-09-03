@@ -10,6 +10,8 @@
   ☐ [bug] [firefox] remove firefox default first run page (firefox accounts)
   ☐ [bug] [firefox] customize/reorganize UI elements (localstore.rdf)
   ☐ [enh] [security] [firefox] add mozilla-gnome-keyring addon
+  ☐ [enh] setup assistant: select keyboard layout
+  ☐ [enh] setup assistant: prevent from running in live mode?
   ☐ [enh] autostart: conky/clock
   ☐ [enh] show calendar when clicking on panel clock
   ☐ [enh] laptop-mode-tools vs. TLP ?
