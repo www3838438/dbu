@@ -4,11 +4,11 @@ Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
 
 [Debian GNU/Linux](https://en.wikipedia.org/wiki/Debian) is a major and widely used [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution). [GNU/Linux](https://en.wikipedia.org/wiki/Linux) is a [Free](https://en.wikipedia.org/wiki/Free_software) and open source [operating system](https://en.wikipedia.org/wiki/Operating_system).
 
-**[Download ISO (64-bit)](live-image-amd64.hybrid.iso)**
+**[Download ISO (64-bit)](https://github.com/nodiscc/dbu/releases)**
 
- * Runs as a Live system or as an offline installer
- * Preinstalled software, preconfigured for desktop machines
- * Based on Debian 8 Jessie (stable Debian release).
+ * Run as a Live system from USB/DVD, or as an installer (works offline).
+ * Preinstalled software, preconfigured for desktop machines.
+ * Based on Debian 8 Jessie (_stable_ Debian release).
 
 ![](doc/screenshot-main.png)
 
@@ -32,7 +32,7 @@ Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
  * [Contributing](doc/contributing.md)
 
 
-
 ### License
 
-[GNU GPLv3](LICENSE). Documentation under [CreativeCommons Attribution-ShareAlike](LICENSE)
+[GNU GPLv3](LICENSE) unless stated otherwise in each individual file.  
+Documentation under [CreativeCommons Attribution-ShareAlike](LICENSE).
