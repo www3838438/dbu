@@ -6,7 +6,7 @@ Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
 
 **[Download ISO (64-bit)](https://github.com/nodiscc/dbu/releases)**
 
- * Run as a Live system from USB/DVD, or as an installer (works offline).
+ * Run as a Live system from [USB](https://en.wikipedia.org/wiki/Live_USB)/[DVD](https://en.wikipedia.org/wiki/Live_CD) (runs from memory, no installation required), or install the OS to your machine (works offline).
  * Preinstalled software, preconfigured for desktop machines.
  * Based on Debian 8 Jessie (_stable_ Debian release).
 
