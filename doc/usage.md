@@ -4,7 +4,7 @@
  * Use the `Help` menu inside programs.
  * [More documentation](#more-documentation)
 
-_Note: The user account created during installation will have `sudo` administrator access (this account can perform administrator tasks, after password verification)
+_Note: The user account created during installation will have `sudo` administrator access (this account can perform administrator tasks, after password verification)_
  
 -------------------------------------------
 
