@@ -38,7 +38,14 @@
   ☐ [feature] New Thunar UCA: edit text files as root
   ☐ [enh] [security] setup SELinux
   ☐ [enh] Better GRUB look and bootsplash: add pylmouth + debian-logo plymouth theme, add wallpaper in grub's dir, add `splash` to `\/etc\/default\/grub` options, and make sure `update-grub` runs during the build.
-
+  ☐ some settings are hardcoded to french
+      https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/locale.gen (generated locales)
+      https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/skel/.config/Thunar/uca.xml (UCAs cannot be localized)
+      https://github.com/nodiscc/dbu/blob/master/auto/config (default locale for live system)
+      https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/icedove/pref/icedove.js (dictionary language)
+      https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/default/keyboard (keyboard layout
+      https://github.com/nodiscc/dbu/blob/master/config/archives/debian-jessie.list.binary (live system debian mirrors location)
+      https://github.com/nodiscc/dbu/blob/master/config/includes.installer/preseed.cfg (installer debian mirrors location)
 
 
 
