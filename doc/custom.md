@@ -51,6 +51,6 @@ live-build ignores lines starting with `#` in package lists. Additional data in 
 
 ### Changing the locale/language
 
-The live system is built with `fr_FR.UTF_8` (french) as default locale. If you want to define the locale to english at boot time, while on the syslinux (boot) menu, hightlight the `Live (amd64)` entry, press the TAB key, and replace `locale=fr_FR.UTF` with `locale=en_US.UTF-8` and press Enter.
+The live system is built with `fr_FR.UTF_8` (french) as default locale. If you want to define the locale to english at boot time, while on the syslinux (boot) menu, hightlight the `Live (amd64)` entry, press the TAB key, and replace `locale=fr_FR.UTF-8` with `locale=en_US.UTF-8` and press Enter.
 
 Not that only these 2 locales (english and french) are pre-generated, other languages have to be manually added to the build configuration, and the ISO rebuilt.
