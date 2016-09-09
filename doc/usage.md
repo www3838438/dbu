@@ -8,6 +8,14 @@ _Note: The user account created during installation will have `sudo` administrat
  
 -------------------------------------------
 
+ * [Configuration](#configuration)
+ * [Running programs and working with files](#running-programs-and-working-with-files)
+ * [Installing/removing/updating software](#installingremovingupdating-software)
+ * [Maintenance](#maintenance)
+ * [Security](#security)
+ 
+-------------------------------------------
+
 #### Configuration
 
 Use the `Settings manager` to configure your desktop or `Options`/`Preferences` inside applications menus.  
