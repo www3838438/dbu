@@ -8,6 +8,6 @@ Icon=gnome-app-install
 Tryexec=dbu-setup-assistant
 Exec=dbu-setup-assistant
 StartupNotify=true
-Terminal=true
+Terminal=false
 Categories=System
 NoDisplay=true

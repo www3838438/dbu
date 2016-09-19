@@ -150,8 +150,12 @@ packageschroot:
 	wget --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1_amd64.deb
 	wget --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1.dsc
 	wget --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1.orig.tar.gz
-
-
+	#wget --directory-prefix=config/packages.chroot/ http://downloads.lwks.com/lwks-12.6.0-amd64.deb
+	#wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0.orig.tar.bz2
+	#wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0-0ppa1~yakkety1_i386.deb
+	#wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0-0ppa1~yakkety1_amd64.deb
+	#wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0-0ppa1~yakkety1.dsc
+	#wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0-0ppa1~yakkety1.debian.tar.xz
 
 
 # download pidgin plugins
