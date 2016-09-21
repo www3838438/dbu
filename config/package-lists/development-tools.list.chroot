@@ -79,7 +79,6 @@ live-images
 #libfile-fcntllock-perl
 #libalgorithm-merge-perl
 
-
 # Ruby/Node/Webdev/other
 rubygems
 ruby-dev
@@ -99,10 +98,12 @@ sqlitebrowser
 webcheck
 php5-cli
 
+
 # Security/sandboxing
 #firejail #stretch only
-#xpra
+xpra
 #xephyr
+rinse
 
 #Alt: txt2tags
 #Alt: geany
