@@ -52,6 +52,7 @@ gnome-audio
 clearlooks-phenix-theme
 gnome-themes-standard
 #arc-theme #stretch only
+sound-theme-freedesktop
 
 # Utilities
 gmrun
