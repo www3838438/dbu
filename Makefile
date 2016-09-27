@@ -137,7 +137,7 @@ packageschroot:
 	wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r569~daily~ubuntu16.04.1.tar.xz
 	wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r569~daily~ubuntu16.04.1_all.deb
 	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/arc-theme_1465131682.3095952_all.deb
-	#wget --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/arc-theme-solid_1465131682.3095952_all.deb
+	#wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/arc-theme-solid_1465131682.3095952_all.deb
 	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/ceti-2-theme_1442961272.9fe3d9f_all.deb
 	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/vertex-theme_1459280359.d828032_all.deb
 	wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/mank319/go-for-it/ubuntu/pool/main/g/go-for-it/go-for-it_1.4.7-0~142~ubuntu16.10.1_i386.deb
@@ -152,13 +152,27 @@ packageschroot:
 	wget -N --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1_amd64.deb
 	wget -N --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1.dsc
 	wget -N --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1.orig.tar.gz
-	#wget --directory-prefix=config/packages.chroot/ http://downloads.lwks.com/lwks-12.6.0-amd64.deb
-	#wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0.orig.tar.bz2
-	#wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0-0ppa1~yakkety1_i386.deb
-	#wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0-0ppa1~yakkety1_amd64.deb
-	#wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0-0ppa1~yakkety1.dsc
-	#wget --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0-0ppa1~yakkety1.debian.tar.xz
-
+	#wget -N --directory-prefix=config/packages.chroot/ http://downloads.lwks.com/lwks-12.6.0-amd64.deb
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0.orig.tar.bz2
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0-0ppa1~yakkety1_i386.deb
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0-0ppa1~yakkety1_amd64.deb
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0-0ppa1~yakkety1.dsc
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/gottcode/gcppa/ubuntu/pool/main/k/kapow/kapow_1.5.0-0ppa1~yakkety1.debian.tar.xz
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu/pool/main/s/sublime-text-installer/sublime-text-installer_3114-2~webupd8~0.dsc
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu/pool/main/s/sublime-text-installer/sublime-text-installer_3114-2~webupd8~0.tar.gz
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu/pool/main/s/sublime-text-installer/sublime-text-installer_3114-2~webupd8~0_all.deb
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/obsproject/obs-studio/ubuntu/pool/main/o/obs-studio/obs-studio_0.15.4-488~xenial.diff.gz
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/obsproject/obs-studio/ubuntu/pool/main/o/obs-studio/obs-studio_0.15.4-488~xenial.dsc
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/obsproject/obs-studio/ubuntu/pool/main/o/obs-studio/obs-studio_0.15.4-488~xenial_amd64.deb
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/obsproject/obs-studio/ubuntu/pool/main/o/obs-studio/obs-studio_0.15.4-488~xenial_i386.deb
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/obsproject/obs-studio/ubuntu/pool/main/o/obs-studio/obs-studio_0.15.4.orig.tar.gz
+	wget -N --directory-prefix=config/packages.chroot/ https://github.com/feross/webtorrent-desktop/releases/download/v0.17.0/webtorrent-desktop_0.17.0-1_amd64.deb
+	#wget -N --directory-prefix=config/packages.chroot/ https://github.com/feross/webtorrent-desktop/releases/download/v0.17.0/webtorrent-desktop_0.17.0-1_i386.deb
+	#wget -N --directory-prefix=config/packages.chroot/ https://github.com/dyson/indicator-workspaces/releases/download/v0.5/indicator-workspaces_0.5_all.deb
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/tsbarnes/indicator-keylock/ubuntu/pool/main/i/indicator-keylock/indicator-keylock_3.0.2-0~ppa1_i386.deb
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/tsbarnes/indicator-keylock/ubuntu/pool/main/i/indicator-keylock/indicator-keylock_3.0.2-0~ppa1_amd64.deb
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/tsbarnes/indicator-keylock/ubuntu/pool/main/i/indicator-keylock/indicator-keylock_3.0.2-0~ppa1.tar.xz
+	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/tsbarnes/indicator-keylock/ubuntu/pool/main/i/indicator-keylock/indicator-keylock_3.0.2-0~ppa1.dsc
 
 # download pidgin plugins
 purpleplugins:

@@ -13,6 +13,7 @@ inxi
 lsof
 strace
 memtest86+
+screenfetch
 
 #Alt: gnome-system-monitor
 #Alt: glances
