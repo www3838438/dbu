@@ -16,6 +16,7 @@ chroot.packages.live
 live-image-amd64.contents
 live-image-amd64.files
 live-image-amd64.hybrid.iso.zsync
+live-image-amd64.hybrid.iso
 live-image-amd64.packages
 config/includes.chroot/etc/skel/.conky/
 config/includes.chroot/etc/skel/.nano
