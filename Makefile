@@ -110,6 +110,8 @@ tbaddons:
 
 
 #download non-debian chroot packages
+#needs to be updated manually when versions change
+#go to the directory containing the remote .deb and update accordingly
 packageschroot:
 	-mkdir -pv config/packages.chroot
 	
@@ -120,10 +122,10 @@ packageschroot:
 	wget -N --directory-prefix=config/packages.chroot/ http://cz.archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0.orig.tar.bz2
 	
 	# https://github.com/dequis/purple-facebook/wiki
-	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/amd64/purple-facebook_20160409~2a24dff~66ee77378d82~110_amd64.deb
-	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/i386/purple-facebook_20160409~2a24dff~66ee77378d82~110_i386.deb
-	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20160409~2a24dff~66ee77378d82~110.dsc
-	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20160409~2a24dff~66ee77378d82~110.tar.gz
+	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/amd64/purple-facebook_20160920~b2f1230~66ee77378d82~116_amd64.deb
+	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/i386/purple-facebook_20160920~b2f1230~66ee77378d82~116_i386.deb
+	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20160920~b2f1230~66ee77378d82~116.tar.gz
+	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20160920~b2f1230~66ee77378d82~116.dsc
 	
 	# https://github.com/MrS0m30n3/youtube-dl-gui/releases
 	wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8-1~webupd8~xenial3.debian.tar.xz
