@@ -18,6 +18,7 @@ rsync
 #Alt: ntopng
 #Alt: iftop
 #Alt: iptraf
+#Alt: iptraf-ng
 #Alt: ntop
 #Alt: nmon
 #Alt: nethogs
@@ -32,3 +33,5 @@ rsync
 #Alt: lftp
 #Alt: plowshare
 #Alt: btfs
+#Alt: fping
+#Alt: gwakeonlan

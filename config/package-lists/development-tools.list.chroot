@@ -38,6 +38,8 @@ inotify-tools
 pastebinit
 #incron
 #faker
+#bootchart
+#pybootchartgui
 
 # Parsers/converters
 pandoc

@@ -134,6 +134,11 @@ plymouth-themes
 #Alt: xfce4-appfinder
 #Alt: rofi
 #Alt: tango-icon-theme
+#Alt: espeak
+#Alt: pocketsphinx
+#Alt: gespeaker
+#Alt: festival
+#Alt: espeak-gui
 
 #Cat: Utility
 #Res: http://docs.xfce.org/

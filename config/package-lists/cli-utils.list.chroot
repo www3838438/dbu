@@ -21,5 +21,7 @@ manpages-fr
 #Alt: cowsay
 #Alt: fortune
 #Alt: ack-grep
+#Alt: reptyr
+#Alt: grc
 
 #Cat: Utility

@@ -10,8 +10,6 @@ nikto
 nmap
 zmap
 hydra
-#hashcat
-#hashcat-data
 prads
 wireshark
 mitmproxy
@@ -70,8 +68,10 @@ putty-tools
 #Alt: zenmap
 #Alt: hydra-gtk
 #Alt: macchanger-gtk
+#Alt: arpwatch
 #Alt: netperf
 #Alt: iperf
+#Alt: prips
 #Alt: udhcpd
 #Alt: privoxy
 #Alt: torbrowser-launcher
@@ -80,8 +80,12 @@ putty-tools
 #Alt: gstm
 #Alt: usbip
 #Alt: ophcrack
+#Alt: hashcat
+#Alt: hashcat-data
 #Alt: masscan
 #Alt: tcpstat
 #Alt: ifstat
+#Alt: knockd
+#Alt: autossh
 
 #Res: http://xmodulo.com/useful-command-line-network-monitors-linux.html

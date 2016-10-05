@@ -7,6 +7,7 @@ libav-tools
 mediainfo
 media-player-info
 moc
+moc-ffmpeg-plugin
 xdotool
 
 #Alt: mpg123

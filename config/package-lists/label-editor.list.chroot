@@ -5,6 +5,10 @@
 glabels
 
 #Alt: qrencode
+#Alt: qtqr
+#Alt: zbar-tools
+#Alt: zoneminder
+#Alt: cameramonitor
 
 #Cat: Graphics
 #Cat: Office

@@ -29,6 +29,7 @@ ncdu
 #Alt: cryptkeeper
 #Alt: ecryptfs-utils
 #Alt: zulucrypt
+#Alt: disk-manager
 
 #Cat: System
 #Cat: Utility
