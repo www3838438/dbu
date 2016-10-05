@@ -12,7 +12,7 @@ github-backup
 gource
 myrepos
 shellcheck
-ghi
+#ghi #stretch/sid only
 
 # Viz/Editors/Tools
 colordiff
