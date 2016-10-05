@@ -22,7 +22,6 @@
   ☐ [bug] [l10n] re-add icedove-l10n-fr
   ☐ [debian] package unpackaged software for debian, see https://github.com/nodiscc/dbu-deb-packages
   ☐ [maint] remove gksu - gdebi still needs it - http://forums.debian.net/viewtopic.php?f=16&t=73497
-  ☐ [enh] makefile: use shallow git clones (saves disk space, faster download)
   ☐ [enh] mousepad: add config (path?)
   ☐ [enh] onboard: add config (dconf)
   ☐ [enh] [live] add persistence http://live.debian.net/manual/stable/html/live-manual/customizing-run-time-behaviours#persistence

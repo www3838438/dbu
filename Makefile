@@ -232,18 +232,18 @@ purpleplugins:
 themes:
 	-rm -rf config/includes.chroot/usr/share/themes/
 	mkdir -pv config/includes.chroot/usr/share/themes/
-	git clone https://github.com/shimmerproject/Albatross config/includes.chroot/usr/share/themes/Albatross
-	git clone https://github.com/shimmerproject/Blackbird config/includes.chroot/usr/share/themes/Blackbird
-	git clone https://github.com/shimmerproject/Bluebird config/includes.chroot/usr/share/themes/Bluebird
-	git clone https://github.com/shimmerproject/Greybird config/includes.chroot/usr/share/themes/Greybird
-	git clone https://github.com/shimmerproject/Numix config/includes.chroot/usr/share/themes/Numix
-	git clone https://github.com/shimmerproject/Orion config/includes.chroot/usr/share/themes/Orion
-	git clone https://github.com/satya164/Evolve config/includes.chroot/usr/share/themes/Evolve
-	git clone https://github.com/xyl0n/iris config/includes.chroot/usr/share/themes/iris
-	git clone https://github.com/xyl0n/iris-light config/includes.chroot/usr/share/themes/iris-light
-	git clone https://github.com/BunsenLabs/deb8-theme config/includes.chroot/usr/share/themes/deb8
+	git clone --depth=1 https://github.com/shimmerproject/Albatross config/includes.chroot/usr/share/themes/Albatross
+	git clone --depth=1 https://github.com/shimmerproject/Blackbird config/includes.chroot/usr/share/themes/Blackbird
+	git clone --depth=1 https://github.com/shimmerproject/Bluebird config/includes.chroot/usr/share/themes/Bluebird
+	git clone --depth=1 https://github.com/shimmerproject/Greybird config/includes.chroot/usr/share/themes/Greybird
+	git clone --depth=1 https://github.com/shimmerproject/Numix config/includes.chroot/usr/share/themes/Numix
+	git clone --depth=1 https://github.com/shimmerproject/Orion config/includes.chroot/usr/share/themes/Orion
+	git clone --depth=1 https://github.com/satya164/Evolve config/includes.chroot/usr/share/themes/Evolve
+	git clone --depth=1 https://github.com/xyl0n/iris config/includes.chroot/usr/share/themes/iris
+	git clone --depth=1 https://github.com/xyl0n/iris-light config/includes.chroot/usr/share/themes/iris-light
+	git clone --depth=1 https://github.com/BunsenLabs/deb8-theme config/includes.chroot/usr/share/themes/deb8
 
-	git clone https://github.com/lassekongo83/zuki-themes tmp-zuki-themes
+	git clone --depth=1 https://github.com/lassekongo83/zuki-themes tmp-zuki-themes
 	mv tmp-zuki-themes/Zukitre tmp-zuki-themes/Zukitwo config/includes.chroot/usr/share/themes/
 	rm -rf tmp-zuki-themes
 
@@ -251,12 +251,12 @@ themes:
 dotfiles:
 	-rm -rf config/includes.chroot/etc/skel/.nano config/includes.chroot/etc/skel/.conky config/includes.chroot/etc/firefox config/includes.chroot/usr/share/fonts/
 	-mkdir -pv config/includes.chroot/etc/skel/ config/includes.chroot/etc/firefox/
-	git clone https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
-	git clone --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky
-	git clone -b dbu https://github.com/nodiscc/user.js config/includes.chroot/etc/firefox/
-	git clone https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
+	git clone --depth=1 https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
+	git clone --depth=1 --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky
+	git clone -b dbu --depth=1 https://github.com/nodiscc/user.js config/includes.chroot/etc/firefox/
+	git clone --depth=1 https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
 	
-	git clone https://github.com/az0/cleanerml/ tmp-cleanerml
+	git clone --depth=1 https://github.com/az0/cleanerml/ tmp-cleanerml
 	-rm -rf config/includes.chroot/usr/share/bleachbit/
 	mkdir -p config/includes.chroot/usr/share/bleachbit/
 	mv tmp-cleanerml/release config/includes.chroot/usr/share/bleachbit/cleaners
