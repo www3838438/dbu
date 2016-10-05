@@ -2,9 +2,9 @@
 
  * You must build from the same distribution as the target distribution (build *stable* systems on a build machine running Debian *stable*, *testing* systems on a machine running Debian *testing*...)
  * [`live-build`](https://www.debian.org/devel/debian-live/) is used to build the live system/installer/ISO image.
+ * Install the `make` and `git` packages.
  * Run `git clone https://github.com/nodiscc/dbu`
- * Install the `live-build make build-essential wget git xmlstarlet unzip` packages.
- * Build dependencies are downloaded and setup from the [`Makefile`](../Makefile). To run the build process with the default configuration, run `make all` from the root of this repository.
+ * To run the build process with the default configuration, run `make all` from the root of the git repository.
 
 
 ```
@@ -31,6 +31,25 @@ DIRECTORIES
 * [`man lb clean`](https://manpages.debian.org/cgi-bin/man.cgi?query=lb_clean&sektion=1&apropos=0&manpath=Debian+8+jessie&locale=)
 * [`man lb config`](https://manpages.debian.org/cgi-bin/man.cgi?query=lb_config&sektion=1&apropos=0&manpath=Debian+8+jessie&locale=)
 * [`man lb build`](https://manpages.debian.org/cgi-bin/man.cgi?query=lb_build&sektion=1&apropos=0&manpath=Debian+8+jessie&locale=)
+
+
+#### Makefile
+
+The following targets are available:
+
+make all: perform all build steps
+make buildenv: install build tools
+make clean:
+make update:
+    make ffaddons:
+    make tbaddons:
+    make packageschroot:
+    make purpleplugins:
+    make themes:
+    make dotfiles:
+make xpi:
+make documentation:
+make lbbuild:
 
 
 ##### config/includes.chroot/
