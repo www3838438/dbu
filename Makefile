@@ -140,6 +140,7 @@ packageschroot:
 	wget -N --directory-prefix=config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1.orig.tar.gz
 	
 	# https://github.com/feross/webtorrent-desktop/
+	#TODO: host prevents getting content-length and cause subsequent downloads to fail. ignore errors?
 	wget -N --directory-prefix=config/packages.chroot/ https://github.com/feross/webtorrent-desktop/releases/download/v0.17.0/webtorrent-desktop_0.17.0-1_amd64.deb
 	wget -N --directory-prefix=config/packages.chroot/ https://github.com/feross/webtorrent-desktop/releases/download/v0.17.0/webtorrent-desktop_0.17.0-1_i386.deb
 	
@@ -202,7 +203,7 @@ packageschroot:
 	wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1_all.deb
 	
 	# https://github.com/snwh/paper-cursor-theme
-	wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-cursor-theme_1.3+r569~daily~ubuntu16.04.1_all.deb
+	wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-cursor-theme_1.3+r620~daily~ubuntu16.04.1_all.deb
 	
 	# https://github.com/snwh/paper-icon-theme
 	wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r620~daily~ubuntu16.04.1.dsc
