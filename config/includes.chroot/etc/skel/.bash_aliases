@@ -24,6 +24,7 @@ alias bak='cp -v "$1" "$1.`date +%Y-%m-%d_%H-%M-%S`.bak"' #Backup specified file
 alias chx='chmod a+x' #set execute permission
 alias clipboard='xclip -selection c; notify-send --icon=gtk-paste "Copied to clipboard." 2>/dev/null' #send a command output to clipboard
 alias timestamp='date +"%Y-%m-%d_%H%M%S"'
+alias bman='man --html=x-www-browser'
 
 function f { #find files
     find ./ -name "*$1*"
