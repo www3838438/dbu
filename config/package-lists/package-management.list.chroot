@@ -8,7 +8,7 @@ synaptic
 deborphan
 software-properties-gtk
 unattended-upgrades
-apt-listbugs
+#apt-listbugs #disabled, breaks unattended upgrades in synaptic
 apt-listchanges
 debconf-utils
 gdebi
