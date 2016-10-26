@@ -51,6 +51,11 @@ function _dbuAptUpgrade() {
     pkexec aptitude -y upgrade | while read line; do echo "#$line" | cut --characters=-70; done |  zenity --progress --pulsate --text="Upgrading installed packages..." --title="Upgrading installed packages..." --auto-close --width=400
     }
 
+
+function _dbuRemoveAutostartEntry() {
+    rm ~/.config/autostart/dbu-setup.desktop
+}
+
 ############################################
 
 function _dbuSetupDialog {
@@ -106,4 +111,4 @@ function _dbuSetupDialog {
 _dbuCheckInetAccess
 _dbuSetupDialog
 _dbuAddUpdateCrontab
-
+_dbuRemoveAutostartEntry
