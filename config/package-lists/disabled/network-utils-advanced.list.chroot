@@ -87,5 +87,7 @@ putty-tools
 #Alt: ifstat
 #Alt: knockd
 #Alt: autossh
+#Alt: logkeys
+#Alt: steghide
 
 #Res: http://xmodulo.com/useful-command-line-network-monitors-linux.html
