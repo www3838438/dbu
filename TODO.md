@@ -10,6 +10,7 @@
   ☐ [bug] [firefox] remove firefox default first run page (firefox accounts)
   ☐ [bug] [firefox] customize/reorganize UI elements (localstore.rdf)
   ☐ [enh] [security] [firefox] add mozilla-gnome-keyring addon
+  ☐ [enh] disable non-free repositories, fetch firmware with wget/makefile target before build (branch no-nonfree)
   ☐ [enh] setup assistant: select keyboard layout
   ☐ [enh] keyboard-configuration interrupts unattended chroot build
   ☐ [enh] setup assistant: prevent from running in live mode?
