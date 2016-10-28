@@ -11,6 +11,7 @@
   ☐ [bug] [firefox] customize/reorganize UI elements (localstore.rdf)
   ☐ [enh] [security] [firefox] add mozilla-gnome-keyring addon
   ☐ [enh] setup assistant: select keyboard layout
+  ☐ [enh] keyboard-configuration interrupts unattended chroot build
   ☐ [enh] setup assistant: prevent from running in live mode?
   ☐ [enh] autostart: conky/clock
   ☐ [enh] show calendar when clicking on panel clock
