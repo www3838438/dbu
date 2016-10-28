@@ -45,10 +45,10 @@ function _dbuAddUpdateCrontab() {
 
 function _dbuAptUpgrade() {
     #aptitude update, upgrade
-    pkexec aptitude update | while read line; do echo "#$line" | cut --characters=-70; done |  zenity --progress --pulsate --text="Updating package lists..." --title="Updating package lists..." --auto-close --width=400
-    num_upgrades_avail=$(aptitude search ~U | wc -l)
+    pkexec aptitude update | while read -r line; do echo "#$line" | cut --characters=-70; done |  zenity --progress --pulsate --text="Updating package lists..." --title="Updating package lists..." --auto-close --width=400
+    #num_upgrades_avail=$(aptitude search ~U | wc -l)
     export APT_LISTBUGS_FRONTEND=none #required else apt-listbugs blocks the upgrade, even with -y
-    pkexec aptitude -y upgrade | while read line; do echo "#$line" | cut --characters=-70; done |  zenity --progress --pulsate --text="Upgrading installed packages..." --title="Upgrading installed packages..." --auto-close --width=400
+    pkexec aptitude -y upgrade | while read -r line; do echo "#$line" | cut --characters=-70; done |  zenity --progress --pulsate --text="Upgrading installed packages..." --title="Upgrading installed packages..." --auto-close --width=400
     }
 
 
