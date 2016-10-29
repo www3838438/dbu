@@ -23,4 +23,4 @@ to give a high degree of accuracy.
 
 ### Related packages
 
-<sub> [qalculate](https://packages.debian.org/jessie/qalculate)  </sub>
+<sub> [qalculate](https://packages.debian.org/jessie/qalculate) [num-utils](https://packages.debian.org/jessie/num-utils) [speedcrunch](https://packages.debian.org/jessie/speedcrunch) [gbase](https://packages.debian.org/jessie/gbase) [graphmonkey](https://packages.debian.org/jessie/graphmonkey)  </sub>

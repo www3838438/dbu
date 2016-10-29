@@ -38,4 +38,4 @@ types of input, such as .doc or .txt.gz files.
 
 ### Related packages
 
-<sub> [detox](https://packages.debian.org/jessie/detox) [tmux](https://packages.debian.org/jessie/tmux) [command-not-found](https://packages.debian.org/jessie/command-not-found) [ttyrec](https://packages.debian.org/jessie/ttyrec) [multitail](https://packages.debian.org/jessie/multitail) [cowsay](https://packages.debian.org/jessie/cowsay) [fortune](https://packages.debian.org/jessie/fortune) [ack-grep](https://packages.debian.org/jessie/ack-grep)  </sub>
+<sub> [detox](https://packages.debian.org/jessie/detox) [tmux](https://packages.debian.org/jessie/tmux) [command-not-found](https://packages.debian.org/jessie/command-not-found) [ttyrec](https://packages.debian.org/jessie/ttyrec) [multitail](https://packages.debian.org/jessie/multitail) [cowsay](https://packages.debian.org/jessie/cowsay) [fortune](https://packages.debian.org/jessie/fortune) [ack-grep](https://packages.debian.org/jessie/ack-grep) [reptyr](https://packages.debian.org/jessie/reptyr) [grc](https://packages.debian.org/jessie/grc)  </sub>

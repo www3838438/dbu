@@ -51,4 +51,4 @@ baobab/)
 
 ### Related packages
 
-<sub> [gdmap](https://packages.debian.org/jessie/gdmap) [cfdisk](https://packages.debian.org/jessie/cfdisk) [pmount](https://packages.debian.org/jessie/pmount) [cryptkeeper](https://packages.debian.org/jessie/cryptkeeper) [ecryptfs-utils](https://packages.debian.org/jessie/ecryptfs-utils) [zulucrypt](https://packages.debian.org/jessie/zulucrypt)  </sub>
+<sub> [gdmap](https://packages.debian.org/jessie/gdmap) [cfdisk](https://packages.debian.org/jessie/cfdisk) [pmount](https://packages.debian.org/jessie/pmount) [cryptkeeper](https://packages.debian.org/jessie/cryptkeeper) [ecryptfs-utils](https://packages.debian.org/jessie/ecryptfs-utils) [zulucrypt](https://packages.debian.org/jessie/zulucrypt) [disk-manager](https://packages.debian.org/jessie/disk-manager)  </sub>

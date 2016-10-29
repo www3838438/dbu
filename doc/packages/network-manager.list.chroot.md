@@ -34,4 +34,4 @@ and it can optionally store them in the gnome-keyring.
 
 ### Related packages
 
-<sub> [wicd](https://packages.debian.org/jessie/wicd) [connman](https://packages.debian.org/jessie/connman) [connman-ui](https://packages.debian.org/jessie/connman-ui) [cmst](https://packages.debian.org/jessie/cmst) [wicd-curses](https://packages.debian.org/jessie/wicd-curses) [wpagui](https://packages.debian.org/jessie/wpagui) [network-manager-ssh](https://packages.debian.org/jessie/network-manager-ssh)  </sub>
+<sub> [wicd](https://packages.debian.org/jessie/wicd) [connman](https://packages.debian.org/jessie/connman) [connman-ui](https://packages.debian.org/jessie/connman-ui) [cmst](https://packages.debian.org/jessie/cmst) [wicd-curses](https://packages.debian.org/jessie/wicd-curses) [wpagui](https://packages.debian.org/jessie/wpagui) [network-manager-ssh](https://packages.debian.org/jessie/network-manager-ssh) [efax-gtk](https://packages.debian.org/jessie/efax-gtk) [wammu](https://packages.debian.org/jessie/wammu)  </sub>

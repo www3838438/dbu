@@ -56,7 +56,7 @@ standard tools for this.
 * [unace](https://packages.debian.org/jessie/unace) - extract, test and view .ace archives
 * [unalz](https://packages.debian.org/jessie/unalz) - De-archiver for .alz files
 * [unrar-free](https://packages.debian.org/jessie/unrar-free) - Unarchiver for .rar files
-* [rar](https://packages.debian.org/jessie/rar) - Archiver for .rar files
+* [rar](https://packages.debian.org/jessie/rar) - 
 * [unzip](https://packages.debian.org/jessie/unzip) - De-archiver for .zip files
 * [zip](https://packages.debian.org/jessie/zip) - Archiver for .zip files
 * [gzrt](https://packages.debian.org/jessie/gzrt) - gzip recovery toolkit

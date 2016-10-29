@@ -25,4 +25,4 @@ application.
 
 ### Related packages
 
-<sub> [alarm-clock](https://packages.debian.org/jessie/alarm-clock) [xfce4-timer-plugin](https://packages.debian.org/jessie/xfce4-timer-plugin) [gtimer](https://packages.debian.org/jessie/gtimer)  </sub>
+<sub> [alarm-clock](https://packages.debian.org/jessie/alarm-clock) [xfce4-timer-plugin](https://packages.debian.org/jessie/xfce4-timer-plugin) [gtimer](https://packages.debian.org/jessie/gtimer) [stopwatch](https://packages.debian.org/jessie/stopwatch)  </sub>

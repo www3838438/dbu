@@ -12,19 +12,6 @@ extensions.
 
 The goal of Icedove is to produce a cross platform standalone mail application
 using the XUL user interface language.
-Icedove is an unbranded Thunderbird mail client suitable for free
-distribution. It supports different mail accounts (POP, IMAP, Gmail), has an
-integrated learning Spam filter, and offers easy organization of mails with
-tagging and virtual folders. Also, more features can be added by installing
-extensions.
-
-The goal of Icedove is to produce a cross platform standalone mail application
-using the XUL user interface language.
-Iceowl Extension is an unbranded Lightning Calendar extension for
-Thunderbird/Icedove. It can handle events, event invitations and
-tasks in multiple calendars.
-
-It supports local calendars, CalDAV and plain ics files on WebDAV.
 Iceowl Extension is an unbranded Lightning Calendar extension for
 Thunderbird/Icedove. It can handle events, event invitations and
 tasks in multiple calendars.
@@ -37,8 +24,7 @@ It supports local calendars, CalDAV and plain ics files on WebDAV.
 iceowl-extension/)
 
 
- **[Homepage](http://www.mozilla.org/thunderbird/
-http://www.mozilla.org/thunderbird/)**
+ **[Homepage](http://www.mozilla.org/thunderbird/)**
 
 ### Installed packages
 

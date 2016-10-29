@@ -28,10 +28,11 @@ libsox-fmt-pulse). It also supports LADSPA plugins.
 ### Installed packages
 
 * [sox](https://packages.debian.org/jessie/sox) - Swiss army knife of sound processing
-* [libav-tools](https://packages.debian.org/jessie/libav-tools) - Multimedia player, encoder and transcoder
+* [libav-tools](https://packages.debian.org/jessie/libav-tools) - Compatibility links for libav-tools (transitional package)
 * [mediainfo](https://packages.debian.org/jessie/mediainfo) - command-line utility for reading information from audio/video files
 * [media-player-info](https://packages.debian.org/jessie/media-player-info) - Media player identification files
 * [moc](https://packages.debian.org/jessie/moc) - ncurses based console audio player
+* [moc-ffmpeg-plugin](https://packages.debian.org/jessie/moc-ffmpeg-plugin) - ncurses based console audio player - ffmpeg plugin
 * [xdotool](https://packages.debian.org/jessie/xdotool) - simulate (generate) X11 keyboard/mouse input events
 
 ### Related packages

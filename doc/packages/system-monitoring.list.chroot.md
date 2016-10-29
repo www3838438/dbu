@@ -31,6 +31,7 @@ written for Xfce. It's features include:
 * [lsof](https://packages.debian.org/jessie/lsof) - Utility to list open files
 * [strace](https://packages.debian.org/jessie/strace) - System call tracer
 * [memtest86+](https://packages.debian.org/jessie/memtest86+) - thorough real-mode memory tester
+* [screenfetch](https://packages.debian.org/jessie/screenfetch) - Bash Screenshot Information Tool
 
 ### Related packages
 

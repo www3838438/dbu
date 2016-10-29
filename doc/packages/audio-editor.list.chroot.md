@@ -25,4 +25,4 @@ Supported file formats include Ogg Vorbis, MP2, MP3, WAV, AIFF, and AU.
 
 ### Related packages
 
-<sub>  </sub>
+<sub> [minidisc-utils](https://packages.debian.org/jessie/minidisc-utils) [qhimdtransfer](https://packages.debian.org/jessie/qhimdtransfer) [gwc](https://packages.debian.org/jessie/gwc)  </sub>

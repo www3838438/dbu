@@ -25,4 +25,4 @@ This package provides GTK+ integration.
 
 ### Related packages
 
-<sub>  </sub>
+<sub> [workrave](https://packages.debian.org/jessie/workrave)  </sub>

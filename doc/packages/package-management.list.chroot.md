@@ -32,7 +32,6 @@ software-properties-gtk/)
 * [deborphan](https://packages.debian.org/jessie/deborphan) - program that can find unused packages, e.g. libraries
 * [software-properties-gtk](https://packages.debian.org/jessie/software-properties-gtk) - manage the repositories that you install software from (gtk)
 * [unattended-upgrades](https://packages.debian.org/jessie/unattended-upgrades) - automatic installation of security upgrades
-* [apt-listbugs](https://packages.debian.org/jessie/apt-listbugs) - tool which lists critical bugs before each APT installation
 * [apt-listchanges](https://packages.debian.org/jessie/apt-listchanges) - package change history notification tool
 * [debconf-utils](https://packages.debian.org/jessie/debconf-utils) - debconf utilities
 * [gdebi](https://packages.debian.org/jessie/gdebi) - simple tool to view and install deb files - GNOME GUI

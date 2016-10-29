@@ -88,6 +88,8 @@ It currently features:
 * [sqlitebrowser](https://packages.debian.org/jessie/sqlitebrowser) - GUI editor for SQLite databases
 * [webcheck](https://packages.debian.org/jessie/webcheck) - website link and structure checker
 * [php5-cli](https://packages.debian.org/jessie/php5-cli) - command-line interpreter for the php5 scripting language
+* [xpra](https://packages.debian.org/jessie/xpra) - tool to detach/reattach running X programs
+* [rinse](https://packages.debian.org/jessie/rinse) - RPM installation environment
 
 ### Related packages
 

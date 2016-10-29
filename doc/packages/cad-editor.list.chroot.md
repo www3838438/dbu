@@ -22,4 +22,4 @@ diagrams.
 
 ### Related packages
 
-<sub> [eagle](https://packages.debian.org/jessie/eagle) [kicad](https://packages.debian.org/jessie/kicad) [freecad](https://packages.debian.org/jessie/freecad)  </sub>
+<sub> [eagle](https://packages.debian.org/jessie/eagle) [kicad](https://packages.debian.org/jessie/kicad) [freecad](https://packages.debian.org/jessie/freecad) [pcb-gtk](https://packages.debian.org/jessie/pcb-gtk) [qelectrotech](https://packages.debian.org/jessie/qelectrotech)  </sub>

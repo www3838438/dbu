@@ -69,7 +69,7 @@ Superscript.
 * [fonts-opensymbol](https://packages.debian.org/jessie/fonts-opensymbol) - OpenSymbol TrueType font
 * [fonts-roboto](https://packages.debian.org/jessie/fonts-roboto) - sans-serif font family released with Android Ice Cream Sandwich
 * [fonts-averia-gwf](https://packages.debian.org/jessie/fonts-averia-gwf) - Aver?a GWF font family
-* [ttf-mscorefonts-installer](https://packages.debian.org/jessie/ttf-mscorefonts-installer) - Installer for Microsoft TrueType core fonts
+* [ttf-mscorefonts-installer](https://packages.debian.org/jessie/ttf-mscorefonts-installer) - 
 * [fonts-freefont-ttf](https://packages.debian.org/jessie/fonts-freefont-ttf) - Freefont Serif, Sans and Mono Truetype fonts
 
 ### Related packages

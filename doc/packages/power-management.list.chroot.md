@@ -49,4 +49,4 @@ It features:
 
 ### Related packages
 
-<sub> [toshset](https://packages.debian.org/jessie/toshset) [eeepc-acpi-scripts](https://packages.debian.org/jessie/eeepc-acpi-scripts) [powerdebug](https://packages.debian.org/jessie/powerdebug) [tlp](https://packages.debian.org/jessie/tlp) [powerstat](https://packages.debian.org/jessie/powerstat)  </sub>
+<sub> [toshset](https://packages.debian.org/jessie/toshset) [eeepc-acpi-scripts](https://packages.debian.org/jessie/eeepc-acpi-scripts) [powerdebug](https://packages.debian.org/jessie/powerdebug) [tlp](https://packages.debian.org/jessie/tlp) [powerstat](https://packages.debian.org/jessie/powerstat) [i8kutils](https://packages.debian.org/jessie/i8kutils)  </sub>

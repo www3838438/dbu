@@ -18,20 +18,6 @@ most output methods is provided by this package, but features can be added by
 installing additional plugins (vlc-plugin-fluidsynth, vlc-plugin-jack,
 vlc-plugin-notify, vlc-plugin-samba, vlc-plugin-sdl, vlc-plugin-svg,
 vlc-plugin-zvbi).
-VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
-DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
-podcasts, and multimedia streams from various network sources.
-
-VLC can also be used as a streaming server that duplicates the stream it
-reads and multicasts them through the network to other clients, or serves
-them through HTTP.
-
-VLC has support for on-the-fly transcoding of audio and video formats, either
-for broadcasting purposes or for movie format transformations. Support for
-most output methods is provided by this package, but features can be added by
-installing additional plugins (vlc-plugin-fluidsynth, vlc-plugin-jack,
-vlc-plugin-notify, vlc-plugin-samba, vlc-plugin-sdl, vlc-plugin-svg,
-vlc-plugin-zvbi).
 
 ```
 
@@ -52,4 +38,4 @@ vlc-plugin-zvbi).
 
 ### Related packages
 
-<sub> [mplayer2](https://packages.debian.org/jessie/mplayer2) [gnome-mplayer](https://packages.debian.org/jessie/gnome-mplayer) [smplayer](https://packages.debian.org/jessie/smplayer) [umplayer](https://packages.debian.org/jessie/umplayer) [totem](https://packages.debian.org/jessie/totem) [parole](https://packages.debian.org/jessie/parole) [gnome-dvb-client](https://packages.debian.org/jessie/gnome-dvb-client) [zapping](https://packages.debian.org/jessie/zapping) [freetuxtv](https://packages.debian.org/jessie/freetuxtv) [kodi](https://packages.debian.org/jessie/kodi) [browser-plugin-vlc](https://packages.debian.org/jessie/browser-plugin-vlc) [mpv](https://packages.debian.org/jessie/mpv) [subdownloader](https://packages.debian.org/jessie/subdownloader)  </sub>
+<sub> [mplayer2](https://packages.debian.org/jessie/mplayer2) [gnome-mplayer](https://packages.debian.org/jessie/gnome-mplayer) [smplayer](https://packages.debian.org/jessie/smplayer) [umplayer](https://packages.debian.org/jessie/umplayer) [totem](https://packages.debian.org/jessie/totem) [totem-plugins](https://packages.debian.org/jessie/totem-plugins) [parole](https://packages.debian.org/jessie/parole) [gnome-dvb-client](https://packages.debian.org/jessie/gnome-dvb-client) [zapping](https://packages.debian.org/jessie/zapping) [freetuxtv](https://packages.debian.org/jessie/freetuxtv) [kodi](https://packages.debian.org/jessie/kodi) [browser-plugin-vlc](https://packages.debian.org/jessie/browser-plugin-vlc) [mpv](https://packages.debian.org/jessie/mpv) [subdownloader](https://packages.debian.org/jessie/subdownloader)  </sub>

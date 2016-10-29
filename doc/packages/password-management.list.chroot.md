@@ -46,4 +46,4 @@ remembering their position when memorizing only the word.
 
 ### Related packages
 
-<sub> [keepass2](https://packages.debian.org/jessie/keepass2) [pass](https://packages.debian.org/jessie/pass) [qtpass](https://packages.debian.org/jessie/qtpass) [password-safe](https://packages.debian.org/jessie/password-safe) [pasaffe](https://packages.debian.org/jessie/pasaffe) [keepassx](https://packages.debian.org/jessie/keepassx) [revelation](https://packages.debian.org/jessie/revelation) [fpm2](https://packages.debian.org/jessie/fpm2) [apg](https://packages.debian.org/jessie/apg)  </sub>
+<sub> [keepass2](https://packages.debian.org/jessie/keepass2) [pass](https://packages.debian.org/jessie/pass) [qtpass](https://packages.debian.org/jessie/qtpass) [password-safe](https://packages.debian.org/jessie/password-safe) [pasaffe](https://packages.debian.org/jessie/pasaffe) [keepassx](https://packages.debian.org/jessie/keepassx) [revelation](https://packages.debian.org/jessie/revelation) [fpm2](https://packages.debian.org/jessie/fpm2) [apg](https://packages.debian.org/jessie/apg) [gkeyring](https://packages.debian.org/jessie/gkeyring)  </sub>

@@ -25,4 +25,4 @@ Evolution data servers.
 
 ### Related packages
 
-<sub> [qrencode](https://packages.debian.org/jessie/qrencode)  </sub>
+<sub> [qrencode](https://packages.debian.org/jessie/qrencode) [qtqr](https://packages.debian.org/jessie/qtqr) [zbar-tools](https://packages.debian.org/jessie/zbar-tools) [zoneminder](https://packages.debian.org/jessie/zoneminder) [cameramonitor](https://packages.debian.org/jessie/cameramonitor)  </sub>

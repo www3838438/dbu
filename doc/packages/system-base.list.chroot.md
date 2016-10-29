@@ -44,4 +44,4 @@ Graphical login managers should talk to ConsoleKit directly.
 
 ### Related packages
 
-<sub>  </sub>
+<sub> [kexec](https://packages.debian.org/jessie/kexec) [ksplice](https://packages.debian.org/jessie/ksplice)  </sub>

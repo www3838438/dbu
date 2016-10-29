@@ -20,22 +20,6 @@ package.
 
 To use a MIDI device (like a musical keyboard) as an input controller in GIMP,
 install libasound2 and read the how-to at /usr/share/doc/gimp/README.MIDI
-GIMP is an advanced picture editor. You can use it to edit, enhance, and
-retouch photos and scans, create drawings, and make your own images.
-It has a large collection of professional-level editing tools and
-filters, similar to the ones you might find in Photoshop. Numerous
-fine-control settings and features like layers, paths, masks, and
-scripting give you total control over your images.
-
-Many image file formats are supported, including JPEG, Photoshop (.psd),
-and Paint Shop Pro (.psp) files. It can also be used to scan and print
-photos.
-
-To open files remotely (like over HTTP), install the gvfs-backends
-package.
-
-To use a MIDI device (like a musical keyboard) as an input controller in GIMP,
-install libasound2 and read the how-to at /usr/share/doc/gimp/README.MIDI
 The Create Project provides shared resources for use by creative
 applications such as Blender, CinePaint, the GIMP, Inkscape, and Scribus.
 
@@ -48,8 +32,7 @@ for each and every application that can read such data.
 ![](https://screenshots.debian.net/thumbnail/gimp/)
 
 
- **[Homepage](http://www.gimp.org/
-http://www.gimp.org/)**
+ **[Homepage](http://www.gimp.org/)**
 
 ### Installed packages
 
@@ -67,4 +50,4 @@ http://www.gimp.org/)**
 
 ### Related packages
 
-<sub> [luminance-hdr](https://packages.debian.org/jessie/luminance-hdr) [krita](https://packages.debian.org/jessie/krita) [pinta](https://packages.debian.org/jessie/pinta) [mypaint](https://packages.debian.org/jessie/mypaint) [hugin](https://packages.debian.org/jessie/hugin) [pencil2d](https://packages.debian.org/jessie/pencil2d) [gcolor2](https://packages.debian.org/jessie/gcolor2) [agave](https://packages.debian.org/jessie/agave) [mtpaint](https://packages.debian.org/jessie/mtpaint) [aspic](https://packages.debian.org/jessie/aspic) [aseprite](https://packages.debian.org/jessie/aseprite) [tiled](https://packages.debian.org/jessie/tiled) [gthumb](https://packages.debian.org/jessie/gthumb) [nomacs](https://packages.debian.org/jessie/nomacs) [games-content-dev](https://packages.debian.org/jessie/games-content-dev) [pixelize](https://packages.debian.org/jessie/pixelize) [toonloop](https://packages.debian.org/jessie/toonloop) [gpick](https://packages.debian.org/jessie/gpick) [gnome-paint](https://packages.debian.org/jessie/gnome-paint) [xpaint](https://packages.debian.org/jessie/xpaint) [openclipart2](https://packages.debian.org/jessie/openclipart2)  </sub>
+<sub> [luminance-hdr](https://packages.debian.org/jessie/luminance-hdr) [krita](https://packages.debian.org/jessie/krita) [pinta](https://packages.debian.org/jessie/pinta) [mypaint](https://packages.debian.org/jessie/mypaint) [hugin](https://packages.debian.org/jessie/hugin) [pencil2d](https://packages.debian.org/jessie/pencil2d) [gcolor2](https://packages.debian.org/jessie/gcolor2) [agave](https://packages.debian.org/jessie/agave) [mtpaint](https://packages.debian.org/jessie/mtpaint) [aspic](https://packages.debian.org/jessie/aspic) [aseprite](https://packages.debian.org/jessie/aseprite) [tiled](https://packages.debian.org/jessie/tiled) [gthumb](https://packages.debian.org/jessie/gthumb) [nomacs](https://packages.debian.org/jessie/nomacs) [games-content-dev](https://packages.debian.org/jessie/games-content-dev) [pixelize](https://packages.debian.org/jessie/pixelize) [toonloop](https://packages.debian.org/jessie/toonloop) [gpick](https://packages.debian.org/jessie/gpick) [gnome-paint](https://packages.debian.org/jessie/gnome-paint) [xpaint](https://packages.debian.org/jessie/xpaint) [openclipart2](https://packages.debian.org/jessie/openclipart2) [alchemy](https://packages.debian.org/jessie/alchemy)  </sub>
