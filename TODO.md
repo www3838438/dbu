@@ -3,7 +3,7 @@
 
 ```
 
-  ☐ [bug] doc: generate an index of package documentation pages, by category
+
   ☐ [bug] doc: generate documentation for disabled/*.chroot packages, add them to the index tagged `disabled`
   ☐ [bug] [firefox] add https://addons.mozilla.org/fr/firefox/addon/no-resource-uri-leak/
   ☐ [bug] [firefox] default ublock configuration
@@ -16,7 +16,6 @@
   ☐ [enh] setup assistant: prevent from running in live mode?
   ☐ [enh] autostart: conky/clock
   ☐ [enh] show calendar when clicking on panel clock
-  ☐ [enh] laptop-mode-tools vs. TLP ?
   ☐ [enh] [firefox] firefox default homepage/rss/bookmarks/bookmarklets/startpage; add btdigg, add archiveorg
   ☐ [doc] generate documentation from package lists
   ☐ [feature] BACKUPS! encrypted to ext drive (ask to format a backup drive, backup every 7 days, remind every 30 days: alarm clock, pidgin, ff bookmarks, ff passwords, transmission torrents, mail
