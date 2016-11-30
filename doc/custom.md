@@ -37,6 +37,7 @@ DIRECTORIES
 
 The following targets are available:
 
+```
 make all: perform all build steps
 make buildenv: install build tools
 make clean:
@@ -50,14 +51,17 @@ make update:
 make xpi:
 make documentation:
 make lbbuild:
-
+```
 
 ##### config/includes.chroot/
 
 ##### config/package-lists/
 
+
     *.chroot: packages to be installed on the resulting image/system (live or installed)
     *.binary: packages to be added to the resulting ISO filesystem (as an offline package repository - pool/ directory)
+ 
+### Package documentation generation
  
 live-build ignores lines starting with `#` in package lists. Additional data in these files is used by the documentation generation script at `scripts/doc-generator.sh`:
 
