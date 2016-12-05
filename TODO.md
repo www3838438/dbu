@@ -4,7 +4,7 @@
 ```
 
 
-  ☐ [bug] doc: generate documentation for disabled/*.chroot packages, add them to the index tagged `disabled`
+  ☐ [bug] [doc] generate documentation for disabled/*.chroot packages, add them to the index tagged `disabled`
   ☐ [bug] [firefox] add https://addons.mozilla.org/fr/firefox/addon/no-resource-uri-leak/
   ☐ [bug] [firefox] default ublock configuration
   ☐ [bug] [firefox] remove firefox default first run page (firefox accounts)
@@ -14,7 +14,7 @@
   ☐ [enh] setup assistant: select keyboard layout
   ☐ [enh] keyboard-configuration interrupts unattended chroot build
   ☐ [enh] setup assistant: prevent from running in live mode?
-  ☐ [enh] autostart: conky/clock
+  ☐ [bug] autostart: conky/clock
   ☐ [enh] show calendar when clicking on panel clock
   ☐ [enh] [firefox] firefox default homepage/rss/bookmarks/bookmarklets/startpage; add btdigg, add archiveorg
   ☐ [doc] generate documentation from package lists

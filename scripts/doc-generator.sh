@@ -36,49 +36,50 @@ _renderMarkdown
 }
 
 function _getShortDescription {
-apt-cache show $1 | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1
+	apt-cache show $1 | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1
 }
 
 
 function _renderMarkdown {
-echo -e "$md_title"
-echo -e "\n_${md_shortdescription}_\n"
-echo -e '```'
-echo -e "\n$md_description\n"
-echo '```'
-echo -e "\n$md_screenshot\n"
-echo -e "\n $md_homepage"
-echo -e "\n### Installed packages\n"
-for i in $packages; do echo "* [$i](https://packages.debian.org/jessie/$i) - $(_getShortDescription $i)"; done
+	echo -e "$md_title"
+	echo -e "\n_${md_shortdescription}_\n"
+	echo -e '```'
+	echo -e "\n$md_description\n"
+	echo '```'
+	echo -e "\n$md_screenshot\n"
+	echo -e "\n $md_homepage"
+	echo -e "\n### Installed packages\n"
+	for i in $packages; do echo "* [$i](https://packages.debian.org/jessie/$i) - $(_getShortDescription $i)"; done
 
-echo -e "\n### Related packages\n"
-echo -n '<sub> '
-for i in $alts; do echo -n "[$i](https://packages.debian.org/jessie/$i) "; done
-echo ' </sub>'
-
+	echo -e "\n### Related packages\n"
+	echo -n '<sub> '
+	for i in $alts; do echo -n "[$i](https://packages.debian.org/jessie/$i) "; done
+	echo ' </sub>'
 }
 
 
 function _main {
-for i in config/package-lists/*.list.chroot; do
-    echo "$i"
-    _genPackagesDoc $i > doc/packages/$(basename $i).md
-done
+	for i in config/package-lists/*.list.chroot; do
+		echo "$i"
+		_genPackagesDoc $i > doc/packages/$(basename $i).md
+	done
 }
 
 _main $@
 
 
 #generate index
-pkgindex=$(for i in Utility Office Multimedia Graphics Network System Games Science; do
-    echo -e "\n### $i";
-    for plist in config/package-lists/*.chroot; do
-        if egrep -q "^#Cat: $i" $plist; then
-            pname=$(egrep "^#Name:" $plist | cut -d" " -f1 --complement)
-            echo " - [$pname](packages/$(basename $plist).md)"
-        fi
-    done
-done)
+pkgindex=$(
+	for i in Utility Office Multimedia Graphics Network System Games Science; do
+		echo -e "\n### $i";
+		for plist in config/package-lists/*.chroot; do
+		    if egrep -q "^#Cat: $i" $plist; then
+		        pname=$(egrep "^#Name:" $plist | cut -d" " -f1 --complement)
+		        echo " - [$pname](packages/$(basename $plist).md)"
+		    fi
+		done
+	done
+)
 
 pkgheader="# Installed software"
 
