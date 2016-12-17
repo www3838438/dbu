@@ -60,6 +60,7 @@
  - [Media download and streaming](packages/media-download-streaming.list.chroot.md)
  - [Music library player/manager](packages/music-library-manager.list.chroot.md)
  - [Radio Tray](packages/radio-player.list.chroot.md)
+ - [Soulseek music sharing client](packages/soulseek-client.list.chroot.md)
  - [Video editor](packages/video-editor.list.chroot.md)
  - [Video player](packages/video-player.list.chroot.md)
  - [Webcam viewer](packages/webcam-viewer.list.chroot.md)
@@ -89,6 +90,7 @@
  - [Network Manager](packages/network-manager.list.chroot.md)
  - [Network utilities](packages/network-utils.list.chroot.md)
  - [Remote Desktop Viewer](packages/remote-desktop-viewer.list.chroot.md)
+ - [Soulseek music sharing client](packages/soulseek-client.list.chroot.md)
  - [Voice communication client](packages/voip-client.list.chroot.md)
  - [Web Browser](packages/web-browser.list.chroot.md)
 

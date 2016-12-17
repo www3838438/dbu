@@ -14,6 +14,8 @@ This metapackage installs all components of libreoffice:
  * libreoffice-draw: Drawing
  * libreoffice-base: Database
  * libreoffice-math: Equation editor
+It also recommends additional packages (e.g. fonts) in order to match an
+upstream LibreOffice install as closely as possible.
 
 You can extend the functionality of LibreOffice by installing these
 packages:
@@ -23,8 +25,7 @@ packages:
  * libreoffice-help-*: User help
  * mythes-*: Thesauri for the use with LibreOffice
  * hyphen-*: Hyphenation patterns for LibreOffice
- * libreoffice-gtk: Gtk UI Plugin, GNOME File Picker support,
-   QuickStarter for GNOMEs notification area
+ * libreoffice-gtk(2|3): Gtk UI Plugin, GNOME File Picker support
  * libreoffice-gnome: GIO backend
  * unixodbc: ODBC database support
  * cups-bsd: Allows LibreOffice to detect your CUPS printer queues
@@ -103,8 +104,8 @@ http://www.libreoffice.org)**
 * [libreoffice-draw](https://packages.debian.org/jessie/libreoffice-draw) - office productivity suite -- drawing
 * [libreoffice-calc](https://packages.debian.org/jessie/libreoffice-calc) - office productivity suite -- spreadsheet
 * [libreoffice-base](https://packages.debian.org/jessie/libreoffice-base) - office productivity suite -- database
-* [libreoffice-gtk](https://packages.debian.org/jessie/libreoffice-gtk) - office productivity suite -- GTK+ integration
-* [libreoffice-gtk3](https://packages.debian.org/jessie/libreoffice-gtk3) - office productivity suite -- GTK+ 3.0 integration
+* [libreoffice-gtk](https://packages.debian.org/jessie/libreoffice-gtk) - transitional package to upgrade to libreoffice-gtk2/-systray
+* [libreoffice-gtk3](https://packages.debian.org/jessie/libreoffice-gtk3) - office productivity suite -- GTK+ 3 integration
 * [libreoffice-l10n-fr](https://packages.debian.org/jessie/libreoffice-l10n-fr) - office productivity suite -- French language package
 * [libreoffice-style-tango](https://packages.debian.org/jessie/libreoffice-style-tango) - office productivity suite -- Tango symbol style
 * [hyphen-fr](https://packages.debian.org/jessie/hyphen-fr) - French hyphenation patterns for LibreOffice/OpenOffice.org

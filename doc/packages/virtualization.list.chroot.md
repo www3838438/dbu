@@ -26,4 +26,4 @@ ____
 
 ### Related packages
 
-<sub> [virt-manager](https://packages.debian.org/jessie/virt-manager)  </sub>
+<sub> [virt-manager](https://packages.debian.org/jessie/virt-manager) [docker](https://packages.debian.org/jessie/docker) [qemu](https://packages.debian.org/jessie/qemu) [lxc](https://packages.debian.org/jessie/lxc) [rkt](https://packages.debian.org/jessie/rkt)  </sub>
