@@ -4,7 +4,7 @@ Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
 
 [Debian GNU/Linux](https://en.wikipedia.org/wiki/Debian) is a major and widely used [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution). [GNU/Linux](https://en.wikipedia.org/wiki/Linux) is a [Free](https://en.wikipedia.org/wiki/Free_software) and open source [operating system](https://en.wikipedia.org/wiki/Operating_system).
 
-**[Download ISO (64-bit)](https://github.com/nodiscc/dbu/releases)**
+**[Download ISO (64-bit)](https://github.com/nodiscc/dbu/releases)** (2.1G)
 
  * Run as a Live system from [USB](https://en.wikipedia.org/wiki/Live_USB)/[DVD](https://en.wikipedia.org/wiki/Live_CD) (runs from memory, no installation required), or install the OS to your machine (works offline).
  * Preinstalled software, preconfigured for desktop machines.
