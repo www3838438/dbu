@@ -19,7 +19,7 @@ thunar-volman
 secure-delete
 tree
 trash-cli
-fdupes
+jdupes
 ranger
 
 #Cat: Utility
@@ -43,3 +43,4 @@ ranger
 #Alt: safe-rm
 #Alt: gnome-split
 #Alt: mmv
+#Alt: fdupes
