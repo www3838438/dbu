@@ -39,11 +39,11 @@ ffaddons:
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/201/addon-201-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/521726/addon-521726-latest.xpi
-	#https://addons.mozilla.org/fr/firefox/addon/add-to-search-bar/
+	#https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/3682/addon-3682-latest.xpi
 	#https://addons.mozilla.org/en-us/firefox/addon/yet-another-context-search/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/392483/addon-392483-latest.xpi
-	#https://addons.mozilla.org/fr/firefox/addon/self-destructing-cookies/
+	#https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/415846/addon-415846-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/click-to-play-per-element/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/457553/addon-457553-latest.xpi
@@ -51,27 +51,70 @@ ffaddons:
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
-	#https://addons.mozilla.org/en-us/firefox/addon/ssleuth/
-	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/479492/addon-479492-latest.xpi
-	#https://addons.mozilla.org/fr/firefox/addon/greasemonkey/ 
+	#https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
 	wget --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/748/addon-748-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/536392/addon-536392-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/521554/addon-521554-latest.xpi
-	#https://addons.mozilla.org/fr/firefox/addon/rss-icon-in-url-bar/
+	#https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/file/339198/rss_icon_in_url_bar-1.5.2-sm+fx.xpi
-	#https://addons.mozilla.org/fr/firefox/addon/canvasblocker/
+	#https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/clean-links/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/317263/addon-317263-latest.xpi
-	#https://addons.mozilla.org/fr/firefox/addon/new-tab-bookmarks/
+	#https://addons.mozilla.org/en-US/firefox/addon/new-tab-bookmarks/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/628838/platform:2/addon-628838-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/password-exporter/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/2848/addon-2848-latest.xpi
-	#https://addons.mozilla.org/fr/firefox/addon/watch-with-mpv/
+	#https://addons.mozilla.org/en-US/firefox/addon/watch-with-mpv/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/file/368995/watch_with_mpv-0.1.0-alpha.3-fx.xpi
-
+	#https://addons.mozilla.org/fr/firefox/addon/no-resource-uri-leak/
+	wget -N --directpry-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
+	#
+	# more addons:
+	# https://addons.mozilla.org/en-US/firefox/addon/about-addons-memory/
+	# https://addons.mozilla.org/en-us/firefox/addon/auto-refresh-for-twitter/
+	# https://addons.mozilla.org/en-US/firefox/addon/bookmark-autohider/
+	# https://addons.mozilla.org/en-US/firefox/addon/bookmark-deduplicator/
+	# https://addons.mozilla.org/en-US/firefox/addon/bookrect/
+	# https://addons.mozilla.org/en-US/firefox/addon/certificate-patrol/
+	# https://addons.mozilla.org/en-US/firefox/addon/floatnotes/
+	# https://addons.mozilla.org/en-US/firefox/addon/gnotifier/
+	# https://addons.mozilla.org/en-us/firefox/addon/http-nowhere/
+	# https://addons.mozilla.org/en-US/firefox/addon/lightbeam/
+	# https://addons.mozilla.org/en-US/firefox/addon/link-visitor-3/
+	# https://addons.mozilla.org/en-US/firefox/addon/markdown-viewer/
+	# https://addons.mozilla.org/en-US/firefox/addon/mind-the-time/
+	# https://addons.mozilla.org/en-US/firefox/addon/mozilla-archive-format/
+	# https://addons.mozilla.org/en-US/firefox/addon/multifox/
+	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-tools/
+	# https://addons.mozilla.org/en-US/firefox/addon/noscript/
+	# https://addons.mozilla.org/en-US/firefox/addon/password-reuse-visualizer/
+	# https://addons.mozilla.org/en-US/firefox/addon/perspectives/
+	# https://addons.mozilla.org/en-US/firefox/addon/print-edit/
+	# https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/
+	# https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/
+	# https://addons.mozilla.org/en-US/firefox/addon/requestpolicy-continued/
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-autosave/
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-maf-creator/
+	# https://addons.mozilla.org/en-US/firefox/addon/simple-mail/
+	# https://addons.mozilla.org/en-us/firefox/addon/ssleuth/
+	# https://addons.mozilla.org/en-US/firefox/addon/tab-badge/
+	# https://addons.mozilla.org/en-US/firefox/addon/tab-scope/
+	# https://addons.mozilla.org/en-US/firefox/addon/tamper-data/
+	# https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/
+	# https://addons.mozilla.org/en-US/firefox/addon/toggle-js/
+	# https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/
+	# https://addons.mozilla.org/en-US/firefox/addon/turn-off-the-lights/
+	# https://addons.mozilla.org/en-US/firefox/addon/umatrix/
+	# https://addons.mozilla.org/en-us/firefox/addon/unloadtab/
+	# https://addons.mozilla.org/en-US/firefox/addon/update-scanner/
+	# https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/
+	# https://addons.mozilla.org/en-US/firefox/addon/yesscript/
+	# https://addons.mozilla.org/en-us/firefox/addon/copy-as-markdown/
+	# https://addons.mozilla.org/en-US/firefox/addon/open-livestreamer/
 
 #rename xpis from their id
 xpi:
@@ -106,12 +149,18 @@ tbaddons:
 	wget -N --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/file/423919/addon-423919-latest.xpi
 	#https://addons.mozilla.org/fr/thunderbird/addon/todotxt-extension/
 	wget -N --directory-prefix=$(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/650068/platform:2/addon-650068-latest.xpi
+	#
+	# more addons:
+	# https://addons.mozilla.org/en-US/thunderbird/addon/printingtools/
+	# https://addons.mozilla.org/fr/firefox/addon/minimizetotray-revived/
+	# https://addons.mozilla.org/fr/thunderbird/addon/gmailui/
+	# https://addons.mozilla.org/fr/thunderbird/addon/contact-photos/
+	# https://addons.mozilla.org/en-us/thunderbird/addon/webdav-for-filelink/
 
 
-
-#download non-debian chroot packages
-#needs to be updated manually when versions change
-#go to the directory containing the remote .deb and update accordingly
+# download non-debian chroot packages
+# needs to be updated manually when upstream versions change
+# go to the directory containing the remote .deb and update accordingly
 packageschroot:
 	-mkdir -pv config/packages.chroot
 	
@@ -189,6 +238,9 @@ packageschroot:
 	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/mapmap/mapmap/ubuntu/pool/main/m/mapmap/mapmap_0.4.0-1~trusty~ppa1_amd64.deb
 	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/mapmap/mapmap/ubuntu/pool/main/m/mapmap/mapmap_0.4.0-1~trusty~ppa1_i386.deb
 	#wget -N --directory-prefix=config/packages.chroot/ http://ppa.launchpad.net/mapmap/mapmap/ubuntu/pool/main/m/mapmap/mapmap_0.4.0.orig.tar.gz
+
+	# VS Code https://code.visualstudio.com/ (non-free)
+	# wget -N --directory-prefix=config/packages.chroot/ https://az764295.vo.msecnd.net/stable/ee428b0eead68bf0fb99ab5fdc4439be227b6281/code_1.8.1-1482158209_amd64.deb
 	
 	### THEMES ###
 	# https://numixproject.org/
