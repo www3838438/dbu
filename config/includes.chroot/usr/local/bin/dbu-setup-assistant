@@ -1,14 +1,9 @@
 #!/bin/bash
-#Description: Step-by-step setup/customization script for new installs
+#Description: First-run desktop user setup/customization script
 #https://github.com/nodiscc/dbu
-#License: GPLv3 (https://www.gnu.org/copyleft/gpl.html)
 
 #TODO remove sudo group by default from /etc/adduser.conf
-#TODO [enh] create/import/publish GPG key
-#TODO setup time
-#TODO setup sambe shares
-#TODO: remove the autostart entry.
-#TODO: do not create another crontab entry if it already exists
+#TODO setup samba shares
 #TODO set noatime/nodiratime for ext3/4 partitions?
 
 ###########################################
@@ -35,23 +30,6 @@ connection, software updates will be unavailable."
     fi
 }
 
-function _dbuAddUpdateCrontab() {
-    #adds a package upgrade notification every 2 hours
-    #thx http://askubuntu.com/questions/58575/add-lines-to-cron-from-script
-    echo "Adding periodic update check task..."
-    newtask="0 * * * * DISPLAY=':0.0' /usr/local/bin/dbu-notify-updates"
-    (crontab -l; echo "$newtask" ) | crontab -
-}
-
-function _dbuAptUpgrade() {
-    #aptitude update, upgrade
-    pkexec aptitude update | while read -r line; do echo "#$line" | cut --characters=-70; done |  zenity --progress --pulsate --text="Updating package lists..." --title="Updating package lists..." --auto-close --width=400
-    #num_upgrades_avail=$(aptitude search ~U | wc -l)
-    export APT_LISTBUGS_FRONTEND=none #required else apt-listbugs blocks the upgrade, even with -y
-    pkexec aptitude -y upgrade | while read -r line; do echo "#$line" | cut --characters=-70; done |  zenity --progress --pulsate --text="Upgrading installed packages..." --title="Upgrading installed packages..." --auto-close --width=400
-    }
-
-
 function _dbuRemoveAutostartEntry() {
     rm ~/.config/autostart/dbu-setup.desktop
 }
@@ -65,6 +43,7 @@ function _dbuSetupDialog {
     FALSE "Setup desktop" \
     TRUE "Setup virtual workspaces" \
     TRUE "Setup power management" \
+    TRUE "Setup time and date"
     TRUE "Setup instant messaging accounts" \
     TRUE "Setup e-mail accounts" \
     TRUE "Setup RSS news feeds" \
@@ -73,6 +52,7 @@ function _dbuSetupDialog {
     TRUE "Setup system services" \
     TRUE "Setup user accounts and passwords" \
     TRUE "Upgrade all packages" \
+    TRUE "Manage installed software" \
     )
 
     IFS=$'|'
@@ -88,6 +68,8 @@ function _dbuSetupDialog {
             ;;
             "Setup power management") xfce4-power-manager-settings
             ;;
+            "Setup time and date") time-admin
+            ;;
             "Setup instant messaging accounts") pidgin &
             ;;
             "Setup e-mail accounts") icedove
@@ -102,7 +84,10 @@ function _dbuSetupDialog {
             ;;
             "Setup user accounts and passwords") users-admin
             ;;
-            "Upgrade all packages") _dbuAptUpgrade
+            "Upgrade all packages") gpk-update-viewer
+            ;;
+            "Manage installed software") gpk-application
+            ;;
         esac
     done
     unset IFS
@@ -110,5 +95,4 @@ function _dbuSetupDialog {
 
 _dbuCheckInetAccess
 _dbuSetupDialog
-_dbuAddUpdateCrontab
 _dbuRemoveAutostartEntry

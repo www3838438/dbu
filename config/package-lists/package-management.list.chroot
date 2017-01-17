@@ -1,18 +1,20 @@
 #Name: Package management
-#Desc: synaptic
-#Screenshot: synaptic
+#Cat: System
+#Desc: gnome-packagekit
+#Screenshot: gnome-software
 #Screenshot: gdebi
-#Screenshot: software-properties-gtk
 
-synaptic
+# PackageKit
+gnome-packagekit
+packagekit
+packagekit-tools
+pk-update-icon
+
+# Graphical - other
 deborphan
 software-properties-gtk
-unattended-upgrades
-#apt-listbugs #disabled, breaks unattended upgrades in synaptic
-apt-listchanges
-debconf-utils
+synaptic
 gdebi
-vrms
 
 # Command line
 aptitude
@@ -20,17 +22,22 @@ aptitude-doc-fr
 debsecan
 needrestart
 reportbug
+vrms
+#apt-listbugs #disabled, breaks unattended upgrades in synaptic
+apt-listchanges
+debconf-utils
 
-#Cat: System
-
-#Res: http://fr.wikipedia.org/wiki/Synaptic
 #Res: http://doc.ubuntu-fr.org/gestionnaire_de_paquets
+#Res: http://fr.wikipedia.org/wiki/Synaptic
 #Res: http://doc.ubuntu-fr.org/synaptic
 #Res: https://wiki.debian.org/UnattendedUpgrades
 
+#Alt: unattended-upgrades
 #Alt: apturl
 #Alt: apt-fast
 #Alt: apt-p2p
 #Alt: aptoncd
 #Alt: apt-file
-#Alt: pk-update-icon
+#Alt: gstreamer1.0-packagekit
+#Alt: packagekit-command-not-found
+#Alt: packagekit-gtk3-module
