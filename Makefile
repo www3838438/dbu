@@ -70,7 +70,7 @@ ffaddons:
 	#https://addons.mozilla.org/en-US/firefox/addon/watch-with-mpv/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/file/368995/watch_with_mpv-0.1.0-alpha.3-fx.xpi
 	#https://addons.mozilla.org/fr/firefox/addon/no-resource-uri-leak/
-	wget -N --directpry-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
+	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
 	#
 	# more addons:
 	# https://addons.mozilla.org/en-US/firefox/addon/about-addons-memory/
