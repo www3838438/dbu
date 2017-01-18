@@ -61,13 +61,16 @@ lintian
 git-buildpackage
 
 # Python dev
+#https://packaging.python.org/current/
+python-setuptools
 python-virtualenv
 virtualenv
 python-all-dev
 python-demjson
-#python-praw
+python-praw
 python-stdeb
-#pypi2deb
+pypi2deb
+python3-wheel
 
 # Live system
 live-build
