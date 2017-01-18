@@ -1,28 +1,28 @@
 #Name: Disk utilities
+#Cat: System
 #Desc: gnome-disk-utility
 #Screenshot: gnome-disk-utility
-#Desc: gparted
-#Desc: gparted
 #Desc: baobab
 #Screenshot: baobab
+#Desc: testdisk
+#Screenshot: testdisk
 
 gnome-disk-utility
-gparted
+testdisk
+baobab
 dosfstools
 hfsprogs
 mtools
 smartmontools
 ntfs-3g
-baobab
 cryptsetup
 gdisk
-
-# Command line
 parted
-#dfc #stretch only
 ncdu
+#dfc #stretch only
 
 
+#Alt: gparted
 #Alt: gdmap
 #Alt: cfdisk
 #Alt: pmount
@@ -30,11 +30,21 @@ ncdu
 #Alt: ecryptfs-utils
 #Alt: zulucrypt
 #Alt: disk-manager
+#Alt: gsmartcontrol
+#Alt: fsarchiver
+#Alt: partclone
+#Alt: partimage
+#Alt: foremost
+#Alt: scalpel
+#Alt: gddrescue
+#Alt: ddrescueview
+#Alt: extundelete
+#Alt: fatcat
+#Alt: safecopy
 
-#Cat: System
-#Cat: Utility
 #Res: http://doc.ubuntu-fr.org/gnome-disk-utility
 #Res: http://library.gnome.org/users/palimpsest/stable/
 #Res: http://en.wikipedia.org/wiki/Palimpsest_Disk_Utility
 #Res: http://doc.ubuntu-fr.org/baobab
 #Res: http://www.marzocca.net/linux/baobab/
+#Res: http://www.cgsecurity.org/wiki/PhotoRec_Etape_par_Etape
