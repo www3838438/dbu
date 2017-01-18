@@ -8,7 +8,7 @@ pidgin-otr
 libpurple-bin
 pidgin-plugin-pack
 pidgin-extprefs
-#pidgin-gnome-keyring
+#pidgin-gnome-keyring #stretch only
 
 #Res: http://fr.wikipedia.org/wiki/Pidgin_(logiciel)
 #Res: http://wiki.jabberfr.org
