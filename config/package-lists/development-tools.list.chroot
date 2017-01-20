@@ -71,6 +71,7 @@ python-praw
 python-stdeb
 pypi2deb
 python3-wheel
+python-libtorrent
 
 # Live system
 live-build
