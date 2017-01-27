@@ -55,6 +55,8 @@ ffaddons:
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/748/addon-748-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/536392/addon-536392-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/
+	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-copypageinfo/addon-536398-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/521554/addon-521554-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/
