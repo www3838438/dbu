@@ -4,13 +4,13 @@
 <bookmark name="Radio Nova" url="http://broadcast.infomaniak.ch/radionova-high.mp3"/>
 <bookmark name="Sing Sing" url="http://www.sing-sing.org/confort2.pls"/>
 <bookmark name="RTL2" url="http://streaming.radio.rtl2.fr/rtl2-1-44-96"/>
-<bookmark name="France Inter" url="http://www.listenlive.eu/franceinter128.m3u"/>
-<bookmark name="France Info" url="http://www.listenlive.eu/franceinfo.m3u"/>
-<bookmark name="France Culture" url="http://www.listenlive.eu/franceculture128.m3u"/>
-<bookmark name="France Musique" url="http://www.listenlive.eu/francemusique128.m3u"/>
-<bookmark name="FIP" url="http://www.listenlive.eu/fip128.m3u"/>
-<bookmark name="Mouv" url="http://www.listenlive.eu/lemouv128.m3u"/>
-<bookmark name="France Bleu" url="http://www.listenlive.eu/fbidf.m3u"/>
+<bookmark name="France Inter" url="http://direct.franceinter.fr/live/franceinter-midfi.mp3"/>
+<bookmark name="France Info" url="http://direct.franceinfo.fr/live/franceinfo-midfi.mp3"/>
+<bookmark name="France Culture" url="http://direct.franceculture.fr/live/franceculture-midfi.mp3"/>
+<bookmark name="France Musique" url="http://direct.francemusique.fr/live/francemusique-midfi.mp3"/>
+<bookmark name="FIP" url="http://direct.fipradio.fr/live/fip-midfi.mp3"/>
+<bookmark name="Mouv" url="   http://direct.mouv.fr/live/mouv-midfi.mp3"/>
+<bookmark name="France Bleu" url="http://direct.francebleu.fr/live/fbloireocean-midfi.mp3"/>
 <bookmark name="Radio Orient" url="http://radioorient.scdn.arkena.com/radioorient.mp3"/>
 </group>
 <group name="Soma FM">
