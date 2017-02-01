@@ -91,4 +91,14 @@ putty-tools
 #Alt: steghide
 #Alt: pompem
 
+
+
+### NETWORK MONITORS
+nethogs
+#snetz
+#iftop
+#ipraf-ng
+#ntop
+#jnettop
+
 #Res: http://xmodulo.com/useful-command-line-network-monitors-linux.html

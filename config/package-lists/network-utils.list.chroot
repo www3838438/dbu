@@ -3,8 +3,6 @@
 #Screenshot: gnome-nettool
 
 gnome-nettool
-
-# Command line
 hostname
 bridge-utils
 ethtool
@@ -14,14 +12,11 @@ rsync
 
 #Cat: Network
 #Cat: Utility
-#Alt: snetz
+
+
+
 #Alt: ntopng
-#Alt: iftop
-#Alt: iptraf
-#Alt: iptraf-ng
-#Alt: ntop
 #Alt: nmon
-#Alt: nethogs
 #Alt: speedtest-cli
 #Alt: vnstat
 #Alt: vnstati
