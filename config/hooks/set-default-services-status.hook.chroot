@@ -5,7 +5,8 @@ systemctl enable cups-browsed.service
 systemctl enable avahi-daemon.service
 systemctl enable avahi-dnsconfd.service
 systemctl enable samba.service
-systemctl disable nmbd.service
+systemctl enable nmbd.service
+systemctl enable smbd.service
 systemctl enable bumblebeed.service
 systemctl disable ssh.service
 systemctl disable openvpn.service
