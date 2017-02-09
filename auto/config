@@ -5,8 +5,10 @@
 lb config noauto \
 --apt-recommends false \
 --architectures amd64 \
---binary-images iso-hybrid \
+--archive-areas 'main contrib non-free' \
+--backports true \
 --binary-filesystem ext4 \
+--binary-images iso-hybrid \
 --bootappend-install "locales=fr_FR.UTF-8" \
 --bootappend-live "boot=live config locales=fr_FR.UTF-8" \
 --checksums sha256 \
@@ -25,9 +27,9 @@ lb config noauto \
 --iso-volume dbu \
 --linux-packages "linux-image linux-headers" \
 --memtest memtest86+ \
---archive-areas 'main contrib non-free' \
 --security true \
 --source false \
+--updates true \
 --win32-loader true
 
 "${@}"
@@ -135,7 +137,5 @@ lb config noauto \
 #   [--tasksel apt|aptitude|tasksel]
 #   [--templates CHEMIN]
 #   [--hdd-size MB]
-#   [--updates true|false]
-#   [--backports true|false]
 #   [--verbose]
 #   [--win32-loader true|false]
