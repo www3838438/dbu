@@ -1,0 +1,2 @@
+#!/bin/bash
+zenity --window-icon=info --title="Pwgen" --info --text="$(pwgen -s 19 -n 5)"
