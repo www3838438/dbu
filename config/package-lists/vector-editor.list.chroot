@@ -5,7 +5,6 @@
 
 inkscape
 create-resources
-#python-uniconvertor
 python-lxml
 pstoedit
 
@@ -14,6 +13,8 @@ pstoedit
 #Alt: birdfont
 #Alt: autotrace
 #Alt: fontmatrix
+#Alt: python-uniconvertor # stretch only
+
 
 #Cat: Graphics
 #Res: http://screencasters.heathenx.org/

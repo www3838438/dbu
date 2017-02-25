@@ -5,14 +5,13 @@
 virtualbox
 virtualbox-dkms
 virtualbox-guest-additions-iso
-#virtualbox-ext-pack
 virtualbox-guest-dkms
 virtualbox-guest-source
 virtualbox-guest-utils
 virtualbox-guest-x11
 virtualbox-qt
 
-
+#Alt: virtualbox-ext-pack # sid only
 #Alt: virt-manager
 #Alt: docker
 #Alt: qemu

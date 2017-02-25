@@ -1,10 +1,8 @@
-#Name: Screenshot utility
+#Name: Screenshot utilities
 #Desc: xfce4-screenshooter
 #Screenshot: xfce4-screenshooter
 
 xfce4-screenshooter
-
-# Command line
 scrot
 
 #Cat: Utility

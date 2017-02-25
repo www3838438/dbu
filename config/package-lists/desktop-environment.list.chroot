@@ -40,7 +40,6 @@ hwdata
 # Display manager
 lightdm
 lightdm-gtk-greeter
-#dbus-user-session #stretch only
 
 # Screen locker
 light-locker
@@ -51,7 +50,6 @@ faenza-icon-theme
 gnome-audio
 clearlooks-phenix-theme
 gnome-themes-standard
-#arc-theme #stretch only
 sound-theme-freedesktop
 
 # Utilities
@@ -73,7 +71,6 @@ xbacklight
 gtk2-engines
 gtk2-engines-murrine
 gtk2-engines-pixbuf
-#gtk3-engines-unico
 gtk2-engines-xfce
 xdg-user-dirs-gtk
 libfile-mimeinfo-perl
@@ -81,11 +78,12 @@ policykit-1-gnome
 python-appindicator
 dconf-gsettings-backend
 
-#Splash screen
+# Splash screen
 plymouth
 plymouth-x11
 plymouth-themes
 
+#Alt: arc-theme #stretch only
 #Alt: openbox
 #Alt: obconf
 #Alt: tint2
@@ -140,6 +138,9 @@ plymouth-themes
 #Alt: festival
 #Alt: espeak-gui
 #Alt: alltray
+#Alt: gtk3-engines-unico
+#Alt: dbus-user-session #stretch only
+
 
 #Cat: Utility
 #Res: http://docs.xfce.org/

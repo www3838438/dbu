@@ -10,13 +10,13 @@ gimp-plugin-registry
 gimp-texturize
 gimp-ufraw
 gimp-gutenprint
-#gimp-help-fr
 gimp-gmic
 gimp-lensfun
 gimp-resynthesizer
 create-resources
 
 
+#Alt: gimp-help-fr #stretch only
 #Alt: luminance-hdr
 #Alt: krita
 #Alt: pinta

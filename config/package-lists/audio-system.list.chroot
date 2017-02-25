@@ -20,10 +20,10 @@ pulseaudio-module-lirc
 pulseaudio-module-zeroconf
 pulseaudio-module-jack
 pavucontrol
-#xfce4-pulseaudio-plugin #stretch only
 rtkit
 
 #Alt: pasystray
+#Alt: xfce4-pulseaudio-plugin #stretch only
 #Alt: padevchooser
 #Alt: paprefs
 #Alt: pnmixer

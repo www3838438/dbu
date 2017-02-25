@@ -23,7 +23,6 @@ debsecan
 needrestart
 reportbug
 vrms
-#apt-listbugs #disabled, breaks unattended upgrades in synaptic
 apt-listchanges
 debconf-utils
 

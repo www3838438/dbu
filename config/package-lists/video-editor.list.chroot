@@ -1,11 +1,11 @@
-#Name: Video editor
-#Desc: openshot
-#Screenshot: openshot
+#Name: KDEnlive Video editor
+#Desc: kdenlive
+#Screenshot: kdenlive
 
-openshot
-openshot-doc
+kdenlive
+breeze-icon-theme
 
-#Alt: kdenlive
+#Alt: openshot
 #Alt: blender
 #Alt: devede
 #Alt: dvdauthor

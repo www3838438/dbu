@@ -3,7 +3,6 @@
 #Screenshot: backintime-qt4
 
 backintime-gnome
-#backintime-qt4 stretch only
 
 #Alt: duplicity
 #Alt: obnam
@@ -20,7 +19,9 @@ backintime-gnome
 #Alt: fsarchiver
 #Alt: backupninja
 #Alt: duply
+#Alt: backintime-qt4 # stretch only
+
 
 #Cat: Utility
 #Cat: System
-#Res: http://doc.ubuntu-fr.org/sauvegarde
+

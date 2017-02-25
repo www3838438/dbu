@@ -5,14 +5,14 @@
 
 youtube-dl
 livestreamer
-#libav-tools #jessie only
 libav-tools
-#ffmpeg #stretch only
+ffmpeg
 
 #Alt: get-flash-videos
 #Alt: mps-youtube
 #Alt: cclive
 #Alt: gnome-twitch
+#Alt: libav-tools #jessie without backports
 
 #Cat: Multimedia
 #Cat: Network

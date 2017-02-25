@@ -12,14 +12,11 @@ github-backup
 gource
 myrepos
 shellcheck
-#ghi #stretch/sid only
 
 # Viz/Editors/Tools
 colordiff
 colortail
 meld
-#retext
-#mdp
 pv
 wxhexeditor
 cloc
@@ -36,10 +33,7 @@ dialog
 whiptail
 inotify-tools
 pastebinit
-#incron
-#faker
-#bootchart
-#pybootchartgui
+elinks
 
 # Parsers/converters
 pandoc
@@ -55,21 +49,17 @@ equivs
 build-essential
 checkinstall
 fakeroot
-#dgit
 debconf-utils
 lintian
 git-buildpackage
 
 # Python dev
-#https://packaging.python.org/current/
 python-setuptools
 python-virtualenv
 virtualenv
 python-all-dev
 python-demjson
-python-praw
 python-stdeb
-pypi2deb
 python3-wheel
 python-libtorrent
 
@@ -81,11 +71,6 @@ live-manual-html
 debootstrap
 live-images
 
-# Debian-cd
-#debian-cd
-#libfile-fcntllock-perl
-#libalgorithm-merge-perl
-
 # Ruby/Node/Webdev/other
 rubygems
 ruby-dev
@@ -94,30 +79,20 @@ nodejs
 csstidy
 sqlite3
 sqlitebrowser
-#jsbeautifier
-#adb
-#android-sdk
-#android-sdk-platform-tools-common
-#fastboot
-#android-tools-fastboot
-#gplaycli
-#python-ndg-httpsclient
-#poedit
 webcheck
 php5-cli
 
-
-# Security/sandboxing
-#firejail #stretch only
-xpra
-#xephyr
-rinse
-
+#Alt: pypi2deb # stretch only
+#Alt: python-praw # stretch only
+#Alt: ghi #stretch/sid only
+#Alt: firejail #stretch only
+#Alt: xephyr
 #Alt: txt2tags
 #Alt: geany
 #Alt: geany-plugins
 #Alt: fossil
 #Alt: aptly
+#Alt: apt-listbugs
 #Alt: vagrant
 #Alt: hexcurse
 #Alt: dhex
@@ -132,3 +107,22 @@ rinse
 #Alt: ghex
 #Alt: bless
 #Alt: since
+#Alt: jsbeautifier
+#Alt: adb
+#Alt: android-sdk
+#Alt: android-sdk-platform-tools-common
+#Alt: fastboot
+#Alt: android-tools-fastboot
+#Alt: gplaycli
+#Alt: python-ndg-httpsclient
+#Alt: poedit
+#Alt: dgit
+#Alt: retext
+#Alt: mdp
+#Alt: incron
+#Alt: faker
+#Alt: bootchart
+#Alt: pybootchartgui
+#Alt: debian-cd libfile-fcntllock-perl libalgorithm-merge-perl
+#Alt: xpra
+#Alt: rinse

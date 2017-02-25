@@ -1,8 +1,7 @@
 #Name: Multimedia utilities
 
 sox
-#ffmpeg #stretch only
-#libav-tools jessie only
+ffmpeg
 libav-tools
 mediainfo
 media-player-info
@@ -13,6 +12,8 @@ xdotool
 #Alt: mpg123
 #Alt: oggvideotools
 #Alt: mp3splt
+#Alt: libav-tools #jessie without backports
+
 
 #Cat: Multimedia
 #Cat: Utility

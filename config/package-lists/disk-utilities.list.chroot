@@ -19,9 +19,8 @@ cryptsetup
 gdisk
 parted
 ncdu
-#dfc #stretch only
 
-
+#Alt: dfc #stretch only
 #Alt: gparted
 #Alt: gdmap
 #Alt: cfdisk

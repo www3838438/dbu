@@ -6,10 +6,6 @@
 
 icedove
 icedove-l10n-fr
-#iceowl-extension #downloaded from addons.mozilla.org in Makefile
-#iceowl-l10n-fr #downloaded from addons.mozilla.org in Makefile
-#enigmail #downloaded from addons.mozilla.org in Makefile
-#xul-ext-quotecolors #downloaded from addons.mozilla.org in Makefile
 
 #Alt: geary
 #Alt: claws-mail

@@ -23,6 +23,7 @@
   ☐ [bug] [l10n] re-add icedove-l10n-fr
   ☐ [debian] package unpackaged software for debian, see https://github.com/nodiscc/dbu-deb-packages
   ☐ [maint] remove gksu - gdebi still needs it - http://forums.debian.net/viewtopic.php?f=16&t=73497
+  ☐ [enh] [wait] transition to stretch when it becomes stable: enable stretch-only packages in package lists; switch icedove->thunderbird+lightning
   ☐ [enh] mousepad: add config (path?)
   ☐ [enh] onboard: add config (dconf)
   ☐ [enh] [live] add persistence http://live.debian.net/manual/stable/html/live-manual/customizing-run-time-behaviours#persistence
@@ -38,7 +39,7 @@
   ☐ [feature] New Thunar UCA: edit text files as root
   ☐ [enh] [security] setup SELinux
   ☐ [enh] Better GRUB look and bootsplash: add pylmouth + debian-logo plymouth theme, add wallpaper in grub's dir, add `splash` to `\/etc\/default\/grub` options, and make sure `update-grub` runs during the build.
-  ☐ some settings are hardcoded to french
+  ☐ [l10n] some settings are hardcoded to french
       https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/locale.gen (generated locales)
       https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/skel/.config/Thunar/uca.xml (UCAs cannot be localized)
       https://github.com/nodiscc/dbu/blob/master/auto/config (default locale for live system)
@@ -46,7 +47,7 @@
       https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/default/keyboard (keyboard layout
       https://github.com/nodiscc/dbu/blob/master/config/archives/debian-jessie.list.binary (live system debian mirrors location)
       https://github.com/nodiscc/dbu/blob/master/config/includes.installer/preseed.cfg (installer debian mirrors location)
-
+  ☐ [l10n] provide a way to select language/locale at boot time
 
 
 

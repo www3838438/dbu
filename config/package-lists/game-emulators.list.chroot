@@ -2,8 +2,6 @@
 
 pcsxr
 higan
-#dolphin-emu
-#pcsx2
 desmume
 mupen64plus
 mupen64plus-input-all
@@ -28,6 +26,8 @@ mupen64plus-video-all
 #Alt: nestopia
 #Alt: visualboyadvance-gtk
 #Alt: dosbox
+#Alt: dolphin-emu
+#Alt: pcsx2
 
 
 #Res: http://www.codeplex.com/pcsxr/

@@ -26,7 +26,6 @@ libreoffice-gnome
 libreoffice-avmedia-backend-gstreamer
 libreoffice-avmedia-backend-vlc
 libwmf-bin 
-#python3-uno
 
 #Alt: libreoffice-math
 #Alt: gnumeric
@@ -56,6 +55,7 @@ libwmf-bin
 #Alt: unoconv
 #Alt: spotlighter
 #Alt: gromit
+#Alt: python3-uno
 
 #Cat: Office
 #Cat: Graphics

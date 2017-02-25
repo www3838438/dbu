@@ -2,17 +2,9 @@
 #Desc: firefox
 #Screenshot: firefox
 
-## stable without backports
-#iceweasel
-#iceweasel-l10n-fr
-
-## firefox release - stable with backports, or testing
 firefox
 firefox-l10n-fr
 pkg-mozilla-archive-keyring
-
-# Command line
-elinks
 
 
 #Alt: midori
@@ -27,6 +19,7 @@ elinks
 #Alt: w3m
 #Alt: links2
 #Alt: surf
+#Alt: elinks
 
 #Cat: Network
 #Res: http://support.mozilla.com/fr/kb/Raccourcis%20clavier

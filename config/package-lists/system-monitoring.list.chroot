@@ -3,8 +3,6 @@
 #Screenshot: xfce4-taskmanager
 
 xfce4-taskmanager
-
-#Command line
 htop
 iotop
 lm-sensors
@@ -34,6 +32,7 @@ screenfetch
 #Alt: dstat
 #Alt: sysstat
 #Alt: cacti
+#Alt: hwloc
 
 #Cat: System
 #Cat: Utility
