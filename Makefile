@@ -228,8 +228,8 @@ packageschroot:
 	
 	# https://github.com/horst3180/Arc-theme
 	# variants, conflict with each other
-	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/arc-theme_1480088096.9047b20_all.deb
-	#wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/arc-theme-solid_1474665338.1959509_all.deb
+	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/arc-theme_1488477732.766ae1a-0_all.deb
+	#wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/arc-theme-solid_1488477732.766ae1a-0_all.deb
 	
 	# https://github.com/horst3180/Ceti-2-theme
 	wget -N --directory-prefix=config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/ceti-2-theme_1442961272.9fe3d9f_all.deb
