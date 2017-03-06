@@ -12,6 +12,7 @@ lsof
 strace
 memtest86+
 screenfetch
+debsums
 
 #Alt: gnome-system-monitor
 #Alt: glances
