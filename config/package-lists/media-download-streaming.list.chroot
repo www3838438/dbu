@@ -13,6 +13,7 @@ ffmpeg
 #Alt: cclive
 #Alt: gnome-twitch
 #Alt: libav-tools #jessie without backports
+#Alt: minitube
 
 #Cat: Multimedia
 #Cat: Network

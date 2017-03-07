@@ -117,7 +117,7 @@ php5-cli
 #Alt: python-ndg-httpsclient
 #Alt: poedit
 #Alt: dgit
-#Alt: retext
+#Alt: retext python3-enchant python3-yaml
 #Alt: mdp
 #Alt: incron
 #Alt: faker

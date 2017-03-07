@@ -8,6 +8,8 @@
  * Run `git clone https://github.com/nodiscc/dbu`
  * To run the build process with the default configuration, run `make all` from the root of the git repository.
 
+The full live-build documentation can be found at `/usr/share/doc/live-manual/pdf/live-manual.portrait.en.a4.pdf.gz`
+
 **Building with a custom configuration**
 
 The build process and resulting live system configuration is controlled through
