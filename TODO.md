@@ -28,9 +28,9 @@
   ☐ [enh] onboard: add config (dconf)
   ☐ [enh] [live] add persistence http://live.debian.net/manual/stable/html/live-manual/customizing-run-time-behaviours#persistence
   ☐ [feature] Voice recognition/control/dictation
-    https://en.wikipedia.org/wiki/Speech_recognition_in_Linux
-    https://github.com/BmanDesignsCanada/LiSpeak/
-    pocketsphinx!
+           https://en.wikipedia.org/wiki/Speech_recognition_in_Linux
+           https://github.com/BmanDesignsCanada/LiSpeak/
+           pocketsphinx!
   ☐ [enh] [libreoffice] Add LanguageTool Not packaged - https://github.com/languagetool-org/languagetool/issues/123 https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=403619
   ☐ [enh] [icedove] add default addons
   ☐ [enh] [security] Setup logcheck and logwatch - see srv01 - mail or notify weekly report
@@ -40,15 +40,24 @@
   ☐ [enh] [security] setup SELinux
   ☐ [enh] Better GRUB look and bootsplash: add pylmouth + debian-logo plymouth theme, add wallpaper in grub's dir, add `splash` to `\/etc\/default\/grub` options, and make sure `update-grub` runs during the build.
   ☐ [l10n] some settings are hardcoded to french
-      https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/locale.gen (generated locales)
-      https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/skel/.config/Thunar/uca.xml (UCAs cannot be localized)
-      https://github.com/nodiscc/dbu/blob/master/auto/config (default locale for live system)
-      https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/icedove/pref/icedove.js (dictionary language)
-      https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/default/keyboard (keyboard layout
-      https://github.com/nodiscc/dbu/blob/master/config/archives/debian-jessie.list.binary (live system debian mirrors location)
-      https://github.com/nodiscc/dbu/blob/master/config/includes.installer/preseed.cfg (installer debian mirrors location)
+           https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/locale.gen (generated locales)
+           https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/skel/.config/Thunar/uca.xml (UCAs cannot be localized)
+           https://github.com/nodiscc/dbu/blob/master/auto/config (default locale for live system)
+           https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/icedove/pref/icedove.js (dictionary language)
+           https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/default/keyboard (keyboard layout
+           https://github.com/nodiscc/dbu/blob/master/config/archives/debian-jessie.list.binary (live system debian mirrors location)
+           https://github.com/nodiscc/dbu/blob/master/config/includes.installer/preseed.cfg (installer debian mirrors location)
   ☐ [l10n] provide a way to select language/locale at boot time
-
+  ☐ [enh] Some Firefox addons are not e10s compatible. When Firefox 57 is out (nov. 14 2017), they will stop working. Add e10s support or find equivalent compatible addons:
+           Add to Search Bar Not compatible with multiprocess.
+           Clean Links Not compatible with multiprocess.
+           mpv-youtube-dl-binding Not compatible with multiprocess.
+           RSS Icon in url bar Not compatible with multiprocess.
+           ScrapBook X Not compatible with multiprocess.
+           Scrapbook X CopyPageInfo Not compatible with multiprocess.
+           ScrapBook X File Converter Version 1.1.4 Not compatible with multiprocess.
+           Self-Destructing Cookies Not compatible with multiprocess. 
+           Yet Another Context Search Not compatible with multiprocess.
 
 
 ```
