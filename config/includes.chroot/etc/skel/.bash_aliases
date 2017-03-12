@@ -13,7 +13,8 @@ alias pkgdep="apt-cache depends $@" #get package dependencies
 alias pkgrdep="apt-cache rdepends $@" #get package reverse dependencies
 
 #shortcuts
-alias warn="for i in $(seq 1 3); do play -q /usr/share/sounds/freedesktop/stereo/complete.oga; done" #play a sound warning
+alias warn="for i in 1 2 3 ; do play -q /usr/share/sounds/freedesktop/stereo/complete.oga; done" #play a sound warning
+alias bell="while true; do play -q /usr/share/sounds/email.wav; sleep 0.2 ; done"
 alias d="colordiff" #pretty diffs
 alias n="nano" #nano editor shortcut
 alias m="mousepad" #mousepad editor shortcut
