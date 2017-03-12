@@ -1,14 +1,11 @@
 # Redshift
 
-__Adjusts the color temperature of your screen with GTK+ integration__
+__transitional dummy package__
 
 ```
 
-The color temperature is set according to the position of the sun. A
-different color temperature is set during night and daytime. During
-twilight and early morning, the color temperature transitions smoothly
-from night to daytime temperature to allow your eyes to slowly
-adapt.
+This is a transitional dummy package for redshift-gtk. It can safely be
+removed.
 
 This package provides GTK+ integration.
 
@@ -21,7 +18,7 @@ This package provides GTK+ integration.
 
 ### Installed packages
 
-* [gtk-redshift](https://packages.debian.org/jessie/gtk-redshift) - Adjusts the color temperature of your screen with GTK+ integration
+* [gtk-redshift](https://packages.debian.org/jessie/gtk-redshift) - transitional dummy package
 
 ### Related packages
 

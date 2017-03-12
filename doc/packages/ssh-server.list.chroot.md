@@ -29,7 +29,7 @@ purposes.
 ![](https://screenshots.debian.net/thumbnail/openssh-server/)
 
 
- **[Homepage](http://www.openssh.org/)**
+ **[Homepage](http://www.openssh.com/)**
 
 ### Installed packages
 

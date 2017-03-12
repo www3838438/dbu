@@ -1,38 +1,41 @@
-# Video editor
+# KDEnlive Video editor
 
-__Create and edit videos and movies__
-
-```
-
-OpenShot Video Editor is a free, open-source, non-linear video editor. It
-can create and edit videos and movies using many popular video, audio, and
-image formats. Create videos for YouTube, Flickr, Vimeo, Metacafe, iPod,
-Xbox, and many more common formats!
-
-Features include:
- * Multiple tracks (layers)
- * Compositing, image overlays, and watermarks
- * Support for image sequences (rotoscoping)
- * Key-frame animation
- * Video and audio effects (chroma-key)
- * Transitions (lumas and masks)
- * 3D animation (titles and physics simulations)
- * Chroma key (green screen & blue screen)
- * Transcode (convert video encodings)
- * Upload videos (YouTube and Vimeo supported)
+__non-linear video editor__
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/openshot/)
+Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
+more formats.
+Its main features are:
+ * Guides and marker for organizing timelines
+ * Copy and paste support for clips, effects and transitions
+ * Real time changes
+ * FireWire and Video4Linux capture
+ * Screen grabbing
+ * Exporting to any by FFMPEG supported format
+Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
+more formats.
+Its main features are:
+ * Guides and marker for organizing timelines
+ * Copy and paste support for clips, effects and transitions
+ * Real time changes
+ * FireWire and Video4Linux capture
+ * Screen grabbing
+ * Exporting to any by FFMPEG supported format
+
+```
+
+![](https://screenshots.debian.net/thumbnail/kdenlive/)
 
 
- **[Homepage](http://www.openshotvideo.com/)**
+ **[Homepage](http://www.kdenlive.org/
+http://www.kdenlive.org/)**
 
 ### Installed packages
 
-* [openshot](https://packages.debian.org/jessie/openshot) - Create and edit videos and movies
-* [openshot-doc](https://packages.debian.org/jessie/openshot-doc) - Help manual for OpenShot Video Editor
+* [kdenlive](https://packages.debian.org/jessie/kdenlive) - non-linear video editor
+* [breeze-icon-theme](https://packages.debian.org/jessie/breeze-icon-theme) - Default Plasma icon theme.
 
 ### Related packages
 
-<sub> [kdenlive](https://packages.debian.org/jessie/kdenlive) [blender](https://packages.debian.org/jessie/blender) [devede](https://packages.debian.org/jessie/devede) [dvdauthor](https://packages.debian.org/jessie/dvdauthor) [imagination](https://packages.debian.org/jessie/imagination) [ffiaporama](https://packages.debian.org/jessie/ffiaporama) [stopmotion](https://packages.debian.org/jessie/stopmotion)  </sub>
+<sub> [openshot](https://packages.debian.org/jessie/openshot) [blender](https://packages.debian.org/jessie/blender) [devede](https://packages.debian.org/jessie/devede) [dvdauthor](https://packages.debian.org/jessie/dvdauthor) [imagination](https://packages.debian.org/jessie/imagination) [ffdiaporama](https://packages.debian.org/jessie/ffdiaporama) [stopmotion](https://packages.debian.org/jessie/stopmotion) [screenkey](https://packages.debian.org/jessie/screenkey)  </sub>

@@ -25,10 +25,10 @@ types of input, such as .doc or .txt.gz files.
 
 * [less](https://packages.debian.org/jessie/less) - pager program similar to more
 * [source-highlight](https://packages.debian.org/jessie/source-highlight) - convert source code to syntax highlighted document
-* [sed](https://packages.debian.org/jessie/sed) - The GNU sed stream editor
+* [sed](https://packages.debian.org/jessie/sed) - GNU stream editor for filtering/transforming text
 * [sl](https://packages.debian.org/jessie/sl) - Correct you if you type `sl' by mistake
 * [dos2unix](https://packages.debian.org/jessie/dos2unix) - convert text file line endings between CRLF and LF
-* [util-linux](https://packages.debian.org/jessie/util-linux) - Miscellaneous system utilities
+* [util-linux](https://packages.debian.org/jessie/util-linux) - miscellaneous system utilities
 * [bash-completion](https://packages.debian.org/jessie/bash-completion) - programmable completion for the bash shell
 * [beep](https://packages.debian.org/jessie/beep) - advanced pc-speaker beeper
 * [moreutils](https://packages.debian.org/jessie/moreutils) - additional Unix utilities

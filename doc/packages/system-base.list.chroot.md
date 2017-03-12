@@ -16,7 +16,7 @@ Graphical login managers should talk to ConsoleKit directly.
 ![](https://screenshots.debian.net/thumbnail/libpam-ck-connector/)
 
 
- **[Homepage](http://www.freedesktop.org/wiki/Software/ConsoleKit)**
+ **[Homepage](https://www.freedesktop.org/wiki/Software/ConsoleKit)**
 
 ### Installed packages
 

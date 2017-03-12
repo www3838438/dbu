@@ -1,4 +1,4 @@
-# Screenshot utility
+# Screenshot utilities
 
 __screenshots utility for Xfce__
 

@@ -30,7 +30,7 @@ remembering their position when memorizing only the word.
 ![](https://screenshots.debian.net/thumbnail/seahorse/)
 
 
- **[Homepage](https://wiki.gnome.org/Seahorse)**
+ **[Homepage](https://wiki.gnome.org/Apps/Seahorse)**
 
 ### Installed packages
 
@@ -41,9 +41,9 @@ remembering their position when memorizing only the word.
 * [ssh-askpass-gnome](https://packages.debian.org/jessie/ssh-askpass-gnome) - interactive X program to prompt users for a passphrase for ssh-add
 * [libpam-gnome-keyring](https://packages.debian.org/jessie/libpam-gnome-keyring) - PAM module to unlock the GNOME keyring upon login
 * [gnupg](https://packages.debian.org/jessie/gnupg) - GNU privacy guard - a free PGP replacement
-* [gnupg2](https://packages.debian.org/jessie/gnupg2) - GNU privacy guard - a free PGP replacement (new v2.x)
+* [gnupg2](https://packages.debian.org/jessie/gnupg2) - GNU privacy guard - a free PGP replacement (dummy transitional package)
 * [pwgen](https://packages.debian.org/jessie/pwgen) - Automatic Password generation
 
 ### Related packages
 
-<sub> [keepass2](https://packages.debian.org/jessie/keepass2) [pass](https://packages.debian.org/jessie/pass) [qtpass](https://packages.debian.org/jessie/qtpass) [password-safe](https://packages.debian.org/jessie/password-safe) [pasaffe](https://packages.debian.org/jessie/pasaffe) [keepassx](https://packages.debian.org/jessie/keepassx) [revelation](https://packages.debian.org/jessie/revelation) [fpm2](https://packages.debian.org/jessie/fpm2) [apg](https://packages.debian.org/jessie/apg) [gkeyring](https://packages.debian.org/jessie/gkeyring)  </sub>
+<sub> [keepass2](https://packages.debian.org/jessie/keepass2) [pass](https://packages.debian.org/jessie/pass) [qtpass](https://packages.debian.org/jessie/qtpass) [password-safe](https://packages.debian.org/jessie/password-safe) [pasaffe](https://packages.debian.org/jessie/pasaffe) [keepassx](https://packages.debian.org/jessie/keepassx) [revelation](https://packages.debian.org/jessie/revelation) [fpm2](https://packages.debian.org/jessie/fpm2) [apg](https://packages.debian.org/jessie/apg) [gkeyring](https://packages.debian.org/jessie/gkeyring) [xkcdpass](https://packages.debian.org/jessie/xkcdpass)  </sub>

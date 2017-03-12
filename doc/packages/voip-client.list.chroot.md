@@ -18,7 +18,7 @@ provided by the package "mumble-server".
 ![](https://screenshots.debian.net/thumbnail/mumble/)
 
 
- **[Homepage](http://mumble.sourceforge.net/)**
+ **[Homepage](https://wiki.mumble.info/wiki/Main_Page)**
 
 ### Installed packages
 

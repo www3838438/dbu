@@ -26,4 +26,4 @@ of operations.  It is based on GTK2.
 
 ### Related packages
 
-<sub> [gnucash](https://packages.debian.org/jessie/gnucash) [grisbi](https://packages.debian.org/jessie/grisbi)  </sub>
+<sub> [gnucash](https://packages.debian.org/jessie/gnucash) [grisbi](https://packages.debian.org/jessie/grisbi) [bitcoin-qt](https://packages.debian.org/jessie/bitcoin-qt)  </sub>

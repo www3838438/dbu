@@ -5,19 +5,10 @@ __font viewer for GNOME__
 ```
 
 This program can preview fonts and create thumbnails for fonts.
-Font Manager currently allows the user to:
- - Preview installed fonts
- - Compare installed fonts
- - Easily install or remove fonts
- - Easily activate and de-activate installed fonts
- - Specify different directories to search for fonts
- - Group fonts into "Collections", and easily activate or
-   de-activate groups of fonts
- - Export "Collections" to an archive for easy backup, sharing, etc.
- - Provides quick access to all GNOME font utilities.
-
-Font Manager suggests the installation of python-reportlab to allow users
-to export font collections in the PDF format.
+Font Manager is intended to provide a way for average users to easily manage
+desktop fonts, without having to resort to command line tools or editing
+configuration files by hand. While designed primarily with the GNOME Desktop
+Environment in mind, it should work well with other Gtk+ desktop environments.
 
 ```
 
@@ -25,7 +16,7 @@ to export font collections in the PDF format.
 font-manager/)
 
 
- **[Homepage](https://wiki.gnome.org/GnomeUtils)**
+ **[Homepage]()**
 
 ### Installed packages
 

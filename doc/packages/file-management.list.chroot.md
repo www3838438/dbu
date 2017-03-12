@@ -8,13 +8,18 @@ Thunar is the file manager designed to be the default file manager for the
 Xfce desktop environment. It has been designed to be fast and easy to use.
 
 Also included is an Xfce panel plugin which can manage the desktop trash.
+Thunar is the file manager designed to be the default file manager for the
+Xfce desktop environment. It has been designed to be fast and easy to use.
+
+Also included is an Xfce panel plugin which can manage the desktop trash.
 
 ```
 
 ![](https://screenshots.debian.net/thumbnail/thunar/)
 
 
- **[Homepage](http://thunar.xfce.org)**
+ **[Homepage](http://thunar.xfce.org
+http://thunar.xfce.org)**
 
 ### Installed packages
 
@@ -34,9 +39,9 @@ Also included is an Xfce panel plugin which can manage the desktop trash.
 * [secure-delete](https://packages.debian.org/jessie/secure-delete) - tools to wipe files, free disk space, swap and memory
 * [tree](https://packages.debian.org/jessie/tree) - displays an indented directory tree, in color
 * [trash-cli](https://packages.debian.org/jessie/trash-cli) - command line trashcan utility
-* [fdupes](https://packages.debian.org/jessie/fdupes) - identifies duplicate files within given directories
+* [jdupes](https://packages.debian.org/jessie/jdupes) - identify and delete or link duplicate files
 * [ranger](https://packages.debian.org/jessie/ranger) - File manager with an ncurses frontend written in Python
 
 ### Related packages
 
-<sub> [pcmanfm](https://packages.debian.org/jessie/pcmanfm) [pyrenamer](https://packages.debian.org/jessie/pyrenamer) [gprename](https://packages.debian.org/jessie/gprename) [thunar-gtkhash](https://packages.debian.org/jessie/thunar-gtkhash) [nautilus](https://packages.debian.org/jessie/nautilus) [gnome-xcf-thumbnailer](https://packages.debian.org/jessie/gnome-xcf-thumbnailer) [nautilus-open-terminal](https://packages.debian.org/jessie/nautilus-open-terminal) [nautilus-sendto](https://packages.debian.org/jessie/nautilus-sendto) [ooo-thumbnailer](https://packages.debian.org/jessie/ooo-thumbnailer) [nautilus-wipe](https://packages.debian.org/jessie/nautilus-wipe) [nautilus-image-converter](https://packages.debian.org/jessie/nautilus-image-converter) [cover-thumbnailer](https://packages.debian.org/jessie/cover-thumbnailer) [gnome-sushi](https://packages.debian.org/jessie/gnome-sushi) [gtkhash](https://packages.debian.org/jessie/gtkhash) [cfv](https://packages.debian.org/jessie/cfv) [cksfv](https://packages.debian.org/jessie/cksfv) [go-mptfs](https://packages.debian.org/jessie/go-mptfs) [safe-rm](https://packages.debian.org/jessie/safe-rm) [gnome-split](https://packages.debian.org/jessie/gnome-split) [mmv](https://packages.debian.org/jessie/mmv)  </sub>
+<sub> [pcmanfm](https://packages.debian.org/jessie/pcmanfm) [pyrenamer](https://packages.debian.org/jessie/pyrenamer) [gprename](https://packages.debian.org/jessie/gprename) [thunar-gtkhash](https://packages.debian.org/jessie/thunar-gtkhash) [nautilus](https://packages.debian.org/jessie/nautilus) [gnome-xcf-thumbnailer](https://packages.debian.org/jessie/gnome-xcf-thumbnailer) [nautilus-open-terminal](https://packages.debian.org/jessie/nautilus-open-terminal) [nautilus-sendto](https://packages.debian.org/jessie/nautilus-sendto) [ooo-thumbnailer](https://packages.debian.org/jessie/ooo-thumbnailer) [nautilus-wipe](https://packages.debian.org/jessie/nautilus-wipe) [nautilus-image-converter](https://packages.debian.org/jessie/nautilus-image-converter) [cover-thumbnailer](https://packages.debian.org/jessie/cover-thumbnailer) [gnome-sushi](https://packages.debian.org/jessie/gnome-sushi) [gtkhash](https://packages.debian.org/jessie/gtkhash) [cfv](https://packages.debian.org/jessie/cfv) [cksfv](https://packages.debian.org/jessie/cksfv) [go-mptfs](https://packages.debian.org/jessie/go-mptfs) [safe-rm](https://packages.debian.org/jessie/safe-rm) [gnome-split](https://packages.debian.org/jessie/gnome-split) [mmv](https://packages.debian.org/jessie/mmv) [fdupes](https://packages.debian.org/jessie/fdupes)  </sub>

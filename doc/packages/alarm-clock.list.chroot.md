@@ -1,6 +1,6 @@
 # Alarm clock
 
-__Alarm Clock applet__
+__alarm clock panel indicator__
 
 ```
 
@@ -21,7 +21,7 @@ application.
 
 ### Installed packages
 
-* [alarm-clock-applet](https://packages.debian.org/jessie/alarm-clock-applet) - Alarm Clock applet
+* [alarm-clock-applet](https://packages.debian.org/jessie/alarm-clock-applet) - alarm clock panel indicator
 
 ### Related packages
 

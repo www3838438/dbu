@@ -1,6 +1,6 @@
 # Multimedia codecs
 
-__Tools for use with GStreamer__
+____
 
 ```
 
@@ -11,18 +11,23 @@ about anything else media-related.  Its plugin-based architecture means
 that new data types or processing capabilities can be added simply by
 installing new plug-ins.
 
-This package contains versioned command-line tools for GStreamer.
+This package contains the GStreamer plugins from the "base" set, an
+essential exemplary set of elements.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/gstreamer0.10-tools/)
+![](https://screenshots.debian.net/thumbnail/gstreamer0.10-plugins-base/)
 
 
  **[Homepage](http://gstreamer.freedesktop.org)**
 
 ### Installed packages
 
-* [gstreamer0.10-tools](https://packages.debian.org/jessie/gstreamer0.10-tools) - Tools for use with GStreamer
+* [gstreamer0.10-plugins-base](https://packages.debian.org/jessie/gstreamer0.10-plugins-base) - 
+* [gstreamer0.10-tools](https://packages.debian.org/jessie/gstreamer0.10-tools) - 
+* [gstreamer0.10-x](https://packages.debian.org/jessie/gstreamer0.10-x) - 
+* [gstreamer0.10-alsa](https://packages.debian.org/jessie/gstreamer0.10-alsa) - 
+* [gstreamer0.10-gnomevfs](https://packages.debian.org/jessie/gstreamer0.10-gnomevfs) - 
 * [gstreamer1.0-alsa](https://packages.debian.org/jessie/gstreamer1.0-alsa) - GStreamer plugin for ALSA
 * [gstreamer1.0-libav](https://packages.debian.org/jessie/gstreamer1.0-libav) - libav plugin for GStreamer
 * [gstreamer1.0-plugins-bad](https://packages.debian.org/jessie/gstreamer1.0-plugins-bad) - GStreamer plugins from the "bad" set

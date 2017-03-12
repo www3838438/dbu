@@ -15,7 +15,7 @@ The GUI is written in GTKmm, a C++ library for GTK+.
 ![](https://screenshots.debian.net/thumbnail/pdfchain/)
 
 
- **[Homepage](http://pdfchain.sourceforge.net/)**
+ **[Homepage](https://pdfchain.sourceforge.net/)**
 
 ### Installed packages
 

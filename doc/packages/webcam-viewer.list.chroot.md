@@ -20,7 +20,7 @@ for photos.
 ### Installed packages
 
 * [cheese](https://packages.debian.org/jessie/cheese) - tool to take pictures and videos from your webcam
-* [gnome-video-effects](https://packages.debian.org/jessie/gnome-video-effects) - GNOME Video Effects
+* [gnome-video-effects](https://packages.debian.org/jessie/gnome-video-effects) - Collection of GStreamer effects
 * [gnome-video-effects-frei0r](https://packages.debian.org/jessie/gnome-video-effects-frei0r) - GNOME Video Effects - frei0r plugins
 
 ### Related packages

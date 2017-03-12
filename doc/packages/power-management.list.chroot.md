@@ -16,13 +16,26 @@ It features:
   * suspend/Hibernate
   * LCD brightness control
   * Lid, sleep and power switches control
+This power manager for the Xfce desktop enables laptop users to set up
+a power profile for two different modes "on battery power" and "on ac
+power" while still allowing desktop users to at least change the DPMS
+settings and CPU frequency using the settings dialogue..
+
+It features:
+  * battery monitoring
+  * cpu frequency settings
+  * monitor DPMS settings
+  * suspend/Hibernate
+  * LCD brightness control
+  * Lid, sleep and power switches control
 
 ```
 
 ![](https://screenshots.debian.net/thumbnail/xfce4-power-manager/)
 
 
- **[Homepage](http://goodies.xfce.org/projects/applications/xfce4-power-manager)**
+ **[Homepage](http://goodies.xfce.org/projects/applications/xfce4-power-manager
+http://goodies.xfce.org/projects/applications/xfce4-power-manager)**
 
 ### Installed packages
 
@@ -37,7 +50,7 @@ It features:
 * [acpi-support-base](https://packages.debian.org/jessie/acpi-support-base) - scripts for handling base ACPI events such as the power button
 * [laptop-mode-tools](https://packages.debian.org/jessie/laptop-mode-tools) - Tools for Power Savings based on battery/AC status
 * [apmd](https://packages.debian.org/jessie/apmd) - Utilities for Advanced Power Management (APM)
-* [fancontrol](https://packages.debian.org/jessie/fancontrol) - utilities to read temperature/voltage/fan sensors
+* [fancontrol](https://packages.debian.org/jessie/fancontrol) - utility to control the fan speed
 * [rfkill](https://packages.debian.org/jessie/rfkill) - tool for enabling and disabling wireless devices
 * [cpufrequtils](https://packages.debian.org/jessie/cpufrequtils) - utilities to deal with the cpufreq Linux kernel feature
 * [hibernate](https://packages.debian.org/jessie/hibernate) - smartly puts your computer to sleep (suspend to RAM or disk)

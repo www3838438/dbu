@@ -48,7 +48,7 @@ Superscript.
 * [fonts-yanone-kaffeesatz](https://packages.debian.org/jessie/fonts-yanone-kaffeesatz) - Font in four weights, reminiscent of 1920s coffee house typography
 * [fonts-century-catalogue](https://packages.debian.org/jessie/fonts-century-catalogue) - century-style font revival
 * [fonts-comfortaa](https://packages.debian.org/jessie/fonts-comfortaa) - stylish, modern true type font
-* [fonts-droid](https://packages.debian.org/jessie/fonts-droid) - handheld device font with extensive style and language support
+* [fonts-droid](https://packages.debian.org/jessie/fonts-droid) - 
 * [fonts-ecolier-court](https://packages.debian.org/jessie/fonts-ecolier-court) - cursive roman font with small descenders
 * [fonts-f500](https://packages.debian.org/jessie/fonts-f500) - Wipeout 3 Font
 * [fonts-fanwood](https://packages.debian.org/jessie/fonts-fanwood) - font similar to the Fairfield font
@@ -67,11 +67,11 @@ Superscript.
 * [fonts-knda](https://packages.debian.org/jessie/fonts-knda) - Meta package for Kannada fonts
 * [xfonts-terminus](https://packages.debian.org/jessie/xfonts-terminus) - Fixed-width fonts for fast reading
 * [fonts-opensymbol](https://packages.debian.org/jessie/fonts-opensymbol) - OpenSymbol TrueType font
-* [fonts-roboto](https://packages.debian.org/jessie/fonts-roboto) - sans-serif font family released with Android Ice Cream Sandwich
+* [fonts-roboto](https://packages.debian.org/jessie/fonts-roboto) - metapackage to pull in Roboto fonts
 * [fonts-averia-gwf](https://packages.debian.org/jessie/fonts-averia-gwf) - Aver?a GWF font family
-* [ttf-mscorefonts-installer](https://packages.debian.org/jessie/ttf-mscorefonts-installer) - 
+* [ttf-mscorefonts-installer](https://packages.debian.org/jessie/ttf-mscorefonts-installer) - Installer for Microsoft TrueType core fonts
 * [fonts-freefont-ttf](https://packages.debian.org/jessie/fonts-freefont-ttf) - Freefont Serif, Sans and Mono Truetype fonts
 
 ### Related packages
 
-<sub>  </sub>
+<sub> [fonts-hack-ttf](https://packages.debian.org/jessie/fonts-hack-ttf) [#stretch](https://packages.debian.org/jessie/#stretch) [only](https://packages.debian.org/jessie/only)  </sub>

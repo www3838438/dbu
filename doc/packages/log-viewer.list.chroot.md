@@ -12,7 +12,7 @@ filter or search expressions in them.
 ![](https://screenshots.debian.net/thumbnail/gnome-system-log/)
 
 
- **[Homepage](https://wiki.gnome.org/GnomeUtils)**
+ **[Homepage](https://wiki.gnome.org/Apps/Attic/GnomeUtils)**
 
 ### Installed packages
 

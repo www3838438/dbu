@@ -13,7 +13,7 @@ notes, although the look of the notes can be customized any way you like.
 ![](https://screenshots.debian.net/thumbnail/xpad/)
 
 
- **[Homepage](http://mterry.name/xpad/)**
+ **[Homepage](https://launchpad.net/xpad)**
 
 ### Installed packages
 

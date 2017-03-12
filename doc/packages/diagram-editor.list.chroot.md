@@ -14,12 +14,12 @@ many other formats.
 ![](https://screenshots.debian.net/thumbnail/dia/)
 
 
- **[Homepage](http://live.gnome.org/Dia)**
+ **[Homepage](https://wiki.gnome.org/Apps/Dia/)**
 
 ### Installed packages
 
 * [dia](https://packages.debian.org/jessie/dia) - Diagram editor
-* [dia-shapes](https://packages.debian.org/jessie/dia-shapes) - Diagram editor
+* [dia-shapes](https://packages.debian.org/jessie/dia-shapes) - Diagram editor (additional shapes)
 * [gsfonts-x11](https://packages.debian.org/jessie/gsfonts-x11) - Make Ghostscript fonts available to X11
 
 ### Related packages

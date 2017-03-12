@@ -15,7 +15,7 @@ interface. Currently RDP, VNC, NX, XDMCP and SSH protocols are supported.
 ![](https://screenshots.debian.net/thumbnail/remmina/)
 
 
- **[Homepage](http://remmina.sourceforge.net/)**
+ **[Homepage](http://www.remmina.org/)**
 
 ### Installed packages
 

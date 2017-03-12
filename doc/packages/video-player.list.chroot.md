@@ -15,9 +15,18 @@ them through HTTP.
 VLC has support for on-the-fly transcoding of audio and video formats, either
 for broadcasting purposes or for movie format transformations. Support for
 most output methods is provided by this package, but features can be added by
-installing additional plugins (vlc-plugin-fluidsynth, vlc-plugin-jack,
-vlc-plugin-notify, vlc-plugin-samba, vlc-plugin-sdl, vlc-plugin-svg,
-vlc-plugin-zvbi).
+installing additional plugins:
+ * vlc-plugin-access-extra
+ * vlc-plugin-fluidsynth
+ * vlc-plugin-jack
+ * vlc-plugin-notify
+ * vlc-plugin-samba
+ * vlc-plugin-sdl
+ * vlc-plugin-skins2
+ * vlc-plugin-svg
+ * vlc-plugin-video-splitter
+ * vlc-plugin-visualization
+ * vlc-plugin-zvbi
 
 ```
 
@@ -38,4 +47,4 @@ vlc-plugin-zvbi).
 
 ### Related packages
 
-<sub> [mplayer2](https://packages.debian.org/jessie/mplayer2) [gnome-mplayer](https://packages.debian.org/jessie/gnome-mplayer) [smplayer](https://packages.debian.org/jessie/smplayer) [umplayer](https://packages.debian.org/jessie/umplayer) [totem](https://packages.debian.org/jessie/totem) [totem-plugins](https://packages.debian.org/jessie/totem-plugins) [parole](https://packages.debian.org/jessie/parole) [gnome-dvb-client](https://packages.debian.org/jessie/gnome-dvb-client) [zapping](https://packages.debian.org/jessie/zapping) [freetuxtv](https://packages.debian.org/jessie/freetuxtv) [kodi](https://packages.debian.org/jessie/kodi) [browser-plugin-vlc](https://packages.debian.org/jessie/browser-plugin-vlc) [mpv](https://packages.debian.org/jessie/mpv) [subdownloader](https://packages.debian.org/jessie/subdownloader)  </sub>
+<sub> [mplayer2](https://packages.debian.org/jessie/mplayer2) [vlc-plugin-skins2](https://packages.debian.org/jessie/vlc-plugin-skins2) [vlc-plugin-video-splitter](https://packages.debian.org/jessie/vlc-plugin-video-splitter) [gnome-mplayer](https://packages.debian.org/jessie/gnome-mplayer) [gnome-mpv](https://packages.debian.org/jessie/gnome-mpv) [smplayer](https://packages.debian.org/jessie/smplayer) [umplayer](https://packages.debian.org/jessie/umplayer) [totem](https://packages.debian.org/jessie/totem) [totem-plugins](https://packages.debian.org/jessie/totem-plugins) [parole](https://packages.debian.org/jessie/parole) [gnome-dvb-client](https://packages.debian.org/jessie/gnome-dvb-client) [zapping](https://packages.debian.org/jessie/zapping) [freetuxtv](https://packages.debian.org/jessie/freetuxtv) [kodi](https://packages.debian.org/jessie/kodi) [browser-plugin-vlc](https://packages.debian.org/jessie/browser-plugin-vlc) [mpv](https://packages.debian.org/jessie/mpv) [subdownloader](https://packages.debian.org/jessie/subdownloader)  </sub>

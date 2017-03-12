@@ -28,6 +28,7 @@ libsox-fmt-pulse). It also supports LADSPA plugins.
 ### Installed packages
 
 * [sox](https://packages.debian.org/jessie/sox) - Swiss army knife of sound processing
+* [ffmpeg](https://packages.debian.org/jessie/ffmpeg) - Tools for transcoding, streaming and playing of multimedia files
 * [libav-tools](https://packages.debian.org/jessie/libav-tools) - Compatibility links for libav-tools (transitional package)
 * [mediainfo](https://packages.debian.org/jessie/mediainfo) - command-line utility for reading information from audio/video files
 * [media-player-info](https://packages.debian.org/jessie/media-player-info) - Media player identification files
@@ -37,4 +38,4 @@ libsox-fmt-pulse). It also supports LADSPA plugins.
 
 ### Related packages
 
-<sub> [mpg123](https://packages.debian.org/jessie/mpg123) [oggvideotools](https://packages.debian.org/jessie/oggvideotools) [mp3splt](https://packages.debian.org/jessie/mp3splt)  </sub>
+<sub> [mpg123](https://packages.debian.org/jessie/mpg123) [oggvideotools](https://packages.debian.org/jessie/oggvideotools) [mp3splt](https://packages.debian.org/jessie/mp3splt) [libav-tools](https://packages.debian.org/jessie/libav-tools) [#jessie](https://packages.debian.org/jessie/#jessie) [without](https://packages.debian.org/jessie/without) [backports](https://packages.debian.org/jessie/backports)  </sub>

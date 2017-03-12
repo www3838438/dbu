@@ -4,9 +4,9 @@ __GNOME desktop calculator__
 
 ```
 
-gcalctool is a powerful graphical calculator with financial, logical and
-scientific modes. It uses a multiple precision package to do its arithmetic
-to give a high degree of accuracy.
+The GNOME calculator is a powerful graphical calculator with financial,
+logical and scientific modes. It uses a multiple precision package to do its
+arithmetic to give a high degree of accuracy.
 
 ```
 

@@ -30,7 +30,7 @@ Notable features include:
 exfalso/)
 
 
- **[Homepage](http://code.google.com/p/quodlibet/)**
+ **[Homepage](https://github.com/quodlibet/quodlibet)**
 
 ### Installed packages
 
@@ -44,6 +44,7 @@ exfalso/)
 * [python-pyinotify](https://packages.debian.org/jessie/python-pyinotify) - simple Linux inotify Python bindings
 * [libgpod-common](https://packages.debian.org/jessie/libgpod-common) - common files for libgpod
 * [libgpod4](https://packages.debian.org/jessie/libgpod4) - library to read and write songs and artwork to an iPod
+* [projectm-pulseaudio](https://packages.debian.org/jessie/projectm-pulseaudio) - projectM PulseAudio module
 
 ### Related packages
 

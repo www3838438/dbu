@@ -17,7 +17,7 @@ Evolution data servers.
 ![](https://screenshots.debian.net/thumbnail/glabels/)
 
 
- **[Homepage](http://glabels.sourceforge.net/)**
+ **[Homepage](http://glabels.org/)**
 
 ### Installed packages
 

@@ -12,22 +12,13 @@ process (early userspace).
 
 In addition to live-boot, a backend for the initrd generation is required, such
 as live-boot-initramfs-tools.
-The Live Systems project maintains the components to build Debian based Live
-systems and the official Debian Live images themselves.
-
-live-boot contains the components to configure a live system during the boot
-process (early userspace).
-
-In addition to live-boot, a backend for the initrd generation is required, such
-as live-boot-initramfs-tools.
 
 ```
 
 ![](https://screenshots.debian.net/thumbnail/live-boot/)
 
 
- **[Homepage](https://debian-live.alioth.debian.org/live-boot/
-http://live-systems.org/devel/live-boot/)**
+ **[Homepage](https://debian-live.alioth.debian.org/live-boot/)**
 
 ### Installed packages
 

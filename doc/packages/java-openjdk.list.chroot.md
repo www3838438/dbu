@@ -5,8 +5,8 @@ __Standard Java or Java compatible Runtime__
 ```
 
 This dependency package points to the Java runtime, or Java compatible
-runtime recommended for the amd64 architecture,
-which is openjdk-7-jre for amd64.
+runtime recommended for this architecture, which is
+openjdk-8-jre for amd64.
 
 ```
 

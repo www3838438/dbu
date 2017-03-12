@@ -10,15 +10,17 @@ files in multiple formats at one time. You can, for example, convert
 mpeg's, flv's, and mov's into avi's (or DVD/VCD format or MPEG or 3gp
 etc.) all at once.
 
-This package provides a variety of preset conversion settings for
+WinFF provides a variety of preset conversion settings for
 common formats and devices. These presets are intended to hit the
 "sweet spot" for each individual codec. They have been written with a
 tip of the balance to quality.
 
 For most presets to work, it is necessary to have the unstripped version
 of the libavcodec package, which can be obtained by installing
-libavcodec-extra as suggested by this package. It might be necessary
+libavcodec-extra as suggested by the WinFF suite. It might be necessary
 to enable additional repositories to find that package.
+
+This package is a metapackage to pull in either the GTK+ or Qt variant.
 
 ```
 
