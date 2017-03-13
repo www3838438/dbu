@@ -57,7 +57,6 @@
  - [Multimedia file converter](packages/media-converter.list.chroot.md)
  - [Media download and streaming](packages/media-download-streaming.list.chroot.md)
  - [Music library player/manager](packages/music-library-manager.list.chroot.md)
- - [Radio Tray](packages/radio-player.list.chroot.md)
  - [Soulseek music sharing client](packages/soulseek-client.list.chroot.md)
  - [KDEnlive Video editor](packages/video-editor.list.chroot.md)
  - [Video player](packages/video-player.list.chroot.md)

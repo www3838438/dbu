@@ -86,6 +86,7 @@ php5-cli
 #Alt: python-praw # stretch only
 #Alt: ghi #stretch/sid only
 #Alt: firejail #stretch only
+#Alt: firetools #stretch only
 #Alt: xephyr
 #Alt: txt2tags
 #Alt: geany

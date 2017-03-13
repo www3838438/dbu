@@ -1,8 +1,0 @@
-<config>
-  <option name="enabled_notifications" value="true"/>
-  <option name="volume_increment" value="0.05"/>
-  <option name="volume_level" value="1.00"/>
-  <option name="url_timeout" value="3000"/>
-  <option name="sleep_timer" value="15"/>
-  <option name="gui_engine" value="systray"/>
-  <option name="enable_application_indicator_theme_support" value="false"/></config>
