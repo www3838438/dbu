@@ -10,7 +10,11 @@
   ☐ [bug] [firefox] remove firefox default first run page (firefox accounts)
   ☐ [bug] [firefox] customize/reorganize UI elements (localstore.rdf)
   ☐ [enh] [security] [firefox] add mozilla-gnome-keyring addon
+  ☐ [bug] autorun pk-update-icon
+  ☐ [enh] [doc] add package versions to generated md documentation
+  ☐ [enh] [packages] 2 separate package lists for audacious/quodlibet
   ☐ [enh] disable non-free repositories, fetch firmware with wget/makefile target before build (branch no-nonfree)
+  ☐ [enh] add travis config for tests/automated builds
   ☐ [enh] setup assistant: select keyboard layout
   ☐ [enh] keyboard-configuration interrupts unattended chroot build
   ☐ [enh] setup assistant: prevent from running in live mode?
