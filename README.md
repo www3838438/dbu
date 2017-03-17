@@ -8,7 +8,7 @@ Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
 
  * Run as a Live system from [USB](https://en.wikipedia.org/wiki/Live_USB)/[DVD](https://en.wikipedia.org/wiki/Live_CD) (runs from memory, no installation required), or install the OS to your machine (works offline).
  * Preinstalled software, preconfigured for desktop machines.
- * Based on Debian 8 Jessie (_stable_ Debian release).
+ * Based on Debian 9 Stretch (_stable_ Debian release).
 
 ![](doc/screenshot-main.png)
 

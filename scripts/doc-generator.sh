@@ -49,11 +49,11 @@ function _renderMarkdown {
 	echo -e "\n$md_screenshot\n"
 	echo -e "\n $md_homepage"
 	echo -e "\n### Installed packages\n"
-	for i in $packages; do echo "* [$i](https://packages.debian.org/jessie/$i) - $(_getShortDescription $i)"; done
+	for i in $packages; do echo "* [$i](https://packages.debian.org/stretch/$i) - $(_getShortDescription $i)"; done
 
 	echo -e "\n### Related packages\n"
 	echo -n '<sub> '
-	for i in $alts; do echo -n "[$i](https://packages.debian.org/jessie/$i) "; done
+	for i in $alts; do echo -n "[$i](https://packages.debian.org/stretch/$i) "; done
 	echo ' </sub>'
 }
 

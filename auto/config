@@ -15,9 +15,9 @@ lb config noauto \
 --clean \
 --debconf-frontend dialog \
 --debian-installer live \
---debian-installer-distribution jessie \
+--debian-installer-distribution stretch \
 --debian-installer-gui true \
---distribution jessie \
+--distribution stretch \
 --firmware-binary true \
 --firmware-chroot true \
 --initramfs live-boot \
