@@ -6,6 +6,7 @@ lb config noauto \
 --apt-recommends false \
 --architectures amd64 \
 --archive-areas 'main contrib non-free' \
+--backports true \
 --binary-filesystem ext4 \
 --binary-images iso-hybrid \
 --bootappend-install "locales=fr_FR.UTF-8" \
@@ -26,7 +27,9 @@ lb config noauto \
 --iso-volume dbu \
 --linux-packages "linux-image linux-headers" \
 --memtest memtest86+ \
+--security true \
 --source false \
+--updates true \
 --win32-loader true
 
 "${@}"
