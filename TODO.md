@@ -5,8 +5,7 @@
 
 
   ☐ [bug] [doc] generate documentation for disabled/*.chroot packages, add them to the index tagged `disabled`
-  ☐ [bug] [firefox] add https://addons.mozilla.org/fr/firefox/addon/no-resource-uri-leak/
-  ☐ [bug] [firefox] default ublock configuration
+  ☐ [bug] [firefox] default ublock configuration -> on first run, propose running `firefox chrome://ublock0/content/dashboard.html#3p-filters.html`
   ☐ [bug] [firefox] remove firefox default first run page (firefox accounts)
   ☐ [bug] [firefox] customize/reorganize UI elements (localstore.rdf)
   ☐ [enh] [security] [firefox] add mozilla-gnome-keyring addon
@@ -55,11 +54,7 @@
   ☐ [enh] Some Firefox addons are not e10s compatible. When Firefox 57 is out (nov. 14 2017), they will stop working. Add e10s support or find equivalent compatible addons:
            Add to Search Bar Not compatible with multiprocess.
            Clean Links Not compatible with multiprocess.
-           mpv-youtube-dl-binding Not compatible with multiprocess.
            RSS Icon in url bar Not compatible with multiprocess.
-           ScrapBook X Not compatible with multiprocess.
-           Scrapbook X CopyPageInfo Not compatible with multiprocess.
-           ScrapBook X File Converter Version 1.1.4 Not compatible with multiprocess.
            Self-Destructing Cookies Not compatible with multiprocess. 
            Yet Another Context Search Not compatible with multiprocess.
 

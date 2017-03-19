@@ -36,48 +36,38 @@ clean:
 #update firefox addons
 ffaddons:
 	# Security / privacy addons
+	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/
+	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
+	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/clean-links/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/317263/addon-317263-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/415846/addon-415846-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/click-to-play-per-element/
-	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/457553/addon-457553-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/521554/addon-521554-latest.xpi
 	#https://addons.mozilla.org/fr/firefox/addon/no-resource-uri-leak/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
 	#
 	# UI-related / utility addons
-	#https://addons.mozilla.org/en-US/firefox/addon/downthemall/
-	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/201/addon-201-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/
-	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/521726/addon-521726-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/3682/addon-3682-latest.xpi
 	#https://addons.mozilla.org/en-us/firefox/addon/yet-another-context-search/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/392483/addon-392483-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
-	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/
-	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
-	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/748/addon-748-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/
-	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/536392/addon-536392-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/
-	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-copypageinfo/addon-536398-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/file/339198/rss_icon_in_url_bar-1.5.2-sm+fx.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/new-tab-bookmarks/
-	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/628838/platform:2/addon-628838-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/password-exporter/
-	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/2848/addon-2848-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/watch-with-mpv/
-	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/file/368995/watch_with_mpv-0.1.0-alpha.3-fx.xpi
 	#
 	# more addons:
+	# https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/
+	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-bookmarks/
+	# https://addons.mozilla.org/en-US/firefox/addon/password-exporter/
+	# https://addons.mozilla.org/en-US/firefox/addon/watch-with-mpv/
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/
+	# https://addons.mozilla.org/en-US/firefox/addon/downthemall/
 	# https://addons.mozilla.org/en-US/firefox/addon/about-addons-memory/
 	# https://addons.mozilla.org/en-us/firefox/addon/auto-refresh-for-twitter/
 	# https://addons.mozilla.org/en-US/firefox/addon/bookmark-autohider/
