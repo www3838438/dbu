@@ -39,7 +39,7 @@ ffaddons:
 	wget -N -nv --show-progress -P $(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/415846/addon-415846-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
 	wget -N -nv --show-progress -P $(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/521554/addon-521554-latest.xpi
-	#https://addons.mozilla.org/fr/firefox/addon/no-resource-uri-leak/
+	#https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/
 	wget -N -nv --show-progress -P $(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
 	#
 	# UI-related / utility addons
@@ -52,13 +52,21 @@ ffaddons:
 	#
 	# more addons (disabled):
 	# https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
+	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/greasemonkey/addon-748-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/
+	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-x/addon-521726-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/
+	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-copypageinfo/addon-536398-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-autosave/
+	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-autosave/addon-536396-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-maf-creator/
+	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-maf-creator/addon-536394-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/
+	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-converter/addon-536392-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/downthemall/
+	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/downthemall/addon-201-latest.xpi
 	#
+	# more addons (disabled):
 	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-bookmarks/
 	# https://addons.mozilla.org/en-US/firefox/addon/password-exporter/
 	# https://addons.mozilla.org/en-US/firefox/addon/watch-with-mpv/
