@@ -2,7 +2,6 @@
 
 sox
 ffmpeg
-libav-tools
 mediainfo
 media-player-info
 moc
