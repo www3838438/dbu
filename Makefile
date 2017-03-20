@@ -26,10 +26,8 @@ buildenv:
 	aptitude install live-build make build-essential wget git xmlstarlet unzip
 
 clean:
-	-rm $(tbaddonsdir)/*.[1-9]
-	-rm $(tbaddonsdir)/*.xpi
-	-rm $(addonsdir)/*.xpi
-	-rm $(addonsdir)/*.[1-9]
+	-rm $(tbaddonsdir)/*
+	-rm $(addonsdir)/*
 	-rm config/packages.chroot/*
 	-rm -r config/includes.chroot/usr/lib/purple-2/*.so
 	
@@ -57,15 +55,18 @@ ffaddons:
 	#https://addons.mozilla.org/en-us/firefox/addon/yet-another-context-search/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/392483/addon-392483-latest.xpi
 	#
-	# more addons:
+	# more addons (disabled):
 	# https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-autosave/
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-maf-creator/
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/
+	# https://addons.mozilla.org/en-US/firefox/addon/downthemall/
+	#
 	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-bookmarks/
 	# https://addons.mozilla.org/en-US/firefox/addon/password-exporter/
 	# https://addons.mozilla.org/en-US/firefox/addon/watch-with-mpv/
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/
-	# https://addons.mozilla.org/en-US/firefox/addon/downthemall/
 	# https://addons.mozilla.org/en-US/firefox/addon/about-addons-memory/
 	# https://addons.mozilla.org/en-us/firefox/addon/auto-refresh-for-twitter/
 	# https://addons.mozilla.org/en-US/firefox/addon/bookmark-autohider/
@@ -89,9 +90,6 @@ ffaddons:
 	# https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/
 	# https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/
 	# https://addons.mozilla.org/en-US/firefox/addon/requestpolicy-continued/
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-autosave/
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-maf-creator/
 	# https://addons.mozilla.org/en-US/firefox/addon/simple-mail/
 	# https://addons.mozilla.org/en-us/firefox/addon/ssleuth/
 	# https://addons.mozilla.org/en-US/firefox/addon/tab-badge/
