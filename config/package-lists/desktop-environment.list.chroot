@@ -5,9 +5,14 @@
 xfdesktop4
 xfwm4
 xfce4-panel
-xfce4-whiskermenu-plugin
 xfce4-session
 xfce4-notifyd
+synapse
+zeitgeist-datahub
+zeitgeist
+activity-log-manager
+gnome-activity-journal
+
 
 # Display
 mesa-utils
@@ -121,11 +126,6 @@ plymouth-themes
 #Alt: screenlets
 #Alt: dunst
 #Alt: xdotool
-#Alt: synapse
-#Alt: zeitgeist-datahub
-#Alt: zeitgeist
-#Alt: activity-log-manager
-#Alt: gnome-activity-journal
 #Alt: gnome-pie
 #Alt: kupfer
 #Alt: gnome-do
@@ -139,6 +139,7 @@ plymouth-themes
 #Alt: espeak-gui
 #Alt: alltray
 #Alt: gtk3-engines-unico
+#Alt: xfce4-whiskermenu-plugin
 #Alt: dbus-user-session #stretch only
 
 
