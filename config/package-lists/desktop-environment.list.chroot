@@ -141,7 +141,13 @@ plymouth-themes
 #Alt: gtk3-engines-unico
 #Alt: xfce4-whiskermenu-plugin
 #Alt: dbus-user-session #stretch only
-
+#Alt: lxlock
+#Alt: lxpolkit
+#Alt: compiz
+#Alt: compiz-plugins-main
+#Alt: compiz-plugins-default
+#Alt: compiz-plugins-extra
+#Alt: compiz-plugins
 
 #Cat: Utility
 #Res: http://docs.xfce.org/
