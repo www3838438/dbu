@@ -41,16 +41,17 @@ function _dbuSetupDialog {
     FALSE "Setup appearance" \
     FALSE "Setup panel" \
     FALSE "Setup desktop" \
-    TRUE "Setup virtual workspaces" \
+    FALSE "Setup virtual workspaces" \
     TRUE "Setup power management" \
-    TRUE "Setup time and date"
+    TRUE "Setup backups" \
+    FALSE "Setup time and date"
     TRUE "Setup instant messaging accounts" \
     TRUE "Setup e-mail accounts" \
-    TRUE "Setup RSS news feeds" \
+    FALSE "Setup RSS news feeds" \
     TRUE "Setup printers" \
     TRUE "Setup desktop session/autostart" \
     TRUE "Setup system services" \
-    TRUE "Setup user accounts and passwords" \
+    FALSE "Setup user accounts and passwords" \
     TRUE "Upgrade all packages" \
     TRUE "Manage installed software" \
     )
@@ -67,6 +68,8 @@ function _dbuSetupDialog {
             "Setup virtual workspaces") xfwm4-workspace-settings
             ;;
             "Setup power management") xfce4-power-manager-settings
+            ;;
+            "Setup backups") backintime-gnome
             ;;
             "Setup time and date") time-admin
             ;;
