@@ -229,8 +229,8 @@ packageschroot:
 purpleplugins:
 	mkdir -pv config/includes.chroot/usr/lib/purple-2/
 	wget -N --directory-prefix=config/includes.chroot/usr/lib/purple-2/ \
-	    https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so \
-	    https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
+		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so \
+		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
 
 # download gtk/wm themes
 themes:
@@ -253,11 +253,10 @@ themes:
 
 # download misc configuration files
 dotfiles:
-	-rm -rf config/includes.chroot/etc/skel/.nano config/includes.chroot/etc/skel/.conky config/includes.chroot/etc/firefox config/includes.chroot/usr/share/fonts/
+	-rm -rf config/includes.chroot/etc/skel/.nano config/includes.chroot/etc/skel/.conky config/includes.chroot/usr/share/fonts/
 	-mkdir -pv config/includes.chroot/etc/skel/ config/includes.chroot/etc/firefox/
 	git clone --depth=1 https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
-	git clone --depth=1 --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky
-	git clone -b dbu --depth=1 https://github.com/nodiscc/user.js config/includes.chroot/etc/firefox/
+	git clone --depth=1 --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky 
 	git clone --depth=1 https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
 	
 	git clone --depth=1 https://github.com/az0/cleanerml/ tmp-cleanerml
@@ -265,6 +264,12 @@ dotfiles:
 	mkdir -p config/includes.chroot/usr/share/bleachbit/
 	mv tmp-cleanerml/release config/includes.chroot/usr/share/bleachbit/cleaners
 	rm -rf tmp-cleanerml
+
+	git clone -b dbu --depth=1 https://github.com/nodiscc/user.js tmp-userjs
+	-rm -rf config/includes.chroot/etc/firefox/
+	mkdir -p config/includes.chroot/etc/firefox/
+	mv tmp-userjs/firefox.js config/includes.chroot/etc/firefox/firefox.js
+	rm -rf tmp-userjs
 
 documentation:
 	-rm -r doc/packages/*.md
