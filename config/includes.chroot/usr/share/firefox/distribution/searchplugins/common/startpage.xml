@@ -7,7 +7,6 @@
 <os:Url type="text/html" method="POST" template="https://www.startpage.com/do/search">
   <os:Param name="cat" value="web"/>
   <os:Param name="cmd" value="process_search"/>
-  <os:Param name="language" value="francais"/>
   <os:Param name="engine0" value="v1all"/>
   <os:Param name="query" value="{searchTerms}"/>
 </os:Url>
