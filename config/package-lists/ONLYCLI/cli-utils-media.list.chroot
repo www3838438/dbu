@@ -1,0 +1,16 @@
+#Name: Multimedia utilities - command line
+
+sox
+ffmpeg
+mediainfo
+media-player-info
+moc
+moc-ffmpeg-plugin
+
+#Alt: mpg123
+#Alt: oggvideotools
+#Alt: mp3splt
+#Alt: libav-tools #jessie without backports
+#Alt: go-mtpfs
+
+#Cat: Multimedia

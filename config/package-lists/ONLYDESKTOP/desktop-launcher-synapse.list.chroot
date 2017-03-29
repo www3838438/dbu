@@ -1,0 +1,19 @@
+#Name: Synapse launcher
+#Cat: Utility
+#Screenshot: synapse
+#Screenshot: gnome-activity-journal
+#Desc: synapse
+#Desc: zeitgeist
+#Desc: gnome-activity-journal
+
+synapse
+zeitgeist-datahub
+zeitgeist
+activity-log-manager
+gnome-activity-journal
+
+
+#Alt: gnome-pie
+#Alt: kupfer
+#Alt: gnome-do
+#Alt: xfce4-appfinder

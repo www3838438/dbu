@@ -1,0 +1,26 @@
+#Name: Network utilities - command line
+
+hostname
+bridge-utils
+ethtool
+curl
+wget
+rsync
+transmission-cli
+
+#Alt: ntopng
+#Alt: nmon
+#Alt: speedtest-cli
+#Alt: vnstat
+#Alt: vnstati
+#Alt: httrack
+#Alt: pavuk
+#Alt: aria2
+#Alt: rtorrent
+#Alt: axel
+#Alt: lftp
+#Alt: plowshare
+#Alt: btfs
+#Alt: fping
+#Alt: gwakeonlan
+#Alt: rclone

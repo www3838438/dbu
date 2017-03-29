@@ -1,0 +1,5 @@
+#Name: Plymouth boot screen
+#Cat: System
+plymouth
+plymouth-x11
+plymouth-themes

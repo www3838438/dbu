@@ -1,0 +1,35 @@
+#Name: ALSA/PulseAudio audio system
+#Desc: pulseaudio
+#Screenshot: pavucontrol
+
+# ALSA/Pulse
+alsa-base
+alsa-oss
+alsa-tools
+alsa-utils
+libasound2-plugins
+libasound2-plugin-equal
+oss-compat
+alsa-firmware-loaders
+pulseaudio
+pulseaudio-utils
+pulseaudio-module-x11
+pulseaudio-module-bluetooth
+pulseaudio-module-gconf
+pulseaudio-module-lirc
+pulseaudio-module-zeroconf
+pulseaudio-module-jack
+pavucontrol
+rtkit
+
+#Alt: pasystray
+#Alt: xfce4-pulseaudio-plugin #stretch only
+#Alt: padevchooser
+#Alt: paprefs
+#Alt: pnmixer
+#Alt: xfce4-mixer
+
+#Cat: System
+#Cat: Multimedia
+#Res: https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
+#Res: https://fr.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture

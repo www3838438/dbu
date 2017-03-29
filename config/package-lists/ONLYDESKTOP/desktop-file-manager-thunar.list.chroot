@@ -1,0 +1,34 @@
+#Name: Thunar file manager
+#Cat: Utility
+#Desc: thunar
+#Screenshot: thunar
+
+thunar
+thunar-media-tags-plugin
+thunar-archive-plugin
+tumbler
+ffmpegthumbnailer
+ooo-thumbnailer
+gvfs-bin
+gvfs-fuse
+gvfs-backends
+usbmuxd
+libgphoto2-l10n
+libmtp-runtime
+thunar-volman
+
+#Alt: pcmanfm
+#Alt: pyrenamer
+#Alt: gprename
+#Alt: thunar-gtkhash
+#Alt: nautilus
+#Alt: gnome-xcf-thumbnailer
+#Alt: nautilus-open-terminal
+#Alt: nautilus-sendto
+#Alt: ooo-thumbnailer
+#Alt: nautilus-wipe
+#Alt: nautilus-image-converter
+#Alt: cover-thumbnailer
+#Alt: gnome-sushi
+#Alt: gtkhash
+#Alt: gnome-split

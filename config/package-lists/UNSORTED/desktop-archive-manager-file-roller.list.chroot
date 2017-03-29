@@ -1,0 +1,28 @@
+#Name: File-roller archive manager
+#Desc: file-roller
+#Screenshot: file-roller
+
+file-roller
+p7zip
+p7zip-full
+arj
+cabextract
+cpio
+lzip
+lzma
+lzop
+lzip
+unace
+unalz
+unrar-free
+rar
+unzip
+zip
+
+#Alt: squeeze
+#Alt: xarchiver
+#Alt: p7zip-rar
+#Alt: isomaster
+
+#Cat: Utility
+#Res: http://en.wikipedia.org/wiki/File_Roller

@@ -1,0 +1,103 @@
+#Name: XFCE Desktop Environment
+#Desc: xfce4
+#Screenshot: xfce4
+#Cat: Utility
+#TODO: arbitrary screenshot URL
+
+xfdesktop4
+xfwm4
+xfce4-panel
+xfce4-session
+xfce4-notifyd
+
+# Resources
+desktop-base
+faenza-icon-theme
+gnome-audio
+clearlooks-phenix-theme
+gnome-themes-standard
+sound-theme-freedesktop
+
+# Utilities
+gmrun
+libnotify-bin
+zenity
+numlockx
+x11-apps
+xbitmaps
+
+# Misc
+gtk2-engines
+gtk2-engines-murrine
+gtk2-engines-pixbuf
+gtk2-engines-xfce
+xdg-user-dirs-gtk
+libfile-mimeinfo-perl
+policykit-1-gnome
+python-appindicator
+dconf-gsettings-backend
+
+#Alt: arc-theme
+#Alt: openbox
+#Alt: obconf
+#Alt: tint2
+#Alt: clipit
+#Alt: xfce4-clipman
+#Alt: diodon
+#Alt: glipper
+#Alt: x-tile
+#Alt: notify-osd
+#Alt: gxkb
+#Alt: nitrogen
+#Alt: compton
+#Alt: compton-conf
+#Alt: brightside
+#Alt: winwrangler
+#Alt: xscreensaver
+#Alt: xscreensaver-gl-extra
+#Alt: xscreensaver-data-extra
+#Alt: xscreensaver-gl
+#Alt: gsimplecal
+#Alt: lxpanel
+#Alt: plank
+#Alt: docky
+#Alt: fbxkb
+#Alt: wbar
+#Alt: fvwm
+#Alt: gnome-mag
+#Alt: gexec
+#Alt: unclutter
+#Alt: indicator-workspaces
+#Alt: dunst
+#Alt: xdotool
+#Alt: rofi
+#Alt: tango-icon-theme
+#Alt: espeak
+#Alt: pocketsphinx
+#Alt: gespeaker
+#Alt: festival
+#Alt: espeak-gui
+#Alt: alltray
+#Alt: gtk3-engines-unico
+#Alt: xfce4-whiskermenu-plugin
+#Alt: dbus-user-session #stretch only
+#Alt: lxlock
+#Alt: lxpolkit
+#Alt: compiz
+#Alt: compiz-plugins-main
+#Alt: compiz-plugins-default
+#Alt: compiz-plugins-extra
+#Alt: compiz-plugins
+
+#TODO link to keyboard shortcuts
+
+#Res: http://docs.xfce.org/
+#Res: http://xfce.org/about/tour
+#Res: https://en.wikipedia.org/wiki/Xfce
+#Res: https://wiki.archlinux.org/index.php/XFCE
+#Res: https://wiki.archlinux.org/index.php/Thunar
+#Res: https://wiki.archlinux.org/index.php/Xfwm
+#Res: https://wiki.archlinux.org/index.php/Desktop_environment
+#Res: https://wiki.archlinux.org/index.php/Window_Manager
+#Res: https://en.wikipedia.org/wiki/Comparison_of_X_window_managers
+#Res: https://wiki.archlinux.org/index.php/Cursor_themes
