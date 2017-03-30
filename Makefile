@@ -40,8 +40,6 @@ ffaddons:
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/clean-links/
-	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/317263/addon-317263-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/415846/addon-415846-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
