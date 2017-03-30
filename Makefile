@@ -258,6 +258,7 @@ dotfiles:
 	git clone --depth=1 https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
 	git clone --depth=1 --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky 
 	git clone --depth=1 https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
+	git clone --depth=1 https://github.com/nodiscc/ohmpage config/includes.chroot/usr/share/ohmpage
 	
 	git clone --depth=1 https://github.com/az0/cleanerml/ tmp-cleanerml
 	-rm -rf config/includes.chroot/usr/share/bleachbit/

@@ -6,9 +6,7 @@
 
   ☐ [bug] [doc] generate documentation for disabled/*.chroot packages, add them to the index tagged `disabled`
   ☐ [bug] [firefox] default ublock configuration -> on first run, propose running `firefox chrome://ublock0/content/dashboard.html#3p-filters.html`
-  ☐ [bug] [firefox] remove firefox default first run page (firefox accounts)
   ☐ [bug] [firefox] customize/reorganize UI elements (localstore.rdf)
-  ☐ [enh] [security] [firefox] add mozilla-gnome-keyring addon
   ☐ [bug] autorun pk-update-icon
   ☐ [enh] [doc] add package versions to generated md documentation
   ☐ [enh] [packages] 2 separate package lists for audacious/quodlibet
@@ -16,10 +14,9 @@
   ☐ [enh] add travis config for tests/automated builds
   ☐ [enh] setup assistant: select keyboard layout
   ☐ [enh] keyboard-configuration interrupts unattended chroot build
-  ☐ [enh] setup assistant: prevent from running in live mode?
   ☐ [bug] autostart: conky/clock
   ☐ [enh] show calendar when clicking on panel clock
-  ☐ [enh] [firefox] firefox default homepage/rss/bookmarks/bookmarklets/startpage; add btdigg, add archiveorg
+  ☐ [enh] [firefox] firefox default homepage/rss/bookmarks/bookmarklets/startpage
   ☐ [doc] generate documentation from package lists
   ☐ [feature] BACKUPS! encrypted to ext drive (ask to format a backup drive, backup every 7 days, remind every 30 days: alarm clock, pidgin, ff bookmarks, ff passwords, transmission torrents, mail
   ☐ [bug] [unconfirmed] **screen locking:** configure light-locker from XFCE's power management settings. it locks too fast

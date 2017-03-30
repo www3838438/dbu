@@ -26,3 +26,4 @@ config/includes.chroot/usr/share/firefox/distribution/extensions/*.xpi
 config/includes.chroot/usr/share/themes/
 config/includes.chroot/usr/share/bleachbit/
 config/includes.chroot/usr/share/fonts/
+config/includes.chroot/usr/share/ohmpage/
