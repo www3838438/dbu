@@ -54,6 +54,8 @@ ffaddons:
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/3682/addon-3682-latest.xpi
 	#https://addons.mozilla.org/en-us/firefox/addon/yet-another-context-search/
 	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/392483/addon-392483-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/
+	wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/file/339198/rss_icon_in_url_bar-1.5.2-sm+fx.xpi
 	#
 	# more addons (disabled):
 	# https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
@@ -106,8 +108,6 @@ ffaddons:
 	# https://addons.mozilla.org/en-US/firefox/addon/yesscript/
 	# https://addons.mozilla.org/en-us/firefox/addon/copy-as-markdown/
 	# https://addons.mozilla.org/en-US/firefox/addon/open-livestreamer/
-	# https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/
-
 
 #rename xpis from their id
 xpi:
