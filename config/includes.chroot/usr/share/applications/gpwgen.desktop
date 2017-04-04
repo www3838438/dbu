@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Random password generator
-Name[fr]=Générateur de mots de passe
-Comment=Generate random passwords
-Comment[fr]=Générer des mots de passe aléatoires
+Name=Generate random passwords
+Name[fr]=Générer des mots de passe
+Comment=Generate random passwords (pwgen)
+Comment[fr]=Générer des mots de passe aléatoires (pwgen)
 Exec=gpwgen
 TryExec=gpwgen
 Icon=password

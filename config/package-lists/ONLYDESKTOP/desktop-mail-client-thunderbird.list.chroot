@@ -3,8 +3,10 @@
 #Screenshot: thunderbird
 #Screenshot: lightning
 
-icedove
-icedove-l10n-fr
+thunderbird
+thunderbird-l10n-fr
+#icedove #jessie only
+#icedove-l10n-fr #jessie only
 
 #Alt: geary
 #Alt: claws-mail

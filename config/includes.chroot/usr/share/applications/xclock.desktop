@@ -1,12 +1,12 @@
 [Desktop Entry]
 Version=1.0
-Name=Clock
-Name[fr]=Horloge
-Comment=Analog clock
-Comment[fr]=Horloge analogique
+Name=Analog clock
+Name[fr]=Horloge analogique
+Comment=Analog clock (xclock)
+Comment[fr]=Horloge analogique (xclock)
 Exec=xclock
 TryExec=xclock
-Icon=accessories-clock
+Icon=gnome-clocks
 Terminal=false
 Type=Application
 X-MultipleArgs=false
