@@ -14,6 +14,7 @@
         system-config-printer
         users-admin
         time-admin
+        menulibre
      Creating a copy of the original .desktop in /usr/share/applications with the following categories added works: DesktopSettings;Settings;System;X-XFCE-HardwareSettings;X-XFCE-PersonalSettings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings; but is overwritten on package upgrades. Find XFCE specific location for settings-manager wrapper .desktop files
 
 

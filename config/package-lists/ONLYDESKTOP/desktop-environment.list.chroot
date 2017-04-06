@@ -17,6 +17,7 @@ gnome-audio
 clearlooks-phenix-theme
 gnome-themes-standard
 sound-theme-freedesktop
+arc-theme
 
 # Utilities
 gmrun
@@ -37,7 +38,6 @@ policykit-1-gnome
 python-appindicator
 dconf-gsettings-backend
 
-#Alt: arc-theme
 #Alt: openbox
 #Alt: obconf
 #Alt: tint2
