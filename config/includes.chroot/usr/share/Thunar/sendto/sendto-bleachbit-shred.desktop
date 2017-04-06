@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Shred files
+Name[fr]=Détruire les fichiers
+Encoding=UTF-8
+Exec=bleachbit --gui --shred %F
+TryExec=bleachbit
+Icon=bleachbit
+Terminal=false
+Type=Application

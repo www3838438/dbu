@@ -20,18 +20,4 @@
 	<patterns>*</patterns>
 	<directories/>
 </action>
-<action>
-	<icon>package-remove</icon>
-	<name>Détruire</name>
-	<unique-id>1384303108769944-5</unique-id>
-	<command>srm-zenity %F</command>
-	<description>Ecrase les données pour les rendre irrécupérables</description>
-	<patterns>*</patterns>
-	<directories/>
-	<audio-files/>
-	<image-files/>
-	<other-files/>
-	<text-files/>
-	<video-files/>
-</action>
 </actions>
