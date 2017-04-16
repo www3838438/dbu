@@ -1,5 +1,5 @@
 #Name: Image utilities - command line
-#Desc: imagemagick
+#NoDescription
 
 imagemagick
 libmagickcore-6.q16-2-extra 

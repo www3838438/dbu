@@ -44,57 +44,19 @@ packages:
    media backend
  * libpaper-utils: papersize detection support via paperconf
  * bluez: Bluetooth support for Impress (slideshow remote control
-LibreOffice is a full-featured office productivity suite that provides
-a near drop-in replacement for Microsoft(R) Office.
-
-This metapackage installs all components of libreoffice:
- * libreoffice-writer: Word processor
- * libreoffice-calc: Spreadsheet
- * libreoffice-impress: Presentation
- * libreoffice-draw: Drawing
- * libreoffice-base: Database
- * libreoffice-math: Equation editor
-It also recommends additional packages (e.g. fonts) in order to match an
-upstream LibreOffice install as closely as possible.
-
-You can extend the functionality of LibreOffice by installing these
-packages:
- * hunspell-*/myspell-*: Hunspell/Myspell dictionaries
-   for use with LibreOffice
- * libreoffice-l10n-*: UI interface translation
- * libreoffice-help-*: User help
- * mythes-*: Thesauri for the use with LibreOffice
- * hyphen-*: Hyphenation patterns for LibreOffice
- * libreoffice-gtk(2|3): Gtk UI Plugin, GNOME File Picker support
- * libreoffice-gnome: GIO backend
- * unixodbc: ODBC database support
- * cups-bsd: Allows LibreOffice to detect your CUPS printer queues
-   automatically
- * libsane: Use your sane-supported scanner with LibreOffice
- * libxrender1: Speed up display by using Xrender library
- * libgl1: OpenGL support
- * openclipart-libreoffice: Open Clip Art Gallery with LibreOffice index
-   files
- * iceweasel | firefox | icedove | thunderbird | iceape-browser | mozilla-browser:
-   Mozilla profile with Certificates needed for XML Security...
- * openjdk-6-jre | gcj-jre | java5-runtime:
-   Java Runtime Environment for use with LibreOffice
- * pstoedit / imagemagick: helper tools for EPS thumbnails
- * gstreamer0.10-plugins-*: GStreamer plugins for use with LibreOffices
-   media backend
- * libpaper-utils: papersize detection support via paperconf
- * bluez: Bluetooth support for Impress (slideshow remote control
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/libreoffice-writer
+[![](https://screenshots.debian.net/thumbnail/libreoffice-writer
+libreoffice-calc
+libreoffice-draw
+libreoffice-impress/)](https://screenshots.debian.net/screenshot/libreoffice-writer
 libreoffice-calc
 libreoffice-draw
 libreoffice-impress/)
 
 
- **[Homepage](http://www.libreoffice.org
-http://www.libreoffice.org)**
+ **[Homepage](http://www.libreoffice.org)**
 
 ### Installed packages
 
@@ -106,19 +68,17 @@ http://www.libreoffice.org)**
 * [libreoffice-base](https://packages.debian.org/stretch/libreoffice-base) - office productivity suite -- database
 * [libreoffice-gtk](https://packages.debian.org/stretch/libreoffice-gtk) - transitional package to upgrade to libreoffice-gtk2/-systray
 * [libreoffice-gtk3](https://packages.debian.org/stretch/libreoffice-gtk3) - office productivity suite -- GTK+ 3 integration
-* [libreoffice-l10n-fr](https://packages.debian.org/stretch/libreoffice-l10n-fr) - office productivity suite -- French language package
 * [libreoffice-style-tango](https://packages.debian.org/stretch/libreoffice-style-tango) - office productivity suite -- Tango symbol style
-* [hyphen-fr](https://packages.debian.org/stretch/hyphen-fr) - French hyphenation patterns
 * [libreoffice-pdfimport](https://packages.debian.org/stretch/libreoffice-pdfimport) - PDF Import component for LibreOffice
-* [libreoffice-help-fr](https://packages.debian.org/stretch/libreoffice-help-fr) - office productivity suite -- French help
-* [hunspell](https://packages.debian.org/stretch/hunspell) - spell checker and morphological analyzer (program)
-* [hunspell-fr](https://packages.debian.org/stretch/hunspell-fr) - French dictionary for hunspell (dependency package)
-* [hunspell-en-us](https://packages.debian.org/stretch/hunspell-en-us) - English_american dictionary for hunspell
 * [libreoffice-java-common](https://packages.debian.org/stretch/libreoffice-java-common) - office productivity suite -- arch-independent Java support files
 * [libreoffice-gnome](https://packages.debian.org/stretch/libreoffice-gnome) - office productivity suite -- GNOME integration
 * [libreoffice-avmedia-backend-gstreamer](https://packages.debian.org/stretch/libreoffice-avmedia-backend-gstreamer) - GStreamer backend for LibreOffice
 * [libreoffice-avmedia-backend-vlc](https://packages.debian.org/stretch/libreoffice-avmedia-backend-vlc) - VLC backend for LibreOffice
 * [libwmf-bin](https://packages.debian.org/stretch/libwmf-bin) - Windows metafile conversion tools
+* [hyphen-fr](https://packages.debian.org/stretch/hyphen-fr) - French hyphenation patterns
+* [libreoffice-l10n-fr](https://packages.debian.org/stretch/libreoffice-l10n-fr) - office productivity suite -- French language package
+* [mythes-fr](https://packages.debian.org/stretch/mythes-fr) - French Thesaurus for LibreOffice
+* [libreoffice-help-fr](https://packages.debian.org/stretch/libreoffice-help-fr) - office productivity suite -- French help
 
 ### Related packages
 

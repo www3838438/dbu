@@ -115,6 +115,7 @@ not be edited manually (edit package lists instead).
  * #Desc: Package name to use for the description. If this is omitted, the description for first package in the list is used.
  * #Alt: name of an alternative package, or other package related to this list
  * #Res: URL to a resource/help link to add on the package doc page (using the target webpage title)
+ * #NoDescription: putting this line in any package list will remove the long/short description from the resulting markdown file
 
 #### Main documentation
 

@@ -4,11 +4,13 @@ Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
 
 [Debian GNU/Linux](https://en.wikipedia.org/wiki/Debian) is a major and widely used [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution). [GNU/Linux](https://en.wikipedia.org/wiki/Linux) is a [Free](https://en.wikipedia.org/wiki/Free_software) and open source [operating system](https://en.wikipedia.org/wiki/Operating_system).
 
-**[Download ISO (64-bit)](https://github.com/nodiscc/dbu/releases)** (2.1G)
+This system can be run as a Live system from [USB](https://en.wikipedia.org/wiki/Live_USB)/[DVD](https://en.wikipedia.org/wiki/Live_CD) 
+(runs from memory, no installation required), or can be installed to your machine. Installation does not require an Internet connection.
+It comes with [preinstalled software packages](doc/packages.md), and is preconfigured for desktop machines.
+This system is based on Debian 9 Stretch (_stable_ Debian release). It can be used as-is or used as an example to [build your own image](doc/custom.md)
 
- * Run as a Live system from [USB](https://en.wikipedia.org/wiki/Live_USB)/[DVD](https://en.wikipedia.org/wiki/Live_CD) (runs from memory, no installation required), or install the OS to your machine (works offline).
- * Preinstalled software, preconfigured for desktop machines.
- * Based on Debian 9 Stretch (_stable_ Debian release).
+**[![](doc/res/download.png)](https://github.com/nodiscc/dbu/releases)**
+
 
 ![](doc/screenshot-main.png)
 
@@ -35,4 +37,5 @@ Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
 ### License
 
 [GNU GPLv3](LICENSE) unless stated otherwise in each individual file.  
+See README/COPYING/AUTHORS/LICENSE/COPYRIGHT files in `/usr/share/doc/` for more information on licenses of each installed component.  
 Documentation under [CreativeCommons Attribution-ShareAlike](LICENSE).

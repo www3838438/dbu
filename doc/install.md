@@ -1,4 +1,8 @@
-## Install instructions
+## Installation
+
+### Downloading and verifying the ISO image
+
+[Download](https://github.com/nodiscc/dbu/releases) the latest release.
 
 ### Writing the installation media
 

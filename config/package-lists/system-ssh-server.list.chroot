@@ -1,4 +1,5 @@
 #Name: OpenSSH server
+#Cat: Network
 #Desc: openssh-server
 
 openssh-server

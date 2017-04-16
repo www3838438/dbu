@@ -1,4 +1,4 @@
-# Label editor
+# Glabels label editor
 
 __label, business card and media cover creation program for GNOME__
 
@@ -14,7 +14,7 @@ Evolution data servers.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/glabels/)
+[![](https://screenshots.debian.net/thumbnail/glabels/)](https://screenshots.debian.net/screenshot/glabels/)
 
 
  **[Homepage](http://glabels.org/)**

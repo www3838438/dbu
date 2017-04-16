@@ -11,7 +11,7 @@ you might only know by its Unicode name or code point.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/gucharmap/)
+[![](https://screenshots.debian.net/thumbnail/gucharmap/)](https://screenshots.debian.net/screenshot/gucharmap/)
 
 
  **[Homepage](https://wiki.gnome.org/Apps/Gucharmap)**

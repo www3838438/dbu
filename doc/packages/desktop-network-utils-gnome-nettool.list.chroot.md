@@ -17,7 +17,7 @@ some of the most common command line network tools including:
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/gnome-nettool/)
+[![](https://screenshots.debian.net/thumbnail/gnome-nettool/)](https://screenshots.debian.net/screenshot/gnome-nettool/)
 
 
  **[Homepage](http://projects.gnome.org/gnome-network/)**

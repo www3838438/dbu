@@ -1,4 +1,4 @@
-# Music library player/manager
+# QuodLibet music player/library manager
 
 __audio library manager and player for GTK3__
 
@@ -11,23 +11,10 @@ capabilities, using the same interface as Ex Falso.
 
 Supported formats include MP3, Ogg Vorbis, FLAC, Musepack (MPC), WavPack,
 and MOD/XM/IT.
-Ex Falso displays and edits audio metadata tags. Supported formats include
-MP3, Ogg Vorbis, FLAC, Musepack (MPC), WavPack, and MOD/XM/IT.
-
-A command-line counterpart, Operon, is also distributed as part of this
-package.
-
-Notable features include:
- * Freeform tag editing for most supported formats, including ID3v2
- * Multiple values for tag keys
- * Flexible rename-by-tags and tag-by-filename patterns
- * Extensible using simple Python-based plugins
- * Edit multiple files in several formats at once
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/quodlibet
-exfalso/)
+[![](https://screenshots.debian.net/thumbnail/quodlibet/)](https://screenshots.debian.net/screenshot/quodlibet/)
 
 
  **[Homepage](https://github.com/quodlibet/quodlibet)**
@@ -45,6 +32,7 @@ exfalso/)
 * [libgpod-common](https://packages.debian.org/stretch/libgpod-common) - common files for libgpod
 * [libgpod4](https://packages.debian.org/stretch/libgpod4) - library to read and write songs and artwork to an iPod
 * [projectm-pulseaudio](https://packages.debian.org/stretch/projectm-pulseaudio) - projectM PulseAudio module
+* [python-musicbrainzngs](https://packages.debian.org/stretch/python-musicbrainzngs) - Python bindings for the Musicbrainz NGS webservice interface
 
 ### Related packages
 

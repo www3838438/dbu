@@ -8,28 +8,33 @@ export LANG="C"
 function _genPackagesDoc {
 packagelist=$1
 
+pageheader="# Installed software"
 packages=$(egrep "^[a0-z9]" $packagelist)
 mainpackage=$(echo "$packages " |head -n1)
 md_title="# $(egrep "^#Name" $packagelist | cut -d" " -f1 --complement)"
-md_shortdescription="_$(_getShortDescription $mainpackage)_"
 alts=$(egrep "^#Alt:" $packagelist | cut -d" " -f1 --complement)
 md_resources=
 md_category=
-md_homepage="**[Homepage]($(apt-cache show $mainpackage | egrep "^Homepage:" | cut -d" " -f1 --complement))**"
 
-if egrep "^#Desc:" $packagelist >/dev/null; then
-    descriptionpackage=$(egrep "^#Desc" $packagelist | cut -d" " -f1 --complement)
-    else descriptionpackage=$mainpackage
+if egrep "^#NoDescription" "$packagelist" >/dev/null; then
+    md_description=""
+    md_shortdescription=""
+    md_homepage=""
+else
+    if egrep "^#Desc:" $packagelist >/dev/null; then
+        descriptionpackage=$(egrep "^#Desc" $packagelist | cut -d" " -f1 --complement)
+        else descriptionpackage=$mainpackage
+    fi
+    md_description="$(apt-cache show $descriptionpackage | egrep "^ " | egrep -v "::" | sed -e 's/^ \.$/ /g' | cut -b1 --complement)"
+    md_shortdescription="_$(_getShortDescription $descriptionpackage)_"
+    md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | egrep "^Homepage:" | cut -d" " -f1 --complement))**"
 fi
-
-md_description="$(apt-cache show $descriptionpackage | egrep "^ " | egrep -v "::" | sed -e 's/^ \.$/ /g' | cut -b1 --complement)"
 
 if egrep "^#Screenshot:" $packagelist >/dev/null; then
     screenshotpackage=$(egrep "^#Screenshot:" $packagelist | cut -d" " -f1 --complement)
     else screenshotpackage=$mainpackage
 fi
-
-md_screenshot="![](https://screenshots.debian.net/thumbnail/$screenshotpackage/)"
+md_screenshot="[![](https://screenshots.debian.net/thumbnail/$screenshotpackage/)](https://screenshots.debian.net/screenshot/$screenshotpackage/)"
 
 _renderMarkdown
 
@@ -42,10 +47,12 @@ function _getShortDescription {
 
 function _renderMarkdown {
 	echo -e "$md_title"
-	echo -e "\n_${md_shortdescription}_\n"
-	echo -e '```'
-	echo -e "\n$md_description\n"
-	echo '```'
+	if [ ! -z "$md_shortdescription" ]; then echo -e "\n_${md_shortdescription}_\n"; fi
+	if [ ! -z "$md_description" ]; then
+		echo -e '```'
+		echo -e "\n$md_description\n"
+		echo '```'
+	fi
 	echo -e "\n$md_screenshot\n"
 	echo -e "\n $md_homepage"
 	echo -e "\n### Installed packages\n"
@@ -59,6 +66,12 @@ function _renderMarkdown {
 
 
 function _main {
+	for i in config/package-lists/*.list.chroot; do
+		if ! egrep "#Cat:" "$i" >/dev/null; then
+			echo "WARNING: No category defined for $i. List will not be included in the index page."
+		fi
+	done
+
 	for i in config/package-lists/*.list.chroot; do
 		echo "$i"
 		_genPackagesDoc $i > doc/packages/$(basename $i).md
@@ -81,8 +94,5 @@ pkgindex=$(
 	done
 )
 
-pkgheader="# Installed software"
-
-
-echo "$pkgheader
+echo "$pageheader
 $pkgindex" > doc/packages.md

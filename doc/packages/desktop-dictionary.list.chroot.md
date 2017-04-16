@@ -1,4 +1,4 @@
-# Dictionary
+# XFCE Dictionary
 
 __Dictionary plugin for Xfce4 panel__
 
@@ -14,7 +14,7 @@ plugin for the Xfce panel.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/xfce4-dict/)
+[![](https://screenshots.debian.net/thumbnail/xfce4-dict/)](https://screenshots.debian.net/screenshot/xfce4-dict/)
 
 
  **[Homepage](http://goodies.xfce.org/projects/applications/xfce4-dict)**

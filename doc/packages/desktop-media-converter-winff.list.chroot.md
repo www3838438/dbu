@@ -1,4 +1,4 @@
-# Multimedia file converter
+# WinFF multimedia file converter
 
 __graphical video and audio batch converter using ffmpeg or avconv__
 
@@ -24,7 +24,7 @@ This package is a metapackage to pull in either the GTK+ or Qt variant.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/winff-qt/)
+[![](https://screenshots.debian.net/thumbnail/winff-qt/)](https://screenshots.debian.net/screenshot/winff-qt/)
 
 
  **[Homepage](http://www.winff.org/)**

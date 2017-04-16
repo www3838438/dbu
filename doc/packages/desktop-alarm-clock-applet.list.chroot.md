@@ -14,7 +14,7 @@ application.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/alarm-clock-applet/)
+[![](https://screenshots.debian.net/thumbnail/alarm-clock-applet/)](https://screenshots.debian.net/screenshot/alarm-clock-applet/)
 
 
  **[Homepage](http://alarm-clock.pseudoberries.com/)**

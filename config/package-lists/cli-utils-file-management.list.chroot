@@ -1,8 +1,9 @@
 #Name: File management tools - command line
+#NoDescription
 #Cat: Utility
 
-secure-delete
 tree
+secure-delete
 trash-cli
 jdupes
 ranger

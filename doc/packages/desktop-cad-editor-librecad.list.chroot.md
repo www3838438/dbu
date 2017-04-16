@@ -11,7 +11,7 @@ diagrams.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/librecad /)
+[![](https://screenshots.debian.net/thumbnail/librecad /)](https://screenshots.debian.net/screenshot/librecad /)
 
 
  **[Homepage](http://www.librecad.org/)**

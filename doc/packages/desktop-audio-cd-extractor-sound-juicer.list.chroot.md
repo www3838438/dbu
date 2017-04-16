@@ -17,7 +17,7 @@ For other supports you need the following packages:
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/sound-juicer/)
+[![](https://screenshots.debian.net/thumbnail/sound-juicer/)](https://screenshots.debian.net/screenshot/sound-juicer/)
 
 
  **[Homepage](http://www.burtonini.com/blog/computers/sound-juicer)**

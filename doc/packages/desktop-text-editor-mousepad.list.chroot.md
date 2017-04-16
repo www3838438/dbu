@@ -28,7 +28,7 @@ following features:
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/mousepad/)
+[![](https://screenshots.debian.net/thumbnail/mousepad/)](https://screenshots.debian.net/screenshot/mousepad/)
 
 
  **[Homepage]()**

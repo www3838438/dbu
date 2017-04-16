@@ -1,3 +1,7 @@
+#Name: Live system components
+#Cat: System
+#NoDescription
+
 live-boot
 live-config
 live-config-systemd

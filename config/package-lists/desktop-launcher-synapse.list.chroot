@@ -1,10 +1,7 @@
 #Name: Synapse launcher
 #Cat: Utility
 #Screenshot: synapse
-#Screenshot: gnome-activity-journal
 #Desc: synapse
-#Desc: zeitgeist
-#Desc: gnome-activity-journal
 
 synapse
 zeitgeist-datahub

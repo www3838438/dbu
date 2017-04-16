@@ -1,6 +1,6 @@
 # ALSA/PulseAudio audio system
 
-____
+__PulseAudio sound server__
 
 ```
 
@@ -32,24 +32,23 @@ This package contains the daemon and basic module set.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/pavucontrol/)
+[![](https://screenshots.debian.net/thumbnail/pavucontrol/)](https://screenshots.debian.net/screenshot/pavucontrol/)
 
 
- **[Homepage](http://www.alsa-project.org/)**
+ **[Homepage](http://www.pulseaudio.org)**
 
 ### Installed packages
 
-* [alsa-base](https://packages.debian.org/stretch/alsa-base) - 
+* [kmod](https://packages.debian.org/stretch/kmod) - tools for managing Linux kernel modules
 * [alsa-oss](https://packages.debian.org/stretch/alsa-oss) - ALSA wrapper for OSS applications
 * [alsa-tools](https://packages.debian.org/stretch/alsa-tools) - Console based ALSA utilities for specific hardware
 * [alsa-utils](https://packages.debian.org/stretch/alsa-utils) - Utilities for configuring and using ALSA
 * [libasound2-plugins](https://packages.debian.org/stretch/libasound2-plugins) - ALSA library additional plugins
 * [libasound2-plugin-equal](https://packages.debian.org/stretch/libasound2-plugin-equal) - equalizer plugin for ALSA
 * [oss-compat](https://packages.debian.org/stretch/oss-compat) - Open Sound System (OSS) compatibility package
-* [alsa-firmware-loaders](https://packages.debian.org/stretch/alsa-firmware-loaders) - ALSA software loaders for specific hardware
+* [alsa-firmware-loaders](https://packages.debian.org/stretch/alsa-firmware-loaders) - 
 * [pulseaudio](https://packages.debian.org/stretch/pulseaudio) - PulseAudio sound server
 * [pulseaudio-utils](https://packages.debian.org/stretch/pulseaudio-utils) - Command line tools for the PulseAudio sound server
-* [pulseaudio-module-x11](https://packages.debian.org/stretch/pulseaudio-module-x11) - 
 * [pulseaudio-module-bluetooth](https://packages.debian.org/stretch/pulseaudio-module-bluetooth) - Bluetooth module for PulseAudio sound server
 * [pulseaudio-module-gconf](https://packages.debian.org/stretch/pulseaudio-module-gconf) - GConf module for PulseAudio sound server
 * [pulseaudio-module-lirc](https://packages.debian.org/stretch/pulseaudio-module-lirc) - lirc module for PulseAudio sound server

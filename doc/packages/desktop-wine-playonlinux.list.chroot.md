@@ -1,6 +1,6 @@
 # Windows compatibility layer
 
-__front-end for Wine__
+__Windows API implementation - standard suite__
 
 ```
 
@@ -10,30 +10,20 @@ This is still a work in progress and many applications may still not work.
 This package provides essential wrappers and convenience tools for the
 standard Wine components. It also employs the Debian alternatives system to
 provide the usual command names, e.g. "wine" instead of "wine-stable".
-Wine is a free MS-Windows API implementation.
-This is still a work in progress and many applications may still not work.
-
-This package provides essential wrappers and convenience tools for the
-standard Wine components. It also employs the Debian alternatives system to
-provide the usual command names, e.g. "wine" instead of "wine-stable".
-PlayOnLinux is a front-end for wine. It permits you to easily install Windows
-Games and software on Linux. It is advised to have a functional internet
-connection.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/playonlinux/)
+[![](https://screenshots.debian.net/thumbnail/playonlinux/)](https://screenshots.debian.net/screenshot/playonlinux/)
 
 
- **[Homepage](http://www.playonlinux.com/)**
+ **[Homepage](http://www.winehq.org/)**
 
 ### Installed packages
 
-* [playonlinux](https://packages.debian.org/stretch/playonlinux) - front-end for Wine
+* [playonlinux](https://packages.debian.org/stretch/playonlinux) - 
 * [wine](https://packages.debian.org/stretch/wine) - Windows API implementation - standard suite
-* [winetricks](https://packages.debian.org/stretch/winetricks) - package manager for Wine to install software easily
+* [winetricks](https://packages.debian.org/stretch/winetricks) - 
 * [wine64](https://packages.debian.org/stretch/wine64) - Windows API implementation - 64-bit binary loader
-* [wine64-bin](https://packages.debian.org/stretch/wine64-bin) - 
 
 ### Related packages
 

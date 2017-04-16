@@ -1,18 +1,9 @@
 # Network utilities - command line
 
-__utility to set/show the host name or domain name__
-
-```
-
-This package provides commands which can be used to display the system's
-DNS name, and to display or set its hostname or NIS domain name.
-
-```
-
-![](https://screenshots.debian.net/thumbnail/hostname/)
+[![](https://screenshots.debian.net/thumbnail/hostname/)](https://screenshots.debian.net/screenshot/hostname/)
 
 
- **[Homepage]()**
+ 
 
 ### Installed packages
 

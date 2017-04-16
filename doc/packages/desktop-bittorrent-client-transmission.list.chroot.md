@@ -12,7 +12,7 @@ This package contains the GTK+ stand-alone client.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/transmission-gtk/)
+[![](https://screenshots.debian.net/thumbnail/transmission-gtk/)](https://screenshots.debian.net/screenshot/transmission-gtk/)
 
 
  **[Homepage](http://www.transmissionbt.com/)**

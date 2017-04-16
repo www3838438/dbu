@@ -1,6 +1,6 @@
 # Media codecs
 
-____
+__GStreamer plugin for ALSA__
 
 ```
 
@@ -11,23 +11,18 @@ about anything else media-related.  Its plugin-based architecture means
 that new data types or processing capabilities can be added simply by
 installing new plug-ins.
 
-This package contains the GStreamer plugins from the "base" set, an
-essential exemplary set of elements.
+This package contains the GStreamer plugin for the ALSA library.  ALSA
+is the Advanced Linux Sound Architecture.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/gstreamer0.10-plugins-base/)
+[![](https://screenshots.debian.net/thumbnail/gstreamer1.0-alsa/)](https://screenshots.debian.net/screenshot/gstreamer1.0-alsa/)
 
 
- **[Homepage](http://gstreamer.freedesktop.org)**
+ **[Homepage](http://gstreamer.freedesktop.org/modules/gst-plugins-base.html)**
 
 ### Installed packages
 
-* [gstreamer0.10-plugins-base](https://packages.debian.org/stretch/gstreamer0.10-plugins-base) - 
-* [gstreamer0.10-tools](https://packages.debian.org/stretch/gstreamer0.10-tools) - 
-* [gstreamer0.10-x](https://packages.debian.org/stretch/gstreamer0.10-x) - 
-* [gstreamer0.10-alsa](https://packages.debian.org/stretch/gstreamer0.10-alsa) - 
-* [gstreamer0.10-gnomevfs](https://packages.debian.org/stretch/gstreamer0.10-gnomevfs) - 
 * [gstreamer1.0-alsa](https://packages.debian.org/stretch/gstreamer1.0-alsa) - GStreamer plugin for ALSA
 * [gstreamer1.0-libav](https://packages.debian.org/stretch/gstreamer1.0-libav) - libav plugin for GStreamer
 * [gstreamer1.0-plugins-bad](https://packages.debian.org/stretch/gstreamer1.0-plugins-bad) - GStreamer plugins from the "bad" set

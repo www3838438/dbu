@@ -1,7 +1,6 @@
-#Name: Media download and streaming
+#Name: Youtube-dl media downloader
 #Desc: youtube-dl
-#Desc: livestreamer
-#Screenshot: youtube-dlg
+#Screenshot: youtube-dl
 
 youtube-dl
 livestreamer
@@ -15,4 +14,3 @@ ffmpeg
 #Alt: minitube
 
 #Cat: Multimedia
-#Cat: Network

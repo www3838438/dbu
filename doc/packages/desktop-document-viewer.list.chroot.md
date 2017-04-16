@@ -13,7 +13,7 @@ table-of-contents bookmarks.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/evince/)
+[![](https://screenshots.debian.net/thumbnail/evince/)](https://screenshots.debian.net/screenshot/evince/)
 
 
  **[Homepage](https://wiki.gnome.org/Apps/Evince)**

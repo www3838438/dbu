@@ -18,7 +18,7 @@
      Creating a copy of the original .desktop in /usr/share/applications with the following categories added works: DesktopSettings;Settings;System;X-XFCE-HardwareSettings;X-XFCE-PersonalSettings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings; but is overwritten on package upgrades. Find XFCE specific location for settings-manager wrapper .desktop files
 
 
-  ☐ [enh] [easy] add mpv play/queue to thunar "send to" menu
+  ☐ [bug] [security] checksum iso images, sign checksum files with GPG, provide verification instructions in install.md
   ☐ [bug] [doc] generate documentation for disabled/*.chroot packages, add them to the index tagged `disabled`
   ☐ [bug] [firefox] default ublock configuration -> on first run, propose running `firefox chrome://ublock0/content/dashboard.html#3p-filters.html`
   ☐ [bug] [firefox] customize/reorganize UI elements (localstore.rdf)

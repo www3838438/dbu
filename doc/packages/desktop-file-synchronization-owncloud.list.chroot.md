@@ -15,7 +15,7 @@ synchronizing with cloud storage provided by ownCloud.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/owncloud-client/)
+[![](https://screenshots.debian.net/thumbnail/owncloud-client/)](https://screenshots.debian.net/screenshot/owncloud-client/)
 
 
  **[Homepage](http://owncloud.org/sync-clients/)**

@@ -16,7 +16,7 @@ Its main features are:
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/kdenlive/)
+[![](https://screenshots.debian.net/thumbnail/kdenlive/)](https://screenshots.debian.net/screenshot/kdenlive/)
 
 
  **[Homepage](http://www.kdenlive.org/)**

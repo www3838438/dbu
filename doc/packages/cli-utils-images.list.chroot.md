@@ -1,29 +1,9 @@
 # Image utilities - command line
 
-__image manipulation programs -- binaries__
-
-```
-
-ImageMagick is a software suite to create, edit, and compose bitmap images.
-It can read, convert and write images in a variety of formats (over 100)
-including DPX, EXR, GIF, JPEG, JPEG-2000, PDF, PhotoCD, PNG, Postscript,
-SVG, and TIFF. Use ImageMagick to translate, flip, mirror, rotate, scale,
-shear and transform images, adjust image colors, apply various special
-effects, or draw text, lines, polygons, ellipses and B?zier curves.
-All manipulations can be achieved through shell commands as well as through
-an X11 graphical interface (display).
-
-This package include links to channel depth specific binaries and manual
-pages.
-
-This is a dummy package.  You can safely purge or remove it.
-
-```
-
-![](https://screenshots.debian.net/thumbnail/imagemagick/)
+[![](https://screenshots.debian.net/thumbnail/imagemagick/)](https://screenshots.debian.net/screenshot/imagemagick/)
 
 
- **[Homepage](http://www.imagemagick.org/)**
+ 
 
 ### Installed packages
 
@@ -38,6 +18,7 @@ This is a dummy package.  You can safely purge or remove it.
 * [cmatrix-xfont](https://packages.debian.org/stretch/cmatrix-xfont) - X11 font for cmatrix
 * [figlet](https://packages.debian.org/stretch/figlet) - Make large character ASCII banners out of ordinary text
 * [toilet](https://packages.debian.org/stretch/toilet) - display large colourful characters in text mode
+* [scrot](https://packages.debian.org/stretch/scrot) - command line screen capture utility
 
 ### Related packages
 

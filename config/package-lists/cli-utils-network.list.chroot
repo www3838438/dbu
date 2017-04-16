@@ -1,4 +1,6 @@
 #Name: Network utilities - command line
+#Cat: Network
+#NoDescription
 
 hostname
 bridge-utils

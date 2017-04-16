@@ -19,7 +19,7 @@ Superscript.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/fonts-pecita/)
+[![](https://screenshots.debian.net/thumbnail/fonts-pecita/)](https://screenshots.debian.net/screenshot/fonts-pecita/)
 
 
  **[Homepage](http://pecita.eu)**
@@ -48,7 +48,7 @@ Superscript.
 * [fonts-yanone-kaffeesatz](https://packages.debian.org/stretch/fonts-yanone-kaffeesatz) - Font in four weights, reminiscent of 1920s coffee house typography
 * [fonts-century-catalogue](https://packages.debian.org/stretch/fonts-century-catalogue) - century-style font revival
 * [fonts-comfortaa](https://packages.debian.org/stretch/fonts-comfortaa) - stylish, modern true type font
-* [fonts-droid](https://packages.debian.org/stretch/fonts-droid) - 
+* [fonts-droid-fallback](https://packages.debian.org/stretch/fonts-droid-fallback) - handheld device font with extensive style and language support (fallback)
 * [fonts-ecolier-court](https://packages.debian.org/stretch/fonts-ecolier-court) - cursive roman font with small descenders
 * [fonts-f500](https://packages.debian.org/stretch/fonts-f500) - Wipeout 3 Font
 * [fonts-fanwood](https://packages.debian.org/stretch/fonts-fanwood) - font similar to the Fairfield font
@@ -69,7 +69,7 @@ Superscript.
 * [fonts-opensymbol](https://packages.debian.org/stretch/fonts-opensymbol) - OpenSymbol TrueType font
 * [fonts-roboto](https://packages.debian.org/stretch/fonts-roboto) - metapackage to pull in Roboto fonts
 * [fonts-averia-gwf](https://packages.debian.org/stretch/fonts-averia-gwf) - Aver?a GWF font family
-* [ttf-mscorefonts-installer](https://packages.debian.org/stretch/ttf-mscorefonts-installer) - Installer for Microsoft TrueType core fonts
+* [ttf-mscorefonts-installer](https://packages.debian.org/stretch/ttf-mscorefonts-installer) - 
 * [fonts-freefont-ttf](https://packages.debian.org/stretch/fonts-freefont-ttf) - Freefont Serif, Sans and Mono Truetype fonts
 
 ### Related packages

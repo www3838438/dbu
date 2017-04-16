@@ -15,7 +15,7 @@ It may be safely removed after upgrade/installation.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/conky /)
+[![](https://screenshots.debian.net/thumbnail/conky /)](https://screenshots.debian.net/screenshot/conky /)
 
 
  **[Homepage](http://conky.sourceforge.net/)**

@@ -15,7 +15,10 @@ is in turn based on the original PCSX.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/pcsxr
+[![](https://screenshots.debian.net/thumbnail/pcsxr
+higan
+desmume
+mupen64plus/)](https://screenshots.debian.net/screenshot/pcsxr
 higan
 desmume
 mupen64plus/)

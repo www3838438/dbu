@@ -1,12 +1,7 @@
 #Name: APT package management system
 #Cat: System
-#Desc: gnome-packagekit
 #Desc: synaptic
-#Desc: gdebi
-#Screenshot: gnome-packagekit
 #Screenshot: synaptic
-#Screenshot: gdebi
-
 
 # PackageKit
 gnome-packagekit

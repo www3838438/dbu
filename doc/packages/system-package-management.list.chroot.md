@@ -1,17 +1,9 @@
 # APT package management system
 
-__Graphical distribution neutral package manager for GNOME__
+__Graphical package manager__
 
 ```
 
-PackageKit allows performing simple software management tasks over a DBus
-interface  e.g. refreshing the cache, updating, installing and removing
-software packages or searching for multimedia codecs and file handlers.
-
-This package contains a GTK+ based application for package installation
-and removal, an application to view system updates, a simple
-repository editor and PackageKit configuration tool and a viewer for
-package installation history.
 Synaptic is a graphical package management tool based on GTK+ and APT.
 Synaptic enables you to install, upgrade and remove software packages in
 a user friendly way.
@@ -24,23 +16,13 @@ Besides these basic functions the following features are provided:
  * Download the latest changelog of a package
  * Configure packages through the debconf system
  * Browse all available documentation related to a package (dwww is required)
-gdebi lets you install local deb packages resolving and installing
-its dependencies. apt does the same, but only for remote (http, ftp)
-located packages.
-
-The package is also scanned via lintian before the install and its
-possible to inspect the control and data members of the packages.
-
-This package contains the graphical user interface.
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/gnome-packagekit
-synaptic
-gdebi/)
+[![](https://screenshots.debian.net/thumbnail/synaptic/)](https://screenshots.debian.net/screenshot/synaptic/)
 
 
- **[Homepage](https://help.gnome.org/users/gnome-packagekit/stable/)**
+ **[Homepage](http://www.nongnu.org/synaptic/)**
 
 ### Installed packages
 

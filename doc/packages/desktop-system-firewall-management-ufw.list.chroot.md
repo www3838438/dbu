@@ -1,6 +1,6 @@
-# Firewall management
+# UFW firewall manager
 
-__program for managing a Netfilter firewall__
+__graphical user interface for ufw__
 
 ```
 
@@ -10,10 +10,10 @@ individual port(s), and many others!
 
 ```
 
-![](https://screenshots.debian.net/thumbnail/gufw /)
+[![](https://screenshots.debian.net/thumbnail/gufw /)](https://screenshots.debian.net/screenshot/gufw /)
 
 
- **[Homepage](https://launchpad.net/ufw)**
+ **[Homepage](http://gufw.org/)**
 
 ### Installed packages
 
