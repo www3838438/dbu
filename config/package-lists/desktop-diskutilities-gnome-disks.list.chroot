@@ -1,0 +1,18 @@
+#Name: GNOME Disk utility
+#Cat: System
+#Desc: gnome-disk-utility
+#Screenshot: gnome-disk-utility
+gnome-disk-utility
+
+#Alt: gparted
+#Alt: cryptkeeper
+#Alt: zulucrypt
+#Alt: disk-manager
+#Alt: gsmartcontrol
+
+
+#Res: http://doc.ubuntu-fr.org/gnome-disk-utility
+#Res: http://library.gnome.org/users/palimpsest/stable/
+#Res: http://en.wikipedia.org/wiki/Palimpsest_Disk_Utility
+#Res: http://doc.ubuntu-fr.org/baobab
+#Res: http://www.marzocca.net/linux/baobab/

@@ -1,0 +1,17 @@
+#Name: Remmina remote desktop viewer
+#Desc: remmina
+#Screenshot: remmina
+
+remmina
+remmina-plugin-gnome
+remmina-plugin-nx
+remmina-plugin-rdp
+remmina-plugin-telepathy
+remmina-plugin-vnc
+remmina-plugin-xdmcp
+libfreerdp-plugins-standard
+
+#Alt: xpra
+#Alt: vinagre
+
+#Cat: Network

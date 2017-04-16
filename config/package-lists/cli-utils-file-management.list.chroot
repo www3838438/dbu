@@ -1,0 +1,35 @@
+#Name: File management tools - command line
+#Cat: Utility
+
+secure-delete
+tree
+trash-cli
+jdupes
+ranger
+
+#Alt: cfv
+#Alt: cksfv
+#Alt: safe-rm
+#Alt: mmv
+#Alt: fdupes
+
+# Archive management/compression
+gzrt
+atool
+p7zip
+p7zip-full
+arj
+cabextract
+cpio
+lzip
+lzma
+lzop
+lzip
+unace
+unalz
+unrar-free
+rar
+unzip
+zip
+
+#Alt: p7zip-rar

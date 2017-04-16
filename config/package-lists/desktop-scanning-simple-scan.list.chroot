@@ -1,0 +1,12 @@
+#Name: Simple-scan document scanning
+#Desc: simple-scan
+#Screenshot: simple-scan
+#Cat: Office
+
+simple-scan
+imagemagick
+sane-utils
+libsane-extras
+
+#Alt: scanbuttond
+#Alt: xsane

@@ -1,0 +1,87 @@
+#Name: LibreOffice office suite
+#Desc: libreoffice
+#Screenshot: libreoffice-writer
+#Screenshot: libreoffice-calc
+#Screenshot: libreoffice-draw
+#Screenshot: libreoffice-impress
+
+libreoffice
+libreoffice-writer
+libreoffice-impress
+libreoffice-draw
+libreoffice-calc
+libreoffice-base
+libreoffice-gtk
+libreoffice-gtk3
+libreoffice-style-tango
+libreoffice-pdfimport
+libreoffice-java-common
+libreoffice-gnome
+libreoffice-avmedia-backend-gstreamer
+libreoffice-avmedia-backend-vlc
+libwmf-bin 
+
+# Localization
+hyphen-fr
+libreoffice-l10n-fr
+mythes-fr
+libreoffice-help-fr
+#libreoffice-help-de 
+#libreoffice-help-es 
+#libreoffice-help-hi 
+#libreoffice-help-pt 
+#libreoffice-help-ru 
+#libreoffice-help-zh-cn 
+#libreoffice-l10n-ar 
+#libreoffice-l10n-de 
+#libreoffice-l10n-es 
+#libreoffice-l10n-hi 
+#libreoffice-l10n-pt 
+#libreoffice-l10n-ru 
+#libreoffice-l10n-zh-cn 
+#mythes-de 
+#mythes-de-ch 
+
+
+#Alt: libreoffice-math
+#Alt: gnumeric
+#Alt: abiword
+#Alt: scribus
+#Alt: lyx
+#Alt: key2odp
+#Alt: ebook2odt
+#Alt: libreoffice-dmaths
+#Alt: calligrawords
+#Alt: calligraflow
+#Alt: calligrasheets
+#Alt: calligrastage
+#Alt: calligraplan
+#Alt: braindump
+#Alt: kthesaurus
+#Alt: krita
+#Alt: karbon
+#Alt: tpp
+#Alt: sozi
+#Alt: dia
+#Alt: asciio
+#Alt: drgeo
+#Alt: impressive
+#Alt: libreoffice-style-sifr
+#Alt: plume-creator
+#Alt: unoconv
+#Alt: spotlighter
+#Alt: gromit
+#Alt: python3-uno
+
+#Cat: Office
+#Cat: Graphics
+#Res: http://doc.ubuntu-fr.org/openoffice.org
+#Res: https://fr.wikipedia.org/wiki/Libreoffice
+#Res: http://extensions.libreoffice.org/extension-center
+#Res: http://templates.libreoffice.org/template-center
+#Res: https://www.languagetool.org/
+#Res: https://extensions.libreoffice.org/extension-center/export-as-images
+#Res: https://extensions.libreoffice.org/extension-center/multisave
+#Res: https://extensions.libreoffice.org/extension-center/calendar-for-calc
+#Res: https://extensions.libreoffice.org/extension-center/barcode
+#Res: https://extensions.libreoffice.org/extension-center/webdav-integration

@@ -1,0 +1,9 @@
+#Name: Nicotine Soulseek network client
+#Desc: nicotine
+#Screenshot: nicotine
+
+nicotine
+
+#Note: Ports: `TCP 2234`, `UDP 2234`
+
+#Cat: Network

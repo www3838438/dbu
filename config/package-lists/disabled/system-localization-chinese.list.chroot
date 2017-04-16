@@ -1,0 +1,22 @@
+# Language support: Chinese
+# Cat: System
+task-chinese-s
+task-chinese-s-desktop
+manpages-zh 
+zhcon
+opencc
+debian-zh-faq-s
+fortune-zh
+fcitx
+fcitx-googlepinyin
+fcitx-sunpinyin
+fcitx-table-wubi
+fonts-arphic-ukai 
+fonts-arphic-uming 
+fonts-farsiweb 
+fonts-kacst 
+fonts-lohit-deva 
+fonts-noto 
+fonts-wqy-microhei 
+fonts-wqy-zenhei
+im-config

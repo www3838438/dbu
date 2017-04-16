@@ -1,0 +1,33 @@
+#Name: System monitoring tools - command line
+#Cat: System
+
+htop
+iotop
+lm-sensors
+hddtemp
+inxi
+lsof
+strace
+memtest86+
+screenfetch
+debsums
+
+#Alt: glances
+#Alt: cpulimit
+#Alt: screentest
+#Alt: hardinfo
+#Alt: sysinfo
+#Alt: cputool
+#Alt: usbview
+#Alt: stress
+#Alt: stressapptest
+#Alt: cpuburn
+#Alt: tiobench
+#Alt: lshw
+#Alt: bonnie++
+#Alt: x86info
+#Alt: memtester
+#Alt: dstat
+#Alt: sysstat
+#Alt: cacti
+#Alt: hwloc

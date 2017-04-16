@@ -1,0 +1,22 @@
+#Name: Development tools - graphical
+#Cat: Utility
+
+gitg
+meld
+wxhexeditor
+tdfsb
+gource
+gcolor2
+sqlitebrowser
+
+#Alt: xephyr
+#Alt: geany
+#Alt: geany-plugins
+#Alt: diffuse
+#Alt: qgit
+#Alt: ghex
+#Alt: thunar-vcs-plugin
+#Alt: poedit
+#Alt: retext python3-enchant python3-yaml
+#Alt: pybootchartgui
+#Alt: xpra

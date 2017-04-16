@@ -1,0 +1,21 @@
+#Name: Disk management utilities - command line
+#Cat: System
+dosfstools
+hfsprogs
+mtools
+smartmontools
+ntfs-3g
+cryptsetup
+gdisk
+parted
+ncdu
+hdparm
+sdparm
+
+#Alt: dfc #stretch only
+#Alt: cfdisk
+#Alt: pmount
+#Alt: ecryptfs-utils
+#Alt: fsarchiver
+#Alt: partclone
+#Alt: partimage

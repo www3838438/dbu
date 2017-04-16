@@ -1,7 +1,0 @@
-#Name: Lightdm Display manager
-#Cat: System
-lightdm
-lightdm-gtk-greeter
-
-#Alt: slim
-#Alt: gdm3

@@ -1,0 +1,26 @@
+#Name: PDFChain PDF editor
+#Desc: pdfchain
+#Screenshot: pdfchain
+
+pdfchain
+pdfgrep
+
+# Command line
+poppler-utils
+
+#Alt: qpdf
+#Alt: pdfmod
+#Alt: pdfshuffler
+#Alt: pdfedit
+#Alt: gpdftext
+#Alt: pdftk
+#Alt: pdfcrack
+#Alt: diffpdf
+#Alt: comparepdf
+#Alt: chm2pdf
+#Alt: enscript
+#Alt: html2text
+#Alt: python-html2text
+
+#Cat: Office
+#Res: http://www.linux.com/learn/tutorials/831920-master-and-protect-pdf-documents-with-pdfchain-on-linux

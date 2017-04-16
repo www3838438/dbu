@@ -1,0 +1,113 @@
+#Name: Development tools - command line
+#Cat: Utility
+
+# Version control systems
+git
+git-svn
+hg-fast-export
+mercurial
+subversion
+tig
+github-backup
+myrepos
+shellcheck
+
+# Viz/Editors/Tools
+colordiff
+colortail
+pv
+cloc
+asciinema
+nss-passwords
+dwdiff
+mat
+ansible
+python-selinux
+dialog
+whiptail
+inotify-tools
+pastebinit
+elinks
+
+# Parsers/converters
+pandoc
+jq
+xmlstarlet
+aha
+
+# Packaging
+debhelper
+autoconf
+devscripts
+equivs
+build-essential
+checkinstall
+fakeroot
+debconf-utils
+lintian
+git-buildpackage
+
+# Python dev
+python-setuptools
+python-virtualenv
+virtualenv
+python-all-dev
+python-demjson
+python-stdeb
+python3-wheel
+python-libtorrent
+
+# Live system
+live-build
+live-config-doc
+live-manual-pdf
+live-manual-html
+debootstrap
+live-images
+
+# Ruby/Node/Webdev/other
+rubygems
+ruby-dev
+npm
+nodejs
+csstidy
+sqlite3
+webcheck
+php5-cli
+
+#Alt: pypi2deb # stretch only
+#Alt: python-praw # stretch only
+#Alt: ghi #stretch/sid only
+#Alt: firejail #stretch only
+#Alt: firetools #stretch only
+#Alt: txt2tags
+#Alt: fossil
+#Alt: aptly
+#Alt: apt-listbugs
+#Alt: vagrant
+#Alt: hexcurse
+#Alt: dhex
+#Alt: icdiff
+#Alt: lolcat
+#Alt: mkdocs
+#Alt: randtype
+#Alt: reglookup
+#Alt: roffit
+#Alt: bless
+#Alt: since
+#Alt: jsbeautifier
+#Alt: adb
+#Alt: android-sdk
+#Alt: android-sdk-platform-tools-common
+#Alt: fastboot
+#Alt: android-tools-fastboot
+#Alt: gplaycli
+#Alt: python-ndg-httpsclient
+#Alt: gperf
+#Alt: dgit
+#Alt: mdp
+#Alt: incron
+#Alt: faker
+#Alt: bootchart
+#Alt: debian-cd libfile-fcntllock-perl libalgorithm-merge-perl
+#Alt: rinse
