@@ -182,20 +182,20 @@ packageschroot:
 	
 	# https://github.com/feross/webtorrent-desktop/
 	#ignore errors because host prevents getting content-length and cause subsequent downloads to fail.
-	-wget -N -nv --show-progress -P config/packages.chroot/ https://github.com/feross/webtorrent-desktop/releases/download/v0.17.0/webtorrent-desktop_0.17.0-1_amd64.deb
-	-wget -N -nv --show-progress -P config/packages.chroot/ https://github.com/feross/webtorrent-desktop/releases/download/v0.17.0/webtorrent-desktop_0.17.0-1_i386.deb
+	-wget -N -nv --show-progress -P config/packages.chroot/ https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
+	-wget -N -nv --show-progress -P config/packages.chroot/ https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_i386.deb
 
 	### THEMES ###
 	# https://numixproject.org/
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.dsc
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.tar.xz
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1_all.deb
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+13~201611240401~ubuntu17.04.1.dsc
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+13~201611240401~ubuntu17.04.1.tar.xz
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+13~201611240401~ubuntu17.04.1_all.deb
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+875~201701252032~ubuntu17.04.1.dsc
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+875~201701252032~ubuntu17.04.1.tar.xz
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+875~201701252032~ubuntu17.04.1_all.deb
+	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1.dsc
+	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1.tar.xz
+	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1_all.deb
+	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+889~201704200132~ubuntu17.04.1.dsc
+	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+889~201704200132~ubuntu17.04.1.tar.xz
+	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+889~201704200132~ubuntu17.04.1_all.deb
 	
 	# https://github.com/snwh/paper-gtk-theme
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1.dsc
@@ -243,7 +243,7 @@ themes:
 
 # download misc configuration files
 dotfiles:
-	-rm -rf config/includes.chroot/etc/skel/.nano config/includes.chroot/etc/skel/.conky config/includes.chroot/usr/share/fonts/
+	-rm -rf config/includes.chroot/etc/skel/.nano config/includes.chroot/etc/skel/.conky config/includes.chroot/usr/share/fonts/ config/includes.chroot/usr/share/ohmpage
 	-mkdir -pv config/includes.chroot/etc/skel/ config/includes.chroot/etc/firefox/
 	git clone --depth=1 https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
 	git clone --depth=1 --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky 
