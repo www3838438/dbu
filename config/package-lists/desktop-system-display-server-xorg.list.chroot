@@ -17,7 +17,7 @@ xfonts-100dpi
 xserver-xorg
 xserver-xorg-input-all
 xserver-xorg-input-wacom
-xserver-xorg-input-acecad
+#xserver-xorg-input-acecad #jessie only
 xserver-xorg-input-aiptek
 xserver-xorg-input-elographics
 xserver-xorg-input-joystick

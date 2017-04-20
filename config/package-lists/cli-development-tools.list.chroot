@@ -69,12 +69,12 @@ live-images
 # Ruby/Node/Webdev/other
 rubygems
 ruby-dev
-npm
+#npm #jessie only
 nodejs
 csstidy
 sqlite3
 webcheck
-php5-cli
+php-cli
 
 #Alt: pypi2deb # stretch only
 #Alt: python-praw # stretch only

@@ -9,7 +9,7 @@ user-setup
 os-prober
 preload
 ulatencyd
-systemd-shim
+#systemd-shim #jessie only
 debian-archive-keyring
 debian-keyring
 haveged

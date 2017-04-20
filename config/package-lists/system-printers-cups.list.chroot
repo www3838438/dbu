@@ -5,7 +5,7 @@
 
 cups
 cups-client
-cups-driver-gutenprint
+#cups-driver-gutenprint #jessie only
 gutenprint-locales
 cups-pdf
 cups-pk-helper

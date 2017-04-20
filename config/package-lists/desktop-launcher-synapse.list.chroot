@@ -7,7 +7,7 @@ synapse
 zeitgeist-datahub
 zeitgeist
 activity-log-manager
-gnome-activity-journal
+#gnome-activity-journal #jessie only
 
 
 #Alt: gnome-pie

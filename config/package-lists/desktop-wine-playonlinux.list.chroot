@@ -9,7 +9,6 @@ winetricks
 
 #if ARCHITECTURES amd64
 wine64
-wine64-bin
 #endif
 
 

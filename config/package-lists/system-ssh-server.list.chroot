@@ -3,6 +3,6 @@
 #Desc: openssh-server
 
 openssh-server
-openssh-blacklist
+#openssh-blacklist #jessie only
 
 #Note: Port `TCP 822`
