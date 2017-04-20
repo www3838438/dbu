@@ -2,11 +2,11 @@
 #Screenshot: firefox
 #Cat: Network
 
-firefox
+firefox-esr
 pkg-mozilla-archive-keyring
 
 # Localization
-firefox-l10n-fr
+firefox-esr-l10n-fr
 #firefox-l10n-ar 
 #firefox-l10n-de 
 #firefox-l10n-es-ar 
