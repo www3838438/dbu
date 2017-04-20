@@ -5,7 +5,6 @@ lb config noauto \
 --apt-recommends false \
 --architectures amd64 \
 --archive-areas 'main contrib non-free' \
---backports true \
 --binary-filesystem ext4 \
 --binary-images iso-hybrid \
 --bootappend-install "locales=fr_FR.UTF-8" \
@@ -46,6 +45,7 @@ lb config noauto \
 #   [--apt-secure true|false]
 #   [--apt-source-archives true|false]
 #   [-a|--architectures ARCHITECTURE]
+#   [--backports true|false]
 #   [-b|--binary-images iso|iso-hybrid|netboot|tar|hdd]
 #   [--binary-filesystem fat16|fat32|ext2|ext3|ext4]
 #   [--bootappend-install PARAMÈTRES|"PARAMÈTRES"]
