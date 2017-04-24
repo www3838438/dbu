@@ -13,7 +13,7 @@ python-pyinotify
 libgpod-common
 libgpod4
 projectm-pulseaudio
-
+python-musicbrainzngs
 
 
 #Alt: banshee
