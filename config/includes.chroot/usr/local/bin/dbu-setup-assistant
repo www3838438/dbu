@@ -37,7 +37,7 @@ function _dbuRemoveAutostartEntry() {
 ############################################
 
 function _dbuSetupDialog {
-    answer=$(zenity --width 120 --height 330 --list --checklist --hide-header --column=C1 --column=C2 \
+    answer=$(zenity --width 120 --height 330 --list --title "Initial user configuration" --checklist --hide-header --column=C1 --column=C2 \
     FALSE "Setup appearance" \
     FALSE "Setup panel" \
     FALSE "Setup desktop" \
@@ -69,7 +69,7 @@ function _dbuSetupDialog {
             ;;
             "Setup power management") xfce4-power-manager-settings
             ;;
-            "Setup backups") backintime-gnome
+            "Setup backups") backintime-qt4
             ;;
             "Setup time and date") time-admin
             ;;
