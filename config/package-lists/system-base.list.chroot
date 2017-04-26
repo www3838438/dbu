@@ -14,6 +14,7 @@ debian-archive-keyring
 debian-keyring
 haveged
 ntp
+initramfs-tools
 dkms
 linux-headers-amd64
 build-essential

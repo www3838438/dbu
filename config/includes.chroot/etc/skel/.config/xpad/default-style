@@ -4,16 +4,20 @@ width 200
 confirm_destroy 1
 edit_lock 0
 sticky_on_start 1
-back_red 65535
-back_green 61166
-back_blue 39321
+tray_enabled 1
+tray_click_configuration 1
+back rgb(255,238,153)
 use_back 1
-text_red 0
-text_green 0
-text_blue 0
+text rgb(0,0,0)
 use_text 1
 fontname Gentium 12
 toolbar 1
 auto_hide_toolbar 0
 scrollbar 1
 buttons New, Delete, Close, Properties
+autostart_wait_systray 1
+autostart_delay 0
+autostart_new_pad 0
+autostart_display_pads 2
+hide_from_taskbar 1
+hide_from_task_switcher 0

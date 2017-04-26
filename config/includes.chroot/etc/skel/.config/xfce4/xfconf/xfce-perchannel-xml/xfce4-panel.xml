@@ -70,11 +70,17 @@
       <property name="arrow-position" type="uint" value="5"/>
       <property name="move-first" type="bool" value="false"/>
     </property>
-    <property name="plugin-1" type="string" value="whiskermenu"/>
     <property name="plugin-2" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="14693847834.desktop"/>
       </property>
     </property>
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="button-icon" type="string" value="distributor-logo-debian"/>
+      <property name="show-tooltips" type="bool" value="true"/>
+      <property name="button-title" type="string" value="Applications"/>
+      <property name="show-button-title" type="bool" value="false"/>
+    </property>
   </property>
 </channel>
+
