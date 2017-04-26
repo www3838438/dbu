@@ -3,15 +3,10 @@
 #############
 ## config - firefox/thunderbird addons location
 
-# firefox 45+ (backports/testing) default addons for new profiles
-addonsdir=config/includes.chroot/usr/share/firefox/distribution/extensions/
-#addonsdir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
-
-# firefox/esr system-wide addons installation
-#addonsdir="/usr/lib/firefox/browser/extensions/"
-
-# deprecated, legacy iceweasel addons path
-# addonsdir="config/includes.chroot/etc/iceweasel/profile/extensions/" 
+# Firefox ESR default addons for new profiles
+addonsdir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
+# Firefox (release/nightly) default addons for new profiles
+#addonsdir=config/includes.chroot/usr/share/firefox/distribution/extensions/
 
 #thunderbird/icedove addons path
 tbaddonsdir="config/includes.chroot/etc/icedove/extensions/"
@@ -244,7 +239,7 @@ themes:
 # download misc configuration files
 dotfiles:
 	-rm -rf config/includes.chroot/etc/skel/.nano config/includes.chroot/etc/skel/.conky config/includes.chroot/usr/share/fonts/ config/includes.chroot/usr/share/ohmpage
-	-mkdir -pv config/includes.chroot/etc/skel/ config/includes.chroot/etc/firefox/
+	-mkdir -pv config/includes.chroot/etc/skel/
 	git clone --depth=1 https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
 	git clone --depth=1 --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky 
 	git clone --depth=1 https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
@@ -257,9 +252,9 @@ dotfiles:
 	rm -rf tmp-cleanerml
 
 	git clone -b dbu --depth=1 https://github.com/nodiscc/user.js tmp-userjs
-	-rm -rf config/includes.chroot/etc/firefox/
-	mkdir -p config/includes.chroot/etc/firefox/
-	mv tmp-userjs/firefox.js config/includes.chroot/etc/firefox/firefox.js
+	-rm -rf config/includes.chroot/etc/firefox-esr/
+	mkdir -p config/includes.chroot/etc/firefox-esr/
+	mv tmp-userjs/firefox.js config/includes.chroot/etc/firefox-esr/firefox-esr.js
 	rm -rf tmp-userjs
 
 documentation:
