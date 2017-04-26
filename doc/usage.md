@@ -43,25 +43,34 @@ The _package management_ system allows you to install, remove or upgrade every c
 
 ##### Upgrading all software
 
- * From the [Synaptic](packages/synaptic.md) package manager:
+Run `Package Updater`, click `Install updates` and follow the instructions.
+
+<!--- * From the [Synaptic](packages/synaptic.md) package manager:
    * click `Reload`, `Mark all upgrades`, `Apply`.
    * Review the proposed changes and `Apply`.
 
-![](doc/res/synaptic-upgrade.png)
+![](res/synaptic-upgrade.png) -->
 
- 
- 
 ##### Installing/Removing software
 
- * Use the `Search` button to search in package names or descriptions.
+Run the `Packages` utility, search for software by it's name or description, or browse the available categories; check/uncheck the checkbox left of the package to install/remove and click `Apply updates` and follow the instructions.
+
+![](res/gpk-install-remove.png)
+
+<!-- * Use the `Search` button to search in package names or descriptions.
  * From the [Synaptic](packages/synaptic.md) package manager:
   * Right-click the package to install/remove
   * `Select for installation` or `Select for removal`.
   * Click `Apply` to proceed to installation.
 
-![](doc/res/synaptic-search-install.png) ![](doc/res/synaptic-purge.png)
+![](res/synaptic-search-install.png) ![](res/synaptic-purge.png) -->
 
+##### Setting up backups
 
+Select the destination for backups in the 'General' tab (USB/external
+drive/network location...), a schedule for automatic backups (eg. every week),
+then go to the 'Include' tab and add files/directories (eg. Documents, Music...)
+you want to keep backups of. Refer to the [Backintime](http://backintime.readthedocs.io/en/latest/) backup tool documentation for more info.
 
 ------------------------------------------
 
@@ -95,13 +104,13 @@ The _package management_ system allows you to install, remove or upgrade every c
 
 Can be changed through `Settings > Keyboard` and `Settings > Window manager`
 
- * `²` Open Applications menu
+ * `Ctrl+Space` Open application launcher
  * `Win + N` Show/Hide notes
  * `Win + E` File manager
  * `Win + F` Find files
  * `Win + Q` Quit/Power off/restart/sleep
- * `Win + L` Lock desktop
- * `Ctrl + Alt + Suppr` Task manager
+ * `Win + L` Lock the workstation
+ * `Ctrl + Alt + Del` Task manager
  * `Win + T` Terminal emulator
  * `Win + R` Run a command
  * `Win + Esc` Applications menu
@@ -110,14 +119,14 @@ Can be changed through `Settings > Keyboard` and `Settings > Window manager`
  * `Win + C` Calculator
  * `Win + A` Alarm clock
  * `Win + M` Mail client
- * `Win + P` Pidgin instant messaging
+ * `Win + P` Instant messaging client
  * `Alt + Tab` Cycle between windows
  * `Win + D` Show Desktop
  * `Win + Left/Right/Up/Down` Go to left/right/up/down workspace
  * `Alt + F4` Close windows
  * `Alt + F7` Move windows
  * `Alt + F8` Resize windows
- * `Alt + mouse wheel` Zoom/dezoom display
+ * `Alt + mouse wheel` Zoom-in/out display
 
 
 --------------------------------------------

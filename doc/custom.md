@@ -105,8 +105,8 @@ Putting binary .deb packages under git version control should be avoided.
 live-build ignores lines starting with `#` in package lists. 
 Custom comment fields in package lists are used to control end-user package
 documentation generation (`scripts/doc-generator.sh`). The resulting markdown
-files in `doc/packages/` is generated automatically (`make doc`) and should
-not be edited manually (edit package lists instead).
+files in `doc/packages/*, doc/packages.md` is generated automatically (`make doc`)
+and should not be edited manually (edit package lists instead).
 
 
  * #Name: Name for the package list (eg. Document Viewer)
@@ -119,7 +119,8 @@ not be edited manually (edit package lists instead).
 
 #### Main documentation
 
-Markdown files directly under `doc` directory, as well as the main `README.md` and `TODO.md` files can be edited freely.
+Markdown files directly under `doc` directory, as well as the main `README.md`
+and `TODO.md` files can be edited freely.
 
 ### Changing the locale/language
 

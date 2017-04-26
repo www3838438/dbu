@@ -9,8 +9,8 @@
 #### To USB - From Linux
 
   * Insert a 2GB+ USB drive
-  * Right-click the ISO image file, and click `Open with ... > Disk image writer` (requires `gnome-disk-utility`)
-  * Or, using the command line: Identify your USB drive device name (eg. `/dev/sdc`) from your disk utility or using the `lsblk` command; Write the ISO image to the drive using `sudo dd /path/to/your/dbu.iso /dev/sdXXX`.
+  * Right-click the ISO image file, and click `Open with ... > Disk image writer` (requires `gnome-disk-utility`) **Caution, all data on the USB drive will be erased**
+  * Or, using the command line: Identify your USB drive device name (eg. `/dev/sdc`) using the `lsblk` command; Write the ISO image to the drive using `sudo dd /path/to/live-image.iso /dev/sdXXX`.
 
 #### To USB - From Windows
 
@@ -26,13 +26,40 @@
 
 ------------------------------------------
 
-### Setup
+### Booting your computer from USB/DVD
 
-| 💥 |Overwrites your previously installed Operating System! Backup your data to an external drive before continuing! |
+Turn your computer off. Insert the installation USB/DVD, and turn it back on. The
+computer should boot to the main menu where you are given the choice to start the
+Live system, or to install it permanently to your hard drive.
+
+| 💥 | If your computer does not boot to the live DVD/USB, Check that the computer BIOS is configured to boot from CD/DVD or USB. |
 |---------|---------|
 
- * Turn computer off. Insert the installation USB/DVD, turn computer on.
-  * Check that the computer BIOS is configured to boot from CD/DVD or USB.
-  * On some computers you need to disable [Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_boot) before installing a Linux distribution. See **[Disabling Secure Boot in Windows 8](disable-secure-boot.md)**.
+| 💥 | On some computers you need to disable [Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_boot) before installing a Linux distribution. See **[Disabling Secure Boot in Windows 8](disable-secure-boot.md)** |
+|---------|---------|
+
+
+#### Live operating system
+
+The Live system runs entirely in memory and allows you to use the operating system
+without installing it to your machine. No changes to the Live filesystem are kept,
+(eg. files in user home directories), the system will reset to it's original state
+when the computer is powered off. Changes to files/directory on other drives attached
+to the computer will be kept.
+
+Save your work to another drive (existing attached drive, external/USB
+drive...) if you need to keep your changes.
+
+If you lock the screen (activate screensaver) during the live session, the passord to unlock it is `live`.
+
+#### Permanent installation
+
+| 💥 | In the default drive partitioning configuration, overwrites your previously installed Operating System and data! Backup your data to an external drive before continuing! |
+|---------|---------|
+
  * In the boot menu, select `Graphical install`
  * Follow the installation procedure
+
+#### Upgrade notes
+
+Recent releases and upgrade notes can be found on the [releases](https://github.com/nodiscc/dbu/releases) page. ([RSS feed](https://github.com/nodiscc/dbu/releases.atom))

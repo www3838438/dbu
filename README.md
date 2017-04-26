@@ -2,15 +2,21 @@
 
 Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
 
-[Debian GNU/Linux](https://en.wikipedia.org/wiki/Debian) is a major and widely used [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution). [GNU/Linux](https://en.wikipedia.org/wiki/Linux) is a [Free](https://en.wikipedia.org/wiki/Free_software) and open source [operating system](https://en.wikipedia.org/wiki/Operating_system).
+[Debian GNU/Linux](https://en.wikipedia.org/wiki/Debian) is a major and widely
+used [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution).
+[GNU/Linux](https://en.wikipedia.org/wiki/Linux) is a
+[Free](https://en.wikipedia.org/wiki/Free_software) and open source
+[operating system](https://en.wikipedia.org/wiki/Operating_system).
 
-This system can be run as a Live system from [USB](https://en.wikipedia.org/wiki/Live_USB)/[DVD](https://en.wikipedia.org/wiki/Live_CD) 
-(runs from memory, no installation required), or can be installed to your machine. Installation does not require an Internet connection.
-It comes with [preinstalled software packages](doc/packages.md), and is preconfigured for desktop machines.
-This system is based on Debian 9 Stretch (_stable_ Debian release). It can be used as-is or used as an example to [build your own image](doc/custom.md)
+This system can be run as a Live system from
+[USB](https://en.wikipedia.org/wiki/Live_USB)/[DVD](https://en.wikipedia.org/wiki/Live_CD) 
+(runs from memory, no installation required), or can be installed permnanently.
+Installation does not require an Internet connection. It comes with
+[preinstalled software packages](doc/packages.md), and is [preconfigured](config/) for
+generic desktop machine usage. This system is based on Debian 9 Stretch (Debian _testing_
+release). It can be used as-is or used as an example to [build your own live system](doc/custom.md).
 
 **[![](doc/res/download.png)](https://github.com/nodiscc/dbu/releases)**
-
 
 ![](doc/screenshot-main.png)
 
@@ -23,7 +29,6 @@ This system is based on Debian 9 Stretch (_stable_ Debian release). It can be us
     Optional: Internet access
     Optional: external backup storage
 
-
 ### Documentation
 
  * [Installation](doc/install.md)
@@ -31,8 +36,8 @@ This system is based on Debian 9 Stretch (_stable_ Debian release). It can be us
  * [Installed software](doc/packages.md)
  * [Bugs/TODO](TODO.md)
  * [Customize/Build your own](doc/custom.md)
+ * [Changelog](CHANGELOG.md)
  * [Contributing](doc/contributing.md)
-
 
 ### License
 

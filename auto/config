@@ -1,6 +1,5 @@
 #!/bin/sh
 # Live-build configuration script
-#live-build 1:20151215
 
 lb config noauto \
 --apt-recommends false \
@@ -34,7 +33,7 @@ lb config noauto \
 
 "${@}"
 
-
+# man lb config
 # lb config
 #   [--apt apt|aptitude]
 #   [--apt-ftp-proxy URL]
