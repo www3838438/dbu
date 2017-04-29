@@ -8,7 +8,11 @@ export LANG="C"
 function _genPackagesDoc {
 packagelist=$1
 
-pageheader="# Installed software"
+pageheader="# Installed software
+
+See [Usage](usage.md#Installing-removing-updating-software) for documentation on installing,
+removing or updating software packages.
+"
 packages=$(egrep "^[a0-z9]" $packagelist)
 mainpackage=$(echo "$packages " |head -n1)
 md_title="# $(egrep "^#Name" $packagelist | cut -d" " -f1 --complement)"
