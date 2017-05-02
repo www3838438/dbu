@@ -8,7 +8,7 @@ lb config noauto \
 --binary-filesystem ext4 \
 --binary-images iso-hybrid \
 --bootappend-live "boot=live config" \
---checksums sha256 \
+--checksums none \
 --clean \
 --debconf-frontend dialog \
 --debian-installer live \
@@ -18,10 +18,8 @@ lb config noauto \
 --firmware-binary true \
 --firmware-chroot true \
 --initramfs live-boot \
---iso-application dbu \
---iso-preparer dbu \
 --iso-publisher dbu \
---iso-volume dbu \
+--iso-volume dbu-0.99k \
 --linux-packages "linux-image linux-headers" \
 --memtest memtest86+ \
 --security true \
