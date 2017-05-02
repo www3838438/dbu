@@ -13,7 +13,7 @@ tbaddonsdir="config/includes.chroot/etc/icedove/extensions/"
 
 #############
 
-all: buildenv clean update xpi documentation lbbuild
+all: buildenv clean update xpi documentation lbbuild checksums_sign
 
 update: ffaddons tbaddons packageschroot purpleplugins themes dotfiles
 
@@ -268,7 +268,10 @@ lbbuild:
 	sudo lb config
 	sudo lb build
 
-
-#TODO https://greasyfork.org/en/scripts/1190-flickr-original-link?
-#TODO https://greasyfork.org/en/scripts/494-youtube-auto-buffer-auto-hd?
-#TODO https://openuserjs.org/scripts/elundmark/Torrentz_All-in-One?
+checksum_sign:
+	last_tag=$$(git tag | tail -n1); \
+	cd iso/; \
+	rename "s/live-image/dbu-$$last_tag-debian-stretch/" *; \
+	sha512sum *.iso  > SHA512SUMS; \
+	gpg --clearsign SHA512SUMS; \
+	mv SHA512SUMS.asc SHA512SUMS.sign

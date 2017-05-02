@@ -1,8 +1,20 @@
 ## Installation
 
-### Downloading and verifying the ISO image
+### Downloading the ISO image
 
 [Download](https://github.com/nodiscc/dbu/releases) the latest release.
+
+### Verifying the ISO image
+
+This step is optional, but is strongly recommended to ensure downloaded files are valid and authentic.
+
+Download `SHA512SUMS.sign` in the same directory as the `iso` file.
+
+ * Verifying the integrity of the ISO image: run `sha512sums --check SHA512sums.sign`
+ * Verifying the authenticity of the ISO image: run `gpg --verify < SHA512SUMS.sign`
+
+The key used to sign releases has ID `0028A686E4546CD17579570F99883828CD9019B8`.
+
 
 ### Writing the installation media
 

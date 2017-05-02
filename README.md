@@ -8,13 +8,13 @@ used [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution).
 [Free](https://en.wikipedia.org/wiki/Free_software) and open source
 [operating system](https://en.wikipedia.org/wiki/Operating_system).
 
-This system can be run as a Live system from
-[USB](https://en.wikipedia.org/wiki/Live_USB)/[DVD](https://en.wikipedia.org/wiki/Live_CD) 
-(runs from memory, no installation required), or can be installed permnanently.
-Installation does not require an Internet connection. It comes with
-[preinstalled software packages](doc/packages.md), and is [preconfigured](config/) for
-generic desktop machine usage. This system is based on Debian 9 Stretch (Debian _testing_
-release). It can be used as-is or used as an example to [build your own live system](doc/custom.md).
+ * Live mode: Runs the system from an [USB](https://en.wikipedia.org/wiki/Live_USB) or [DVD](https://en.wikipedia.org/wiki/Live_CD) drive (no installation required).
+ * Installer: Install the preconfigured system on your computer.
+ * Installation does not require an Internet connection.
+ * [Preinstalled software packages](doc/packages.md)
+ * [Preconfigured](config/) for generic desktop machine usage. 
+ * Based on Debian 9 Stretch (Debian _testing_ release).
+ * Can be used as a template to [build your own live system](doc/custom.md).
 
 **[![](doc/res/download.png)](https://github.com/nodiscc/dbu/releases)**
 
