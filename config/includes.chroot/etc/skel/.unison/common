@@ -1,4 +1,0 @@
-merge = Name * -> meld CURRENT1 CURRENT2
-diff = /usr/bin/meld CURRENT1 CURRENT2
-confirmmerge = true
-#Use include common in other unison prf files to include these options
