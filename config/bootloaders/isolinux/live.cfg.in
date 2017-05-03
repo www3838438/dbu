@@ -11,10 +11,3 @@ label live-@FLAVOUR@-french
         linux @LINUX@
         initrd @INITRD@
         append @APPEND_LIVE@ locales=fr_FR.UTF-8
-
-
-label live-@FLAVOUR@-failsafe
-        menu label ^Live (@FLAVOUR@ failsafe)
-        linux @LINUX@
-        initrd @INITRD@
-        append @APPEND_LIVE_FAILSAFE@

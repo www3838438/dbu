@@ -22,6 +22,8 @@
   ☐ [enh] [packages] 2 separate package lists for audacious/quodlibet
   ☐ [enh] disable non-free repositories, fetch firmware with wget/makefile target before build (branch no-nonfree)
   ☐ [enh] add travis config for tests/automated builds, add KVM/QEMU settings to run resulting ISO in KVM/QEMU
+  ☐ [enh] dbu-setup-assistant: do not show in live mode
+  ☐ [enh] dbu-setup-assistant: don't split user/system config in 2 separate dialogs
   ☐ [enh] dbu-setup-assistant: allow selecting keyboard layout
   ☐ [enh] keyboard-configuration interrupts unattended chroot build
   ☐ [bug] autostart: conky/clock
