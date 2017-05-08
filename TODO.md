@@ -22,26 +22,19 @@
   ☐ [enh] [packages] 2 separate package lists for audacious/quodlibet
   ☐ [enh] disable non-free repositories, fetch firmware with wget/makefile target before build (branch no-nonfree)
   ☐ [enh] add travis config for tests/automated builds, add KVM/QEMU settings to run resulting ISO in KVM/QEMU
-  ☐ [enh] dbu-setup-assistant: do not show in live mode
-  ☐ [enh] dbu-setup-assistant: don't split user/system config in 2 separate dialogs
-  ☐ [enh] dbu-setup-assistant: allow selecting keyboard layout
-  ☐ [enh] keyboard-configuration interrupts unattended chroot build
-  ☐ [bug] autostart: conky/clock
+  ☐ [enh] dbu-setup-assistant: do not show in live mode ?
+  ☐ [enh] keyboard-configuration interrupts unattended build
   ☐ [enh] show calendar when clicking on panel clock
-  ☐ [enh] [firefox] firefox default homepage/rss/bookmarks/bookmarklets/startpage
-  ☐ [feature] BACKUPS! encrypted to ext drive (ask to format a backup drive, backup every 7 days, remind every 30 days: alarm clock, pidgin, ff bookmarks, ff passwords, transmission torrents, mail
+  ☐ [enh] [firefox] firefox default bookmarks/bookmarklets
+  ☐ [feature] BACKUPS! encrypted to external drive (ask to format a backup drive, backup every 7 days, remind every 30 days: alarm clock, pidgin, ff bookmarks, ff passwords, transmission torrents, mail
   ☐ [bug] [unconfirmed] **screen locking:** configure light-locker from XFCE's power management settings. it locks too fast
-  ☐ [bug] [l10n] re-add icedove-l10n-fr
   ☐ [maint] remove gksu - gdebi still needs it - http://forums.debian.net/viewtopic.php?f=16&t=73497
   ☐ [enh] [wait] transition to stretch when it becomes stable: enable stretch-only packages in package lists; switch icedove->thunderbird+lightning
   ☐ [enh] mousepad: add config (path?)
   ☐ [bug] [l10n] do not hardcode geospecific debian mirror, use http://deb.debian.org/
   ☐ [enh] onboard: add config (dconf)
   ☐ [enh] [live] add persistence http://live.debian.net/manual/stable/html/live-manual/customizing-run-time-behaviours#persistence
-  ☐ [feature] Voice recognition/control/dictation
-           https://en.wikipedia.org/wiki/Speech_recognition_in_Linux
-           https://github.com/BmanDesignsCanada/LiSpeak/
-           pocketsphinx!
+  ☐ [feature] Voice recognition/control/dictation (pocketsphinx?)
   ☐ [enh] [libreoffice] Add LanguageTool Not packaged - https://github.com/languagetool-org/languagetool/issues/123 https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=403619
   ☐ [enh] [icedove] add default addons
   ☐ [enh] [security] Setup logcheck and logwatch - see srv01 - mail or notify weekly report

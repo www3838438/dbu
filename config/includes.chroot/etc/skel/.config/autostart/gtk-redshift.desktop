@@ -10,3 +10,4 @@ Version=1.0
 Type=Application
 Categories=Utility;
 Icon=redshift
+Hidden=True

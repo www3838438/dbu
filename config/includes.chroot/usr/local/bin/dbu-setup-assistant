@@ -2,10 +2,6 @@
 #Description: First-run desktop user setup/customization script
 #https://github.com/nodiscc/dbu
 
-#TODO remove sudo group by default from /etc/adduser.conf
-#TODO setup samba shares
-#TODO set noatime/nodiratime for ext3/4 partitions?
-
 ###########################################
 
 function _dbuCheckInetAccess() {
@@ -37,19 +33,22 @@ function _dbuRemoveAutostartEntry() {
 ############################################
 
 function _dbuSetupDialog {
-    answer=$(zenity --width 120 --height 330 --list --title "Initial user configuration" --checklist --hide-header --column=C1 --column=C2 \
+    answer=$(zenity --width 120 --height 330 --list --title "Initial user configuration" \
+    --text "Select items you want to configure" --checklist --hide-header --column=C1 --column=C2 \
+    TRUE "Setup keyboard" \
     FALSE "Setup appearance" \
     FALSE "Setup panel" \
     FALSE "Setup desktop" \
     FALSE "Setup virtual workspaces" \
     TRUE "Setup power management" \
     TRUE "Setup backups" \
-    FALSE "Setup time and date"
+    FALSE "Setup time and date" \
     TRUE "Setup instant messaging accounts" \
     TRUE "Setup e-mail accounts" \
     FALSE "Setup RSS news feeds" \
     TRUE "Setup printers" \
     TRUE "Setup desktop session/autostart" \
+    TRUE "Setup file sharing" \
     TRUE "Setup system services" \
     FALSE "Setup user accounts and passwords" \
     TRUE "Upgrade all packages" \
@@ -59,6 +58,8 @@ function _dbuSetupDialog {
     IFS=$'|'
     for action in $answer; do 
         case "$action" in 
+            "Setup keyboard") xfce4-keyboard-settings
+            ;;
             "Setup appearance") xfce4-appearance-settings; xfwm4-settings
             ;;
             "Setup panel") xfce4-panel -p
@@ -82,6 +83,8 @@ function _dbuSetupDialog {
             "Setup printers") system-config-printer
             ;;
             "Setup desktop session/autostart") xfce4-session-settings
+            ;;
+            "Setup file sharing") shares-admin
             ;;
             "Setup system services") services-admin
             ;;
