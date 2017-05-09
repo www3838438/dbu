@@ -7,8 +7,9 @@ secure-delete
 trash-cli
 jdupes
 ranger
+cfv
 
-#Alt: cfv
+
 #Alt: cksfv
 #Alt: safe-rm
 #Alt: mmv
