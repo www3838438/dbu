@@ -176,13 +176,6 @@ packageschroot:
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8-1~webupd8~xenial3_all.deb
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8.orig.tar.gz
 	
-	# https://github.com/nicklan/pnmixer (jessie only, on wheezy use xfce4-pulseaudio-plugin)
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1.debian.tar.xz
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1_amd64.deb
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1_i386.deb
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1-1.dsc
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ftp.fr.debian.org/debian/pool/main/p/pnmixer/pnmixer_0.6.1.orig.tar.gz
-	
 	# https://github.com/feross/webtorrent-desktop/
 	#ignore errors because host prevents getting content-length and cause subsequent downloads to fail.
 	-wget -N -nv --show-progress -P config/packages.chroot/ https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
