@@ -70,7 +70,7 @@ live-images
 rubygems
 ruby-dev
 #npm #jessie only
-nodejs
+#nodejs
 csstidy
 sqlite3
 webcheck
