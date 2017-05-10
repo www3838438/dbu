@@ -5,6 +5,7 @@ lb config noauto \
 --apt-recommends false \
 --architectures amd64 \
 --archive-areas 'main contrib non-free' \
+--backports true \
 --binary-filesystem ext4 \
 --binary-images iso-hybrid \
 --bootappend-live "boot=live config" \
