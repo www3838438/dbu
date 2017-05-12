@@ -119,7 +119,7 @@ xpi:
 	done
 	mv $(addonsdir)/add-to-searchbox@maltekraus.de $(addonsdir)/add-to-searchbox@maltekraus.de.xpi #workaround, 2nd part
 
-#update thunderbird addons TODO
+#TODO update thunderbird addons
 tbaddons:
 	#https://addons.mozilla.org/en-US/thunderbird/addon/gmail-conversation-view/
 	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/54035/addon-54035-latest.xpi
@@ -131,18 +131,15 @@ tbaddons:
 	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/170/addon-170-latest.xpi
 	#https://addons.mozilla.org/en-US/thunderbird/addon/enigmail/
 	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/71/addon-71-latest.xpi
-	#http://sogo.nu/download.html#/frontends
-	wget -N -nv --show-progress -P $(tbaddonsdir) http://www.sogo.nu/files/downloads/SOGo/Thunderbird/sogo-connector-31.0.3.xpi
-	#https://addons.mozilla.org/fr/thunderbird/addon/categorymanager/
-	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/472193/addon-472193-latest.xpi
+	# https://addons.mozilla.org/fr/thunderbird/addon/cardbook/
+	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/cardbook/addon-634298-latest.xpi
 	#https://addons.mozilla.org/en-US/thunderbird/addon/duplicate-contact-manager/
-	wget -N -nv --show-progress -P $(tbaddonsdir)  https://addons.mozilla.org/thunderbird/downloads/latest/2505/addon-2505-latest.xpi
-	#https://addons.mozilla.org/en-US/thunderbird/addon/contact-tabs/
-	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/306600/addon-306600-latest.xpi
+	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/2505/addon-2505-latest.xpi
 	#https://addons.mozilla.org/en-US/thunderbird/addon/send-later-3/
 	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/file/423919/addon-423919-latest.xpi
-	#https://addons.mozilla.org/fr/thunderbird/addon/todotxt-extension/
-	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/650068/platform:2/addon-650068-latest.xpi
+	#https://addons.mozilla.org/fr/thunderbird/addon/account-colors/
+	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/account-colors/addon-14385-latest.xpi
+
 	#
 	# more addons:
 	# https://addons.mozilla.org/en-US/thunderbird/addon/printingtools/
@@ -150,10 +147,20 @@ tbaddons:
 	# https://addons.mozilla.org/fr/thunderbird/addon/gmailui/
 	# https://addons.mozilla.org/fr/thunderbird/addon/contact-photos/
 	# https://addons.mozilla.org/en-us/thunderbird/addon/webdav-for-filelink/
+	# https://addons.mozilla.org/fr/thunderbird/addon/quickfolders-tabbed-folders/
+	# https://addons.mozilla.org/fr/thunderbird/addon/todotxt-extension/
+	#wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/650068/platform:2/addon-650068-latest.xpi
+	# https://addons.mozilla.org/fr/thunderbird/addon/categorymanager/
+	#wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/472193/addon-472193-latest.xpi
+	# http://sogo.nu/download.html#/frontends
+	#wget -N -nv --show-progress -P $(tbaddonsdir) http://www.sogo.nu/files/downloads/SOGo/Thunderbird/sogo-connector-31.0.3.xpi
+	# https://addons.mozilla.org/en-US/thunderbird/addon/contact-tabs/
+	#wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/306600/addon-306600-latest.xpi
 
 
 # download non-debian chroot packages
 # needs to be updated manually when upstream versions change
+# ideally everything should be packaged in the Debian archive
 # see https://github.com/nodiscc/scriptz for more software
 packageschroot:
 	-mkdir -pv config/packages.chroot
@@ -194,18 +201,22 @@ packageschroot:
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+895~201704281833~ubuntu17.04.1_all.deb	
 	
 	# https://github.com/snwh/paper-gtk-theme
+	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862403
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1.dsc
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1.tar.gz
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1_all.deb
 	
-	# https://github.com/snwh/paper-cursor-theme
 	# https://github.com/snwh/paper-icon-theme
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-cursor-theme_1.3+r672~daily~ubuntu15.10.1_all.deb
+	# TODO https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=802505
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1.dsc
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1.tar.xz
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1_all.deb
+
+	# https://github.com/snwh/paper-cursor-theme (disabled)
+	#wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-cursor-theme_1.3+r672~daily~ubuntu15.10.1_all.deb
 	
 	# https://github.com/horst3180/Ceti-2-theme
+	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862402
 	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/ceti-2-theme_1442961272.9fe3d9f_all.deb
 	
 	# https://github.com/horst3180/Vertex-theme
