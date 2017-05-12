@@ -61,7 +61,6 @@
 * [live-images](https://packages.debian.org/stretch/live-images) - Live System Image Components (metapackage)
 * [rubygems](https://packages.debian.org/stretch/rubygems) - 
 * [ruby-dev](https://packages.debian.org/stretch/ruby-dev) - Header files for compiling extension modules for Ruby (default version)
-* [nodejs](https://packages.debian.org/stretch/nodejs) - evented I/O for V8 javascript
 * [csstidy](https://packages.debian.org/stretch/csstidy) - CSS parser and optimiser
 * [sqlite3](https://packages.debian.org/stretch/sqlite3) - Command line interface for SQLite 3
 * [webcheck](https://packages.debian.org/stretch/webcheck) - website link and structure checker

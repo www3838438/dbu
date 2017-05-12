@@ -10,13 +10,20 @@ desktop environment, but it also fits nice with other environments.
 
 For people who already know GNOME 2 terminal and are searching for a
 lighter but comparable replacement, Terminal might be the answer.
+This package contains Terminal, which is a lightweight and easy to use
+terminal emulator for X11. It was created to fit nicely into the Xfce
+desktop environment, but it also fits nice with other environments.
+
+For people who already know GNOME 2 terminal and are searching for a
+lighter but comparable replacement, Terminal might be the answer.
 
 ```
 
 [![](https://screenshots.debian.net/thumbnail/xfce4-terminal/)](https://screenshots.debian.net/screenshot/xfce4-terminal/)
 
 
- **[Homepage](http://goodies.xfce.org/projects/applications/terminal)**
+ **[Homepage](http://goodies.xfce.org/projects/applications/terminal
+http://goodies.xfce.org/projects/applications/terminal)**
 
 ### Installed packages
 

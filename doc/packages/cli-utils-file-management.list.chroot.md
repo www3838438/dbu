@@ -12,6 +12,7 @@
 * [trash-cli](https://packages.debian.org/stretch/trash-cli) - command line trashcan utility
 * [jdupes](https://packages.debian.org/stretch/jdupes) - identify and delete or link duplicate files
 * [ranger](https://packages.debian.org/stretch/ranger) - File manager with an ncurses frontend written in Python
+* [cfv](https://packages.debian.org/stretch/cfv) - versatile file checksum creator and verifier
 * [gzrt](https://packages.debian.org/stretch/gzrt) - gzip recovery toolkit
 * [atool](https://packages.debian.org/stretch/atool) - tool for managing file archives of various types
 * [p7zip](https://packages.debian.org/stretch/p7zip) - 7zr file archiver with high compression ratio
@@ -26,10 +27,10 @@
 * [unace](https://packages.debian.org/stretch/unace) - extract, test and view .ace archives
 * [unalz](https://packages.debian.org/stretch/unalz) - De-archiver for .alz files
 * [unrar-free](https://packages.debian.org/stretch/unrar-free) - Unarchiver for .rar files
-* [rar](https://packages.debian.org/stretch/rar) - 
+* [rar](https://packages.debian.org/stretch/rar) - Archiver for .rar files
 * [unzip](https://packages.debian.org/stretch/unzip) - De-archiver for .zip files
 * [zip](https://packages.debian.org/stretch/zip) - Archiver for .zip files
 
 ### Related packages
 
-<sub> [cfv](https://packages.debian.org/stretch/cfv) [cksfv](https://packages.debian.org/stretch/cksfv) [safe-rm](https://packages.debian.org/stretch/safe-rm) [mmv](https://packages.debian.org/stretch/mmv) [fdupes](https://packages.debian.org/stretch/fdupes) [p7zip-rar](https://packages.debian.org/stretch/p7zip-rar)  </sub>
+<sub> [cksfv](https://packages.debian.org/stretch/cksfv) [safe-rm](https://packages.debian.org/stretch/safe-rm) [mmv](https://packages.debian.org/stretch/mmv) [fdupes](https://packages.debian.org/stretch/fdupes) [p7zip-rar](https://packages.debian.org/stretch/p7zip-rar)  </sub>

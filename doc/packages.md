@@ -1,5 +1,9 @@
 # Installed software
 
+See [Usage](usage.md#Installing-removing-updating-software) for documentation on installing,
+removing or updating software packages.
+
+
 ### Utility
  - [Development tools - command line](packages/cli-development-tools.list.chroot.md)
  - [File management tools - command line](packages/cli-utils-file-management.list.chroot.md)
@@ -58,7 +62,6 @@
  - [QuodLibet music player/library manager](packages/desktop-music-player-quodlibet.list.chroot.md)
  - [GTK-RecordMyDesktop Screen recorder](packages/desktop-screen-recorder-gtk-recordmydesktop.list.chroot.md)
  - [ALSA/PulseAudio audio system](packages/desktop-system-audio-alsa-pulseaudio.list.chroot.md)
- - [KDEnlive Video editor](packages/desktop-video-editor-kdenlive.list.chroot.md)
  - [Cheese webcam utility](packages/desktop-webcam-cheese.list.chroot.md)
 
 ### Graphics
@@ -125,3 +128,20 @@
 
 ### Science
  - [Stellarium](packages/desktop-science-stellarium.list.chroot.md)
+-e\n### Non-debian packages
+* [ceti-2-theme]() -  Ceti-2 is a theme for GTK 3, GTK 2 and Gnome-Shell.
+* [light-locker-settings](https://launchpad.net/light-locker-settings) -  simple configuration tool for light-locker
+* [numix-gtk-theme](http://satya164.deviantart.com) -  Numix GTK Theme
+* [numix-icon-theme-bevel](http://numixproject.org/) -  Numix Bevel icons
+* [numix-icon-theme-circle](http://numixproject.org/) -  Numix Circle icons
+* [numix-icon-theme-circle](http://numixproject.org/) -  Numix Circle icons
+* [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
+* [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
+* [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
+* [paper-cursor-theme](https://github.com/snwh/paper-icon-theme) -  Paper Cursor Theme
+* [paper-gtk-theme](https://github.com/moka-project/paper-gtk-theme) -  Paper GTK Theme
+* [paper-icon-theme](https://github.com/snwh/paper-icon-theme) -  Paper Icon Theme
+* [vertex-theme]() -  Vertex is a theme for GTK 3, GTK 2, Gnome-Shell and Cinnamon
+* [youtube-dlg](https://github.com/MrS0m30n3/youtube-dl-gui) -  youtube-dl gui
+* [purple-facebook](https://github.com/jgeboski/purple-facebook) -  Facebook protocol plugin for libpurple
+* [webtorrent-desktop](https://webtorrent.io) -  WebTorrent, the streaming torrent client. For Mac, Windows, and Linux.

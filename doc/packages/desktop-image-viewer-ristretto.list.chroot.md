@@ -6,13 +6,16 @@ __lightweight picture-viewer for the Xfce desktop environment__
 
 Ristretto is a fast and lightweight picture-viewer for the Xfce desktop
 environment.
+Ristretto is a fast and lightweight picture-viewer for the Xfce desktop
+environment.
 
 ```
 
 [![](https://screenshots.debian.net/thumbnail/ristretto/)](https://screenshots.debian.net/screenshot/ristretto/)
 
 
- **[Homepage](http://goodies.xfce.org/)**
+ **[Homepage](http://goodies.xfce.org/
+http://goodies.xfce.org/)**
 
 ### Installed packages
 

@@ -25,4 +25,4 @@ application.
 
 ### Related packages
 
-<sub> [alarm-clock](https://packages.debian.org/stretch/alarm-clock) [xfce4-timer-plugin](https://packages.debian.org/stretch/xfce4-timer-plugin) [gtimer](https://packages.debian.org/stretch/gtimer) [stopwatch](https://packages.debian.org/stretch/stopwatch)  </sub>
+<sub> [alarm-clock](https://packages.debian.org/stretch/alarm-clock) [xfce4-timer-plugin](https://packages.debian.org/stretch/xfce4-timer-plugin) [gtimer](https://packages.debian.org/stretch/gtimer) [stopwatch](https://packages.debian.org/stretch/stopwatch) [dclock](https://packages.debian.org/stretch/dclock)  </sub>
