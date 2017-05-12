@@ -14,7 +14,6 @@
   ☐ [enh] [firefox] customize/reorganize UI elements (localstore.rdf)
   ☐ [enh] [firefox] make ohmpage the "new tab" page
   ☐ [bug] autorun pk-update-icon
-  ☐ [bug] [easy] resize isolinux splash to 640x480 aspect ratio
   ☐ [bug] improve bluetooth power saving: powertop still shows 100% power usage on bluetooth card even with rfkill block. Settings in /etc/laptop-mode-tools/bluetooth.conf
   ☐ [enh] [doc] update screenshot
   ☐ [enh] disable redshift autostart (throws an error message in VMs since it can not adjust gamma)
