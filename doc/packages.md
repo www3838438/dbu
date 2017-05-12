@@ -128,15 +128,13 @@ removing or updating software packages.
 
 ### Science
  - [Stellarium](packages/desktop-science-stellarium.list.chroot.md)
--e\n### Non-debian packages
+
+### Non-debian packages
 * [ceti-2-theme]() -  Ceti-2 is a theme for GTK 3, GTK 2 and Gnome-Shell.
 * [light-locker-settings](https://launchpad.net/light-locker-settings) -  simple configuration tool for light-locker
 * [numix-gtk-theme](http://satya164.deviantart.com) -  Numix GTK Theme
 * [numix-icon-theme-bevel](http://numixproject.org/) -  Numix Bevel icons
 * [numix-icon-theme-circle](http://numixproject.org/) -  Numix Circle icons
-* [numix-icon-theme-circle](http://numixproject.org/) -  Numix Circle icons
-* [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
-* [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
 * [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
 * [paper-cursor-theme](https://github.com/snwh/paper-icon-theme) -  Paper Cursor Theme
 * [paper-gtk-theme](https://github.com/moka-project/paper-gtk-theme) -  Paper GTK Theme

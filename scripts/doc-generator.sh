@@ -97,7 +97,7 @@ pkgindex=$(
 		done
 	done
 
-	echo -e"\n### Non-debian packages";
+	echo -e "\n### Non-debian packages";
 	for deb in config/packages.chroot/*{all,amd64}.deb; do
 		package=$(dpkg -I $deb | egrep "Package:" | awk -F' ' '{print $2}')
 		homepage=$(dpkg -I $deb | egrep "Homepage:" | awk -F' ' '{print $2}')
