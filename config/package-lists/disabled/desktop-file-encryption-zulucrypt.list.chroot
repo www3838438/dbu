@@ -1,0 +1,9 @@
+#Name: Zulucrypt file encryption utility
+#Cat: Utility
+#Screenshot: zulucrypt-gui
+
+zulucrypt-gui
+zulumount-gui
+libzulucrypt-plugins
+
+#Alt: cryptkeeper
