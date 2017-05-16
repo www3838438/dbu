@@ -46,7 +46,7 @@ This package contains the daemon and basic module set.
 * [libasound2-plugins](https://packages.debian.org/stretch/libasound2-plugins) - ALSA library additional plugins
 * [libasound2-plugin-equal](https://packages.debian.org/stretch/libasound2-plugin-equal) - equalizer plugin for ALSA
 * [oss-compat](https://packages.debian.org/stretch/oss-compat) - Open Sound System (OSS) compatibility package
-* [alsa-firmware-loaders](https://packages.debian.org/stretch/alsa-firmware-loaders) - ALSA software loaders for specific hardware
+* [alsa-firmware-loaders](https://packages.debian.org/stretch/alsa-firmware-loaders) - 
 * [pulseaudio](https://packages.debian.org/stretch/pulseaudio) - PulseAudio sound server
 * [pulseaudio-utils](https://packages.debian.org/stretch/pulseaudio-utils) - Command line tools for the PulseAudio sound server
 * [pulseaudio-module-bluetooth](https://packages.debian.org/stretch/pulseaudio-module-bluetooth) - Bluetooth module for PulseAudio sound server

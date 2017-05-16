@@ -16,26 +16,13 @@ Additional software can be useful along with LightDM:
   'dm-tool add-nested-seat`
  * upower can be used to suspend the computer from the display manager
  * accountsservice is used to populate a user list with addition information.
-An X display manager that:
- * Has a lightweight codebase
- * Is standards compliant (PAM, ConsoleKit, etc)
- * Has a well defined interface between the server and user interface
- * Fully themeable
- * Cross-desktop (greeters can be written in any toolkit)
-
-Additional software can be useful along with LightDM:
- * xserver-xephyr can be used to add a nested X display by calling
-  'dm-tool add-nested-seat`
- * upower can be used to suspend the computer from the display manager
- * accountsservice is used to populate a user list with addition information.
 
 ```
 
 [![](https://screenshots.debian.net/thumbnail/lightdm/)](https://screenshots.debian.net/screenshot/lightdm/)
 
 
- **[Homepage](https://launchpad.net/lightdm
-https://launchpad.net/lightdm)**
+ **[Homepage](https://launchpad.net/lightdm)**
 
 ### Installed packages
 

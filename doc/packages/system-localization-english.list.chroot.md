@@ -23,33 +23,13 @@ Main features:
 
 This package contains the program with the Ispell-like terminal and pipe
 interfaces.
-Hunspell is a spell checker and morphological analyzer library and program
-designed for languages with rich morphology and complex word compounding or
-character encoding. It is based on MySpell and features an Ispell-like
-terminal interface using Curses library, an Ispell pipe interface and an
-OpenOffice.org UNO module.
-
-Main features:
- - Unicode support (first 65535 Unicode characters)
- - morphological analysis (in custom item and arrangement style)
- - Max. 65535 affix classes and twofold affix stripping (for agglutinative
-   languages, like Azeri, Basque, Estonian, Finnish, Hungarian, Turkish, etc.)
- - Support complex compoundings (for example, Hungarian and German)
- - Support language specific algorithms (for example, handling Azeri
-   and Turkish dotted i, or German sharp s)
- - Handling conditional affixes, circumfixes, fogemorphemes,
-   forbidden words, pseudoroots and homonyms.
-
-This package contains the program with the Ispell-like terminal and pipe
-interfaces.
 
 ```
 
 [![](https://screenshots.debian.net/thumbnail/hunspell/)](https://screenshots.debian.net/screenshot/hunspell/)
 
 
- **[Homepage](http://hunspell.github.io/
-http://hunspell.github.io/)**
+ **[Homepage](http://hunspell.github.io/)**
 
 ### Installed packages
 

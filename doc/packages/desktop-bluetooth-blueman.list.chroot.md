@@ -6,16 +6,13 @@ __Graphical bluetooth manager__
 
 Blueman is a GTK+ bluetooth management utility for GNOME using bluez D-Bus
 backend.
-Blueman is a GTK+ bluetooth management utility for GNOME using bluez D-Bus
-backend.
 
 ```
 
 [![](https://screenshots.debian.net/thumbnail/blueman/)](https://screenshots.debian.net/screenshot/blueman/)
 
 
- **[Homepage](https://github.com/blueman-project/blueman
-https://github.com/blueman-project/blueman)**
+ **[Homepage](https://github.com/blueman-project/blueman)**
 
 ### Installed packages
 

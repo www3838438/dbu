@@ -25,4 +25,4 @@ It utilizes udisks.
 
 ### Related packages
 
-<sub> [gparted](https://packages.debian.org/stretch/gparted) [cryptkeeper](https://packages.debian.org/stretch/cryptkeeper) [zulucrypt](https://packages.debian.org/stretch/zulucrypt) [disk-manager](https://packages.debian.org/stretch/disk-manager) [gsmartcontrol](https://packages.debian.org/stretch/gsmartcontrol)  </sub>
+<sub> [gparted](https://packages.debian.org/stretch/gparted) [disk-manager](https://packages.debian.org/stretch/disk-manager) [gsmartcontrol](https://packages.debian.org/stretch/gsmartcontrol)  </sub>

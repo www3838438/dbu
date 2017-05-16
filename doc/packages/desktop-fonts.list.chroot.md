@@ -69,7 +69,7 @@ Superscript.
 * [fonts-opensymbol](https://packages.debian.org/stretch/fonts-opensymbol) - OpenSymbol TrueType font
 * [fonts-roboto](https://packages.debian.org/stretch/fonts-roboto) - metapackage to pull in Roboto fonts
 * [fonts-averia-gwf](https://packages.debian.org/stretch/fonts-averia-gwf) - Aver?a GWF font family
-* [ttf-mscorefonts-installer](https://packages.debian.org/stretch/ttf-mscorefonts-installer) - Installer for Microsoft TrueType core fonts
+* [ttf-mscorefonts-installer](https://packages.debian.org/stretch/ttf-mscorefonts-installer) - 
 * [fonts-freefont-ttf](https://packages.debian.org/stretch/fonts-freefont-ttf) - Freefont Serif, Sans and Mono Truetype fonts
 
 ### Related packages

@@ -27,7 +27,7 @@
 * [unace](https://packages.debian.org/stretch/unace) - extract, test and view .ace archives
 * [unalz](https://packages.debian.org/stretch/unalz) - De-archiver for .alz files
 * [unrar-free](https://packages.debian.org/stretch/unrar-free) - Unarchiver for .rar files
-* [rar](https://packages.debian.org/stretch/rar) - Archiver for .rar files
+* [rar](https://packages.debian.org/stretch/rar) - 
 * [unzip](https://packages.debian.org/stretch/unzip) - De-archiver for .zip files
 * [zip](https://packages.debian.org/stretch/zip) - Archiver for .zip files
 
