@@ -13,7 +13,7 @@ tbaddonsdir="config/includes.chroot/etc/icedove/extensions/"
 
 #############
 
-all: buildenv clean update xpi documentation lbbuild checksums_sign
+all: buildenv clean update xpi documentation lbbuild checksum_sign
 
 update: ffaddons tbaddons packageschroot purpleplugins themes dotfiles
 
