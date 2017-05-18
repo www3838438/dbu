@@ -34,8 +34,9 @@
   ☐ [enh] onboard: add config (dconf)
   ☐ [enh] [live] add persistence http://live.debian.net/manual/stable/html/live-manual/customizing-run-time-behaviours#persistence
   ☐ [feature] Voice recognition/control/dictation (pocketsphinx?)
-  ☐ [enh] [libreoffice] Add LanguageTool Not packaged - https://github.com/languagetool-org/languagetool/issues/123 https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=403619
+  ☐ [enh] Add Grammalecte French grammar checker for Firefox/Libreoffice https://www.dicollecte.org/grammalecte/telecharger.php
   ☐ [enh] [icedove] add default addons
+  [enh] [pidgin] add https://github.com/gkdr/lurch plugin - OMEMO encryption support
   ☐ [enh] [security] Setup logcheck and logwatch - see srv01 - mail or notify weekly report
   ☐ [enh] alternative desktop environments: Split xfce components away from desktop-env.list.chroot. That way, just disabling xfce-destop.list.chroot and enabling openbox-desktop.list.chroot would switch the DE to Openbox. Another DE using docky or gnome3 is also possible.
   ☐ [feature] New Thunar UCA: Serve directory on local network Add a new context menu entry for directories: start web server in current directory (python -m SimpleHTTPServer ?)
