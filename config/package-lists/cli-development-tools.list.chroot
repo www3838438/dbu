@@ -36,7 +36,7 @@ jq
 xmlstarlet
 aha
 
-# Packaging
+# Packaging/C
 debhelper
 autoconf
 devscripts
@@ -47,6 +47,7 @@ fakeroot
 debconf-utils
 lintian
 git-buildpackage
+gdb
 
 # Python dev
 python-setuptools
