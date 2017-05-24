@@ -269,9 +269,13 @@ dotfiles:
 	mv tmp-userjs/firefox.js config/includes.chroot/etc/firefox-esr/firefox-esr.js
 	rm -rf tmp-userjs
 
+	# Example: add extra files to the live file system
+	# git clone --recursive https://github.com/nodiscc/scriptz config/includes.chroot/usr/share/dbu/scriptz
+	# git clone https://github.com/nodiscc/dbu config/includes.chroot/usr/share/dbu/dbu-source
+
 	# Example: include files in the root directory of the live ISO
 	# mkdir -pv config/includes.binary/extra/
-	# git clone --recursive https://github.com/nodiscc/scriptz config/includes.binary/extra/scriptz
+
 	# cp /path/to/intro.html config/includes.binary/intro.html
 
 documentation:

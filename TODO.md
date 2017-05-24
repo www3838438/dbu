@@ -23,7 +23,7 @@
   ☐ [enh] add travis config for tests/automated builds, add KVM/QEMU settings to run resulting ISO in KVM/QEMU
   ☐ [enh] dbu-setup-assistant: do not show in live mode ?
   ☐ [enh] keyboard-configuration interrupts unattended build
-  ☐ [enh] show calendar when clicking on panel clock
+  ☐ [enh] split devel-tools-base/devel-tools-advanced package lists, disable advanced list for chroot, enable it for binary, create a metapackage for advanced dev tools
   ☐ [enh] [firefox] firefox default bookmarks/bookmarklets
   ☐ [feature] BACKUPS! encrypted to external drive (ask to format a backup drive, backup every 7 days, remind every 30 days: alarm clock, pidgin, ff bookmarks, ff passwords, transmission torrents, mail
   ☐ [bug] [unconfirmed] **screen locking:** configure light-locker from XFCE's power management settings. it locks too fast
@@ -36,7 +36,7 @@
   ☐ [feature] Voice recognition/control/dictation (pocketsphinx?)
   ☐ [enh] Add Grammalecte French grammar checker for Firefox/Libreoffice https://www.dicollecte.org/grammalecte/telecharger.php
   ☐ [enh] [icedove] add default addons
-  [enh] [pidgin] add https://github.com/gkdr/lurch plugin - OMEMO encryption support
+  ☐ [enh] [pidgin] add https://github.com/gkdr/lurch plugin - OMEMO encryption support
   ☐ [enh] [security] Setup logcheck and logwatch - see srv01 - mail or notify weekly report
   ☐ [enh] alternative desktop environments: Split xfce components away from desktop-env.list.chroot. That way, just disabling xfce-destop.list.chroot and enabling openbox-desktop.list.chroot would switch the DE to Openbox. Another DE using docky or gnome3 is also possible.
   ☐ [feature] New Thunar UCA: Serve directory on local network Add a new context menu entry for directories: start web server in current directory (python -m SimpleHTTPServer ?)
