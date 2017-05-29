@@ -11,6 +11,7 @@ xfce4-session
 xfce4-notifyd
 xfce4-whiskermenu-plugin
 xfce4-weather-plugin
+xfce4-netload-plugin
 
 # Resources
 desktop-base
