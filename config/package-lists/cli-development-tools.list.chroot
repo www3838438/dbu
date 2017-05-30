@@ -76,6 +76,7 @@ csstidy
 sqlite3
 webcheck
 php-cli
+vera
 
 #Alt: pypi2deb # stretch only
 #Alt: python-praw # stretch only
