@@ -4,16 +4,16 @@
 ## config - firefox/thunderbird addons location
 
 # Firefox ESR default addons for new profiles
-addonsdir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
+ffaddonsdir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
 # Firefox (release/nightly) default addons for new profiles
 #addonsdir=config/includes.chroot/usr/share/firefox/distribution/extensions/
 
 #thunderbird/icedove addons path
-tbaddonsdir="config/includes.chroot/etc/icedove/extensions/"
+tbaddonsdir="config/includes.chroot/usr/share/thunderbird/extensions/"
 
 #############
 
-all: buildenv clean update xpi documentation lbbuild checksum_sign
+all: buildenv clean update ffxpi tbxpi documentation lbbuild checksum_sign
 
 update: ffaddons tbaddons packageschroot purpleplugins themes dotfiles
 
@@ -22,49 +22,50 @@ buildenv:
 
 clean:
 	-rm $(tbaddonsdir)/*
-	-rm $(addonsdir)/*
+	-rm $(ffaddonsdir)/*
 	-rm config/packages.chroot/*
 	-rm -r config/includes.chroot/usr/lib/purple-2/*.so
 	
 #update firefox addons
 ffaddons:
+	if [ ! -d $(ffaddonsdir) ]; then mkdir -p $(ffaddonsdir); fi
 	# Security / privacy addons
 	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/
-	wget -N -nv --show-progress -P $(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
-	wget -N -nv --show-progress -P $(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
-	wget -N -nv --show-progress -P $(addonsdir) https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/
-	wget -N -nv --show-progress -P $(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/415846/addon-415846-latest.xpi
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/415846/addon-415846-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
-	wget -N -nv --show-progress -P $(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/521554/addon-521554-latest.xpi
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/521554/addon-521554-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/
-	wget -N -nv --show-progress -P $(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
 	#
 	# UI-related / utility addons
 	#https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/
-	wget -N -nv --show-progress -P $(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/3682/addon-3682-latest.xpi
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/3682/addon-3682-latest.xpi
 	#https://addons.mozilla.org/en-us/firefox/addon/yet-another-context-search/
-	wget -N -nv --show-progress -P $(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/392483/addon-392483-latest.xpi
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/392483/addon-392483-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/
-	wget -N -nv --show-progress -P $(addonsdir) https://addons.mozilla.org/firefox/downloads/file/339198/rss_icon_in_url_bar-1.5.2-sm+fx.xpi
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/file/339198/rss_icon_in_url_bar-1.5.2-sm+fx.xpi
 	#
 	# more addons (disabled):
 	# https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
-	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/greasemonkey/addon-748-latest.xpi
+	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/greasemonkey/addon-748-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/
-	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-x/addon-521726-latest.xpi
+	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-x/addon-521726-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/
-	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-copypageinfo/addon-536398-latest.xpi
+	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-copypageinfo/addon-536398-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-autosave/
-	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-autosave/addon-536396-latest.xpi
+	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-autosave/addon-536396-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-maf-creator/
-	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-maf-creator/addon-536394-latest.xpi
+	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-maf-creator/addon-536394-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/
-	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-converter/addon-536392-latest.xpi
+	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-converter/addon-536392-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/downthemall/
-	#wget -N --directory-prefix=$(addonsdir) https://addons.mozilla.org/firefox/downloads/latest/downthemall/addon-201-latest.xpi
+	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/downthemall/addon-201-latest.xpi
 	#
 	# more addons (disabled):
 	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-bookmarks/
@@ -111,16 +112,17 @@ ffaddons:
 	# https://addons.mozilla.org/en-US/firefox/addon/open-livestreamer/
 
 #rename xpis from their id
-xpi:
-	mv $(addonsdir)/addon-3682-latest.xpi $(addonsdir)/add-to-searchbox@maltekraus.de #workaround, script doesn't work on this addon
-	@for xpi in $$(find $(addonsdir) -name '*.xpi'); do \
+ffxpi:
+	mv $(ffaddonsdir)/addon-3682-latest.xpi $(ffaddonsdir)/add-to-searchbox@maltekraus.de #workaround, script doesn't work on this addon
+	@for xpi in $$(find $(ffaddonsdir) -name '*.xpi'); do \
 	extid=$$(./scripts/get-xul-extension-id.sh "$$xpi"); echo "$$xpi - $$extid"; \
-	mv "$$xpi" $(addonsdir)/"$$extid".xpi ; \
+	mv "$$xpi" $(ffaddonsdir)/"$$extid".xpi ; \
 	done
-	mv $(addonsdir)/add-to-searchbox@maltekraus.de $(addonsdir)/add-to-searchbox@maltekraus.de.xpi #workaround, 2nd part
+	mv $(ffaddonsdir)/add-to-searchbox@maltekraus.de $(ffaddonsdir)/add-to-searchbox@maltekraus.de.xpi #workaround, 2nd part
 
-#TODO update thunderbird addons
+#update thunderbird addons
 tbaddons:
+	if [ ! -d $(tbaddonsdir) ]; then mkdir -p $(tbaddonsdir); fi
 	#https://addons.mozilla.org/en-US/thunderbird/addon/gmail-conversation-view/
 	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/54035/addon-54035-latest.xpi
 	#https://addons.mozilla.org/fr/thunderbird/addon/importexporttools/
@@ -157,6 +159,11 @@ tbaddons:
 	# https://addons.mozilla.org/en-US/thunderbird/addon/contact-tabs/
 	#wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/306600/addon-306600-latest.xpi
 
+tbxpi:
+	@for xpi in $$(find $(tbaddonsdir) -name '*.xpi'); do \
+	extid=$$(./scripts/get-xul-extension-id.sh "$$xpi"); echo "$$xpi - $$extid"; \
+	mv "$$xpi" $(tbaddonsdir)/"$$extid".xpi ; \
+	done
 
 # download non-debian chroot packages
 # needs to be updated manually when upstream versions change

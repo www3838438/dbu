@@ -23,6 +23,7 @@ config/packages.chroot/*.tar.bz2
 config/includes.chroot/etc/firefox-esr/
 config/includes.chroot/usr/lib/purple-2/*.so
 config/includes.chroot/usr/share/firefox-esr/distribution/extensions/*.xpi
+config/includes.chroot/usr/share/thunderbird/extensions/*.xpi
 config/includes.chroot/usr/share/themes/
 config/includes.chroot/usr/share/bleachbit/
 config/includes.chroot/usr/share/fonts/
