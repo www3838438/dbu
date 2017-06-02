@@ -36,8 +36,8 @@ ffaddons:
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/
-	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/415846/addon-415846-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
+	wgen -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/platform:5/addon-784287-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/521554/addon-521554-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/
@@ -66,6 +66,8 @@ ffaddons:
 	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-converter/addon-536392-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/downthemall/
 	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/downthemall/addon-201-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/ #not e10s-compatible, no webextension, unmaintained
+	#wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/415846/addon-415846-latest.xpi
 	#
 	# more addons (disabled):
 	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-bookmarks/
