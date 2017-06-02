@@ -25,6 +25,7 @@ debsums
 #Alt: cpuburn
 #Alt: tiobench
 #Alt: lshw
+#Alt: lshw-gtk
 #Alt: bonnie++
 #Alt: x86info
 #Alt: memtester
