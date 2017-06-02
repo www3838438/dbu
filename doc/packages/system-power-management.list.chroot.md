@@ -16,13 +16,26 @@ It features:
   * suspend/Hibernate
   * LCD brightness control
   * Lid, sleep and power switches control
+This power manager for the Xfce desktop enables laptop users to set up
+a power profile for two different modes "on battery power" and "on ac
+power" while still allowing desktop users to at least change the DPMS
+settings and CPU frequency using the settings dialogue..
+
+It features:
+  * battery monitoring
+  * cpu frequency settings
+  * monitor DPMS settings
+  * suspend/Hibernate
+  * LCD brightness control
+  * Lid, sleep and power switches control
 
 ```
 
 [![](https://screenshots.debian.net/thumbnail/xfce4-power-manager/)](https://screenshots.debian.net/screenshot/xfce4-power-manager/)
 
 
- **[Homepage](http://goodies.xfce.org/projects/applications/xfce4-power-manager)**
+ **[Homepage](http://goodies.xfce.org/projects/applications/xfce4-power-manager
+http://goodies.xfce.org/projects/applications/xfce4-power-manager)**
 
 ### Installed packages
 

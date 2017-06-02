@@ -6,6 +6,8 @@ __Mozilla Firefox web browser - Extended Support Release (ESR)__
 
 Firefox ESR is a powerful, extensible web browser with support for modern
 web application technologies.
+Firefox ESR is a powerful, extensible web browser with support for modern
+web application technologies.
 
 ```
 

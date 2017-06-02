@@ -25,4 +25,4 @@ for photos.
 
 ### Related packages
 
-<sub> [guvcview](https://packages.debian.org/stretch/guvcview) [luvcview](https://packages.debian.org/stretch/luvcview)  </sub>
+<sub> [guvcview](https://packages.debian.org/stretch/guvcview) [luvcview](https://packages.debian.org/stretch/luvcview) [kamoso](https://packages.debian.org/stretch/kamoso)  </sub>
