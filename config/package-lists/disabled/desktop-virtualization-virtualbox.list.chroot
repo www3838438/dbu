@@ -20,6 +20,7 @@ virtualbox-5.1
 #Alt: qemu
 #Alt: lxc
 #Alt: rkt
+#Alt: gnome-boxes
 
 #Cat: System
 #Cat: Utility

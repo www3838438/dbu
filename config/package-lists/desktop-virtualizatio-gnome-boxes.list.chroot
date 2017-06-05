@@ -1,0 +1,13 @@
+#Name: GNOME Boxes virtualization solution
+#Desc: gnome-boxes
+#Screenshot: gnome-boxes
+
+gnome-boxes
+
+#Alt: virt-manager
+#Alt: docker
+#Alt: qemu
+#Alt: lxc
+#Alt: rkt
+
+#Cat: Utility
