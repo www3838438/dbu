@@ -181,8 +181,8 @@ packageschroot:
 	wget -N -nv --show-progress -P config/packages.chroot/ http://cz.archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0.orig.tar.bz2
 	
 	# https://github.com/dequis/purple-facebook/wiki
-	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/i386/purple-facebook_20170330~3cbb433~c9b74a765767~126_i386.deb
-	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/amd64/purple-facebook_20170330~3cbb433~c9b74a765767~126_amd64.deb
+	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/i386/purple-facebook_20170608~c40d9fa~c9b74a765767~128_i386.deb
+	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/amd64/purple-facebook_20170608~c40d9fa~c9b74a765767~128_amd64.deb
 	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170330~3cbb433~c9b74a765767~126.tar.gz
 	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170330~3cbb433~c9b74a765767~126.dsc
 	
