@@ -183,8 +183,8 @@ packageschroot:
 	# https://github.com/dequis/purple-facebook/wiki
 	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/i386/purple-facebook_20170608~c40d9fa~c9b74a765767~128_i386.deb
 	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/amd64/purple-facebook_20170608~c40d9fa~c9b74a765767~128_amd64.deb
-	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170330~3cbb433~c9b74a765767~126.tar.gz
-	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170330~3cbb433~c9b74a765767~126.dsc
+	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170608~c40d9fa~c9b74a765767~128.tar.gz
+	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170608~c40d9fa~c9b74a765767~128.dsc
 	
 	# https://github.com/MrS0m30n3/youtube-dl-gui/releases
 	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8-1~webupd8~xenial3.debian.tar.xz
