@@ -17,56 +17,28 @@
 :ufw-user-limit-accept - [0:0]
 ### RULES ###
 
-### SSH 822 TCP
-### tuple ### allow tcp 822 0.0.0.0/0 any 0.0.0.0/0 in
--A ufw-user-input -p tcp --dport 822 -j ACCEPT
-
-### XMPP 5298 (pidgin file transfers)
-### tuple ### allow tcp 5298 0.0.0.0/0 any 0.0.0.0/0 in
--A ufw-user-input -p tcp --dport 5298 -j ACCEPT
-
-### BITTORRENT 52943 (transmission)
+### BITTORRENT (transmission)
 ### tuple ### allow tcp 52943 0.0.0.0/0 any 0.0.0.0/0 in
 -A ufw-user-input -p tcp --dport 52943 -j ACCEPT
-
-### UPNP 1900 (minidlna and uPnP clients)
-### tuple ### allow udp 1900 0.0.0.0/0 any 192.168.0.0/8 in
--A ufw-user-input -p udp --dport 1900 -s 192.168.0.0/8 -j ACCEPT
-
-### NETBIOS/SMB 135,139,445 TCP (samba file sharing)
-### tuple ### allow tcp 135,139,445 0.0.0.0/0 any 192.168.0.0/8 in
--A ufw-user-input -p tcp -m multiport --dports 135,139,445 -s 192.168.0.0/8 -j ACCEPT
-
-### NETBIOS 137 138 TCP (samba file sharing)
-### tuple ### allow udp 137,138 0.0.0.0/0 any 192.168.0.0/8 in
--A ufw-user-input -p udp -m multiport --dports 137,138 -s 192.168.0.0/8 -j ACCEPT
-
-### 4713 PULSEAUDIO TCP (pulseaudio sound server)
-### tuple ### allow tcp 4713 0.0.0.0/0 any 192.168.0.0/8 in
--A ufw-user-input -p tcp --dport 4713 -s 192.168.0.0/8 -j ACCEPT
 
 ### 5353 AVAHI UDP (avahi-daemon)
 ### tuple ### allow udp 5353 0.0.0.0/0 any 192.168.0.0/8 in
 -A ufw-user-input -p udp --dport 5353 -s 192.168.0.0/8 -j ACCEPT
 
-### 5060 SIP (qutecom incoming calls)
-### tuple ### allow udp 5060 0.0.0.0/0 any 0.0.0.0/0 in
--A ufw-user-input -p udp --dport 5060 -j ACCEPT
+### SAMBA UDP (Windows file sharing) ###
+### tuple ### allow udp 137,138 0.0.0.0/0 any 0.0.0.0/0 in
+-A ufw-user-input -p udp -m multiport --dports 137,138 -j ACCEPT
 
-### 5900 VNC (vino remote desktop server)
-### tuple ### allow tcp 5900 0.0.0.0/0 any 0.0.0.0/0 in
--A ufw-user-input -p tcp --dport 5900 -j ACCEPT
-
-### SYNERGY 24800 (synergy kbd/mouse sharing)
-### tuple ### allow tcp 24800 0.0.0.0/0 any 192.168.0.0/8 in
--A ufw-user-input -p tcp --dport 24800 -s 192.168.0.0/8 -j ACCEPT
+### SAMBA TCP (Windows file sharing) ###
+### tuple ### allow tcp 139,445 0.0.0.0/0 any 0.0.0.0/0 in
+-A ufw-user-input -p tcp -m multiport --dports 139,445 -j ACCEPT
 
 ### END RULES ###
 
 ### LOGGING ###
 -A ufw-after-logging-input -j LOG --log-prefix "[UFW BLOCK] " -m limit --limit 3/min --limit-burst 10
 -A ufw-after-logging-forward -j LOG --log-prefix "[UFW BLOCK] " -m limit --limit 3/min --limit-burst 10
--I ufw-logging-deny -m state --state INVALID -j RETURN -m limit --limit 3/min --limit-burst 10
+-I ufw-logging-deny -m conntrack --ctstate INVALID -j RETURN -m limit --limit 3/min --limit-burst 10
 -A ufw-logging-deny -j LOG --log-prefix "[UFW BLOCK] " -m limit --limit 3/min --limit-burst 10
 -A ufw-logging-allow -j LOG --log-prefix "[UFW ALLOW] " -m limit --limit 3/min --limit-burst 10
 ### END LOGGING ###
