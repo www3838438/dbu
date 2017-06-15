@@ -2,10 +2,10 @@
 <actions>
 <action>
 	<icon>utilities-terminal</icon>
-	<name>Ouvrir un terminal ici</name>
+	<name>Open terminal here</name>
 	<unique-id>1376925988838423-2</unique-id>
 	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
-	<description>Ouvre une fenêtre de terminal dans le répertoire</description>
+	<description>Open a terminal emulator window</description>
 	<patterns>*</patterns>
 	<startup-notify/>
 	<directories/>
@@ -13,10 +13,10 @@
 
 <action>
 	<icon>system-search</icon>
-	<name>Rechercher...</name>
+	<name>Search...</name>
 	<unique-id>1376145324304167-1</unique-id>
 	<command>gnome-search-tool --path=%f</command>
-	<description>Rechercher des fichiers ou dossiers</description>
+	<description>Search files and directories</description>
 	<patterns>*</patterns>
 	<directories/>
 </action>
