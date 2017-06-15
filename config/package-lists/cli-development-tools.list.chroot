@@ -5,6 +5,7 @@
 # Version control systems
 git
 git-svn
+git-mediawiki
 hg-fast-export
 mercurial
 subversion
