@@ -43,7 +43,6 @@
   ☐ [enh] [security] setup SELinux
   ☐ [enh] Better GRUB look and bootsplash: add pylmouth + debian-logo plymouth theme, add wallpaper in grub's dir, add `splash` to `\/etc\/default\/grub` options, and make sure `update-grub` runs during the build.
   ☐ [l10n] some settings are hardcoded to french
-           https://github.com/nodiscc/dbu/blob/master/config/includes.chroot/etc/skel/.config/Thunar/uca.xml (UCAs cannot be localized)
            https://github.com/nodiscc/dbu/blob/master/auto/config (default locale for live system)
   ☐ [enh] [l10n] provide more language/locale choices at boot time (which languages?)
   ☐ [enh] Some Firefox addons are not e10s compatible. When Firefox 57 is out (nov. 14 2017), they will stop working. Add e10s support or find equivalent compatible addons:
