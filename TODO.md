@@ -45,7 +45,7 @@
   ☐ [l10n] some settings are hardcoded to french
            https://github.com/nodiscc/dbu/blob/master/auto/config (default locale for live system)
   ☐ [enh] [l10n] provide more language/locale choices at boot time (which languages?)
-  ☐ [enh] Some Firefox addons are not e10s compatible. When Firefox 57 is out (nov. 14 2017), they will stop working. Add e10s support or find equivalent compatible addons:
+  ☐ [enh] Fine e10s and/or Webextensions compatible addons for Firefox (https://addons.mozilla.org/en-US/firefox/search/?tag=firefox57)
            Add to Search Bar Not compatible with multiprocess.
            Clean Links Not compatible with multiprocess.
            RSS Icon in url bar Not compatible with multiprocess.
