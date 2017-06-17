@@ -172,65 +172,67 @@ tbxpi:
 # needs to be updated manually when upstream versions change
 # ideally everything should be packaged in the Debian archive
 # see https://github.com/nodiscc/scriptz for more software
+WGETPACKAGES := wget -N -nv --show-progress -P config/packages.chroot/
+
 packageschroot:
 	-mkdir -pv config/packages.chroot
 	
 	# https://launchpad.net/light-locker-settings
-	wget -N -nv --show-progress -P config/packages.chroot/ http://cz.archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0-0ubuntu1.debian.tar.xz
-	wget -N -nv --show-progress -P config/packages.chroot/ http://cz.archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0-0ubuntu1.dsc
-	wget -N -nv --show-progress -P config/packages.chroot/ http://cz.archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0-0ubuntu1_all.deb
-	wget -N -nv --show-progress -P config/packages.chroot/ http://cz.archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0.orig.tar.bz2
+	$(WGETPACKAGES) http://cz.archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0-0ubuntu1.debian.tar.xz
+	$(WGETPACKAGES) http://cz.archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0-0ubuntu1.dsc
+	$(WGETPACKAGES) http://cz.archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0-0ubuntu1_all.deb
+	$(WGETPACKAGES) http://cz.archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0.orig.tar.bz2
 	
 	# https://github.com/dequis/purple-facebook/wiki
-	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/i386/purple-facebook_20170608~c40d9fa~c9b74a765767~128_i386.deb
-	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/amd64/purple-facebook_20170608~c40d9fa~c9b74a765767~128_amd64.deb
-	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170608~c40d9fa~c9b74a765767~128.tar.gz
-	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170608~c40d9fa~c9b74a765767~128.dsc
+	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/i386/purple-facebook_20170608~c40d9fa~c9b74a765767~128_i386.deb
+	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/amd64/purple-facebook_20170608~c40d9fa~c9b74a765767~128_amd64.deb
+	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170608~c40d9fa~c9b74a765767~128.tar.gz
+	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170608~c40d9fa~c9b74a765767~128.dsc
 	
 	# https://github.com/MrS0m30n3/youtube-dl-gui/releases
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8-1~webupd8~xenial3.debian.tar.xz
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8-1~webupd8~xenial3.dsc
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8-1~webupd8~xenial3_all.deb
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8.orig.tar.gz
+	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8-1~webupd8~xenial3.debian.tar.xz
+	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8-1~webupd8~xenial3.dsc
+	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8-1~webupd8~xenial3_all.deb
+	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.3.8.orig.tar.gz
 	
 	# https://github.com/feross/webtorrent-desktop/
 	#ignore errors because host prevents getting content-length and cause subsequent downloads to fail.
-	-wget -N -nv --show-progress -P config/packages.chroot/ https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
-	-wget -N -nv --show-progress -P config/packages.chroot/ https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_i386.deb
+	-$(WGETPACKAGES) https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
+	-$(WGETPACKAGES) https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_i386.deb
 
 	### THEMES ###
-	# https://numixproject.org/
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.dsc
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.tar.xz
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1_all.deb
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1.dsc
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1.tar.xz
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1_all.deb
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+898~201705182216~ubuntu17.04.1.dsc
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+898~201705182216~ubuntu17.04.1.tar.xz
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+898~201705182216~ubuntu17.04.1_all.deb	
+	# https://numixproject.org
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.dsc
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.tar.xz
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1_all.deb
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1.dsc
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1.tar.xz
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1_all.deb
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+898~201705182216~ubuntu17.04.1.dsc
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+898~201705182216~ubuntu17.04.1.tar.xz
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+898~201705182216~ubuntu17.04.1_all.deb	
 	
 	# https://github.com/snwh/paper-gtk-theme
 	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862403
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1.dsc
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1.tar.gz
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1_all.deb
+	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1.dsc
+	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1.tar.gz
+	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1_all.deb
 	
 	# https://github.com/snwh/paper-icon-theme
 	# TODO https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=802505
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1.dsc
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1.tar.xz
-	wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1_all.deb
+	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1.dsc
+	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1.tar.xz
+	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1_all.deb
 
 	# https://github.com/snwh/paper-cursor-theme (disabled)
-	#wget -N -nv --show-progress -P config/packages.chroot/ http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-cursor-theme_1.3+r672~daily~ubuntu15.10.1_all.deb
+	#$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-cursor-theme_1.3+r672~daily~ubuntu15.10.1_all.deb
 	
 	# https://github.com/horst3180/Ceti-2-theme
 	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862402
-	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/ceti-2-theme_1442961272.9fe3d9f_all.deb
+	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/ceti-2-theme_1442961272.9fe3d9f_all.deb
 	
 	# https://github.com/horst3180/Vertex-theme
-	wget -N -nv --show-progress -P config/packages.chroot/ http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/vertex-theme_1459280359.d828032_all.deb
+	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/vertex-theme_1459280359.d828032_all.deb
 
 # download pidgin plugins
 purpleplugins:
