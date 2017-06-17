@@ -226,6 +226,14 @@ packageschroot:
 
 	# https://github.com/snwh/paper-cursor-theme (disabled)
 	#$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-cursor-theme_1.3+r672~daily~ubuntu15.10.1_all.deb
+
+	# https://qwinff.github.io/
+	# https://github.com/qwinff/qwinff
+	# https://github.com/qwinff/qwinff/issues/18
+	$(WGETPACKAGES) http://ppa.launchpad.net/lzh9102/qwinff/ubuntu/pool/main/q/qwinff/qwinff_0.2.0-1~wily2.debian.tar.gz
+	$(WGETPACKAGES) http://ppa.launchpad.net/lzh9102/qwinff/ubuntu/pool/main/q/qwinff/qwinff_0.2.0-1~wily2.dsc
+	$(WGETPACKAGES) http://ppa.launchpad.net/lzh9102/qwinff/ubuntu/pool/main/q/qwinff/qwinff_0.2.0-1~wily2_amd64.deb
+	$(WGETPACKAGES) http://ppa.launchpad.net/lzh9102/qwinff/ubuntu/pool/main/q/qwinff/qwinff_0.2.0-1~wily2_i386.deb
 	
 	# https://github.com/horst3180/Ceti-2-theme
 	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862402
