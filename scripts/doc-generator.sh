@@ -4,10 +4,10 @@
 #TODO: generate index of markdown files
 #TODO screenshots: fetch multiple screenshots
 export LANG="C"
+export package_categories="Utility Office Multimedia Graphics Network System Games Science"
 
 function _genPackagesDoc {
 packagelist=$1
-
 pageheader="# Installed software
 
 See [Usage](usage.md#Installing-removing-updating-software) for documentation on installing,
@@ -33,16 +33,15 @@ else
     md_shortdescription="_$(_getShortDescription $descriptionpackage)_"
     md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | egrep "^Homepage:" | cut -d" " -f1 --complement))**"
 fi
-
 if egrep "^#Screenshot:" $packagelist >/dev/null; then
     screenshotpackage=$(egrep "^#Screenshot:" $packagelist | cut -d" " -f1 --complement)
     else screenshotpackage=$mainpackage
 fi
+
 md_screenshot="[![](https://screenshots.debian.net/thumbnail/$screenshotpackage/)](https://screenshots.debian.net/screenshot/$screenshotpackage/)"
-
 _renderMarkdown
-
 }
+
 
 function _getShortDescription {
 	apt-cache show $1 | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1
@@ -82,29 +81,30 @@ function _main {
 	done
 }
 
-_main $@
-
-
-#generate index
-pkgindex=$(
-	for i in Utility Office Multimedia Graphics Network System Games Science; do
-		echo -e "\n### $i";
-		for plist in config/package-lists/*.chroot; do
-		    if egrep -q "^#Cat: $i" $plist; then
-		        pname=$(egrep "^#Name:" $plist | cut -d" " -f1 --complement)
-		        echo " - [$pname](packages/$(basename $plist).md)"
-		    fi
+function _gen_package_index {
+	#generate index
+	pkgindex=$(
+		for category in $package_categories; do
+			echo -e "\n### $category";
+			for plist in config/package-lists/*.chroot; do
+				 pname=$(egrep "^#Name:" $plist | cut -d" " -f1 --complement)
+				 echo " - [$pname](packages/$(basename $plist).md)"
+			    fi
+			done
 		done
-	done
+		echo -e "\n### Non-debian packages";
+		for deb in config/packages.chroot/*{all,amd64}.deb; do
+			package=$(dpkg -I $deb | egrep "Package:" | awk -F' ' '{print $2}')
+			homepage=$(dpkg -I $deb | egrep "Homepage:" | awk -F' ' '{print $2}')
+			description=$(dpkg -I $deb | egrep "Description:" | awk '{$1=""; sub("  ", ""); print}')
+			echo "* [$package]($homepage) - $description"
+		done
+	)
 
-	echo -e "\n### Non-debian packages";
-	for deb in config/packages.chroot/*{all,amd64}.deb; do
-		package=$(dpkg -I $deb | egrep "Package:" | awk -F' ' '{print $2}')
-		homepage=$(dpkg -I $deb | egrep "Homepage:" | awk -F' ' '{print $2}')
-		description=$(dpkg -I $deb | egrep "Description:" | awk '{$1=""; sub("  ", ""); print}')
-		echo "* [$package]($homepage) - $description"
-	done
-)
+	echo "$pageheader
+	$pkgindex" > doc/packages.md
+}
 
-echo "$pageheader
-$pkgindex" > doc/packages.md
+_main $@
+_gen_package_index
+
