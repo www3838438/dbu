@@ -42,27 +42,12 @@
   ☐ [feature] New Thunar UCA: edit text files as root
   ☐ [enh] [security] setup SELinux
   ☐ [enh] Better GRUB look and bootsplash: add pylmouth + debian-logo plymouth theme, add wallpaper in grub's dir, add `splash` to `\/etc\/default\/grub` options, and make sure `update-grub` runs during the build.
-  ☐ [l10n] some settings are hardcoded to french
-           https://github.com/nodiscc/dbu/blob/master/auto/config (default locale for live system)
   ☐ [enh] [l10n] provide more language/locale choices at boot time (which languages?)
-  ☐ [enh] Fine e10s and/or Webextensions compatible addons for Firefox (https://addons.mozilla.org/en-US/firefox/search/?tag=firefox57)
+  ☐ [enh] Find e10s and/or Webextensions compatible addons for Firefox (https://addons.mozilla.org/en-US/firefox/search/?tag=firefox57)
            Add to Search Bar Not compatible with multiprocess.
            Clean Links Not compatible with multiprocess.
            RSS Icon in url bar Not compatible with multiprocess.
            Self-Destructing Cookies Not compatible with multiprocess. 
            Yet Another Context Search Not compatible with multiprocess.
-  ☐ [enh] Integrate more config panels to xfce4-settings-manager
-        blueman
-        software-properties-gtk
-        nm-connection-editor
-        pavucontrol
-        seahorse
-        services-admin
-        shares-admin
-        system-config-printer
-        users-admin
-        time-admin
-        menulibre
-     Creating a copy of the original .desktop in /usr/share/applications with the following categories added works: DesktopSettings;Settings;System;X-XFCE-HardwareSettings;X-XFCE-PersonalSettings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings; but is overwritten on package upgrades. Find XFCE specific location for settings-manager wrapper .desktop files
 
 ```
