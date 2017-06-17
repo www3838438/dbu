@@ -1,8 +1,10 @@
 #!/bin/bash
-#Desc: generate markdown package documentation from live-build config/packages.chroot directory
-#License: WTFPL
+# Description: generate markdown package documentation from live-build config/packages.chroot directory
+# License: WTFPL
+# Source: https://github.com/nodiscc/dbu
 #TODO: generate index of markdown files
 #TODO screenshots: fetch multiple screenshots
+
 export LANG="C"
 export package_categories="Utility Office Multimedia Graphics Network System Games Science"
 	pageheader="# Installed software
@@ -16,9 +18,11 @@ export package_categories="Utility Office Multimedia Graphics Network System Gam
 function _genPackagesDoc {
 	# gather information from a package list ($1), format it to markdown
 	packagelist=$1
+
 	packages=$(egrep "^[a0-z9]" $packagelist) # packages in list
 	mainpackage=$(echo "$packages " |head -n1) # main package from the list
 	alts=$(egrep "^#Alt:" $packagelist | cut -d" " -f1 --complement) # alternative/suggested packages
+	md_title="# $(egrep "^#Name" $packagelist | cut -d" " -f1 --complement)" # page title
 	md_resources=
 	md_category=
 
@@ -27,20 +31,26 @@ function _genPackagesDoc {
 		md_description=""
 		md_shortdescription=""
 		md_homepage=""
+	elif egrep "^#ChrootPackage:" $packagelist >/dev/null; then
+		# get information from .deb file if the list has a #ChrootPackage field
+		descriptionpackage=$(egrep "^#ChrootPackage:" $packagelist | cut -d" " -f1 --complement)
+		debfile=$(find config/packages.chroot/ -iname "${descriptionpackage}_*amd64*.deb" -o -iname "${descriptionpackage}_*all*.deb")
+		dpkginfo=$(dpkg -I $debfile)
+		md_description=$(echo "$dpkginfo" | egrep "^  [Aa-Zz]")
+		md_shortdescription=""
+		md_homepage="**[Homepage]($(echo "$dpkginfo" | egrep "^ Homepage:" | awk -F": " '{print $2}'))**"
 	else
 		# use #Desc field to specify the package to descript, or use the main package
 		if egrep "^#Desc:" $packagelist >/dev/null; then
 			descriptionpackage=$(egrep "^#Desc" $packagelist | cut -d" " -f1 --complement)
 		else descriptionpackage=$mainpackage
 		fi
-
 		# generate markdown page title, desciptions, homepage links
-		md_title="# $(egrep "^#Name" $packagelist | cut -d" " -f1 --complement)"
 		md_description="$(apt-cache show $descriptionpackage | egrep "^ " | egrep -v "::" | sed -e 's/^ \.$/ /g' | cut -b1 --complement)"
-		md_shortdescription="_$(_getShortDescription $descriptionpackage)_"
+		md_shortdescription="_$(apt-cache show $descriptionpackage | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)_"
 		md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | egrep "^Homepage:" | cut -d" " -f1 --complement))**"
 	fi
-
+	# TODO: move this to the loop above
 	if egrep "^#Screenshot:" $packagelist >/dev/null; then
 		screenshotpackage=$(egrep "^#Screenshot:" $packagelist | cut -d" " -f1 --complement)
 		else screenshotpackage=$mainpackage
@@ -74,13 +84,6 @@ function _renderMarkdown {
 	done
 	echo ' </sub>'
 }
-
-
-function _getShortDescription {
-	# get a package's short description
-	apt-cache show $1 | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1
-}
-
 
 function _main {
 	# check mandatory #Cat: category field

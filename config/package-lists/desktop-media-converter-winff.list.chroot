@@ -1,11 +1,9 @@
-#Name: WinFF multimedia file converter
-#Desc: winff
-#Screenshot: winff-qt
+#Name: QWinFF multimedia file converter
 
-winff
-winff-qt
+#ChrootPackage: qwinff
 
-
+#Alt: winff
+#Alt: winff-qt
 #Alt: sinthgunt
 #Alt: handbrake-gtk
 #Alt: transmageddon
