@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v0.9m](https://github.com/nodiscc/dbu/releases/tag/0.9m) - UNPUBLISHED
+## [v0.9n](https://github.com/nodiscc/dbu/releases/tag/0.9n) - UNPUBLISHED
 
 No changes yet.
 
@@ -16,30 +16,33 @@ No changes yet.
 -->
 
 
-## [v0.9l](https://github.com/nodiscc/dbu/releases/tag/0.9l) - 2017-06-02
+## [v0.9m](https://github.com/nodiscc/dbu/releases/tag/0.9m) - 2017-06-17
 
 ### Added
 
- * Desktop environment: added Kupfer launcher, XFCE4 netload/weather/whiskermenu panel plugins.
- * Development: added vera, gdb.
- * Multimedia: added more VLC plugins (skins2,splitter,visualization,video-output,base,qt) and command-line variant.
- * Firefox: add Cookie Autodelete to default addons.
+ * Desktop environment: XFCE4 netload/weather/whiskermenu panel plugins, GNOME Boxes.
+ * Development: added vera, gdb, iat, nrg2iso, git-mediawiki, python3-venv.
+ * Multimedia: added QWinFF, added more VLC plugins (skins2,splitter,visualization,video-output,base,qt) and command-line variant.
+ * System: Added GNOME Boxes virtualization tool.
+ * Network: Added Samba file sharing server.
+ * Added application launcher for Units.
+ * Firefox addons: add Scrapbook X, Greasemonkey, Downthemall.
 
 ### Changed
 
  * Installer: let user select whether a network mirror should be used or not. This allows fully offline installation without having to manually cancel mirror selection.
  * Network mirrors: replaced country specific debian archive mirrors with deb.debian.net CDN. Allows faster packages download speeds regardless of the machine's geographic locations.
- * Updated 3rd party packages and user documentation.
+ * Updated 3rd party packages and user documentation, fix translations.
+ * Removed most preset firewall rules, only preconfigured rules are now Bittorrent, Avahi and Samba.
 
 ### Removed
 
- * Removed Synapse launcher and related zeitgeist packages (replaced with Kupfer).
+ * Replaced Synapse launcher with Kupfer.
  * Removed Remmina remote desktop client (removed from Debian Stretch).
- * Removed unmaintained Self-Destructing Cookies Firefox addon (replaced with Cookie Autodelete).
 
 ### Fixed
 
- * Fixed automatic setup of default Thunderbird addons.
+ * Cleanup and improvements in documenation generation scripts.
 
 ## [v0.9k](https://github.com/nodiscc/dbu/releases/tag/0.9k) - 2017-06-02
 
