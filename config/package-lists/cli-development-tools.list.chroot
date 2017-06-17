@@ -54,6 +54,7 @@ gdb
 python-setuptools
 python-virtualenv
 virtualenv
+python3-venv
 python-all-dev
 python-demjson
 python-stdeb
