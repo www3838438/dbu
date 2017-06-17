@@ -50,24 +50,25 @@ ffaddons:
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/392483/addon-392483-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/file/339198/rss_icon_in_url_bar-1.5.2-sm+fx.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
+	wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/greasemonkey/addon-748-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/
+	wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-x/addon-521726-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/
+	wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-copypageinfo/addon-536398-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/downthemall/
+	wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/downthemall/addon-201-latest.xpi
 	#
 	# more addons (disabled):
-	# https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
-	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/greasemonkey/addon-748-latest.xpi
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/
-	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-x/addon-521726-latest.xpi
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/
-	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-copypageinfo/addon-536398-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-autosave/
 	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-autosave/addon-536396-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-maf-creator/
 	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-maf-creator/addon-536394-latest.xpi
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/
 	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-converter/addon-536392-latest.xpi
-	# https://addons.mozilla.org/en-US/firefox/addon/downthemall/
-	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/downthemall/addon-201-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/ #not e10s-compatible, no webextension, unmaintained
-	#wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/415846/addon-415846-latest.xpi
+
+	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ #firefox 57+
+	#wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/platform:5/addon-784287-latest.xpi
 	#
 	# more addons (disabled):
 	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-bookmarks/
