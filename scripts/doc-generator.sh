@@ -5,50 +5,54 @@
 #TODO screenshots: fetch multiple screenshots
 export LANG="C"
 export package_categories="Utility Office Multimedia Graphics Network System Games Science"
+	pageheader="# Installed software
+
+	See [Usage](usage.md#Installing-removing-updating-software) for documentation on installing,
+	removing or updating software packages.
+	"
+
+###############################################################################
 
 function _genPackagesDoc {
-packagelist=$1
-pageheader="# Installed software
+	# gather information from a package list ($1), format it to markdown
+	packagelist=$1
+	packages=$(egrep "^[a0-z9]" $packagelist) # packages in list
+	mainpackage=$(echo "$packages " |head -n1) # main package from the list
+	alts=$(egrep "^#Alt:" $packagelist | cut -d" " -f1 --complement) # alternative/suggested packages
+	md_resources=
+	md_category=
 
-See [Usage](usage.md#Installing-removing-updating-software) for documentation on installing,
-removing or updating software packages.
-"
-packages=$(egrep "^[a0-z9]" $packagelist)
-mainpackage=$(echo "$packages " |head -n1)
-md_title="# $(egrep "^#Name" $packagelist | cut -d" " -f1 --complement)"
-alts=$(egrep "^#Alt:" $packagelist | cut -d" " -f1 --complement)
-md_resources=
-md_category=
+	if egrep "^#NoDescription" "$packagelist" >/dev/null; then
+		# remove all descriptions if the package list has a #NoDescription field
+		md_description=""
+		md_shortdescription=""
+		md_homepage=""
+	else
+		# use #Desc field to specify the package to descript, or use the main package
+		if egrep "^#Desc:" $packagelist >/dev/null; then
+			descriptionpackage=$(egrep "^#Desc" $packagelist | cut -d" " -f1 --complement)
+		else descriptionpackage=$mainpackage
+		fi
 
-if egrep "^#NoDescription" "$packagelist" >/dev/null; then
-    md_description=""
-    md_shortdescription=""
-    md_homepage=""
-else
-    if egrep "^#Desc:" $packagelist >/dev/null; then
-        descriptionpackage=$(egrep "^#Desc" $packagelist | cut -d" " -f1 --complement)
-        else descriptionpackage=$mainpackage
-    fi
-    md_description="$(apt-cache show $descriptionpackage | egrep "^ " | egrep -v "::" | sed -e 's/^ \.$/ /g' | cut -b1 --complement)"
-    md_shortdescription="_$(_getShortDescription $descriptionpackage)_"
-    md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | egrep "^Homepage:" | cut -d" " -f1 --complement))**"
-fi
-if egrep "^#Screenshot:" $packagelist >/dev/null; then
-    screenshotpackage=$(egrep "^#Screenshot:" $packagelist | cut -d" " -f1 --complement)
-    else screenshotpackage=$mainpackage
-fi
+		# generate markdown page title, desciptions, homepage links
+		md_title="# $(egrep "^#Name" $packagelist | cut -d" " -f1 --complement)"
+		md_description="$(apt-cache show $descriptionpackage | egrep "^ " | egrep -v "::" | sed -e 's/^ \.$/ /g' | cut -b1 --complement)"
+		md_shortdescription="_$(_getShortDescription $descriptionpackage)_"
+		md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | egrep "^Homepage:" | cut -d" " -f1 --complement))**"
+	fi
 
-md_screenshot="[![](https://screenshots.debian.net/thumbnail/$screenshotpackage/)](https://screenshots.debian.net/screenshot/$screenshotpackage/)"
-_renderMarkdown
-}
+	if egrep "^#Screenshot:" $packagelist >/dev/null; then
+		screenshotpackage=$(egrep "^#Screenshot:" $packagelist | cut -d" " -f1 --complement)
+		else screenshotpackage=$mainpackage
+	fi
 
-
-function _getShortDescription {
-	apt-cache show $1 | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1
+	md_screenshot="[![](https://screenshots.debian.net/thumbnail/$screenshotpackage/)](https://screenshots.debian.net/screenshot/$screenshotpackage/)"
+	_renderMarkdown
 }
 
 
 function _renderMarkdown {
+	# 
 	echo -e "$md_title"
 	if [ ! -z "$md_shortdescription" ]; then echo -e "\n_${md_shortdescription}_\n"; fi
 	if [ ! -z "$md_description" ]; then
@@ -59,30 +63,43 @@ function _renderMarkdown {
 	echo -e "\n$md_screenshot\n"
 	echo -e "\n $md_homepage"
 	echo -e "\n### Installed packages\n"
-	for i in $packages; do echo "* [$i](https://packages.debian.org/stretch/$i) - $(_getShortDescription $i)"; done
+	for i in $packages; do
+		echo "* [$i](https://packages.debian.org/stretch/$i) - $(_getShortDescription $i)"
+	done
 
 	echo -e "\n### Related packages\n"
 	echo -n '<sub> '
-	for i in $alts; do echo -n "[$i](https://packages.debian.org/stretch/$i) "; done
+	for i in $alt_packages; do
+		echo -n "[$i](https://packages.debian.org/stretch/$i) "
+	done
 	echo ' </sub>'
 }
 
 
+function _getShortDescription {
+	# get a package's short description
+	apt-cache show $1 | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1
+}
+
+
 function _main {
+	# check mandatory #Cat: category field
 	for i in config/package-lists/*.list.chroot; do
 		if ! egrep "#Cat:" "$i" >/dev/null; then
 			echo "WARNING: No category defined for $i. List will not be included in the index page."
 		fi
 	done
 
+	# generate markdown package pages for all package lists
 	for i in config/package-lists/*.list.chroot; do
 		echo "$i"
 		_genPackagesDoc $i > doc/packages/$(basename $i).md
 	done
 }
 
+
 function _gen_package_index {
-	#generate index
+	#generate an index of all markdown package lists
 	pkgindex=$(
 		for category in $package_categories; do
 			echo -e "\n### $category";
@@ -100,10 +117,10 @@ function _gen_package_index {
 			echo "* [$package]($homepage) - $description"
 		done
 	)
-
 	echo "$pageheader
 	$pkgindex" > doc/packages.md
 }
+
 
 _main $@
 _gen_package_index
