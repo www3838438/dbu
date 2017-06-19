@@ -27,7 +27,6 @@ clean:
 documentation:
 	-rm -r doc/packages/*.md
 	./scripts/doc-generator.sh
-	-rm doc/packages/00-*
 
 lbbuild:
 	sudo lb clean --all
