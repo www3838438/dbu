@@ -88,14 +88,14 @@ function _renderMarkdown {
 
 function _main {
 	# check mandatory #Cat: category field
-	for i in config/package-lists/*.list.chroot; do
+	for i in config/package-lists/[a-z]*.list.chroot; do
 		if ! egrep "#Cat:" "$i" >/dev/null; then
-			echo "WARNING: No category defined for $i. List will not be included in the index page."
+			echo "WARNING: No category defined for $i - list will not be included in the index page."
 		fi
 	done
 
 	# generate markdown package pages for all package lists
-	for i in config/package-lists/*.list.chroot; do
+	for i in config/package-lists/[a-z]*.list.chroot; do
 		echo "$i"
 		_genPackagesDoc $i > doc/packages/$(basename $i).md
 	done
