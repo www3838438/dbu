@@ -13,7 +13,7 @@ tbaddonsdir="config/includes.chroot/usr/share/thunderbird/extensions/"
 
 all: buildenv clean update ffxpi tbxpi documentation lbbuild checksum_sign
 
-update: ffaddons tbaddons packageschroot purpleplugins themes dotfiles
+update: ffaddons tbaddons packageschroot binaries themes dotfiles
 
 buildenv:
 	sudo aptitude install live-build make build-essential wget git xmlstarlet unzip
