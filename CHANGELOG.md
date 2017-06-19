@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v0.9n](https://github.com/nodiscc/dbu/releases/tag/0.9n) - UNPUBLISHED
+## [v1.0](https://github.com/nodiscc/dbu/releases/tag/0.9n) - UNPUBLISHED
 
 No changes yet.
 
@@ -14,6 +14,29 @@ No changes yet.
 ### Security
 ### Deprecated
 -->
+
+
+## [v0.9n](https://github.com/nodiscc/dbu/releases/tag/0.9n) - 2017-06-19
+
+### Added
+
+ * Added xfce4-places-plugin
+ * Support generating documentation pages from .deb packages
+
+### Changed
+
+ * Simplified XFCE4 panel configuration
+ * Refactoring and cleanup in makefile/doc-generator.sh
+
+### Removed
+
+ * Removed first-run desktop setup script
+ * Remove torrent creation sendto/helper
+
+### Fixed
+
+ * Fixed doc generation for samba package list 
+
 
 
 ## [v0.9m](https://github.com/nodiscc/dbu/releases/tag/0.9m) - 2017-06-17
