@@ -19,7 +19,7 @@ _Note: The user account created during installation will have `sudo` administrat
 #### Configuration
 
 Use the `Settings manager` to configure your desktop or `Options`/`Preferences` inside applications menus.  
-Configuration files are generally found in `~/.config` or `/etc/` directories.
+Other configuration files are generally found in `~/.config` or `/etc/` directories.
 
 ------------------------------------------
 
@@ -30,6 +30,7 @@ Programs and files can be opened with
  * The _Application Menu_ (bottom left corner)
  * The _File Manager_
  * A _Terminal emulator_ (command line)
+ * An _application launcher_ (by default `Ctrl+Space`)
  
 Your _Home directory_ contains all personal files belonging to your user account on the computer.
 
@@ -37,7 +38,8 @@ Your _Home directory_ contains all personal files belonging to your user account
 
 #### Installing/removing/updating software
 
-The _package management_ system allows you to install, remove or upgrade every component of your system (applications, system services, libraries, operating system kernel...).
+The _package management_ system allows you to install, remove or upgrade all 
+component of your system (applications, system services, libraries, operating system...).
 
  * **[All Debian packages](https://packages.debian.org)** (+40 000 packages)
 
@@ -53,7 +55,7 @@ Run `Package Updater`, click `Install updates` and follow the instructions.
 
 ##### Installing/Removing software
 
-Run the `Packages` utility, search for software by it's name or description, or browse the available categories; check/uncheck the checkbox left of the package to install/remove and click `Apply updates` and follow the instructions.
+Run the `Packages` utility, search for software by name or description, or browse the available categories.
 
 ![](res/gpk-install-remove.png)
 
@@ -64,6 +66,14 @@ Run the `Packages` utility, search for software by it's name or description, or 
   * Click `Apply` to proceed to installation.
 
 ![](res/synaptic-search-install.png) ![](res/synaptic-purge.png) -->
+
+For convenience other package managers are also available (`synaptic`, `aptitude`, `apt`...).
+Most package managers have similar usage:
+
+ * Search for software
+ * Select software to install or remove
+ * Apply changes
+
 
 ##### Setting up backups
 
@@ -76,25 +86,20 @@ you want to keep backups of. Refer to the [Backintime](http://backintime.readthe
 
 #### Maintenance
 
- * **Backup** your data periodically to an external storage.
- * Upgrade installed software.
- * Run `Bleachbit` to clear temporary files and free up disk space.
- * Battery/power: Lower screen brightness! Turn off wifi, bluetooth and other unused hardware. Use hibernation mode (suspend to disk) instead of sleep (suspend to RAM).
- * Performance: Close unused applications, disable unused `Services` and autostart programs in `Session and startup`.
- * Run `Disk utility` to run checks against your disks (automatic every 25 reboots).
- * Clean your computer case from dust every year.
+ * Run `Back In Time` to backup your data periodically to an external storage.
+ * Apply available upgrades as soon as possible.
+ * Keep your hardware clean/free of dust, ensure good air flow.
 
-
-#### Security
+#### Basic security
 
  * Do not run untrusted software or commands.
- * Do not copy-paste commands from the web to your terminal emulator.
  * Only install software from your package manager.
- * Upgrade installed software
+ * Keep installed software up-to-date.
  * Only enter your administrator password to perform necessary system administration tasks.
- * use strong (long) passwords/phrases.
+ * Do not copy-paste commands from the web to your terminal emulator.
+ * Use strong (long) passwords/phrases.
  * Do not reuse your passwords for different services/machines (use a password manager).
- * Use encrypted communication protocols over insecure networks (SFTP, HTTPS, SSH, OTR, GPG...), use removable drives encryption.
+ * Use encrypted communication protocols over insecure networks (SFTP, HTTPS, SSH, OTR, GPG...), use disk encryption to mitigate theft.
  * Minimize installed/running software.
  * Do not mark untrusted files as executable.
 
@@ -163,25 +168,19 @@ _Documentation, forums, communities, support channels..._
 ### Software lists
 
 
- * [AlternativeTo - Crowdsourced software recommendations](http://alternativeto.net/)
-  * [Recently Added Open Source Linux Software - AlternativeTo.net](https://alternativeto.net/platform/linux/?license=opensource&sort=addeddate)
- * [GitHub - Kickball/awesome-selfhosted: This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.](https://github.com/Kickball/awesome-selfhosted)
- * [GitHub - n1trux/awesome-sysadmin: A curated list of amazingly awesome open source sysadmin resources.](https://github.com/n1trux/awesome-sysadmin)
- * [GitHub - nodiscc/awesome-linuxaudio: A list of software and resources for professional audio/video/live events production on Linux.](https://github.com/nodiscc/awesome-linuxaudio)
- * [GitHub - alebcay/awesome-shell: A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.](https://github.com/alebcay/awesome-shell)
+ * [Open Source Linux Software - AlternativeTo.net](https://alternativeto.net/platform/linux/?license=opensource&sort=addeddate)
+ * [Kickball/awesome-selfhosted: This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.](https://github.com/Kickball/awesome-selfhosted)
+ * [n1trux/awesome-sysadmin: A curated list of amazingly awesome open source sysadmin resources.](https://github.com/n1trux/awesome-sysadmin)
+ * [nodiscc/awesome-linuxaudio: A list of software and resources for professional audio/video/live events production on Linux.](https://github.com/nodiscc/awesome-linuxaudio)
+ * [alebcay/awesome-shell: A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.](https://github.com/alebcay/awesome-shell)
  * [Libre Projects](http://libreprojects.net/)
  * [All Projects - PRISM Break](https://prism-break.org/en/all/)
  * [List of applications - ArchWiki](https://wiki.archlinux.org/index.php/List_of_Applications)
- * [List of applications/Other - ArchWiki](https://wiki.archlinux.org/index.php/List_of_Applications/Other)
- * [List of applications/Internet - ArchWiki](https://wiki.archlinux.org/index.php/List_of_applications/Internet)
- * [List of applications/Multimedia - ArchWiki](https://wiki.archlinux.org/index.php/List_of_applications/Multimedia)
- * [List of applications/Utilities - ArchWiki](https://wiki.archlinux.org/index.php/List_of_applications/Utilities)
- * [List of applications/Documents - ArchWiki](https://wiki.archlinux.org/index.php/List_of_applications/Documents)
- * [List of applications/Security - ArchWiki](https://wiki.archlinux.org/index.php/List_of_applications/Security)
- * [List of applications/Science - ArchWiki](https://wiki.archlinux.org/index.php/List_of_applications/Science)
  * [List of free and open-source software packages - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages)
- * [Logiciels Libres - Framasoft](http://www.framasoft.net/rubrique2.html)
- * [One Thing Well](http://onethingwell.org/)
+ * [Framalibre - Annuaire du libre](https://framalibre.org/)
+
+TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO
+
  * [Index 0-K | Inconsolation](http://inconsolation.wordpress.com/index/)
  * [Xmodulo List - Best Linux applications and software](http://list.xmodulo.com/)
  * [FossHub](http://www.fosshub.com/)
