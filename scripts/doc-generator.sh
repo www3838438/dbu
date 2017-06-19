@@ -32,9 +32,9 @@ function _genPackagesDoc {
 		md_description=""
 		md_shortdescription=""
 		md_homepage=""
-	elif egrep "^#ChrootPackage:" $packagelist >/dev/null; then
-		# get information from .deb file if the list has a #ChrootPackage field
-		descriptionpackage=$(egrep "^#ChrootPackage:" $packagelist | cut -d" " -f1 --complement)
+	elif egrep "^#ChrootPkg:" $packagelist >/dev/null; then
+		# get information from .deb file if the list has a #ChrootPkg field
+		descriptionpackage=$(egrep "^#ChrootPkg:" $packagelist | cut -d" " -f1 --complement)
 		debfile=$(find config/packages.chroot/ -iname "${descriptionpackage}_*amd64*.deb" -o -iname "${descriptionpackage}_*all*.deb")
 		dpkginfo=$(dpkg -I $debfile)
 		md_description=$(echo "$dpkginfo" | egrep "^  [Aa-Zz]")

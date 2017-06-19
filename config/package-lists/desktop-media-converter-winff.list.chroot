@@ -1,6 +1,6 @@
 #Name: QWinFF multimedia file converter
 
-#ChrootPackage: qwinff
+#ChrootPkg: qwinff
 
 #Alt: winff
 #Alt: winff-qt
