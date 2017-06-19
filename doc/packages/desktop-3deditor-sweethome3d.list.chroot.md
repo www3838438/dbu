@@ -7,17 +7,13 @@ __Interior 2D design application with 3D preview__
 Sweet Home 3D is an interior design Java application for
 quickly choosing and placing furniture on a house 2D plan
 drawn by the end-user, with a 3D preview.
-Sweet Home 3D is an interior design Java application for
-quickly choosing and placing furniture on a house 2D plan
-drawn by the end-user, with a 3D preview.
 
 ```
 
 [![](https://screenshots.debian.net/thumbnail/sweethome3d/)](https://screenshots.debian.net/screenshot/sweethome3d/)
 
 
- **[Homepage](http://www.sweethome3d.com/
-http://www.sweethome3d.com/)**
+ **[Homepage](http://www.sweethome3d.com/)**
 
 ### Installed packages
 

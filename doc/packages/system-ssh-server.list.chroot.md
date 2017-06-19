@@ -49,7 +49,7 @@ purposes.
 
 
  **[Homepage](http://www.openssh.com/
-http://www.openssh.com/)**
+http://www.openssh.org/)**
 
 ### Installed packages
 

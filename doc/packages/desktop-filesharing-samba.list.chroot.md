@@ -42,10 +42,9 @@ http://www.samba.org)**
 ### Installed packages
 
 * [samba](https://packages.debian.org/stretch/samba) - SMB/CIFS file, print, and login server for Unix
-* [libpam-smbpass](https://packages.debian.org/stretch/libpam-smbpass) - pluggable authentication module for Samba
 * [samba-vfs-modules](https://packages.debian.org/stretch/samba-vfs-modules) - Samba Virtual FileSystem plugins
 * [smbclient](https://packages.debian.org/stretch/smbclient) - command-line SMB/CIFS clients for Unix
 
 ### Related packages
 
-<sub>  </sub>
+<sub> [smbc](https://packages.debian.org/stretch/smbc)  </sub>

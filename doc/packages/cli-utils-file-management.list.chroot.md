@@ -30,6 +30,8 @@
 * [rar](https://packages.debian.org/stretch/rar) - Archiver for .rar files
 * [unzip](https://packages.debian.org/stretch/unzip) - De-archiver for .zip files
 * [zip](https://packages.debian.org/stretch/zip) - Archiver for .zip files
+* [iat](https://packages.debian.org/stretch/iat) - Converts many CD-ROM image formats to iso9660
+* [nrg2iso](https://packages.debian.org/stretch/nrg2iso) - Extracts ISO9660 data from Nero ".nrg" files
 
 ### Related packages
 

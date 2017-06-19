@@ -8,7 +8,7 @@
 ### Installed packages
 
 * [imagemagick](https://packages.debian.org/stretch/imagemagick) - image manipulation programs -- binaries
-* [libmagickcore-6.q16-2-extra](https://packages.debian.org/stretch/libmagickcore-6.q16-2-extra) - 
+* [libmagickcore-6.q16-2-extra](https://packages.debian.org/stretch/libmagickcore-6.q16-2-extra) - low-level image manipulation library - extra codecs (Q16)
 * [exifprobe](https://packages.debian.org/stretch/exifprobe) - read metadata from digital pictures
 * [findimagedupes](https://packages.debian.org/stretch/findimagedupes) - Finds visually similar or duplicate images
 * [optipng](https://packages.debian.org/stretch/optipng) - advanced PNG (Portable Network Graphics) optimizer

@@ -14,6 +14,16 @@ can be added by installing extensions.
 
 The goal of Thunderbird is to produce a cross platform standalone mail
 application using the XUL user interface language.
+Thunderbird is an mail client suitable for free distribution. The goal of
+Thunderbird is to produce a cross platform stand-alone mail application using
+the XUL user interface language.
+It supports different mail accounts, no matter of the used protocol like
+POP(s) or IMAP(s), has an integrated learning Spam filter, and offers easy
+organization of mails with tagging and virtual folders. Also, more features
+can be added by installing extensions.
+
+The goal of Thunderbird is to produce a cross platform standalone mail
+application using the XUL user interface language.
 
 ```
 
@@ -22,7 +32,8 @@ lightning/)](https://screenshots.debian.net/screenshot/thunderbird
 lightning/)
 
 
- **[Homepage](http://www.mozilla.org/thunderbird/)**
+ **[Homepage](http://www.mozilla.org/thunderbird/
+http://www.mozilla.org/thunderbird/)**
 
 ### Installed packages
 

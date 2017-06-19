@@ -31,6 +31,7 @@ remove this package.
 * [xfce4-session](https://packages.debian.org/stretch/xfce4-session) - Xfce4 Session Manager
 * [xfce4-notifyd](https://packages.debian.org/stretch/xfce4-notifyd) - simple, visually-appealing notification daemon for Xfce
 * [xfce4-whiskermenu-plugin](https://packages.debian.org/stretch/xfce4-whiskermenu-plugin) - Alternate menu plugin for the Xfce desktop environment
+* [xfce4-places-plugin](https://packages.debian.org/stretch/xfce4-places-plugin) - quick access to folders, documents and removable media
 * [xfce4-weather-plugin](https://packages.debian.org/stretch/xfce4-weather-plugin) - weather information plugin for the Xfce4 panel
 * [xfce4-netload-plugin](https://packages.debian.org/stretch/xfce4-netload-plugin) - network load monitor plugin for the Xfce4 panel
 * [desktop-base](https://packages.debian.org/stretch/desktop-base) - common files for the Debian Desktop

@@ -9,6 +9,7 @@
 
 * [git](https://packages.debian.org/stretch/git) - fast, scalable, distributed revision control system
 * [git-svn](https://packages.debian.org/stretch/git-svn) - fast, scalable, distributed revision control system (svn interoperability)
+* [git-mediawiki](https://packages.debian.org/stretch/git-mediawiki) - fast, scalable, distributed revision control system (MediaWiki remote helper)
 * [hg-fast-export](https://packages.debian.org/stretch/hg-fast-export) - mercurial to git converter using git-fast-import
 * [mercurial](https://packages.debian.org/stretch/mercurial) - easy-to-use, scalable distributed version control system
 * [subversion](https://packages.debian.org/stretch/subversion) - Advanced version control system
@@ -38,6 +39,7 @@
 * [debhelper](https://packages.debian.org/stretch/debhelper) - helper programs for debian/rules
 * [autoconf](https://packages.debian.org/stretch/autoconf) - automatic configure script builder
 * [devscripts](https://packages.debian.org/stretch/devscripts) - scripts to make the life of a Debian Package maintainer easier
+* [dh-make](https://packages.debian.org/stretch/dh-make) - tool that converts source archives into Debian package source
 * [equivs](https://packages.debian.org/stretch/equivs) - Circumvent Debian package dependencies
 * [build-essential](https://packages.debian.org/stretch/build-essential) - Informational list of build-essential packages
 * [checkinstall](https://packages.debian.org/stretch/checkinstall) - installation tracker
@@ -49,6 +51,7 @@
 * [python-setuptools](https://packages.debian.org/stretch/python-setuptools) - Python Distutils Enhancements
 * [python-virtualenv](https://packages.debian.org/stretch/python-virtualenv) - Python virtual environment creator
 * [virtualenv](https://packages.debian.org/stretch/virtualenv) - Python virtual environment creator
+* [python3-venv](https://packages.debian.org/stretch/python3-venv) - pyvenv-3 binary for python3 (default python3 version)
 * [python-all-dev](https://packages.debian.org/stretch/python-all-dev) - package depending on all supported Python development packages
 * [python-demjson](https://packages.debian.org/stretch/python-demjson) - encoder, decoder, and lint/validator for JSON in Python
 * [python-stdeb](https://packages.debian.org/stretch/python-stdeb) - Python to Debian source package conversion utility

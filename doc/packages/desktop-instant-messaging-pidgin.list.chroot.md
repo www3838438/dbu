@@ -12,13 +12,22 @@ Bonjour, Groupwise, Sametime, and SIMPLE.
 Some extra packages are suggested to use increased functionality:
  * libsqlite3-0:
    - To use Contact Availability Prediction plugin
+Pidgin is a graphical, modular instant messaging client capable of using
+multiple networks at once. Currently supported are:
+AIM/ICQ, Yahoo!, MSN, IRC, Jabber/XMPP/Google Talk, Napster, Zephyr, Gadu-Gadu,
+Bonjour, Groupwise, Sametime, SIMPLE, MySpaceIM, and MXit.
+
+Some extra packages are suggested to use increased functionality:
+ * libsqlite3-0:
+   - To use Contact Availability Prediction plugin
 
 ```
 
 [![](https://screenshots.debian.net/thumbnail/pidgin/)](https://screenshots.debian.net/screenshot/pidgin/)
 
 
- **[Homepage](http://www.pidgin.im)**
+ **[Homepage](http://www.pidgin.im
+http://www.pidgin.im)**
 
 ### Installed packages
 

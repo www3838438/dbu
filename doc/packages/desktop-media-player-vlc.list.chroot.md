@@ -38,25 +38,16 @@ them through HTTP.
 VLC has support for on-the-fly transcoding of audio and video formats, either
 for broadcasting purposes or for movie format transformations. Support for
 most output methods is provided by this package, but features can be added by
-installing additional plugins:
- * vlc-plugin-access-extra
- * vlc-plugin-fluidsynth
- * vlc-plugin-jack
- * vlc-plugin-notify
- * vlc-plugin-samba
- * vlc-plugin-sdl
- * vlc-plugin-skins2
- * vlc-plugin-svg
- * vlc-plugin-video-splitter
- * vlc-plugin-visualization
- * vlc-plugin-zvbi
+installing additional plugins (vlc-plugin-fluidsynth, vlc-plugin-jack,
+vlc-plugin-notify, vlc-plugin-samba, vlc-plugin-sdl, vlc-plugin-svg,
+vlc-plugin-zvbi).
 
 ```
 
 [![](https://screenshots.debian.net/thumbnail/vlc/)](https://screenshots.debian.net/screenshot/vlc/)
 
 
- **[Homepage](https://www.videolan.org/vlc/
+ **[Homepage](http://www.videolan.org/vlc/
 http://www.videolan.org/vlc/)**
 
 ### Installed packages

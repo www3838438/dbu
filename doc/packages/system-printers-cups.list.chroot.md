@@ -11,21 +11,13 @@ printer.
 
 In terms of features, it aims to be as complete as the CUPS web
 administration tool, while being integrated to the desktop.
-System-config-printer is a GUI written in Python using GTK+ to
-configure a CUPS server. Its primary use is to configure the printing
-system on the local host, but can also be used to setup a remote
-printer.
-
-In terms of features, it aims to be as complete as the CUPS web
-administration tool, while being integrated to the desktop.
 
 ```
 
 [![](https://screenshots.debian.net/thumbnail/system-config-printer/)](https://screenshots.debian.net/screenshot/system-config-printer/)
 
 
- **[Homepage](http://cyberelk.net/tim/software/system-config-printer/
-http://cyberelk.net/tim/software/system-config-printer/)**
+ **[Homepage](http://cyberelk.net/tim/software/system-config-printer/)**
 
 ### Installed packages
 

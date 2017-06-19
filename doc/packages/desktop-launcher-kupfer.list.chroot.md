@@ -8,12 +8,6 @@ Kupfer is a summoner/launcher in the style of Quicksilver or GNOME Do. It
 can search and browse your files, launch desired applications and object you
 need in a quicker way.
 
-Kupfer is written in Python 3 and has a flexible architecture based on plugins
-to extend its features.
-Kupfer is a summoner/launcher in the style of Quicksilver or GNOME Do. It
-can search and browse your files, launch desired applications and object you
-need in a quicker way.
-
 Kupfer is written in Python and has a flexible architecture based on plugins
 to extend its features.
 
@@ -22,8 +16,7 @@ to extend its features.
 [![](https://screenshots.debian.net/thumbnail/kupfer/)](https://screenshots.debian.net/screenshot/kupfer/)
 
 
- **[Homepage](https://kupferlauncher.github.io/
-http://engla.github.io/kupfer/)**
+ **[Homepage](http://engla.github.io/kupfer/)**
 
 ### Installed packages
 
