@@ -221,9 +221,9 @@ packageschroot:
 
 	### THEMES ###
 	# https://numixproject.org
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.dsc
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.tar.xz
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1_all.deb
+	#$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.dsc
+	#$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.tar.xz
+	#$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1_all.deb
 	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1.dsc
 	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1.tar.xz
 	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1_all.deb
@@ -256,15 +256,15 @@ packageschroot:
 	
 	# https://github.com/horst3180/Ceti-2-theme
 	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862402
-	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/ceti-2-theme_1442961272.9fe3d9f_all.deb
+	#$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/ceti-2-theme_1442961272.9fe3d9f_all.deb
 	
 	# https://github.com/horst3180/Vertex-theme
-	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/vertex-theme_1459280359.d828032_all.deb
+	#$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/vertex-theme_1459280359.d828032_all.deb
 
 ################################################################################
 # Download prebuilt binaries for non-packaged software
 binaries:
-	# download pidgin plugins
+	# https://github.com/EionRobb/pidgin-opensteamworks/
 	mkdir -pv config/includes.chroot/usr/lib/purple-2/
 	wget -N -nv --show-progress -P config/includes.chroot/usr/lib/purple-2/ \
 		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so \
@@ -280,11 +280,11 @@ themes:
 	git clone --depth=1 https://github.com/shimmerproject/Bluebird config/includes.chroot/usr/share/themes/Bluebird
 	git clone --depth=1 https://github.com/shimmerproject/Greybird config/includes.chroot/usr/share/themes/Greybird
 	git clone --depth=1 https://github.com/shimmerproject/Numix config/includes.chroot/usr/share/themes/Numix
-	git clone --depth=1 https://github.com/shimmerproject/Orion config/includes.chroot/usr/share/themes/Orion
-	git clone --depth=1 https://github.com/satya164/Evolve config/includes.chroot/usr/share/themes/Evolve
-	git clone --depth=1 https://github.com/xyl0n/iris config/includes.chroot/usr/share/themes/iris
-	git clone --depth=1 https://github.com/xyl0n/iris-light config/includes.chroot/usr/share/themes/iris-light
-	git clone --depth=1 https://github.com/BunsenLabs/deb8-theme config/includes.chroot/usr/share/themes/deb8
+	#git clone --depth=1 https://github.com/shimmerproject/Orion config/includes.chroot/usr/share/themes/Orion
+	#git clone --depth=1 https://github.com/satya164/Evolve config/includes.chroot/usr/share/themes/Evolve
+	#git clone --depth=1 https://github.com/xyl0n/iris config/includes.chroot/usr/share/themes/iris
+	#git clone --depth=1 https://github.com/xyl0n/iris-light config/includes.chroot/usr/share/themes/iris-light
+	#git clone --depth=1 https://github.com/BunsenLabs/deb8-theme config/includes.chroot/usr/share/themes/deb8
 
 	git clone --depth=1 https://github.com/lassekongo83/zuki-themes tmp-zuki-themes
 	mv tmp-zuki-themes/Zukitre tmp-zuki-themes/Zukitwo config/includes.chroot/usr/share/themes/
@@ -293,19 +293,31 @@ themes:
 ################################################################################
 # download misc configuration files
 dotfiles:
-	-rm -rf config/includes.chroot/etc/skel/.nano config/includes.chroot/etc/skel/.conky config/includes.chroot/usr/share/fonts/ config/includes.chroot/usr/share/ohmpage
-	-mkdir -pv config/includes.chroot/etc/skel/
+	-rm -rf config/includes.chroot/etc/skel/.nano \
+	config/includes.chroot/etc/skel/.conky \
+	config/includes.chroot/usr/share/fonts/ \
+	config/includes.chroot/usr/share/ohmpage
+	
+	# https://github.com/serialhex/nano-highlight
 	git clone --depth=1 https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
+	
+	# https://github.com/nodiscc/conkyselect
 	git clone --depth=1 --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky 
+
+	# https://github.com/nodiscc/fonts
 	git clone --depth=1 https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
+
+	# https://github.com/nodiscc/ohmpage
 	git clone --depth=1 https://github.com/nodiscc/ohmpage config/includes.chroot/usr/share/ohmpage
 	
+	# https://github.com/az0/cleanerml/
 	git clone --depth=1 https://github.com/az0/cleanerml/ tmp-cleanerml
 	-rm -rf config/includes.chroot/usr/share/bleachbit/
 	mkdir -p config/includes.chroot/usr/share/bleachbit/
 	mv tmp-cleanerml/release config/includes.chroot/usr/share/bleachbit/cleaners
 	rm -rf tmp-cleanerml
 
+	# https://github.com/nodiscc/user.js
 	git clone -b dbu --depth=1 https://github.com/nodiscc/user.js tmp-userjs
 	-rm -rf config/includes.chroot/etc/firefox-esr/
 	mkdir -p config/includes.chroot/etc/firefox-esr/
