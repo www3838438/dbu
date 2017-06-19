@@ -4,6 +4,7 @@
 # Source: https://github.com/nodiscc/dbu
 #TODO: generate index of markdown files
 #TODO screenshots: fetch multiple screenshots
+set -o errexit
 
 export LANG="C"
 export package_categories="Utility Office Multimedia Graphics Network System Games Science"
@@ -74,7 +75,7 @@ function _renderMarkdown {
 	echo -e "\n $md_homepage"
 	echo -e "\n### Installed packages\n"
 	for i in $packages; do
-		echo "* [$i](https://packages.debian.org/stretch/$i) - $(_getShortDescription $i)"
+		echo "* [$i](https://packages.debian.org/stretch/$i) - $(apt-cache show $i | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)"
 	done
 
 	echo -e "\n### Related packages\n"
