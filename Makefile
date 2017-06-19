@@ -1,31 +1,49 @@
 #!/usr/bin/make -f
 
-#############
-## config - firefox/thunderbird addons location
 
-# Firefox ESR default addons for new profiles
+# config - firefox/thunderbird addons location
+# Firefox ESR default addons path
 ffaddonsdir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
-# Firefox (release/nightly) default addons for new profiles
+# Firefox (release/nightly) default addons path
 #addonsdir=config/includes.chroot/usr/share/firefox/distribution/extensions/
-
-#thunderbird/icedove addons path
+# Thunderbird addons path
 tbaddonsdir="config/includes.chroot/usr/share/thunderbird/extensions/"
 
-#############
+################################################################################
 
 all: buildenv clean update ffxpi tbxpi documentation lbbuild checksum_sign
 
 update: ffaddons tbaddons packageschroot purpleplugins themes dotfiles
 
 buildenv:
-	aptitude install live-build make build-essential wget git xmlstarlet unzip
+	sudo aptitude install live-build make build-essential wget git xmlstarlet unzip
 
 clean:
 	-rm $(tbaddonsdir)/*
 	-rm $(ffaddonsdir)/*
 	-rm config/packages.chroot/*
 	-rm -r config/includes.chroot/usr/lib/purple-2/*.so
-	
+
+documentation:
+	-rm -r doc/packages/*.md
+	./scripts/doc-generator.sh
+	-rm doc/packages/00-*
+
+lbbuild:
+	sudo lb clean --all
+	#sudo lb clean --purge #only required when changing the mirrors/architecture config
+	sudo lb config
+	sudo lb build
+
+checksum_sign:
+	last_tag=$$(git tag | tail -n1); \
+	cd iso/; \
+	rename "s/live-image/dbu-$$last_tag-debian-stretch/" *; \
+	sha512sum *.iso  > SHA512SUMS; \
+	gpg --clearsign SHA512SUMS; \
+	mv SHA512SUMS.asc SHA512SUMS.sign
+
+################################################################################
 #update firefox addons
 ffaddons:
 	if [ ! -d $(ffaddonsdir) ]; then mkdir -p $(ffaddonsdir); fi
@@ -168,6 +186,7 @@ tbxpi:
 	mv "$$xpi" $(tbaddonsdir)/"$$extid".xpi ; \
 	done
 
+################################################################################
 # download non-debian chroot packages
 # needs to be updated manually when upstream versions change
 # ideally everything should be packaged in the Debian archive
@@ -219,7 +238,7 @@ packageschroot:
 	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1_all.deb
 	
 	# https://github.com/snwh/paper-icon-theme
-	# TODO https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=802505
+	# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=802505
 	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1.dsc
 	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1.tar.xz
 	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1_all.deb
@@ -242,13 +261,16 @@ packageschroot:
 	# https://github.com/horst3180/Vertex-theme
 	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/vertex-theme_1459280359.d828032_all.deb
 
-# download pidgin plugins
-purpleplugins:
+################################################################################
+# Download prebuilt binaries for non-packaged software
+binaries:
+	# download pidgin plugins
 	mkdir -pv config/includes.chroot/usr/lib/purple-2/
 	wget -N -nv --show-progress -P config/includes.chroot/usr/lib/purple-2/ \
 		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so \
 		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
 
+################################################################################
 # download gtk/wm themes
 themes:
 	-rm -rf config/includes.chroot/usr/share/themes/
@@ -268,6 +290,7 @@ themes:
 	mv tmp-zuki-themes/Zukitre tmp-zuki-themes/Zukitwo config/includes.chroot/usr/share/themes/
 	rm -rf tmp-zuki-themes
 
+################################################################################
 # download misc configuration files
 dotfiles:
 	-rm -rf config/includes.chroot/etc/skel/.nano config/includes.chroot/etc/skel/.conky config/includes.chroot/usr/share/fonts/ config/includes.chroot/usr/share/ohmpage
@@ -298,21 +321,5 @@ dotfiles:
 
 	# cp /path/to/intro.html config/includes.binary/intro.html
 
-documentation:
-	-rm -r doc/packages/*.md
-	./scripts/doc-generator.sh
-	-rm doc/packages/00-*
+################################################################################
 
-lbbuild:
-	sudo lb clean --all
-	#sudo lb clean --purge #only necessary when changing the mirrors/architecture config
-	sudo lb config
-	sudo lb build
-
-checksum_sign:
-	last_tag=$$(git tag | tail -n1); \
-	cd iso/; \
-	rename "s/live-image/dbu-$$last_tag-debian-stretch/" *; \
-	sha512sum *.iso  > SHA512SUMS; \
-	gpg --clearsign SHA512SUMS; \
-	mv SHA512SUMS.asc SHA512SUMS.sign
