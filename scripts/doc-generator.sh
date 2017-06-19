@@ -20,9 +20,9 @@ function _genPackagesDoc {
 	# gather information from a package list ($1), format it to markdown
 	packagelist=$1
 
-	packages=$(egrep "^[a0-z9]" $packagelist) # packages in list
-	mainpackage=$(echo "$packages " |head -n1) # main package from the list
-	alts=$(egrep "^#Alt:" $packagelist | cut -d" " -f1 --complement) # alternative/suggested packages
+	packages=$(egrep "^[a0-z9]" $packagelist || echo "" ) # packages in list
+	mainpackage=$(echo "$packages " |head -n1 || echo "") # main package from the list
+	alt_packages=$(egrep "^#Alt:" $packagelist | cut -d" " -f1 --complement) # alternative/suggested packages
 	md_title="# $(egrep "^#Name" $packagelist | cut -d" " -f1 --complement)" # page title
 	md_resources=
 	md_category=
@@ -32,14 +32,15 @@ function _genPackagesDoc {
 		md_description=""
 		md_shortdescription=""
 		md_homepage=""
-	elif egrep "^#ChrootPkg:" $packagelist >/dev/null; then
+	elif egrep "^#ChrootPkg" $packagelist >/dev/null; then
 		# get information from .deb file if the list has a #ChrootPkg field
-		descriptionpackage=$(egrep "^#ChrootPkg:" $packagelist | cut -d" " -f1 --complement)
+		descriptionpackage=$(egrep "^#ChrootPkg" $packagelist | cut -d" " -f1 --complement)
 		debfile=$(find config/packages.chroot/ -iname "${descriptionpackage}_*amd64*.deb" -o -iname "${descriptionpackage}_*all*.deb")
 		dpkginfo=$(dpkg -I $debfile)
-		md_description=$(echo "$dpkginfo" | egrep "^  [Aa-Zz]")
+		md_description=$(echo "$dpkginfo" | egrep "^  [A-z]")
 		md_shortdescription=""
-		md_homepage="**[Homepage]($(echo "$dpkginfo" | egrep "^ Homepage:" | awk -F": " '{print $2}'))**"
+		md_homepage="**[Homepage]($(echo "$dpkginfo" | egrep "^ Homepage" | awk -F": " '{print $2}'))**"
+		packages="$descriptionpackage"
 	else
 		# use #Desc field to specify the package to descript, or use the main package
 		if egrep "^#Desc:" $packagelist >/dev/null; then
@@ -110,7 +111,6 @@ function _gen_package_index {
 			for plist in config/package-lists/*.chroot; do
 				 pname=$(egrep "^#Name:" $plist | cut -d" " -f1 --complement)
 				 echo " - [$pname](packages/$(basename $plist).md)"
-			    fi
 			done
 		done
 		echo -e "\n### Non-debian packages";
@@ -126,6 +126,6 @@ function _gen_package_index {
 }
 
 
-_main $@
+_main
 _gen_package_index
 
