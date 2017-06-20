@@ -1,7 +1,6 @@
 #Name: Samba file sharing
 #Cat: Network
 samba
-libpam-smbpass
 samba-vfs-modules 
 smbclient
 

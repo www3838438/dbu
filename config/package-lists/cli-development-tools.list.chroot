@@ -41,6 +41,7 @@ aha
 debhelper
 autoconf
 devscripts
+dh-make
 equivs
 build-essential
 checkinstall

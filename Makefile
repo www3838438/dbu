@@ -232,7 +232,7 @@ packageschroot:
 	
 	# https://github.com/snwh/paper-gtk-theme
 	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862403
-	# TODO switch to not-daily builds
+	# https://github.com/nodiscc/paper-icon-theme/tree/debian-packaging
 	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1.dsc
 	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1.tar.gz
 	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1_all.deb
