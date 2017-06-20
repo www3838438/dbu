@@ -108,9 +108,11 @@ function _gen_package_index {
 	pkgindex=$(
 		for category in $package_categories; do
 			echo -e "\n### $category";
-			for plist in config/package-lists/*.chroot; do
-				 pname=$(egrep "^#Name:" $plist | cut -d" " -f1 --complement)
-				 echo " - [$pname](packages/$(basename $plist).md)"
+			for plist in config/package-lists/[a-z]*.chroot; do
+					if egrep "^#Cat: $category" $plist >/dev/null; then
+						pname=$(egrep "^#Name:" $plist | cut -d" " -f1 --complement)
+				 		echo " - [$pname](packages/$(basename $plist).md)"
+					fi
 			done
 		done
 		echo -e "\n### Non-debian packages";
