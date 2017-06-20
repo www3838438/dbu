@@ -38,7 +38,7 @@ function _genPackagesDoc {
 		dpkginfo=$(dpkg -I $debfile)
 		md_description=$(echo "$dpkginfo" | egrep "^  [A-z]")
 		md_shortdescription=""
-		md_homepage="**[Homepage]($(echo "$dpkginfo" | egrep "^ Homepage" | awk -F": " '{print $2}'))**"
+		md_homepage="**[Homepage]($(echo "$dpkginfo" | egrep "^ Homepage" | head -n1 | awk -F": " '{print $2}'))**"
 		packages="$descriptionpackage"
 	else
 		# use #Desc field to specify the package to descript, or use the main package
@@ -49,7 +49,7 @@ function _genPackagesDoc {
 		# generate markdown page title, desciptions, homepage links
 		md_description="$(apt-cache show $descriptionpackage | egrep "^ " | egrep -v "::" | sed -e 's/^ \.$/ /g' | cut -b1 --complement)"
 		md_shortdescription="_$(apt-cache show $descriptionpackage | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)_"
-		md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | egrep "^Homepage:" | cut -d" " -f1 --complement))**"
+		md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | egrep "^Homepage:" | head -n1 | cut -d" " -f1 --complement))**"
 	fi
 	# TODO: move this to the loop above
 	if egrep "^#Screenshot:" $packagelist >/dev/null; then

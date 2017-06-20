@@ -14,8 +14,7 @@ backend.
 [![](https://screenshots.debian.net/thumbnail/blueman/)](https://screenshots.debian.net/screenshot/blueman/)
 
 
- **[Homepage](https://github.com/blueman-project/blueman
-https://github.com/blueman-project/blueman)**
+ **[Homepage](https://github.com/blueman-project/blueman)**
 
 ### Installed packages
 

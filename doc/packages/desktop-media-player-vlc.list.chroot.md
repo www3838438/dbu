@@ -47,8 +47,7 @@ vlc-plugin-zvbi).
 [![](https://screenshots.debian.net/thumbnail/vlc/)](https://screenshots.debian.net/screenshot/vlc/)
 
 
- **[Homepage](http://www.videolan.org/vlc/
-http://www.videolan.org/vlc/)**
+ **[Homepage](http://www.videolan.org/vlc/)**
 
 ### Installed packages
 

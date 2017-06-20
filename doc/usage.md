@@ -178,19 +178,10 @@ _Documentation, forums, communities, support channels..._
  * [List of applications - ArchWiki](https://wiki.archlinux.org/index.php/List_of_Applications)
  * [List of free and open-source software packages - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages)
  * [Framalibre - Annuaire du libre](https://framalibre.org/)
-
-TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO
-
- * [Index 0-K | Inconsolation](http://inconsolation.wordpress.com/index/)
- * [Xmodulo List - Best Linux applications and software](http://list.xmodulo.com/)
- * [FossHub](http://www.fosshub.com/)
  * [Projects · Explore · GitLab](https://gitlab.com/explore)
  * [Explore - Projects - Github](https://github.com/explore)
- * [linux-apps.com](http://gtk-apps.org/)
- * [Download & Streaming : The Internet Archive Software Collection : Internet Archive](https://archive.org/details/software)
- * [Linux App Finder | Helping find the Linux apps you need](http://linuxappfinder.com/)
- * [The Linux Alternative Project](http://www.linuxalt.com/)
- * [Open Source Alternatives to Commercial Software](http://www.osalt.com/)
- * [List of Linux distributions - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
- * [The LiveCD List &middot; The LiveCD List](http://www.livecdlist.com/)
+ * [FossHub](http://www.fosshub.com/)
  * [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](http://distrowatch.com/)
+ * [The LiveCD List](http://www.livecdlist.com/)
+
+

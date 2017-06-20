@@ -42,8 +42,7 @@ install libasound2 and read the how-to at /usr/share/doc/gimp/README.MIDI
 [![](https://screenshots.debian.net/thumbnail/gimp/)](https://screenshots.debian.net/screenshot/gimp/)
 
 
- **[Homepage](http://www.gimp.org/
-http://www.gimp.org/)**
+ **[Homepage](http://www.gimp.org/)**
 
 ### Installed packages
 

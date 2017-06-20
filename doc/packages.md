@@ -1,7 +1,7 @@
 # Installed software
 See [Usage](usage.md#Installing-removing-updating-software) for documentation on installing,
 removing or updating software packages.
-	
+
 	
 ### Utility
  - [Development tools - command line](packages/cli-development-tools.list.chroot.md)

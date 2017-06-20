@@ -19,8 +19,7 @@ connection.
 [![](https://screenshots.debian.net/thumbnail/playonlinux/)](https://screenshots.debian.net/screenshot/playonlinux/)
 
 
- **[Homepage](http://www.winehq.org/
-http://www.playonlinux.com/)**
+ **[Homepage](http://www.winehq.org/)**
 
 ### Installed packages
 

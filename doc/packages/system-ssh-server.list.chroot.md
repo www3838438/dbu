@@ -48,8 +48,7 @@ purposes.
 [![](https://screenshots.debian.net/thumbnail/openssh-server /)](https://screenshots.debian.net/screenshot/openssh-server /)
 
 
- **[Homepage](http://www.openssh.com/
-http://www.openssh.org/)**
+ **[Homepage](http://www.openssh.com/)**
 
 ### Installed packages
 

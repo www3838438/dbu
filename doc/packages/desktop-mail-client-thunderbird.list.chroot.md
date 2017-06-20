@@ -32,8 +32,7 @@ lightning/)](https://screenshots.debian.net/screenshot/thunderbird
 lightning/)
 
 
- **[Homepage](http://www.mozilla.org/thunderbird/
-http://www.mozilla.org/thunderbird/)**
+ **[Homepage](http://www.mozilla.org/thunderbird/)**
 
 ### Installed packages
 

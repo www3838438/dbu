@@ -28,8 +28,7 @@ is the Advanced Linux Sound Architecture.
 [![](https://screenshots.debian.net/thumbnail/gstreamer1.0-alsa/)](https://screenshots.debian.net/screenshot/gstreamer1.0-alsa/)
 
 
- **[Homepage](http://gstreamer.freedesktop.org/modules/gst-plugins-base.html
-http://gstreamer.freedesktop.org/modules/gst-plugins-base.html)**
+ **[Homepage](http://gstreamer.freedesktop.org/modules/gst-plugins-base.html)**
 
 ### Installed packages
 

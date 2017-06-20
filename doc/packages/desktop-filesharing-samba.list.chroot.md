@@ -36,8 +36,7 @@ This package is not required for connecting to existing SMB/CIFS servers
 [![](https://screenshots.debian.net/thumbnail/samba/)](https://screenshots.debian.net/screenshot/samba/)
 
 
- **[Homepage](http://www.samba.org
-http://www.samba.org)**
+ **[Homepage](http://www.samba.org)**
 
 ### Installed packages
 

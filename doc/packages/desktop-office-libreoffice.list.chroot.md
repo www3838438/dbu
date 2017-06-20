@@ -96,8 +96,7 @@ libreoffice-draw
 libreoffice-impress/)
 
 
- **[Homepage](http://www.libreoffice.org
-http://www.libreoffice.org)**
+ **[Homepage](http://www.libreoffice.org)**
 
 ### Installed packages
 
