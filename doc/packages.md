@@ -1,7 +1,6 @@
 # Installed software
-
-	See [Usage](usage.md#Installing-removing-updating-software) for documentation on installing,
-	removing or updating software packages.
+See [Usage](usage.md#Installing-removing-updating-software) for documentation on installing,
+removing or updating software packages.
 	
 	
 ### Utility
