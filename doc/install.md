@@ -2,19 +2,20 @@
 
 ### Downloading the ISO image
 
-[Download](https://github.com/nodiscc/dbu/releases) the latest release.
+[Download](https://github.com/nodiscc/dbu/releases) the latest release via bittorrent.  
+Recommended bittorrent clients: [Deluge](http://www.deluge-torrent.org/), [Transmission](https://transmissionbt.com/).
 
 ### Verifying the ISO image
 
 This step is optional, but is strongly recommended to ensure downloaded files are valid and authentic.
 
-Download `SHA512SUMS.sign` in the same directory as the `iso` file.
+Download `dbu-release.key`, `SHA512SUMS.sign` and `SHA512SUMS` from the [releases page](https://github.com/nodiscc/dbu/releases), to the same directory as the `iso` file.
 
- * Verifying the integrity of the ISO image: run `sha512sums --check SHA512sums.sign`
- * Verifying the authenticity of the ISO image: run `gpg --verify < SHA512SUMS.sign`
+ * Import the GPG key: `gpg --import dbu-release.key`
+ * Verify the authenticity of the checksums file: `gpg --verify SHA512SUMS.sign`
+ * Verify the integrity of the ISO image: `sha512sum -c SHA512SUMS`
 
-The key used to sign releases has ID `0028A686E4546CD17579570F99883828CD9019B8`.
-
+The key used to sign releases has the key ID `0028A686E4546CD17579570F99883828CD9019B8`.
 
 ### Writing the installation media
 

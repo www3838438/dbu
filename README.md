@@ -13,10 +13,10 @@ used [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution).
  * Installation does not require an Internet connection.
  * [Preinstalled software packages](doc/packages.md)
  * [Preconfigured](config/) for generic desktop machine usage. 
- * Based on Debian 9 Stretch (Debian _testing_ release).
+ * Based on Debian 9 Stretch (Debian _stable_ release).
  * Can be used as a template to [build your own live system](doc/custom.md).
 
-**[![](doc/res/download.png)](https://github.com/nodiscc/dbu/blob/lfs/iso/dbu-0.9l-debian-stretch-amd64.hybrid.iso)** **[![](doc/res/gpg.png)](https://github.com/nodiscc/dbu/blob/lfs/iso/SHA512SUMS.sign)**
+**[![](doc/res/download.png)](https://github.com/nodiscc/dbu/blob/lfs/iso/dbu-0.9l-debian-stretch-amd64.hybrid.iso)** **[![](doc/res/gpg.png)](doc/install.md#verifying-the-iso-image)**
 
 ![](doc/screenshot-main.png)
 
