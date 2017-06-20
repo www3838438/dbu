@@ -294,18 +294,18 @@ themes:
 # download misc configuration files
 dotfiles:
 	-rm -rf config/includes.chroot/etc/skel/.nano \
-	config/includes.chroot/etc/skel/.conky \
-	config/includes.chroot/usr/share/fonts/ \
-	config/includes.chroot/usr/share/ohmpage
+	config/includes.chroot/usr/share/ohmpage \
+	config/includes.chroot/usr/share/bleachbit/cleaners \
+	config/includes.chroot/etc/firefox-esr/firefox-esr.js
 	
 	# https://github.com/serialhex/nano-highlight
 	git clone --depth=1 https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
 	
-	# https://github.com/nodiscc/conkyselect
-	git clone --depth=1 --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky 
+	# https://github.com/nodiscc/conkyselect (disabled)
+	#git clone --depth=1 --recursive https://github.com/nodiscc/conkyselect config/includes.chroot/etc/skel/.conky 
 
 	# https://github.com/nodiscc/fonts
-	git clone --depth=1 https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
+	#git clone --depth=1 https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
 
 	# https://github.com/nodiscc/ohmpage
 	git clone --depth=1 https://github.com/nodiscc/ohmpage config/includes.chroot/usr/share/ohmpage
