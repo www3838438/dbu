@@ -11,7 +11,7 @@ tbaddonsdir="config/includes.chroot/usr/share/thunderbird/extensions/"
 
 ################################################################################
 
-all: buildenv clean update ffxpi tbxpi documentation lbbuild checksum_sign
+all: buildenv clean update ffxpi tbxpi documentation lbbuild
 
 update: ffaddons tbaddons packageschroot binaries themes dotfiles
 
@@ -39,7 +39,7 @@ checksum_sign:
 	cd iso/; \
 	rename "s/live-image/dbu-$$last_tag-debian-stretch/" *; \
 	sha512sum *.iso  > SHA512SUMS; \
-	gpg --clearsign SHA512SUMS; \
+	gpg --detach-sign --armor SHA512SUMS; \
 	mv SHA512SUMS.asc SHA512SUMS.sign
 
 ################################################################################
