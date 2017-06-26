@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v1.0](https://github.com/nodiscc/dbu/releases/tag/0.9n) - UNPUBLISHED
+## [v1.1](https://github.com/nodiscc/dbu/releases/tag/1.1) - UNPUBLISHED
 
 No changes yet.
 
@@ -14,6 +14,32 @@ No changes yet.
 ### Security
 ### Deprecated
 -->
+
+## [v1.0](https://github.com/nodiscc/dbu/releases/tag/1.0) - 2017-06-26
+
+### Added
+
+ * Development tools: added dh-make
+ * Games/emulators: add mupen64plus-qt
+
+### Changed
+
+ * Update documentation
+ * Improve iso image signing and release process
+
+### Removed
+
+ * Disabled redshift autostart, must now be enabled manually
+ * Removed third party dependencies on conkyselect and fonts git repos
+
+### Fixed
+
+ * Fixed documentation generation script
+
+### Deprecated
+
+ * Removed obsolete libpam-smbpass package
+ * Removed obsolete ffmpegthumbnailer workaround
 
 
 ## [v0.9n](https://github.com/nodiscc/dbu/releases/tag/0.9n) - 2017-06-19
