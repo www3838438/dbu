@@ -32,6 +32,7 @@ mupen64plus/)
 * [higan](https://packages.debian.org/stretch/higan) - Accurate Nintendo multi-system emulator
 * [desmume](https://packages.debian.org/stretch/desmume) - Nintendo DS emulator
 * [mupen64plus](https://packages.debian.org/stretch/mupen64plus) - plugin-based Nintendo 64 emulator (transitional dummy package)
+* [mupen64plus-qt](https://packages.debian.org/stretch/mupen64plus-qt) - Basic launcher for Mupen64Plus
 * [mupen64plus-input-all](https://packages.debian.org/stretch/mupen64plus-input-all) - plugin-based Nintendo 64 emulator, input plugins
 * [mupen64plus-audio-all](https://packages.debian.org/stretch/mupen64plus-audio-all) - plugin-based Nintendo 64 emulator, audio plugins
 * [mupen64plus-rsp-all](https://packages.debian.org/stretch/mupen64plus-rsp-all) - plugin-based Nintendo 64 emulator, rsp plugins
