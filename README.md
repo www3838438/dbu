@@ -18,7 +18,7 @@ used [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution).
 
 **[![](doc/res/download.png)](https://github.com/nodiscc/dbu/releases)** **[![](doc/res/gpg.png)](doc/install.md#verifying-the-iso-image)**
 
-![](doc/screenshot-main.png)
+![](doc/res/screenshot-main.jpg)
 
 ### Required Hardware
 
