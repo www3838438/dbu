@@ -142,46 +142,28 @@ _Documentation, forums, communities, support channels..._
 
 ### Debian/General
 
- * **[Debian wiki](https://wiki.debian.org/fr/FrontPage)**
+ * **[Debian Documentation](https://www.debian.org/doc/)**
  * **[Arch Linux wiki](https://wiki.archlinux.org/)**
- * **[Wikipedia](https://en.wikipedia.org/wiki/Main_Page)**
- * **[Debian Forums](http://forums.debian.net)**
- * **[Debian IRC channels](https://wiki.debian.org/IRC)**
- * **[Debian Homepage](https://www.debian.org/)**
-  * [Debian - Wikipedia](https://en.wikipedia.org/wiki/Debian)
-  * [Debian Social Contract](https://www.debian.org/social_contract)
-  * [Debian Constitution](https://www.debian.org/devel/constitution)
- * [Debian Documentation](https://www.debian.org/doc/)
- * [Debian Packages](https://www.debian.org/distrib/packages)
-  * [Debian Screenshots] https://screenshots.debian.net/
- * [Forum Debian FR](https://www.debian-fr.org/) (fr)
-  * [Debian FAQ - CCM](http://www.commentcamarche.net/faq/linux-97) (fr)
- * [Debian Hardware Compatibility List](http://kmuto.jp/debian/hcl/index.cgi)
-  * [Linux Laptop Wiki](http://www.linlap.com/)
- * [Debian CD images](http://cdimage.debian.org/cdimage/)
-  * [Unofficial CD images including firmware](http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/)
-  * [Installing Debian step by step](https://debian-handbook.info/browse/stable/sect.installation-steps.html)
-  * [Debian GNU/Linux Installation Guide](https://www.debian.org/releases/stable/amd64/index.html.en)
- * [Linux Journey](https://linuxjourney.com/)
- * [FOSSManuals](http://en.flossmanuals.net/)
+ * **[Debian Project Homepage](https://www.debian.org/)**
+ * **[Debian Resources](https://wiki.debian.org/DebianResources)** [[➝fr]](https://wiki.debian.org/fr/DebianResources) [[➝de]](https://wiki.debian.org/de/DebianResources) [[➝es]](https://wiki.debian.org/es/DebianResources)
+ * [Debian - Wikipedia](https://en.wikipedia.org/wiki/Debian) [[➝fr]](https://fr.wikipedia.org/wiki/Debian) [[➝de]](https://de.wikipedia.org/wiki/Debian) [[➝es]](https://es.wikipedia.org/wiki/Debian)
+ * [Debian Social Contract](https://www.debian.org/social_contract) [[➝fr]](https://www.debian.org/social_contract.fr.html) [[➝de]](https://www.debian.org/social_contract.de.html) [[➝es]](https://www.debian.org/social_contract.es.html), [Debian Constitution](https://www.debian.org/devel/constitution)
+ * Hardware: [Debian Hardware Compatibility List](http://kmuto.jp/debian/hcl/index.cgi), [Linux Laptop Wiki](http://www.linlap.com/)
+ * Debian installation: [Debian CD images](http://cdimage.debian.org/cdimage/), [CD images including firmware](http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/), [Installation Guide](https://www.debian.org/releases/stable/amd64/), [Installing Debian step by step](https://debian-handbook.info/browse/stable/sect.installation-steps.html)
+ * [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), [Free and open-source software portal](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
+ * [StackExchange](https://stackexchange.com/search), [CCM FAQ [fr]](http://www.commentcamarche.net/faq/linux-97)
+
 
 ### Software lists
 
-
+ * **[Debian packages](https://packages.debian.org)**, **[Debian Screenshots](https://screenshots.debian.net/)**
  * [Open Source Linux Software - AlternativeTo.net](https://alternativeto.net/platform/linux/?license=opensource&sort=addeddate)
- * [Kickball/awesome-selfhosted: This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.](https://github.com/Kickball/awesome-selfhosted)
- * [n1trux/awesome-sysadmin: A curated list of amazingly awesome open source sysadmin resources.](https://github.com/n1trux/awesome-sysadmin)
- * [nodiscc/awesome-linuxaudio: A list of software and resources for professional audio/video/live events production on Linux.](https://github.com/nodiscc/awesome-linuxaudio)
- * [alebcay/awesome-shell: A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.](https://github.com/alebcay/awesome-shell)
- * [Libre Projects](http://libreprojects.net/)
- * [All Projects - PRISM Break](https://prism-break.org/en/all/)
  * [List of applications - ArchWiki](https://wiki.archlinux.org/index.php/List_of_Applications)
- * [List of free and open-source software packages - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages)
- * [Framalibre - Annuaire du libre](https://framalibre.org/)
- * [Projects · Explore · GitLab](https://gitlab.com/explore)
- * [Explore - Projects - Github](https://github.com/explore)
- * [FossHub](http://www.fosshub.com/)
- * [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](http://distrowatch.com/)
- * [The LiveCD List](http://www.livecdlist.com/)
-
+ * [Framalibre - Annuaire du libre [fr]](https://framalibre.org/)
+ * Software [forges](https://en.wikipedia.org/wiki/Forge_(software)): [Github](https://github.com/explore), [GitLab](https://gitlab.com/explore), [SourceForge](https://sourceforge.net/), [Launchpad](https://launchpad.net/projects/+all)
+ * Other distributions: [The LiveCD List](http://www.livecdlist.com/), [DistroWatch](http://distrowatch.com/)
+ * [awesome-selfhosted: Free Software network services and web applications](https://github.com/Kickball/awesome-selfhosted)
+ * [awesome-sysadmin: Open-source system administration resources.](https://github.com/n1trux/awesome-sysadmin)
+ * [awesome-linuxaudio: Software for professional audio/video/live events production on Linux](https://github.com/nodiscc/awesome-linuxaudio)
+ * [awesome-shell: List of command-line frameworks, toolkits, and guides](https://github.com/alebcay/awesome-shell)
 
