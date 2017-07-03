@@ -15,6 +15,17 @@ No changes yet.
 ### Deprecated
 -->
 
+## [v1.0.1](https://github.com/nodiscc/dbu/releases/tag/1.0.1) - 2017-07-03
+
+### Removed
+
+ * Removed gnome-boxes and dependency on GNOME Tracker file indexing (high resource usage)
+
+### Fixed
+
+ * Added missing gnome-settings-daemon and at packages
+ * Cleanup in autostart entries
+
 ## [v1.0](https://github.com/nodiscc/dbu/releases/tag/1.0) - 2017-06-26
 
 ### Added
