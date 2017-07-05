@@ -20,7 +20,7 @@ lb config noauto \
 --firmware-chroot true \
 --initramfs live-boot \
 --iso-publisher dbu \
---iso-volume dbu-0.99k \
+--iso-volume dbu-1.0.1 \
 --linux-packages "linux-image linux-headers" \
 --memtest memtest86+ \
 --security true \
