@@ -73,6 +73,11 @@ If you lock the screen (activate screensaver) during the live session, the passo
  * In the boot menu, select `Graphical install`
  * Follow the installation procedure
 
+
+#### Troubleshooting
+
+ * If you get the message `Failed to determine the codename for the release` during installation, unplug the USB drive, insert it again, open a shell from the installer menu, identify the device name for the USB drive (run `parted_devices`), and remount the USB drive under `/cdrom/` (run `mount /dev/sdX1 /cdrom/` where `sdX` is your USB device).
+
 #### Upgrade notes
 
 Recent releases and upgrade notes can be found on the [releases](https://github.com/nodiscc/dbu/releases) page. ([RSS feed](https://github.com/nodiscc/dbu/releases.atom))
