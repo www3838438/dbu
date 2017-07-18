@@ -13,8 +13,8 @@ parted
 ncdu
 hdparm
 sdparm
+dfc
 
-#Alt: dfc #stretch only
 #Alt: cfdisk
 #Alt: pmount
 #Alt: ecryptfs-utils

@@ -9,12 +9,13 @@ pidgin-otr
 libpurple-bin
 pidgin-plugin-pack
 pidgin-extprefs
+pidgin-gnome-keyring
 
-#Res: http://fr.wikipedia.org/wiki/Pidgin_(logiciel)
+
+#Res: http://en.wikipedia.org/wiki/Pidgin_(software)
 #Res: http://wiki.jabberfr.org
 #Res: http://doc.ubuntu-fr.org/pidgin
 
-#Alt: pidgin-gnome-keyring #stretch only
 #Alt: sflphone
 #Alt: mumble
 #Alt: empathy

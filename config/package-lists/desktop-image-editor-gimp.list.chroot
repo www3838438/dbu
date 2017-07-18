@@ -13,9 +13,10 @@ gimp-gmic
 gimp-lensfun
 gimp-resynthesizer
 create-resources
+gimp-help-fr
 
 
-#Alt: gimp-help-fr #stretch only
+
 #Alt: luminance-hdr
 #Alt: krita
 #Alt: pinta

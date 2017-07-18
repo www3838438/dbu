@@ -13,6 +13,7 @@ xfce4-whiskermenu-plugin
 xfce4-places-plugin
 xfce4-weather-plugin
 xfce4-netload-plugin
+xfce4-pulseaudio-plugin
 
 # Resources
 desktop-base
@@ -84,7 +85,7 @@ dconf-gsettings-backend
 #Alt: espeak-gui
 #Alt: alltray
 #Alt: gtk3-engines-unico
-#Alt: dbus-user-session #stretch only
+#Alt: dbus-user-session
 #Alt: lxlock
 #Alt: lxpolkit
 #Alt: compiz

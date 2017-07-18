@@ -13,6 +13,8 @@ tig
 github-backup
 myrepos
 shellcheck
+ghi
+
 
 # Viz/Editors/Tools
 colordiff
@@ -61,6 +63,9 @@ python-demjson
 python-stdeb
 python3-wheel
 python-libtorrent
+pypi2deb
+python-praw
+
 
 # Live system
 live-build
@@ -80,12 +85,9 @@ sqlite3
 webcheck
 php-cli
 vera
+firejail
+firetools
 
-#Alt: pypi2deb # stretch only
-#Alt: python-praw # stretch only
-#Alt: ghi #stretch/sid only
-#Alt: firejail #stretch only
-#Alt: firetools #stretch only
 #Alt: txt2tags
 #Alt: fossil
 #Alt: aptly

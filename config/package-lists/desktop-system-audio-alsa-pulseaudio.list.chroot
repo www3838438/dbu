@@ -13,7 +13,6 @@ oss-compat
 alsa-firmware-loaders
 pulseaudio
 pulseaudio-utils
-#pulseaudio-module-x11 #jessie only
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-lirc
@@ -23,7 +22,6 @@ pavucontrol
 rtkit
 
 #Alt: pasystray
-#Alt: xfce4-pulseaudio-plugin #stretch only
 #Alt: padevchooser
 #Alt: paprefs
 #Alt: pnmixer
