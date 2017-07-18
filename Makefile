@@ -226,9 +226,9 @@ packageschroot:
 	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1.dsc
 	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1.tar.xz
 	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+14~201704051632~ubuntu17.04.1_all.deb
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+898~201705182216~ubuntu17.04.1.dsc
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+898~201705182216~ubuntu17.04.1.tar.xz
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+898~201705182216~ubuntu17.04.1_all.deb	
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+900~201707122252~ubuntu17.04.1.dsc
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+900~201707122252~ubuntu17.04.1.tar.xz
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+900~201707122252~ubuntu17.04.1_all.deb	
 	
 	# https://github.com/snwh/paper-gtk-theme
 	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862403
