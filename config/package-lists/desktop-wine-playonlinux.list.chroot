@@ -5,7 +5,6 @@
 
 playonlinux
 wine
-winetricks
 
 #if ARCHITECTURES amd64
 wine64
@@ -20,3 +19,4 @@ wine64
 
 #Alt: gnome-exe-thumbnailer
 #Alt: fonts-wine
+#Alt: winetricks
