@@ -47,47 +47,35 @@ checksum_sign:
 ffaddons:
 	if [ ! -d $(ffaddonsdir) ]; then mkdir -p $(ffaddonsdir); fi
 	# Security / privacy addons
-	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/
+	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/ [e10s]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
+	#https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/ [e10s]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
+	#https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/ [e10s]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/
-	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/415846/addon-415846-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
+	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/ [e10s]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/521554/addon-521554-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
-	#
-	# UI-related / utility addons
-	#https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/
-	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/3682/addon-3682-latest.xpi
-	#https://addons.mozilla.org/en-us/firefox/addon/yet-another-context-search/
-	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/392483/addon-392483-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/
-	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/file/339198/rss_icon_in_url_bar-1.5.2-sm+fx.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
-	wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/greasemonkey/addon-748-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/
-	wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-x/addon-521726-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/
-	wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbook-copypageinfo/addon-536398-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/downthemall/
-	wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/downthemall/addon-201-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/platform:5/addon-784287-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/ [webextension]
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/dark-mode-webextension/addon-786990-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/tampermonkey/addon-683490-latest.xpi
 	#
 	# more addons (disabled):
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-autosave/
-	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-autosave/addon-536396-latest.xpi
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-maf-creator/
-	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-maf-creator/addon-536394-latest.xpi
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/
-	#wget -N --directory-prefix=$(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/scrapbookx-converter/addon-536392-latest.xpi
-
-	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ #firefox 57+
-	#wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/platform:5/addon-784287-latest.xpi
-	#
-	# more addons (disabled):
+	# https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/ [legacy]
+	# https://addons.mozilla.org/en-US/firefox/addon/downthemall/ [e10s]
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/ [legacy]
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-autosave/ [legacy]
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-maf-creator/ [legacy]
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/ [legacy]
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/ [legacy]
+	# https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/ [legacy]
+	# https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ [e10s]
+	# https://addons.mozilla.org/en-us/firefox/addon/yet-another-context-search/ [legacy]
+	# https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/ [legacy]
 	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-bookmarks/
 	# https://addons.mozilla.org/en-US/firefox/addon/password-exporter/
 	# https://addons.mozilla.org/en-US/firefox/addon/watch-with-mpv/
