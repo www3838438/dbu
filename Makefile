@@ -121,7 +121,6 @@ ffaddons:
 
 #rename xpis from their id
 ffxpi:
-	mv $(ffaddonsdir)/addon-3682-latest.xpi $(ffaddonsdir)/add-to-searchbox@maltekraus.de #workaround, script doesn't work on this addon
 	@for xpi in $$(find $(ffaddonsdir) -name '*.xpi'); do \
 	extid=$$(./scripts/get-xul-extension-id.sh "$$xpi"); echo "$$xpi - $$extid"; \
 	mv "$$xpi" $(ffaddonsdir)/"$$extid".xpi ; \
