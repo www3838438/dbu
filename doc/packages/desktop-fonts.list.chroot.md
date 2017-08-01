@@ -71,7 +71,8 @@ Superscript.
 * [fonts-averia-gwf](https://packages.debian.org/stretch/fonts-averia-gwf) - Aver?a GWF font family
 * [ttf-mscorefonts-installer](https://packages.debian.org/stretch/ttf-mscorefonts-installer) - Installer for Microsoft TrueType core fonts
 * [fonts-freefont-ttf](https://packages.debian.org/stretch/fonts-freefont-ttf) - Freefont Serif, Sans and Mono Truetype fonts
+* [fonts-hack-ttf](https://packages.debian.org/stretch/fonts-hack-ttf) - Typeface designed for source code, TrueType fonts
 
 ### Related packages
 
-<sub> [fonts-hack-ttf](https://packages.debian.org/stretch/fonts-hack-ttf) [#stretch](https://packages.debian.org/stretch/#stretch) [only](https://packages.debian.org/stretch/only)  </sub>
+<sub>  </sub>

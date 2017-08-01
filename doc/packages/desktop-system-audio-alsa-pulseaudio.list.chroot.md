@@ -59,4 +59,4 @@ This package contains the daemon and basic module set.
 
 ### Related packages
 
-<sub> [pasystray](https://packages.debian.org/stretch/pasystray) [xfce4-pulseaudio-plugin](https://packages.debian.org/stretch/xfce4-pulseaudio-plugin) [#stretch](https://packages.debian.org/stretch/#stretch) [only](https://packages.debian.org/stretch/only) [padevchooser](https://packages.debian.org/stretch/padevchooser) [paprefs](https://packages.debian.org/stretch/paprefs) [pnmixer](https://packages.debian.org/stretch/pnmixer) [xfce4-mixer](https://packages.debian.org/stretch/xfce4-mixer)  </sub>
+<sub> [pasystray](https://packages.debian.org/stretch/pasystray) [padevchooser](https://packages.debian.org/stretch/padevchooser) [paprefs](https://packages.debian.org/stretch/paprefs) [pnmixer](https://packages.debian.org/stretch/pnmixer) [xfce4-mixer](https://packages.debian.org/stretch/xfce4-mixer)  </sub>

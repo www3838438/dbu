@@ -27,20 +27,6 @@ installing additional plugins:
  * vlc-plugin-video-splitter
  * vlc-plugin-visualization
  * vlc-plugin-zvbi
-VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
-DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
-podcasts, and multimedia streams from various network sources.
-
-VLC can also be used as a streaming server that duplicates the stream it
-reads and multicasts them through the network to other clients, or serves
-them through HTTP.
-
-VLC has support for on-the-fly transcoding of audio and video formats, either
-for broadcasting purposes or for movie format transformations. Support for
-most output methods is provided by this package, but features can be added by
-installing additional plugins (vlc-plugin-fluidsynth, vlc-plugin-jack,
-vlc-plugin-notify, vlc-plugin-samba, vlc-plugin-sdl, vlc-plugin-svg,
-vlc-plugin-zvbi).
 
 ```
 

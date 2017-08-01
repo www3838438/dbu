@@ -20,6 +20,7 @@
 * [autojump](https://packages.debian.org/stretch/autojump) - shell extension to jump to frequently used directories
 * [tty-clock](https://packages.debian.org/stretch/tty-clock) - simple terminal clock
 * [manpages-fr](https://packages.debian.org/stretch/manpages-fr) - French version of the manual pages about using GNU/Linux
+* [at](https://packages.debian.org/stretch/at) - Delayed job execution and batch processing
 * [bash](https://packages.debian.org/stretch/bash) - GNU Bourne Again SHell
 * [bc](https://packages.debian.org/stretch/bc) - GNU bc arbitrary precision calculator language
 * [units](https://packages.debian.org/stretch/units) - converts between different systems of units

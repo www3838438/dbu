@@ -31,18 +31,16 @@ removing or updating software packages.
  - [XFCE terminal emulator](packages/desktop-terminal-xfce4-terminal.list.chroot.md)
  - [Mousepad text editor](packages/desktop-text-editor-mousepad.list.chroot.md)
  - [Desktop configuration utilities](packages/desktop-utils-config.list.chroot.md)
- - [GNOME Boxes virtualization solution](packages/desktop-virtualizatio-gnome-boxes.list.chroot.md)
  - [Conky ](packages/desktop-widgets-conky.list.chroot.md)
  - [Windows compatibility layer](packages/desktop-wine-playonlinux.list.chroot.md)
 
 ### Office
  - [GNOME calculator](packages/desktop-calculator-gnome-calculator.list.chroot.md)
+ - [GNOME Calendar](packages/desktop-calendar-gnome-calendar.list.chroot.md)
  - [XFCE Dictionary](packages/desktop-dictionary.list.chroot.md)
  - [Evince document viewer](packages/desktop-document-viewer.list.chroot.md)
  - [Xournal drawing tool](packages/desktop-drawing-editor-xournal.list.chroot.md)
  - [Homebank personal finance manager](packages/desktop-finance-manager-homebank.list.chroot.md)
- - [Glabels label editor](packages/desktop-label-editor-glabels.list.chroot.md)
- - [OCRFeeder Optical Character Recognition](packages/desktop-ocr-ocrfeeder.list.chroot.md)
  - [LibreOffice office suite](packages/desktop-office-libreoffice.list.chroot.md)
  - [PDFChain PDF editor](packages/desktop-pdfeditor-pdfchain.list.chroot.md)
  - [Simple-scan document scanning](packages/desktop-scanning-simple-scan.list.chroot.md)
@@ -67,13 +65,11 @@ removing or updating software packages.
 ### Graphics
  - [Image utilities - command line](packages/cli-utils-images.list.chroot.md)
  - [Sweet Home 3D interior design editor](packages/desktop-3deditor-sweethome3d.list.chroot.md)
- - [LibreCAD CAD editor](packages/desktop-cad-editor-librecad.list.chroot.md)
  - [Dia diagram Editor](packages/desktop-diagram-editor.list.chroot.md)
  - [Xournal drawing tool](packages/desktop-drawing-editor-xournal.list.chroot.md)
  - [Fonts](packages/desktop-fonts.list.chroot.md)
  - [GIMP image editor](packages/desktop-image-editor-gimp.list.chroot.md)
  - [Ristretto image viewer](packages/desktop-image-viewer-ristretto.list.chroot.md)
- - [Glabels label editor](packages/desktop-label-editor-glabels.list.chroot.md)
  - [LibreOffice office suite](packages/desktop-office-libreoffice.list.chroot.md)
  - [Inkscape vector image editor](packages/desktop-vectoreditor-inkscape.list.chroot.md)
 
@@ -110,6 +106,7 @@ removing or updating software packages.
  - [System log viewer](packages/desktop-system-log-viewer.list.chroot.md)
  - [XFCE4 Task Manager](packages/desktop-taskmanager-xfce4.list.chroot.md)
  - [Desktop configuration utilities](packages/desktop-utils-config.list.chroot.md)
+ - [VirtualBox virtualization solution](packages/desktop-virtualization-virtualbox.list.chroot.md)
  - [Live system components](packages/live.list.chroot.md)
  - [Base system and hardware support](packages/system-base.list.chroot.md)
  - [Non-Free/Proprietary firmwares](packages/system-firmwares-nonfree.list.chroot.md)
@@ -131,6 +128,7 @@ removing or updating software packages.
 ### Non-debian packages
 * [light-locker-settings](https://launchpad.net/light-locker-settings) -  simple configuration tool for light-locker
 * [numix-icon-theme-circle](http://numixproject.org/) -  Numix Circle icons
+* [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
 * [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
 * [paper-gtk-theme](https://github.com/moka-project/paper-gtk-theme) -  Paper GTK Theme
 * [paper-icon-theme](https://github.com/snwh/paper-icon-theme) -  Paper Icon Theme

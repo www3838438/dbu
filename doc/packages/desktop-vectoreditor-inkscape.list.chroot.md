@@ -51,4 +51,4 @@ for each and every application that can read such data.
 
 ### Related packages
 
-<sub> [pencil2d](https://packages.debian.org/stretch/pencil2d) [dia](https://packages.debian.org/stretch/dia) [birdfont](https://packages.debian.org/stretch/birdfont) [autotrace](https://packages.debian.org/stretch/autotrace) [fontmatrix](https://packages.debian.org/stretch/fontmatrix) [python-uniconvertor](https://packages.debian.org/stretch/python-uniconvertor) [#](https://packages.debian.org/stretch/#) [stretch](https://packages.debian.org/stretch/stretch) [only](https://packages.debian.org/stretch/only)  </sub>
+<sub> [pencil2d](https://packages.debian.org/stretch/pencil2d) [dia](https://packages.debian.org/stretch/dia) [birdfont](https://packages.debian.org/stretch/birdfont) [autotrace](https://packages.debian.org/stretch/autotrace) [fontmatrix](https://packages.debian.org/stretch/fontmatrix) [python-uniconvertor](https://packages.debian.org/stretch/python-uniconvertor)  </sub>

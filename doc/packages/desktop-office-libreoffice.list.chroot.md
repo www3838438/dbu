@@ -54,6 +54,8 @@ This metapackage installs all components of libreoffice:
  * libreoffice-draw: Drawing
  * libreoffice-base: Database
  * libreoffice-math: Equation editor
+It also recommends additional packages (e.g. fonts) in order to match an
+upstream LibreOffice install as closely as possible.
 
 You can extend the functionality of LibreOffice by installing these
 packages:
@@ -63,10 +65,8 @@ packages:
  * libreoffice-help-*: User help
  * mythes-*: Thesauri for the use with LibreOffice
  * hyphen-*: Hyphenation patterns for LibreOffice
- * libreoffice-gtk: Gtk UI Plugin, GNOME File Picker support,
-   QuickStarter for GNOMEs notification are
- * libreoffice-gnome: GIO, GConf backend
- * libreoffice-kde: KDE UI Plugin and KDE File Picker support
+ * libreoffice-gtk(2|3): Gtk UI Plugin, GNOME File Picker support
+ * libreoffice-gnome: GIO backend
  * unixodbc: ODBC database support
  * cups-bsd: Allows LibreOffice to detect your CUPS printer queues
    automatically

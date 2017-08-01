@@ -18,7 +18,8 @@
 * [ncdu](https://packages.debian.org/stretch/ncdu) - ncurses disk usage viewer
 * [hdparm](https://packages.debian.org/stretch/hdparm) - tune hard disk parameters for high performance
 * [sdparm](https://packages.debian.org/stretch/sdparm) - Output and modify SCSI device parameters
+* [dfc](https://packages.debian.org/stretch/dfc) - display file system usage using graph and colors
 
 ### Related packages
 
-<sub> [dfc](https://packages.debian.org/stretch/dfc) [#stretch](https://packages.debian.org/stretch/#stretch) [only](https://packages.debian.org/stretch/only) [cfdisk](https://packages.debian.org/stretch/cfdisk) [pmount](https://packages.debian.org/stretch/pmount) [ecryptfs-utils](https://packages.debian.org/stretch/ecryptfs-utils) [fsarchiver](https://packages.debian.org/stretch/fsarchiver) [partclone](https://packages.debian.org/stretch/partclone) [partimage](https://packages.debian.org/stretch/partimage)  </sub>
+<sub> [cfdisk](https://packages.debian.org/stretch/cfdisk) [pmount](https://packages.debian.org/stretch/pmount) [ecryptfs-utils](https://packages.debian.org/stretch/ecryptfs-utils) [fsarchiver](https://packages.debian.org/stretch/fsarchiver) [partclone](https://packages.debian.org/stretch/partclone) [partimage](https://packages.debian.org/stretch/partimage)  </sub>

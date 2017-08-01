@@ -8,8 +8,6 @@ Firefox ESR is a powerful, extensible web browser with support for modern
 web application technologies.
 Firefox ESR is a powerful, extensible web browser with support for modern
 web application technologies.
-Firefox ESR is a powerful, extensible web browser with support for modern
-web application technologies.
 
 ```
 
