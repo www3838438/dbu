@@ -125,7 +125,6 @@ ffxpi:
 	extid=$$(./scripts/get-xul-extension-id.sh "$$xpi"); echo "$$xpi - $$extid"; \
 	mv "$$xpi" $(ffaddonsdir)/"$$extid".xpi ; \
 	done
-	mv $(ffaddonsdir)/add-to-searchbox@maltekraus.de $(ffaddonsdir)/add-to-searchbox@maltekraus.de.xpi #workaround, 2nd part
 
 #update thunderbird addons
 tbaddons:
