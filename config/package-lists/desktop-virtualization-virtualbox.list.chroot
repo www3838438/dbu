@@ -1,20 +1,11 @@
 #Name: VirtualBox virtualization solution
-#Desc: virtualbox
-#Screenshot: virtualbox-qt
+#Desc: virtualbox-5.1
+#Screenshot: virtualbox
+#Cat: System
 
 # Debian Stretch (third party repos)
 virtualbox-5.1
 
-# Debian Jessie
-#virtualbox-dkms
-#virtualbox-guest-additions-iso
-#virtualbox-guest-dkms
-#virtualbox-guest-source
-#virtualbox-guest-utils
-#virtualbox-guest-x11
-#virtualbox-qt
-
-#Alt: virtualbox-ext-pack # sid only
 #Alt: virt-manager
 #Alt: docker
 #Alt: qemu
@@ -22,8 +13,6 @@ virtualbox-5.1
 #Alt: rkt
 #Alt: gnome-boxes
 
-#Cat: System
-#Cat: Utility
 #Res: https://wiki.archlinux.org/index.php/VirtualBox
 #Res: http://en.wikipedia.org/wiki/Oracle_VM_VirtualBox
 #Res: http://www.howtogeek.com/171228/10-virtualbox-tricks-and-advanced-features-you-should-know-about/
