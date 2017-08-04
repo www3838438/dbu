@@ -1,13 +1,15 @@
-## dbu - TODO
+w## dbu - TODO
 
 
 ```
 
   ☐ [bug] [TEST] [doc] add packages.chroot/* and software downloaded through makefile to packages/installed software documentation
+  ☐ [bug] some firefox addons are not installed: no resource uri leak, cookie autodelete, dark mode, tamper
+  ☐ [bug] GRUB > Advanced > Live (@FLAVOUR@ failsafe)
+  ☐ [enh] preseed "domain name" installer question to None, preseed "full user name" question to match the unix username
   ☐ [bug] package all unpackaged software (includes.chroot/usr...), or send patches upstream when possible
   ☐ [bug] doc: link generation for screenshots and some hompage links is broekn, packages.md category/list generation is broken
   ☐ [bug] package 3rd party .debs for inclusion in Debian archives (or setup a temporary APT repo for the build, but disable it in the chroot)
-  ☐ [bug] test whether multiarch is really supported/working (steam)
   ☐ [bug] add master switch in makefile to build without non-debian program dependencies
   ☐ [bug] [security] verify integrity and GPG signatures for packages.chroot/*.deb: https://askubuntu.com/questions/253728/how-to-safely-download-and-gpg-verify-a-debian-source-package
   ☐ [enh] [doc] add package versions to generated md documentation
