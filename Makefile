@@ -152,6 +152,9 @@ tbaddons:
 	# https://addons.mozilla.org/en-US/thunderbird/addon/printingtools/
 	# https://addons.mozilla.org/fr/firefox/addon/minimizetotray-revived/
 	# https://addons.mozilla.org/fr/thunderbird/addon/gmailui/
+	# https://addons.mozilla.org/en-US/thunderbird/addon/timeline/
+	# https://addons.mozilla.org/en-US/thunderbird/addon/more-snooze/
+	# https://addons.mozilla.org/en-US/thunderbird/addon/automatic-export/
 	# https://addons.mozilla.org/fr/thunderbird/addon/contact-photos/
 	# https://addons.mozilla.org/en-us/thunderbird/addon/webdav-for-filelink/
 	# https://addons.mozilla.org/fr/thunderbird/addon/quickfolders-tabbed-folders/
