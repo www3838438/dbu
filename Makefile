@@ -61,10 +61,13 @@ ffaddons:
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/platform:5/addon-784287-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/ [webextension]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/dark-mode-webextension/addon-786990-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/rsstube/ [webextension]
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/rsstube/addon-819680-latest.xpi
 	#
 	# more addons (disabled):
 	# https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/ [legacy]
 	# https://addons.mozilla.org/en-US/firefox/addon/downthemall/ [e10s]
+	# https://addons.mozilla.org/en-US/firefox/addon/bulk-media-downloader/ [webextension]
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/ [legacy]
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-autosave/ [legacy]
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-maf-creator/ [legacy]
