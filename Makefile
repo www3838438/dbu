@@ -61,8 +61,6 @@ ffaddons:
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/platform:5/addon-784287-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/ [webextension]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/dark-mode-webextension/addon-786990-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
-	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/tampermonkey/addon-683490-latest.xpi
 	#
 	# more addons (disabled):
 	# https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/ [legacy]
@@ -74,6 +72,7 @@ ffaddons:
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/ [legacy]
 	# https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/ [legacy]
 	# https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ [e10s]
+	# https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/ [webextension]
 	# https://addons.mozilla.org/en-us/firefox/addon/yet-another-context-search/ [legacy]
 	# https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/ [legacy]
 	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-bookmarks/
