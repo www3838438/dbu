@@ -4,6 +4,7 @@
 tor
 torsocks
 tor-geoipdb
+ooniprobe
 
 #Alt: privoxy
 #Alt: torbrowser-launcher

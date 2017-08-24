@@ -1,77 +1,84 @@
 #Name: Advanced network/security tools
+#NoDescription
+
+#load testing
+siege
+tsung
+
+# network toools
+mtr
+socat
+subnetcalc
+ipcalc
+netmask
+trickle
+
+# ssh
+sshuttle
+sslh
+sshfs
+pssh
+putty-tools
+
+# dns
+dnsutils
+dnsmasq
+dnscrypt-proxy
+dns-root-data
+namebench
+
+# scanners
+nikto
+nmap
+zmap
+prads
+sqlmap
+themole
+arp-scan
+arping
+skipfish
+whatweb
+
+#wireless
 aircrack-ng
 kismet
 kismet-plugins
 reaver
-wifite
-pyrit
 python-scapy
-nikto
-nmap
-zmap
+btscanner
+hostapd
+
+#passwords
 hydra
-prads
+pcredz
+
+# network monitoring
+nethogs
+geoip-bin
+geoip-database
+geoip-database-extra
+geoip-database-contrib
+logstalgia
+tcpdump
 wireshark
 mitmproxy
 sslsniff
 sslstrip
 dsniff
-thc-ipv6
-pcredz
-dnsutils
-dnsmasq
-dnscrypt-proxy
-dns-root-data
-tcpdump
-socat
 httpry
-arp-scan
-arping
-whatweb
-trickle
-skipfish
-siege
-tsung
-themole
-sshuttle
-sslh
 bwm-ng
-mtr
-ipcalc
-sqlmap
-netmask
-geoip-bin
-hostapd
-btscanner
-drfitnet
-w3af
-tor
-torsocks
-tor-geoipdb
-vidalia
-logstalgia
-sshfs
-pssh
-subnetcalc
-geoip-database
-geoip-database-extra
-geoip-database-contrib
-geoip-bin
-logstalgia
-tails-installer
-ooniprobe
-putty-tools
-namebench
 
 #Alt: ndiff
+#Alt: driftnet
+#Alt: tails-installer
 #Alt: speedometer
 #Alt: slurm
+#Alt: thc-ipv6
 #Alt: zenmap
 #Alt: hydra-gtk
 #Alt: macchanger-gtk
 #Alt: arpwatch
-#Alt: netperf
-#Alt: iperf
+#Alt: forensics-full
 #Alt: prips
 #Alt: udhcpd
 #Alt: privoxy
@@ -92,15 +99,11 @@ namebench
 #Alt: steghide
 #Alt: pompem
 
-
-
-### NETWORK MONITORS
-nethogs
-#snetz
-#iftop
-#ipraf-ng
-#ntop
-#jnettop
-#darkstat
-
-#Res: http://xmodulo.com/useful-command-line-network-monitors-linux.html
+#Alt: snetz
+#Alt: iftop
+#Alt: ipraf-ng
+#Alt: ntop
+#Alt: jnettop
+#Alt: darkstat
+#Alt: netperf
+#Alt: iperf
