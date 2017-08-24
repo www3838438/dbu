@@ -26,6 +26,7 @@ alias chx='chmod a+x' #set execute permission
 alias clipboard='xclip -selection c; notify-send --icon=gtk-paste "Copied to clipboard." 2>/dev/null' #send a command output to clipboard
 alias timestamp='date +"%Y-%m-%d_%H%M%S"'
 alias bman='man --html=x-www-browser'
+alias genpass='openssl rand -base64 18' #generate a random password
 
 function f { #find files
     find ./ -name "*$1*"
