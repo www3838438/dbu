@@ -65,6 +65,9 @@ ffaddons:
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/rsstube/addon-819680-latest.xpi
 	#
 	# more addons (disabled):
+	# https://addons.mozilla.org/en-US/firefox/addon/smart-referer/ [e10s]
+	# https://addons.mozilla.org/en-US/firefox/addon/note-taker/ [webextension]
+	# https://addons.mozilla.org/en-US/firefox/addon/surligneur/ [webextension]
 	# https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/ [legacy]
 	# https://addons.mozilla.org/en-US/firefox/addon/downthemall/ [e10s]
 	# https://addons.mozilla.org/en-US/firefox/addon/bulk-media-downloader/ [webextension]
