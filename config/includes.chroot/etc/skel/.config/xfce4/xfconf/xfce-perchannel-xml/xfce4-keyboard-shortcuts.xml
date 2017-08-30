@@ -32,7 +32,6 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-taskmanager">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Super&gt;n" type="string" value="xpad --toggle"/>
       <property name="&lt;Super&gt;s" type="string" value="amixer set Master toggle"/>
       <property name="&lt;Super&gt;e" type="string" value="exo-open --launch FileManager">
         <property name="startup-notify" type="bool" value="true"/>
