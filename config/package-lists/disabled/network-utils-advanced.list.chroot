@@ -38,6 +38,8 @@ arp-scan
 arping
 skipfish
 whatweb
+dirb
+dhcpig
 
 #wireless
 aircrack-ng
