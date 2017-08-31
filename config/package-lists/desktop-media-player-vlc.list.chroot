@@ -15,6 +15,7 @@ vlc-plugin-video-output
 vlc-plugin-base
 vlc-plugin-qt
 vlc-nox
+libdvd-pkg
 
 #Alt: vlc-plugin-zvbi
 #Alt: vlc-plugin-svg
