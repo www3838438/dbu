@@ -5,7 +5,7 @@
 #Alt: winff
 #Alt: winff-qt
 #Alt: sinthgunt
-#Alt: handbrake-gtk
+#Alt: handbrake
 #Alt: transmageddon
 #Alt: gnome-subtitles
 #Alt: subtitleeditor
@@ -16,5 +16,9 @@
 #Alt: ogmrip
 #Alt: ogmrip-plugins
 #Alt: arista
+#Alt: ffmpeg
+#Alt: x264
+#Alt: x265
+#Alt: ffmpeg2theora
 
 #Cat: Multimedia
