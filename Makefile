@@ -207,6 +207,11 @@ packageschroot:
 	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.4-1~webupd8~zesty4.dsc
 	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.4-1~webupd8~zesty4_all.deb
 	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.4.orig.tar.gz
+	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/p/python-twodict/python-twodict_1.2-1~webupd8~zesty0_all.deb
+	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/p/python-twodict/python-twodict_1.2-1~webupd8~zesty0.dsc
+	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/p/python-twodict/python-twodict_1.2-1~webupd8~zesty0.debian.tar.xz
+	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/p/python-twodict/python-twodict_1.2.orig.tar.gz
+
 	
 	# https://github.com/feross/webtorrent-desktop/
 	-$(WGETPACKAGES) https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
