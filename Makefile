@@ -197,10 +197,10 @@ packageschroot:
 	$(WGETPACKAGES) http://archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0.orig.tar.bz2
 	
 	# https://github.com/dequis/purple-facebook/wiki
-	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/i386/purple-facebook_20170608~c40d9fa~c9b74a765767~128_i386.deb
-	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/amd64/purple-facebook_20170608~c40d9fa~c9b74a765767~128_amd64.deb
-	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170608~c40d9fa~c9b74a765767~128.tar.gz
-	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170608~c40d9fa~c9b74a765767~128.dsc
+	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/i386/purple-facebook_20170831~529799d~9ff9acf9fa14~134_i386.deb
+	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/amd64/purple-facebook_20170831~529799d~9ff9acf9fa14~134_amd64.deb
+	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170831~529799d~9ff9acf9fa14~134.tar.gz
+	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0/purple-facebook_20170831~529799d~9ff9acf9fa14~134.dsc
 	
 	# https://github.com/MrS0m30n3/youtube-dl-gui/releases
 	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.4-1~webupd8~zesty4.debian.tar.xz
@@ -220,9 +220,9 @@ packageschroot:
 	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+16~201708212032~ubuntu17.04.1.dsc
 	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+16~201708212032~ubuntu17.04.1.tar.xz
 	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+16~201708212032~ubuntu17.04.1_all.deb
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+900~201707122252~ubuntu17.04.1.dsc
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+900~201707122252~ubuntu17.04.1.tar.xz
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+900~201707122252~ubuntu17.04.1_all.deb	
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+903~201709080201~ubuntu17.04.1.dsc
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+903~201709080201~ubuntu17.04.1.tar.xz
+	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+903~201709080201~ubuntu17.04.1_all.deb	
 	
 	# https://github.com/snwh/paper-gtk-theme
 	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862403

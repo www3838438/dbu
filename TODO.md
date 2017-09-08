@@ -4,7 +4,7 @@ w## dbu - TODO
 ```
 
   ☐ [bug] [TEST] [doc] add packages.chroot/* and software downloaded through makefile to packages/installed software documentation
-  ☐ [bug] some firefox addons are not installed: no resource uri leak, cookie autodelete, dark mode, tamper
+  ☐ [bug] some firefox addons are not installed: no resource uri leak, cookie autodelete, dark mode, ...
   ☐ [bug] GRUB > Advanced > Live (@FLAVOUR@ failsafe)
   ☐ [enh] preseed "domain name" installer question to None, preseed "full user name" question to match the unix username
   ☐ [bug] package all unpackaged software (includes.chroot/usr...), or send patches upstream when possible
