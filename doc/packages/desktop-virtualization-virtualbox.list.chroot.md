@@ -9,11 +9,6 @@ wide range of PC operating systems on your Linux system. This includes
 Windows, Linux, FreeBSD, DOS, OpenBSD and others. VirtualBox comes with a broad
 feature set and excellent performance, making it the premier virtualization
 software solution on the market.
-VirtualBox is a powerful PC virtualization solution allowing you to run a
-wide range of PC operating systems on your Linux system. This includes
-Windows, Linux, FreeBSD, DOS, OpenBSD and others. VirtualBox comes with a broad
-feature set and excellent performance, making it the premier virtualization
-software solution on the market.
 
 ```
 

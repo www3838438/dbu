@@ -37,13 +37,13 @@ packages:
    files
  * iceweasel | firefox | icedove | thunderbird | iceape-browser | mozilla-browser:
    Mozilla profile with Certificates needed for XML Security...
- * openjdk-6-jre | gcj-jre | java5-runtime:
+ * openjdk-8-jre | openjdk-7-jre | java6-runtime:
    Java Runtime Environment for use with LibreOffice
- * pstoedit / imagemagick: helper tools for EPS thumbnails
+ * pstoedit / imagemagick / ghostscript: helper tools for EPS
  * gstreamer0.10-plugins-*: GStreamer plugins for use with LibreOffices
    media backend
  * libpaper-utils: papersize detection support via paperconf
- * bluez: Bluetooth support for Impress (slideshow remote control
+ * bluez: Bluetooth support for Impress (slideshow remote control)
 LibreOffice is a full-featured office productivity suite that provides
 a near drop-in replacement for Microsoft(R) Office.
 
@@ -109,7 +109,7 @@ libreoffice-impress/)
 * [libreoffice-gtk](https://packages.debian.org/stretch/libreoffice-gtk) - transitional package to upgrade to libreoffice-gtk2/-systray
 * [libreoffice-gtk3](https://packages.debian.org/stretch/libreoffice-gtk3) - office productivity suite -- GTK+ 3 integration
 * [libreoffice-style-tango](https://packages.debian.org/stretch/libreoffice-style-tango) - office productivity suite -- Tango symbol style
-* [libreoffice-pdfimport](https://packages.debian.org/stretch/libreoffice-pdfimport) - PDF Import component for LibreOffice
+* [libreoffice-pdfimport](https://packages.debian.org/stretch/libreoffice-pdfimport) - transitional package for PDF Import component for LibreOffice
 * [libreoffice-java-common](https://packages.debian.org/stretch/libreoffice-java-common) - office productivity suite -- arch-independent Java support files
 * [libreoffice-gnome](https://packages.debian.org/stretch/libreoffice-gnome) - office productivity suite -- GNOME integration
 * [libreoffice-avmedia-backend-gstreamer](https://packages.debian.org/stretch/libreoffice-avmedia-backend-gstreamer) - GStreamer backend for LibreOffice

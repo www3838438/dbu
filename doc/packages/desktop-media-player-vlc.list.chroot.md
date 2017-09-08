@@ -50,6 +50,7 @@ installing additional plugins:
 * [vlc-plugin-base](https://packages.debian.org/stretch/vlc-plugin-base) - multimedia player and streamer (base plugins)
 * [vlc-plugin-qt](https://packages.debian.org/stretch/vlc-plugin-qt) - multimedia player and streamer (Qt plugin)
 * [vlc-nox](https://packages.debian.org/stretch/vlc-nox) - transitional dummy package
+* [libdvd-pkg](https://packages.debian.org/stretch/libdvd-pkg) - DVD-Video playing library - installer
 
 ### Related packages
 

@@ -28,6 +28,7 @@ removing or updating software packages.
  - [GTK-RecordMyDesktop Screen recorder](packages/desktop-screen-recorder-gtk-recordmydesktop.list.chroot.md)
  - [Screenruler](packages/desktop-screenruler.list.chroot.md)
  - [Screenshot utilities](packages/desktop-screenshot-xfce4.list.chroot.md)
+ - [XFCE4 Notes](packages/desktop-stickynotes-xfce4-notes.list.chroot.md)
  - [XFCE terminal emulator](packages/desktop-terminal-xfce4-terminal.list.chroot.md)
  - [Mousepad text editor](packages/desktop-text-editor-mousepad.list.chroot.md)
  - [Desktop configuration utilities](packages/desktop-utils-config.list.chroot.md)
@@ -44,7 +45,6 @@ removing or updating software packages.
  - [LibreOffice office suite](packages/desktop-office-libreoffice.list.chroot.md)
  - [PDFChain PDF editor](packages/desktop-pdfeditor-pdfchain.list.chroot.md)
  - [Simple-scan document scanning](packages/desktop-scanning-simple-scan.list.chroot.md)
- - [Xpad sticky notes](packages/desktop-stickynotes-xpad.list.chroot.md)
  - [Mousepad text editor](packages/desktop-text-editor-mousepad.list.chroot.md)
 
 ### Multimedia
@@ -60,6 +60,7 @@ removing or updating software packages.
  - [QuodLibet music player/library manager](packages/desktop-music-player-quodlibet.list.chroot.md)
  - [GTK-RecordMyDesktop Screen recorder](packages/desktop-screen-recorder-gtk-recordmydesktop.list.chroot.md)
  - [ALSA/PulseAudio audio system](packages/desktop-system-audio-alsa-pulseaudio.list.chroot.md)
+ - [Openshot Video editor](packages/desktop-video-editor-openshot.list.chroot.md)
  - [Cheese webcam utility](packages/desktop-webcam-cheese.list.chroot.md)
 
 ### Graphics
@@ -128,11 +129,15 @@ removing or updating software packages.
 ### Non-debian packages
 * [light-locker-settings](https://launchpad.net/light-locker-settings) -  simple configuration tool for light-locker
 * [numix-icon-theme-circle](http://numixproject.org/) -  Numix Circle icons
+* [numix-icon-theme-circle](http://numixproject.org/) -  Numix Circle icons
+* [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
 * [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
 * [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
 * [paper-gtk-theme](https://github.com/moka-project/paper-gtk-theme) -  Paper GTK Theme
 * [paper-icon-theme](https://github.com/snwh/paper-icon-theme) -  Paper Icon Theme
 * [youtube-dlg](https://github.com/MrS0m30n3/youtube-dl-gui) -  youtube-dl gui
+* [youtube-dlg](https://github.com/MrS0m30n3/youtube-dl-gui) -  youtube-dl gui
+* [purple-facebook](https://github.com/jgeboski/purple-facebook) -  Facebook protocol plugin for libpurple
 * [purple-facebook](https://github.com/jgeboski/purple-facebook) -  Facebook protocol plugin for libpurple
 * [qwinff]() -  cross-platform, easy-to-use media converter frontend to FFmpeg.
 * [webtorrent-desktop](https://webtorrent.io) -  WebTorrent, the streaming torrent client. For Mac, Windows, and Linux.

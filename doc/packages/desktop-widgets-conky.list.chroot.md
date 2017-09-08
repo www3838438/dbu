@@ -1,6 +1,6 @@
 # Conky 
 
-__highly configurable system monitor (transitional package)__
+__highly configurable system monitor (all features enabled)__
 
 ```
 
@@ -10,19 +10,23 @@ Conky has many built-in objects, as well as the ability to execute
 external programs or scripts (either external or through built-in
 lua support).
 
-This is a dummy package to ease transition to the new packaging scheme.
-It may be safely removed after upgrade/installation.
+This is a full conky with most compile options enabled:
+
+X11, XDamage, XDBE, Xft, MPD, MOC, math, hddtemp, portmon, RSS,
+Weather, wireless, IBM, nvidia, eve-online, Imlib2,
+apcupsd, I/O stats, argb, Lua and the cairo and imlib2 lua bindings,
+Audacious, XMMS2, and PulseAudio.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/conky /)](https://screenshots.debian.net/screenshot/conky /)
+[![](https://screenshots.debian.net/thumbnail/conky-all /)](https://screenshots.debian.net/screenshot/conky-all /)
 
 
  **[Homepage](http://conky.sourceforge.net/)**
 
 ### Installed packages
 
-* [conky](https://packages.debian.org/stretch/conky) - highly configurable system monitor (transitional package)
+* [conky-all](https://packages.debian.org/stretch/conky-all) - highly configurable system monitor (all features enabled)
 
 ### Related packages
 

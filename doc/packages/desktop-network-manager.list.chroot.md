@@ -31,6 +31,7 @@ and it can optionally store them in the gnome-keyring.
 * [network-manager-iodine-gnome](https://packages.debian.org/stretch/network-manager-iodine-gnome) - network management framework (iodine plugin GNOME GUI)
 * [crda](https://packages.debian.org/stretch/crda) - wireless Central Regulatory Domain Agent
 * [wireless-regdb](https://packages.debian.org/stretch/wireless-regdb) - wireless regulatory database
+* [dnsmasq-base](https://packages.debian.org/stretch/dnsmasq-base) - Small caching DNS proxy and DHCP/TFTP server
 
 ### Related packages
 
