@@ -63,6 +63,8 @@ ffaddons:
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/dark-mode-webextension/addon-786990-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/rsstube/ [webextension]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/rsstube/addon-819680-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/simple-youtube-repeater/ [webextension]
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/simple-youtube-repeater/platform:2/addon-622208-latest.xpi
 	#
 	# more addons (disabled):
 	# https://addons.mozilla.org/en-US/firefox/addon/smart-referer/ [e10s]
