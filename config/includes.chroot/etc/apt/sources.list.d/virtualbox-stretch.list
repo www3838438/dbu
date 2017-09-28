@@ -1,4 +1,0 @@
-# workaround for https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=794466
-# (virtualbox removed from debian stretch)
-# https://wiki.debian.org/VirtualBox#Debian_9_.22Stretch.22
-deb http://download.virtualbox.org/virtualbox/debian stretch contrib

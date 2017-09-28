@@ -3,8 +3,8 @@
 #Screenshot: virtualbox
 #Cat: System
 
-# Debian Stretch (third party repos)
-virtualbox-5.1
+# Backports
+virtualbox
 
 #Alt: virt-manager
 #Alt: docker
