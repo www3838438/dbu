@@ -19,10 +19,7 @@ buildenv:
 	sudo aptitude install live-build make build-essential wget git xmlstarlet unzip
 
 clean:
-	-rm $(tbaddonsdir)/*
-	-rm $(ffaddonsdir)/*
-	-rm config/packages.chroot/*
-	-rm -r config/includes.chroot/usr/lib/purple-2/*.so
+	git clean -df
 
 documentation:
 	-rm -r doc/packages/*.md
