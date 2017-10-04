@@ -32,6 +32,7 @@ whiptail
 inotify-tools
 pastebinit
 elinks
+asciio
 
 # Parsers/converters
 pandoc

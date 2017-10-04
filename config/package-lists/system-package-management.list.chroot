@@ -39,3 +39,4 @@ debconf-utils
 #Alt: gstreamer1.0-packagekit
 #Alt: packagekit-command-not-found
 #Alt: packagekit-gtk3-module
+#Alt: gnome-software
