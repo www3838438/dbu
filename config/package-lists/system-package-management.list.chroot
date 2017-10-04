@@ -8,6 +8,7 @@ gnome-packagekit
 packagekit
 packagekit-tools
 pk-update-icon
+apt-config-auto-update
 
 # Graphical - other
 deborphan
