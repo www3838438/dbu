@@ -1,16 +1,5 @@
 #!/usr/bin/make -f
 
-
-# config - firefox/thunderbird addons location
-# Firefox ESR default addons path
-ffaddonsdir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
-# Firefox (release/nightly) default addons path
-#addonsdir=config/includes.chroot/usr/share/firefox/distribution/extensions/
-# Thunderbird addons path
-tbaddonsdir="config/includes.chroot/usr/share/thunderbird/extensions/"
-
-################################################################################
-
 all: buildenv clean update ffxpi tbxpi documentation lbbuild
 
 update: ffaddons tbaddons packageschroot binaries themes dotfiles
@@ -41,6 +30,10 @@ checksum_sign:
 
 ################################################################################
 #update firefox addons
+#firefox addons path (esr)
+ffaddonsdir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
+#firefox addons path (release/nightly)
+#addonsdir=config/includes.chroot/usr/share/firefox/distribution/extensions/
 ffaddons:
 	if [ ! -d $(ffaddonsdir) ]; then mkdir -p $(ffaddonsdir); fi
 	# Security / privacy addons
@@ -131,6 +124,8 @@ ffxpi:
 	done
 
 #update thunderbird addons
+#thunderbird addons path
+tbaddonsdir="config/includes.chroot/usr/share/thunderbird/extensions/"
 tbaddons:
 	if [ ! -d $(tbaddonsdir) ]; then mkdir -p $(tbaddonsdir); fi
 	#https://addons.mozilla.org/en-US/thunderbird/addon/gmail-conversation-view/
@@ -184,7 +179,6 @@ tbxpi:
 # ideally everything should be packaged in the Debian archive
 # see https://github.com/nodiscc/scriptz for more software
 WGETPACKAGES := wget -N -nv --show-progress -P config/packages.chroot/
-
 packageschroot:
 	-mkdir -pv config/packages.chroot
 	
