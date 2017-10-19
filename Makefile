@@ -5,7 +5,7 @@ all: buildenv clean update ffxpi tbxpi documentation lbbuild
 update: ffaddons tbaddons packageschroot binaries themes dotfiles
 
 buildenv:
-	sudo aptitude install live-build make build-essential wget git xmlstarlet unzip
+	sudo aptitude install live-build make build-essential wget git xmlstarlet unzip colordiff
 
 clean:
 	git clean -df
@@ -27,6 +27,13 @@ checksum_sign:
 	sha512sum *.iso  > SHA512SUMS; \
 	gpg --detach-sign --armor SHA512SUMS; \
 	mv SHA512SUMS.asc SHA512SUMS.sign
+
+# compare the resulting image's package list against upstream debian/xfce live image
+pkglist_url="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-9.2.0-amd64-xfce.packages"
+compare_upstream_packagelist:
+	wget -N $(pkglist_url) -O "iso/debian-live-amd64-xfce.packages"
+	last_tag=$$(git tag | tail -n1); \
+	colordiff "iso/debian-live-amd64-xfce.packages" "iso/dbu-$$last_tag-debian-stretch-amd64.hybrid.packages"
 
 ################################################################################
 #update firefox addons
