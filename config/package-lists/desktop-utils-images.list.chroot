@@ -1,12 +1,11 @@
-#Name: Image utilities - command line
+#Name: Image manipulation utilities
 #NoDescription
 
+trimage
 imagemagick
 libmagickcore-6.q16-2-extra 
 exifprobe
 findimagedupes
-optipng
-jpegoptim
 librsvg2-bin
 cmatrix
 cmatrix-xfont
@@ -14,6 +13,8 @@ figlet
 toilet
 scrot
 
+#Alt: optipng
+#Alt: jpegoptim
 #Alt: phatch
 #Alt: converseen
 #Alt: caca-utils
