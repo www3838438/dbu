@@ -122,6 +122,8 @@ ffaddons:
 	# https://addons.mozilla.org/en-US/firefox/addon/yesscript/
 	# https://addons.mozilla.org/en-us/firefox/addon/copy-as-markdown/
 	# https://addons.mozilla.org/en-US/firefox/addon/open-livestreamer/
+	# https://addons.mozilla.org/en-US/firefox/addon/privacy-settings-webextension/ [legacy]
+	# https://addons.mozilla.org/en-US/firefox/addon/policy-control/ [legacy]
 
 #rename xpis from their id
 ffxpi:

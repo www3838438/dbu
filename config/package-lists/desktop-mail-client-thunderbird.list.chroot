@@ -24,6 +24,10 @@ thunderbird-l10n-fr
 #Alt: mail-notification-evolution
 #Alt: isync
 #Alt: pycarddav
+#Alt: gnome-calendar
+#Alt: evolution-data-server
+#Alt: gnome-todo
+#Alt: bijiben
 
 #Res: http://doc.ubuntu-fr.org/configurer_mail
 #Res: http://kb.mozillazine.org/Using_Gmail_with_Thunderbird_and_Mozilla_Suite
