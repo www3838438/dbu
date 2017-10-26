@@ -4,14 +4,16 @@ systemctl enable cups.service
 systemctl enable cups-browsed.service
 systemctl enable avahi-daemon.service
 systemctl disable avahi-dnsconfd.service
+systemctl disable haveged.service
 systemctl disable samba.service
+systemctl disable samba-ad-dc.service
 systemctl disable nmbd.service
 systemctl disable smbd.service
 systemctl enable bumblebeed.service
 systemctl disable ssh.service
 systemctl disable openvpn.service
 systemctl disable saned.service
-systemctl enable bluetooth.service
+systemctl disable bluetooth.service
 systemctl enable fancontrol.service
 systemctl disable rsync.service
 systemctl disable tor.service
@@ -19,4 +21,3 @@ systemctl disable exim4.service
 systemctl disable iodined.service
 systemctl disable nfs-common.service
 systemctl disable rpcbind.service
-systemctl disable samba-ad-dc.service
