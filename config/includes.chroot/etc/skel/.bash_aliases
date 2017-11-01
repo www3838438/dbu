@@ -25,17 +25,13 @@ alias bak='cp -v "$1" "$1.`date +%Y-%m-%d_%H-%M-%S`.bak"' #Backup specified file
 alias chx='chmod a+x' #set execute permission
 alias clipboard='xclip -selection c; notify-send --icon=gtk-paste "Copied to clipboard." 2>/dev/null' #send a command output to clipboard
 alias timestamp='date +"%Y-%m-%d_%H%M%S"'
-alias bman='man --html=x-www-browser'
-alias genpass='openssl rand -base64 18' #generate a random password
+alias genpass='openssl rand -base64 24' #generate a random password
 
 function f { #find files
     find ./ -name "*$1*"
 }
 function psg { #find a process
     ps -fp $(pgrep -f $@)
-}
-function replace { #replace first word with 2nd word in specified file
-    sed -i "s/$1/$2/g" "$3"
 }
 
 #aliases for going up multiple directories
@@ -44,15 +40,6 @@ alias .2='cd ../../'
 alias .3='cd ../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
-
-#network
-function pingrouter { #find and ping router/gateway
-    GATEWAY=$(ip route | grep "default via" | awk '{print $3}')
-    if [ $? != 0 ];
-        then echo "No internet gateways found"; exit 1
-        else ping $GATEWAY
-    fi
-}
 
 #ls and grep aliases
 if [ -x /usr/bin/dircolors ]; then
