@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v1.1](https://github.com/nodiscc/dbu/releases/tag/1.1) - UNPUBLISHED
+## [v1.2](https://github.com/nodiscc/dbu/releases/tag/1.2) - UNPUBLISHED
 
 No changes yet.
 
@@ -14,6 +14,45 @@ No changes yet.
 ### Security
 ### Deprecated
 -->
+
+## [v1.1](https://github.com/nodiscc/dbu/releases/tag/1.1) - 2017-11-06
+
+### Added
+
+ * Add Virtualbox virtualization software
+ * Add various development/utility packages: dnsmasq-base  ghi, pypi2deb, python-praw, firejail, firetools, dfc, fonts-hack-ttf, xfce4-pulseaudio-plugin, gimp-help-fr, libdvd-pkg, asciio
+ * Add basic default configuration file for youtube-dl
+ * Add a set of default configuration files + scripts for conky
+
+### Changed
+
+ * Replace xpad with xfce4-notes (notetaking application)
+ * Change main UI font to Roboto
+ * Replace jpegoptim/optipng with trimage (image file optimization)
+ * Disable haveged and bluetooth services by default
+ * Installer: remove disk partitioning scheme customizations, don't auto-try DHCP network configuration
+ * Add 'genpass' alias (generate random password)
+ * Update all packages to their latest versions
+ * Update documentation
+
+### Removed
+
+ * Remove librecad, glabels, ocrfeeder, winetricks from default installed packages
+ * Firefox addons: remove all 'legacy' add-ons, keep only e10s and WebExtensions compatible add-ons
+ * Firefox addons: add Simple Youtube Repeater
+
+### Fixed
+
+ * Fix gpk-update-viewer not detecting available package updates (add missing apt-config-auto-update package)
+ * Add missing i386 packages for PlayOnLinux/WINE
+ * Fix live-build hooks execution (enable multiarch, purge unwanted packages, set default services status, set default desktop session)
+ * Remove obsolete config files, cleanup various files, improve Makefile/build process
+ * Remove i386 3rd-party packages downloads from Makefile
+
+### Security
+
+ * Security vulnerabilities in multiple Debian packages have been fixed (https://lists.debian.org/debian-security/)
+
 
 ## [v1.0.1](https://github.com/nodiscc/dbu/releases/tag/1.0.1) - 2017-07-03
 
