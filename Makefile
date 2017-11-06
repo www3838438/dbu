@@ -58,8 +58,6 @@ ffaddons:
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/platform:5/addon-784287-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/ [webextension]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/dark-mode-webextension/addon-786990-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/rsstube/ [webextension]
-	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/rsstube/addon-819680-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/simple-youtube-repeater/ [webextension]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/simple-youtube-repeater/platform:2/addon-622208-latest.xpi
 	#
@@ -124,6 +122,7 @@ ffaddons:
 	# https://addons.mozilla.org/en-US/firefox/addon/open-livestreamer/
 	# https://addons.mozilla.org/en-US/firefox/addon/privacy-settings-webextension/ [legacy]
 	# https://addons.mozilla.org/en-US/firefox/addon/policy-control/ [legacy]
+	# https://addons.mozilla.org/en-US/firefox/addon/rsstube/ [webextension] (broken)
 
 #rename xpis from their id
 ffxpi:
