@@ -3,6 +3,7 @@ w## dbu - TODO
 
 ```
   ☐ [bug] [important] [security] verify integrity and GPG signatures for packages.chroot/*.deb: https://askubuntu.com/questions/253728/how-to-safely-download-and-gpg-verify-a-debian-source-package
+  ☐ [enh] Host ISO on http://iso.linuxquestions.org/?
   ☐ [enh] [doc] add package versions to generated md documentation
   ☐ [bug] [TEST] [doc] add packages.chroot/* and software downloaded through makefile to packages/installed software documentation
   ☐ [bug] some firefox addons are not installed: no resource uri leak, cookie autodelete, dark mode, ...
