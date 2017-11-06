@@ -2,7 +2,8 @@ w## dbu - TODO
 
 
 ```
-
+  ☐ [bug] [important] [security] verify integrity and GPG signatures for packages.chroot/*.deb: https://askubuntu.com/questions/253728/how-to-safely-download-and-gpg-verify-a-debian-source-package
+  ☐ [enh] [doc] add package versions to generated md documentation
   ☐ [bug] [TEST] [doc] add packages.chroot/* and software downloaded through makefile to packages/installed software documentation
   ☐ [bug] some firefox addons are not installed: no resource uri leak, cookie autodelete, dark mode, ...
   ☐ [bug] GRUB > Advanced > Live (@FLAVOUR@ failsafe)
@@ -11,8 +12,6 @@ w## dbu - TODO
   ☐ [bug] doc: link generation for screenshots and some hompage links is broekn, packages.md category/list generation is broken
   ☐ [bug] package 3rd party .debs for inclusion in Debian archives (or setup a temporary APT repo for the build, but disable it in the chroot)
   ☐ [bug] add master switch in makefile to build without non-debian program dependencies
-  ☐ [bug] [security] verify integrity and GPG signatures for packages.chroot/*.deb: https://askubuntu.com/questions/253728/how-to-safely-download-and-gpg-verify-a-debian-source-package
-  ☐ [enh] [doc] add package versions to generated md documentation
   ☐ [enh] [doc] generate documentation for disabled/*.chroot packages?, add them to the index tagged `disabled`
   ☐ [bug] improve bluetooth power saving: powertop still shows 100% power usage on bluetooth card even with rfkill block. Settings in /etc/laptop-mode-tools/bluetooth.conf
   ☐ [enh] [doc] update screenshot

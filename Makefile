@@ -251,6 +251,13 @@ packageschroot:
 	$(WGETPACKAGES) http://ppa.launchpad.net/lzh9102/qwinff/ubuntu/pool/main/q/qwinff/qwinff_0.2.0-1~wily2.debian.tar.gz
 	$(WGETPACKAGES) http://ppa.launchpad.net/lzh9102/qwinff/ubuntu/pool/main/q/qwinff/qwinff_0.2.0-1~wily2.dsc
 	$(WGETPACKAGES) http://ppa.launchpad.net/lzh9102/qwinff/ubuntu/pool/main/q/qwinff/qwinff_0.2.0-1~wily2_amd64.deb
+
+	# http://www.opensans.com/
+	# https://packages.debian.org/sid/fonts-open-sans
+	$(WGETPACKAGES) http://ftp.debian.org/debian/pool/main/f/fonts-open-sans/fonts-open-sans_1.11-1.debian.tar.xz
+	$(WGETPACKAGES) http://ftp.debian.org/debian/pool/main/f/fonts-open-sans/fonts-open-sans_1.11-1_all.deb
+	$(WGETPACKAGES) http://ftp.debian.org/debian/pool/main/f/fonts-open-sans/fonts-open-sans_1.11-1.dsc
+	$(WGETPACKAGES) http://ftp.debian.org/debian/pool/main/f/fonts-open-sans/fonts-open-sans_1.11.orig.tar.xz
 	
 	# https://github.com/horst3180/Ceti-2-theme
 	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862402
