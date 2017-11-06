@@ -19,8 +19,8 @@ column_expand=0,1,1,1,0,0,0
 
 [skins]
 skin=/usr/share/audacious/Skins/Default
-playlist_font=Droid Sans Bold 8
-mainwin_font=Droid Sans 9
+playlist_font=Roboto Bold 9
+mainwin_font=Roboto 10
 always_show_cb=TRUE
 always_on_top=FALSE
 sticky=FALSE
