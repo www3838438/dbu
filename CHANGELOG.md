@@ -15,11 +15,12 @@ No changes yet.
 ### Deprecated
 -->
 
-## [v1.1](https://github.com/nodiscc/dbu/releases/tag/1.1) - 2017-11-06
+## [v1.1](https://github.com/nodiscc/dbu/releases/tag/1.1) - 2017-11-07
 
 ### Added
 
  * Add Virtualbox virtualization software
+ * Add OBS Studio video recorder/streamer
  * Add various development/utility packages: dnsmasq-base  ghi, pypi2deb, python-praw, firejail, firetools, dfc, fonts-hack-ttf, xfce4-pulseaudio-plugin, gimp-help-fr, libdvd-pkg, asciio
  * Add basic default configuration file for youtube-dl
  * Add a set of default configuration files + scripts for conky
