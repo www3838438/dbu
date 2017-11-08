@@ -40,7 +40,7 @@
     </property>
     <property name="plugin-5" type="string" value="clock">
       <property name="show-frame" type="bool" value="false"/>
-      <property name="digital-format" type="string" value="%R%n%a %m"/>
+      <property name="digital-format" type="string" value="%R%n%a %d"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="show-frame" type="bool" value="false"/>
