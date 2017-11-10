@@ -125,4 +125,6 @@ TODO more default languages Currently only 2 locales (english and french) are
 pre-generated, other languages have to be manually added to the build
 configuration, and the ISO rebuilt.
 
+### See also
 
+ * https://wiki.debian.org/DebianPureBlends

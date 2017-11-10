@@ -40,6 +40,9 @@ jq
 xmlstarlet
 aha
 
+#Alt: man2html-base
+#Alt: txt2tags
+
 # Packaging/C
 debhelper
 autoconf
@@ -90,7 +93,6 @@ firejail
 firetools
 
 #Alt: snapd
-#Alt: txt2tags
 #Alt: fossil
 #Alt: aptly
 #Alt: apt-listbugs

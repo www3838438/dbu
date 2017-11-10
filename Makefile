@@ -63,6 +63,7 @@ ffaddons:
 	#
 	# more addons (disabled):
 	# https://addons.mozilla.org/en-US/firefox/addon/smart-referer/ [e10s]
+	# https://addons.mozilla.org/en-US/firefox/addon/link-cleaner/[webextension]
 	# https://addons.mozilla.org/en-US/firefox/addon/note-taker/ [webextension]
 	# https://addons.mozilla.org/en-US/firefox/addon/surligneur/ [webextension]
 	# https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/ [legacy]
