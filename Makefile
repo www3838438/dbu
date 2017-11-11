@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-all: buildenv clean update ffxpi tbxpi documentation lbbuild
+all: buildenv clean tests update ffxpi tbxpi documentation lbbuild
 
 update: ffaddons tbaddons packageschroot binaries themes dotfiles
 
@@ -9,6 +9,9 @@ buildenv:
 
 clean:
 	git clean -df
+
+tests:
+	shellcheck scripts/doc-generator.sh
 
 documentation:
 	-rm -r doc/packages/*.md
