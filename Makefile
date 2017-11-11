@@ -5,7 +5,7 @@ all: buildenv clean tests update ffxpi tbxpi documentation lbbuild
 update: ffaddons tbaddons packageschroot binaries themes dotfiles
 
 buildenv:
-	sudo aptitude install live-build make build-essential wget git xmlstarlet unzip colordiff shellcheck
+	sudo apt install live-build make build-essential wget git xmlstarlet unzip colordiff shellcheck
 
 clean:
 	git clean -df

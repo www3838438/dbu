@@ -5,7 +5,7 @@
  * Install debian.
  * You must build from the same distribution as the target distribution (build *stable* systems on a build machine running Debian *stable*, *testing* systems on a machine running Debian *testing*...)
  * [`live-build`](https://www.debian.org/devel/debian-live/) is used to build the live system/installer/ISO image.
- * Run `apt install make git`
+ * Run `apt install make git sudo`
  * Run `git clone https://github.com/nodiscc/dbu`
  * To run the build process with the default configuration, run `make all` from the root of the git repository.
 
