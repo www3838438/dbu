@@ -20,4 +20,4 @@ screencasts with the video and audio capture application recordMyDesktop
 
 ### Related packages
 
-<sub> [istanbul](https://packages.debian.org/stretch/istanbul) [key-mon](https://packages.debian.org/stretch/key-mon) [kazam](https://packages.debian.org/stretch/kazam) [byzanz](https://packages.debian.org/stretch/byzanz)  </sub>
+<sub> [istanbul](https://packages.debian.org/stretch/istanbul) [key-mon](https://packages.debian.org/stretch/key-mon) [kazam](https://packages.debian.org/stretch/kazam) [byzanz](https://packages.debian.org/stretch/byzanz) [obs-studio](https://packages.debian.org/stretch/obs-studio)  </sub>

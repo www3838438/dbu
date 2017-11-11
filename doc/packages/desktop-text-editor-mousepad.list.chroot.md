@@ -39,4 +39,4 @@ following features:
 
 ### Related packages
 
-<sub> [focuswriter](https://packages.debian.org/stretch/focuswriter) [leafpad](https://packages.debian.org/stretch/leafpad) [gedit](https://packages.debian.org/stretch/gedit) [gedit-plugins](https://packages.debian.org/stretch/gedit-plugins) [geany](https://packages.debian.org/stretch/geany) [x2](https://packages.debian.org/stretch/x2) [scribes](https://packages.debian.org/stretch/scribes) [nfoview](https://packages.debian.org/stretch/nfoview)  </sub>
+<sub> [focuswriter](https://packages.debian.org/stretch/focuswriter) [leafpad](https://packages.debian.org/stretch/leafpad) [gedit](https://packages.debian.org/stretch/gedit) [gedit-plugins](https://packages.debian.org/stretch/gedit-plugins) [gedit-source-code-browser-plugin](https://packages.debian.org/stretch/gedit-source-code-browser-plugin) [geany](https://packages.debian.org/stretch/geany) [x2](https://packages.debian.org/stretch/x2) [scribes](https://packages.debian.org/stretch/scribes) [nfoview](https://packages.debian.org/stretch/nfoview)  </sub>

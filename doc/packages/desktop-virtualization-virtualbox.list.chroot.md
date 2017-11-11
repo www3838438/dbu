@@ -19,7 +19,7 @@ software solution on the market.
 
 ### Installed packages
 
-* [virtualbox-5.1](https://packages.debian.org/stretch/virtualbox-5.1) - 
+* [virtualbox](https://packages.debian.org/stretch/virtualbox) - x86 virtualization solution - base binaries
 
 ### Related packages
 

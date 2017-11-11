@@ -6,6 +6,8 @@ __Binary firmware for various drivers in the Linux kernel (meta-package)__
 
 This package depends on non-free firmware which may be used with drivers
 in the Linux kernel.
+This package depends on non-free firmware which may be used with drivers
+in the Linux kernel.
 
 ```
 

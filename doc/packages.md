@@ -37,11 +37,11 @@ removing or updating software packages.
 
 ### Office
  - [GNOME calculator](packages/desktop-calculator-gnome-calculator.list.chroot.md)
- - [GNOME Calendar](packages/desktop-calendar-gnome-calendar.list.chroot.md)
  - [XFCE Dictionary](packages/desktop-dictionary.list.chroot.md)
  - [Evince document viewer](packages/desktop-document-viewer.list.chroot.md)
  - [Xournal drawing tool](packages/desktop-drawing-editor-xournal.list.chroot.md)
  - [Homebank personal finance manager](packages/desktop-finance-manager-homebank.list.chroot.md)
+ - [ReText markdown editor](packages/desktop-markdown-editor-retext.list.chroot.md)
  - [LibreOffice office suite](packages/desktop-office-libreoffice.list.chroot.md)
  - [PDFChain PDF editor](packages/desktop-pdfeditor-pdfchain.list.chroot.md)
  - [Simple-scan document scanning](packages/desktop-scanning-simple-scan.list.chroot.md)
@@ -50,6 +50,7 @@ removing or updating software packages.
 ### Multimedia
  - [Youtube-dl media downloader](packages/cli-utils-media-download.list.chroot.md)
  - [Multimedia utilities - command line](packages/cli-utils-media.list.chroot.md)
+ - [Blender 3D editor and renderer](packages/desktop-3deditor-blender.list.chroot.md)
  - [Sound-juicer audio CD extractor](packages/desktop-audio-cd-extractor-sound-juicer.list.chroot.md)
  - [Audacity audio editor](packages/desktop-audio-editor-audacity.list.chroot.md)
  - [GNOME sound recorder](packages/desktop-audio-recorder-gnome-sound-recorder.list.chroot.md)
@@ -61,10 +62,10 @@ removing or updating software packages.
  - [GTK-RecordMyDesktop Screen recorder](packages/desktop-screen-recorder-gtk-recordmydesktop.list.chroot.md)
  - [ALSA/PulseAudio audio system](packages/desktop-system-audio-alsa-pulseaudio.list.chroot.md)
  - [Openshot Video editor](packages/desktop-video-editor-openshot.list.chroot.md)
+ - [OBS Studio video recorder/streamer](packages/desktop-video-recorder-streamer-obs-studio.list.chroot.md)
  - [Cheese webcam utility](packages/desktop-webcam-cheese.list.chroot.md)
 
 ### Graphics
- - [Image utilities - command line](packages/cli-utils-images.list.chroot.md)
  - [Sweet Home 3D interior design editor](packages/desktop-3deditor-sweethome3d.list.chroot.md)
  - [Dia diagram Editor](packages/desktop-diagram-editor.list.chroot.md)
  - [Xournal drawing tool](packages/desktop-drawing-editor-xournal.list.chroot.md)
@@ -72,6 +73,7 @@ removing or updating software packages.
  - [GIMP image editor](packages/desktop-image-editor-gimp.list.chroot.md)
  - [Ristretto image viewer](packages/desktop-image-viewer-ristretto.list.chroot.md)
  - [LibreOffice office suite](packages/desktop-office-libreoffice.list.chroot.md)
+ - [Image manipulation utilities](packages/desktop-utils-images.list.chroot.md)
  - [Inkscape vector image editor](packages/desktop-vectoreditor-inkscape.list.chroot.md)
 
 ### Network
@@ -127,17 +129,14 @@ removing or updating software packages.
  - [Stellarium](packages/desktop-science-stellarium.list.chroot.md)
 
 ### Non-debian packages
+* [fonts-open-sans](http://www.opensans.com/) -  humanist sans serif typeface by Steve Matteson
 * [light-locker-settings](https://launchpad.net/light-locker-settings) -  simple configuration tool for light-locker
 * [numix-icon-theme-circle](http://numixproject.org/) -  Numix Circle icons
-* [numix-icon-theme-circle](http://numixproject.org/) -  Numix Circle icons
-* [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
-* [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
 * [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
 * [paper-gtk-theme](https://github.com/moka-project/paper-gtk-theme) -  Paper GTK Theme
 * [paper-icon-theme](https://github.com/snwh/paper-icon-theme) -  Paper Icon Theme
+* [python-twodict](https://github.com/MrS0m30n3/twodict) -  Simple two way ordered dictionary for Python
 * [youtube-dlg](https://github.com/MrS0m30n3/youtube-dl-gui) -  youtube-dl gui
-* [youtube-dlg](https://github.com/MrS0m30n3/youtube-dl-gui) -  youtube-dl gui
-* [purple-facebook](https://github.com/jgeboski/purple-facebook) -  Facebook protocol plugin for libpurple
 * [purple-facebook](https://github.com/jgeboski/purple-facebook) -  Facebook protocol plugin for libpurple
 * [qwinff]() -  cross-platform, easy-to-use media converter frontend to FFmpeg.
 * [webtorrent-desktop](https://webtorrent.io) -  WebTorrent, the streaming torrent client. For Mac, Windows, and Linux.

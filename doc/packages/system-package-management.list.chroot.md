@@ -30,6 +30,7 @@ Besides these basic functions the following features are provided:
 * [packagekit](https://packages.debian.org/stretch/packagekit) - Provides a package management service
 * [packagekit-tools](https://packages.debian.org/stretch/packagekit-tools) - Provides PackageKit command-line tools
 * [pk-update-icon](https://packages.debian.org/stretch/pk-update-icon) - Displays an update-notification tray icon
+* [apt-config-auto-update](https://packages.debian.org/stretch/apt-config-auto-update) - Apt configuration for automatic cache updates
 * [deborphan](https://packages.debian.org/stretch/deborphan) - program that can find unused packages, e.g. libraries
 * [software-properties-gtk](https://packages.debian.org/stretch/software-properties-gtk) - manage the repositories that you install software from (gtk)
 * [synaptic](https://packages.debian.org/stretch/synaptic) - Graphical package manager
@@ -45,4 +46,4 @@ Besides these basic functions the following features are provided:
 
 ### Related packages
 
-<sub> [unattended-upgrades](https://packages.debian.org/stretch/unattended-upgrades) [apturl](https://packages.debian.org/stretch/apturl) [apt-fast](https://packages.debian.org/stretch/apt-fast) [apt-p2p](https://packages.debian.org/stretch/apt-p2p) [aptoncd](https://packages.debian.org/stretch/aptoncd) [apt-file](https://packages.debian.org/stretch/apt-file) [gstreamer1.0-packagekit](https://packages.debian.org/stretch/gstreamer1.0-packagekit) [packagekit-command-not-found](https://packages.debian.org/stretch/packagekit-command-not-found) [packagekit-gtk3-module](https://packages.debian.org/stretch/packagekit-gtk3-module)  </sub>
+<sub> [unattended-upgrades](https://packages.debian.org/stretch/unattended-upgrades) [apturl](https://packages.debian.org/stretch/apturl) [apt-fast](https://packages.debian.org/stretch/apt-fast) [apt-p2p](https://packages.debian.org/stretch/apt-p2p) [aptoncd](https://packages.debian.org/stretch/aptoncd) [apt-file](https://packages.debian.org/stretch/apt-file) [gstreamer1.0-packagekit](https://packages.debian.org/stretch/gstreamer1.0-packagekit) [packagekit-command-not-found](https://packages.debian.org/stretch/packagekit-command-not-found) [packagekit-gtk3-module](https://packages.debian.org/stretch/packagekit-gtk3-module) [gnome-software](https://packages.debian.org/stretch/gnome-software)  </sub>
