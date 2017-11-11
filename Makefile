@@ -258,7 +258,7 @@ packageschroot:
 	$(WGETPACKAGES) http://ftp.debian.org/debian/pool/main/f/fonts-open-sans/fonts-open-sans_1.11-1_all.deb
 	$(WGETPACKAGES) http://ftp.debian.org/debian/pool/main/f/fonts-open-sans/fonts-open-sans_1.11-1.dsc
 	$(WGETPACKAGES) http://ftp.debian.org/debian/pool/main/f/fonts-open-sans/fonts-open-sans_1.11.orig.tar.xz
-	
+
 	# https://github.com/horst3180/Ceti-2-theme
 	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862402
 	#$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/ceti-2-theme_1442961272.9fe3d9f_all.deb
