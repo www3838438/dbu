@@ -40,6 +40,9 @@ function _genPackagesDoc {
 		md_shortdescription=""
 		md_homepage="**[Homepage]($(echo "$dpkginfo" | egrep "^ Homepage" | head -n1 | awk -F": " '{print $2}'))**"
 		packages="$descriptionpackage"
+	elif egrep "^#Replace" $packagelist >/dev/null; then
+		md_shortdescription=""
+		md_description="$(egrep "^#Replace" $packagelist | cut -d" " -f1 --complement)"
 	else
 		# use #Desc field to specify the package to descript, or use the main package
 		if egrep "^#Desc:" $packagelist >/dev/null; then

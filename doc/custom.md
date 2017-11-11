@@ -110,6 +110,7 @@ documentation generation (`scripts/doc-generator.sh`).
  * `#Res`: URL to a resource/help link to add on the package doc page (using the target webpage title)
  * `#NoDescription`: putting this line in any package list will remove the long/short description from the resulting markdown file
  * `#ChrootPkg`: When this points to a package, package information will be fetched from the corresponding .deb in config/packages.chroot/ instead of the APT database
+ * `#Replace`: When this field is present at least once, replace the package list description with its value (can be used more than once for multiline descriptions)
 
 `doc/packages/*, doc/packages.md` should not be edited manually (Run `make doc`
 to update the markdown documentation from package lists.)
