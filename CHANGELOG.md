@@ -15,12 +15,14 @@ No changes yet.
 ### Deprecated
 -->
 
-## [v1.1](https://github.com/nodiscc/dbu/releases/tag/1.1) - 2017-11-07
+## [v1.1](https://github.com/nodiscc/dbu/releases/tag/1.1) - 2017-11-11
 
 ### Added
 
  * Add Virtualbox virtualization software
  * Add OBS Studio video recorder/streamer
+ * Add Blender 3D editor
+ * Add ReText markdown editor
  * Add various development/utility packages: dnsmasq-base  ghi, pypi2deb, python-praw, firejail, firetools, dfc, fonts-hack-ttf, xfce4-pulseaudio-plugin, gimp-help-fr, libdvd-pkg, asciio
  * Add basic default configuration file for youtube-dl
  * Add a set of default configuration files + scripts for conky
@@ -30,10 +32,12 @@ No changes yet.
  * Replace xpad with xfce4-notes (notetaking application)
  * Change main UI font to Roboto
  * Replace jpegoptim/optipng with trimage (image file optimization)
+ * Update quodlibet configuration
  * Disable haveged and bluetooth services by default
  * Installer: remove disk partitioning scheme customizations, don't auto-try DHCP network configuration
  * Add 'genpass' alias (generate random password)
  * Update all packages to their latest versions
+ * Improve documentation generation
  * Update documentation
 
 ### Removed
