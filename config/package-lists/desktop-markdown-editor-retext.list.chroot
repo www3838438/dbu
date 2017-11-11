@@ -1,5 +1,5 @@
 #Name: ReText markdown editor
-# Cat: Office
+#Cat: Office
 retext
 python3-enchant
 python3-yaml
