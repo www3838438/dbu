@@ -11,7 +11,7 @@ clean:
 	git clean -df
 
 tests:
-	shellcheck scripts/doc-generator.sh
+	shellcheck --exclude=SC2016,SC2086 scripts/doc-generator.sh
 
 documentation:
 	-rm -r doc/packages/*.md

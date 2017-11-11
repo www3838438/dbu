@@ -19,35 +19,32 @@ function _genPackagesDoc {
 	# gather information from a package list ($1), format it to markdown
 	packagelist=$1
 
-	packages=$(egrep "^[a0-z9]" $packagelist || echo "" ) # packages in list
+	packages=$(egrep "^[a0-z9]" "$packagelist" || echo "" ) # packages in list
 	mainpackage=$(echo "$packages " |head -n1 || echo "") # main package from the list
-	alt_packages=$(egrep "^#Alt:" $packagelist | cut -d" " -f1 --complement) # alternative/suggested packages
+	alt_packages=$(egrep "^#Alt:" "$packagelist" | cut -d" " -f1 --complement) # alternative/suggested packages
 	md_title="# $(egrep "^#Name" $packagelist | cut -d" " -f1 --complement)" # page title
-	md_resources=
-	md_category=
-
 	if egrep "^#NoDescription" "$packagelist" >/dev/null; then
 		# remove all descriptions if the package list has a #NoDescription field
 		md_description=""
 		md_shortdescription=""
 		md_homepage=""
-	elif egrep "^#ChrootPkg" $packagelist >/dev/null; then
+	elif egrep "^#ChrootPkg" "$packagelist" >/dev/null; then
 		# get information from .deb file if the list has a #ChrootPkg field
-		descriptionpackage=$(egrep "^#ChrootPkg" $packagelist | cut -d" " -f1 --complement)
+		descriptionpackage=$(egrep "^#ChrootPkg" "$packagelist" | cut -d" " -f1 --complement)
 		debfile=$(find config/packages.chroot/ -iname "${descriptionpackage}_*amd64*.deb" -o -iname "${descriptionpackage}_*all*.deb")
-		dpkginfo=$(dpkg -I $debfile)
+		dpkginfo=$(dpkg -I "$debfile")
 		md_description=$(echo "$dpkginfo" | egrep "^  [A-z]")
 		md_shortdescription=""
 		md_homepage="**[Homepage]($(echo "$dpkginfo" | egrep "^ Homepage" | head -n1 | awk -F": " '{print $2}'))**"
 		packages="$descriptionpackage"
-	elif egrep "^#Replace" $packagelist >/dev/null; then
+	elif egrep "^#Replace" "$packagelist" >/dev/null; then
 		md_shortdescription=""
 		md_description="$(egrep "^#Replace" $packagelist | cut -d" " -f1 --complement)"
 	else
 		# use #Desc field to specify the package to descript, or use the main package
-		if egrep "^#Desc:" $packagelist >/dev/null; then
-			descriptionpackage=$(egrep "^#Desc" $packagelist | cut -d" " -f1 --complement)
-		else descriptionpackage=$mainpackage
+		if egrep "^#Desc:" "$packagelist" >/dev/null; then
+			descriptionpackage=$(egrep "^#Desc" "$packagelist" | cut -d" " -f1 --complement)
+		else descriptionpackage="$mainpackage"
 		fi
 		# generate markdown page title, desciptions, homepage links
 		md_description="$(apt-cache show $descriptionpackage | egrep "^ " | egrep -v "::" | sed -e 's/^ \.$/ /g' | cut -b1 --complement)"
@@ -55,9 +52,9 @@ function _genPackagesDoc {
 		md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | egrep "^Homepage:" | head -n1 | cut -d" " -f1 --complement))**"
 	fi
 	# TODO: move this to the loop above
-	if egrep "^#Screenshot:" $packagelist >/dev/null; then
-		screenshotpackage=$(egrep "^#Screenshot:" $packagelist | cut -d" " -f1 --complement)
-		else screenshotpackage=$mainpackage
+	if egrep "^#Screenshot:" "$packagelist" >/dev/null; then
+		screenshotpackage=$(egrep "^#Screenshot:" "$packagelist" | cut -d" " -f1 --complement)
+		else screenshotpackage="$mainpackage"
 	fi
 
 	md_screenshot="[![](https://screenshots.debian.net/thumbnail/$screenshotpackage/)](https://screenshots.debian.net/screenshot/$screenshotpackage/)"
@@ -100,7 +97,7 @@ function _main {
 	# generate markdown package pages for all package lists
 	for i in config/package-lists/[a-z]*.list.chroot; do
 		echo "$i"
-		_genPackagesDoc $i > doc/packages/$(basename $i).md
+		_genPackagesDoc "$i" > "doc/packages/$(basename $i).md"
 	done
 }
 
