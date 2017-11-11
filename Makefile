@@ -4,6 +4,8 @@ all: buildenv clean tests update ffxpi tbxpi documentation lbbuild
 
 update: ffaddons tbaddons packageschroot binaries themes dotfiles
 
+release: checksums sign torrent
+
 buildenv:
 	sudo apt install live-build make build-essential wget git xmlstarlet unzip colordiff shellcheck
 
@@ -23,13 +25,18 @@ lbbuild:
 	sudo lb config
 	sudo lb build
 
-checksum_sign:
+checksums:
 	last_tag=$$(git tag | tail -n1); \
 	cd iso/; \
 	rename "s/live-image/dbu-$$last_tag-debian-stretch/" *; \
 	sha512sum *.iso  > SHA512SUMS; \
+
+sign:
 	gpg --detach-sign --armor SHA512SUMS; \
 	mv SHA512SUMS.asc SHA512SUMS.sign
+
+torrent:
+	echo "TODO not implemented"; exit 1
 
 # compare the resulting image's package list against upstream debian/xfce live image
 pkglist_url="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-9.2.0-amd64-xfce.packages"
