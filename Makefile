@@ -53,87 +53,86 @@ ffaddonsdir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions
 #addonsdir=config/includes.chroot/usr/share/firefox/distribution/extensions/
 ffaddons:
 	if [ ! -d $(ffaddonsdir) ]; then mkdir -p $(ffaddonsdir); fi
-	# Security / privacy addons
-	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/ [e10s]
+	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/ [e10s] [security]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/ [e10s]
+	#https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/ [e10s] [security]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/ [e10s]
+	#https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/ [e10s] [security]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/ [e10s]
+	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/ [e10s] [security]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/521554/addon-521554-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/
+	#https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/ [security]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
+	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ [security]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/platform:5/addon-784287-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/ [webextension]
+	#https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/ [webextension] [ui]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/dark-mode-webextension/addon-786990-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/simple-youtube-repeater/ [webextension]
+	#https://addons.mozilla.org/en-US/firefox/addon/simple-youtube-repeater/ [webextension] [ui]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/simple-youtube-repeater/platform:2/addon-622208-latest.xpi
 	#
-	# more addons (disabled):
-	# https://addons.mozilla.org/en-US/firefox/addon/smart-referer/ [e10s]
-	# https://addons.mozilla.org/en-US/firefox/addon/link-cleaner/[webextension]
-	# https://addons.mozilla.org/en-US/firefox/addon/note-taker/ [webextension]
-	# https://addons.mozilla.org/en-US/firefox/addon/surligneur/ [webextension]
-	# https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/ [legacy]
-	# https://addons.mozilla.org/en-US/firefox/addon/downthemall/ [e10s]
-	# https://addons.mozilla.org/en-US/firefox/addon/bulk-media-downloader/ [webextension]
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/ [legacy]
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-autosave/ [legacy]
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-maf-creator/ [legacy]
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/ [legacy]
-	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/ [legacy]
-	# https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/ [legacy]
-	# https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ [e10s]
-	# https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/ [webextension]
-	# https://addons.mozilla.org/en-us/firefox/addon/yet-another-context-search/ [legacy]
-	# https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/ [legacy]
-	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-bookmarks/
-	# https://addons.mozilla.org/en-US/firefox/addon/password-exporter/
-	# https://addons.mozilla.org/en-US/firefox/addon/watch-with-mpv/
-	# https://addons.mozilla.org/en-US/firefox/addon/about-addons-memory/
-	# https://addons.mozilla.org/en-us/firefox/addon/auto-refresh-for-twitter/
-	# https://addons.mozilla.org/en-US/firefox/addon/bookmark-autohider/
-	# https://addons.mozilla.org/en-US/firefox/addon/bookmark-deduplicator/
-	# https://addons.mozilla.org/en-US/firefox/addon/bookrect/
-	# https://addons.mozilla.org/en-US/firefox/addon/certificate-patrol/
-	# https://addons.mozilla.org/en-US/firefox/addon/floatnotes/
-	# https://addons.mozilla.org/en-US/firefox/addon/gnotifier/
-	# https://addons.mozilla.org/en-us/firefox/addon/http-nowhere/
-	# https://addons.mozilla.org/en-US/firefox/addon/lightbeam/
-	# https://addons.mozilla.org/en-US/firefox/addon/link-visitor-3/
-	# https://addons.mozilla.org/en-US/firefox/addon/markdown-viewer/
-	# https://addons.mozilla.org/en-US/firefox/addon/mind-the-time/
-	# https://addons.mozilla.org/en-US/firefox/addon/mozilla-archive-format/
-	# https://addons.mozilla.org/en-US/firefox/addon/multifox/
-	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-tools/
-	# https://addons.mozilla.org/en-US/firefox/addon/noscript/
-	# https://addons.mozilla.org/en-US/firefox/addon/password-reuse-visualizer/
-	# https://addons.mozilla.org/en-US/firefox/addon/perspectives/
-	# https://addons.mozilla.org/en-US/firefox/addon/print-edit/
-	# https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/
-	# https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/
-	# https://addons.mozilla.org/en-US/firefox/addon/requestpolicy-continued/
-	# https://addons.mozilla.org/en-US/firefox/addon/simple-mail/
-	# https://addons.mozilla.org/en-us/firefox/addon/ssleuth/
-	# https://addons.mozilla.org/en-US/firefox/addon/tab-badge/
-	# https://addons.mozilla.org/en-US/firefox/addon/tab-scope/
-	# https://addons.mozilla.org/en-US/firefox/addon/tamper-data/
-	# https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/
-	# https://addons.mozilla.org/en-US/firefox/addon/toggle-js/
-	# https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/
-	# https://addons.mozilla.org/en-US/firefox/addon/turn-off-the-lights/
-	# https://addons.mozilla.org/en-US/firefox/addon/umatrix/
-	# https://addons.mozilla.org/en-us/firefox/addon/unloadtab/
-	# https://addons.mozilla.org/en-US/firefox/addon/update-scanner/
-	# https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/
-	# https://addons.mozilla.org/en-US/firefox/addon/yesscript/
-	# https://addons.mozilla.org/en-us/firefox/addon/copy-as-markdown/
-	# https://addons.mozilla.org/en-US/firefox/addon/open-livestreamer/
-	# https://addons.mozilla.org/en-US/firefox/addon/privacy-settings-webextension/ [legacy]
-	# https://addons.mozilla.org/en-US/firefox/addon/policy-control/ [legacy]
-	# https://addons.mozilla.org/en-US/firefox/addon/rsstube/ [webextension] (broken)
+	# Other addons:
+	# https://addons.mozilla.org/en-US/firefox/addon/smart-referer/ [e10s] [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/link-cleaner/ [webextension] [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/note-taker/ [webextension] [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/surligneur/ [webextension] [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/ [legacy] [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/downthemall/ [e10s] [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/bulk-media-downloader/ [webextension] [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-x/ [legacy] [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-autosave/ [legacy] [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-maf-creator/ [legacy] [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/ [legacy] [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/ [legacy] [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/ [legacy] [ui]
+	# https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ [e10s] [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/ [webextension] [tools]
+	# https://addons.mozilla.org/en-us/firefox/addon/yet-another-context-search/ [legacy] [ui]
+	# https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/ [legacy] [ui]
+	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-bookmarks/ [ui]
+	# https://addons.mozilla.org/en-US/firefox/addon/password-exporter/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/watch-with-mpv/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/about-addons-memory/ [dev]
+	# https://addons.mozilla.org/en-us/firefox/addon/auto-refresh-for-twitter/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/bookmark-autohider/ [ui]
+	# https://addons.mozilla.org/en-US/firefox/addon/bookmark-deduplicator/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/bookrect/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/certificate-patrol/ [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/floatnotes/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/gnotifier/ [tools]
+	# https://addons.mozilla.org/en-us/firefox/addon/http-nowhere/ [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/lightbeam/ [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/link-visitor-3/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/markdown-viewer/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/mind-the-time/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/mozilla-archive-format/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/multifox/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/new-tab-tools/ [ui]
+	# https://addons.mozilla.org/en-US/firefox/addon/noscript/ [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/password-reuse-visualizer/ [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/perspectives/ [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/print-edit/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/ [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/requestpolicy-continued/ [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/simple-mail/ [tools]
+	# https://addons.mozilla.org/en-us/firefox/addon/ssleuth/ [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/tab-badge/ [ui]
+	# https://addons.mozilla.org/en-US/firefox/addon/tab-scope/ [ui]
+	# https://addons.mozilla.org/en-US/firefox/addon/tamper-data/ [dev]
+	# https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/ [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/toggle-js/ [ui]
+	# https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/ [ui]
+	# https://addons.mozilla.org/en-US/firefox/addon/turn-off-the-lights/ [ui]
+	# https://addons.mozilla.org/en-US/firefox/addon/umatrix/[security]
+	# https://addons.mozilla.org/en-us/firefox/addon/unloadtab/ [dev]
+	# https://addons.mozilla.org/en-US/firefox/addon/update-scanner/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/ [dev]
+	# https://addons.mozilla.org/en-US/firefox/addon/yesscript/ [security]
+	# https://addons.mozilla.org/en-us/firefox/addon/copy-as-markdown/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/open-livestreamer/ [tools]
+	# https://addons.mozilla.org/en-US/firefox/addon/privacy-settings-webextension/ [legacy] [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/policy-control/ [legacy] [security]
+	# https://addons.mozilla.org/en-US/firefox/addon/rsstube/ [webextension] (broken) [ui]
 
 #rename xpis from their id
 ffxpi:

@@ -14,6 +14,21 @@ mupen64plus-audio-all
 mupen64plus-rsp-all
 mupen64plus-video-all
 
+#Alt: retroarch
+#Alt: libretro-beetle-pce-fast
+#Alt: libretro-beetle-psx
+#Alt: libretro-beetle-vb
+#Alt: libretro-beetle-wswan
+#Alt: libretro-bsnes-mercury-accuracy
+#Alt: libretro-bsnes-mercury-balanced
+#Alt: libretro-bsnes-mercury-performance
+#Alt: libretro-desmume
+#Alt: libretro-gambatte
+#Alt: libretro-mupen64plus
+#Alt: libretro-mgba
+#Alt: libretro-nestopia
+#Alt: libretro-genesisplusgx
+#Alt: libretro-snes9x
 #Alt: yabause-gtk
 #Alt: games-emulator
 #Alt: fceu

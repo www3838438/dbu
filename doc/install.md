@@ -17,7 +17,9 @@ Download `dbu-release.key`, `SHA512SUMS.sign` and `SHA512SUMS` from the [release
 
 The key used to sign releases has the key ID `0028A686E4546CD17579570F99883828CD9019B8`.
 
-### Writing the installation media
+### Writing the bootable media
+
+You can also run the system in a virtual machine, using virtualization software such as [VirtualBox](https://www.virtualbox.org), in that case writing a bootable drive is not needed and you can simply load the `.iso` file in the virtual machine's CD drive.
 
 #### To USB - From Linux
 
@@ -41,22 +43,23 @@ The key used to sign releases has the key ID `0028A686E4546CD17579570F99883828CD
 
 ### Booting your computer from USB/DVD
 
-Turn your computer off. Insert the installation USB/DVD, and turn it back on. The
+Turn your computer off. Insert the bootable USB/DVD, and turn it back on. The
 computer should boot to the main menu where you are given the choice to start the
 Live system, or to install it permanently to your hard drive.
 
-| 💥 | If your computer does not boot to the live DVD/USB, Check that the computer BIOS is configured to boot from CD/DVD or USB. |
+| 💥 | If your computer does not boot to the DVD/USB, check that the computer [BIOS/EFI boot configuration](http://www.makeuseof.com/tag/enter-bios-computer/) utility is configured to boot from CD/DVD or USB. |
 |---------|---------|
 
 | 💥 | On some computers you need to disable [Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_boot) before installing a Linux distribution. See **[Disabling Secure Boot in Windows 8](disable-secure-boot.md)** |
 |---------|---------|
 
+The boot menu will be displayed, allowing you to install the operating system or run it in Live mode.
 
 #### Live operating system
 
 The Live system runs entirely in memory and allows you to use the operating system
 without installing it to your machine. No changes to the Live filesystem are kept,
-(eg. files in user home directories), the system will reset to it's original state
+(eg. files in user directories), the system will reset to it's original state
 when the computer is powered off. Changes to files/directory on other drives attached
 to the computer will be kept.
 
