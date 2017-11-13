@@ -152,18 +152,3 @@ _Documentation, forums, communities, support channels..._
  * Debian installation: [Debian CD images](http://cdimage.debian.org/cdimage/), [CD images including firmware](http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/), [Installation Guide](https://www.debian.org/releases/stable/amd64/), [Installing Debian step by step](https://debian-handbook.info/browse/stable/sect.installation-steps.html)
  * [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), [Free and open-source software portal](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
  * [StackExchange](https://stackexchange.com/search), [CCM FAQ [fr]](http://www.commentcamarche.net/faq/linux-97)
-
-
-### Software lists
-
- * **[Debian packages](https://packages.debian.org)**, **[Debian Screenshots](https://screenshots.debian.net/)**
- * [Open Source Linux Software - AlternativeTo.net](https://alternativeto.net/platform/linux/?license=opensource&sort=addeddate)
- * [List of applications - ArchWiki](https://wiki.archlinux.org/index.php/List_of_Applications)
- * [Framalibre - Annuaire du libre [fr]](https://framalibre.org/)
- * Software [forges](https://en.wikipedia.org/wiki/Forge_(software)): [Github](https://github.com/explore), [GitLab](https://gitlab.com/explore), [SourceForge](https://sourceforge.net/), [Launchpad](https://launchpad.net/projects/+all)
- * Other distributions: [The LiveCD List](http://www.livecdlist.com/), [DistroWatch](http://distrowatch.com/)
- * [awesome-selfhosted: Free Software network services and web applications](https://github.com/Kickball/awesome-selfhosted)
- * [awesome-sysadmin: Open-source system administration resources.](https://github.com/n1trux/awesome-sysadmin)
- * [awesome-linuxaudio: Software for professional audio/video/live events production on Linux](https://github.com/nodiscc/awesome-linuxaudio)
- * [awesome-shell: List of command-line frameworks, toolkits, and guides](https://github.com/alebcay/awesome-shell)
-

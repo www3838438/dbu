@@ -2,11 +2,9 @@ w## dbu - TODO
 
 
 ```
-  ☐ [bug] [important] [security] verify integrity and GPG signatures for packages.chroot/*.deb: https://askubuntu.com/questions/253728/how-to-safely-download-and-gpg-verify-a-debian-source-package
   ☐ [enh] Host ISO on http://iso.linuxquestions.org/?
   ☐ [enh] replace sound-juicer with other ripping software (asunder?) to get rid of libbrasero/quvi dependency
   ☐ [enh] [doc] add package versions to generated md documentation
-  ☐ [bug] [TEST] [doc] add packages.chroot/* and software downloaded through makefile to packages/installed software documentation
   ☐ [bug] some firefox addons are not installed: no resource uri leak, cookie autodelete, dark mode, ...
   ☐ [bug] GRUB > Advanced > Live (@FLAVOUR@ failsafe)
   ☐ [enh] preseed "domain name" installer question to None, preseed "full user name" question to match the unix username
@@ -37,5 +35,15 @@ w## dbu - TODO
   ☐ [enh] Find e10s and/or Webextensions compatible addons for Firefox (https://addons.mozilla.org/en-US/firefox/search/?tag=firefox57)
   ☐ [enh] Display more items in xfce4-settings-manager: `blueman-manager.desktop dbu-software-properties-gtk.desktop exo-preferred-applications.desktop gparted.desktop light-locker-settings.desktop menulibre.desktop network.desktop nm-connection-editor.desktop org.gnome.DiskUtility.desktop org.gnome.Packages.desktop org.gnome.FontManager.desktop org.gnome.PackageUpdater.desktop org.gnome.Software.desktop panel-preferences.desktop paprefs.desktop qtconfig-qt4.desktop seahorse.desktop services.desktop shares.desktop software-properties-drivers.desktop software-properties-gnome.desktop software-properties-gtk.desktop steam.desktop backintime-qt4.desktop backintime-qt4-root.desktop synaptic.desktop system-config-printer.desktop time.desktop users.desktop pavucontrol.desktop`
   ☐ [enh] Makefile: automate torrent creation: transmission-create dbu-0.9n-debian-stretch-amd64.hybrid.iso -o dbu-0.9n-debian-stretch-amd64.hybrid.iso.torrent -t  udp://tracker.opentrackr.org:1337 -t  udp://tracker.coppersurfer.tk:6969   -t udp://tracker.leechers-paradise.org:6969 -t  udp://zer0day.ch:1337 -t  udp://explodie.org:6969
+    package https://github.com/MrS0m30n3/youtube-dl-gui/releases http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/ +  http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/p/python-twodict/
+    package https://launchpad.net/light-locker-settings http://archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/
+    package https://github.com/dequis/purple-facebook/wiki http://download.opensuse.org/repositories/home:/jgeboski/Debian_9.0/amd64/purple-facebook_20171004~4aa77de~9ff9acf9fa14~137_amd64.deb
+    package http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/  https://numixproject.org
+    package https://github.com/snwh/paper-gtk-theme http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862403 http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/
+    package https://github.com/snwh/paper-cursor-theme http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/
+    package https://qwinff.github.io/ https://github.com/qwinff/qwinff/issues/18 https://github.com/qwinff/qwinff http://ppa.launchpad.net/lzh9102/qwinff/ubuntu/pool/main/q/
+    package http://www.opensans.com/ https://packages.debian.org/sid/fonts-open-sans http://ftp.debian.org/debian/pool/main/f/fonts-open-sans/
+    package https://github.com/horst3180/Ceti-2-theme http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862402 http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/
+    package https://github.com/horst3180/Vertex-theme http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/
 
 ```

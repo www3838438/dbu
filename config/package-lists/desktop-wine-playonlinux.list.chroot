@@ -15,10 +15,10 @@ libgl1-mesa-dri:i386
 
 
 #Cat: Utility
-#Res: https://wiki.debian.org/Wine
-#Res: http://appdb.winehq.org/
-#Res: http://appdb.winehq.org/objectManager.php?sClass=application&sTitle=Browse%20Applications&sOrderBy=appName&bAscending=true
-#Res: http://en.wikipedia.org/wiki/Wine
+
+
+
+
 
 #Alt: gnome-exe-thumbnailer
 #Alt: fonts-wine

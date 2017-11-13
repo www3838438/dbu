@@ -1,8 +1,8 @@
-#Name: QWinFF multimedia file converter
+#Name: WinFF multimedia file converter
 
-#ChrootPkg: qwinff
+winff
 
-#Alt: winff
+#Alt: winff-doc
 #Alt: winff-qt
 #Alt: sinthgunt
 #Alt: handbrake

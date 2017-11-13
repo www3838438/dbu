@@ -26,10 +26,10 @@ vrms
 apt-listchanges
 debconf-utils
 
-#Res: http://doc.ubuntu-fr.org/gestionnaire_de_paquets
-#Res: http://fr.wikipedia.org/wiki/Synaptic
-#Res: http://doc.ubuntu-fr.org/synaptic
-#Res: https://wiki.debian.org/UnattendedUpgrades
+
+
+
+
 
 #Alt: unattended-upgrades
 #Alt: apturl

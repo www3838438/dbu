@@ -12,6 +12,7 @@ config/includes.chroot/usr/share/themes/Zukitre/
 config/includes.chroot/usr/share/themes/Numix/
 config/includes.chroot/usr/share/themes/Greybird/
 config/includes.chroot/usr/share/themes/Bluebird/
+config/includes.chroot/usr/share/icons/Paper*
 config/includes.chroot/usr/share/thunderbird/extensions/*.xpi
 config/packages.chroot/*.deb
 config/packages.chroot/*.dsc

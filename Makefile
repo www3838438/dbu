@@ -164,8 +164,6 @@ tbaddons:
 	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/file/423919/addon-423919-latest.xpi
 	#https://addons.mozilla.org/fr/thunderbird/addon/account-colors/
 	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/account-colors/addon-14385-latest.xpi
-
-	#
 	# more addons:
 	# https://addons.mozilla.org/en-US/thunderbird/addon/printingtools/
 	# https://addons.mozilla.org/fr/firefox/addon/minimizetotray-revived/
@@ -177,13 +175,9 @@ tbaddons:
 	# https://addons.mozilla.org/en-us/thunderbird/addon/webdav-for-filelink/
 	# https://addons.mozilla.org/fr/thunderbird/addon/quickfolders-tabbed-folders/
 	# https://addons.mozilla.org/fr/thunderbird/addon/todotxt-extension/
-	#wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/650068/platform:2/addon-650068-latest.xpi
 	# https://addons.mozilla.org/fr/thunderbird/addon/categorymanager/
-	#wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/472193/addon-472193-latest.xpi
-	# http://sogo.nu/download.html#/frontends
-	#wget -N -nv --show-progress -P $(tbaddonsdir) http://www.sogo.nu/files/downloads/SOGo/Thunderbird/sogo-connector-31.0.3.xpi
+	# https://sogo.nu/download.html#/frontends
 	# https://addons.mozilla.org/en-US/thunderbird/addon/contact-tabs/
-	#wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/306600/addon-306600-latest.xpi
 
 tbxpi:
 	@for xpi in $$(find $(tbaddonsdir) -name '*.xpi'); do \
@@ -192,88 +186,22 @@ tbxpi:
 	done
 
 ################################################################################
-# download non-debian chroot packages
-# needs to be updated manually when upstream versions change
-# ideally everything should be packaged in the Debian archive
-# see https://github.com/nodiscc/scriptz for more software
+# Download extra .deb packages for inclusion in the resulting system
+# Packages listed here will receive no automatic upgrades, unless someone packages
+# them under the same name in the Debian archive. Packages listed here will NOT
+# be verified by GPG signing mechanisms, so it is advised to rely on a secure
+# transport (such as HTTPS + checksum verification) to ensure they are authentic.
+# If adding packages from an APT repository, you could download the Release,
+# Release signature, and Packages files, download the signing key by secure means,
+# Then verifying the signature and checksums as described in 
+# https://debian-handbook.info/browse/stable/sect.package-authentication.html
+# Adding .deb packages downloaded via HTTP is NOT recommended.
 WGETPACKAGES := wget -N -nv --show-progress -P config/packages.chroot/
 packageschroot:
 	-mkdir -pv config/packages.chroot
-	
-	# https://launchpad.net/light-locker-settings
-	# ubuntu-archive-keyring.gpg
-	$(WGETPACKAGES) http://archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0-0ubuntu1.debian.tar.xz
-	$(WGETPACKAGES) http://archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0-0ubuntu1.dsc
-	$(WGETPACKAGES) http://archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0-0ubuntu1_all.deb
-	$(WGETPACKAGES) http://archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/light-locker-settings_1.5.0.orig.tar.bz2
-	
-	# https://github.com/dequis/purple-facebook/wiki
-	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_9.0/amd64/purple-facebook_20171004~4aa77de~9ff9acf9fa14~137_amd64.deb
-	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_9.0/purple-facebook_20171004~4aa77de~9ff9acf9fa14~137.tar.gz
-	$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/jgeboski/Debian_9.0/purple-facebook_20171004~4aa77de~9ff9acf9fa14~137.dsc
-	
-	# https://github.com/MrS0m30n3/youtube-dl-gui/releases
-	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.4-1~webupd8~zesty4.debian.tar.xz
-	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.4-1~webupd8~zesty4.dsc
-	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.4-1~webupd8~zesty4_all.deb
-	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.4.orig.tar.gz
-	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/p/python-twodict/python-twodict_1.2-1~webupd8~zesty0_all.deb
-	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/p/python-twodict/python-twodict_1.2-1~webupd8~zesty0.dsc
-	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/p/python-twodict/python-twodict_1.2-1~webupd8~zesty0.debian.tar.xz
-	$(WGETPACKAGES) http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/p/python-twodict/python-twodict_1.2.orig.tar.gz
-
-	
 	# https://github.com/feross/webtorrent-desktop/
 	-$(WGETPACKAGES) https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
 
-	### GTK/WM THEMES (from git) ###
-	# https://numixproject.org
-	#$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.dsc
-	#$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1.tar.xz
-	#$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-bevel/numix-icon-theme-bevel_1.0+201410212340~8~ubuntu14.10.1_all.deb
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+17~201709261931~ubuntu14.04.1.dsc
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+17~201709261931~ubuntu14.04.1.tar.gz
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme-circle/numix-icon-theme-circle_2.0.3+17~201709261931~ubuntu14.04.1_all.deb
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+923~201711101702~ubuntu17.10.1.dsc
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+923~201711101702~ubuntu17.10.1.tar.xz
-	$(WGETPACKAGES) http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/numix-icon-theme/numix-icon-theme_0.3+923~201711101702~ubuntu17.10.1_all.deb	
-		
-	# https://github.com/snwh/paper-gtk-theme
-	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862403
-	# https://github.com/nodiscc/paper-icon-theme/tree/debian-packaging
-	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1.dsc
-	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1.tar.gz
-	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-gtk-theme/paper-gtk-theme_2.1+r265~daily~ubuntu16.04.1_all.deb
-	
-	# https://github.com/snwh/paper-icon-theme
-	# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=802505
-	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1.dsc
-	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1.tar.xz
-	$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-icon-theme_1.3+r672~daily~ubuntu15.10.1_all.deb
-
-	# https://github.com/snwh/paper-cursor-theme (disabled)
-	#$(WGETPACKAGES) http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/paper-icon-theme/paper-cursor-theme_1.3+r672~daily~ubuntu15.10.1_all.deb
-
-	# https://qwinff.github.io/
-	# https://github.com/qwinff/qwinff
-	# https://github.com/qwinff/qwinff/issues/18
-	$(WGETPACKAGES) http://ppa.launchpad.net/lzh9102/qwinff/ubuntu/pool/main/q/qwinff/qwinff_0.2.0-1~wily2.debian.tar.gz
-	$(WGETPACKAGES) http://ppa.launchpad.net/lzh9102/qwinff/ubuntu/pool/main/q/qwinff/qwinff_0.2.0-1~wily2.dsc
-	$(WGETPACKAGES) http://ppa.launchpad.net/lzh9102/qwinff/ubuntu/pool/main/q/qwinff/qwinff_0.2.0-1~wily2_amd64.deb
-
-	# http://www.opensans.com/
-	# https://packages.debian.org/sid/fonts-open-sans
-	$(WGETPACKAGES) http://ftp.debian.org/debian/pool/main/f/fonts-open-sans/fonts-open-sans_1.11-1.debian.tar.xz
-	$(WGETPACKAGES) http://ftp.debian.org/debian/pool/main/f/fonts-open-sans/fonts-open-sans_1.11-1_all.deb
-	$(WGETPACKAGES) http://ftp.debian.org/debian/pool/main/f/fonts-open-sans/fonts-open-sans_1.11-1.dsc
-	$(WGETPACKAGES) http://ftp.debian.org/debian/pool/main/f/fonts-open-sans/fonts-open-sans_1.11.orig.tar.xz
-
-	# https://github.com/horst3180/Ceti-2-theme
-	# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862402
-	#$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/ceti-2-theme_1442961272.9fe3d9f_all.deb
-	
-	# https://github.com/horst3180/Vertex-theme
-	#$(WGETPACKAGES) http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/vertex-theme_1459280359.d828032_all.deb
 
 ################################################################################
 # Download prebuilt binaries for non-packaged software
@@ -285,7 +213,7 @@ binaries:
 		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
 
 ################################################################################
-# download gtk/wm themes
+# download gtk/wm/icon themes
 themes:
 	-rm -rf config/includes.chroot/usr/share/themes/
 	mkdir -pv config/includes.chroot/usr/share/themes/
@@ -303,6 +231,13 @@ themes:
 	git clone --depth=1 https://github.com/lassekongo83/zuki-themes tmp-zuki-themes
 	mv tmp-zuki-themes/Zukitre tmp-zuki-themes/Zukitwo config/includes.chroot/usr/share/themes/
 	rm -rf tmp-zuki-themes
+
+	-rm -rf config/includes.chroot/usr/share/icons/
+	mkdir -pv config/includes.chroot/usr/share/icons/	
+	# TODO http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862403 https://github.com/snwh/paper-gtk-theme http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/
+	git clone --depth=1 https://github.com/snwh/paper-icon-theme tmp-paper-icon-theme
+	mv tmp-paper-icon-theme/Paper tmp-paper-icon-theme/Paper-Mono-Dark config/includes.chroot/usr/share/icons/
+	rm -rf tmp-paper-icon-theme
 
 ################################################################################
 # download misc configuration files

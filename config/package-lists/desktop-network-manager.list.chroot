@@ -11,9 +11,9 @@ wireless-regdb
 dnsmasq-base
 
 #Cat: System
-#Res: http://doc.ubuntu-fr.org/network-manager
-#Res: http://fr.wikipedia.org/wiki/NetworkManager
-#Res: http://projects.gnome.org/NetworkManager/users/
+
+
+
 
 #Alt: wicd
 #Alt: connman
