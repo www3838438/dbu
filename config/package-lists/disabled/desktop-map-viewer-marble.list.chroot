@@ -22,8 +22,5 @@ geoclue-2.0
 #Alt: mkgmap
 #Alt: foxtrotgps
 
-#Category: Office
-#Category: Utility
-#Res: http://marble.kde.org/
-#Res: http://code.google.com/p/gmapcatcher/
-#Res: https://fr.wikipedia.org/wiki/Marble
+#Cat: Office
+

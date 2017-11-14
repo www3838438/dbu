@@ -1,4 +1,4 @@
-## Usage
+# Usage
 
  * Refer to each package's [online documentation](packages.md)
  * Use the `Help` menu inside programs.
@@ -143,12 +143,14 @@ _Documentation, forums, communities, support channels..._
 ### Debian/General
 
  * **[Debian Documentation](https://www.debian.org/doc/)**
- * **[Arch Linux wiki](https://wiki.archlinux.org/)**
+ * **[Arch Linux wiki](https://wiki.archlinux.org/)**, **[List of Applications](https://wiki.archlinux.org/index.php/List_of_applications)**, **[Other software lists](https://wiki.archlinux.org/index.php/List_of_applications#See_also)**
  * **[Debian Project Homepage](https://www.debian.org/)**
  * **[Debian Resources](https://wiki.debian.org/DebianResources)** [[➝fr]](https://wiki.debian.org/fr/DebianResources) [[➝de]](https://wiki.debian.org/de/DebianResources) [[➝es]](https://wiki.debian.org/es/DebianResources)
+ * Help: **[Debian forums](http://forums.debian.net/)** [[➝fr]](https://www.debian-fr.org/), [IRC](https://wiki.debian.org/IRC), [StackExchange](https://stackexchange.com/search), [ServerFault](https://serverfault.com/), [SuperUser](https://superuser.com/), [UNIX StackExchange](https://unix.stackexchange.com/)
  * [Debian - Wikipedia](https://en.wikipedia.org/wiki/Debian) [[➝fr]](https://fr.wikipedia.org/wiki/Debian) [[➝de]](https://de.wikipedia.org/wiki/Debian) [[➝es]](https://es.wikipedia.org/wiki/Debian)
  * [Debian Social Contract](https://www.debian.org/social_contract) [[➝fr]](https://www.debian.org/social_contract.fr.html) [[➝de]](https://www.debian.org/social_contract.de.html) [[➝es]](https://www.debian.org/social_contract.es.html), [Debian Constitution](https://www.debian.org/devel/constitution)
  * Hardware: [Debian Hardware Compatibility List](http://kmuto.jp/debian/hcl/index.cgi), [Linux Laptop Wiki](http://www.linlap.com/)
  * Debian installation: [Debian CD images](http://cdimage.debian.org/cdimage/), [CD images including firmware](http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/), [Installation Guide](https://www.debian.org/releases/stable/amd64/), [Installing Debian step by step](https://debian-handbook.info/browse/stable/sect.installation-steps.html)
  * [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), [Free and open-source software portal](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
- * [StackExchange](https://stackexchange.com/search), [CCM FAQ [fr]](http://www.commentcamarche.net/faq/linux-97)
+ * 
+, [CCM FAQ [fr]](http://www.commentcamarche.net/faq/linux-97)

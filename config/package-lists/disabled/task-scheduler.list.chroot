@@ -1,9 +1,6 @@
 #Name: Planificateur de tâches
 #gnome-schedule #not in stretch/sid (abandoned?)
 
-#Res: http://doc.ubuntu-fr.org/gnome-schedule
-
-
 #Replace: GNOME-Schedule est une interface graphique permettant de configurer un les tâches planifiées (cron).
 #Replace: Certaines de ses fonctionnalités sont :
 #Replace: 

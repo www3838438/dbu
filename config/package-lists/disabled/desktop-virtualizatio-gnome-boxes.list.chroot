@@ -1,5 +1,6 @@
 #Name: GNOME Boxes virtualization solution
 #Desc: gnome-boxes
+#Cat: Utility
 #Screenshot: gnome-boxes
 
 gnome-boxes
@@ -10,4 +11,3 @@ gnome-boxes
 #Alt: lxc
 #Alt: rkt
 
-#Cat: Utility

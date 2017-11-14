@@ -3,5 +3,4 @@ vino
 
 #Append:  Port par défaut: `TCP/UDP 15930` (avec chiffrement TLS)
 
-#Res: http://doc.ubuntu-fr.org/vnc
-#Res: http://people.gnome.org/~markmc/remote-desktop.html
+

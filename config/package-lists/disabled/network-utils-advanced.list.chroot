@@ -1,5 +1,6 @@
 #Name: Advanced network/security tools
 #NoDescription
+#Cat: Network
 
 #load testing
 siege
@@ -22,7 +23,7 @@ putty-tools
 
 # dns
 dnsutils
-dnsmasq
+dnsmasq #TODO disable in hooks
 dnscrypt-proxy
 dns-root-data
 namebench

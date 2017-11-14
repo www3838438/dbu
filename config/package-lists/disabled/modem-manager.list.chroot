@@ -1,4 +1,6 @@
 #Name: Cellphone and Modem Support
+#Cat: Network
+
 modemmanager
 modem-manager-gui
 mobile-broadband-provider-info
@@ -8,5 +10,3 @@ usb-modeswitch
 #Alt: gnome-phone-manager
 #Alt: kdeconnect
 
-#Cat: System
-#Cat: Network

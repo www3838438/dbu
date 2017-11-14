@@ -1,4 +1,5 @@
 #Name: Remmina remote desktop viewer
+#Cat: Network
 #Desc: remmina
 #Screenshot: remmina
 
@@ -14,4 +15,3 @@ libfreerdp-plugins-standard
 #Alt: xpra
 #Alt: vinagre
 
-#Cat: Network
