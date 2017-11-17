@@ -55,7 +55,7 @@ removing or updating software packages.
  - [Audacity audio editor](packages/desktop-audio-editor-audacity.list.chroot.md)
  - [GNOME sound recorder](packages/desktop-audio-recorder-gnome-sound-recorder.list.chroot.md)
  - [Xfburn CD/DVD burning tool](packages/desktop-cd-burning-xfburn.list.chroot.md)
- - [QWinFF multimedia file converter](packages/desktop-media-converter-winff.list.chroot.md)
+ - [WinFF multimedia file converter](packages/desktop-media-converter-winff.list.chroot.md)
  - [MPV media player](packages/desktop-media-player-mpv.list.chroot.md)
  - [VLC media player](packages/desktop-media-player-vlc.list.chroot.md)
  - [QuodLibet music player/library manager](packages/desktop-music-player-quodlibet.list.chroot.md)
@@ -99,7 +99,7 @@ removing or updating software packages.
  - [Plymouth boot screen](packages/desktop-bootscreen-plymouth.list.chroot.md)
  - [Baobab disk usage analyzer](packages/desktop-diskusage-baobab.list.chroot.md)
  - [GNOME Disk utility](packages/desktop-diskutilities-gnome-disks.list.chroot.md)
- - [Lightdm Display manager](packages/desktop-display-manager.list.chroot.md)
+ - [Lightdm Display manager](packages/desktop-display-manager-lightdm.list.chroot.md)
  - [Bleachbit file cleaner](packages/desktop-file-cleaner-bleachbit.list.chroot.md)
  - [Network Manager](packages/desktop-network-manager.list.chroot.md)
  - [Light-locker screen locker](packages/desktop-screen-locker-light-locker.list.chroot.md)
@@ -129,14 +129,5 @@ removing or updating software packages.
  - [Stellarium](packages/desktop-science-stellarium.list.chroot.md)
 
 ### Non-debian packages
-* [fonts-open-sans](http://www.opensans.com/) -  humanist sans serif typeface by Steve Matteson
-* [light-locker-settings](https://launchpad.net/light-locker-settings) -  simple configuration tool for light-locker
-* [numix-icon-theme-circle](http://numixproject.org/) -  Numix Circle icons
-* [numix-icon-theme](https://launchpad.net/numix-icon-theme) -  Numix icon theme
-* [paper-gtk-theme](https://github.com/moka-project/paper-gtk-theme) -  Paper GTK Theme
-* [paper-icon-theme](https://github.com/snwh/paper-icon-theme) -  Paper Icon Theme
-* [python-twodict](https://github.com/MrS0m30n3/twodict) -  Simple two way ordered dictionary for Python
-* [youtube-dlg](https://github.com/MrS0m30n3/youtube-dl-gui) -  youtube-dl gui
-* [purple-facebook](https://github.com/jgeboski/purple-facebook) -  Facebook protocol plugin for libpurple
-* [qwinff]() -  cross-platform, easy-to-use media converter frontend to FFmpeg.
+* []() - 
 * [webtorrent-desktop](https://webtorrent.io) -  WebTorrent, the streaming torrent client. For Mac, Windows, and Linux.

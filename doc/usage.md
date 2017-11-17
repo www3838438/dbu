@@ -152,5 +152,4 @@ _Documentation, forums, communities, support channels..._
  * Hardware: [Debian Hardware Compatibility List](http://kmuto.jp/debian/hcl/index.cgi), [Linux Laptop Wiki](http://www.linlap.com/)
  * Debian installation: [Debian CD images](http://cdimage.debian.org/cdimage/), [CD images including firmware](http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/), [Installation Guide](https://www.debian.org/releases/stable/amd64/), [Installing Debian step by step](https://debian-handbook.info/browse/stable/sect.installation-steps.html)
  * [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), [Free and open-source software portal](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
- * 
-, [CCM FAQ [fr]](http://www.commentcamarche.net/faq/linux-97)
+ * [Fiches pratiques Linux [fr]](http://www.commentcamarche.net/faq/linux-97)

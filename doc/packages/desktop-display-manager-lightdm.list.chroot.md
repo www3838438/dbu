@@ -28,6 +28,7 @@ Additional software can be useful along with LightDM:
 
 * [lightdm](https://packages.debian.org/stretch/lightdm) - simple display manager
 * [lightdm-gtk-greeter](https://packages.debian.org/stretch/lightdm-gtk-greeter) - simple display manager (GTK+ greeter)
+* [accountsservice](https://packages.debian.org/stretch/accountsservice) - query and manipulate user account information
 
 ### Related packages
 
