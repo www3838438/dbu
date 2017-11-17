@@ -2,13 +2,19 @@
 # Description: generate markdown package documentation from live-build config/packages.chroot directory
 # License: WTFPL
 # Source: https://github.com/nodiscc/dbu
-#TODO: generate index of markdown files
-#TODO screenshots: fetch multiple screenshots
+# TODO screenshots: fetch multiple screenshots
 set -o errexit
+set -o nounset
 
-export LANG="C"
+###############################################################################
+
+# CONFIGURATION
+#fail when a package list is missing a #Cat: field
+export fail_on_no_category="yes"
+#package categories to list on the main page, and to search in package lists
 export package_categories="Utility Office Multimedia Graphics Network System Games Science"
-	pageheader="# Installed software
+#page header (markdown)
+pageheader="# Installed software
 See [Usage](usage.md#Installing-removing-updating-software) for documentation on installing,
 removing or updating software packages.
 "
@@ -51,7 +57,6 @@ function _genPackagesDoc {
 		md_shortdescription="_$(apt-cache show $descriptionpackage | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)_"
 		md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | egrep "^Homepage:" | head -n1 | cut -d" " -f1 --complement))**"
 	fi
-	# TODO: move this to the loop above
 	if egrep "^#Screenshot:" "$packagelist" >/dev/null; then
 		screenshotpackage=$(egrep "^#Screenshot:" "$packagelist" | cut -d" " -f1 --complement)
 		else screenshotpackage="$mainpackage"
@@ -90,7 +95,8 @@ function _main {
 	# check mandatory #Cat: category field
 	for i in config/package-lists/[a-z]*.list.chroot; do
 		if ! egrep "#Cat:" "$i" >/dev/null; then
-			echo "WARNING: No category defined for $i - list will not be included in the index page."
+			echo "WARNING: No category defined for $i - list will not be included in the index page.";
+			if [[ "$fail_on_no_category" = yes ]]; then exit 1; fi
 		fi
 	done
 
