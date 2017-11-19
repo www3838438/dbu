@@ -11,6 +11,8 @@ set -o nounset
 # CONFIGURATION
 #fail when a package list is missing a #Cat: field
 export fail_on_no_category="yes"
+#language of generated package documentation
+export LANG=C
 #package categories to list on the main page, and to search in package lists
 export package_categories="Utility Office Multimedia Graphics Network System Games Science"
 #page header (markdown)
