@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Ex Falso
+Name[fr]=Ex Falso
+Encoding=UTF-8
+Exec=exfalso %f
+TryExec=exfalso
+Icon=exfalso
+Terminal=false
+Type=Application
+MimeType=inode/directory
