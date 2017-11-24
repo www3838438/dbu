@@ -70,7 +70,7 @@ python3-wheel
 python-libtorrent
 pypi2deb
 python-praw
-
+python-tox
 
 # Live system
 live-build
