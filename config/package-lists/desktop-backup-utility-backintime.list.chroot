@@ -1,6 +1,7 @@
 #Name: Backintime backup utility
 #Desc: backintime-gnome
 #Screenshot: backintime-qt4
+#Cat: System
 
 backintime-qt4
 
@@ -20,7 +21,4 @@ backintime-qt4
 #Alt: backupninja
 #Alt: duply
 
-
-#Cat: Utility
-#Cat: System
 

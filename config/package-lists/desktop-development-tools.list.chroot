@@ -1,5 +1,10 @@
-#Name: Development tools - graphical
-#Cat: Utility
+#Name: Development tools (graphical)
+#NoDescription
+#Cat: Development
+#Screenshot: meld
+#Screenshot: gitd
+#Screenshot: wxhexeditor
+#Screenshot: gcolor2
 
 gitg
 meld
@@ -8,6 +13,7 @@ tdfsb
 gource
 gcolor2
 sqlitebrowser
+asciio
 
 #Alt: xephyr
 #Alt: geany

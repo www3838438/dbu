@@ -1,6 +1,8 @@
 #Name: ALSA/PulseAudio audio system
 #Desc: pulseaudio
 #Screenshot: pavucontrol
+#Cat: Multimedia
+
 
 # ALSA/Pulse
 kmod
@@ -26,8 +28,3 @@ rtkit
 #Alt: paprefs
 #Alt: pnmixer
 #Alt: xfce4-mixer
-
-#Cat: System
-#Cat: Multimedia
-
-

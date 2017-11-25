@@ -1,5 +1,7 @@
 #Name: Image manipulation utilities
-#NoDescription
+#Cat: Multimedia
+#Desc: trimage
+#Desc: imagemagick
 
 trimage
 imagemagick
@@ -11,8 +13,8 @@ cmatrix
 cmatrix-xfont
 figlet
 toilet
-scrot
 
+#Alt: scrot
 #Alt: optipng
 #Alt: jpegoptim
 #Alt: phatch
@@ -28,6 +30,5 @@ scrot
 #Alt: aalib
 #Alt: fgallery liblcms2-utils
 
-#Cat: Graphics
 
 

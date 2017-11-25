@@ -1,7 +1,7 @@
 #Name: Inkscape vector image editor
 #Desc: inkscape
 #Screenshot: inkscape
-#Desc: create-resources
+#Cat: Multimedia
 
 inkscape
 create-resources
@@ -16,7 +16,6 @@ pstoedit
 #Alt: python-uniconvertor
 
 
-#Cat: Graphics
 
 
 

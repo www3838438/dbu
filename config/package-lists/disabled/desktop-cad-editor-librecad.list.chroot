@@ -1,4 +1,6 @@
 #Name: LibreCAD CAD editor
+#Cat: Office
+
 librecad
 
 #Alt: eagle
@@ -7,5 +9,4 @@ librecad
 #Alt: pcb-gtk
 #Alt: qelectrotech
 
-#Cat: Graphics
 

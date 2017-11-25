@@ -1,4 +1,5 @@
 #Name: Fonts
+#Cat: Office
 
 fonts-pecita
 fonts-beteckna
@@ -46,9 +47,4 @@ fonts-averia-gwf
 ttf-mscorefonts-installer
 fonts-freefont-ttf
 fonts-hack-ttf
-
-#Cat: Graphics
-
-
-
 

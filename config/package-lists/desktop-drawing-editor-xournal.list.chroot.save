@@ -1,0 +1,8 @@
+config/package-lists/desktop-3deditor-sweethome3d.list.chroot#Name: Xournal drawing tool config/package-lists/desktop-fonts.list.chroot#Desc: 
+xournal config/package-lists/desktop-image-editor-gimp.list.chroot#Screenshot: xournal 
+config/package-lists/disabled/desktop-sprite-editor-aseprite.list.chroot xournal 
+config/package-lists/disabled/desktop-image-editor-manager-nomacs.chroot config/package-lists/disabled/system-nvidia-graphics.list.chroot#Alt: 
+whyteboard config/package-lists/disabled/desktop-imageconverter-phatch.list.chroot 
+config/package-lists/disabled/system-ati-graphics.list.chroot#Cat: Office 
+config/package-lists/disabled/desktop-label-editor-glabels.list.chroot#Cat: 
+Graphicsconfig/package-lists/disabled/desktop-cad-editor-librecad.list.chrootconfig/package-lists/desktop-utils-images.list.chrootconfig/package-lists/desktop-image-viewer-ristretto.list.chrootconfig/package-lists/desktop-system-display-server-xorg.list.chrootconfig/package-lists/desktop-vectoreditor-inkscape.list.chrootconfig/package-lists/desktop-office-libreoffice.list.chroot

@@ -1,6 +1,8 @@
 #Name: GIMP image editor
 #Desc: gimp
 #Screenshot: gimp
+#Cat: Multimedia
+
 
 gimp
 gimp-data-extras
@@ -39,8 +41,6 @@ gimp-help-fr
 #Alt: xpaint
 #Alt: openclipart2
 #Alt: alchemy
-
-#Cat: Graphics
 
 
 

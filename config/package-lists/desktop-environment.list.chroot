@@ -1,8 +1,7 @@
-#Name: XFCE Desktop Environment
+#Name: Desktop environment
 #Desc: xfce4
-#Screenshot: xfce4
+#Screenshot: https://raw.githubusercontent.com/nodiscc/dbu/master/doc/res/screenshot-main.jpg
 #Cat: Utility
-#TODO: arbitrary screenshot URL
 
 xfdesktop4
 xfwm4
@@ -43,6 +42,29 @@ policykit-1-gnome
 python-appindicator
 gnome-settings-daemon
 dconf-gsettings-backend
+
+# Desktop configuration utilities
+xfce4-settings
+gnome-system-tools
+menulibre
+gconf-editor
+dconf-tools
+qt4-qtconfig
+
+
+#Alt: gnome-color-manager
+#Alt: galternatives
+#Alt: arandr
+#Alt: disper
+#Alt: lightdm-gtk-greeter-settings
+#Alt: gddccontrol
+#Alt: startupmanager
+
+
+
+
+
+
 
 #Alt: openbox
 #Alt: obconf

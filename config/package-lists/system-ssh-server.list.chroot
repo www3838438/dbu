@@ -1,8 +1,7 @@
-#Name: OpenSSH server
+#Name: OpenSSH remote access server
 #Cat: Network
 #Desc: openssh-server
 
 openssh-server
-#openssh-blacklist #jessie only
 
 #Note: Port `TCP 822`

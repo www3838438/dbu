@@ -1,6 +1,10 @@
-#Name: Development tools - command line
+#Name: Development tools (command line)
 #NoDescription
-#Cat: Utility
+#Screenshot: elinks
+#Screenshot: tig
+#Screenshot: dialog
+#Screenshot: dwdiff
+#Cat: Development
 
 # Version control systems
 git
@@ -33,7 +37,6 @@ whiptail
 inotify-tools
 pastebinit
 elinks
-asciio
 
 # Parsers/converters
 pandoc

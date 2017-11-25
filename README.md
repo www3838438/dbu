@@ -2,13 +2,13 @@
 
 Custom [Debian GNU/Linux](http://www.debian.org/) installer and live system.
 
-[Debian GNU/Linux](https://en.wikipedia.org/wiki/Debian) is a major and widely
-used [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution).
-[GNU/Linux](https://en.wikipedia.org/wiki/Linux) is a
+[Debian](https://en.wikipedia.org/wiki/Debian) is a major and widely used
+[Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution).
+[GNU/Linux](https://en.wikipedia.org/wiki/Linux) is a 
 [Free](https://en.wikipedia.org/wiki/Free_software) and open source
 [operating system](https://en.wikipedia.org/wiki/Operating_system).
 
- * Live mode: Runs the system from an [USB](https://en.wikipedia.org/wiki/Live_USB) or [DVD](https://en.wikipedia.org/wiki/Live_CD) drive (no installation required).
+ * Live mode: Run the system from an [USB](https://en.wikipedia.org/wiki/Live_USB) or [DVD](https://en.wikipedia.org/wiki/Live_CD) drive (no installation required).
  * Installer: Install the preconfigured system on your computer.
  * Installation does not require an Internet connection.
  * [Preinstalled software packages](doc/packages.md)

@@ -14,7 +14,7 @@ export fail_on_no_category="yes"
 #language of generated package documentation
 export LANG=C
 #package categories to list on the main page, and to search in package lists
-export package_categories="Utility Office Multimedia Graphics Network System Games Science"
+export package_categories="Office Multimedia Network Utility Games Science Development System"
 #page header (markdown)
 pageheader="# Installed software
 See [Usage](usage.md#Installing-removing-updating-software) for documentation on installing,
@@ -36,15 +36,6 @@ function _genPackagesDoc {
 		md_description=""
 		md_shortdescription=""
 		md_homepage=""
-	elif egrep "^#ChrootPkg" "$packagelist" >/dev/null; then
-		# get information from .deb file if the list has a #ChrootPkg field
-		descriptionpackage=$(egrep "^#ChrootPkg" "$packagelist" | cut -d" " -f1 --complement)
-		debfile=$(find config/packages.chroot/ -iname "${descriptionpackage}_*amd64*.deb" -o -iname "${descriptionpackage}_*all*.deb")
-		dpkginfo=$(dpkg -I "$debfile")
-		md_description=$(echo "$dpkginfo" | egrep "^  [A-z]")
-		md_shortdescription=""
-		md_homepage="**[Homepage]($(echo "$dpkginfo" | egrep "^ Homepage" | head -n1 | awk -F": " '{print $2}'))**"
-		packages="$descriptionpackage"
 	elif egrep "^#Replace" "$packagelist" >/dev/null; then
 		md_shortdescription=""
 		md_description="$(egrep "^#Replace" $packagelist | cut -d" " -f1 --complement)"
@@ -60,11 +51,17 @@ function _genPackagesDoc {
 		md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | egrep "^Homepage:" | head -n1 | cut -d" " -f1 --complement))**"
 	fi
 	if egrep "^#Screenshot:" "$packagelist" >/dev/null; then
-		screenshotpackage=$(egrep "^#Screenshot:" "$packagelist" | cut -d" " -f1 --complement)
-		else screenshotpackage="$mainpackage"
+		screenshotpackages=$(egrep "^#Screenshot:" "$packagelist" | cut -d" " -f1 --complement)
+		else screenshotpackages="$mainpackage"
 	fi
-
-	md_screenshot="[![](https://screenshots.debian.net/thumbnail/$screenshotpackage/)](https://screenshots.debian.net/screenshot/$screenshotpackage/)"
+	md_screenshots=""
+	for package in $screenshotpackages; do
+		if [[ "$package" =~ ^http(s)?\:.* ]]; then
+			md_screenshots="${md_screenshots}[![]($package)]($package)\n"
+		else
+			md_screenshots="${md_screenshots}[![](https://screenshots.debian.net/thumbnail/$package/)](https://screenshots.debian.net/screenshot/$package/)\n"
+		fi
+	done
 	_renderMarkdown
 }
 
@@ -78,8 +75,8 @@ function _renderMarkdown {
 		echo -e "\n$md_description\n"
 		echo '```'
 	fi
-	echo -e "\n$md_screenshot\n"
-	echo -e "\n $md_homepage"
+	echo -e "\n$md_screenshots\n"
+	echo -e "\n$md_homepage"
 	echo -e "\n### Installed packages\n"
 	for i in $packages; do
 		echo "* [$i](https://packages.debian.org/stretch/$i) - $(apt-cache show $i | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)"
@@ -120,7 +117,7 @@ function _gen_package_index {
 						pname=$(egrep "^#Name:" $plist | cut -d" " -f1 --complement)
 				 		echo " - [$pname](packages/$(basename $plist).md)"
 					fi
-			done
+			done | sort
 		done
 		echo -e "\n### Non-debian packages";
 		for deb in config/packages.chroot/*{all,amd64}.deb; do

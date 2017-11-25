@@ -1,6 +1,8 @@
 #Name: Network Manager
 #Desc: network-manager-gnome
 #Screenshot: network-manager-gnome
+#Cat: Network
+
 
 network-manager-gnome
 network-manager-openvpn-gnome
@@ -10,7 +12,6 @@ wireless-regdb
 #required for internet connection sharing
 dnsmasq-base
 
-#Cat: System
 
 
 
