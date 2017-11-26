@@ -1,4 +1,31 @@
 #!/bin/bash
+########################################
+echo "[dbu] Starting/stopping services..."
+systemctl start laptop-mode.service || true
+systemctl start cups.service || true
+systemctl start cups-browsed.service || true
+systemctl stop avahi-daemon.service || true
+systemctl stop avahi-daemon.socket || true
+systemctl stop avahi-dnsconfd.service || true
+systemctl stop haveged.service || true
+systemctl stop samba-ad-dc.service || true
+systemctl start samba.service || true
+systemctl start nmbd.service || true
+systemctl start smbd.service || true
+systemctl start bumblebeed.service || true
+systemctl stop ssh.service || true
+systemctl stop openvpn.service || true
+systemctl stop saned.service || true
+systemctl stop bluetooth.service || true
+systemctl start fancontrol.service || true
+systemctl stop rsync.service || true
+systemctl stop tor.service || true
+systemctl stop exim4.service || true
+systemctl stop iodined.service || true
+systemctl stop nfs-common.service || true
+systemctl stop rpcbind.service || true
+########################################
+echo "[dbu] Enabling/disabling services..."
 systemctl enable laptop-mode.service || true
 systemctl enable cups.service || true
 systemctl enable cups-browsed.service || true
