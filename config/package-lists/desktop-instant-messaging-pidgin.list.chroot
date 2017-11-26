@@ -11,11 +11,6 @@ pidgin-plugin-pack
 pidgin-extprefs
 pidgin-gnome-keyring
 
-
-
-
-
-
 #Alt: sflphone
 #Alt: mumble
 #Alt: empathy
@@ -34,3 +29,4 @@ pidgin-gnome-keyring
 #Alt: yowsup-cli
 #Alt: twitux
 #Alt: smuxi
+#Alt: nheko
