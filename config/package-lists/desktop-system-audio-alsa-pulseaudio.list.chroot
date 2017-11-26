@@ -23,6 +23,13 @@ pulseaudio-module-jack
 pavucontrol
 rtkit
 
+# pulseaudio network server (disabled)
+#avahi-daemon
+#libnss-mdns
+#avahi-autoipd
+#avahi-dnsconfd
+#paprefs
+
 #Alt: pasystray
 #Alt: padevchooser
 #Alt: paprefs
