@@ -1,4 +1,4 @@
-# Liferea RSS/Atom Feed Reader
+# Liferea RSS/Atom news reader
 
 __feed/news/podcast client with plugin support__
 
@@ -27,7 +27,8 @@ Liferea is an abbreviation for Linux Feed Reader.
 [![](https://screenshots.debian.net/thumbnail/liferea/)](https://screenshots.debian.net/screenshot/liferea/)
 
 
- **[Homepage](http://liferea.sourceforge.net/)**
+
+**[Homepage](http://liferea.sourceforge.net/)**
 
 ### Installed packages
 

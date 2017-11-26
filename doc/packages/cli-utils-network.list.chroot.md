@@ -1,9 +1,10 @@
-# Network utilities - command line
+# Network utilities (command line)
 
 [![](https://screenshots.debian.net/thumbnail/hostname/)](https://screenshots.debian.net/screenshot/hostname/)
 
 
- 
+
+
 
 ### Installed packages
 

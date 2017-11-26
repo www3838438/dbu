@@ -14,7 +14,8 @@ Also included is an Xfce panel plugin which can manage the desktop trash.
 [![](https://screenshots.debian.net/thumbnail/thunar/)](https://screenshots.debian.net/screenshot/thunar/)
 
 
- **[Homepage](http://thunar.xfce.org)**
+
+**[Homepage](http://thunar.xfce.org)**
 
 ### Installed packages
 

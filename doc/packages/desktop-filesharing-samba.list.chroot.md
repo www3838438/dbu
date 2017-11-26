@@ -1,4 +1,4 @@
-# Samba file sharing
+# Samba file sharing server and client
 ```
 
 Samba is an implementation of the SMB/CIFS protocol for Unix systems,
@@ -10,7 +10,8 @@ Microsoft Windows, OS X, and other Unix systems.
 [![](https://screenshots.debian.net/thumbnail/samba/)](https://screenshots.debian.net/screenshot/samba/)
 
 
- **[Homepage](https://owncloud.org/sync-clients/)**
+
+**[Homepage](https://owncloud.org/sync-clients/)**
 
 ### Installed packages
 

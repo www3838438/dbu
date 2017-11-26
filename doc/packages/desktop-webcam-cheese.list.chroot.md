@@ -15,7 +15,8 @@ for photos.
 [![](https://screenshots.debian.net/thumbnail/cheese/)](https://screenshots.debian.net/screenshot/cheese/)
 
 
- **[Homepage](https://wiki.gnome.org/Apps/Cheese)**
+
+**[Homepage](https://wiki.gnome.org/Apps/Cheese)**
 
 ### Installed packages
 

@@ -1,9 +1,13 @@
-# Development tools - command line
+# Development tools (command line)
 
-[![](https://screenshots.debian.net/thumbnail/git/)](https://screenshots.debian.net/screenshot/git/)
+[![](https://screenshots.debian.net/thumbnail/elinks/)](https://screenshots.debian.net/screenshot/elinks/)
+[![](https://screenshots.debian.net/thumbnail/tig/)](https://screenshots.debian.net/screenshot/tig/)
+[![](https://screenshots.debian.net/thumbnail/dialog/)](https://screenshots.debian.net/screenshot/dialog/)
+[![](https://screenshots.debian.net/thumbnail/dwdiff/)](https://screenshots.debian.net/screenshot/dwdiff/)
 
 
- 
+
+
 
 ### Installed packages
 
@@ -33,7 +37,6 @@
 * [inotify-tools](https://packages.debian.org/stretch/inotify-tools) - command-line programs providing a simple interface to inotify
 * [pastebinit](https://packages.debian.org/stretch/pastebinit) - command-line pastebin client
 * [elinks](https://packages.debian.org/stretch/elinks) - advanced text-mode WWW browser
-* [asciio](https://packages.debian.org/stretch/asciio) - dynamically create ASCII charts and graphs with GTK+2
 * [pandoc](https://packages.debian.org/stretch/pandoc) - general markup converter
 * [jq](https://packages.debian.org/stretch/jq) - lightweight and flexible command-line JSON processor
 * [xmlstarlet](https://packages.debian.org/stretch/xmlstarlet) - command line XML toolkit
@@ -61,6 +64,7 @@
 * [python-libtorrent](https://packages.debian.org/stretch/python-libtorrent) - Python bindings for libtorrent-rasterbar
 * [pypi2deb](https://packages.debian.org/stretch/pypi2deb) - PyPI to Debian converter
 * [python-praw](https://packages.debian.org/stretch/python-praw) - Python Reddit API Wrapper (Python 2 version)
+* [python-tox](https://packages.debian.org/stretch/python-tox) - transitional dummy package for tox
 * [live-build](https://packages.debian.org/stretch/live-build) - Live System Build Components
 * [live-config-doc](https://packages.debian.org/stretch/live-config-doc) - Live System Configuration Components (documentation)
 * [live-manual-pdf](https://packages.debian.org/stretch/live-manual-pdf) - Live Systems Documentation (pdf)

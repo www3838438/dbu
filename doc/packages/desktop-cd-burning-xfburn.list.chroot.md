@@ -15,7 +15,8 @@ already able to burn data.
 [![](https://screenshots.debian.net/thumbnail/xfburn/)](https://screenshots.debian.net/screenshot/xfburn/)
 
 
- **[Homepage](http://goodies.xfce.org/projects/applications/xfburn)**
+
+**[Homepage](http://goodies.xfce.org/projects/applications/xfburn)**
 
 ### Installed packages
 

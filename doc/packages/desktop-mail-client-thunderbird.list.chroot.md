@@ -27,12 +27,12 @@ application using the XUL user interface language.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/thunderbird
-lightning/)](https://screenshots.debian.net/screenshot/thunderbird
-lightning/)
+[![](https://screenshots.debian.net/thumbnail/thunderbird/)](https://screenshots.debian.net/screenshot/thunderbird/)
+[![](https://screenshots.debian.net/thumbnail/lightning/)](https://screenshots.debian.net/screenshot/lightning/)
 
 
- **[Homepage](http://www.mozilla.org/thunderbird/)**
+
+**[Homepage](http://www.mozilla.org/thunderbird/)**
 
 ### Installed packages
 

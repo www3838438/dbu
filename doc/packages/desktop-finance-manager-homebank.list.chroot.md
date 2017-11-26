@@ -15,10 +15,10 @@ of operations.  It is based on GTK2.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail//)](https://screenshots.debian.net/screenshot//)
 
 
- **[Homepage](http://homebank.free.fr/)**
+
+**[Homepage](http://homebank.free.fr/)**
 
 ### Installed packages
 

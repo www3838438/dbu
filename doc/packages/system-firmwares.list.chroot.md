@@ -1,4 +1,4 @@
-# Free/Libre Firmwares
+# Free/Libre firmwares
 
 __Binary firmware for various drivers in the Linux kernel__
 
@@ -40,10 +40,11 @@ Contents:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/firmware-linux-free /)](https://screenshots.debian.net/screenshot/firmware-linux-free /)
+[![](https://screenshots.debian.net/thumbnail/firmware-linux-free/)](https://screenshots.debian.net/screenshot/firmware-linux-free/)
 
 
- **[Homepage](http://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git)**
+
+**[Homepage](http://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git)**
 
 ### Installed packages
 

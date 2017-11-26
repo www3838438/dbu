@@ -24,7 +24,8 @@ It is written in Python using Qt libraries.
 [![](https://screenshots.debian.net/thumbnail/retext/)](https://screenshots.debian.net/screenshot/retext/)
 
 
- **[Homepage](https://github.com/retext-project/retext)**
+
+**[Homepage](https://github.com/retext-project/retext)**
 
 ### Installed packages
 

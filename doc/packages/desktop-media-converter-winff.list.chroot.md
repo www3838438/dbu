@@ -24,10 +24,11 @@ This package is a metapackage to pull in either the GTK+ or Qt variant.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/winff /)](https://screenshots.debian.net/screenshot/winff /)
+[![](https://screenshots.debian.net/thumbnail/winff/)](https://screenshots.debian.net/screenshot/winff/)
 
 
- **[Homepage](http://www.winff.org/)**
+
+**[Homepage](http://www.winff.org/)**
 
 ### Installed packages
 

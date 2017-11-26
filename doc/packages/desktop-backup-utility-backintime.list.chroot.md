@@ -11,7 +11,8 @@ This is a transitional package and can safely be removed.
 [![](https://screenshots.debian.net/thumbnail/backintime-qt4/)](https://screenshots.debian.net/screenshot/backintime-qt4/)
 
 
- **[Homepage](https://github.com/bit-team/backintime)**
+
+**[Homepage](https://github.com/bit-team/backintime)**
 
 ### Installed packages
 

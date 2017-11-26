@@ -12,12 +12,12 @@ Environment in mind, it should work well with other Gtk+ desktop environments.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/gnome-font-viewer
-font-manager/)](https://screenshots.debian.net/screenshot/gnome-font-viewer
-font-manager/)
+[![](https://screenshots.debian.net/thumbnail/gnome-font-viewer/)](https://screenshots.debian.net/screenshot/gnome-font-viewer/)
+[![](https://screenshots.debian.net/thumbnail/font-manager/)](https://screenshots.debian.net/screenshot/font-manager/)
 
 
- **[Homepage](http://fontmanager.github.io/)**
+
+**[Homepage](http://fontmanager.github.io/)**
 
 ### Installed packages
 

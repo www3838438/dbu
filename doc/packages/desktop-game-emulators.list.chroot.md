@@ -15,16 +15,14 @@ is in turn based on the original PCSX.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/pcsxr
-higan
-desmume
-mupen64plus/)](https://screenshots.debian.net/screenshot/pcsxr
-higan
-desmume
-mupen64plus/)
+[![](https://screenshots.debian.net/thumbnail/pcsxr/)](https://screenshots.debian.net/screenshot/pcsxr/)
+[![](https://screenshots.debian.net/thumbnail/higan/)](https://screenshots.debian.net/screenshot/higan/)
+[![](https://screenshots.debian.net/thumbnail/desmume/)](https://screenshots.debian.net/screenshot/desmume/)
+[![](https://screenshots.debian.net/thumbnail/mupen64plus/)](https://screenshots.debian.net/screenshot/mupen64plus/)
 
 
- **[Homepage](http://pcsxr.codeplex.com/)**
+
+**[Homepage](http://pcsxr.codeplex.com/)**
 
 ### Installed packages
 

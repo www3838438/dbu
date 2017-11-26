@@ -87,16 +87,14 @@ packages:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/libreoffice-writer
-libreoffice-calc
-libreoffice-draw
-libreoffice-impress/)](https://screenshots.debian.net/screenshot/libreoffice-writer
-libreoffice-calc
-libreoffice-draw
-libreoffice-impress/)
+[![](https://screenshots.debian.net/thumbnail/libreoffice-writer/)](https://screenshots.debian.net/screenshot/libreoffice-writer/)
+[![](https://screenshots.debian.net/thumbnail/libreoffice-calc/)](https://screenshots.debian.net/screenshot/libreoffice-calc/)
+[![](https://screenshots.debian.net/thumbnail/libreoffice-draw/)](https://screenshots.debian.net/screenshot/libreoffice-draw/)
+[![](https://screenshots.debian.net/thumbnail/libreoffice-impress/)](https://screenshots.debian.net/screenshot/libreoffice-impress/)
 
 
- **[Homepage](http://www.libreoffice.org)**
+
+**[Homepage](http://www.libreoffice.org)**
 
 ### Installed packages
 

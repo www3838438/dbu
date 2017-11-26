@@ -13,7 +13,8 @@ add annotations to PDF files.
 [![](https://screenshots.debian.net/thumbnail/xournal/)](https://screenshots.debian.net/screenshot/xournal/)
 
 
- **[Homepage](http://xournal.sourceforge.net/)**
+
+**[Homepage](http://xournal.sourceforge.net/)**
 
 ### Installed packages
 

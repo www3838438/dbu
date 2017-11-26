@@ -18,7 +18,8 @@ This package provides the basic framework, enabling a text-mode animation.
 [![](https://screenshots.debian.net/thumbnail/plymouth/)](https://screenshots.debian.net/screenshot/plymouth/)
 
 
- **[Homepage](http://www.freedesktop.org/wiki/Software/Plymouth)**
+
+**[Homepage](http://www.freedesktop.org/wiki/Software/Plymouth)**
 
 ### Installed packages
 

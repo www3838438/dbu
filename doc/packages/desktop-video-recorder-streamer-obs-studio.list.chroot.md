@@ -18,10 +18,11 @@ Note that OBS Studio requires an OpenGL 3.2 compatible video card.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/obs-studio /)](https://screenshots.debian.net/screenshot/obs-studio /)
+[![](https://screenshots.debian.net/thumbnail/obs-studio/)](https://screenshots.debian.net/screenshot/obs-studio/)
 
 
- **[Homepage](https://obsproject.com)**
+
+**[Homepage](https://obsproject.com)**
 
 ### Installed packages
 

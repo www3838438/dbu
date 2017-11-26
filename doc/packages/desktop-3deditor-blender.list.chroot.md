@@ -15,10 +15,11 @@ a standalone binary are common products of Blender use.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/blender /)](https://screenshots.debian.net/screenshot/blender /)
+[![](https://screenshots.debian.net/thumbnail/blender/)](https://screenshots.debian.net/screenshot/blender/)
 
 
- **[Homepage](http://www.blender.org/)**
+
+**[Homepage](http://www.blender.org/)**
 
 ### Installed packages
 

@@ -1,9 +1,10 @@
-# Multimedia utilities - command line
+# Multimedia utilities (command line)
 
 [![](https://screenshots.debian.net/thumbnail/sox/)](https://screenshots.debian.net/screenshot/sox/)
 
 
- 
+
+
 
 ### Installed packages
 

@@ -1,15 +1,9 @@
-# Windows compatibility layer
+# WINE/PlayOnLinux Windows compatibility layer
 
-__Windows API implementation - standard suite__
+__front-end for Wine__
 
 ```
 
-Wine is a free MS-Windows API implementation.
-This is still a work in progress and many applications may still not work.
-
-This package provides essential wrappers and convenience tools for the
-standard Wine components. It also employs the Debian alternatives system to
-provide the usual command names, e.g. "wine" instead of "wine-stable".
 PlayOnLinux is a front-end for wine. It permits you to easily install Windows
 Games and software on Linux. It is advised to have a functional internet
 connection.
@@ -19,7 +13,8 @@ connection.
 [![](https://screenshots.debian.net/thumbnail/playonlinux/)](https://screenshots.debian.net/screenshot/playonlinux/)
 
 
- **[Homepage](http://www.winehq.org/)**
+
+**[Homepage](http://www.playonlinux.com/)**
 
 ### Installed packages
 

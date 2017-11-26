@@ -22,7 +22,8 @@ securely shreds arbitrary files.
 [![](https://screenshots.debian.net/thumbnail/bleachbit/)](https://screenshots.debian.net/screenshot/bleachbit/)
 
 
- **[Homepage](https://www.bleachbit.org/)**
+
+**[Homepage](https://www.bleachbit.org/)**
 
 ### Installed packages
 

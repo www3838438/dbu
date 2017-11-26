@@ -15,7 +15,8 @@ slow.
 [![](https://screenshots.debian.net/thumbnail/gnome-search-tool/)](https://screenshots.debian.net/screenshot/gnome-search-tool/)
 
 
- **[Homepage](https://wiki.gnome.org/Apps/Attic/GnomeUtils)**
+
+**[Homepage](https://wiki.gnome.org/Apps/Attic/GnomeUtils)**
 
 ### Installed packages
 

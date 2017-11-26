@@ -14,7 +14,8 @@ This package provides GTK+ integration.
 [![](https://screenshots.debian.net/thumbnail/gtk-redshift/)](https://screenshots.debian.net/screenshot/gtk-redshift/)
 
 
- **[Homepage](http://jonls.dk/redshift/)**
+
+**[Homepage](http://jonls.dk/redshift/)**
 
 ### Installed packages
 
@@ -22,4 +23,4 @@ This package provides GTK+ integration.
 
 ### Related packages
 
-<sub> [workrave](https://packages.debian.org/stretch/workrave)  </sub>
+<sub> [safeeyes](https://packages.debian.org/stretch/safeeyes) [workrave](https://packages.debian.org/stretch/workrave)  </sub>

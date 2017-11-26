@@ -18,7 +18,8 @@ also provides a full graphical treemap window for each selected folder.
 [![](https://screenshots.debian.net/thumbnail/baobab/)](https://screenshots.debian.net/screenshot/baobab/)
 
 
- **[Homepage](https://wiki.gnome.org/Apps/Baobab)**
+
+**[Homepage](https://wiki.gnome.org/Apps/Baobab)**
 
 ### Installed packages
 

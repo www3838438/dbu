@@ -10,10 +10,11 @@ individual port(s), and many others!
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/gufw /)](https://screenshots.debian.net/screenshot/gufw /)
+[![](https://screenshots.debian.net/thumbnail/gufw/)](https://screenshots.debian.net/screenshot/gufw/)
 
 
- **[Homepage](http://gufw.org/)**
+
+**[Homepage](http://gufw.org/)**
 
 ### Installed packages
 

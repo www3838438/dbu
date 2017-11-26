@@ -35,7 +35,8 @@ This package contains the daemon and basic module set.
 [![](https://screenshots.debian.net/thumbnail/pavucontrol/)](https://screenshots.debian.net/screenshot/pavucontrol/)
 
 
- **[Homepage](http://www.pulseaudio.org)**
+
+**[Homepage](http://www.pulseaudio.org)**
 
 ### Installed packages
 

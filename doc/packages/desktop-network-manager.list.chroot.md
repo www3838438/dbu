@@ -22,7 +22,8 @@ and it can optionally store them in the gnome-keyring.
 [![](https://screenshots.debian.net/thumbnail/network-manager-gnome/)](https://screenshots.debian.net/screenshot/network-manager-gnome/)
 
 
- **[Homepage](https://www.gnome.org/projects/NetworkManager/)**
+
+**[Homepage](https://www.gnome.org/projects/NetworkManager/)**
 
 ### Installed packages
 

@@ -15,7 +15,8 @@ operations can easily be carried out through an intuitive interface.
 [![](https://screenshots.debian.net/thumbnail/seahorse/)](https://screenshots.debian.net/screenshot/seahorse/)
 
 
- **[Homepage](https://wiki.gnome.org/Apps/Seahorse)**
+
+**[Homepage](https://wiki.gnome.org/Apps/Seahorse)**
 
 ### Installed packages
 

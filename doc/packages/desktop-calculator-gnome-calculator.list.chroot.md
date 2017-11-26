@@ -13,7 +13,8 @@ arithmetic to give a high degree of accuracy.
 [![](https://screenshots.debian.net/thumbnail/gnome-calculator/)](https://screenshots.debian.net/screenshot/gnome-calculator/)
 
 
- **[Homepage](https://wiki.gnome.org/Apps/Calculator)**
+
+**[Homepage](https://wiki.gnome.org/Apps/Calculator)**
 
 ### Installed packages
 

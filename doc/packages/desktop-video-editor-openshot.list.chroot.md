@@ -1,4 +1,4 @@
-# Openshot Video editor
+# Openshot video editor
 
 __Create and edit videos and movies__
 
@@ -23,10 +23,11 @@ Features include:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/openshot /)](https://screenshots.debian.net/screenshot/openshot /)
+[![](https://screenshots.debian.net/thumbnail/openshot/)](https://screenshots.debian.net/screenshot/openshot/)
 
 
- **[Homepage](http://www.openshotvideo.com/)**
+
+**[Homepage](http://www.openshotvideo.com/)**
 
 ### Installed packages
 

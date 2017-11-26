@@ -1,4 +1,4 @@
-# GTK-RecordMyDesktop Screen recorder
+# GTK-RecordMyDesktop screen recorder
 
 __Graphical frontend for recordMyDesktop screencast tool__
 
@@ -9,10 +9,11 @@ screencasts with the video and audio capture application recordMyDesktop
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/gtk-recordmydesktop /)](https://screenshots.debian.net/screenshot/gtk-recordmydesktop /)
+[![](https://screenshots.debian.net/thumbnail/gtk-recordmydesktop/)](https://screenshots.debian.net/screenshot/gtk-recordmydesktop/)
 
 
- **[Homepage](http://recordmydesktop.sourceforge.net)**
+
+**[Homepage](http://recordmydesktop.sourceforge.net)**
 
 ### Installed packages
 

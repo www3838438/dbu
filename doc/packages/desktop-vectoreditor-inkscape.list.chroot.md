@@ -28,19 +28,14 @@ Between the suggested packages:
  * python-uniconvertor: enables several import/export extensions;
  * pstoedit: to work with eps files;
  * ruby: there are several extensions written in ruby;
-The Create Project provides shared resources for use by creative
-applications such as Blender, CinePaint, the GIMP, Inkscape, and Scribus.
-
-The package includes brushes, color swatches files, gradients, etc. , so
-that the user doesn't need to install all of these resources separately
-for each and every application that can read such data.
 
 ```
 
 [![](https://screenshots.debian.net/thumbnail/inkscape/)](https://screenshots.debian.net/screenshot/inkscape/)
 
 
- **[Homepage](https://inkscape.org)**
+
+**[Homepage](https://inkscape.org)**
 
 ### Installed packages
 

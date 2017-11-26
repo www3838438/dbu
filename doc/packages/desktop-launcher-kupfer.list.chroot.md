@@ -16,7 +16,8 @@ to extend its features.
 [![](https://screenshots.debian.net/thumbnail/kupfer/)](https://screenshots.debian.net/screenshot/kupfer/)
 
 
- **[Homepage](http://engla.github.io/kupfer/)**
+
+**[Homepage](http://engla.github.io/kupfer/)**
 
 ### Installed packages
 

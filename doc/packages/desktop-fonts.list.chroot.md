@@ -22,7 +22,8 @@ Superscript.
 [![](https://screenshots.debian.net/thumbnail/fonts-pecita/)](https://screenshots.debian.net/screenshot/fonts-pecita/)
 
 
- **[Homepage](http://pecita.eu)**
+
+**[Homepage](http://pecita.eu)**
 
 ### Installed packages
 

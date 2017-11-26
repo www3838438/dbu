@@ -1,4 +1,4 @@
-# Lightdm Display manager
+# Lightdm display manager
 
 __simple display manager__
 
@@ -22,7 +22,8 @@ Additional software can be useful along with LightDM:
 [![](https://screenshots.debian.net/thumbnail/lightdm/)](https://screenshots.debian.net/screenshot/lightdm/)
 
 
- **[Homepage](https://launchpad.net/lightdm)**
+
+**[Homepage](https://launchpad.net/lightdm)**
 
 ### Installed packages
 

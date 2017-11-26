@@ -1,4 +1,4 @@
-# System log viewer
+# GNOME system log viewer
 
 __system log viewer for GNOME__
 
@@ -12,7 +12,8 @@ filter or search expressions in them.
 [![](https://screenshots.debian.net/thumbnail/gnome-system-log/)](https://screenshots.debian.net/screenshot/gnome-system-log/)
 
 
- **[Homepage](https://wiki.gnome.org/Apps/Attic/GnomeUtils)**
+
+**[Homepage](https://wiki.gnome.org/Apps/Attic/GnomeUtils)**
 
 ### Installed packages
 

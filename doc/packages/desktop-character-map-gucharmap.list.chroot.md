@@ -1,4 +1,4 @@
-# Table de caractères
+# GNOME character map
 
 __Unicode character picker and font browser__
 
@@ -14,7 +14,8 @@ you might only know by its Unicode name or code point.
 [![](https://screenshots.debian.net/thumbnail/gucharmap/)](https://screenshots.debian.net/screenshot/gucharmap/)
 
 
- **[Homepage](https://wiki.gnome.org/Apps/Gucharmap)**
+
+**[Homepage](https://wiki.gnome.org/Apps/Gucharmap)**
 
 ### Installed packages
 

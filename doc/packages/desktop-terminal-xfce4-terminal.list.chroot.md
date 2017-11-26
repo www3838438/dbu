@@ -1,4 +1,4 @@
-# XFCE terminal emulator
+# Xfce4 terminal emulator
 
 __Xfce terminal emulator__
 
@@ -16,7 +16,8 @@ lighter but comparable replacement, Terminal might be the answer.
 [![](https://screenshots.debian.net/thumbnail/xfce4-terminal/)](https://screenshots.debian.net/screenshot/xfce4-terminal/)
 
 
- **[Homepage](http://goodies.xfce.org/projects/applications/terminal)**
+
+**[Homepage](http://goodies.xfce.org/projects/applications/terminal)**
 
 ### Installed packages
 

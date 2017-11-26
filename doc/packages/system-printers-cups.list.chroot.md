@@ -17,7 +17,8 @@ administration tool, while being integrated to the desktop.
 [![](https://screenshots.debian.net/thumbnail/system-config-printer/)](https://screenshots.debian.net/screenshot/system-config-printer/)
 
 
- **[Homepage](http://cyberelk.net/tim/software/system-config-printer/)**
+
+**[Homepage](http://cyberelk.net/tim/software/system-config-printer/)**
 
 ### Installed packages
 

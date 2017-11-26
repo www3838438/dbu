@@ -1,9 +1,10 @@
-# System monitoring tools - command line
+# System monitoring tools (command line)
 
 [![](https://screenshots.debian.net/thumbnail/htop/)](https://screenshots.debian.net/screenshot/htop/)
 
 
- 
+
+
 
 ### Installed packages
 

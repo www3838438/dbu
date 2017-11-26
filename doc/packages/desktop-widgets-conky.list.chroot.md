@@ -19,10 +19,11 @@ Audacious, XMMS2, and PulseAudio.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/conky-all /)](https://screenshots.debian.net/screenshot/conky-all /)
+[![](https://screenshots.debian.net/thumbnail/conky-all/)](https://screenshots.debian.net/screenshot/conky-all/)
 
 
- **[Homepage](http://conky.sourceforge.net/)**
+
+**[Homepage](http://conky.sourceforge.net/)**
 
 ### Installed packages
 

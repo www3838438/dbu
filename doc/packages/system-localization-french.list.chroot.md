@@ -12,7 +12,8 @@ to help French speaking people use Debian.
 [![](https://screenshots.debian.net/thumbnail/task-french/)](https://screenshots.debian.net/screenshot/task-french/)
 
 
- **[Homepage]()**
+
+**[Homepage]()**
 
 ### Installed packages
 

@@ -1,4 +1,4 @@
-# XFCE4 Notes
+# Xfce4 notes
 
 __Notes application for the Xfce4 desktop__
 
@@ -12,10 +12,11 @@ corner button to open a new note.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/xfce4-notes /)](https://screenshots.debian.net/screenshot/xfce4-notes /)
+[![](https://screenshots.debian.net/thumbnail/xfce4-notes/)](https://screenshots.debian.net/screenshot/xfce4-notes/)
 
 
- **[Homepage](http://goodies.xfce.org/projects/panel-plugins/xfce4-notes-plugin)**
+
+**[Homepage](http://goodies.xfce.org/projects/panel-plugins/xfce4-notes-plugin)**
 
 ### Installed packages
 

@@ -1,4 +1,4 @@
-# GNOME Disk utility
+# GNOME disk utility
 
 __manage and configure disk drives and media__
 
@@ -17,7 +17,8 @@ It utilizes udisks.
 [![](https://screenshots.debian.net/thumbnail/gnome-disk-utility/)](https://screenshots.debian.net/screenshot/gnome-disk-utility/)
 
 
- **[Homepage](http://git.gnome.org/cgit/gnome-disk-utility/)**
+
+**[Homepage](http://git.gnome.org/cgit/gnome-disk-utility/)**
 
 ### Installed packages
 

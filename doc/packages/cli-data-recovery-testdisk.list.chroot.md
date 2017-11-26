@@ -64,7 +64,8 @@ It searches for following files and is able to undelete them:
 [![](https://screenshots.debian.net/thumbnail/testdisk/)](https://screenshots.debian.net/screenshot/testdisk/)
 
 
- **[Homepage]()**
+
+**[Homepage]()**
 
 ### Installed packages
 

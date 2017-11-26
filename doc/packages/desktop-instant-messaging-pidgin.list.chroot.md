@@ -1,4 +1,4 @@
-# Instant messaging client
+# Pidgin instant messaging client
 
 __graphical multi-protocol instant messaging client__
 
@@ -18,7 +18,8 @@ Some extra packages are suggested to use increased functionality:
 [![](https://screenshots.debian.net/thumbnail/pidgin/)](https://screenshots.debian.net/screenshot/pidgin/)
 
 
- **[Homepage](http://www.pidgin.im)**
+
+**[Homepage](http://www.pidgin.im)**
 
 ### Installed packages
 

@@ -1,4 +1,4 @@
-# XFCE4 Task Manager
+# Xfce4 task manager
 
 __process manager for the Xfce4 Desktop Environment__
 
@@ -18,7 +18,8 @@ written for Xfce. It's features include:
 [![](https://screenshots.debian.net/thumbnail/xfce4-taskmanager/)](https://screenshots.debian.net/screenshot/xfce4-taskmanager/)
 
 
- **[Homepage](http://goodies.xfce.org/projects/applications/xfce4-taskmanager)**
+
+**[Homepage](http://goodies.xfce.org/projects/applications/xfce4-taskmanager)**
 
 ### Installed packages
 

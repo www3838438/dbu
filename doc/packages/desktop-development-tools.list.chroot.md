@@ -1,26 +1,13 @@
-# Development tools - graphical
+# Development tools (graphical)
 
-__git repository viewer__
-
-```
-
-gitg is a fast git repository browser.
-It currently features:
-
- * Loading large repositories very fast
- * Show/browse repository history
- * Show highlighted revision diff
- * Browse file tree of a revision and export by drag and drop
- * Search in the revision history on subject, author or hash
- * Switch between history view of branches easily
- * Commit view providing per hunk stage/unstage and commit
-
-```
-
+[![](https://screenshots.debian.net/thumbnail/meld/)](https://screenshots.debian.net/screenshot/meld/)
 [![](https://screenshots.debian.net/thumbnail/gitg/)](https://screenshots.debian.net/screenshot/gitg/)
+[![](https://screenshots.debian.net/thumbnail/wxhexeditor/)](https://screenshots.debian.net/screenshot/wxhexeditor/)
+[![](https://screenshots.debian.net/thumbnail/gcolor2/)](https://screenshots.debian.net/screenshot/gcolor2/)
 
 
- **[Homepage](https://live.gnome.org/Gitg)**
+
+
 
 ### Installed packages
 
@@ -31,6 +18,7 @@ It currently features:
 * [gource](https://packages.debian.org/stretch/gource) - graphical source control visualisation
 * [gcolor2](https://packages.debian.org/stretch/gcolor2) - Simple GTK2 color selector and picker
 * [sqlitebrowser](https://packages.debian.org/stretch/sqlitebrowser) - GUI editor for SQLite databases
+* [asciio](https://packages.debian.org/stretch/asciio) - dynamically create ASCII charts and graphs with GTK+2
 
 ### Related packages
 

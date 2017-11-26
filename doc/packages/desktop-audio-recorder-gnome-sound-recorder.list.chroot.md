@@ -12,7 +12,8 @@ GNOME desktop. It supports several formats like OGG, MP3 or FLAC.
 [![](https://screenshots.debian.net/thumbnail/gnome-sound-recorder/)](https://screenshots.debian.net/screenshot/gnome-sound-recorder/)
 
 
- **[Homepage](https://wiki.gnome.org/Design/Apps/SoundRecorder)**
+
+**[Homepage](https://wiki.gnome.org/Design/Apps/SoundRecorder)**
 
 ### Installed packages
 

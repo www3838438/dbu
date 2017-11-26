@@ -1,4 +1,4 @@
-# Xorg Display Server
+# Xorg display server
 
 __X.Org X Window System__
 
@@ -19,7 +19,8 @@ be installed to ensure a comfortable X experience.
 [![](https://screenshots.debian.net/thumbnail/mesa-utils/)](https://screenshots.debian.net/screenshot/mesa-utils/)
 
 
- **[Homepage](http://www.x.org/)**
+
+**[Homepage](http://www.x.org/)**
 
 ### Installed packages
 

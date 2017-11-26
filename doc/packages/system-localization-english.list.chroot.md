@@ -29,7 +29,8 @@ interfaces.
 [![](https://screenshots.debian.net/thumbnail/hunspell/)](https://screenshots.debian.net/screenshot/hunspell/)
 
 
- **[Homepage](http://hunspell.github.io/)**
+
+**[Homepage](http://hunspell.github.io/)**
 
 ### Installed packages
 

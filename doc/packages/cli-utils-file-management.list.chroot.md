@@ -1,9 +1,10 @@
-# File management tools - command line
+# File management tools (command line)
 
 [![](https://screenshots.debian.net/thumbnail/tree/)](https://screenshots.debian.net/screenshot/tree/)
 
 
- 
+
+
 
 ### Installed packages
 

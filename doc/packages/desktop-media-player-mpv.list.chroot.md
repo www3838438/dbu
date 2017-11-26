@@ -24,7 +24,8 @@ See mpv(1) for more info regarding changes between MPlayer, mplayer2 and mpv.
 [![](https://screenshots.debian.net/thumbnail/mpv/)](https://screenshots.debian.net/screenshot/mpv/)
 
 
- **[Homepage](https://mpv.io/)**
+
+**[Homepage](https://mpv.io/)**
 
 ### Installed packages
 

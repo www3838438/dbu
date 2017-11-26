@@ -34,7 +34,8 @@ observation evening with naked eye, binocular, or small telescope.
 [![](https://screenshots.debian.net/thumbnail/stellarium/)](https://screenshots.debian.net/screenshot/stellarium/)
 
 
- **[Homepage](http://www.stellarium.org)**
+
+**[Homepage](http://www.stellarium.org)**
 
 ### Installed packages
 

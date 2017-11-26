@@ -10,10 +10,11 @@ openjdk-8-jre for amd64.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/default-jre /)](https://screenshots.debian.net/screenshot/default-jre /)
+[![](https://screenshots.debian.net/thumbnail/default-jre/)](https://screenshots.debian.net/screenshot/default-jre/)
 
 
- **[Homepage](https://wiki.debian.org/Java/)**
+
+**[Homepage](https://wiki.debian.org/Java/)**
 
 ### Installed packages
 

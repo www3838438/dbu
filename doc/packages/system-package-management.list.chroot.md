@@ -1,4 +1,4 @@
-# APT package management system
+# APT package management utilities
 
 __Graphical package manager__
 
@@ -22,7 +22,8 @@ Besides these basic functions the following features are provided:
 [![](https://screenshots.debian.net/thumbnail/synaptic/)](https://screenshots.debian.net/screenshot/synaptic/)
 
 
- **[Homepage](http://www.nongnu.org/synaptic/)**
+
+**[Homepage](http://www.nongnu.org/synaptic/)**
 
 ### Installed packages
 

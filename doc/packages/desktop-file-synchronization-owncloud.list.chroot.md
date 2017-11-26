@@ -1,4 +1,4 @@
-# Owncloud File synchronization
+# Owncloud file synchronization client
 
 __folder synchronization with an ownCloud server - GUI__
 
@@ -26,7 +26,8 @@ synchronizing with cloud storage provided by ownCloud.
 [![](https://screenshots.debian.net/thumbnail/owncloud-client/)](https://screenshots.debian.net/screenshot/owncloud-client/)
 
 
- **[Homepage](https://owncloud.org/sync-clients/)**
+
+**[Homepage](https://owncloud.org/sync-clients/)**
 
 ### Installed packages
 

@@ -18,10 +18,11 @@ However, GNU nano also implements many features missing in pico, including:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/nano /)](https://screenshots.debian.net/screenshot/nano /)
+[![](https://screenshots.debian.net/thumbnail/nano/)](https://screenshots.debian.net/screenshot/nano/)
 
 
- **[Homepage](https://www.nano-editor.org/)**
+
+**[Homepage](https://www.nano-editor.org/)**
 
 ### Installed packages
 

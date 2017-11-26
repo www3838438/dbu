@@ -17,7 +17,8 @@ and MOD/XM/IT.
 [![](https://screenshots.debian.net/thumbnail/quodlibet/)](https://screenshots.debian.net/screenshot/quodlibet/)
 
 
- **[Homepage](https://github.com/quodlibet/quodlibet)**
+
+**[Homepage](https://github.com/quodlibet/quodlibet)**
 
 ### Installed packages
 

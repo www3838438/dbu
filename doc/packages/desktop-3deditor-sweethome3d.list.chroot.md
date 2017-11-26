@@ -13,7 +13,8 @@ drawn by the end-user, with a 3D preview.
 [![](https://screenshots.debian.net/thumbnail/sweethome3d/)](https://screenshots.debian.net/screenshot/sweethome3d/)
 
 
- **[Homepage](http://www.sweethome3d.com/)**
+
+**[Homepage](http://www.sweethome3d.com/)**
 
 ### Installed packages
 

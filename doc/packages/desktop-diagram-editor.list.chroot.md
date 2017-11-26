@@ -1,4 +1,4 @@
-# Dia diagram Editor
+# Dia diagram editor
 
 __Diagram editor__
 
@@ -14,7 +14,8 @@ many other formats.
 [![](https://screenshots.debian.net/thumbnail/dia/)](https://screenshots.debian.net/screenshot/dia/)
 
 
- **[Homepage](https://wiki.gnome.org/Apps/Dia/)**
+
+**[Homepage](https://wiki.gnome.org/Apps/Dia/)**
 
 ### Installed packages
 

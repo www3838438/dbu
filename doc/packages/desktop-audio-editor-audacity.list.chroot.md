@@ -17,7 +17,8 @@ Supported file formats include Ogg Vorbis, MP2, MP3, WAV, AIFF, and AU.
 [![](https://screenshots.debian.net/thumbnail/audacity/)](https://screenshots.debian.net/screenshot/audacity/)
 
 
- **[Homepage](http://audacityteam.org/)**
+
+**[Homepage](http://audacityteam.org/)**
 
 ### Installed packages
 

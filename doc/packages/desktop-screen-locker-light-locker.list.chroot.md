@@ -13,10 +13,11 @@ ConsoleKit/UPower or logind/systemd.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/light-locker /)](https://screenshots.debian.net/screenshot/light-locker /)
+[![](https://screenshots.debian.net/thumbnail/light-locker/)](https://screenshots.debian.net/screenshot/light-locker/)
 
 
- **[Homepage](https://github.com/the-cavalry/light-locker/)**
+
+**[Homepage](https://github.com/the-cavalry/light-locker/)**
 
 ### Installed packages
 

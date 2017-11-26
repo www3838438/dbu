@@ -1,4 +1,4 @@
-# Power management
+# Power management utilities
 
 __power manager for Xfce desktop__
 
@@ -22,7 +22,8 @@ It features:
 [![](https://screenshots.debian.net/thumbnail/xfce4-power-manager/)](https://screenshots.debian.net/screenshot/xfce4-power-manager/)
 
 
- **[Homepage](http://goodies.xfce.org/projects/applications/xfce4-power-manager)**
+
+**[Homepage](http://goodies.xfce.org/projects/applications/xfce4-power-manager)**
 
 ### Installed packages
 

@@ -39,7 +39,8 @@ standard tools for this.
 [![](https://screenshots.debian.net/thumbnail/file-roller/)](https://screenshots.debian.net/screenshot/file-roller/)
 
 
- **[Homepage](https://wiki.gnome.org/Apps/FileRoller)**
+
+**[Homepage](https://wiki.gnome.org/Apps/FileRoller)**
 
 ### Installed packages
 

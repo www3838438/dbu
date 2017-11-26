@@ -17,7 +17,8 @@ work and the interface is well tested.
 [![](https://screenshots.debian.net/thumbnail/simple-scan/)](https://screenshots.debian.net/screenshot/simple-scan/)
 
 
- **[Homepage](https://launchpad.net/simple-scan)**
+
+**[Homepage](https://launchpad.net/simple-scan)**
 
 ### Installed packages
 

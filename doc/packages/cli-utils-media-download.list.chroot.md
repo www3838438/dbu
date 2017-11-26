@@ -1009,7 +1009,8 @@ zingmp3
 [![](https://screenshots.debian.net/thumbnail/youtube-dl/)](https://screenshots.debian.net/screenshot/youtube-dl/)
 
 
- **[Homepage](https://rg3.github.com/youtube-dl/)**
+
+**[Homepage](https://rg3.github.com/youtube-dl/)**
 
 ### Installed packages
 

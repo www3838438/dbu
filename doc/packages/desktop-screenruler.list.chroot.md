@@ -18,7 +18,8 @@ other objects that you've there. It has the following features:
 [![](https://screenshots.debian.net/thumbnail/screenruler/)](https://screenshots.debian.net/screenshot/screenruler/)
 
 
- **[Homepage](http://gnomecoder.wordpress.com/screenruler/)**
+
+**[Homepage](http://gnomecoder.wordpress.com/screenruler/)**
 
 ### Installed packages
 

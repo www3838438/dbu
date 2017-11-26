@@ -14,7 +14,8 @@ web application technologies.
 [![](https://screenshots.debian.net/thumbnail/firefox/)](https://screenshots.debian.net/screenshot/firefox/)
 
 
- **[Homepage]()**
+
+**[Homepage]()**
 
 ### Installed packages
 
