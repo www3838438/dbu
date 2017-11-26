@@ -1,0 +1,6 @@
+#Name: Vino Remote Desktop (VNC) server
+vino
+
+#Note: `TCP/UDP 15930` (+TLS)
+#Cat: Network
+

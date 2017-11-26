@@ -1,5 +1,5 @@
 #Name: Tor anonymizing overlay network
-#Desc: tor
+#Cat: Network
 
 tor
 torsocks

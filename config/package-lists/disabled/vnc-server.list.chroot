@@ -1,6 +1,0 @@
-#Name: Service de bureau à distance (VNC) Vino
-vino
-
-#Append:  Port par défaut: `TCP/UDP 15930` (avec chiffrement TLS)
-
-
