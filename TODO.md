@@ -2,12 +2,12 @@
 
 
 ```
-  ☐ [bug] some firefox addons are not installed: no resource uri leak, cookie autodelete, dark mode, ...
   ☐ [bug] GRUB > Advanced > Live (@FLAVOUR@ failsafe)
   ☐ [bug] "open containing folder" in gnome-search-tool does not work (attempts to open selected file)
   ☐ [enh] installer: preseed "domain name" installer question to None, preseed "full user name" question to match the unix username
   ☐ [enh] improve bluetooth power saving: powertop still shows 100% power usage on bluetooth card even with rfkill block. Settings in /etc/laptop-mode-tools/bluetooth.conf
   ☐ [enh] Host ISO on http://iso.linuxquestions.org/? Find a seedbox
+  ☐ [enh] [doc] list installed/recommended firefox addons (parse makefile) on firefox package page
   ☐ [enh] [tools] add master switch in makefile to build without non-debian program dependencies
   ☐ [enh] [tools] add travis config for tests/automated builds, add KVM/QEMU settings to run resulting ISO in KVM/QEMU
   ☐ [enh] [tools] keyboard-configuration interrupts unattended build
