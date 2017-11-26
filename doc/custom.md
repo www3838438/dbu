@@ -5,7 +5,7 @@
  * Install debian.
  * You must build from the same distribution as the target distribution (build *stable* systems on a build machine running Debian *stable*, *testing* systems on a machine running Debian *testing*...)
  * [`live-build`](https://www.debian.org/devel/debian-live/) is used to build the live system/installer/ISO image.
- * Run `apt install make git sudo`
+ * Run `apt install make git sudo live-build`
  * Run `git clone https://github.com/nodiscc/dbu`
  * To run the build process with the default configuration, run `make all` from the root of the git repository.
 
@@ -36,7 +36,7 @@ The full live-build documentation can be found at `/usr/share/doc/live-manual/pd
 
 ```
 
-* [Live Systems manual](https://debian-live.alioth.debian.org/live-manual/stable/manual/html/live-manual.en.html))
+* [Live Systems manual](https://debian-live.alioth.debian.org/live-manual/stable/manual/html/live-manual.en.html)
 * [`man lb config`](https://manpages.debian.org/cgi-bin/man.cgi?query=lb_config&sektion=1&apropos=0&manpath=Debian+8+jessie&locale=)
 * [`man lb build`](https://manpages.debian.org/cgi-bin/man.cgi?query=lb_build&sektion=1&apropos=0&manpath=Debian+8+jessie&locale=)
 * [`man lb clean`](https://manpages.debian.org/cgi-bin/man.cgi?query=lb_clean&sektion=1&apropos=0&manpath=Debian+8+jessie&locale=)
@@ -112,8 +112,7 @@ documentation generation (`scripts/doc-generator.sh`).
  * `#ChrootPkg`: When this points to a package, package information will be fetched from the corresponding .deb in config/packages.chroot/ instead of the APT database
  * `#Replace`: When this field is present at least once, replace the package list description with its value (can be used more than once for multiline descriptions)
 
-`doc/packages/*, doc/packages.md` should not be edited manually (Run `make doc`
-to update the markdown documentation from package lists.)
+`doc/packages/*, doc/packages.md` should not be edited manually (Run `make documentation` to update the markdown documentation from package lists.)
 
 #### Adding more packages
 

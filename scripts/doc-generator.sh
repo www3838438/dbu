@@ -79,7 +79,9 @@ function _renderMarkdown {
 	echo -e "\n$md_homepage"
 	echo -e "\n### Installed packages\n"
 	for i in $packages; do
-		echo "* [$i](https://packages.debian.org/stretch/$i) - $(apt-cache show $i | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)"
+		shortdescription=$(apt-cache show $i | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)
+		pkgversion=$(apt-cache policy $i | egrep "^  Candidate\:" | awk '{print $2}')
+		echo "* [$i](https://packages.debian.org/stretch/$i) \`$pkgversion\` - $shortdescription"
 	done
 
 	echo -e "\n### Related packages\n"
