@@ -59,7 +59,7 @@ function _genPackagesDoc {
 		if [[ "$package" =~ ^http(s)?\:.* ]]; then
 			md_screenshots="${md_screenshots}[![]($package)]($package)\n"
 		else
-			md_screenshots="${md_screenshots}[![](https://screenshots.debian.net/thumbnail/$package/)](https://screenshots.debian.net/screenshot/$package/)\n"
+			md_screenshots="${md_screenshots}[![](https://screenshots.debian.net/thumbnail-with-version/$package/9001)](https://screenshots.debian.net/screenshot-with-version/$package/9001)\n"
 		fi
 	done
 	_renderMarkdown
