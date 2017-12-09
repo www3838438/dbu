@@ -43,6 +43,7 @@ pandoc
 jq
 xmlstarlet
 aha
+groff
 
 #Alt: man2html-base
 #Alt: txt2tags
