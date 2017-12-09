@@ -25,7 +25,9 @@ alias bak='cp -v "$1" "$1.`date +%Y-%m-%d_%H-%M-%S`.bak"' #Backup specified file
 alias chx='chmod a+x' #set execute permission
 alias clipboard='xclip -selection c; notify-send --icon=gtk-paste "Copied to clipboard." 2>/dev/null' #send a command output to clipboard
 alias timestamp='date +"%Y-%m-%d_%H%M%S"'
-alias genpass='openssl rand -base64 24' #generate a random password
+alias genpass='openssl rand -base64 24' #generate a random base64 string
+alias lman='mank -k . |less' #list all manpages in pager
+alias hman='man -Hx-www-browser' #manpages in browser/html
 
 function f { #find files
     find ./ -name "*$1*"
