@@ -24,6 +24,8 @@ lbbuild:
 	#sudo lb clean --purge #only required when changing the mirrors/architecture config
 	sudo lb config
 	sudo lb build
+	-mkdir iso
+	mv *.iso iso/
 
 checksums:
 	last_tag=$$(git tag | tail -n1); \
