@@ -14,6 +14,7 @@ ncdu
 hdparm
 sdparm
 dfc
+kpartx
 
 #Alt: cfdisk
 #Alt: pmount
