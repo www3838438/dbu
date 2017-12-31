@@ -52,8 +52,8 @@ btscanner
 hostapd
 
 #passwords
-hydra
-pcredz
+#hydra
+#pcredz
 
 # network monitoring
 nethogs
@@ -70,6 +70,7 @@ sslstrip
 dsniff
 httpry
 bwm-ng
+marionnet
 
 #Alt: ndiff
 #Alt: driftnet
