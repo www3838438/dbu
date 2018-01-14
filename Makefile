@@ -154,8 +154,7 @@ tbaddons:
 	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/file/348080/addon-348080-latest.xpi
 	#https://addons.mozilla.org/en-US/thunderbird/addon/lightning/
 	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/2313/platform:2/addon-2313-latest.xpi
-	#https://addons.mozilla.org/en-US/thunderbird/addon/quote-colors/
-	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/170/addon-170-latest.xpi
+
 	#https://addons.mozilla.org/en-US/thunderbird/addon/enigmail/
 	wget -N -nv --show-progress -P $(tbaddonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/71/addon-71-latest.xpi
 	# https://addons.mozilla.org/fr/thunderbird/addon/cardbook/
@@ -180,6 +179,8 @@ tbaddons:
 	# https://addons.mozilla.org/fr/thunderbird/addon/categorymanager/
 	# https://sogo.nu/download.html#/frontends
 	# https://addons.mozilla.org/en-US/thunderbird/addon/contact-tabs/
+	# https://addons.mozilla.org/en-US/thunderbird/addon/quote-colors/ (<52)
+
 
 tbxpi:
 	@for xpi in $$(find $(tbaddonsdir) -name '*.xpi'); do \
