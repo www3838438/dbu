@@ -2,14 +2,14 @@
 
 **Building with the default configuration**
 
- * Install debian.
+ * Install Debian.
  * You must build from the same distribution as the target distribution (build *stable* systems on a build machine running Debian *stable*, *testing* systems on a machine running Debian *testing*...)
  * [`live-build`](https://www.debian.org/devel/debian-live/) is used to build the live system/installer/ISO image.
  * Run `apt install make git sudo live-build`
  * Run `git clone https://github.com/nodiscc/dbu`
  * To run the build process with the default configuration, run `make all` from the root of the git repository.
 
-The full live-build documentation can be found at `/usr/share/doc/live-manual/pdf/live-manual.portrait.en.a4.pdf.gz`
+The full live-build documentation can be found at `/usr/share/doc/live-manual/pdf/live-manual.portrait.en.a4.pdf.gz` or https://debian-live.alioth.debian.org/live-manual/stable/manual/html/live-manual.en.html
 
 **Building with a custom configuration**
 
@@ -94,6 +94,14 @@ unless someone packages it and uploads it under the same name to Debian archives
 Currently all custom packages are downloaded from the Makefile.
 Putting binary .deb packages under git version control should be avoided.
  
+##### config/includes.installer
+
+`preseed.cfg` is used to preconfigure the _installer_ using [preseeding](https://www.debian.org/releases/stable/i386/apb.html).
+
+##### config/preseed
+
+`*.chroot.cfg` is used to preseed debconf values for the actual live system.
+
 ### Documentation
 
 #### Packages documentation

@@ -10,7 +10,8 @@
   ☐ [enh] [doc] list installed/recommended firefox addons (parse makefile) on firefox package page
   ☐ [enh] [tools] add master switch in makefile to build without non-debian program dependencies
   ☐ [enh] [tools] add travis config for tests/automated builds, add KVM/QEMU settings to run resulting ISO in KVM/QEMU
-  ☐ [enh] [tools] keyboard-configuration interrupts unattended build
+  ☐ [enh] [tools] keyboard-configuration interrupts unattended build, preseed it in config/preseed/*.chroot.cfg
+  ☐ [enh] [tools] Update Firefox channel to latest/release, bump addons tagged [FF52ESR] to their latest versions
   ☐ [enh] [tools] Makefile: automate torrent creation: transmission-create dbu-0.9n-debian-stretch-amd64.hybrid.iso -o dbu-0.9n-debian-stretch-amd64.hybrid.iso.torrent -t  udp://tracker.opentrackr.org:1337 -t  udp://tracker.coppersurfer.tk:6969   -t udp://tracker.leechers-paradise.org:6969 -t  udp://zer0day.ch:1337 -t  udp://explodie.org:6969
   ☐ [enh] [cleanup] split devel-tools-base/devel-tools-advanced package lists, disable advanced list for chroot, enable it for binary, create a metapackage for advanced dev tools
   ☐ [enh] [cleanup] replace sound-juicer with other ripping software (asunder?) to get rid of libbrasero/quvi dependency

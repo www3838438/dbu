@@ -61,12 +61,12 @@ ffaddons:
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/ [e10s] [security]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/ [e10s] [security]
-	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/521554/addon-521554-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/ [e10s] [security] [FF52ESR]
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/file/710414/decentraleyes-1.3.10-an+fx+sm.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/ [security]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ [security]
-	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/platform:5/addon-784287-latest.xpi
+	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ [security] [FF52ESR]
+	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/file/717459/cookie_autodelete-1.4.4-an+fx.xpi
 	#
 	# Other addons:
 	# https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/ [webextension] [ui]
@@ -268,7 +268,7 @@ dotfiles:
 	git clone -b dbu --depth=1 https://github.com/nodiscc/user.js tmp-userjs
 	-rm -rf config/includes.chroot/etc/firefox-esr/
 	mkdir -p config/includes.chroot/etc/firefox-esr/
-    cd tmp-user.js && make systemwide_user.js
+	cd tmp-user.js && make systemwide_user.js
 	cp tmp-userjs/systemwide_user.js config/includes.chroot/etc/firefox-esr/firefox-esr.js
 	rm -rf tmp-userjs
 
