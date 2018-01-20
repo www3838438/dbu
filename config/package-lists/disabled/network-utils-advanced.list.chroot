@@ -14,17 +14,23 @@ ipcalc
 netmask
 trickle
 
+#Alt: macchanger-gtk
+#Alt: thc-ipv6
+#Alt: prips
+#Alt: usbip
+
 # ssh
 sshuttle
-sslh
 sshfs
 pssh
 putty-tools
 
+#Alt: autossh
+#Alt: gstm
+
 # dns
 dnsutils
-dnsmasq #TODO disable in hooks
-dnscrypt-proxy
+dnsmasq
 dns-root-data
 namebench
 
@@ -41,6 +47,12 @@ skipfish
 whatweb
 dirb
 dhcpig
+knockpy
+
+#Alt: ndiff
+#Alt: zenmap
+#Alt: masscan
+#Alt: pompem
 
 #wireless
 aircrack-ng
@@ -52,8 +64,12 @@ btscanner
 hostapd
 
 #passwords
-#hydra
-#pcredz
+#Alt: hydra
+#Alt: pcredz
+#Alt: hydra-gtk
+#Alt: ophcrack
+#Alt: hashcat
+#Alt: hashcat-data
 
 # network monitoring
 nethogs
@@ -72,37 +88,12 @@ httpry
 bwm-ng
 marionnet
 
-#Alt: ndiff
 #Alt: driftnet
-#Alt: tails-installer
-#Alt: speedometer
 #Alt: slurm
-#Alt: thc-ipv6
-#Alt: zenmap
-#Alt: hydra-gtk
-#Alt: macchanger-gtk
+#Alt: speedometer
 #Alt: arpwatch
-#Alt: forensics-full
-#Alt: prips
-#Alt: udhcpd
-#Alt: privoxy
-#Alt: torbrowser-launcher
-#Alt: gurlchecker
-#Alt: knockpy
-#Alt: gstm
-#Alt: usbip
-#Alt: ophcrack
-#Alt: hashcat
-#Alt: hashcat-data
-#Alt: masscan
 #Alt: tcpstat
 #Alt: ifstat
-#Alt: knockd
-#Alt: autossh
-#Alt: logkeys
-#Alt: steghide
-#Alt: pompem
-
 #Alt: snetz
 #Alt: iftop
 #Alt: ipraf-ng
@@ -112,3 +103,12 @@ marionnet
 #Alt: netperf
 #Alt: iperf
 #Alt: ipmitool
+
+# hardening
+#Alt: memlockd
+#Alt: bilibop-udev
+#Alt: forensics-full
+#Alt: tails-installer
+#Alt: torbrowser-launcher
+#Alt: steghide
+#Alt: logkeys

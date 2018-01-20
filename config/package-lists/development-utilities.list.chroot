@@ -1,0 +1,107 @@
+#Name: Software development utilities
+#NoDescription
+#Cat: Development
+#Screenshot: meld
+#Screenshot: gitg
+#Screenshot: wxhexeditor
+#Screenshot: gcolor2
+#Screenshot: tig
+
+# Graphical utilities
+gitg
+meld
+wxhexeditor
+tdfsb
+gource
+gcolor2
+sqlitebrowser
+asciio
+
+#Alt: xephyr
+#Alt: geany
+#Alt: geany-plugins
+#Alt: diffuse
+#Alt: qgit
+#Alt: ghex
+#Alt: thunar-vcs-plugin
+#Alt: poedit
+#Alt: retext
+#Alt: pybootchartgui
+#Alt: xpra
+#Alt: undistract-me
+
+# Version control systems
+git
+git-svn
+git-mediawiki
+hg-fast-export
+mercurial
+subversion
+tig
+github-backup
+ghi
+
+#Alt: myrepos
+
+# Shell scripting
+shellcheck
+
+# Parsers/converters
+pandoc
+jq
+xmlstarlet
+aha
+groff
+
+#Alt: man2html-base
+#Alt: txt2tags
+
+# Packaging/C
+debhelper
+autoconf
+devscripts
+dh-make
+equivs
+build-essential
+checkinstall
+fakeroot
+debconf-utils
+lintian
+git-buildpackage
+gdb
+
+# Python dev
+python-setuptools
+python-virtualenv
+virtualenv
+python3-venv
+python-all-dev
+python-demjson
+python-stdeb
+python3-wheel
+python-libtorrent
+pypi2deb
+python-praw
+python-tox
+
+# Live system
+live-build
+live-config-doc
+live-manual-pdf
+live-manual-html
+debootstrap
+live-images
+
+# Ruby/Node/Webdev/other
+rubygems
+ruby-dev
+#npm #jessie only
+#nodejs
+csstidy
+sqlite3
+webcheck
+#php-cli
+vera
+firejail
+firetools
+

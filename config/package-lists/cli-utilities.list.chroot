@@ -1,0 +1,261 @@
+#Name: Command-line utilities
+#NoDescription
+#Screenshot: elinks
+#Screenshot: dialog
+#Screenshot: dwdiff
+#Cat: Utility
+
+# Shell
+bash
+
+# Text editors
+nano
+vim-tiny
+
+#Alt: vim
+#Alt: vim-doc
+#Alt: vim-scripts
+#Alt: vim-addon-manager
+
+# Calculators
+bc
+units
+
+# Generators
+pwgen
+
+# File management
+cfv
+jdupes
+ranger
+secure-delete
+trash-cli
+tree
+
+#Alt: cksfv
+#Alt: safe-rm
+#Alt: mmv
+#Alt: hardlink
+
+# Archive management/compression
+gzrt
+atool
+p7zip
+p7zip-full
+arj
+cabextract
+cpio
+lzip
+lzma
+lzop
+lzip
+unace
+unalz
+unrar-free
+rar
+unzip
+zip
+iat
+nrg2iso
+
+#Alt: p7zip-rar
+
+#Alt: fswatch
+#Alt: snapd
+#Alt: fossil
+#Alt: aptly
+#Alt: apt-listbugs
+#Alt: vagrant
+#Alt: hexcurse
+#Alt: dhex
+#Alt: icdiff
+#Alt: lolcat
+#Alt: mkdocs
+#Alt: randtype
+#Alt: reglookup
+#Alt: roffit
+#Alt: bless
+#Alt: since
+#Alt: jsbeautifier
+#Alt: adb
+#Alt: android-sdk
+#Alt: android-sdk-platform-tools-common
+#Alt: fastboot
+#Alt: android-tools-fastboot
+#Alt: gplaycli
+#Alt: python-ndg-httpsclient
+#Alt: gperf
+#Alt: dgit
+#Alt: mdp
+#Alt: incron
+#Alt: faker
+#Alt: bootchart
+#Alt: debian-cd libfile-fcntllock-perl libalgorithm-merge-perl
+#Alt: rinse
+#Alt: etckeeper
+
+# Disk management
+dosfstools
+hfsprogs
+mtools
+smartmontools
+ntfs-3g
+cryptsetup
+gdisk
+parted
+ncdu
+cfdisk
+hdparm
+sdparm
+dfc
+kpartx
+
+#Alt: pmount
+#Alt: ecryptfs-utils
+#Alt: fsarchiver
+#Alt: partclone
+#Alt: partimage
+
+# Data recovery
+testdisk
+
+#Alt: foremost
+#Alt: scalpel
+#Alt: gddrescue
+#Alt: ddrescueview
+#Alt: extundelete
+#Alt: fatcat
+#Alt: safecopy
+
+# Multimedia
+sox
+ffmpeg
+mediainfo
+media-player-info
+moc
+moc-ffmpeg-plugin
+
+# Media download
+youtube-dl
+livestreamer
+ffmpeg
+
+#Alt: get-flash-videos
+#Alt: mps-youtube
+#Alt: cclive
+#Alt: gnome-twitch
+#Alt: libav-tools #jessie without backports
+#Alt: minitube
+#Alt: smtube
+
+#Alt: mpg123
+#Alt: oggvideotools
+#Alt: mp3splt
+#Alt: libav-tools #jessie without backports
+#Alt: go-mtpfs
+
+# Networking
+hostname
+bridge-utils
+ethtool
+curl
+wget
+rsync
+transmission-cli
+elinks
+
+#Alt: ntopng
+#Alt: nmon
+#Alt: speedtest-cli
+#Alt: vnstat
+#Alt: vnstati
+#Alt: httrack
+#Alt: pavuk
+#Alt: aria2
+#Alt: rtorrent
+#Alt: axel
+#Alt: lftp
+#Alt: plowshare
+#Alt: btfs
+#Alt: fping
+#Alt: gwakeonlan
+#Alt: rclone
+
+# Monitoring
+htop
+iotop
+lm-sensors
+hddtemp
+inxi
+lsof
+strace
+memtest86+
+debsums
+
+#Alt: screenfetch
+#Alt: glances
+#Alt: cpulimit
+#Alt: screentest
+#Alt: hardinfo
+#Alt: sysinfo
+#Alt: cputool
+#Alt: usbview
+#Alt: stress
+#Alt: stressapptest
+#Alt: cpuburn
+#Alt: tiobench
+#Alt: lshw
+#Alt: lshw-gtk
+#Alt: bonnie++
+#Alt: x86info
+#Alt: memtester
+#Alt: dstat
+#Alt: sysstat
+#Alt: cacti
+#Alt: hwloc
+
+# Misc
+less
+sed
+dos2unix
+util-linux
+util-linux-locales
+bash-completion
+beep
+moreutils
+autojump
+tty-clock
+manpages-fr
+at
+colortail
+pv
+colordiff
+dwdiff
+#lr (buster only)
+cloc
+asciinema
+nss-passwords
+mat
+ansible
+python-selinux
+dialog
+whiptail
+inotify-tools
+pastebinit
+
+#Alt: sl
+#Alt: source-highlight
+#Alt: detox
+#Alt: tmux
+#Alt: command-not-found
+#Alt: ttyrec
+#Alt: multitail
+#Alt: cowsay
+#Alt: fortune
+#Alt: ack-grep
+#Alt: reptyr
+#Alt: grc
+#Alt: pdd
+#Alt: fasd
+#Alt: bd
+#Alt: pv

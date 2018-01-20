@@ -14,14 +14,13 @@ xfce4-weather-plugin
 xfce4-netload-plugin
 xfce4-pulseaudio-plugin
 
-# Resources
-desktop-base
-faenza-icon-theme
-gnome-audio
-clearlooks-phenix-theme
-gnome-themes-standard
-sound-theme-freedesktop
-arc-theme
+# Desktop configuration utilities
+xfce4-settings
+gnome-system-tools
+menulibre
+gconf-editor
+dconf-tools
+qt4-qtconfig
 
 # Utilities
 gmrun
@@ -30,6 +29,10 @@ zenity
 numlockx
 x11-apps
 xbitmaps
+wmctrl
+xclip
+xcalib
+xbacklight
 
 # Misc
 gtk2-engines
@@ -43,13 +46,14 @@ python-appindicator
 gnome-settings-daemon
 dconf-gsettings-backend
 
-# Desktop configuration utilities
-xfce4-settings
-gnome-system-tools
-menulibre
-gconf-editor
-dconf-tools
-qt4-qtconfig
+# Resources
+desktop-base
+faenza-icon-theme
+gnome-audio
+clearlooks-phenix-theme
+gnome-themes-standard
+sound-theme-freedesktop
+arc-theme
 
 
 #Alt: gnome-color-manager
