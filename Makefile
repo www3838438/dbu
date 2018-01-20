@@ -67,12 +67,10 @@ ffaddons:
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ [security]
 	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/platform:5/addon-784287-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/ [webextension] [ui]
-	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/dark-mode-webextension/addon-786990-latest.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/simple-youtube-repeater/ [webextension] [ui]
-	wget -N -nv --show-progress -P $(ffaddonsdir) https://addons.mozilla.org/firefox/downloads/latest/simple-youtube-repeater/platform:2/addon-622208-latest.xpi
 	#
 	# Other addons:
+	# https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/ [webextension] [ui]
+	# https://addons.mozilla.org/en-US/firefox/addon/simple-youtube-repeater/ [webextension] [ui]
 	# https://addons.mozilla.org/en-US/firefox/addon/smart-referer/ [e10s] [security]
 	# https://addons.mozilla.org/en-US/firefox/addon/link-cleaner/ [webextension] [security]
 	# https://addons.mozilla.org/en-US/firefox/addon/note-taker/ [webextension] [tools]
