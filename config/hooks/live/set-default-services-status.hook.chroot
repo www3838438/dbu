@@ -7,6 +7,7 @@ systemctl start cups-browsed.service || true
 systemctl stop avahi-daemon.service || true
 systemctl stop avahi-daemon.socket || true
 systemctl stop avahi-dnsconfd.service || true
+systemctl stop dnsmasq.service || true
 systemctl stop haveged.service || true
 systemctl stop samba-ad-dc.service || true
 systemctl start samba.service || true
@@ -32,6 +33,7 @@ systemctl enable cups-browsed.service || true
 systemctl disable avahi-daemon.service || true
 systemctl disable avahi-daemon.socket || true
 systemctl disable avahi-dnsconfd.service || true
+systemctl disable dnsmasq.service || true
 systemctl disable haveged.service || true
 systemctl disable samba-ad-dc.service || true
 systemctl enable samba.service || true
