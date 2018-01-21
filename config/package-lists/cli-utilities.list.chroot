@@ -135,6 +135,12 @@ media-player-info
 moc
 moc-ffmpeg-plugin
 
+#Alt: mpg123
+#Alt: oggvideotools
+#Alt: mp3splt
+#Alt: libav-tools #jessie without backports
+#Alt: go-mtpfs
+
 # Media download
 youtube-dl
 livestreamer
@@ -148,11 +154,32 @@ ffmpeg
 #Alt: minitube
 #Alt: smtube
 
-#Alt: mpg123
-#Alt: oggvideotools
-#Alt: mp3splt
-#Alt: libav-tools #jessie without backports
-#Alt: go-mtpfs
+# Image manipulation
+
+imagemagick
+optipng
+advancecomp
+jpegoptim
+pngcrush
+exifprobe
+findimagedupes
+librsvg2-bin
+figlet
+toilet
+
+#Alt: scrot
+#Alt: caca-utils
+#Alt: phatch
+#Alt: converseen
+#Alt: fbi
+#Alt: gifsicle
+#Alt: jp2a
+#Alt: pecomato
+#Alt: libjpeg-utils
+#Alt: aview
+#Alt: aalib
+#Alt: fgallery liblcms2-utils
+
 
 # Networking
 hostname
@@ -180,6 +207,7 @@ elinks
 #Alt: fping
 #Alt: gwakeonlan
 #Alt: rclone
+#Alt: pastebinit
 
 # Monitoring
 htop
@@ -241,7 +269,8 @@ python-selinux
 dialog
 whiptail
 inotify-tools
-pastebinit
+cmatrix
+cmatrix-xfont
 
 #Alt: sl
 #Alt: source-highlight
@@ -254,6 +283,7 @@ pastebinit
 #Alt: fortune
 #Alt: ack-grep
 #Alt: reptyr
+#Alt: nyancat
 #Alt: grc
 #Alt: pdd
 #Alt: fasd
