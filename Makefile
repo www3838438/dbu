@@ -268,7 +268,8 @@ dotfiles:
 	git clone -b dbu --depth=1 https://github.com/nodiscc/user.js tmp-userjs
 	-rm -rf config/includes.chroot/etc/firefox-esr/
 	mkdir -p config/includes.chroot/etc/firefox-esr/
-	mv tmp-userjs/firefox.js config/includes.chroot/etc/firefox-esr/firefox-esr.js
+    cd tmp-user.js && make systemwide_user.js
+	cp tmp-userjs/systemwide_user.js config/includes.chroot/etc/firefox-esr/firefox-esr.js
 	rm -rf tmp-userjs
 
 	# Example: add extra files to the live file system
