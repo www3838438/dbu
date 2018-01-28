@@ -24,6 +24,7 @@ needrestart
 reportbug
 vrms
 apt-listchanges
+apt-transport-https
 debconf-utils
 
 
