@@ -8,9 +8,42 @@ No changes yet.
 
 <!--
 ### Added
+
+ * Add KeepassX password manager
+ * Add a 'Send To' menu entry for Ex Falso
+ * APT: Add and enable apt-transport-https
+ * Development tools: add python-tox
+ * Add lman, hman (manpage viewing) and genpass bash aliases, add required groff package
+
 ### Changed
+
+ * Replace QWinFF with WinFF (media converter)
+ * Replace sound-juicer with asunder (audio CD extractor)
+ * Improve tools/automation (tests, doc generation, build)
+ * Autostart xfce4-notes
+ * Update and improve documentation and TODO
+
 ### Removed
+
+ * Remove insecure (HTTP) direct package downloads from the Makefile
+  * light-locker-settings
+  * purple-facebook
+  * youtube-dl-gui
+  * paper-gtk-theme
+  * paper-cursor-theme
+  * fonts-open-sans
+  * ceti2-theme
+  * vertex-theme
+ * Remove 'Quote colors' Thunderbird addon
+ * Remove 'Dark mode' and 'Simple YouTube repeater' Firefox addons
+
 ### Fixed
+
+ * Remove obsolete virtualbox repository GPG key
+ * Minor fixes, cleanup, improve various default configurations
+ * Re-add virtualbox graphical interface
+ * Force IPv4 APT updates since IPv6 is disabled
+
 ### Security
 ### Deprecated
 -->
