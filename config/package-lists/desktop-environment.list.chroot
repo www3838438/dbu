@@ -1,7 +1,7 @@
 #Name: Desktop environment
 #Desc: xfce4
-#Screenshot: https://raw.githubusercontent.com/nodiscc/dbu/master/doc/res/screenshot-main.jpg
 #Cat: Utility
+#Screenshot: https://raw.githubusercontent.com/nodiscc/dbu/master/doc/res/screenshot-main.jpg
 
 xfdesktop4
 xfwm4
@@ -55,6 +55,19 @@ gnome-themes-standard
 sound-theme-freedesktop
 arc-theme
 
+# GNOME Keyring
+#Screenshot: seahorse
+seahorse
+seahorse-daemon
+python-gnomekeyring
+gnome-keyring
+ssh-askpass-gnome
+libpam-gnome-keyring
+gnupg
+gnupg2
+#Alt: gkeyring
+
+############################################
 
 #Alt: gnome-color-manager
 #Alt: galternatives
@@ -63,13 +76,6 @@ arc-theme
 #Alt: lightdm-gtk-greeter-settings
 #Alt: gddccontrol
 #Alt: startupmanager
-
-
-
-
-
-
-
 #Alt: openbox
 #Alt: obconf
 #Alt: tint2
