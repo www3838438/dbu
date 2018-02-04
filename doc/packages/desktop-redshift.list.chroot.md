@@ -11,7 +11,7 @@ This package provides GTK+ integration.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/gtk-redshift/)](https://screenshots.debian.net/screenshot/gtk-redshift/)
+[![](https://screenshots.debian.net/thumbnail-with-version/gtk-redshift/9001)](https://screenshots.debian.net/screenshot-with-version/gtk-redshift/9001)
 
 
 
@@ -19,7 +19,7 @@ This package provides GTK+ integration.
 
 ### Installed packages
 
-* [gtk-redshift](https://packages.debian.org/stretch/gtk-redshift) - transitional dummy package
+* [gtk-redshift](https://packages.debian.org/stretch/gtk-redshift) `1.11-1` - transitional dummy package
 
 ### Related packages
 

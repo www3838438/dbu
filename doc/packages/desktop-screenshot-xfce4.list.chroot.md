@@ -10,7 +10,7 @@ your "Print Screen" key. A panel plugin is provided too.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/xfce4-screenshooter/)](https://screenshots.debian.net/screenshot/xfce4-screenshooter/)
+[![](https://screenshots.debian.net/thumbnail-with-version/xfce4-screenshooter/9001)](https://screenshots.debian.net/screenshot-with-version/xfce4-screenshooter/9001)
 
 
 
@@ -18,7 +18,7 @@ your "Print Screen" key. A panel plugin is provided too.
 
 ### Installed packages
 
-* [xfce4-screenshooter](https://packages.debian.org/stretch/xfce4-screenshooter) - screenshots utility for Xfce
+* [xfce4-screenshooter](https://packages.debian.org/stretch/xfce4-screenshooter) `1.8.2-2` - screenshots utility for Xfce
 
 ### Related packages
 

@@ -15,7 +15,7 @@ provided by the package "mumble-server".
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/mumble/)](https://screenshots.debian.net/screenshot/mumble/)
+[![](https://screenshots.debian.net/thumbnail-with-version/mumble/9001)](https://screenshots.debian.net/screenshot-with-version/mumble/9001)
 
 
 
@@ -23,7 +23,7 @@ provided by the package "mumble-server".
 
 ### Installed packages
 
-* [mumble](https://packages.debian.org/stretch/mumble) - Low latency encrypted VoIP client
+* [mumble](https://packages.debian.org/stretch/mumble) `1.2.18-1` - Low latency encrypted VoIP client
 
 ### Related packages
 

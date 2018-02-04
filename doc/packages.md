@@ -19,6 +19,7 @@ removing or updating software packages.
 
 ### Multimedia
  - [ALSA/PulseAudio audio system](packages/desktop-system-audio-alsa-pulseaudio.list.chroot.md)
+ - [Asunder audio CD extractor](packages/desktop-audio-cd-extractor-asunder.list.chroot.md)
  - [Audacity audio editor](packages/desktop-audio-editor-audacity.list.chroot.md)
  - [Blender 3D editor and renderer](packages/desktop-3deditor-blender.list.chroot.md)
  - [Cheese webcam utility](packages/desktop-webcam-cheese.list.chroot.md)
@@ -28,17 +29,13 @@ removing or updating software packages.
  - [Image manipulation utilities](packages/desktop-utils-images.list.chroot.md)
  - [Inkscape vector image editor](packages/desktop-vectoreditor-inkscape.list.chroot.md)
  - [MPV media player](packages/desktop-media-player-mpv.list.chroot.md)
- - [Multimedia utilities (command line)](packages/cli-utils-media.list.chroot.md)
  - [OBS Studio video recorder/streamer](packages/desktop-video-recorder-streamer-obs-studio.list.chroot.md)
  - [Openshot video editor](packages/desktop-video-editor-openshot.list.chroot.md)
  - [QuodLibet music player/library manager](packages/desktop-music-player-quodlibet.list.chroot.md)
  - [Ristretto image viewer](packages/desktop-image-viewer-ristretto.list.chroot.md)
- - [Sound-juicer audio CD extractor](packages/desktop-audio-cd-extractor-sound-juicer.list.chroot.md)
- - [Sweet Home 3D interior design editor](packages/desktop-3deditor-sweethome3d.list.chroot.md)
  - [VLC media player](packages/desktop-media-player-vlc.list.chroot.md)
  - [WinFF multimedia file converter](packages/desktop-media-converter-winff.list.chroot.md)
  - [Xfburn CD/DVD burning tool](packages/desktop-cd-burning-xfburn.list.chroot.md)
- - [Youtube-dl media downloader](packages/cli-utils-media-download.list.chroot.md)
 
 ### Network
  - [Blueman Bluetooth manager](packages/desktop-bluetooth-blueman.list.chroot.md)
@@ -47,7 +44,6 @@ removing or updating software packages.
  - [Liferea RSS/Atom news reader](packages/desktop-feed-reader-liferea.list.chroot.md)
  - [Mumble voice communication client](packages/desktop-voip-mumble.list.chroot.md)
  - [Network Manager](packages/desktop-network-manager.list.chroot.md)
- - [Network utilities (command line)](packages/cli-utils-network.list.chroot.md)
  - [OpenSSH remote access server](packages/system-ssh-server.list.chroot.md)
  - [Owncloud file synchronization client](packages/desktop-file-synchronization-owncloud.list.chroot.md)
  - [Pidgin instant messaging client](packages/desktop-instant-messaging-pidgin.list.chroot.md)
@@ -57,21 +53,19 @@ removing or updating software packages.
 
 ### Utility
  - [Alarm clock](packages/desktop-alarm-clock-applet.list.chroot.md)
+ - [Command-line utilities](packages/cli-utilities.list.chroot.md)
  - [Conky ](packages/desktop-widgets-conky.list.chroot.md)
  - [Desktop environment](packages/desktop-environment.list.chroot.md)
  - [Evince document viewer](packages/desktop-document-viewer.list.chroot.md)
- - [File management tools (command line)](packages/cli-utils-file-management.list.chroot.md)
  - [File search utility](packages/desktop-file-search-gnome-search-tool.list.chroot.md)
  - [File-roller archive manager](packages/desktop-archive-manager-file-roller.list.chroot.md)
  - [GNOME Font viewer and manager](packages/desktop-font-viewer-manager-gnome.list.chroot.md)
- - [GNOME Keyring password manager](packages/desktop-password-manager-gnome-keyring.list.chroot.md)
  - [GNOME calculator](packages/desktop-calculator-gnome-calculator.list.chroot.md)
  - [GNOME character map](packages/desktop-character-map-gucharmap.list.chroot.md)
  - [GTK-RecordMyDesktop screen recorder](packages/desktop-screen-recorder-gtk-recordmydesktop.list.chroot.md)
+ - [KeepassX password manager](packages/desktop-password-manager-keepassx.list.chroot.md)
  - [Kupfer launcher](packages/desktop-launcher-kupfer.list.chroot.md)
  - [Mousepad text editor](packages/desktop-text-editor-mousepad.list.chroot.md)
- - [Nano text editor](packages/cli-utils-text-editors.list.chroot.md)
- - [Other command line utilities](packages/cli-utils-misc.list.chroot.md)
  - [Redshift color temperature manager](packages/desktop-redshift.list.chroot.md)
  - [Screenruler](packages/desktop-screenruler.list.chroot.md)
  - [Thunar file manager](packages/desktop-file-manager-thunar.list.chroot.md)
@@ -88,19 +82,16 @@ removing or updating software packages.
  - [Stellarium](packages/desktop-science-stellarium.list.chroot.md)
 
 ### Development
- - [Development tools (command line)](packages/cli-development-tools.list.chroot.md)
- - [Development tools (graphical)](packages/desktop-development-tools.list.chroot.md)
+ - [Software development utilities](packages/development-utilities.list.chroot.md)
 
 ### System
  - [APT package management utilities](packages/system-package-management.list.chroot.md)
  - [Backintime backup utility](packages/desktop-backup-utility-backintime.list.chroot.md)
- - [Baobab disk usage analyzer](packages/desktop-diskusage-baobab.list.chroot.md)
  - [Base system and hardware support](packages/system-base.list.chroot.md)
  - [Bleachbit file cleaner](packages/desktop-file-cleaner-bleachbit.list.chroot.md)
  - [CUPS printing system](packages/system-printers-cups.list.chroot.md)
- - [Disk management utilities (command line)](packages/cli-utils-diskmanagement.list.chroot.md)
+ - [Disk utilities (graphical)](packages/desktop-disk-utilities.list.chroot.md)
  - [Free/Libre firmwares](packages/system-firmwares.list.chroot.md)
- - [GNOME disk utility](packages/desktop-diskutilities-gnome-disks.list.chroot.md)
  - [GNOME system log viewer](packages/desktop-system-log-viewer.list.chroot.md)
  - [Language support: English](packages/system-localization-english.list.chroot.md)
  - [Language support: French](packages/system-localization-french.list.chroot.md)
@@ -112,8 +103,6 @@ removing or updating software packages.
  - [OpenJDK Java environment](packages/system-java-openjdk.list.chroot.md)
  - [Plymouth boot screen](packages/desktop-bootscreen-plymouth.list.chroot.md)
  - [Power management utilities](packages/system-power-management.list.chroot.md)
- - [System monitoring tools (command line)](packages/cli-system-monitoring.list.chroot.md)
- - [Testdisk/PhotoRec data recovery suite](packages/cli-data-recovery-testdisk.list.chroot.md)
  - [UFW firewall manager](packages/desktop-system-firewall-management-ufw.list.chroot.md)
  - [VirtualBox virtualization solution](packages/desktop-virtualization-virtualbox.list.chroot.md)
  - [Xfce4 task manager](packages/desktop-taskmanager-xfce4.list.chroot.md)
@@ -121,4 +110,4 @@ removing or updating software packages.
 
 ### Non-debian packages
 * []() - 
-* [webtorrent-desktop](https://webtorrent.io) -  WebTorrent, the streaming torrent client. For Mac, Windows, and Linux.
+* []() - 

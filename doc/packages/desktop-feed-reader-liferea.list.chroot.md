@@ -24,7 +24,7 @@ Liferea is an abbreviation for Linux Feed Reader.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/liferea/)](https://screenshots.debian.net/screenshot/liferea/)
+[![](https://screenshots.debian.net/thumbnail-with-version/liferea/9001)](https://screenshots.debian.net/screenshot-with-version/liferea/9001)
 
 
 
@@ -32,9 +32,9 @@ Liferea is an abbreviation for Linux Feed Reader.
 
 ### Installed packages
 
-* [liferea](https://packages.debian.org/stretch/liferea) - feed/news/podcast client with plugin support
-* [gir1.2-gnomekeyring-1.0](https://packages.debian.org/stretch/gir1.2-gnomekeyring-1.0) - GNOME keyring services library - introspection data
-* [dconf-gsettings-backend](https://packages.debian.org/stretch/dconf-gsettings-backend) - simple configuration storage system - GSettings back-end
+* [liferea](https://packages.debian.org/stretch/liferea) `1.12~rc3-1` - feed/news/podcast client with plugin support
+* [gir1.2-gnomekeyring-1.0](https://packages.debian.org/stretch/gir1.2-gnomekeyring-1.0) `3.12.0-1+b2` - GNOME keyring services library - introspection data
+* [dconf-gsettings-backend](https://packages.debian.org/stretch/dconf-gsettings-backend) `0.26.0-2+b1` - simple configuration storage system - GSettings back-end
 
 ### Related packages
 

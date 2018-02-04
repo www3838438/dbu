@@ -22,7 +22,7 @@ of operations.  It is based on GTK2.
 
 ### Installed packages
 
-* [homebank](https://packages.debian.org/stretch/homebank) - Manage your personal accounts at home
+* [homebank](https://packages.debian.org/stretch/homebank) `5.0.9-1+b1` - Manage your personal accounts at home
 
 ### Related packages
 

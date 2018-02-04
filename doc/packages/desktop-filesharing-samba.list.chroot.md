@@ -7,7 +7,7 @@ Microsoft Windows, OS X, and other Unix systems.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/samba/)](https://screenshots.debian.net/screenshot/samba/)
+[![](https://screenshots.debian.net/thumbnail-with-version/samba/9001)](https://screenshots.debian.net/screenshot-with-version/samba/9001)
 
 
 
@@ -15,9 +15,9 @@ Microsoft Windows, OS X, and other Unix systems.
 
 ### Installed packages
 
-* [samba](https://packages.debian.org/stretch/samba) - SMB/CIFS file, print, and login server for Unix
-* [samba-vfs-modules](https://packages.debian.org/stretch/samba-vfs-modules) - Samba Virtual FileSystem plugins
-* [smbclient](https://packages.debian.org/stretch/smbclient) - command-line SMB/CIFS clients for Unix
+* [samba](https://packages.debian.org/stretch/samba) `2:4.5.12+dfsg-2+deb9u1` - SMB/CIFS file, print, and login server for Unix
+* [samba-vfs-modules](https://packages.debian.org/stretch/samba-vfs-modules) `2:4.5.12+dfsg-2+deb9u1` - Samba Virtual FileSystem plugins
+* [smbclient](https://packages.debian.org/stretch/smbclient) `2:4.5.12+dfsg-2+deb9u1` - command-line SMB/CIFS clients for Unix
 
 ### Related packages
 

@@ -14,7 +14,7 @@ plugin for the Xfce panel.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/xfce4-dict/)](https://screenshots.debian.net/screenshot/xfce4-dict/)
+[![](https://screenshots.debian.net/thumbnail-with-version/xfce4-dict/9001)](https://screenshots.debian.net/screenshot-with-version/xfce4-dict/9001)
 
 
 
@@ -22,7 +22,7 @@ plugin for the Xfce panel.
 
 ### Installed packages
 
-* [xfce4-dict](https://packages.debian.org/stretch/xfce4-dict) - Dictionary plugin for Xfce4 panel
+* [xfce4-dict](https://packages.debian.org/stretch/xfce4-dict) `0.7.2-1` - Dictionary plugin for Xfce4 panel
 
 ### Related packages
 

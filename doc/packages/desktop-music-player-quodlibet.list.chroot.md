@@ -14,7 +14,7 @@ and MOD/XM/IT.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/quodlibet/)](https://screenshots.debian.net/screenshot/quodlibet/)
+[![](https://screenshots.debian.net/thumbnail-with-version/quodlibet/9001)](https://screenshots.debian.net/screenshot-with-version/quodlibet/9001)
 
 
 
@@ -22,18 +22,18 @@ and MOD/XM/IT.
 
 ### Installed packages
 
-* [quodlibet](https://packages.debian.org/stretch/quodlibet) - audio library manager and player for GTK3
-* [quodlibet-plugins](https://packages.debian.org/stretch/quodlibet-plugins) - 
-* [exfalso](https://packages.debian.org/stretch/exfalso) - audio tag editor for GTK+
-* [python-cddb](https://packages.debian.org/stretch/python-cddb) - Python interface to CD-IDs and FreeDB
-* [python-musicbrainz2](https://packages.debian.org/stretch/python-musicbrainz2) - interface to the MusicBrainz XML web service
-* [python-feedparser](https://packages.debian.org/stretch/python-feedparser) - Universal Feed Parser for Python
-* [python-indicate](https://packages.debian.org/stretch/python-indicate) - Python bindings for libindicate
-* [python-pyinotify](https://packages.debian.org/stretch/python-pyinotify) - simple Linux inotify Python bindings
-* [libgpod-common](https://packages.debian.org/stretch/libgpod-common) - common files for libgpod
-* [libgpod4](https://packages.debian.org/stretch/libgpod4) - library to read and write songs and artwork to an iPod
-* [projectm-pulseaudio](https://packages.debian.org/stretch/projectm-pulseaudio) - projectM PulseAudio module
-* [python-musicbrainzngs](https://packages.debian.org/stretch/python-musicbrainzngs) - Python bindings for the Musicbrainz NGS webservice interface
+* [quodlibet](https://packages.debian.org/stretch/quodlibet) `3.7.1-2` - audio library manager and player for GTK3
+* [quodlibet-plugins](https://packages.debian.org/stretch/quodlibet-plugins) `(none)` - 
+* [exfalso](https://packages.debian.org/stretch/exfalso) `3.7.1-2` - audio tag editor for GTK+
+* [python-cddb](https://packages.debian.org/stretch/python-cddb) `1.4-5.3` - Python interface to CD-IDs and FreeDB
+* [python-musicbrainz2](https://packages.debian.org/stretch/python-musicbrainz2) `0.7.4-2` - interface to the MusicBrainz XML web service
+* [python-feedparser](https://packages.debian.org/stretch/python-feedparser) `5.1.3-3` - Universal Feed Parser for Python
+* [python-indicate](https://packages.debian.org/stretch/python-indicate) `0.6.92-4` - Python bindings for libindicate
+* [python-pyinotify](https://packages.debian.org/stretch/python-pyinotify) `0.9.6-1` - simple Linux inotify Python bindings
+* [libgpod-common](https://packages.debian.org/stretch/libgpod-common) `0.8.3-8.2` - common files for libgpod
+* [libgpod4](https://packages.debian.org/stretch/libgpod4) `0.8.3-8.2` - library to read and write songs and artwork to an iPod
+* [projectm-pulseaudio](https://packages.debian.org/stretch/projectm-pulseaudio) `2.1.0+dfsg-4+b3` - projectM PulseAudio module
+* [python-musicbrainzngs](https://packages.debian.org/stretch/python-musicbrainzngs) `0.6-2` - Python bindings for the Musicbrainz NGS webservice interface
 
 ### Related packages
 

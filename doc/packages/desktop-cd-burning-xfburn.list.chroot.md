@@ -12,7 +12,7 @@ already able to burn data.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/xfburn/)](https://screenshots.debian.net/screenshot/xfburn/)
+[![](https://screenshots.debian.net/thumbnail-with-version/xfburn/9001)](https://screenshots.debian.net/screenshot-with-version/xfburn/9001)
 
 
 
@@ -20,7 +20,7 @@ already able to burn data.
 
 ### Installed packages
 
-* [xfburn](https://packages.debian.org/stretch/xfburn) - CD-burner application for Xfce Desktop Environment
+* [xfburn](https://packages.debian.org/stretch/xfburn) `0.5.4-1` - CD-burner application for Xfce Desktop Environment
 
 ### Related packages
 

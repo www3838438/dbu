@@ -12,8 +12,8 @@ Environment in mind, it should work well with other Gtk+ desktop environments.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/gnome-font-viewer/)](https://screenshots.debian.net/screenshot/gnome-font-viewer/)
-[![](https://screenshots.debian.net/thumbnail/font-manager/)](https://screenshots.debian.net/screenshot/font-manager/)
+[![](https://screenshots.debian.net/thumbnail-with-version/gnome-font-viewer/9001)](https://screenshots.debian.net/screenshot-with-version/gnome-font-viewer/9001)
+[![](https://screenshots.debian.net/thumbnail-with-version/font-manager/9001)](https://screenshots.debian.net/screenshot-with-version/font-manager/9001)
 
 
 
@@ -21,9 +21,9 @@ Environment in mind, it should work well with other Gtk+ desktop environments.
 
 ### Installed packages
 
-* [gnome-font-viewer](https://packages.debian.org/stretch/gnome-font-viewer) - font viewer for GNOME
-* [font-manager](https://packages.debian.org/stretch/font-manager) - font management application for the GNOME desktop
-* [python-reportlab](https://packages.debian.org/stretch/python-reportlab) - ReportLab library to create PDF documents using Python
+* [gnome-font-viewer](https://packages.debian.org/stretch/gnome-font-viewer) `3.22.0-1+b1` - font viewer for GNOME
+* [font-manager](https://packages.debian.org/stretch/font-manager) `0.7.3-1+b1` - font management application for the GNOME desktop
+* [python-reportlab](https://packages.debian.org/stretch/python-reportlab) `3.3.0-2` - ReportLab library to create PDF documents using Python
 
 ### Related packages
 

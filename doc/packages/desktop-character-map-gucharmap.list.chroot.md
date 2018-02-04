@@ -11,7 +11,7 @@ you might only know by its Unicode name or code point.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/gucharmap/)](https://screenshots.debian.net/screenshot/gucharmap/)
+[![](https://screenshots.debian.net/thumbnail-with-version/gucharmap/9001)](https://screenshots.debian.net/screenshot-with-version/gucharmap/9001)
 
 
 
@@ -19,7 +19,7 @@ you might only know by its Unicode name or code point.
 
 ### Installed packages
 
-* [gucharmap](https://packages.debian.org/stretch/gucharmap) - Unicode character picker and font browser
+* [gucharmap](https://packages.debian.org/stretch/gucharmap) `1:9.0.2-1` - Unicode character picker and font browser
 
 ### Related packages
 

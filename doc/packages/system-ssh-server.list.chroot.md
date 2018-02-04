@@ -26,7 +26,7 @@ purposes.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/openssh-server/)](https://screenshots.debian.net/screenshot/openssh-server/)
+[![](https://screenshots.debian.net/thumbnail-with-version/openssh-server/9001)](https://screenshots.debian.net/screenshot-with-version/openssh-server/9001)
 
 
 
@@ -34,7 +34,7 @@ purposes.
 
 ### Installed packages
 
-* [openssh-server](https://packages.debian.org/stretch/openssh-server) - secure shell (SSH) server, for secure access from remote machines
+* [openssh-server](https://packages.debian.org/stretch/openssh-server) `1:7.4p1-10+deb9u2` - secure shell (SSH) server, for secure access from remote machines
 
 ### Related packages
 

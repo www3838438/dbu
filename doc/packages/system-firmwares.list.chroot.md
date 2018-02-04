@@ -40,7 +40,7 @@ Contents:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/firmware-linux-free/)](https://screenshots.debian.net/screenshot/firmware-linux-free/)
+[![](https://screenshots.debian.net/thumbnail-with-version/firmware-linux-free/9001)](https://screenshots.debian.net/screenshot-with-version/firmware-linux-free/9001)
 
 
 
@@ -48,7 +48,7 @@ Contents:
 
 ### Installed packages
 
-* [firmware-linux-free](https://packages.debian.org/stretch/firmware-linux-free) - Binary firmware for various drivers in the Linux kernel
+* [firmware-linux-free](https://packages.debian.org/stretch/firmware-linux-free) `3.4` - Binary firmware for various drivers in the Linux kernel
 
 ### Related packages
 

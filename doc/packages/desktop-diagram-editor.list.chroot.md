@@ -11,7 +11,7 @@ many other formats.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/dia/)](https://screenshots.debian.net/screenshot/dia/)
+[![](https://screenshots.debian.net/thumbnail-with-version/dia/9001)](https://screenshots.debian.net/screenshot-with-version/dia/9001)
 
 
 
@@ -19,9 +19,9 @@ many other formats.
 
 ### Installed packages
 
-* [dia](https://packages.debian.org/stretch/dia) - Diagram editor
-* [dia-shapes](https://packages.debian.org/stretch/dia-shapes) - Diagram editor (additional shapes)
-* [gsfonts-x11](https://packages.debian.org/stretch/gsfonts-x11) - Make Ghostscript fonts available to X11
+* [dia](https://packages.debian.org/stretch/dia) `0.97.3+git20160930-6` - Diagram editor
+* [dia-shapes](https://packages.debian.org/stretch/dia-shapes) `0.6.0-3` - Diagram editor (additional shapes)
+* [gsfonts-x11](https://packages.debian.org/stretch/gsfonts-x11) `0.24` - Make Ghostscript fonts available to X11
 
 ### Related packages
 

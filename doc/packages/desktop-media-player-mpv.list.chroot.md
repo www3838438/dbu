@@ -21,7 +21,7 @@ See mpv(1) for more info regarding changes between MPlayer, mplayer2 and mpv.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/mpv/)](https://screenshots.debian.net/screenshot/mpv/)
+[![](https://screenshots.debian.net/thumbnail-with-version/mpv/9001)](https://screenshots.debian.net/screenshot-with-version/mpv/9001)
 
 
 
@@ -29,7 +29,7 @@ See mpv(1) for more info regarding changes between MPlayer, mplayer2 and mpv.
 
 ### Installed packages
 
-* [mpv](https://packages.debian.org/stretch/mpv) - video player based on MPlayer/mplayer2
+* [mpv](https://packages.debian.org/stretch/mpv) `0.23.0-2+b2` - video player based on MPlayer/mplayer2
 
 ### Related packages
 

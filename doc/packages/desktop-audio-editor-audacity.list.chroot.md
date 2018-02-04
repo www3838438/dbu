@@ -14,7 +14,7 @@ Supported file formats include Ogg Vorbis, MP2, MP3, WAV, AIFF, and AU.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/audacity/)](https://screenshots.debian.net/screenshot/audacity/)
+[![](https://screenshots.debian.net/thumbnail-with-version/audacity/9001)](https://screenshots.debian.net/screenshot-with-version/audacity/9001)
 
 
 
@@ -22,7 +22,7 @@ Supported file formats include Ogg Vorbis, MP2, MP3, WAV, AIFF, and AU.
 
 ### Installed packages
 
-* [audacity](https://packages.debian.org/stretch/audacity) - fast, cross-platform audio editor
+* [audacity](https://packages.debian.org/stretch/audacity) `2.1.2-2` - fast, cross-platform audio editor
 
 ### Related packages
 

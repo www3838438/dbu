@@ -13,7 +13,7 @@ lighter but comparable replacement, Terminal might be the answer.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/xfce4-terminal/)](https://screenshots.debian.net/screenshot/xfce4-terminal/)
+[![](https://screenshots.debian.net/thumbnail-with-version/xfce4-terminal/9001)](https://screenshots.debian.net/screenshot-with-version/xfce4-terminal/9001)
 
 
 
@@ -21,7 +21,7 @@ lighter but comparable replacement, Terminal might be the answer.
 
 ### Installed packages
 
-* [xfce4-terminal](https://packages.debian.org/stretch/xfce4-terminal) - Xfce terminal emulator
+* [xfce4-terminal](https://packages.debian.org/stretch/xfce4-terminal) `0.8.3-1` - Xfce terminal emulator
 
 ### Related packages
 

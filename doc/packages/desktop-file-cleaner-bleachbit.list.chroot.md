@@ -19,7 +19,7 @@ securely shreds arbitrary files.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/bleachbit/)](https://screenshots.debian.net/screenshot/bleachbit/)
+[![](https://screenshots.debian.net/thumbnail-with-version/bleachbit/9001)](https://screenshots.debian.net/screenshot-with-version/bleachbit/9001)
 
 
 
@@ -27,7 +27,7 @@ securely shreds arbitrary files.
 
 ### Installed packages
 
-* [bleachbit](https://packages.debian.org/stretch/bleachbit) - delete unnecessary files from the system
+* [bleachbit](https://packages.debian.org/stretch/bleachbit) `1.12-1` - delete unnecessary files from the system
 
 ### Related packages
 

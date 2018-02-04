@@ -13,7 +13,7 @@ table-of-contents bookmarks.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/evince/)](https://screenshots.debian.net/screenshot/evince/)
+[![](https://screenshots.debian.net/thumbnail-with-version/evince/9001)](https://screenshots.debian.net/screenshot-with-version/evince/9001)
 
 
 
@@ -21,7 +21,7 @@ table-of-contents bookmarks.
 
 ### Installed packages
 
-* [evince](https://packages.debian.org/stretch/evince) - Document (PostScript, PDF) viewer
+* [evince](https://packages.debian.org/stretch/evince) `3.22.1-3+deb9u1` - Document (PostScript, PDF) viewer
 
 ### Related packages
 

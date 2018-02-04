@@ -18,7 +18,7 @@ Note that OBS Studio requires an OpenGL 3.2 compatible video card.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/obs-studio/)](https://screenshots.debian.net/screenshot/obs-studio/)
+[![](https://screenshots.debian.net/thumbnail-with-version/obs-studio/9001)](https://screenshots.debian.net/screenshot-with-version/obs-studio/9001)
 
 
 
@@ -26,7 +26,7 @@ Note that OBS Studio requires an OpenGL 3.2 compatible video card.
 
 ### Installed packages
 
-* [obs-studio](https://packages.debian.org/stretch/obs-studio) - recorder and streamer for live video content
+* [obs-studio](https://packages.debian.org/stretch/obs-studio) `0.15.4+dfsg1-1+b1` - recorder and streamer for live video content
 
 ### Related packages
 

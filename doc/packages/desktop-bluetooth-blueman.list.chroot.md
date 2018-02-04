@@ -9,7 +9,7 @@ backend.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/blueman/)](https://screenshots.debian.net/screenshot/blueman/)
+[![](https://screenshots.debian.net/thumbnail-with-version/blueman/9001)](https://screenshots.debian.net/screenshot-with-version/blueman/9001)
 
 
 
@@ -17,9 +17,9 @@ backend.
 
 ### Installed packages
 
-* [blueman](https://packages.debian.org/stretch/blueman) - Graphical bluetooth manager
-* [bluetooth](https://packages.debian.org/stretch/bluetooth) - Bluetooth support
-* [blueman](https://packages.debian.org/stretch/blueman) - Graphical bluetooth manager
+* [blueman](https://packages.debian.org/stretch/blueman) `2.0.4-1` - Graphical bluetooth manager
+* [bluetooth](https://packages.debian.org/stretch/bluetooth) `5.43-2+deb9u1` - Bluetooth support
+* [blueman](https://packages.debian.org/stretch/blueman) `2.0.4-1` - Graphical bluetooth manager
 
 ### Related packages
 

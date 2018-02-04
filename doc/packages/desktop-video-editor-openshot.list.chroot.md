@@ -23,7 +23,7 @@ Features include:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/openshot/)](https://screenshots.debian.net/screenshot/openshot/)
+[![](https://screenshots.debian.net/thumbnail-with-version/openshot/9001)](https://screenshots.debian.net/screenshot-with-version/openshot/9001)
 
 
 
@@ -31,7 +31,7 @@ Features include:
 
 ### Installed packages
 
-* [openshot](https://packages.debian.org/stretch/openshot) - Create and edit videos and movies
+* [openshot](https://packages.debian.org/stretch/openshot) `1.4.3-1.2` - Create and edit videos and movies
 
 ### Related packages
 

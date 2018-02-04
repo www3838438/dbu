@@ -12,7 +12,7 @@ corner button to open a new note.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/xfce4-notes/)](https://screenshots.debian.net/screenshot/xfce4-notes/)
+[![](https://screenshots.debian.net/thumbnail-with-version/xfce4-notes/9001)](https://screenshots.debian.net/screenshot-with-version/xfce4-notes/9001)
 
 
 
@@ -20,7 +20,7 @@ corner button to open a new note.
 
 ### Installed packages
 
-* [xfce4-notes](https://packages.debian.org/stretch/xfce4-notes) - Notes application for the Xfce4 desktop
+* [xfce4-notes](https://packages.debian.org/stretch/xfce4-notes) `1.8.1-1` - Notes application for the Xfce4 desktop
 
 ### Related packages
 

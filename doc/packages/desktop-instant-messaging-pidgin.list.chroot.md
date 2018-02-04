@@ -15,7 +15,7 @@ Some extra packages are suggested to use increased functionality:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/pidgin/)](https://screenshots.debian.net/screenshot/pidgin/)
+[![](https://screenshots.debian.net/thumbnail-with-version/pidgin/9001)](https://screenshots.debian.net/screenshot-with-version/pidgin/9001)
 
 
 
@@ -23,14 +23,14 @@ Some extra packages are suggested to use increased functionality:
 
 ### Installed packages
 
-* [pidgin](https://packages.debian.org/stretch/pidgin) - graphical multi-protocol instant messaging client
-* [pidgin-libnotify](https://packages.debian.org/stretch/pidgin-libnotify) - display notification bubbles in pidgin
-* [pidgin-otr](https://packages.debian.org/stretch/pidgin-otr) - Off-the-Record Messaging plugin for Pidgin
-* [libpurple-bin](https://packages.debian.org/stretch/libpurple-bin) - multi-protocol instant messaging library - extra utilities
-* [pidgin-plugin-pack](https://packages.debian.org/stretch/pidgin-plugin-pack) - Collection of Pidgin plugins
-* [pidgin-extprefs](https://packages.debian.org/stretch/pidgin-extprefs) - extended preferences plugin for the instant messenger pidgin
-* [pidgin-gnome-keyring](https://packages.debian.org/stretch/pidgin-gnome-keyring) - integrates pidgin (and libpurple) with the system keyring
+* [pidgin](https://packages.debian.org/stretch/pidgin) `2.12.0-1` - graphical multi-protocol instant messaging client
+* [pidgin-libnotify](https://packages.debian.org/stretch/pidgin-libnotify) `0.14-9` - display notification bubbles in pidgin
+* [pidgin-otr](https://packages.debian.org/stretch/pidgin-otr) `4.0.2-1` - Off-the-Record Messaging plugin for Pidgin
+* [libpurple-bin](https://packages.debian.org/stretch/libpurple-bin) `2.12.0-1` - multi-protocol instant messaging library - extra utilities
+* [pidgin-plugin-pack](https://packages.debian.org/stretch/pidgin-plugin-pack) `2.7.0-3` - Collection of Pidgin plugins
+* [pidgin-extprefs](https://packages.debian.org/stretch/pidgin-extprefs) `0.7-2` - extended preferences plugin for the instant messenger pidgin
+* [pidgin-gnome-keyring](https://packages.debian.org/stretch/pidgin-gnome-keyring) `2.0-1` - integrates pidgin (and libpurple) with the system keyring
 
 ### Related packages
 
-<sub> [sflphone](https://packages.debian.org/stretch/sflphone) [mumble](https://packages.debian.org/stretch/mumble) [empathy](https://packages.debian.org/stretch/empathy) [finch](https://packages.debian.org/stretch/finch) [weechat](https://packages.debian.org/stretch/weechat) [irssi](https://packages.debian.org/stretch/irssi) [hotot](https://packages.debian.org/stretch/hotot) [turpial](https://packages.debian.org/stretch/turpial) [twidge](https://packages.debian.org/stretch/twidge) [turses](https://packages.debian.org/stretch/turses) [centerim](https://packages.debian.org/stretch/centerim) [ekg2](https://packages.debian.org/stretch/ekg2) [mcabber](https://packages.debian.org/stretch/mcabber) [xchat](https://packages.debian.org/stretch/xchat) [gajim](https://packages.debian.org/stretch/gajim) [yowsup-cli](https://packages.debian.org/stretch/yowsup-cli) [twitux](https://packages.debian.org/stretch/twitux) [smuxi](https://packages.debian.org/stretch/smuxi)  </sub>
+<sub> [sflphone](https://packages.debian.org/stretch/sflphone) [mumble](https://packages.debian.org/stretch/mumble) [empathy](https://packages.debian.org/stretch/empathy) [finch](https://packages.debian.org/stretch/finch) [weechat](https://packages.debian.org/stretch/weechat) [irssi](https://packages.debian.org/stretch/irssi) [hotot](https://packages.debian.org/stretch/hotot) [turpial](https://packages.debian.org/stretch/turpial) [twidge](https://packages.debian.org/stretch/twidge) [turses](https://packages.debian.org/stretch/turses) [centerim](https://packages.debian.org/stretch/centerim) [ekg2](https://packages.debian.org/stretch/ekg2) [mcabber](https://packages.debian.org/stretch/mcabber) [xchat](https://packages.debian.org/stretch/xchat) [gajim](https://packages.debian.org/stretch/gajim) [yowsup-cli](https://packages.debian.org/stretch/yowsup-cli) [twitux](https://packages.debian.org/stretch/twitux) [smuxi](https://packages.debian.org/stretch/smuxi) [nheko](https://packages.debian.org/stretch/nheko)  </sub>

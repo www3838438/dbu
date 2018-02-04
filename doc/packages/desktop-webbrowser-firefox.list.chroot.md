@@ -11,7 +11,7 @@ web application technologies.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/firefox/)](https://screenshots.debian.net/screenshot/firefox/)
+[![](https://screenshots.debian.net/thumbnail-with-version/firefox/9001)](https://screenshots.debian.net/screenshot-with-version/firefox/9001)
 
 
 
@@ -19,9 +19,9 @@ web application technologies.
 
 ### Installed packages
 
-* [firefox-esr](https://packages.debian.org/stretch/firefox-esr) - Mozilla Firefox web browser - Extended Support Release (ESR)
-* [pkg-mozilla-archive-keyring](https://packages.debian.org/stretch/pkg-mozilla-archive-keyring) - GnuPG archive keys for the Debian Mozilla team package repository
-* [firefox-esr-l10n-fr](https://packages.debian.org/stretch/firefox-esr-l10n-fr) - French language package for Firefox ESR
+* [firefox-esr](https://packages.debian.org/stretch/firefox-esr) `52.6.0esr-1~deb9u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
+* [pkg-mozilla-archive-keyring](https://packages.debian.org/stretch/pkg-mozilla-archive-keyring) `1.1` - GnuPG archive keys for the Debian Mozilla team package repository
+* [firefox-esr-l10n-fr](https://packages.debian.org/stretch/firefox-esr-l10n-fr) `52.6.0esr-1~deb9u1` - French language package for Firefox ESR
 
 ### Related packages
 

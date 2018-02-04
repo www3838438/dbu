@@ -31,7 +31,7 @@ Between the suggested packages:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/inkscape/)](https://screenshots.debian.net/screenshot/inkscape/)
+[![](https://screenshots.debian.net/thumbnail-with-version/inkscape/9001)](https://screenshots.debian.net/screenshot-with-version/inkscape/9001)
 
 
 
@@ -39,10 +39,10 @@ Between the suggested packages:
 
 ### Installed packages
 
-* [inkscape](https://packages.debian.org/stretch/inkscape) - vector-based drawing program
-* [create-resources](https://packages.debian.org/stretch/create-resources) - shared resources for use by creative applications
-* [python-lxml](https://packages.debian.org/stretch/python-lxml) - pythonic binding for the libxml2 and libxslt libraries
-* [pstoedit](https://packages.debian.org/stretch/pstoedit) - PostScript and PDF files to editable vector graphics converter
+* [inkscape](https://packages.debian.org/stretch/inkscape) `0.92.1-1` - vector-based drawing program
+* [create-resources](https://packages.debian.org/stretch/create-resources) `0.1.3-5` - shared resources for use by creative applications
+* [python-lxml](https://packages.debian.org/stretch/python-lxml) `3.7.1-1` - pythonic binding for the libxml2 and libxslt libraries
+* [pstoedit](https://packages.debian.org/stretch/pstoedit) `3.70-3+b2` - PostScript and PDF files to editable vector graphics converter
 
 ### Related packages
 

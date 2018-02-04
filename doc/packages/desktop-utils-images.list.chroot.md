@@ -39,7 +39,7 @@ This is a dummy package.  You can safely purge or remove it.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/trimage/)](https://screenshots.debian.net/screenshot/trimage/)
+[![](https://screenshots.debian.net/thumbnail-with-version/trimage/9001)](https://screenshots.debian.net/screenshot-with-version/trimage/9001)
 
 
 
@@ -47,16 +47,16 @@ This is a dummy package.  You can safely purge or remove it.
 
 ### Installed packages
 
-* [trimage](https://packages.debian.org/stretch/trimage) - GUI and command-line interface to optimize image files
-* [imagemagick](https://packages.debian.org/stretch/imagemagick) - image manipulation programs -- binaries
-* [libmagickcore-6.q16-2-extra](https://packages.debian.org/stretch/libmagickcore-6.q16-2-extra) - 
-* [exifprobe](https://packages.debian.org/stretch/exifprobe) - read metadata from digital pictures
-* [findimagedupes](https://packages.debian.org/stretch/findimagedupes) - Finds visually similar or duplicate images
-* [librsvg2-bin](https://packages.debian.org/stretch/librsvg2-bin) - command-line and graphical viewers for SVG files
-* [cmatrix](https://packages.debian.org/stretch/cmatrix) - simulates the display from "The Matrix"
-* [cmatrix-xfont](https://packages.debian.org/stretch/cmatrix-xfont) - X11 font for cmatrix
-* [figlet](https://packages.debian.org/stretch/figlet) - Make large character ASCII banners out of ordinary text
-* [toilet](https://packages.debian.org/stretch/toilet) - display large colourful characters in text mode
+* [trimage](https://packages.debian.org/stretch/trimage) `1.0.5-1.1` - GUI and command-line interface to optimize image files
+* [imagemagick](https://packages.debian.org/stretch/imagemagick) `8:6.9.7.4+dfsg-11+deb9u4` - image manipulation programs -- binaries
+* [libmagickcore-6.q16-2-extra](https://packages.debian.org/stretch/libmagickcore-6.q16-2-extra) `(none)` - 
+* [exifprobe](https://packages.debian.org/stretch/exifprobe) `2.0.1-11` - read metadata from digital pictures
+* [findimagedupes](https://packages.debian.org/stretch/findimagedupes) `2.18-6+b2` - Finds visually similar or duplicate images
+* [librsvg2-bin](https://packages.debian.org/stretch/librsvg2-bin) `2.40.16-1+b1` - command-line and graphical viewers for SVG files
+* [cmatrix](https://packages.debian.org/stretch/cmatrix) `1.2a-5+b2` - simulates the display from "The Matrix"
+* [cmatrix-xfont](https://packages.debian.org/stretch/cmatrix-xfont) `1.2a-5` - X11 font for cmatrix
+* [figlet](https://packages.debian.org/stretch/figlet) `2.2.5-2+b1` - Make large character ASCII banners out of ordinary text
+* [toilet](https://packages.debian.org/stretch/toilet) `0.3-1.1` - display large colourful characters in text mode
 
 ### Related packages
 

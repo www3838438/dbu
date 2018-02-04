@@ -14,7 +14,7 @@ application.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/alarm-clock-applet/)](https://screenshots.debian.net/screenshot/alarm-clock-applet/)
+[![](https://screenshots.debian.net/thumbnail-with-version/alarm-clock-applet/9001)](https://screenshots.debian.net/screenshot-with-version/alarm-clock-applet/9001)
 
 
 
@@ -22,7 +22,7 @@ application.
 
 ### Installed packages
 
-* [alarm-clock-applet](https://packages.debian.org/stretch/alarm-clock-applet) - alarm clock panel indicator
+* [alarm-clock-applet](https://packages.debian.org/stretch/alarm-clock-applet) `0.3.4-1+b1` - alarm clock panel indicator
 
 ### Related packages
 

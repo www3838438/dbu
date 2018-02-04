@@ -20,10 +20,26 @@ package.
 
 To use a MIDI device (like a musical keyboard) as an input controller in GIMP,
 install libasound2 and read the how-to at /usr/share/doc/gimp/README.MIDI
+GIMP is an advanced picture editor. You can use it to edit, enhance, and
+retouch photos and scans, create drawings, and make your own images.
+It has a large collection of professional-level editing tools and
+filters, similar to the ones you might find in Photoshop. Numerous
+fine-control settings and features like layers, paths, masks, and
+scripting give you total control over your images.
+
+Many image file formats are supported, including JPEG, Photoshop (.psd),
+and Paint Shop Pro (.psp) files. It can also be used to scan and print
+photos.
+
+To open files remotely (like over HTTP), install the gvfs-backends
+package.
+
+To use a MIDI device (like a musical keyboard) as an input controller in GIMP,
+install libasound2 and read the how-to at /usr/share/doc/gimp/README.MIDI
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/gimp/)](https://screenshots.debian.net/screenshot/gimp/)
+[![](https://screenshots.debian.net/thumbnail-with-version/gimp/9001)](https://screenshots.debian.net/screenshot-with-version/gimp/9001)
 
 
 
@@ -31,18 +47,18 @@ install libasound2 and read the how-to at /usr/share/doc/gimp/README.MIDI
 
 ### Installed packages
 
-* [gimp](https://packages.debian.org/stretch/gimp) - GNU Image Manipulation Program
-* [gimp-data-extras](https://packages.debian.org/stretch/gimp-data-extras) - Extra brushes and patterns for GIMP
-* [gimp-gap](https://packages.debian.org/stretch/gimp-gap) - animation package for the GIMP
-* [gimp-plugin-registry](https://packages.debian.org/stretch/gimp-plugin-registry) - repository of optional extensions for GIMP
-* [gimp-texturize](https://packages.debian.org/stretch/gimp-texturize) - generates large textures from a small sample
-* [gimp-ufraw](https://packages.debian.org/stretch/gimp-ufraw) - gimp importer for raw camera images
-* [gimp-gutenprint](https://packages.debian.org/stretch/gimp-gutenprint) - print plugin for the GIMP
-* [gimp-gmic](https://packages.debian.org/stretch/gimp-gmic) - GREYC's Magic for Image Computing - GIMP Plugin
-* [gimp-lensfun](https://packages.debian.org/stretch/gimp-lensfun) - Gimp plugin to correct lens distortion using the lensfun library
-* [gimp-resynthesizer](https://packages.debian.org/stretch/gimp-resynthesizer) - 
-* [create-resources](https://packages.debian.org/stretch/create-resources) - shared resources for use by creative applications
-* [gimp-help-fr](https://packages.debian.org/stretch/gimp-help-fr) - Documentation for the GIMP (French)
+* [gimp](https://packages.debian.org/stretch/gimp) `2.8.18-1+deb9u1` - GNU Image Manipulation Program
+* [gimp-data-extras](https://packages.debian.org/stretch/gimp-data-extras) `1:2.0.2-1` - Extra brushes and patterns for GIMP
+* [gimp-gap](https://packages.debian.org/stretch/gimp-gap) `2.6.0+dfsg-5+b2` - animation package for the GIMP
+* [gimp-plugin-registry](https://packages.debian.org/stretch/gimp-plugin-registry) `7.20140602+b4` - repository of optional extensions for GIMP
+* [gimp-texturize](https://packages.debian.org/stretch/gimp-texturize) `2.1-3` - generates large textures from a small sample
+* [gimp-ufraw](https://packages.debian.org/stretch/gimp-ufraw) `0.22-1.1` - gimp importer for raw camera images
+* [gimp-gutenprint](https://packages.debian.org/stretch/gimp-gutenprint) `5.2.11-1+b2` - print plugin for the GIMP
+* [gimp-gmic](https://packages.debian.org/stretch/gimp-gmic) `1.7.9+zart-4` - GREYC's Magic for Image Computing - GIMP Plugin
+* [gimp-lensfun](https://packages.debian.org/stretch/gimp-lensfun) `0.2.4-1+b1` - Gimp plugin to correct lens distortion using the lensfun library
+* [gimp-resynthesizer](https://packages.debian.org/stretch/gimp-resynthesizer) `(none)` - 
+* [create-resources](https://packages.debian.org/stretch/create-resources) `0.1.3-5` - shared resources for use by creative applications
+* [gimp-help-fr](https://packages.debian.org/stretch/gimp-help-fr) `2.8.2-0.1` - Documentation for the GIMP (French)
 
 ### Related packages
 

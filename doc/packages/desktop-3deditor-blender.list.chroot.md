@@ -15,7 +15,7 @@ a standalone binary are common products of Blender use.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/blender/)](https://screenshots.debian.net/screenshot/blender/)
+[![](https://screenshots.debian.net/thumbnail-with-version/blender/9001)](https://screenshots.debian.net/screenshot-with-version/blender/9001)
 
 
 
@@ -23,8 +23,8 @@ a standalone binary are common products of Blender use.
 
 ### Installed packages
 
-* [blender](https://packages.debian.org/stretch/blender) - Very fast and versatile 3D modeller/renderer
+* [blender](https://packages.debian.org/stretch/blender) `2.78.a+dfsg0-4` - Very fast and versatile 3D modeller/renderer
 
 ### Related packages
 
-<sub> [makehuman](https://packages.debian.org/stretch/makehuman) [yafaray](https://packages.debian.org/stretch/yafaray) [g3dviewer](https://packages.debian.org/stretch/g3dviewer)  </sub>
+<sub> [makehuman](https://packages.debian.org/stretch/makehuman) [goxel](https://packages.debian.org/stretch/goxel) [yafaray](https://packages.debian.org/stretch/yafaray) [g3dviewer](https://packages.debian.org/stretch/g3dviewer)  </sub>

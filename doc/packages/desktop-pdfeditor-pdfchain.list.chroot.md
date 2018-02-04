@@ -12,7 +12,7 @@ The GUI is written in GTKmm, a C++ library for GTK+.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/pdfchain/)](https://screenshots.debian.net/screenshot/pdfchain/)
+[![](https://screenshots.debian.net/thumbnail-with-version/pdfchain/9001)](https://screenshots.debian.net/screenshot-with-version/pdfchain/9001)
 
 
 
@@ -20,9 +20,9 @@ The GUI is written in GTKmm, a C++ library for GTK+.
 
 ### Installed packages
 
-* [pdfchain](https://packages.debian.org/stretch/pdfchain) - graphical user interface for the PDF Tool Kit
-* [pdfgrep](https://packages.debian.org/stretch/pdfgrep) - search in pdf files for strings matching a regular expression
-* [poppler-utils](https://packages.debian.org/stretch/poppler-utils) - PDF utilities (based on Poppler)
+* [pdfchain](https://packages.debian.org/stretch/pdfchain) `1:0.4.4.2-1` - graphical user interface for the PDF Tool Kit
+* [pdfgrep](https://packages.debian.org/stretch/pdfgrep) `2.0-1` - search in pdf files for strings matching a regular expression
+* [poppler-utils](https://packages.debian.org/stretch/poppler-utils) `0.48.0-2+deb9u2` - PDF utilities (based on Poppler)
 
 ### Related packages
 

@@ -36,7 +36,7 @@ standard tools for this.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/file-roller/)](https://screenshots.debian.net/screenshot/file-roller/)
+[![](https://screenshots.debian.net/thumbnail-with-version/file-roller/9001)](https://screenshots.debian.net/screenshot-with-version/file-roller/9001)
 
 
 
@@ -44,7 +44,7 @@ standard tools for this.
 
 ### Installed packages
 
-* [file-roller](https://packages.debian.org/stretch/file-roller) - archive manager for GNOME
+* [file-roller](https://packages.debian.org/stretch/file-roller) `3.22.3-1` - archive manager for GNOME
 
 ### Related packages
 

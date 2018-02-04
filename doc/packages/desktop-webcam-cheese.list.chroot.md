@@ -12,7 +12,7 @@ for photos.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/cheese/)](https://screenshots.debian.net/screenshot/cheese/)
+[![](https://screenshots.debian.net/thumbnail-with-version/cheese/9001)](https://screenshots.debian.net/screenshot-with-version/cheese/9001)
 
 
 
@@ -20,9 +20,9 @@ for photos.
 
 ### Installed packages
 
-* [cheese](https://packages.debian.org/stretch/cheese) - tool to take pictures and videos from your webcam
-* [gnome-video-effects](https://packages.debian.org/stretch/gnome-video-effects) - Collection of GStreamer effects
-* [gnome-video-effects-frei0r](https://packages.debian.org/stretch/gnome-video-effects-frei0r) - GNOME Video Effects - frei0r plugins
+* [cheese](https://packages.debian.org/stretch/cheese) `3.22.1-1+b1` - tool to take pictures and videos from your webcam
+* [gnome-video-effects](https://packages.debian.org/stretch/gnome-video-effects) `0.4.1-3` - Collection of GStreamer effects
+* [gnome-video-effects-frei0r](https://packages.debian.org/stretch/gnome-video-effects-frei0r) `0.4.1-3` - GNOME Video Effects - frei0r plugins
 
 ### Related packages
 

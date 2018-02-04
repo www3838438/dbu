@@ -15,7 +15,7 @@ written for Xfce. It's features include:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/xfce4-taskmanager/)](https://screenshots.debian.net/screenshot/xfce4-taskmanager/)
+[![](https://screenshots.debian.net/thumbnail-with-version/xfce4-taskmanager/9001)](https://screenshots.debian.net/screenshot-with-version/xfce4-taskmanager/9001)
 
 
 
@@ -23,7 +23,7 @@ written for Xfce. It's features include:
 
 ### Installed packages
 
-* [xfce4-taskmanager](https://packages.debian.org/stretch/xfce4-taskmanager) - process manager for the Xfce4 Desktop Environment
+* [xfce4-taskmanager](https://packages.debian.org/stretch/xfce4-taskmanager) `1.1.0-1` - process manager for the Xfce4 Desktop Environment
 
 ### Related packages
 

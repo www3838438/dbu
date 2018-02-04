@@ -9,10 +9,15 @@ and daemon form). All its incarnations feature a very simple, intuitive
 interface on top on an efficient, cross-platform back-end.
 
 This package contains the GTK+ stand-alone client.
+Transmission is a set of lightweight BitTorrent clients (in GUI, CLI
+and daemon form). All its incarnations feature a very simple, intuitive
+interface on top on an efficient, cross-platform back-end.
+
+This package contains the GTK+ stand-alone client.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/transmission-gtk/)](https://screenshots.debian.net/screenshot/transmission-gtk/)
+[![](https://screenshots.debian.net/thumbnail-with-version/transmission-gtk/9001)](https://screenshots.debian.net/screenshot-with-version/transmission-gtk/9001)
 
 
 
@@ -20,7 +25,7 @@ This package contains the GTK+ stand-alone client.
 
 ### Installed packages
 
-* [transmission-gtk](https://packages.debian.org/stretch/transmission-gtk) - lightweight BitTorrent client (GTK+ interface)
+* [transmission-gtk](https://packages.debian.org/stretch/transmission-gtk) `2.92-2+deb9u1` - lightweight BitTorrent client (GTK+ interface)
 
 ### Related packages
 

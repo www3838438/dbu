@@ -13,7 +13,7 @@ to extend its features.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/kupfer/)](https://screenshots.debian.net/screenshot/kupfer/)
+[![](https://screenshots.debian.net/thumbnail-with-version/kupfer/9001)](https://screenshots.debian.net/screenshot-with-version/kupfer/9001)
 
 
 
@@ -21,7 +21,7 @@ to extend its features.
 
 ### Installed packages
 
-* [kupfer](https://packages.debian.org/stretch/kupfer) - fast and lightweight desktop summoner/launcher
+* [kupfer](https://packages.debian.org/stretch/kupfer) `0+v208-6` - fast and lightweight desktop summoner/launcher
 
 ### Related packages
 

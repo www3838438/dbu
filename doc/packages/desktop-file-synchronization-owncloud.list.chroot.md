@@ -23,7 +23,7 @@ synchronizing with cloud storage provided by ownCloud.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/owncloud-client/)](https://screenshots.debian.net/screenshot/owncloud-client/)
+[![](https://screenshots.debian.net/thumbnail-with-version/owncloud-client/9001)](https://screenshots.debian.net/screenshot-with-version/owncloud-client/9001)
 
 
 
@@ -31,7 +31,7 @@ synchronizing with cloud storage provided by ownCloud.
 
 ### Installed packages
 
-* [owncloud-client](https://packages.debian.org/stretch/owncloud-client) - folder synchronization with an ownCloud server - GUI
+* [owncloud-client](https://packages.debian.org/stretch/owncloud-client) `2.2.4+dfsg-2` - folder synchronization with an ownCloud server - GUI
 
 ### Related packages
 

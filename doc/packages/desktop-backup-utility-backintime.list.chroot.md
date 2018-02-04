@@ -8,7 +8,7 @@ This is a transitional package and can safely be removed.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/backintime-qt4/)](https://screenshots.debian.net/screenshot/backintime-qt4/)
+[![](https://screenshots.debian.net/thumbnail-with-version/backintime-qt4/9001)](https://screenshots.debian.net/screenshot-with-version/backintime-qt4/9001)
 
 
 
@@ -16,7 +16,7 @@ This is a transitional package and can safely be removed.
 
 ### Installed packages
 
-* [backintime-qt4](https://packages.debian.org/stretch/backintime-qt4) - simple backup/snapshot system (graphical interface)
+* [backintime-qt4](https://packages.debian.org/stretch/backintime-qt4) `1.1.12-2` - simple backup/snapshot system (graphical interface)
 
 ### Related packages
 

@@ -24,7 +24,7 @@ This package is a metapackage to pull in either the GTK+ or Qt variant.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/winff/)](https://screenshots.debian.net/screenshot/winff/)
+[![](https://screenshots.debian.net/thumbnail-with-version/winff/9001)](https://screenshots.debian.net/screenshot-with-version/winff/9001)
 
 
 
@@ -32,7 +32,7 @@ This package is a metapackage to pull in either the GTK+ or Qt variant.
 
 ### Installed packages
 
-* [winff](https://packages.debian.org/stretch/winff) - graphical video and audio batch converter using ffmpeg or avconv
+* [winff](https://packages.debian.org/stretch/winff) `1.5.5-1` - graphical video and audio batch converter using ffmpeg or avconv
 
 ### Related packages
 

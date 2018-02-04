@@ -26,7 +26,7 @@ interfaces.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/hunspell/)](https://screenshots.debian.net/screenshot/hunspell/)
+[![](https://screenshots.debian.net/thumbnail-with-version/hunspell/9001)](https://screenshots.debian.net/screenshot-with-version/hunspell/9001)
 
 
 
@@ -34,11 +34,11 @@ interfaces.
 
 ### Installed packages
 
-* [hunspell](https://packages.debian.org/stretch/hunspell) - spell checker and morphological analyzer (program)
-* [hunspell-en-us](https://packages.debian.org/stretch/hunspell-en-us) - English_american dictionary for hunspell
-* [task-english](https://packages.debian.org/stretch/task-english) - General English environment
-* [ibritish](https://packages.debian.org/stretch/ibritish) - British English dictionary for ispell (standard version)
-* [iamerican](https://packages.debian.org/stretch/iamerican) - American English dictionary for ispell (standard version)
+* [hunspell](https://packages.debian.org/stretch/hunspell) `1.4.1-2+b2` - spell checker and morphological analyzer (program)
+* [hunspell-en-us](https://packages.debian.org/stretch/hunspell-en-us) `20070829-7` - English_american dictionary for hunspell
+* [task-english](https://packages.debian.org/stretch/task-english) `3.39` - General English environment
+* [ibritish](https://packages.debian.org/stretch/ibritish) `3.4.00-5` - British English dictionary for ispell (standard version)
+* [iamerican](https://packages.debian.org/stretch/iamerican) `3.4.00-5` - American English dictionary for ispell (standard version)
 
 ### Related packages
 

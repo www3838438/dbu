@@ -9,7 +9,7 @@ environment.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/ristretto/)](https://screenshots.debian.net/screenshot/ristretto/)
+[![](https://screenshots.debian.net/thumbnail-with-version/ristretto/9001)](https://screenshots.debian.net/screenshot-with-version/ristretto/9001)
 
 
 
@@ -17,7 +17,7 @@ environment.
 
 ### Installed packages
 
-* [ristretto](https://packages.debian.org/stretch/ristretto) - lightweight picture-viewer for the Xfce desktop environment
+* [ristretto](https://packages.debian.org/stretch/ristretto) `0.8.1-1` - lightweight picture-viewer for the Xfce desktop environment
 
 ### Related packages
 

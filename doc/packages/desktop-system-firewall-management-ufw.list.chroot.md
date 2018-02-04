@@ -10,7 +10,7 @@ individual port(s), and many others!
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/gufw/)](https://screenshots.debian.net/screenshot/gufw/)
+[![](https://screenshots.debian.net/thumbnail-with-version/gufw/9001)](https://screenshots.debian.net/screenshot-with-version/gufw/9001)
 
 
 
@@ -18,10 +18,10 @@ individual port(s), and many others!
 
 ### Installed packages
 
-* [ufw](https://packages.debian.org/stretch/ufw) - program for managing a Netfilter firewall
-* [gufw](https://packages.debian.org/stretch/gufw) - graphical user interface for ufw
-* [iptables](https://packages.debian.org/stretch/iptables) - administration tools for packet filtering and NAT
+* [ufw](https://packages.debian.org/stretch/ufw) `0.35-4` - program for managing a Netfilter firewall
+* [gufw](https://packages.debian.org/stretch/gufw) `17.04.1-1.1` - graphical user interface for ufw
+* [iptables](https://packages.debian.org/stretch/iptables) `1.6.0+snapshot20161117-6` - administration tools for packet filtering and NAT
 
 ### Related packages
 
-<sub>  </sub>
+<sub> [ferm](https://packages.debian.org/stretch/ferm)  </sub>

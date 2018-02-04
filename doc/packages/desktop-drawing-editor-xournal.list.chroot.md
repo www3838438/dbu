@@ -10,7 +10,7 @@ add annotations to PDF files.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/xournal/)](https://screenshots.debian.net/screenshot/xournal/)
+[![](https://screenshots.debian.net/thumbnail-with-version/xournal/9001)](https://screenshots.debian.net/screenshot-with-version/xournal/9001)
 
 
 
@@ -18,7 +18,7 @@ add annotations to PDF files.
 
 ### Installed packages
 
-* [xournal](https://packages.debian.org/stretch/xournal) - GTK+ Application for note taking
+* [xournal](https://packages.debian.org/stretch/xournal) `1:0.4.8-1+b1` - GTK+ Application for note taking
 
 ### Related packages
 

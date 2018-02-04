@@ -19,7 +19,7 @@ Besides these basic functions the following features are provided:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/synaptic/)](https://screenshots.debian.net/screenshot/synaptic/)
+[![](https://screenshots.debian.net/thumbnail-with-version/synaptic/9001)](https://screenshots.debian.net/screenshot-with-version/synaptic/9001)
 
 
 
@@ -27,24 +27,25 @@ Besides these basic functions the following features are provided:
 
 ### Installed packages
 
-* [gnome-packagekit](https://packages.debian.org/stretch/gnome-packagekit) - Graphical distribution neutral package manager for GNOME
-* [packagekit](https://packages.debian.org/stretch/packagekit) - Provides a package management service
-* [packagekit-tools](https://packages.debian.org/stretch/packagekit-tools) - Provides PackageKit command-line tools
-* [pk-update-icon](https://packages.debian.org/stretch/pk-update-icon) - Displays an update-notification tray icon
-* [apt-config-auto-update](https://packages.debian.org/stretch/apt-config-auto-update) - Apt configuration for automatic cache updates
-* [deborphan](https://packages.debian.org/stretch/deborphan) - program that can find unused packages, e.g. libraries
-* [software-properties-gtk](https://packages.debian.org/stretch/software-properties-gtk) - manage the repositories that you install software from (gtk)
-* [synaptic](https://packages.debian.org/stretch/synaptic) - Graphical package manager
-* [gdebi](https://packages.debian.org/stretch/gdebi) - simple tool to view and install deb files - GNOME GUI
-* [aptitude](https://packages.debian.org/stretch/aptitude) - terminal-based package manager
-* [aptitude-doc-fr](https://packages.debian.org/stretch/aptitude-doc-fr) - French manual for aptitude, a terminal-based package manager
-* [debsecan](https://packages.debian.org/stretch/debsecan) - Debian Security Analyzer
-* [needrestart](https://packages.debian.org/stretch/needrestart) - check which daemons need to be restarted after library upgrades
-* [reportbug](https://packages.debian.org/stretch/reportbug) - reports bugs in the Debian distribution
-* [vrms](https://packages.debian.org/stretch/vrms) - virtual Richard M. Stallman
-* [apt-listchanges](https://packages.debian.org/stretch/apt-listchanges) - package change history notification tool
-* [debconf-utils](https://packages.debian.org/stretch/debconf-utils) - debconf utilities
+* [gnome-packagekit](https://packages.debian.org/stretch/gnome-packagekit) `3.22.1-2` - Graphical distribution neutral package manager for GNOME
+* [packagekit](https://packages.debian.org/stretch/packagekit) `1.1.5-2` - Provides a package management service
+* [packagekit-tools](https://packages.debian.org/stretch/packagekit-tools) `1.1.5-2` - Provides PackageKit command-line tools
+* [pk-update-icon](https://packages.debian.org/stretch/pk-update-icon) `2.0.0-2` - Displays an update-notification tray icon
+* [apt-config-auto-update](https://packages.debian.org/stretch/apt-config-auto-update) `2.0.0-2` - Apt configuration for automatic cache updates
+* [deborphan](https://packages.debian.org/stretch/deborphan) `1.7.28.8-0.3+b1` - program that can find unused packages, e.g. libraries
+* [software-properties-gtk](https://packages.debian.org/stretch/software-properties-gtk) `0.96.20.2-1` - manage the repositories that you install software from (gtk)
+* [synaptic](https://packages.debian.org/stretch/synaptic) `0.84.2` - Graphical package manager
+* [gdebi](https://packages.debian.org/stretch/gdebi) `0.9.5.7+nmu1` - simple tool to view and install deb files - GNOME GUI
+* [aptitude](https://packages.debian.org/stretch/aptitude) `0.8.7-1` - terminal-based package manager
+* [aptitude-doc-fr](https://packages.debian.org/stretch/aptitude-doc-fr) `0.8.7-1` - French manual for aptitude, a terminal-based package manager
+* [debsecan](https://packages.debian.org/stretch/debsecan) `0.4.19~deb9u1` - Debian Security Analyzer
+* [needrestart](https://packages.debian.org/stretch/needrestart) `2.11-3` - check which daemons need to be restarted after library upgrades
+* [reportbug](https://packages.debian.org/stretch/reportbug) `7.1.7` - reports bugs in the Debian distribution
+* [vrms](https://packages.debian.org/stretch/vrms) `1.17` - virtual Richard M. Stallman
+* [apt-listchanges](https://packages.debian.org/stretch/apt-listchanges) `3.10` - package change history notification tool
+* [apt-transport-https](https://packages.debian.org/stretch/apt-transport-https) `1.4.8` - https download transport for APT
+* [debconf-utils](https://packages.debian.org/stretch/debconf-utils) `1.5.61` - debconf utilities
 
 ### Related packages
 
-<sub> [unattended-upgrades](https://packages.debian.org/stretch/unattended-upgrades) [apturl](https://packages.debian.org/stretch/apturl) [apt-fast](https://packages.debian.org/stretch/apt-fast) [apt-p2p](https://packages.debian.org/stretch/apt-p2p) [aptoncd](https://packages.debian.org/stretch/aptoncd) [apt-file](https://packages.debian.org/stretch/apt-file) [gstreamer1.0-packagekit](https://packages.debian.org/stretch/gstreamer1.0-packagekit) [packagekit-command-not-found](https://packages.debian.org/stretch/packagekit-command-not-found) [packagekit-gtk3-module](https://packages.debian.org/stretch/packagekit-gtk3-module) [gnome-software](https://packages.debian.org/stretch/gnome-software)  </sub>
+<sub> [unattended-upgrades](https://packages.debian.org/stretch/unattended-upgrades) [apturl](https://packages.debian.org/stretch/apturl) [apt-fast](https://packages.debian.org/stretch/apt-fast) [aptoncd](https://packages.debian.org/stretch/aptoncd) [apt-file](https://packages.debian.org/stretch/apt-file) [gstreamer1.0-packagekit](https://packages.debian.org/stretch/gstreamer1.0-packagekit) [packagekit-command-not-found](https://packages.debian.org/stretch/packagekit-command-not-found) [packagekit-gtk3-module](https://packages.debian.org/stretch/packagekit-gtk3-module) [gnome-software](https://packages.debian.org/stretch/gnome-software)  </sub>

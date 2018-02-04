@@ -17,7 +17,7 @@ some of the most common command line network tools including:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/gnome-nettool/)](https://screenshots.debian.net/screenshot/gnome-nettool/)
+[![](https://screenshots.debian.net/thumbnail-with-version/gnome-nettool/9001)](https://screenshots.debian.net/screenshot-with-version/gnome-nettool/9001)
 
 
 
@@ -25,7 +25,7 @@ some of the most common command line network tools including:
 
 ### Installed packages
 
-* [gnome-nettool](https://packages.debian.org/stretch/gnome-nettool) - network information tool for GNOME
+* [gnome-nettool](https://packages.debian.org/stretch/gnome-nettool) `3.8.1-1+b2` - network information tool for GNOME
 
 ### Related packages
 

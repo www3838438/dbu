@@ -19,7 +19,7 @@ Audacious, XMMS2, and PulseAudio.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/conky-all/)](https://screenshots.debian.net/screenshot/conky-all/)
+[![](https://screenshots.debian.net/thumbnail-with-version/conky-all/9001)](https://screenshots.debian.net/screenshot-with-version/conky-all/9001)
 
 
 
@@ -27,7 +27,7 @@ Audacious, XMMS2, and PulseAudio.
 
 ### Installed packages
 
-* [conky-all](https://packages.debian.org/stretch/conky-all) - highly configurable system monitor (all features enabled)
+* [conky-all](https://packages.debian.org/stretch/conky-all) `1.10.6-1` - highly configurable system monitor (all features enabled)
 
 ### Related packages
 

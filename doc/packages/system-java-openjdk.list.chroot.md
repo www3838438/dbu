@@ -10,7 +10,7 @@ openjdk-8-jre for amd64.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/default-jre/)](https://screenshots.debian.net/screenshot/default-jre/)
+[![](https://screenshots.debian.net/thumbnail-with-version/default-jre/9001)](https://screenshots.debian.net/screenshot-with-version/default-jre/9001)
 
 
 
@@ -18,7 +18,7 @@ openjdk-8-jre for amd64.
 
 ### Installed packages
 
-* [default-jre](https://packages.debian.org/stretch/default-jre) - Standard Java or Java compatible Runtime
+* [default-jre](https://packages.debian.org/stretch/default-jre) `2:1.8-58` - Standard Java or Java compatible Runtime
 
 ### Related packages
 

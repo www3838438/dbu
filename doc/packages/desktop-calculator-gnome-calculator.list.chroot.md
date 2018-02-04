@@ -10,7 +10,7 @@ arithmetic to give a high degree of accuracy.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/gnome-calculator/)](https://screenshots.debian.net/screenshot/gnome-calculator/)
+[![](https://screenshots.debian.net/thumbnail-with-version/gnome-calculator/9001)](https://screenshots.debian.net/screenshot-with-version/gnome-calculator/9001)
 
 
 
@@ -18,7 +18,7 @@ arithmetic to give a high degree of accuracy.
 
 ### Installed packages
 
-* [gnome-calculator](https://packages.debian.org/stretch/gnome-calculator) - GNOME desktop calculator
+* [gnome-calculator](https://packages.debian.org/stretch/gnome-calculator) `3.22.3-1` - GNOME desktop calculator
 
 ### Related packages
 

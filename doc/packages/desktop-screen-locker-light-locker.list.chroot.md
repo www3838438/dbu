@@ -13,7 +13,7 @@ ConsoleKit/UPower or logind/systemd.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/light-locker/)](https://screenshots.debian.net/screenshot/light-locker/)
+[![](https://screenshots.debian.net/thumbnail-with-version/light-locker/9001)](https://screenshots.debian.net/screenshot-with-version/light-locker/9001)
 
 
 
@@ -21,7 +21,7 @@ ConsoleKit/UPower or logind/systemd.
 
 ### Installed packages
 
-* [light-locker](https://packages.debian.org/stretch/light-locker) - simple screen locker for lightDM display manager
+* [light-locker](https://packages.debian.org/stretch/light-locker) `1.7.0-3` - simple screen locker for lightDM display manager
 
 ### Related packages
 

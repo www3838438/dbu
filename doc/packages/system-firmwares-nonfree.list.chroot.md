@@ -11,7 +11,7 @@ in the Linux kernel.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/firmware-linux-nonfree/)](https://screenshots.debian.net/screenshot/firmware-linux-nonfree/)
+[![](https://screenshots.debian.net/thumbnail-with-version/firmware-linux-nonfree/9001)](https://screenshots.debian.net/screenshot-with-version/firmware-linux-nonfree/9001)
 
 
 
@@ -19,9 +19,9 @@ in the Linux kernel.
 
 ### Installed packages
 
-* [firmware-linux-nonfree](https://packages.debian.org/stretch/firmware-linux-nonfree) - Binary firmware for various drivers in the Linux kernel (meta-package)
-* [amd64-microcode](https://packages.debian.org/stretch/amd64-microcode) - Processor microcode firmware for AMD CPUs
-* [intel-microcode](https://packages.debian.org/stretch/intel-microcode) - Processor microcode firmware for Intel CPUs
+* [firmware-linux-nonfree](https://packages.debian.org/stretch/firmware-linux-nonfree) `20161130-3` - Binary firmware for various drivers in the Linux kernel (meta-package)
+* [amd64-microcode](https://packages.debian.org/stretch/amd64-microcode) `3.20160316.3` - Processor microcode firmware for AMD CPUs
+* [intel-microcode](https://packages.debian.org/stretch/intel-microcode) `3.20170707.1~deb9u1` - Processor microcode firmware for Intel CPUs
 
 ### Related packages
 

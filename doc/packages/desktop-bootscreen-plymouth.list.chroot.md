@@ -15,7 +15,7 @@ This package provides the basic framework, enabling a text-mode animation.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/plymouth/)](https://screenshots.debian.net/screenshot/plymouth/)
+[![](https://screenshots.debian.net/thumbnail-with-version/plymouth/9001)](https://screenshots.debian.net/screenshot-with-version/plymouth/9001)
 
 
 
@@ -23,9 +23,9 @@ This package provides the basic framework, enabling a text-mode animation.
 
 ### Installed packages
 
-* [plymouth](https://packages.debian.org/stretch/plymouth) - boot animation, logger and I/O multiplexer
-* [plymouth-x11](https://packages.debian.org/stretch/plymouth-x11) - boot animation, logger and I/O multiplexer - X11 renderer
-* [plymouth-themes](https://packages.debian.org/stretch/plymouth-themes) - boot animation, logger and I/O multiplexer - themes
+* [plymouth](https://packages.debian.org/stretch/plymouth) `0.9.2-4` - boot animation, logger and I/O multiplexer
+* [plymouth-x11](https://packages.debian.org/stretch/plymouth-x11) `0.9.2-4` - boot animation, logger and I/O multiplexer - X11 renderer
+* [plymouth-themes](https://packages.debian.org/stretch/plymouth-themes) `0.9.2-4` - boot animation, logger and I/O multiplexer - themes
 
 ### Related packages
 

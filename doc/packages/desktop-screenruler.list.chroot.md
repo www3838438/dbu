@@ -15,7 +15,7 @@ other objects that you've there. It has the following features:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/screenruler/)](https://screenshots.debian.net/screenshot/screenruler/)
+[![](https://screenshots.debian.net/thumbnail-with-version/screenruler/9001)](https://screenshots.debian.net/screenshot-with-version/screenruler/9001)
 
 
 
@@ -23,7 +23,7 @@ other objects that you've there. It has the following features:
 
 ### Installed packages
 
-* [screenruler](https://packages.debian.org/stretch/screenruler) - measure objects on screen with a variety of metrics
+* [screenruler](https://packages.debian.org/stretch/screenruler) `0.960+bzr41-1.2` - measure objects on screen with a variety of metrics
 
 ### Related packages
 

@@ -9,7 +9,7 @@ filter or search expressions in them.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/gnome-system-log/)](https://screenshots.debian.net/screenshot/gnome-system-log/)
+[![](https://screenshots.debian.net/thumbnail-with-version/gnome-system-log/9001)](https://screenshots.debian.net/screenshot-with-version/gnome-system-log/9001)
 
 
 
@@ -17,7 +17,7 @@ filter or search expressions in them.
 
 ### Installed packages
 
-* [gnome-system-log](https://packages.debian.org/stretch/gnome-system-log) - system log viewer for GNOME
+* [gnome-system-log](https://packages.debian.org/stretch/gnome-system-log) `3.9.90-4+b1` - system log viewer for GNOME
 
 ### Related packages
 

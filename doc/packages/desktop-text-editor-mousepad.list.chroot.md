@@ -28,7 +28,7 @@ following features:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/mousepad/)](https://screenshots.debian.net/screenshot/mousepad/)
+[![](https://screenshots.debian.net/thumbnail-with-version/mousepad/9001)](https://screenshots.debian.net/screenshot-with-version/mousepad/9001)
 
 
 
@@ -36,7 +36,7 @@ following features:
 
 ### Installed packages
 
-* [mousepad](https://packages.debian.org/stretch/mousepad) - simple Xfce oriented text editor
+* [mousepad](https://packages.debian.org/stretch/mousepad) `0.4.0-4` - simple Xfce oriented text editor
 
 ### Related packages
 

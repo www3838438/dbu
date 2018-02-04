@@ -19,7 +19,7 @@ Additional software can be useful along with LightDM:
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/lightdm/)](https://screenshots.debian.net/screenshot/lightdm/)
+[![](https://screenshots.debian.net/thumbnail-with-version/lightdm/9001)](https://screenshots.debian.net/screenshot-with-version/lightdm/9001)
 
 
 
@@ -27,9 +27,8 @@ Additional software can be useful along with LightDM:
 
 ### Installed packages
 
-* [lightdm](https://packages.debian.org/stretch/lightdm) - simple display manager
-* [lightdm-gtk-greeter](https://packages.debian.org/stretch/lightdm-gtk-greeter) - simple display manager (GTK+ greeter)
-* [accountsservice](https://packages.debian.org/stretch/accountsservice) - query and manipulate user account information
+* [lightdm](https://packages.debian.org/stretch/lightdm) `1.18.3-1` - simple display manager
+* [lightdm-gtk-greeter](https://packages.debian.org/stretch/lightdm-gtk-greeter) `2.0.2-1` - simple display manager (GTK+ greeter)
 
 ### Related packages
 

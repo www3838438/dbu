@@ -12,7 +12,7 @@ slow.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/gnome-search-tool/)](https://screenshots.debian.net/screenshot/gnome-search-tool/)
+[![](https://screenshots.debian.net/thumbnail-with-version/gnome-search-tool/9001)](https://screenshots.debian.net/screenshot-with-version/gnome-search-tool/9001)
 
 
 
@@ -20,9 +20,9 @@ slow.
 
 ### Installed packages
 
-* [gnome-search-tool](https://packages.debian.org/stretch/gnome-search-tool) - GNOME tool to search files
-* [nautilus-data](https://packages.debian.org/stretch/nautilus-data) - data files for nautilus
-* [mlocate](https://packages.debian.org/stretch/mlocate) - quickly find files on the filesystem based on their name
+* [gnome-search-tool](https://packages.debian.org/stretch/gnome-search-tool) `3.6.0-2+b1` - GNOME tool to search files
+* [nautilus-data](https://packages.debian.org/stretch/nautilus-data) `3.22.3-1+deb9u1` - data files for nautilus
+* [mlocate](https://packages.debian.org/stretch/mlocate) `0.26-2` - quickly find files on the filesystem based on their name
 
 ### Related packages
 

@@ -31,7 +31,7 @@ observation evening with naked eye, binocular, or small telescope.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/stellarium/)](https://screenshots.debian.net/screenshot/stellarium/)
+[![](https://screenshots.debian.net/thumbnail-with-version/stellarium/9001)](https://screenshots.debian.net/screenshot-with-version/stellarium/9001)
 
 
 
@@ -39,7 +39,7 @@ observation evening with naked eye, binocular, or small telescope.
 
 ### Installed packages
 
-* [stellarium](https://packages.debian.org/stretch/stellarium) - real-time photo-realistic sky generator
+* [stellarium](https://packages.debian.org/stretch/stellarium) `0.15.0-1+b1` - real-time photo-realistic sky generator
 
 ### Related packages
 

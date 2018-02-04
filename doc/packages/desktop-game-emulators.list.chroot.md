@@ -15,10 +15,10 @@ is in turn based on the original PCSX.
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail/pcsxr/)](https://screenshots.debian.net/screenshot/pcsxr/)
-[![](https://screenshots.debian.net/thumbnail/higan/)](https://screenshots.debian.net/screenshot/higan/)
-[![](https://screenshots.debian.net/thumbnail/desmume/)](https://screenshots.debian.net/screenshot/desmume/)
-[![](https://screenshots.debian.net/thumbnail/mupen64plus/)](https://screenshots.debian.net/screenshot/mupen64plus/)
+[![](https://screenshots.debian.net/thumbnail-with-version/pcsxr/9001)](https://screenshots.debian.net/screenshot-with-version/pcsxr/9001)
+[![](https://screenshots.debian.net/thumbnail-with-version/higan/9001)](https://screenshots.debian.net/screenshot-with-version/higan/9001)
+[![](https://screenshots.debian.net/thumbnail-with-version/desmume/9001)](https://screenshots.debian.net/screenshot-with-version/desmume/9001)
+[![](https://screenshots.debian.net/thumbnail-with-version/mupen64plus/9001)](https://screenshots.debian.net/screenshot-with-version/mupen64plus/9001)
 
 
 
@@ -26,15 +26,15 @@ is in turn based on the original PCSX.
 
 ### Installed packages
 
-* [pcsxr](https://packages.debian.org/stretch/pcsxr) - Sony PlayStation emulator
-* [higan](https://packages.debian.org/stretch/higan) - Accurate Nintendo multi-system emulator
-* [desmume](https://packages.debian.org/stretch/desmume) - Nintendo DS emulator
-* [mupen64plus](https://packages.debian.org/stretch/mupen64plus) - plugin-based Nintendo 64 emulator (transitional dummy package)
-* [mupen64plus-qt](https://packages.debian.org/stretch/mupen64plus-qt) - Basic launcher for Mupen64Plus
-* [mupen64plus-input-all](https://packages.debian.org/stretch/mupen64plus-input-all) - plugin-based Nintendo 64 emulator, input plugins
-* [mupen64plus-audio-all](https://packages.debian.org/stretch/mupen64plus-audio-all) - plugin-based Nintendo 64 emulator, audio plugins
-* [mupen64plus-rsp-all](https://packages.debian.org/stretch/mupen64plus-rsp-all) - plugin-based Nintendo 64 emulator, rsp plugins
-* [mupen64plus-video-all](https://packages.debian.org/stretch/mupen64plus-video-all) - plugin-based Nintendo 64 emulator, video plugins
+* [pcsxr](https://packages.debian.org/stretch/pcsxr) `1.9.94-2+b1` - Sony PlayStation emulator
+* [higan](https://packages.debian.org/stretch/higan) `098-2+b1` - Accurate Nintendo multi-system emulator
+* [desmume](https://packages.debian.org/stretch/desmume) `0.9.11-2` - Nintendo DS emulator
+* [mupen64plus](https://packages.debian.org/stretch/mupen64plus) `2.5+2` - plugin-based Nintendo 64 emulator (transitional dummy package)
+* [mupen64plus-qt](https://packages.debian.org/stretch/mupen64plus-qt) `1.9-1+b2` - Basic launcher for Mupen64Plus
+* [mupen64plus-input-all](https://packages.debian.org/stretch/mupen64plus-input-all) `2.5+2` - plugin-based Nintendo 64 emulator, input plugins
+* [mupen64plus-audio-all](https://packages.debian.org/stretch/mupen64plus-audio-all) `2.5+2` - plugin-based Nintendo 64 emulator, audio plugins
+* [mupen64plus-rsp-all](https://packages.debian.org/stretch/mupen64plus-rsp-all) `2.5+2` - plugin-based Nintendo 64 emulator, rsp plugins
+* [mupen64plus-video-all](https://packages.debian.org/stretch/mupen64plus-video-all) `2.5+2` - plugin-based Nintendo 64 emulator, video plugins
 
 ### Related packages
 
