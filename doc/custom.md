@@ -77,6 +77,8 @@ files (see `dpkg-divert`).
  * `*.chroot`: lists of packages to install on the resulting image/system (live or installed)
  * `*.binary`: lists of additional packages to add to the ISO image `pool/` directory (to use as an offline repository/mirror) (not required for the live system to work)
 
+If you want some packages to be installed to the live system AND placed in the `pool/` ISO image directory, just use the `.list` extension.
+
 
 Lines commented out with `#` will be ignored, except a few keywords (`#if...`)
 Some keywords in comment fields can be used to generate end-user package documentation pages (see below).
