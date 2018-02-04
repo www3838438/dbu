@@ -104,7 +104,6 @@ cryptsetup
 gdisk
 parted
 ncdu
-cfdisk
 hdparm
 sdparm
 dfc
