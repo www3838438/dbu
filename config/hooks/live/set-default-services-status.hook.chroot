@@ -1,0 +1,54 @@
+########################################
+########################################
+#!/bin/bash
+echo "[dbu] Disabling services..."
+systemctl disable avahi-daemon.service || true
+systemctl disable avahi-daemon.socket || true
+systemctl disable avahi-dnsconfd.service || true
+systemctl disable bluetooth.service || true
+systemctl disable dnsmasq.service || true
+systemctl disable exim4.service || true
+systemctl disable haveged.service || true
+systemctl disable iodined.service || true
+systemctl disable nfs-common.service || true
+systemctl disable openvpn.service || true
+systemctl disable rpcbind.service || true
+systemctl disable rsync.service || true
+systemctl disable samba-ad-dc.service || true
+systemctl disable saned.service || true
+systemctl disable ssh.service || true
+systemctl disable tor.service || true
+systemctl stop avahi-daemon.service || true
+systemctl stop avahi-daemon.socket || true
+systemctl stop avahi-dnsconfd.service || true
+systemctl stop bluetooth.service || true
+systemctl stop dnsmasq.service || true
+systemctl stop exim4.service || true
+systemctl stop haveged.service || true
+systemctl stop iodined.service || true
+systemctl stop nfs-common.service || true
+systemctl stop openvpn.service || true
+systemctl stop rpcbind.service || true
+systemctl stop rsync.service || true
+systemctl stop samba-ad-dc.service || true
+systemctl stop saned.service || true
+systemctl stop ssh.service || true
+systemctl stop tor.service || true
+
+echo "[dbu] Enabling services..."
+systemctl enable bumblebeed.service || true
+systemctl enable cups-browsed.service || true
+systemctl enable cups.service || true
+systemctl enable fancontrol.service || true
+systemctl enable laptop-mode.service || true
+systemctl enable nmbd.service || true
+systemctl enable samba.service || true
+systemctl enable smbd.service || true
+systemctl start bumblebeed.service || true
+systemctl start cups-browsed.service || true
+systemctl start cups.service || true
+systemctl start fancontrol.service || true
+systemctl start laptop-mode.service || true
+systemctl start nmbd.service || true
+systemctl start samba.service || true
+systemctl start smbd.service || true
