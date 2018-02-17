@@ -1,0 +1,7 @@
+#!/bin/sh
+
+lb clean noauto "$@"
+rm -f binary.log prepare.log
+rm -rf .build/ config/binary config/bootstrap config/build \
+	config/chroot config/common config/hooks/live/ \
+	config/hooks/normal/ config/source
