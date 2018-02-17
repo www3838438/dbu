@@ -1,0 +1,10 @@
+[org.gnome.seahorse]
+server-auto-retrieve=true
+
+[org.gnome.seahorse.manager]
+show-expiry=true
+show-trust=true
+show-type=true
+show-validity=true
+sidebar-visible=true
+sort-by='label'

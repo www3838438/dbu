@@ -1,0 +1,3 @@
+[org.gnome.system-tools.users]
+showall=false
+showroot=true

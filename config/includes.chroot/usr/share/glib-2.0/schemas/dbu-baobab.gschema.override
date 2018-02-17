@@ -1,0 +1,8 @@
+[org.gnome.baobab.preferences]
+excluded-uris=[]
+monitor-home=false
+
+[org.gnome.baobab.ui]
+active-chart='rings'
+statusbar-visible=false
+toolbar-visible=true

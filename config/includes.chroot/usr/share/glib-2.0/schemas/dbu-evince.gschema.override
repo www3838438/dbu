@@ -1,0 +1,11 @@
+[org.gnome.Evince.Default]
+continuous=true
+dual-page=false
+fullscreen=false
+inverted-colors=false
+show-sidebar=true
+show-toolbar=true
+sidebar-page='links'
+
+[org.gnome.Evince]
+override-restrictions=true
