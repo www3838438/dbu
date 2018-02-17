@@ -1,0 +1,60 @@
+#Name: Game console emulators
+#Screenshot: pcsxr
+#Screenshot: higan
+#Screenshot: desmume
+#Screenshot: mupen64plus
+
+pcsxr
+higan
+desmume
+mupen64plus
+mupen64plus-qt
+mupen64plus-input-all
+mupen64plus-audio-all
+mupen64plus-rsp-all
+mupen64plus-video-all
+
+#Alt: retroarch
+#Alt: libretro-beetle-pce-fast
+#Alt: libretro-beetle-psx
+#Alt: libretro-beetle-vb
+#Alt: libretro-beetle-wswan
+#Alt: libretro-bsnes-mercury-accuracy
+#Alt: libretro-bsnes-mercury-balanced
+#Alt: libretro-bsnes-mercury-performance
+#Alt: libretro-desmume
+#Alt: libretro-gambatte
+#Alt: libretro-mupen64plus
+#Alt: libretro-mgba
+#Alt: libretro-nestopia
+#Alt: libretro-genesisplusgx
+#Alt: libretro-snes9x
+#Alt: yabause-gtk
+#Alt: games-emulator
+#Alt: fceu
+#Alt: gnome-video-arcade
+#Alt: zsnes
+#Alt: mednafen
+#Alt: virtualjaguar
+#Alt: mame
+#Alt: stella
+#Alt: mame
+#Alt: mame-tools
+#Alt: mame-extra
+#Alt: mess
+#Alt: mess-desktop-entries
+#Alt: nestopia
+#Alt: visualboyadvance-gtk
+#Alt: dosbox
+#Alt: dolphin-emu
+#Alt: pcsx2
+
+
+
+
+
+
+
+#Cat: Games
+
+

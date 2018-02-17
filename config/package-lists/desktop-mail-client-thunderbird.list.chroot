@@ -1,0 +1,35 @@
+#Name: Thunderbird mail client
+#Cat: Network
+#Desc: thunderbird
+#Screenshot: thunderbird
+#Screenshot: lightning
+
+thunderbird
+thunderbird-l10n-fr
+#icedove #jessie only
+#icedove-l10n-fr #jessie only
+
+#Alt: geary
+#Alt: claws-mail
+#Alt: claws-mail-plugins
+#Alt: mailnag
+#Alt: mutt
+#Alt: alpine
+#Alt: getmail4
+#Alt: mail-notification
+#Alt: evolution
+#Alt: evolution-plugins
+#Alt: evolution-webcal
+#Alt: evolution-rss
+#Alt: mail-notification-evolution
+#Alt: isync
+#Alt: pycarddav
+#Alt: gnome-calendar
+#Alt: evolution-data-server
+#Alt: gnome-todo
+#Alt: bijiben
+#Alt: dexter
+
+
+
+

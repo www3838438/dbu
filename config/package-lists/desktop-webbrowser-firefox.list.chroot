@@ -1,0 +1,46 @@
+#Name: Firefox web browser
+#Screenshot: firefox
+#Cat: Network
+
+firefox-esr
+pkg-mozilla-archive-keyring
+
+# Localization
+firefox-esr-l10n-fr
+#firefox-l10n-ar 
+#firefox-l10n-de 
+#firefox-l10n-es-ar 
+#firefox-l10n-es-cl 
+#firefox-l10n-es-es 
+#firefox-l10n-es-mx 
+#firefox-l10n-hi-in 
+#firefox-l10n-pt-pt 
+#firefox-l10n-ru 
+#firefox-l10n-zh-cn 
+
+
+
+#Alt: midori
+#Alt: arora
+#Alt: luakit
+#Alt: chromium
+#Alt: qupzilla
+#Alt: dwb
+#Alt: uzbl
+#Alt: xombrero
+#Alt: nss-passwords
+#Alt: w3m
+#Alt: links2
+#Alt: surf
+#Alt: elinks
+#Alt: firefox-esr
+
+
+
+
+
+
+
+
+
+

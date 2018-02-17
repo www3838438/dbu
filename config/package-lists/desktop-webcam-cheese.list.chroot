@@ -1,0 +1,15 @@
+#Name: Cheese webcam utility
+#Desc: cheese
+#Screenshot: cheese
+
+cheese
+gnome-video-effects
+gnome-video-effects-frei0r
+
+#Alt: guvcview
+#Alt: luvcview
+#Alt: kamoso
+
+#Cat: Multimedia
+
+

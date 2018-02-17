@@ -1,0 +1,32 @@
+#Name: Pidgin instant messaging client
+#Desc: pidgin
+#Cat: Network
+#Screenshot: pidgin
+
+pidgin
+pidgin-libnotify
+pidgin-otr
+libpurple-bin
+pidgin-plugin-pack
+pidgin-extprefs
+pidgin-gnome-keyring
+
+#Alt: sflphone
+#Alt: mumble
+#Alt: empathy
+#Alt: finch
+#Alt: weechat
+#Alt: irssi
+#Alt: hotot
+#Alt: turpial
+#Alt: twidge
+#Alt: turses
+#Alt: centerim
+#Alt: ekg2
+#Alt: mcabber
+#Alt: xchat
+#Alt: gajim
+#Alt: yowsup-cli
+#Alt: twitux
+#Alt: smuxi
+#Alt: nheko

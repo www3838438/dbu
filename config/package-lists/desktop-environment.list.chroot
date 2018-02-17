@@ -1,0 +1,141 @@
+#Name: Desktop environment
+#Desc: xfce4
+#Cat: Utility
+#Screenshot: https://raw.githubusercontent.com/nodiscc/dbu/master/doc/res/screenshot-main.jpg
+
+xfdesktop4
+xfwm4
+xfce4-panel
+xfce4-session
+xfce4-notifyd
+xfce4-whiskermenu-plugin
+xfce4-places-plugin
+xfce4-weather-plugin
+xfce4-netload-plugin
+xfce4-pulseaudio-plugin
+
+# Desktop configuration utilities
+xfce4-settings
+gnome-system-tools
+menulibre
+gconf-editor
+dconf-tools
+qt4-qtconfig
+
+# Utilities
+gmrun
+libnotify-bin
+zenity
+numlockx
+x11-apps
+xbitmaps
+wmctrl
+xclip
+xcalib
+xbacklight
+
+# Misc
+gtk2-engines
+gtk2-engines-murrine
+gtk2-engines-pixbuf
+gtk2-engines-xfce
+xdg-user-dirs-gtk
+libfile-mimeinfo-perl
+policykit-1-gnome
+python-appindicator
+gnome-settings-daemon
+dconf-gsettings-backend
+
+# Resources
+desktop-base
+faenza-icon-theme
+gnome-audio
+clearlooks-phenix-theme
+gnome-themes-standard
+sound-theme-freedesktop
+arc-theme
+
+# GNOME Keyring
+#Screenshot: seahorse
+seahorse
+seahorse-daemon
+python-gnomekeyring
+gnome-keyring
+ssh-askpass-gnome
+libpam-gnome-keyring
+gnupg
+gnupg2
+#Alt: gkeyring
+
+############################################
+
+#Alt: gnome-color-manager
+#Alt: galternatives
+#Alt: arandr
+#Alt: disper
+#Alt: lightdm-gtk-greeter-settings
+#Alt: gddccontrol
+#Alt: startupmanager
+#Alt: openbox
+#Alt: obconf
+#Alt: tint2
+#Alt: clipit
+#Alt: xfce4-clipman
+#Alt: diodon
+#Alt: glipper
+#Alt: x-tile
+#Alt: notify-osd
+#Alt: gxkb
+#Alt: nitrogen
+#Alt: compton
+#Alt: compton-conf
+#Alt: brightside
+#Alt: winwrangler
+#Alt: xscreensaver
+#Alt: xscreensaver-gl-extra
+#Alt: xscreensaver-data-extra
+#Alt: xscreensaver-gl
+#Alt: gsimplecal
+#Alt: lxpanel
+#Alt: plank
+#Alt: docky
+#Alt: fbxkb
+#Alt: wbar
+#Alt: fvwm
+#Alt: gnome-mag
+#Alt: gexec
+#Alt: unclutter
+#Alt: indicator-workspaces
+#Alt: dunst
+#Alt: xdotool
+#Alt: rofi
+#Alt: tango-icon-theme
+#Alt: espeak
+#Alt: pocketsphinx
+#Alt: gespeaker
+#Alt: festival
+#Alt: espeak-gui
+#Alt: alltray
+#Alt: gtk3-engines-unico
+#Alt: dbus-user-session
+#Alt: lxlock
+#Alt: lxpolkit
+#Alt: compiz
+#Alt: compiz-plugins-main
+#Alt: compiz-plugins-default
+#Alt: compiz-plugins-extra
+#Alt: compiz-plugins
+#Alt: mousetweaks
+
+#TODO link to keyboard shortcuts
+
+
+
+
+
+
+
+
+
+
+

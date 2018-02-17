@@ -1,0 +1,31 @@
+#Name: Xorg display server
+#Cat: System
+#Desc: xorg
+
+
+mesa-utils
+libgl1-mesa-dri
+libtxc-dxtn-s2tc0
+va-driver-all
+xinput
+xorg
+xinit
+xfonts-base
+xfonts-scalable
+xfonts-75dpi
+xfonts-100dpi
+xserver-xorg
+xserver-xorg-input-all
+xserver-xorg-input-wacom
+#xserver-xorg-input-acecad #jessie only
+xserver-xorg-input-aiptek
+xserver-xorg-input-elographics
+xserver-xorg-input-joystick
+xserver-xorg-input-kbd
+xserver-xorg-input-mouse
+xserver-xorg-input-mutouch
+xserver-xorg-input-multitouch
+xserver-xorg-input-synaptics
+xserver-xorg-video-all
+xfonts-base
+hwdata

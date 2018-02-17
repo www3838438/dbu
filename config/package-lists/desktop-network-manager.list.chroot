@@ -1,0 +1,27 @@
+#Name: Network Manager
+#Desc: network-manager-gnome
+#Screenshot: network-manager-gnome
+#Cat: Network
+
+
+network-manager-gnome
+network-manager-openvpn-gnome
+network-manager-iodine-gnome
+crda
+wireless-regdb
+#required for internet connection sharing
+dnsmasq-base
+
+
+
+
+
+#Alt: wicd
+#Alt: connman
+#Alt: connman-ui
+#Alt: cmst
+#Alt: wicd-curses
+#Alt: wpagui
+#Alt: network-manager-ssh
+#Alt: efax-gtk
+#Alt: wammu

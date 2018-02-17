@@ -1,0 +1,24 @@
+#Name: Backintime backup utility
+#Desc: backintime-gnome
+#Screenshot: backintime-qt4
+#Cat: System
+
+backintime-qt4
+
+#Alt: duplicity
+#Alt: obnam
+#Alt: bup
+#Alt: tmfs
+#Alt: deja-dup
+#Alt: attic
+#Alt: rdiff-backup
+#Alt: grsync
+#Alt: unison
+#Alt: unison-gtk
+#Alt: rsync
+#Alt: rsbackup
+#Alt: fsarchiver
+#Alt: backupninja
+#Alt: duply
+
+

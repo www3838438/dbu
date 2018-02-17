@@ -1,0 +1,38 @@
+#Name: VLC media player
+#Screenshot: vlc
+#Cat: Multimedia
+
+vlc
+libdvdread4
+vlc-plugin-notify
+vlc-plugin-vlsub
+vlc-plugin-jack
+vlc-plugin-samba
+vlc-plugin-skins2
+vlc-plugin-video-splitter
+vlc-plugin-visualization
+vlc-plugin-video-output
+vlc-plugin-base
+vlc-plugin-qt
+vlc-nox
+libdvd-pkg
+
+#Alt: vlc-plugin-zvbi
+#Alt: vlc-plugin-svg
+#Alt: vlc-plugin-sdl
+#Alt: mplayer2
+#Alt: mpv
+#Alt: gnome-mplayer
+#Alt: gnome-mpv
+#Alt: smplayer
+#Alt: umplayer
+#Alt: totem
+#Alt: totem-plugins
+#Alt: parole
+#Alt: gnome-dvb-client
+#Alt: zapping
+#Alt: freetuxtv
+#Alt: kodi
+#Alt: browser-plugin-vlc
+#Alt: subdownloader
+#Alt: winff

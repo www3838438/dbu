@@ -1,0 +1,20 @@
+#Name: Liferea RSS/Atom news reader
+#Desc: liferea
+#Screenshot: liferea
+
+liferea
+gir1.2-gnomekeyring-1.0
+dconf-gsettings-backend
+
+#Alt: yarssr
+#Alt: newsbeuter
+#Alt: olive
+#Alt: specto
+#Alt: quiterss
+#Alt: tickr
+
+#Cat: Network
+
+
+
+

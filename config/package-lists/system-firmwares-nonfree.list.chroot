@@ -1,0 +1,6 @@
+#Name: Non-Free/Proprietary firmwares
+firmware-linux-nonfree
+amd64-microcode
+intel-microcode
+
+#Cat: System

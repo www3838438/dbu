@@ -1,0 +1,22 @@
+#Name: Owncloud file synchronization client
+#Desc: owncloud-client
+#Screenshot: owncloud-client
+
+owncloud-client
+
+#Alt: git-annex
+#Alt: nautilus-dropbox
+#Alt: syncthing
+#Alt: unison-gtk
+#Alt: sparkleshare
+#Alt: seafile
+#Alt: grsync
+#Alt: filezilla
+#Alt: gftp
+#Alt: grive
+#Alt: syncany
+#Alt: seafile-gui
+
+#Cat: Network
+
+

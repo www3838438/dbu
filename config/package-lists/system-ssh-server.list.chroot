@@ -1,0 +1,7 @@
+#Name: OpenSSH remote access server
+#Cat: Network
+#Desc: openssh-server
+
+openssh-server
+
+#Note: Port `TCP 822`

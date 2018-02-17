@@ -1,0 +1,22 @@
+#Name: CUPS printing system
+#Desc: system-config-printer
+#Screenshot: system-config-printer
+#Cat: System
+
+cups
+cups-client
+#cups-driver-gutenprint #jessie only
+gutenprint-locales
+cups-pdf
+cups-pk-helper
+printer-driver-all
+printer-driver-cups-pdf
+system-config-printer
+system-config-printer-udev
+cups-browsed
+
+#Alt: hplip-gui
+#Alt: mtink
+
+
+

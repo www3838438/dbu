@@ -1,0 +1,14 @@
+#Name: Xfce4 terminal emulator
+#Cat: Utility
+#Desc: xfce4-terminal
+#Screenshot: xfce4-terminal
+
+xfce4-terminal
+
+
+#Alt: lxterminal
+#Alt: gnome-terminal
+#Alt: guake
+#Alt: terminator
+#Alt: rxvt-unicode
+#Alt: tilda

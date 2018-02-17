@@ -1,0 +1,57 @@
+#Name: QuodLibet music player/library manager
+#Desc: quodlibet
+#Screenshot: quodlibet
+
+quodlibet
+quodlibet-plugins
+exfalso
+python-cddb
+python-musicbrainz2
+python-feedparser
+python-indicate
+python-pyinotify
+libgpod-common
+libgpod4
+projectm-pulseaudio
+python-musicbrainzngs
+
+
+#Alt: banshee
+#Alt: banshee-community-extensions
+#Alt: cowbell
+#Alt: easytag
+#Alt: puddletag
+#Alt: beets
+#Alt: eyed3
+#Alt: kid3
+#Alt: picard
+#Alt: tagtool
+#Alt: mussort
+#Alt: moc
+#Alt: cmus
+#Alt: musique
+#Alt: audacious
+#Alt: audacious-plugins
+#Alt: gnome-music
+#Alt: clementine
+#Alt: amarok
+#Alt: gmusicbrowser
+#Alt: guayadeque
+#Alt: gpodder
+#Alt: exaile
+#Alt: sonata
+#Alt: ario
+#Alt: cantata
+#Alt: ncmpcpp
+#Alt: mpd
+#Alt: mpc
+#Alt: gtkpod
+#Alt: rhythmbox
+#Alt: rhythmbox-plugins
+#Alt: go-mtpfs
+#Alt: mtpfs
+#Alt: radiotray
+#Alt: vagalume
+#Alt: streamtuner2
+
+#Cat: Multimedia

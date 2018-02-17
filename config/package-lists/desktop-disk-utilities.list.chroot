@@ -1,0 +1,13 @@
+#Name: Disk utilities (graphical)
+#Cat: System
+#NoDescription
+#Screenshot: gnome-disk-utility
+#Screenshot: gparted
+#Screenshot: baobab
+gnome-disk-utility
+gparted
+baobab
+
+#Alt: disk-manager
+#Alt: gsmartcontrol
+#Alt: gdmap

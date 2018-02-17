@@ -1,0 +1,28 @@
+#Name: Base system and hardware support
+#Cat: System
+
+libpam-ck-connector
+libpam-systemd
+systemd
+consolekit
+user-setup
+os-prober
+preload
+ulatencyd
+#systemd-shim #jessie only
+debian-archive-keyring
+debian-keyring
+haveged
+ntp
+initramfs-tools
+dkms
+linux-headers-amd64
+build-essential
+module-assistant
+irqbalance
+console-setup
+grub2
+sudo
+
+#Alt: kexec
+#Alt: ksplice

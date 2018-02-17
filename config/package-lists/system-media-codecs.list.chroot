@@ -1,0 +1,25 @@
+#Name: Media codecs
+
+#gstreamer0.10-plugins-base
+#gstreamer0.10-tools
+#gstreamer0.10-x
+#gstreamer0.10-alsa
+#gstreamer0.10-gnomevfs
+gstreamer1.0-alsa
+gstreamer1.0-libav
+gstreamer1.0-plugins-bad
+gstreamer1.0-plugins-base
+gstreamer1.0-plugins-good
+gstreamer1.0-plugins-ugly
+gstreamer1.0-pulseaudio
+gstreamer1.0-tools
+gstreamer1.0-x
+flac
+lame
+musepack-tools
+libmp3lame0
+libquicktime2
+libxvidcore4
+libgnomevfs2-extra
+
+#Cat: System

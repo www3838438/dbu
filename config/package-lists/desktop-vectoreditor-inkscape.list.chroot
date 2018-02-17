@@ -1,0 +1,21 @@
+#Name: Inkscape vector image editor
+#Desc: inkscape
+#Screenshot: inkscape
+#Cat: Multimedia
+
+inkscape
+create-resources
+python-lxml
+pstoedit
+
+#Alt: pencil2d
+#Alt: dia
+#Alt: birdfont
+#Alt: autotrace
+#Alt: fontmatrix
+#Alt: python-uniconvertor
+
+
+
+
+

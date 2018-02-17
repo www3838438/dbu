@@ -1,0 +1,16 @@
+#Name: Samba file sharing server and client
+#Cat: Network
+#Replace: Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+#Replace: providing support for cross-platform file and printer sharing with
+#Replace: Microsoft Windows, OS X, and other Unix systems. 
+
+samba
+samba-vfs-modules 
+smbclient
+
+#Alt: smbc
+
+
+
+#Res[fr]: http://fr.wikipedia.org/wiki/Samba_(informatique)
+#Res[fr]: http://doc.ubuntu-fr.org/samba

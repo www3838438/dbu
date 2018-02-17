@@ -1,0 +1,19 @@
+#Name: File search utility
+#Desc: gnome-search-tool
+#Screenshot: gnome-search-tool
+
+gnome-search-tool
+nautilus-data
+mlocate
+
+#Alt: catfish
+#Alt: recoll
+#Alt: tracker
+#Alt: tracker-miner-fs
+#Alt: tracker-gui
+#Alt: tracker-extract
+#Alt: tracker-utils
+#Alt: xfe
+
+#Cat: Utility
+

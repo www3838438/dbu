@@ -1,0 +1,34 @@
+#Name: Image manipulation utilities
+#Cat: Multimedia
+#Desc: trimage
+#Desc: imagemagick
+
+trimage
+imagemagick
+libmagickcore-6.q16-2-extra 
+exifprobe
+findimagedupes
+librsvg2-bin
+cmatrix
+cmatrix-xfont
+figlet
+toilet
+
+#Alt: scrot
+#Alt: optipng
+#Alt: jpegoptim
+#Alt: phatch
+#Alt: converseen
+#Alt: caca-utils
+#Alt: fbi
+#Alt: gifsicle
+#Alt: jp2a
+#Alt: pecomato
+#Alt: libjpeg-utils
+#Alt: nyancat
+#Alt: aview
+#Alt: aalib
+#Alt: fgallery liblcms2-utils
+
+
+

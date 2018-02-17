@@ -1,0 +1,43 @@
+#Name: APT package management utilities
+#Cat: System
+#Desc: synaptic
+#Screenshot: synaptic
+
+# PackageKit
+gnome-packagekit
+packagekit
+packagekit-tools
+pk-update-icon
+apt-config-auto-update
+
+# Graphical - other
+deborphan
+software-properties-gtk
+synaptic
+gdebi
+
+# Command line
+aptitude
+aptitude-doc-fr
+debsecan
+needrestart
+reportbug
+vrms
+apt-listchanges
+apt-transport-https
+debconf-utils
+
+
+
+
+
+
+#Alt: unattended-upgrades
+#Alt: apturl
+#Alt: apt-fast
+#Alt: aptoncd
+#Alt: apt-file
+#Alt: gstreamer1.0-packagekit
+#Alt: packagekit-command-not-found
+#Alt: packagekit-gtk3-module
+#Alt: gnome-software

@@ -1,0 +1,10 @@
+#Name: UFW firewall manager
+#Desc: gufw
+#Screenshot: gufw 
+#Cat: System
+
+ufw
+gufw
+iptables
+
+#Alt: ferm
