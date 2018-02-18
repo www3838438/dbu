@@ -1,12 +1,12 @@
 #!/usr/bin/make -f
 
-all: install_buildenv tests update_deps rename_xpi documentation build
+all: install_buildenv tests update_deps rename_xpi build
 
 update_deps: download_firefox_addons download_thunderbird_addons download_packageschroot download_binaries download_dotfiles
 
 rename_xpi: rename_firefox_xpi rename_thunderbird_xpi
 
-release: checksums sign torrent
+release: documentation tests checksums sign torrent
 
 ######
 
@@ -15,9 +15,13 @@ install_buildenv:
 		shellcheck apt-transport-https
 
 tests:
-	shellcheck --exclude=SC2016,SC2086,SC1001 scripts/*.sh
+	#Check scripts syntax
+	@shellcheck --exclude=SC2016,SC2086,SC1001 scripts/*.sh
+	#Packages without descriptions:
+	@cd doc/packages/ && egrep "^ \* .* $$" *.md || continue
 
 documentation:
+	-mkdir doc/packages/
 	-rm -r doc/packages/*.md
 	./scripts/doc-generator.sh
 
