@@ -1,9 +1,45 @@
 #Name: Xfce4 notes
+#Cat: Office
+#Screenshot: xfce4-notes
 
+# Sticky notes
 xfce4-notes
 
 #Alt: xpad
 #Alt: tomboy
 #Alt: gnote
 
-#Cat: Utility
+# Notebooks/Tasks/Personal information managers (disabled)
+#Alt: osmo
+#Alt: zim
+#Alt: tasks
+#Alt: tasque
+#Alt: gtg
+#Alt: taskcoach
+#Alt: email-reminder
+#Alt: todotxt-cli
+#Alt: lifeograph
+#Alt: tudu
+#Alt: tina
+#Alt: taskwarrior
+#Alt: vit
+#Alt: w2do
+#Alt: devtodo
+#Alt: gnome-todo
+#Alt: bijiben
+#Alt: wyrd
+#Alt: calcurse
+#Alt: dates
+#Alt: gnome-contacts
+#Alt: contacts
+#Alt: gnome-documents
+#Alt: khal
+#Alt: treesheets
+#Alt: hnb
+#Alt: etm
+#Alt: rednotebook
+#Alt: cherrytree
+#Alt: notebook-gtk2
+#Alt: keepnote
+#Alt: almanah
+#Alt: nixnote2

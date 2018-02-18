@@ -3,18 +3,13 @@
 #Screenshot: network-manager-gnome
 #Cat: Network
 
-
 network-manager-gnome
 network-manager-openvpn-gnome
 network-manager-iodine-gnome
 crda
 wireless-regdb
-#required for internet connection sharing
+# required for internet connection sharing and local DNS caching
 dnsmasq-base
-
-
-
-
 
 #Alt: wicd
 #Alt: connman
@@ -25,3 +20,22 @@ dnsmasq-base
 #Alt: network-manager-ssh
 #Alt: efax-gtk
 #Alt: wammu
+
+# Cellphone and modem Support (disabled)
+#Alt: modemmanager
+#Alt: modem-manager-gui
+#Alt: mobile-broadband-provider-info
+#Alt: usb-modeswitch
+
+#Alt: wader-core
+#Alt: gnome-phone-manager
+#Alt: kdeconnect
+
+# Avahi zero-configuration/uPnP/mDNS daemon (disabled)
+#Alt: avahi-daemon
+#Alt: libnss-mdns
+#Alt: avahi-autoipd
+#Alt: avahi-dnsconfd
+
+#Alt: avahi-discover
+#Alt: avahi-ui-utils

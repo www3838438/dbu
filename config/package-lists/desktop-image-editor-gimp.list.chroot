@@ -1,8 +1,6 @@
-#Name: GIMP image editor
-#Desc: gimp
+#Name: GIMP image editor and graphics tools
 #Screenshot: gimp
 #Cat: Multimedia
-
 
 gimp
 gimp-data-extras
@@ -17,59 +15,61 @@ gimp-resynthesizer
 create-resources
 gimp-help-fr
 
-
-
-#Alt: luminance-hdr
+# Other editors (disabled)
+##Screenshot: krita
 #Alt: krita
 #Alt: pinta
 #Alt: mypaint
-#Alt: hugin
-#Alt: pencil2d
+#Alt: mtpaint
+#Alt: xpaint
+#Alt: gnome-paint
+#Alt: openclipart2
+#Alt: delaboratory
+
+# Non-destructive editors (lightroom) (disabled)
+##Screenshot: darktable
+#Alt: darktable
+#Alt: rawtherapee
+#Alt: rawstudio
+#Alt: luminance-hdr
+
+# Color pickers (disabled)
+##Screenshot: gcolor2
 #Alt: gcolor2
 #Alt: agave
-#Alt: mtpaint
+#Alt: gpick
+
+# Batch processing (disabled)
+##Screenshot: phatch
+#Alt: phatch
 #Alt: aspic
+#Alt: pixelize
+#Alt: hugin
+#Alt: aaphoto
+
+# Camera/upload management (disabled)
+##Screenshot: rapid-photo-downloader
+#Alt: rapid-photo-downloader
+#Alt: gtkam
+#Alt: postr
+#Alt: flickrfs
+#Alt: flickrbackup
+
+# Image library managers (disabled)
+##Screenshot: nomacs
+#Alt: nomacs
+#Alt: shotwell
+#Alt: gthumb
+#Alt: digikam
+#Alt: fotoxx
+#Alt: geeqie
+
+# Game asset editors (disabled)
+##Screenshot: aseprite
 #Alt: aseprite
 #Alt: tiled
-#Alt: gthumb
-#Alt: nomacs
 #Alt: games-content-dev
-#Alt: pixelize
-#Alt: toonloop
-#Alt: gpick
-#Alt: gnome-paint
-#Alt: xpaint
-#Alt: openclipart2
-#Alt: alchemy
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Color managemnt (disabled)
+##Screenshot: colorhug-client
+#Alt: colorhug-client

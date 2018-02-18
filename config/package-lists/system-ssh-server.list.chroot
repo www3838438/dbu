@@ -2,6 +2,26 @@
 #Cat: Network
 #Desc: openssh-server
 
+#Port 822/tcp
 openssh-server
 
-#Note: Port `TCP 822`
+#VNC servers (disabled)
+#Port 15930/tcp|udp
+#Alt: vino
+
+#Mouse/keyboard sharing (disabled)
+#Alt: synergy
+
+# Remote access/remote desktop clients (disabled - use command-line ssh/thunar)
+##Screenshot: remmina
+#Alt: remmina
+#Alt: remmina-plugin-gnome
+#Alt: remmina-plugin-nx
+#Alt: remmina-plugin-rdp
+#Alt: remmina-plugin-telepathy
+#Alt: remmina-plugin-vnc
+#Alt: remmina-plugin-xdmcp
+#Alt: libfreerdp-plugins-standard
+#Alt: xpra
+#Alt: vinagre
+

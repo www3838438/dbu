@@ -5,7 +5,13 @@
 
 kupfer
 
-#Alt: synapse zeitgeist-datahub zeitgeist activity-log-manager
 #Alt: gnome-pie
 #Alt: gnome-do
 #Alt: xfce4-appfinder
+##Screenshot: synapse
+#Alt: synapse
+#Alt: zeitgeist
+#Alt: zeitgeist-datahub
+#Alt: activity-log-manager
+#gnome-activity-journal #jessie only
+

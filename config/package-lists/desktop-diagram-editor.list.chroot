@@ -9,3 +9,11 @@ gsfonts-x11
 
 #Alt: asciio
 
+# Label/barcode editors (disabled)
+##Screenshot: glabels
+#Alt: glabels
+#Alt: qrencode
+#Alt: qtqr
+#Alt: zbar-tools
+#Alt: zoneminder
+#Alt: cameramonitor

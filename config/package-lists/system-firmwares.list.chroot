@@ -1,4 +1,9 @@
 #Name: Free/Libre firmwares
+#Cat: System
+
 firmware-linux-free
 
-#Cat: System
+# Hardware-specific packages (disabled)
+#Alt: pommed
+#Alt: lomoco
+#Alt: wmgui

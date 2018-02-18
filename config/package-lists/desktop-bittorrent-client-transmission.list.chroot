@@ -1,10 +1,10 @@
 #Name: Transmission bittorrent client
+#Cat: Network
 #Desc: transmission-gtk
 #Screenshot: transmission-gtk
 
+#Ports 52943/tcp|udp
 transmission-gtk
-
-#Note: Ports: `TCP 52943`, `UDP /52943` Web interface: `TCP 52913`
 
 #Alt: qbittorrent
 #Alt: deluge-gtk
@@ -15,9 +15,11 @@ transmission-gtk
 #Alt: transmission-remote-gtk
 #Alt: amule
 #Alt: amule-gnome-support
-#Alt: nicotine
 #Alt: tribler
 #Alt: lottanzb
 #Alt: eiskaltdcpp-gtk3
 
-#Cat: Network
+# Soulseek clients (disabled)
+##Screenshot: nicotine
+#Ports 2234/tcp|udp
+#Alt: nicotine

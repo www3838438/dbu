@@ -1,14 +1,12 @@
 #Name: Audacity audio editor
-#Desc: audacity
-#Screenshot: audacity
-
-audacity
-
 #Cat: Multimedia
 
-
-
+#Screenshot: audacity
+audacity
 
 #Alt: minidisc-utils
 #Alt: qhimdtransfer
 #Alt: gwc
+
+#Digital Audio production tools (disabled)
+#Alt: gjacktransport

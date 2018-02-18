@@ -1,5 +1,4 @@
 #Name: Pidgin instant messaging client
-#Desc: pidgin
 #Cat: Network
 #Screenshot: pidgin
 
@@ -11,22 +10,31 @@ pidgin-plugin-pack
 pidgin-extprefs
 pidgin-gnome-keyring
 
-#Alt: sflphone
-#Alt: mumble
 #Alt: empathy
 #Alt: finch
+
+# XMPP (disabled - use pidgin)
+#Alt: gajim
+#Alt: mcabber
+
+# IRC (disabled - use pidgin)
+#Alt: smuxi
+#Alt: xchat
 #Alt: weechat
-#Alt: irssi
+#Alt: ekg2
+
+# Video/VoIP messaging/conference (disabled - use mumble)
+##Screenshot: ring
+#Alt: ring
+#Alt: sflphone
+#Alt: linphone
+#Alt: ekiga
+
+# Twitter/other (disabled)
+#Alt: twitux
+#Alt: pidgin-skype
+#Alt: yowsup-cli
 #Alt: hotot
 #Alt: turpial
 #Alt: twidge
 #Alt: turses
-#Alt: centerim
-#Alt: ekg2
-#Alt: mcabber
-#Alt: xchat
-#Alt: gajim
-#Alt: yowsup-cli
-#Alt: twitux
-#Alt: smuxi
-#Alt: nheko

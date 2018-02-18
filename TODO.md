@@ -25,7 +25,7 @@
   ☐ [enh] [feature] OCR/document management solution - https://github.com/openpaperwork/paperwork/issues/466 https://bugs.debian.org/721287
   ☐ [enh] [feature] Add Grammalecte French grammar checker for Firefox/Libreoffice https://www.dicollecte.org/grammalecte/telecharger.php
   ☐ [enh] [feature] thunderbird: add default addons
-  ☐ [enh] [feature] add a package list for audio workstations (see disabled/desktop-audio-workstation.list.chroot, https://github.com/nodiscc/awesome-linuxaudio)
+  ☐ [enh] [feature] add a package list for audio workstations (see `desktop-audio-editor-audacity.list.chroot`, https://github.com/nodiscc/awesome-linuxaudio)
   ☐ [enh] firefox: setup default UI config/disposition `user_pref("browser.uiCustomization.state", "{\"placements\":{\"PanelUI-contents\":[\"zoom-controls\",\"new-window-button\",\"privatebrowsing-button\",\"save-page-button\",\"print-button\",\"history-panelmenu\",\"fullscreen-button\",\"find-button\",\"home-button\",\"preferences-button\",\"add-ons-button\",\"social-share-button\",\"email-link-button\",\"sidebar-button\",\"https-everywhere-button\",\"action-button--jid0-9xfbwuwnvpx4wwsfbwmcm4jj69ejetpack-self-destructing-cookies\"],\"addon-bar\":[\"addonbar-closebutton\",\"status-bar\"],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"urlbar-container\",\"bookmarks-menu-button\",\"search-container\",\"downloads-button\",\"loop-button\",\"ublock0-button\",\"feed-button\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\"]},\"seen\":[\"ublock0-button\",\"action-button--jid0-9xfbwuwnvpx4wwsfbwmcm4jj69ejetpack-self-destructing-cookies\"],\"dirtyAreaCache\":[\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\",\"PanelUI-contents\",\"addon-bar\"],\"currentVersion\":5,\"newElementCount\":0}");`
   ☐ [enh] [feature] pidgin: add https://github.com/gkdr/lurch plugin - OMEMO encryption support
   ☐ [enh] [feature] [security] Setup logcheck and logwatch - see srv01 - mail or notify weekly report
@@ -33,6 +33,7 @@
   ☐ [enh] [feature] Find e10s and/or Webextensions compatible addons for Firefox (https://addons.mozilla.org/en-US/firefox/search/?tag=firefox57)
   ☐ [bug] [debian] package all unpackaged software (includes.chroot/usr...), or send patches upstream when possible
     https://github.com/MrS0m30n3/youtube-dl-gui/releases
+    https://github.com/mank319/Go-For-It
     https://launchpad.net/light-locker-settings http://archive.ubuntu.com/ubuntu/pool/universe/l/light-locker-settings/
     https://github.com/dequis/purple-facebook/wiki http://download.opensuse.org/repositories/home:/jgeboski/Debian_9.0/amd64/
     http://ppa.launchpad.net/numix/ppa/ubuntu/pool/main/n/  https://numixproject.org

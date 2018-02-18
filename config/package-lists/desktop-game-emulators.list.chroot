@@ -1,12 +1,13 @@
 #Name: Game console emulators
-#Screenshot: pcsxr
-#Screenshot: higan
-#Screenshot: desmume
-#Screenshot: mupen64plus
+#Cat: Games
 
+#Screenshot: pcsxr
 pcsxr
+#Screenshot: higan
 higan
+#Screenshot: desmume
 desmume
+#Screenshot: mupen64plus
 mupen64plus
 mupen64plus-qt
 mupen64plus-input-all
@@ -48,6 +49,59 @@ mupen64plus-video-all
 #Alt: dosbox
 #Alt: dolphin-emu
 #Alt: pcsx2
+#Alt: games-emulator
+
+# Other games (disabled)
+
+#Alt: steam
+#Alt: supertuxkart
+#Alt: hedgewars
+#Alt: 0ad
+#Alt: minetest
+#Alt: wesnoth-1.12
+#Alt: nexuiz
+#Alt: cube2
+#Alt: redeclipse
+#Alt: chromium-bsu
+#Alt: gunroar
+#Alt: marsshooter
+#Alt: playonlinux
+#Alt: gnome-games
+#Alt: pychess
+#Alt: gweled
+#Alt: games-adventure
+#Alt: games-programming
+#Alt: games-sport
+#Alt: games-arcade
+#Alt: games-finest
+#Alt: games-puzzle
+#Alt: games-strategy
+#Alt: games-board
+#Alt: games-finest-light
+#Alt: games-python2-dev
+#Alt: games-tasks
+#Alt: games-card
+#Alt: games-fps
+#Alt: games-python3-dev
+#Alt: games-tetris
+#Alt: games-c++-dev
+#Alt: games-java-dev
+#Alt: games-racing
+#Alt: games-thumbnails
+#Alt: games-chess
+#Alt: games-minesweeper
+#Alt: games-rogue
+#Alt: games-toys
+#Alt: games-console
+#Alt: games-mud
+#Alt: games-rpg
+#Alt: games-typing
+#Alt: games-content-dev
+#Alt: games-perl-dev
+#Alt: games-shootemup
+#Alt: games-education
+#Alt: games-platform
+#Alt: games-simulation
 
 
 
@@ -55,6 +109,14 @@ mupen64plus-video-all
 
 
 
-#Cat: Games
+
+
+
+
+
+
+
+
+
 
 

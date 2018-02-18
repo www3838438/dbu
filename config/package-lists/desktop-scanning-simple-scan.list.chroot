@@ -10,3 +10,12 @@ libsane-extras
 
 #Alt: scanbuttond
 #Alt: xsane
+
+# Optical Character Recognition (OCR) (disabled)
+#Screenshot: ocrfeeder
+#Alt: ocrfeeder
+#Alt: tesseract-ocr-fra
+#Alt: unpaper
+#Alt: yagf
+#Alt: ocrad
+

@@ -44,8 +44,8 @@ The full live-build documentation can be found at `/usr/share/doc/live-manual/pd
 #### Makefile
 
 [`Makefile`](../Makefile) automates most of the build steps. In the default configuration it is 
-used to update and build dependencies not packaged for Debian, run basic tests, automate ISO image
-build, checksums and signing, documentation generation...
+used to update and build dependencies not packaged for Debian, run basic tests, automate ISO 
+image build, checksums and signing, documentation generation...
 
 The following `make` targets are available:
 ```
@@ -72,7 +72,12 @@ files (see `dpkg-divert`).
 If you want some packages to be installed to the live system AND placed in the `pool/`
 ISO image directory, just use the `.list` extension.
 
-Lines commented out with `#` will be ignored, except a few keywords (`#if...`)
+Lines commented out with `#` will be ignored, except a few keywords (`#if...`), or used 
+for documentation generation (see below).
+
+**Adding/removing packages:** Look at the commented out packages in 
+`config/package-lists/*.list.chroot` and uncomment packages you want to include, 
+comment out packages you don't need, or write your own lists to that directory.
 
 ##### config/packages.chroot
 
@@ -101,7 +106,7 @@ Putting binary .deb packages under git version control should be avoided.
  
 
 Some keywords in comment fields can be used to configure end-user package documentation 
-pages id [doc/packages](packages/). live-build ignores lines starting with `#` in 
+pages in [doc/packages](packages/). live-build ignores lines starting with `#` in 
 package lists. `scripts/docègenerator.sh` supports the following fields:
 
  * `#Name`: Name for the package list (eg. Libreoffice office suite)
@@ -117,16 +122,10 @@ package lists. `scripts/docègenerator.sh` supports the following fields:
 `doc/packages/*, doc/packages.md` should not be edited manually. update package lists, then
 run `make documentation`
 
-#### Adding more packages
-
-Look in the git branch list for branches named `packages-*`, or wirte your own lists in
-`config/packages-lists/`.
-
 ### Setting the locale/language
 
-Currently only 2 locales (english and french) are
-pre-generated, other languages have to be manually added to the build
-configuration, and the ISO rebuilt.
+Currently only 2 locales (english and french) are pre-generated, other languages have 
+to be manually added to the build configuration, and the ISO rebuilt.
 
 ### See also
 

@@ -1,6 +1,135 @@
-#Name: GNOME network tools
+#Name: Networking tools
 #Screenshot: gnome-nettool
+#Cat: Network
 
 gnome-nettool
 
-#Cat: Network
+# Advanced network/security tools (disabled)
+# IP utilities
+##Screenshot: gns3
+##Screenshot: ipcalc
+#Alt: mtr
+#Alt: socat
+#Alt: subnetcalc
+#Alt: ipcalc
+#Alt: netmask
+#Alt: trickle
+#Alt: gns3
+
+#Alt: macchanger-gtk
+#Alt: thc-ipv6
+#Alt: prips
+#Alt: usbip
+
+# SSH
+#Alt: sshuttle
+#Alt: sshfs
+#Alt: pssh
+#Alt: putty-tools
+
+#Alt: autossh
+#Alt: gstm
+
+# DNS
+#Alt: dnsutils
+#Alt: dnsmasq
+#Alt: dns-root-data
+#Alt: namebench
+
+# Load testing
+#Alt: siege
+#Alt: tsung
+
+# Scanners
+#Alt: nmap
+#Alt: nikto
+#Alt: zmap
+#Alt: prads
+#Alt: sqlmap
+#Alt: themole
+#Alt: arp-scan
+#Alt: arping
+#Alt: skipfish
+#Alt: whatweb
+#dirb #buster only
+#dhcpig #buster only
+#Alt: knockpy
+
+#Alt: ndiff
+#Alt: zenmap
+#Alt: masscan
+#Alt: pompem
+
+# Wireless
+#Alt: aircrack-ng
+# kismet asks 2 debconf questions
+#Alt: kismet
+#Alt: kismet-plugins
+#Alt: reaver
+#Alt: python-scapy
+#Alt: btscanner
+#Alt: hostapd
+
+# Passwords
+#Alt: hydra
+#Alt: pcredz
+#Alt: hydra-gtk
+#Alt: ophcrack
+#Alt: hashcat
+#Alt: hashcat-data
+
+# Hardening/cryptography
+#Alt: fail2ban
+#Alt: prey
+#Alt: electrum
+#Alt: tcplay
+#Alt: tomb
+#Alt: zulucrypt-gui
+#Alt: zulumount-gui
+#Alt: libzulucrypt-plugins
+#Alt: tails-installer
+#Alt: tor
+#Alt: torsocks
+#Alt: tor-geoipdb
+#Alt: ooniprobe
+
+# Network monitoring
+#Alt: nethogs
+#Alt: geoip-bin
+#Alt: geoip-database-contrib
+#geoip-database #conflicts with above
+#geoip-database-extra #conflicts with above
+#Alt: logstalgia
+#Alt: tcpdump
+#Alt: wireshark
+#Alt: tshark
+#Alt: mitmproxy
+#Alt: sslsniff
+#Alt: sslstrip
+#Alt: dsniff
+#Alt: httpry
+#Alt: bwm-ng
+
+#Alt: driftnet
+#Alt: slurm
+#Alt: speedometer
+#Alt: arpwatch
+#Alt: tcpstat
+#Alt: ifstat
+#Alt: snetz
+#Alt: iftop
+#Alt: ipraf-ng
+#Alt: ntop
+#Alt: jnettop
+#Alt: darkstat
+#Alt: netperf
+#Alt: iperf
+#Alt: marionnet
+#Alt: ipmitool
+
+#Alt: memlockd
+#Alt: bilibop-udev
+#Alt: forensics-full
+#Alt: torbrowser-launcher
+#Alt: steghide
+#Alt: logkeys

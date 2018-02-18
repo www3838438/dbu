@@ -6,3 +6,12 @@ blender
 #Alt: goxel
 #Alt: yafaray
 #Alt: g3dviewer
+
+# Sweet Home 3D interior design (disabled)
+##Screenshot: sweethome3d
+#Alt: sweethome3d
+#Alt: sweethome3d-furniture
+#Alt: sweethome3d-furniture-editor
+#Alt: sweethome3d-textures-editor
+#Alt: sweethome3d-furniture-nonfree
+

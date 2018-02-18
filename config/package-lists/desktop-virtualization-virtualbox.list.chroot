@@ -11,8 +11,8 @@ virtualbox-guest-dkms
 virtualbox-guest-x11 
 
 #Alt: virt-manager
-#Alt: docker
 #Alt: qemu
+#Alt: docker
 #Alt: lxc
 #Alt: rkt
 #Alt: gnome-boxes

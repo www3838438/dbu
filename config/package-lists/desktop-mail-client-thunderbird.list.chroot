@@ -23,12 +23,13 @@ thunderbird-l10n-fr
 #Alt: evolution-rss
 #Alt: mail-notification-evolution
 #Alt: isync
+
+# Calendar/contacts management (disabled - use lightning)
 #Alt: pycarddav
 #Alt: gnome-calendar
 #Alt: evolution-data-server
-#Alt: gnome-todo
-#Alt: bijiben
-#Alt: dexter
+#Alt: abook
+#Alt: orage
 
 
 

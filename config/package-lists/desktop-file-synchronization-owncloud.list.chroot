@@ -1,13 +1,14 @@
 #Name: Owncloud file synchronization client
-#Desc: owncloud-client
+#Cat: Network
 #Screenshot: owncloud-client
 
 owncloud-client
 
+##Screenshot: unison-gtk
+#Alt: unison-gtk
 #Alt: git-annex
 #Alt: nautilus-dropbox
 #Alt: syncthing
-#Alt: unison-gtk
 #Alt: sparkleshare
 #Alt: seafile
 #Alt: grsync
@@ -17,6 +18,6 @@ owncloud-client
 #Alt: syncany
 #Alt: seafile-gui
 
-#Cat: Network
+
 
 

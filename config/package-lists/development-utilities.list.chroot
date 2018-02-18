@@ -91,6 +91,7 @@ live-manual-pdf
 live-manual-html
 debootstrap
 live-images
+#Alt: blends-tasks
 
 # Ruby/Node/Webdev/other
 rubygems

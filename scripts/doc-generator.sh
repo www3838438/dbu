@@ -14,7 +14,7 @@ export fail_on_no_category="yes"
 #language of generated package documentation
 export LANG=C
 #package categories to list on the main page, and to search in package lists
-export package_categories="Office Multimedia Network Utility Games Science Development System"
+export package_categories="Office Multimedia Network Utility Games Development System"
 #page header (markdown)
 pageheader="# Installed software
 See [Usage](usage.md#Installing-removing-updating-software) for documentation on installing,
