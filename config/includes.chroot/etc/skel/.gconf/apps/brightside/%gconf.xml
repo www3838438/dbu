@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="nw_custom_in" mtime="1372870264" type="string">
+		<stringvalue>xdotool key F12</stringvalue>
+	</entry>
+	<entry name="nw_custom_kill" mtime="1372870290" type="bool" value="false"/>
+	<entry name="nw_action" mtime="1372870290" type="string">
+		<stringvalue>custom</stringvalue>
+	</entry>
+	<entry name="nw_enabled" mtime="1372870243" type="bool" value="true"/>
+</gconf>
