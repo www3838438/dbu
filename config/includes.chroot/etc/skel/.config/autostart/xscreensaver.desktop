@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Screensaver
+Name[fr]=Economiseur d'écran
+Icon=screensaver
+Comment=Run the screensaver daemon
+Comment[fr]=Lancer le service d'économiseur d'écran
+Type=Application
+Categories=Utilities;
+Exec=xscreensaver -no-splash
+TryExec=xscreensaver
+Terminal=false
+StartupNotify=true
