@@ -85,11 +85,10 @@ function _renderMarkdown {
 	done
 
 	echo -e "\n### Related packages\n"
-	echo -n '<sub> '
 	for i in $alt_packages; do
-		echo -n "[$i](https://packages.debian.org/stretch/$i) "
+		alt_package_description=$(apt-cache show $i | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)
+		echo " * [$i](https://packages.debian.org/stretch/$i) $alt_package_description"
 	done
-	echo ' </sub>'
 }
 
 function _main {
