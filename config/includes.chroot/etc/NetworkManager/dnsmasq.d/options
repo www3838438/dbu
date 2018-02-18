@@ -1,0 +1,5 @@
+conf-file=/usr/share/dnsmasq-base/trust-anchors.conf
+dnssec
+#specify your own DNS forwarders below
+#server=1.2.3.4
+#server=2.3.4.5
