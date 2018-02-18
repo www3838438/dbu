@@ -45,6 +45,7 @@ policykit-1-gnome
 python-appindicator
 gnome-settings-daemon
 dconf-gsettings-backend
+at-spi2-core
 
 # Resources
 desktop-base
