@@ -1,7 +1,7 @@
 #!/bin/bash
 
 disabled_services="avahi-daemon.service avahi-daemon.socket avahi-dnsconfd.service bluetooth.service dnsmasq.service exim4.service haveged.service iodined.service nfs-common.service openvpn.service rpcbind.service rsync.service samba-ad-dc.service saned.service ssh.service tor.service hostapd.service hddtemp.service lm-sensors.service fail2ban.service prads.service rsyslog.service"
-enabled_services="bumblebeed.service cups-browsed.service cups.service cups.socket fancontrol.service laptop-mode.service nmbd.service samba.srvice nmbd.service smbd.service ntp.service plymouth.service preload.service smartmontools.service"
+enabled_services="bumblebeed.service cups-browsed.service cups-browsed.socket cups.service cups.socket fancontrol.service laptop-mode.service nmbd.service samba.srvice nmbd.service smbd.service ntp.service plymouth.service preload.service smartmontools.service"
 
 for service in $disabled_services; do
 	echo "Disabling $service"
