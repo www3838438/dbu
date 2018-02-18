@@ -17,7 +17,7 @@ gcolor2
 sqlitebrowser
 asciio
 
-#Alt: xephyr
+#Alt: xserver-xephyr
 #Alt: geany
 #Alt: geany-plugins
 #Alt: diffuse

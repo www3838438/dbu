@@ -5,8 +5,6 @@
 #Screenshot: stellarium
 stellarium
 
-#Alt: celestia
-#Alt: celestia-gnome-nonfree
 #Alt: lightspeed
 #Alt: wxmaxima
 #Alt: gramps
@@ -17,18 +15,13 @@ marble-qt
 marble-plugins
 geoclue-2.0
 
-#Alt: qlandkarte
+#Alt: qlandkartegt
 #Alt: gnome-maps
-#Alt: openstreetmap-client
-#Alt: emerillon
-#Alt: merkaator
 #Alt: josm
 #Alt: navit
 #Alt: gpsd
 #Alt: gosmore
-#Alt: monav
 #Alt: routino
-#Alt: gpsdrive
 #Alt: mkgmapgui
 #Alt: mkgmap
 #Alt: foxtrotgps

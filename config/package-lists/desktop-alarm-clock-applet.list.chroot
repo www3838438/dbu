@@ -4,7 +4,6 @@
 
 alarm-clock-applet
 
-#Alt: alarm-clock
 #Alt: xfce4-timer-plugin
 #Alt: gtimer
 #Alt: stopwatch

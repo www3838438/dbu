@@ -60,7 +60,7 @@ nrg2iso
 
 #Alt: p7zip-rar
 
-#Alt: fswatch
+#fswatch #buster only
 #Alt: snapd
 #Alt: fossil
 #Alt: aptly
@@ -89,7 +89,6 @@ nrg2iso
 #Alt: mdp
 #Alt: incron
 #Alt: faker
-#Alt: bootchart
 #Alt: debian-cd libfile-fcntllock-perl libalgorithm-merge-perl
 #Alt: rinse
 #Alt: etckeeper
@@ -137,8 +136,9 @@ subliminal
 
 #Alt: mpg123
 #Alt: oggvideotools
-#Alt: mp3splt
-#Alt: libav-tools #jessie without backports
+#mp3splt #buster only
+# jessie without backports
+#Alt: libav-tools
 #Alt: go-mtpfs
 
 # Media download
@@ -150,7 +150,8 @@ ffmpeg
 #Alt: mps-youtube
 #Alt: cclive
 #Alt: gnome-twitch
-#Alt: libav-tools #jessie without backports
+# jessie without backports
+#Alt: libav-tools
 #Alt: minitube
 #Alt: smtube
 
@@ -175,9 +176,7 @@ toilet
 #Alt: gifsicle
 #Alt: jp2a
 #Alt: pecomato
-#Alt: libjpeg-utils
 #Alt: aview
-#Alt: aalib
 #Alt: fgallery liblcms2-utils
 
 
@@ -230,8 +229,7 @@ debsums
 #Alt: usbview
 #Alt: stress
 #Alt: stressapptest
-#Alt: cpuburn
-#Alt: tiobench
+
 #Alt: lshw
 #Alt: lshw-gtk
 #Alt: bonnie++
@@ -280,12 +278,12 @@ cmatrix-xfont
 #Alt: ttyrec
 #Alt: multitail
 #Alt: cowsay
-#Alt: fortune
+#Alt: fortune-mod
 #Alt: ack-grep
 #Alt: reptyr
 #Alt: nyancat
 #Alt: grc
-#Alt: pdd
-#Alt: fasd
+#pdd #buster only
+#fasd #buster only
 #Alt: bd
 #Alt: pv

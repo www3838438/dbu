@@ -15,8 +15,7 @@ gnome-nettool
 #Alt: netmask
 #Alt: trickle
 #Alt: gns3
-
-#Alt: macchanger-gtk
+#Alt: macchanger
 #Alt: thc-ipv6
 #Alt: prips
 #Alt: usbip
@@ -81,9 +80,8 @@ gnome-nettool
 # Hardening/cryptography
 #Alt: fail2ban
 #Alt: prey
-#Alt: electrum
 #Alt: tcplay
-#Alt: tomb
+#tomb #buster only
 #Alt: zulucrypt-gui
 #Alt: zulumount-gui
 #Alt: libzulucrypt-plugins
@@ -118,8 +116,7 @@ gnome-nettool
 #Alt: ifstat
 #Alt: snetz
 #Alt: iftop
-#Alt: ipraf-ng
-#Alt: ntop
+#Alt: iptraf-ng
 #Alt: jnettop
 #Alt: darkstat
 #Alt: netperf
@@ -132,4 +129,3 @@ gnome-nettool
 #Alt: forensics-full
 #Alt: torbrowser-launcher
 #Alt: steghide
-#Alt: logkeys

@@ -14,7 +14,7 @@ virtualbox-guest-x11
 #Alt: qemu
 #Alt: docker
 #Alt: lxc
-#Alt: rkt
+#rkt #sid only
 #Alt: gnome-boxes
 
 

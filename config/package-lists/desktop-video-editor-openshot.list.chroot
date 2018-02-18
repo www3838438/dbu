@@ -8,12 +8,11 @@ openshot
 #Alt: dvdauthor
 #Alt: imagination
 #Alt: ffdiaporama
-#Alt: stopmotion
+#stopmotion #buster only
 #Alt: screenkey
 #Alt: dvgrab
-#Alt: stopmotion
 #Alt: vgrabbj
-#Alt: education-video
+#education-video #buster only
 #Alt: dvbcut
 #Alt: ffmpeg
 #Alt: multimedia-video

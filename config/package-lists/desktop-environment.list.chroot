@@ -67,8 +67,6 @@ libpam-gnome-keyring
 gnupg
 gnupg2
 
-#Alt: gkeyring
-
 # Virtual keyboards (disabled)
 #Alt: onboard
 #Alt: onboard-data
@@ -85,7 +83,6 @@ gnupg2
 #Alt: disper
 #Alt: lightdm-gtk-greeter-settings
 #Alt: gddccontrol
-#Alt: startupmanager
 #Alt: openbox
 #Alt: obconf
 #Alt: tint2
@@ -112,10 +109,8 @@ gnupg2
 #Alt: fbxkb
 #Alt: wbar
 #Alt: fvwm
-#Alt: gnome-mag
 #Alt: gexec
 #Alt: unclutter
-#Alt: indicator-workspaces
 #Alt: dunst
 #Alt: xdotool
 #Alt: rofi
@@ -124,9 +119,7 @@ gnupg2
 #Alt: pocketsphinx
 #Alt: gespeaker
 #Alt: festival
-#Alt: espeak-gui
 #Alt: alltray
-#Alt: gtk3-engines-unico
 #Alt: dbus-user-session
 #Alt: lxlock
 #Alt: lxpolkit

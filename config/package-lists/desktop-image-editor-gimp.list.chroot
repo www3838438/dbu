@@ -23,14 +23,12 @@ gimp-help-fr
 #Alt: mtpaint
 #Alt: xpaint
 #Alt: gnome-paint
-#Alt: openclipart2
 #Alt: delaboratory
 
 # Non-destructive editors (lightroom) (disabled)
 ##Screenshot: darktable
 #Alt: darktable
 #Alt: rawtherapee
-#Alt: rawstudio
 #Alt: luminance-hdr
 
 # Color pickers (disabled)
@@ -52,7 +50,6 @@ gimp-help-fr
 #Alt: rapid-photo-downloader
 #Alt: gtkam
 #Alt: postr
-#Alt: flickrfs
 #Alt: flickrbackup
 
 # Image library managers (disabled)

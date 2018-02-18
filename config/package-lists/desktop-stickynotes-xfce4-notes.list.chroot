@@ -12,10 +12,9 @@ xfce4-notes
 # Notebooks/Tasks/Personal information managers (disabled)
 #Alt: osmo
 #Alt: zim
-#Alt: tasks
 #Alt: tasque
 #Alt: gtg
-#Alt: taskcoach
+#taskcoach #buster only
 #Alt: email-reminder
 #Alt: todotxt-cli
 #Alt: lifeograph
@@ -29,15 +28,12 @@ xfce4-notes
 #Alt: bijiben
 #Alt: wyrd
 #Alt: calcurse
-#Alt: dates
 #Alt: gnome-contacts
-#Alt: contacts
 #Alt: gnome-documents
 #Alt: khal
 #Alt: treesheets
 #Alt: hnb
 #Alt: etm
-#Alt: rednotebook
 #Alt: cherrytree
 #Alt: notebook-gtk2
 #Alt: keepnote

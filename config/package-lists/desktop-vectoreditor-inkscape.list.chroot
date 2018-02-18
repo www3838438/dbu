@@ -8,11 +8,9 @@ create-resources
 python-lxml
 pstoedit
 
-#Alt: pencil2d
+#pencil2d #buster only
 #Alt: dia
 #Alt: birdfont
-#Alt: autotrace
-#Alt: fontmatrix
 #Alt: python-uniconvertor
 
 

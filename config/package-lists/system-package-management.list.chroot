@@ -27,15 +27,7 @@ apt-listchanges
 apt-transport-https
 debconf-utils
 
-
-
-
-
-
 #Alt: unattended-upgrades
-#Alt: apturl
-#Alt: apt-fast
-#Alt: aptoncd
 #Alt: apt-file
 #Alt: gstreamer1.0-packagekit
 #Alt: packagekit-command-not-found

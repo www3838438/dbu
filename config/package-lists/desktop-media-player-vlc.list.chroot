@@ -22,14 +22,12 @@ libdvd-pkg
 #Alt: vlc-plugin-sdl
 #Alt: mplayer2
 #Alt: mpv
-#Alt: gnome-mplayer
 #Alt: gnome-mpv
 #Alt: smplayer
-#Alt: umplayer
 #Alt: totem
 #Alt: totem-plugins
 #Alt: parole
-#Alt: gnome-dvb-client
+#gnome-dvb-client #buster only
 #Alt: zapping
 #Alt: freetuxtv
 #Alt: kodi

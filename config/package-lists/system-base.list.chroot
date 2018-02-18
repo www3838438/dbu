@@ -24,5 +24,4 @@ console-setup
 grub2
 sudo
 
-#Alt: kexec
-#Alt: ksplice
+#Alt: kexec-tools

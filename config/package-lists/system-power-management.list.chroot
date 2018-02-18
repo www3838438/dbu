@@ -25,9 +25,8 @@ cpufrequtils
 hibernate
 pm-utils
 
-#Alt: toshset
-#Alt: eeepc-acpi-scripts
 #Alt: powerdebug
 #Alt: tlp
 #Alt: powerstat
 #Alt: i8kutils
+#eeepc-acpi-scripts #sid only

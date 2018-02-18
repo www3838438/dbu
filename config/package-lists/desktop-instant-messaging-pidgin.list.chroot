@@ -26,15 +26,9 @@ pidgin-gnome-keyring
 # Video/VoIP messaging/conference (disabled - use mumble)
 ##Screenshot: ring
 #Alt: ring
-#Alt: sflphone
 #Alt: linphone
 #Alt: ekiga
 
 # Twitter/other (disabled)
-#Alt: twitux
 #Alt: pidgin-skype
 #Alt: yowsup-cli
-#Alt: hotot
-#Alt: turpial
-#Alt: twidge
-#Alt: turses

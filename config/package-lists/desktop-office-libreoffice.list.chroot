@@ -51,20 +51,18 @@ libreoffice-help-fr
 #Alt: lyx
 #Alt: key2odp
 #Alt: ebook2odt
-#Alt: libreoffice-dmaths
+#libreoffice-dmaths #buster only
 #Alt: calligrawords
 #Alt: calligraflow
 #Alt: calligrasheets
 #Alt: calligrastage
 #Alt: calligraplan
 #Alt: braindump
-#Alt: kthesaurus
 #Alt: krita
 #Alt: karbon
 #Alt: tpp
 #Alt: sozi
 #Alt: dia
-#Alt: drgeo
 #Alt: impressive
 #Alt: libreoffice-style-sifr
 #Alt: plume-creator

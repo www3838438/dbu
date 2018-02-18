@@ -6,7 +6,6 @@ evince
 
 #Alt: mupdf
 #Alt: apvlv
-#Alt: epdfview
 #Alt: xpdf
 #Alt: calibre
 #Alt: zathura
@@ -20,6 +19,4 @@ evince
 #Alt: calibre
 #Alt: griffith
 #Alt: gcstar
-#Alt: gwhere
-#Alt: gnomecatalog
 #Alt: cdcat

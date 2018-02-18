@@ -1,10 +1,9 @@
 #Name: Homebank personal finance manager
-#Desc: homebank
-#Screenshot: 
-homebank
-
 #Cat: Office
+#Screenshot: homebank
+homebank
 
 #Alt: gnucash
 #Alt: grisbi
-#Alt: bitcoin-qt
+#bitcoin-qt #sid only
+#Alt: electrum

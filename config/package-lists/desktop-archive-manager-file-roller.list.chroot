@@ -1,12 +1,8 @@
 #Name: File-roller archive manager
-#Desc: file-roller
+#Cat: Utility
 #Screenshot: file-roller
 
 file-roller
 
-
-#Alt: squeeze
 #Alt: xarchiver
 #Alt: isomaster
-
-#Cat: Utility

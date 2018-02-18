@@ -6,17 +6,17 @@ owncloud-client
 
 ##Screenshot: unison-gtk
 #Alt: unison-gtk
+#Alt: rclone
 #Alt: git-annex
 #Alt: nautilus-dropbox
 #Alt: syncthing
 #Alt: sparkleshare
-#Alt: seafile
+#Alt: seafile-cli
+#Alt: seafile-daemon
+#Alt: seafile-gui
 #Alt: grsync
 #Alt: filezilla
 #Alt: gftp
-#Alt: grive
-#Alt: syncany
-#Alt: seafile-gui
 
 
 

@@ -1,12 +1,11 @@
 #Name: Xfce4 dictionary
-#Desc: xfce4-dict
+#Cat: Office
 #Screenshot: xfce4-dict
 
 xfce4-dict
 
 #Alt: stardict
-#Alt: gnome-dictionnary
+#Alt: gnome-dictionary
 #Alt: goldendict
 #Alt: verbiste-gnome
 
-#Cat: Office

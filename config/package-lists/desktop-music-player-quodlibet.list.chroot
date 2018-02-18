@@ -36,9 +36,7 @@ python-musicbrainzngs
 #Alt: clementine
 #Alt: amarok
 #Alt: gmusicbrowser
-#Alt: guayadeque
 #Alt: gpodder
-#Alt: exaile
 #Alt: sonata
 #Alt: ario
 #Alt: cantata
@@ -49,7 +47,6 @@ python-musicbrainzngs
 #Alt: rhythmbox
 #Alt: rhythmbox-plugins
 #Alt: go-mtpfs
-#Alt: mtpfs
 #Alt: radiotray
 #Alt: vagalume
 #Alt: streamtuner2
