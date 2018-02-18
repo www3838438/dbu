@@ -1,0 +1,11 @@
+#Name: ATI Graphics Drivers
+# Untested
+fglrx-atieventsd
+fglrx-driver
+fglrx-glx
+fglrx-glx-ia32
+fglrx-modules-dkms
+fglrx-control
+radeontool
+
+#Alt: rovclock

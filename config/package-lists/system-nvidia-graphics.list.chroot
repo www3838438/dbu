@@ -1,0 +1,23 @@
+#Name: NVidia Graphics Drivers
+# Untested
+nvidia-glx
+libgl1-nvidia-glx
+nvidia-kernel-dkms
+nvidia-vdpau-driver
+nvidia-settings
+nvidia-xconfig
+libgl1-nvidia-glx-ia32
+nvidia-vdpau-driver-ia32
+nvidia-glx-ia32
+vdpau-driver-all
+bumblebee-nvidia
+libgles-nvidia1
+libgles-nvidia2
+libnvidia-cfg1
+libopengl0-glvnd-nvidia
+nvidia-persistenced
+nvidia-settings
+nvidia-vulkan-icd
+
+#Alt: nvclock-gtk
+#Alt: nvidia-detect
