@@ -1,0 +1,2 @@
+// Force fetching updates over IPv4 since IPv6 is disabled
+Acquire::ForceIPv4 "true";
