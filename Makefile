@@ -17,8 +17,10 @@ install_buildenv:
 tests:
 	#Check scripts syntax
 	@shellcheck --exclude=SC2016,SC2086,SC1001 scripts/*.sh
-	#Packages without descriptions:
+	#Packages without descriptions in documentation:
 	@cd doc/packages/ && egrep "^ \* .* $$" *.md || continue
+	#Empty links in documentation:
+	@cd doc/packages/ && grep -r '()'
 
 documentation:
 	-mkdir doc/packages/
