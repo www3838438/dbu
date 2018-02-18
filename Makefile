@@ -38,6 +38,11 @@ build:
 	sudo lb config
 	sudo lb build
 
+ansible: clean update ffxpi tbxpi
+	sudo aptitude install ansible
+	./scripts/packagelists-to-ansible.sh
+	cd ansible && ansible-playbook dbu.yml
+
 #########################################
 
 checksums:

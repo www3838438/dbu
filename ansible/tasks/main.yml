@@ -1,0 +1,13 @@
+- name: upgrade all packages
+  apt: upgrade=safe update_cache=yes
+
+- name: copy configuration
+  synchronize: src=includes/ dest=/ links=yes perms=yes recursive=yes
+
+- include: packages.yml
+
+- include: hooks.yml
+
+- name: upgrade all packages
+  apt: upgrade=safe update_cache=yes
+

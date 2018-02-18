@@ -1,0 +1,12 @@
+- name: enable multiarch
+  command: dpkg --add-architecture i386
+
+- name: set default session manager
+  command: update-alternatives --set x-session-manager /usr/bin/xfce4-session
+
+- name: purge unwanted packages
+  apt: pkg={{ item }} state=absent
+  with_items:
+    - exim4-base
+    - nfs-common
+    - rpcbind
