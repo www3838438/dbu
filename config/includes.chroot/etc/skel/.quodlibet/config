@@ -1,0 +1,129 @@
+[header_maps]
+
+[__config__]
+version = 0
+
+[player]
+replaygain = false
+time_remaining = false
+
+[rename]
+ascii = false
+diacriticals = true
+spaces = false
+windows = true
+
+[settings]
+jump = true
+columns = ~rating,~#track,~title~version,artist,~album~discsubtitle,~#disc,genre,~#length,~#bitrate,~filename,~#lastplayed,~format
+ratings = 5
+disable_hints = false
+default_rating = 0.5
+scan = 
+eager_search = true
+round = true
+repeat = False
+
+
+[browsers]
+panes = artist	<album>	genre	~rating
+rating_click = true
+color = true
+pane_selection = 0
+rating_confirm_multiple = false
+album_covers = true
+album_sort = 4
+album_substrings = true
+background = 
+albums = 
+query_text = 
+
+[memory]
+browser = Paned
+browser_size = 500 300
+exfalso_maximized = 0
+exfalso_size = 700 500
+maximized = 0
+open_browsers = 
+order = inorder
+order_shuffle = shuffle
+position = 0 0
+queue = True
+queue_expanded = False
+seek = 0
+shuffle = False
+shufflequeue = false
+size = 400 350
+song = 
+songlist = true
+sortby = 0~#track
+volume = 1.0
+
+
+[editing]
+alltags = true
+human_title_case = true
+id3encoding = 
+save_email = quodlibet@lists.sacredchao.net
+save_to_songs = true
+split_on = / & ,
+
+[plugins]
+active_plugins = Title Case
+	RemoveID3TLEN
+	Burn CD
+	ExportMeta
+	Remove Playlist Duplicates
+	Browse Folders
+	MusicBrainz lookup
+	Alarm Clock
+	APEv2 to ID3v2
+	Picture Saver
+	CDDB lookup
+	View in Nautilus
+	Download Album art
+	Tray Icon
+	filterbrowser
+	Equalizer
+	SeekBar
+	Export to HTML
+	Duplicates
+	mpris
+	Download Album Art
+	Notify
+	Playlist Export
+	Force Write
+browsefolders = thunar
+cover_edit = false
+cover_edit_cmd = gimp
+cover_engine_amazon = true
+cover_engine_coverparadise = true
+cover_engine_discogs = true
+cover_fit = true
+cover_fn = folder.jpg
+duplicates_case_insensitive = true
+duplicates_remove_diacritics = true
+duplicates_remove_punctuation = true
+duplicates_remove_whitespace = true
+equalizer_levels = 0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+icon_tooltip = <album|<album~discnumber~part~tracknumber~title~version>|<artist~title~version>>
+icon_window_visible = False
+k3b = Brasero
+notify_show_notifications = all
+randomalbum_use_weights = 0
+scrobbler_service = Last.fm
+squeezebox_debug = False
+titlecase_allow_all_caps = True
+titlecase_human_title_case = True
+wikipedia = en
+
+[tagsfrompath]
+add = false
+split = false
+titlecase = false
+underscores = false
+
+[library]
+exclude = 
+refresh_on_start = true
+

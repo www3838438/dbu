@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=synapse -s
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[fr_FR]=Synapse
+Name=Synapse
+Icon=synapse
+Comment[fr_FR]=Lanceur Synapse
+Comment=Synapse Launcher
