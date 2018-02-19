@@ -92,6 +92,18 @@ debootstrap
 live-images
 debian-handbook
 #Alt: blends-tasks
+#Alt: live-task-lxde
+#Alt: live-task-base
+#Alt: live-task-cinnamon
+#Alt: live-task-extra
+#Alt: live-task-gnome
+#Alt: live-task-kde
+#Alt: live-task-localisation
+#Alt: live-task-localisation-desktop
+#Alt: live-task-mate
+#Alt: live-task-recommended
+#Alt: live-task-xfce
+#live-task-lxqt #sid only
 
 # Ruby/Node/Webdev/other
 rubygems

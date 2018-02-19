@@ -5,6 +5,9 @@
 firefox-esr
 pkg-mozilla-archive-keyring
 
+# Addons
+#webext-https-everywhere #sid only
+
 # Localization
 firefox-esr-l10n-fr
 #firefox-l10n-ar 
