@@ -220,19 +220,19 @@ download_dotfiles: dotfiles_themes dotfiles_utility
 dotfiles_themes:
 	-mkdir -pv config/includes.chroot/usr/share/themes/
 
-	-rm -r config/includes.chroot/usr/share/themes/Albatross
+	-rm -rf config/includes.chroot/usr/share/themes/Albatross
 		git clone --depth=1 https://github.com/shimmerproject/Albatross config/includes.chroot/usr/share/themes/Albatross
-		rm -r config/includes.chroot/usr/share/themes/Albatross/.git
-	-rm -r config/includes.chroot/usr/share/themes/Blackbird
+		rm -rf config/includes.chroot/usr/share/themes/Albatross/.git
+	-rm -rf config/includes.chroot/usr/share/themes/Blackbird
 		git clone --depth=1 https://github.com/shimmerproject/Blackbird config/includes.chroot/usr/share/themes/Blackbird
-	-rm -r config/includes.chroot/usr/share/themes/Bluebird
+	-rm -rf config/includes.chroot/usr/share/themes/Bluebird
 		git clone --depth=1 https://github.com/shimmerproject/Bluebird config/includes.chroot/usr/share/themes/Bluebird
-	-rm -r config/includes.chroot/usr/share/themes/Greybird
+	-rm -rf config/includes.chroot/usr/share/themes/Greybird
 		git clone --depth=1 https://github.com/shimmerproject/Greybird config/includes.chroot/usr/share/themes/Greybird
-	-rm -r config/includes.chroot/usr/share/themes/Numix
+	-rm -rf config/includes.chroot/usr/share/themes/Numix
 		git clone --depth=1 https://github.com/shimmerproject/Numix config/includes.chroot/usr/share/themes/Numix
-	-rm -r config/includes.chroot/usr/share/themes/Zukitre
-		-rm -r config/includes.chroot/usr/share/themes/Zukitwo
+	-rm -rf config/includes.chroot/usr/share/themes/Zukitre
+		-rm -rf config/includes.chroot/usr/share/themes/Zukitwo
 		git clone --depth=1 https://github.com/lassekongo83/zuki-themes tmp-zuki-themes
 		mv tmp-zuki-themes/Zukitre tmp-zuki-themes/Zukitwo config/includes.chroot/usr/share/themes/
 		rm -rf tmp-zuki-themes
