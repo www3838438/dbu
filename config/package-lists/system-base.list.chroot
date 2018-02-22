@@ -1,27 +1,40 @@
 #Name: Base system and hardware support
+#NoDescription
 #Cat: System
 
-libpam-ck-connector
-libpam-systemd
-systemd
-consolekit
-user-setup
-os-prober
-preload
-ulatencyd
-#systemd-shim #jessie only
-debian-archive-keyring
-debian-keyring
-haveged
-ntp
-initramfs-tools
-dkms
+# Kernel
 linux-headers-amd64
-build-essential
 module-assistant
-irqbalance
-console-setup
-grub2
-sudo
+dkms
+build-essential
 
 #Alt: kexec-tools
+
+# Boot/init/permissions management
+systemd
+grub2
+os-prober
+initramfs-tools
+console-setup
+user-setup
+libpam-systemd
+consolekit
+libpam-ck-connector
+sudo
+
+# Desktop performance
+preload
+ulatencyd
+irqbalance
+haveged
+
+# Misc
+debian-archive-keyring
+debian-keyring
+apparmor
+apparmor-easyprof
+apparmor-notify
+apparmor-profiles
+apparmor-profiles-extra
+apparmor-utils
+ntp
