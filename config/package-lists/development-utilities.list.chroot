@@ -40,8 +40,7 @@ subversion
 tig
 github-backup
 ghi
-
-#Alt: myrepos
+myrepos
 
 # Shell scripting
 shellcheck
