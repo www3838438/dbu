@@ -16,7 +16,5 @@ virtualbox-guest-x11
 #Alt: lxc
 #rkt #sid only
 #Alt: gnome-boxes
-
-
-
-
+#Alt: firejail
+#Alt: firetools

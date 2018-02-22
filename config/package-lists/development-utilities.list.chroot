@@ -102,6 +102,4 @@ sqlite3
 webcheck
 #php-cli
 vera
-firejail
-firetools
 
