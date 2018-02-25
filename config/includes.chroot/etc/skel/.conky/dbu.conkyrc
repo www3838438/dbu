@@ -34,14 +34,13 @@ show_graph_scale no
 show_graph_range no
 color4 DCBA72
 color5 C6B59B
-
 TEXT
 ${color5}${font Roboto Medium:size=58}${color}${time %H:%M}${font}
 ${color5}${font Roboto Medium:size=18}${time %A %d/%m}${color}${font}
-${color5}MEM ${color}${memperc}% ${color5}CPU ${color}${cpu cpu0}% ${color5}
+${color5}MEM ${color}${memperc}% ${color5}CPU ${color}${cpu cpu0}% ${color5}T°C ${color}${acpitemp} ${color5}
 #DISK ${color}${fs_used_perc /}% ${color5}HOME ${color}${fs_used_perc /home/}% ${color}
 #${color5}BAT ${color}${battery_percent BAT0}% ${color5}UPTIME ${color}${uptime}
-${color5}UP ${color}${upspeedf wlxc404156c4eed} ${color5}DWN ${color}${downspeedf wlxc404156c4eed}
+${color5}UP ${color}${upspeedf wlp3s0} ${color5}DWN ${color}${downspeedf wlp3s0}
 #TASKS ${texeci 60 ~/.conky/scripts/thunderbird-todo.sh}
 #BANK ${texeci 900 ~/.conky/scripts/bank-amount.sh}
 #TODO.TXT ${texeci 15 ~/.conky/scripts/todotxt-count.sh}
