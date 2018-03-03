@@ -30,6 +30,7 @@
       <property name="show-handle" type="bool" value="false"/>
       <property name="grouping" type="uint" value="0"/>
       <property name="show-wireframes" type="bool" value="false"/>
+      <property name="middle-click" type="uint" value="1"/>
     </property>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>

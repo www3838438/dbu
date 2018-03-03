@@ -16,5 +16,6 @@
     <property name="blank-on-ac" type="int" value="0"/>
     <property name="inactivity-sleep-mode-on-battery" type="uint" value="1"/>
     <property name="inactivity-on-battery" type="uint" value="90"/>
+    <property name="show-tray-icon" type="int" value="1"/>
   </property>
 </channel>
