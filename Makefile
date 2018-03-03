@@ -84,6 +84,7 @@ download_firefox_addons:
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-maf-creator/ [legacy] [tools]
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbookx-converter/ [legacy] [tools]
 	# https://addons.mozilla.org/en-US/firefox/addon/scrapbook-copypageinfo/ [legacy] [tools]
+	# https://addons.mozilla.org/fr/firefox/addon/shaarli/ - https://addons.mozilla.org/firefox/downloads/file/815126/addon-815126-latest.xpi [webextension] [tools]
 	# https://addons.mozilla.org/en-US/firefox/addon/rss-icon-in-url-bar/ [legacy] [ui]
 	# https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ [e10s] [tools]
 	# https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/ [webextension] [tools]
