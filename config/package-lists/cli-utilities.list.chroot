@@ -107,6 +107,8 @@ hdparm
 sdparm
 dfc
 kpartx
+qemu-img
+xorriso
 
 #Alt: pmount
 #Alt: ecryptfs-utils
