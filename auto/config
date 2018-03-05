@@ -1,8 +1,6 @@
 #!/bin/sh
 # live-build configuration script
 # see 'man lb config'
-export projectname="autodebian"
-export projectversion="1.4"
 
 lb config noauto \
 --apt-recommends false \
@@ -26,7 +24,7 @@ lb config noauto \
 --firmware-chroot true \
 --initramfs live-boot \
 --iso-publisher dbu \
---iso-volume autodebian-1.2 \
+--iso-volume dbu-1.4 \
 --linux-packages "linux-image linux-headers" \
 --bootappend-live "boot=live config" \
 --memtest memtest86+ \
