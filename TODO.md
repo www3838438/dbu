@@ -8,6 +8,7 @@
   ☐ [enh] improve bluetooth power saving: powertop still shows 100% power usage on bluetooth card even with rfkill block. Settings in /etc/laptop-mode-tools/bluetooth.conf
   ☐ [enh] Host ISO on http://iso.linuxquestions.org/? Find a seedbox
   ☐ [enh] [doc] list installed/recommended firefox addons (parse makefile) on firefox package page
+  ☐ [enh] [doc] add icons to main package list/sublists (parse .list; find #Icon: field, or use first package name , copy/embed /usr/share/icons/$theme/$size/apps/$icon.png)
   ☐ [enh] Enable IPv6 support (sysctl, firewall, apt config...)
   ☐ [enh] [tools] add master switch in makefile to build without non-debian program dependencies
   ☐ [enh] [tools] add travis config for tests/automated builds, add KVM/QEMU settings to run resulting ISO in KVM/QEMU
