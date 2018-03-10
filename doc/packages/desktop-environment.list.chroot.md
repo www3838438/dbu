@@ -138,3 +138,4 @@ remove this package.
  * [compiz-plugins-extra](https://packages.debian.org/stretch/compiz-plugins-extra) transitional dummy package
  * [compiz-plugins](https://packages.debian.org/stretch/compiz-plugins) OpenGL window and compositing manager - plugins
  * [mousetweaks](https://packages.debian.org/stretch/mousetweaks) mouse accessibility enhancements for the GNOME desktop
+ * [gxkb](https://packages.debian.org/stretch/gxkb) X11 keyboard indicator and switcher

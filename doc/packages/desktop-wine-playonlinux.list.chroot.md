@@ -13,6 +13,12 @@ This is still a work in progress and many applications may still not work.
 This package provides essential wrappers and convenience tools for the
 standard Wine components. It also employs the Debian alternatives system to
 provide the usual command names, e.g. "wine" instead of "wine-stable".
+Wine is a free MS-Windows API implementation.
+This is still a work in progress and many applications may still not work.
+
+This package provides essential wrappers and convenience tools for the
+standard Wine components. It also employs the Debian alternatives system to
+provide the usual command names, e.g. "wine" instead of "wine-stable".
 
 ```
 

@@ -29,6 +29,7 @@
 * [tig](https://packages.debian.org/stretch/tig) `2.2-1+b2` - ncurses-based text-mode interface for Git
 * [github-backup](https://packages.debian.org/stretch/github-backup) `1.20160522-2` - backs up data from GitHub
 * [ghi](https://packages.debian.org/stretch/ghi) `1.2.0-1` - GitHub issue tracker command line interface (CLI)
+* [myrepos](https://packages.debian.org/stretch/myrepos) `1.20160123` - tool to manage all your version control repos
 * [shellcheck](https://packages.debian.org/stretch/shellcheck) `0.4.4-4` - lint tool for shell scripts
 * [pandoc](https://packages.debian.org/stretch/pandoc) `1.17.2~dfsg-3` - general markup converter
 * [jq](https://packages.debian.org/stretch/jq) `1.5+dfsg-1.3` - lightweight and flexible command-line JSON processor
@@ -65,14 +66,13 @@
 * [live-manual-html](https://packages.debian.org/stretch/live-manual-html) `2:20151217.1` - Live Systems Documentation (html)
 * [debootstrap](https://packages.debian.org/stretch/debootstrap) `1.0.89` - Bootstrap a basic Debian system
 * [live-images](https://packages.debian.org/stretch/live-images) `5.0~a5-2` - Live System Image Components (metapackage)
+* [debian-handbook](https://packages.debian.org/stretch/debian-handbook) `8.20170125` - reference book for Debian users and system administrators
 * [rubygems](https://packages.debian.org/stretch/rubygems) `(none)` - 
 * [ruby-dev](https://packages.debian.org/stretch/ruby-dev) `1:2.3.3` - Header files for compiling extension modules for Ruby (default version)
 * [csstidy](https://packages.debian.org/stretch/csstidy) `1.4-5` - CSS parser and optimiser
 * [sqlite3](https://packages.debian.org/stretch/sqlite3) `3.16.2-5+deb9u1` - Command line interface for SQLite 3
 * [webcheck](https://packages.debian.org/stretch/webcheck) `1.10.4-1` - website link and structure checker
 * [vera](https://packages.debian.org/stretch/vera) `1.23-1` - Dictionary of computer related acronyms -- info format
-* [firejail](https://packages.debian.org/stretch/firejail) `0.9.44.8-2` - sandbox to restrict the application environment
-* [firetools](https://packages.debian.org/stretch/firetools) `0.9.44-1` - Qt frontend for the Firejail application sandbox
 
 ### Related packages
 
@@ -88,7 +88,17 @@
  * [pybootchartgui](https://packages.debian.org/stretch/pybootchartgui) viewer for boot process performance analysis results
  * [xpra](https://packages.debian.org/stretch/xpra) tool to detach/reattach running X programs
  * [undistract-me](https://packages.debian.org/stretch/undistract-me) Notifies user when long-running terminal commands complete via libnotify
- * [myrepos](https://packages.debian.org/stretch/myrepos) tool to manage all your version control repos
  * [man2html-base](https://packages.debian.org/stretch/man2html-base) convert man pages into HTML format
  * [txt2tags](https://packages.debian.org/stretch/txt2tags) conversion tool to generating several file formats
  * [blends-tasks](https://packages.debian.org/stretch/blends-tasks) Debian Pure Blends tasks for new installations
+ * [live-task-lxde](https://packages.debian.org/stretch/live-task-lxde) Live environment support for Lxde
+ * [live-task-base](https://packages.debian.org/stretch/live-task-base) Live base environment support
+ * [live-task-cinnamon](https://packages.debian.org/stretch/live-task-cinnamon) Live environment support for Cinnamon
+ * [live-task-extra](https://packages.debian.org/stretch/live-task-extra) Live extra`environment support
+ * [live-task-gnome](https://packages.debian.org/stretch/live-task-gnome) Live environment support for GNOME
+ * [live-task-kde](https://packages.debian.org/stretch/live-task-kde) Live environment support for KDE
+ * [live-task-localisation](https://packages.debian.org/stretch/live-task-localisation) Live environment localisation support
+ * [live-task-localisation-desktop](https://packages.debian.org/stretch/live-task-localisation-desktop) Live graphical desktop environment localisation support
+ * [live-task-mate](https://packages.debian.org/stretch/live-task-mate) Live environment support for Mate
+ * [live-task-recommended](https://packages.debian.org/stretch/live-task-recommended) Live recommended environment support
+ * [live-task-xfce](https://packages.debian.org/stretch/live-task-xfce) Live environment support for Xfce

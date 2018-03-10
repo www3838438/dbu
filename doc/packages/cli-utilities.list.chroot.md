@@ -54,6 +54,8 @@
 * [sdparm](https://packages.debian.org/stretch/sdparm) `1.08-1+b1` - Output and modify SCSI device parameters
 * [dfc](https://packages.debian.org/stretch/dfc) `3.0.5-0.1+b1` - display file system usage using graph and colors
 * [kpartx](https://packages.debian.org/stretch/kpartx) `0.6.4-5` - create device mappings for partitions
+* [qemu-utils](https://packages.debian.org/stretch/qemu-utils) `1:2.8+dfsg-6+deb9u3` - QEMU utilities
+* [xorriso](https://packages.debian.org/stretch/xorriso) `1.4.6-1+b1` - command line ISO-9660 and Rock Ridge manipulation tool
 * [testdisk](https://packages.debian.org/stretch/testdisk) `7.0-3` - Partition scanner and disk recovery tool, and PhotoRec file recovery tool
 * [sox](https://packages.debian.org/stretch/sox) `14.4.1-5+b2` - Swiss army knife of sound processing
 * [ffmpeg](https://packages.debian.org/stretch/ffmpeg) `7:3.2.10-1~deb9u1` - Tools for transcoding, streaming and playing of multimedia files

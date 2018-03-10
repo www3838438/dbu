@@ -25,3 +25,5 @@ ____
  * [docker](https://packages.debian.org/stretch/docker) System tray for KDE3/GNOME2 docklet applications
  * [lxc](https://packages.debian.org/stretch/lxc) Linux Containers userspace tools
  * [gnome-boxes](https://packages.debian.org/stretch/gnome-boxes) Simple GNOME app to access remote or virtual systems
+ * [firejail](https://packages.debian.org/stretch/firejail) sandbox to restrict the application environment
+ * [firetools](https://packages.debian.org/stretch/firetools) Qt frontend for the Firejail application sandbox
