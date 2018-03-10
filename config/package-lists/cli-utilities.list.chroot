@@ -107,7 +107,7 @@ hdparm
 sdparm
 dfc
 kpartx
-qemu-img
+qemu-utils
 xorriso
 
 #Alt: pmount
