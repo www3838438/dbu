@@ -1,0 +1,16 @@
+[org.gnome.liferea]
+browser-id='default'
+startup-feed-action=0
+disable-javascript=true
+download-tool=3
+folder-display-hide-read=false
+default-update-interval=60
+do-not-track=false
+social-bm-site='reddit'
+maxitemcount=300
+browse-key-setting=0
+toolbar-style='both-horiz'
+folder-display-mode=1
+
+[org.gnome.liferea.plugins]
+active-plugins=['media-player', 'trayicon', 'gnome-keyring']
