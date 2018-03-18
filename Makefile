@@ -44,6 +44,7 @@ checksums:
 	sha512sum *.iso  > SHA512SUMS; \
 
 sign:
+	cd iso; \
 	gpg --detach-sign --armor SHA512SUMS; \
 	mv SHA512SUMS.asc SHA512SUMS.sign
 
