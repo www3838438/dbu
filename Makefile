@@ -221,20 +221,28 @@ download_dotfiles: dotfiles_themes dotfiles_utility
 # Download gtk/wm/icon themes
 dotfiles_themes:
 	-mkdir -pv config/includes.chroot/usr/share/themes/
-
+	
 	-rm -rf config/includes.chroot/usr/share/themes/Albatross
 		git clone --depth=1 https://github.com/shimmerproject/Albatross config/includes.chroot/usr/share/themes/Albatross
 		rm -rf config/includes.chroot/usr/share/themes/Albatross/.git
+	
 	-rm -rf config/includes.chroot/usr/share/themes/Blackbird
 		git clone --depth=1 https://github.com/shimmerproject/Blackbird config/includes.chroot/usr/share/themes/Blackbird
+		rm -rf config/includes.chroot/usr/share/themes/Blackbird/.git
+	
 	-rm -rf config/includes.chroot/usr/share/themes/Bluebird
 		git clone --depth=1 https://github.com/shimmerproject/Bluebird config/includes.chroot/usr/share/themes/Bluebird
+		rm -rf config/includes.chroot/usr/share/themes/Bluebird/.git
+
 	-rm -rf config/includes.chroot/usr/share/themes/Greybird
 		git clone --depth=1 https://github.com/shimmerproject/Greybird config/includes.chroot/usr/share/themes/Greybird
+		rm -rf config/includes.chroot/usr/share/themes/Greybird/.git
+
 	-rm -rf config/includes.chroot/usr/share/themes/Numix
 		git clone --depth=1 https://github.com/shimmerproject/Numix config/includes.chroot/usr/share/themes/Numix
-	-rm -rf config/includes.chroot/usr/share/themes/Zukitre
-		-rm -rf config/includes.chroot/usr/share/themes/Zukitwo
+		rm -rf config/includes.chroot/usr/share/themes/Numix/.git
+
+	-rm -rf config/includes.chroot/usr/share/themes/Zukitre config/includes.chroot/usr/share/themes/Zukitwo
 		git clone --depth=1 https://github.com/lassekongo83/zuki-themes tmp-zuki-themes
 		mv tmp-zuki-themes/Zukitre tmp-zuki-themes/Zukitwo config/includes.chroot/usr/share/themes/
 		rm -rf tmp-zuki-themes
@@ -250,30 +258,33 @@ dotfiles_themes:
 # Download misc configuration files
 dotfiles_utility:
 	# https://github.com/serialhex/nano-highlight
-	-rm -rvf config/includes.chroot/etc/skel/.nano
-	git clone --depth=1 https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
+	-rm -rf config/includes.chroot/etc/skel/.nano
+		git clone --depth=1 https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
+		rm -rf config/includes.chroot/etc/skel/.nano/.git
 	
 	# https://github.com/nodiscc/fonts
 	-rm -rvf config/includes.chroot/usr/share/fonts
-	git clone --depth=1 https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
+		git clone --depth=1 https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
+		rm -rf config/includes.chroot/usr/share/fonts/.git
 
 	# https://github.com/nodiscc/ohmpage (disabled)
 	#git clone --depth=1 https://github.com/nodiscc/ohmpage config/includes.chroot/usr/share/ohmpage
-	
+		#rm -rf config/includes.chroot/usr/share/ohmpage/.git
+
 	# https://github.com/az0/cleanerml/
-	git clone --depth=1 https://github.com/az0/cleanerml/ tmp-cleanerml
 	-rm -rvf config/includes.chroot/usr/share/bleachbit/cleaners
-	mkdir -p config/includes.chroot/usr/share/bleachbit/
-	mv tmp-cleanerml/release config/includes.chroot/usr/share/bleachbit/cleaners
-	rm -rf tmp-cleanerml
+		git clone --depth=1 https://github.com/az0/cleanerml/ tmp-cleanerml
+		mkdir -p config/includes.chroot/usr/share/bleachbit/
+		mv tmp-cleanerml/release/* config/includes.chroot/usr/share/bleachbit/cleaners/
+		rm -rf tmp-cleanerml
 
 	# https://github.com/nodiscc/user.js
-	git clone -b dbu --depth=1 https://github.com/nodiscc/user.js tmp-userjs
 	-rm -rvf config/includes.chroot/etc/firefox-esr/firefox-esr.js
-	mkdir -p config/includes.chroot/etc/firefox-esr/
-	cd tmp-userjs && make systemwide_user.js
-	cp tmp-userjs/systemwide_user.js config/includes.chroot/etc/firefox-esr/firefox-esr.js
-	rm -rf tmp-userjs
+		git clone -b dbu --depth=1 https://github.com/nodiscc/user.js tmp-userjs
+		mkdir -p config/includes.chroot/etc/firefox-esr/
+		cd tmp-userjs && make systemwide_user.js
+		cp tmp-userjs/systemwide_user.js config/includes.chroot/etc/firefox-esr/firefox-esr.js
+		rm -rf tmp-userjs
 
 	# Example: add extra files to the live file system
 	# git clone --recursive https://github.com/nodiscc/toolbox config/includes.chroot/usr/share/dbu/toolbox
