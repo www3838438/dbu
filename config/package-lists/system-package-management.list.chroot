@@ -26,6 +26,7 @@ vrms
 apt-listchanges
 apt-transport-https
 debconf-utils
+localepurge
 
 #Alt: unattended-upgrades
 #Alt: apt-file
