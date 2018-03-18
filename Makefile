@@ -8,6 +8,8 @@ rename_xpi: rename_firefox_xpi rename_thunderbird_xpi
 
 release: documentation tests checksums sign torrent
 
+download_dotfiles: dotfiles_themes dotfiles_utility
+
 ######
 
 install_buildenv:
@@ -216,8 +218,6 @@ rename_thunderbird_xpi:
 
 ##################################################################
 
-download_dotfiles: dotfiles_themes dotfiles_utility
-
 # Download gtk/wm/icon themes
 dotfiles_themes:
 	-mkdir -pv config/includes.chroot/usr/share/themes/
@@ -263,7 +263,7 @@ dotfiles_utility:
 		rm -rf config/includes.chroot/etc/skel/.nano/.git
 	
 	# https://github.com/nodiscc/fonts
-	-rm -rvf config/includes.chroot/usr/share/fonts
+	-rm -rf config/includes.chroot/usr/share/fonts
 		git clone --depth=1 https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
 		rm -rf config/includes.chroot/usr/share/fonts/.git
 
@@ -272,14 +272,14 @@ dotfiles_utility:
 		#rm -rf config/includes.chroot/usr/share/ohmpage/.git
 
 	# https://github.com/az0/cleanerml/
-	-rm -rvf config/includes.chroot/usr/share/bleachbit/cleaners
+	-rm -rf config/includes.chroot/usr/share/bleachbit/cleaners
 		git clone --depth=1 https://github.com/az0/cleanerml/ tmp-cleanerml
 		mkdir -p config/includes.chroot/usr/share/bleachbit/
-		mv tmp-cleanerml/release/* config/includes.chroot/usr/share/bleachbit/cleaners/
+		mv tmp-cleanerml/release config/includes.chroot/usr/share/bleachbit/cleaners
 		rm -rf tmp-cleanerml
 
 	# https://github.com/nodiscc/user.js
-	-rm -rvf config/includes.chroot/etc/firefox-esr/firefox-esr.js
+	-rm -rf config/includes.chroot/etc/firefox-esr/firefox-esr.js
 		git clone -b dbu --depth=1 https://github.com/nodiscc/user.js tmp-userjs
 		mkdir -p config/includes.chroot/etc/firefox-esr/
 		cd tmp-userjs && make systemwide_user.js
