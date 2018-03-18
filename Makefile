@@ -250,7 +250,6 @@ dotfiles_themes:
 	-mkdir -pv config/includes.chroot/usr/share/icons/	
 
 	-rm -rf config/includes.chroot/usr/share/icons/Paper*
-		# RFP http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=862403 https://github.com/snwh/paper-gtk-theme http://ppa.launchpad.net/snwh/pulp/ubuntu/pool/main/p/
 		git clone --depth=1 https://github.com/snwh/paper-icon-theme tmp-paper-icon-theme
 		mv tmp-paper-icon-theme/Paper tmp-paper-icon-theme/Paper-Mono-Dark config/includes.chroot/usr/share/icons/
 		rm -rf tmp-paper-icon-theme
