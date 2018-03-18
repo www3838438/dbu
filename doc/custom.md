@@ -9,7 +9,7 @@
  * Run `git clone https://github.com/nodiscc/dbu`
  * To run the build process with the default configuration, run `make all`.
 
-The full live-build documentation can be found at `/usr/share/doc/live-manual/pdf/live-manual.portrait.en.a4.pdf.gz` or https://debian-live.alioth.debian.org/live-manual/stable/manual/html/live-manual.en.html
+The full live-build documentation can be found at `/usr/share/doc/live-manual/pdf/live-manual.portrait.en.a4.pdf.gz` or https://debian-live.alioth.debian.org/live-manual/unstable/manual/html/live-manual.en.html
 
 **Building with a custom configuration**
 
