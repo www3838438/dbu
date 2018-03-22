@@ -10,7 +10,7 @@
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="36"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="1"/>
+        <value type="int" value="2"/>
         <value type="int" value="18"/>
         <value type="int" value="8"/>
         <value type="int" value="3"/>
@@ -55,10 +55,7 @@
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
     </property>
-    <property name="plugin-1" type="string" value="applicationsmenu">
-      <property name="show-button-title" type="bool" value="false"/>
-      <property name="button-icon" type="string" value="distributor-logo-debian"/>
-    </property>
     <property name="plugin-8" type="string" value="places"/>
+    <property name="plugin-2" type="string" value="whiskermenu"/>
   </property>
 </channel>

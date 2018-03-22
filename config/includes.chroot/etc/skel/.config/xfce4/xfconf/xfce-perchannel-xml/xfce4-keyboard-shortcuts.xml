@@ -51,6 +51,8 @@
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
+      <property name="&lt;Super&gt;n" type="string" value="xfce4-notes"/>
+      <property name="&lt;Super&gt;space" type="string" value="xfce4-popup-whiskermenu"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

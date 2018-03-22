@@ -3,16 +3,32 @@
 #Cat: Utility
 #Screenshot: https://raw.githubusercontent.com/nodiscc/dbu/master/doc/res/screenshot-main.jpg
 
+# desktop/wm/session
 xfdesktop4
 xfwm4
-xfce4-panel
 xfce4-session
 xfce4-notifyd
-xfce4-whiskermenu-plugin
+
+# panel
+xfce4-panel
 xfce4-places-plugin
 xfce4-weather-plugin
 xfce4-netload-plugin
 xfce4-pulseaudio-plugin
+
+# launcher/apllication menu
+xfce4-whiskermenu-plugin
+
+#Alt: kupfer
+#Alt: gnome-pie
+#Alt: gnome-do
+#Alt: xfce4-appfinder
+#Alt: synapse
+#Alt: zeitgeist
+#Alt: zeitgeist-datahub
+#Alt: activity-log-manager
+##Screenshot: synapse
+##Screenshot: kupfer
 
 # Desktop configuration utilities
 xfce4-settings

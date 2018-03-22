@@ -28,7 +28,7 @@ Other configuration files are generally found in `~/.config` or `/etc/` director
 Your _Home directory_ contains all personal files belonging to your user account on the 
 computer.
 
-Use the Applications menu, the launcher (`Ctrl+Space`), the file manager to open files 
+Use the Applications menu (`Windows + Space` key) or the file manager to open files
 and run programs.
 
 Use the _Terminal emulator_ to run command-line programs. Use the `man` command to get 
@@ -110,7 +110,7 @@ you want to keep backups of. Refer to the [Backintime](http://backintime.readthe
 
 Can be changed through `Settings > Keyboard` and `Settings > Window manager`
 
- * `Ctrl+Space` Open application launcher
+ * `Super/Windows + Space` Open applications menu
  * `Win + N` Show/Hide notes
  * `Win + E` File manager
  * `Win + F` Find files
@@ -133,6 +133,8 @@ Can be changed through `Settings > Keyboard` and `Settings > Window manager`
  * `Alt + F7` Move windows
  * `Alt + F8` Resize windows
  * `Alt + mouse wheel` Zoom-in/out display
+ * Applications menu: `!some text` Search for `some text` on the Web
+ * Applications menu: `?myfile.pdf` Search for `myfile.pdf` on this computer
 
 --------------------------------------------
 
