@@ -2,7 +2,6 @@
 
 
 ```
-  ☐ [bug] GRUB > Advanced > Live (@FLAVOUR@ failsafe)
   ☐ [bug] check that apparmor is enabled
   ☐ [bug] "open containing folder" in gnome-search-tool does not work (attempts to open selected file)
   ☐ [enh] installer: preseed "domain name" installer question to None, preseed "full user name" question to match the unix username
