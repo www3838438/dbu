@@ -3,18 +3,20 @@
 
 #Screenshot: pcsxr
 pcsxr
-#Screenshot: higan
-higan
-#Screenshot: desmume
-desmume
-#Screenshot: mupen64plus
-mupen64plus
-mupen64plus-qt
-mupen64plus-input-all
-mupen64plus-audio-all
-mupen64plus-rsp-all
-mupen64plus-video-all
+#Screenshot: zsnes
+zsnes
 
+##Screenshot: higan
+#Alt: higan
+##Screenshot: desmume
+#Alt: desmume
+##Screenshot: mupen64plus
+#Alt: mupen64plus
+#Alt: mupen64plus-qt
+#Alt: mupen64plus-input-all
+#Alt: mupen64plus-audio-all
+#Alt: mupen64plus-rsp-all
+#Alt: mupen64plus-video-all
 #Alt: retroarch
 #Alt: libretro-beetle-pce-fast
 #Alt: libretro-beetle-psx
@@ -33,7 +35,6 @@ mupen64plus-video-all
 #Alt: yabause-gtk
 #Alt: games-emulator
 #Alt: gnome-video-arcade
-#Alt: zsnes
 #Alt: mednafen
 #Alt: virtualjaguar
 #Alt: mame
