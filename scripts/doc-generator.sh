@@ -27,31 +27,31 @@ function _genPackagesDoc {
 	# gather information from a package list ($1), format it to markdown
 	packagelist=$1
 
-	packages=$(egrep "^[a0-z9]" "$packagelist" || echo "" ) # packages in list
+	packages=$(grep -E "^[a0-z9]" "$packagelist" || echo "" ) # packages in list
 	mainpackage=$(echo "$packages " |head -n1 || echo "") # main package from the list
-	alt_packages=$(egrep "^#Alt:" "$packagelist" | cut -d" " -f1 --complement) # alternative/suggested packages
-	md_title="# $(egrep "^#Name" $packagelist | cut -d" " -f1 --complement)" # page title
-	if egrep "^#NoDescription" "$packagelist" >/dev/null; then
+	alt_packages=$(grep -E "^#Alt:" "$packagelist" | cut -d" " -f1 --complement) # alternative/suggested packages
+	md_title="# $(grep -E "^#Name" $packagelist | cut -d" " -f1 --complement)" # page title
+	if grep -E "^#NoDescription" "$packagelist" >/dev/null; then
 		# remove all descriptions if the package list has a #NoDescription field
 		md_description=""
 		md_shortdescription=""
 		md_homepage=""
-	elif egrep "^#Replace" "$packagelist" >/dev/null; then
+	elif grep -E "^#Replace" "$packagelist" >/dev/null; then
 		md_shortdescription=""
-		md_description="$(egrep "^#Replace" $packagelist | cut -d" " -f1 --complement)"
+		md_description="$(grep -E "^#Replace" $packagelist | cut -d" " -f1 --complement)"
 	else
 		# use #Desc field to specify the package to descript, or use the main package
-		if egrep "^#Desc:" "$packagelist" >/dev/null; then
-			descriptionpackage=$(egrep "^#Desc" "$packagelist" | cut -d" " -f1 --complement)
+		if grep -E "^#Desc:" "$packagelist" >/dev/null; then
+			descriptionpackage=$(grep -E "^#Desc" "$packagelist" | cut -d" " -f1 --complement)
 		else descriptionpackage="$mainpackage"
 		fi
 		# generate markdown page title, desciptions, homepage links
-		md_description="$(apt-cache show $descriptionpackage | egrep "^ " | egrep -v "::" | sed -e 's/^ \.$/ /g' | cut -b1 --complement)"
-		md_shortdescription="_$(apt-cache show $descriptionpackage | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)_"
-		md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | egrep "^Homepage:" | head -n1 | cut -d" " -f1 --complement))**"
+		md_description="$(apt-cache show $descriptionpackage | grep -E "^ " | grep -Ev "::" | sed -e 's/^ \.$/ /g' | cut -b1 --complement)"
+		md_shortdescription="_$(apt-cache show $descriptionpackage | grep -E "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)_"
+		md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | grep -E "^Homepage:" | head -n1 | cut -d" " -f1 --complement))**"
 	fi
-	if egrep "^#Screenshot:" "$packagelist" >/dev/null; then
-		screenshotpackages=$(egrep "^#Screenshot:" "$packagelist" | cut -d" " -f1 --complement)
+	if grep -E "^#Screenshot:" "$packagelist" >/dev/null; then
+		screenshotpackages=$(grep -E "^#Screenshot:" "$packagelist" | cut -d" " -f1 --complement)
 		else screenshotpackages="$mainpackage"
 	fi
 	md_screenshots=""
@@ -79,14 +79,14 @@ function _renderMarkdown {
 	echo -e "\n$md_homepage"
 	echo -e "\n### Installed packages\n"
 	for i in $packages; do
-		shortdescription=$(apt-cache show $i | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)
-		pkgversion=$(apt-cache policy $i | egrep "^  Candidate\:" | awk '{print $2}')
+		shortdescription=$(apt-cache show $i | grep -E "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)
+		pkgversion=$(apt-cache policy $i | grep -E "^  Candidate\:" | awk '{print $2}')
 		echo "* [$i](https://packages.debian.org/stretch/$i) \`$pkgversion\` - $shortdescription"
 	done
 
 	echo -e "\n### Related packages\n"
 	for i in $alt_packages; do
-		alt_package_description=$(apt-cache show $i | egrep "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)
+		alt_package_description=$(apt-cache show $i | grep -E "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)
 		echo " * [$i](https://packages.debian.org/stretch/$i) $alt_package_description"
 	done
 }
@@ -94,7 +94,7 @@ function _renderMarkdown {
 function _main {
 	# check mandatory #Cat: category field
 	for i in config/package-lists/[a-z]*.list.chroot; do
-		if ! egrep "#Cat:" "$i" >/dev/null; then
+		if ! grep -E "#Cat:" "$i" >/dev/null; then
 			echo "WARNING: No category defined for $i - list will not be included in the index page.";
 			if [[ "$fail_on_no_category" = yes ]]; then exit 1; fi
 		fi
