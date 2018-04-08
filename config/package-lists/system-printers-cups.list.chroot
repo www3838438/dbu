@@ -11,12 +11,13 @@ cups-pdf
 cups-pk-helper
 printer-driver-all
 printer-driver-cups-pdf
+printer-driver-gutenprint
 system-config-printer
 system-config-printer-udev
 cups-browsed
 
 #Alt: hplip-gui
 #Alt: mtink
-
+#Alt: colord
 
 
