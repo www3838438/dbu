@@ -5,19 +5,19 @@
 
 #Ports 52943/tcp|udp
 transmission-gtk
+transmission-cli
 
 #Alt: qbittorrent
 #Alt: deluge-gtk
+#Alt: deluge-console
 #Alt: deluge-web
-#Alt: uget
-#Alt: transgui
+#Alt: transmission-daemon
 #Alt: transmission-remote-gtk
+#Alt: transmission-remote-cli
+#Alt: uget
+#Alt: lottanzb
+#Alt: aria2
 #Alt: amule
 #Alt: amule-gnome-support
-#Alt: lottanzb
-#Alt: eiskaltdcpp-gtk3
-
-# Soulseek clients (disabled)
-##Screenshot: nicotine
 #Ports 2234/tcp|udp
 #Alt: nicotine
