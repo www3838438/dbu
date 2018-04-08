@@ -210,6 +210,8 @@ traceroute
 #Alt: gwakeonlan
 #Alt: rclone
 #Alt: pastebinit
+#Alt: netcat-openbsd
+
 
 # Monitoring
 htop
@@ -254,7 +256,8 @@ beep
 moreutils
 autojump
 tty-clock
-manpages-fr
+manpages
+manpages-dev
 at
 colortail
 pv
