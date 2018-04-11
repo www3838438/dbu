@@ -1,26 +1,19 @@
 #!/bin/bash
- 
-##########################################################################
-##               conky slideshow by Alessandro Roncone                  ##
-##                               v 0.2                                  ##
-##                          GNU GPLv3 2012                              ##
-##########################################################################
- 
-##########################################################################
+# Description: Conky slideshow
+# Authors: (c) Alessandro Roncone 2012
+# Version: 0.2
+# License: GNU GPLv3
+
+###################
 # Settings
-##########################################################################
 source ~/.conky/scripts.conf
-
-
 # Directory containing the script and the pictures
 directory="$IMAGESDIR"
 # Dimension of the slideshow (either "small", "medium" or "big")
 dim="big"
- 
-##########################################################################
-# Script (do not change unless you know what you're doing)
-##########################################################################
 
+##################
+# Script
 # Manage dimension flag
 if [ $dim == "small" ]; then
   geometry="158x100"
@@ -32,12 +25,12 @@ elif [ $dim == "big" ]; then
   geometry="318x200"
   pos="0,119"
 fi
- 
+
 # Pick a random file from all pictures
 files=($directory/*.*)
 let r="$RANDOM % ${#files[*]}"
 randomfile=${files[$r]}
- 
+
 # Sets picture for conky to use
 convert $randomfile -resize $geometry\> -size $geometry xc:black +swap -gravity center  -composite ~/.conky/images/current.png
 convert ~/.conky/images/photobg_bg_$dim.png ~/.conky/images/current.png -geometry +11+11 -composite ~/.conky/images/result.png

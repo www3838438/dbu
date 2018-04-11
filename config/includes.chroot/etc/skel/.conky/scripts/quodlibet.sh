@@ -1,5 +1,6 @@
 #!/bin/bash
-#quodlibet info script
+#Description : get information from currently running quodlibet instance
+
 TITLE=$(grep 'title=' ~/.quodlibet/current | cut -d"=" -f 1 --complement )
 ALBUM=$(grep 'album=' ~/.quodlibet/current | cut -d"=" -f 1 --complement )
 ARTIST=$(grep 'artist=' ~/.quodlibet/current | cut -d"=" -f 1 --complement )

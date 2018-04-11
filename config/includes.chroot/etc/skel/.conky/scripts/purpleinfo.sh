@@ -1,7 +1,5 @@
 #!/bin/bash
-#Description: Script to get and display data from pidgin (info on online contacts, etc..)
-#Source: https://github.com/nodiscc/rxtx-conkyrcs
-#License: MIT (http://opensource.org/licenses/MIT)
+#Description: Display data from pidgin (info on online contacts, etc..)
 
 if ! pgrep pidgin >/dev/null
 	then

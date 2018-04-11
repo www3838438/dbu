@@ -1,5 +1,6 @@
 #!/bin/bash
-#Thanks to https://gist.github.com/anonymous/4699745
+# Description: display number of unread items in your tt-rss instance
+# Thanks to https://gist.github.com/anonymous/4699745
 
 if [ -f ~/.conky/scripts.conf ]
 	then source ~/.conky/scripts.conf

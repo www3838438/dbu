@@ -1,9 +1,8 @@
 #!/bin/bash
-#AccuWeather (r) RSS weather tool for conky
-#
-#USAGE: weather.sh <locationcode>
-#
-#(c) Michael Seiler 2007
+# AccuWeather (r) RSS weather tool for conky
+# USAGE: weather.sh <locationcode>
+# Authors: (c) Michael Seiler 2007
+
 set -e
 METRIC=1 #Should be 0 or 1; 0 for F, 1 for C
 source ~/.conky/scripts.conf
