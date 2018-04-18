@@ -85,11 +85,11 @@ python-tox
 
 # Live system/debian
 live-build
-live-config-doc
-live-manual-pdf
-live-manual-html
 debootstrap
 live-images
+#Alt: live-config-doc
+#Alt: live-manual-pdf
+#Alt: live-manual-html
 #Alt: debian-handbook
 #Alt: blends-tasks
 #Alt: live-task-lxde
