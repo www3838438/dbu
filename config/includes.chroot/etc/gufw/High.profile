@@ -215,51 +215,6 @@ routed =
 logging = 
 
 [Rule14]
-ufw_rule = 151.101.60.204 80 ALLOW OUT Anywhere (out)
-description = debian-fastly.204 HTTP OUT
-command = /usr/sbin/ufw allow out from any to 151.101.60.204 port 80
-policy = allow
-direction = out
-protocol = 
-from_ip = 
-from_port = 
-to_ip = 151.101.60.204
-to_port = 80
-iface = 
-routed = 
-logging = 
-
-[Rule15]
-ufw_rule = 151.101.16.204 80 ALLOW OUT Anywhere (out)
-description = debian-security-cdn.204
-command = /usr/sbin/ufw allow out from any to 151.101.16.204 port 80
-policy = allow
-direction = out
-protocol = 
-from_ip = 
-from_port = 
-to_ip = 151.101.16.204
-to_port = 80
-iface = 
-routed = 
-logging = 
-
-[Rule16]
-ufw_rule = 823/tcp DENY IN Anywhere (log)
-description = SSH IN 823/TCP
-command = /usr/sbin/ufw deny in log proto tcp from any to any port 823
-policy = deny
-direction = in
-protocol = 
-from_ip = 
-from_port = 
-to_ip = 
-to_port = 823/tcp
-iface = 
-routed = 
-logging = log
-
-[Rule17]
 ufw_rule = 52944 DENY IN Anywhere
 description = Bittorrent 52944 IN
 command = /usr/sbin/ufw deny in from any to any port 52944
@@ -274,22 +229,7 @@ iface =
 routed = 
 logging = 
 
-[Rule18]
-ufw_rule = 53 ALLOW OUT Anywhere (out)
-description = DNS OUT
-command = /usr/sbin/ufw allow out from any to any port 53
-policy = allow
-direction = out
-protocol = 
-from_ip = 
-from_port = 
-to_ip = 
-to_port = 53
-iface = 
-routed = 
-logging = 
-
-[Rule19]
+[Rule15]
 ufw_rule = 137,138/udp DENY IN Anywhere
 description = SAMBA
 command = /usr/sbin/ufw deny in proto udp from any to any port 137,138
@@ -304,7 +244,7 @@ iface =
 routed = 
 logging = 
 
-[Rule20]
+[Rule16]
 ufw_rule = 137,138/udp DENY OUT Anywhere (out)
 description = SAMBA
 command = /usr/sbin/ufw deny out proto udp from any to any port 137,138
@@ -319,7 +259,7 @@ iface =
 routed = 
 logging = 
 
-[Rule21]
+[Rule17]
 ufw_rule = 139,445/tcp DENY IN Anywhere
 description = SAMBA
 command = /usr/sbin/ufw deny in proto tcp from any to any port 139,445
@@ -334,7 +274,7 @@ iface =
 routed = 
 logging = 
 
-[Rule22]
+[Rule18]
 ufw_rule = 139,445/tcp DENY OUT Anywhere (out)
 description = SAMBA
 command = /usr/sbin/ufw deny out proto tcp from any to any port 139,445
@@ -349,7 +289,7 @@ iface =
 routed = 
 logging = 
 
-[Rule23]
+[Rule19]
 ufw_rule = 5353/udp DENY IN Anywhere
 description = Avahi/mDNS
 command = /usr/sbin/ufw deny in proto udp from any to any port 5353
@@ -364,7 +304,7 @@ iface =
 routed = 
 logging = 
 
-[Rule24]
+[Rule20]
 ufw_rule = 5353/udp DENY OUT Anywhere (log, out)
 description = Avahi/mDNS
 command = /usr/sbin/ufw deny out log proto udp from any to any port 5353
@@ -379,7 +319,82 @@ iface =
 routed = 
 logging = log
 
+[Rule21]
+ufw_rule = 151.101.16.204 80 ALLOW OUT Anywhere (out)
+description = debian-security-cdn.204
+command = /usr/sbin/ufw allow out from any to 151.101.16.204 port 80
+policy = allow
+direction = out
+protocol = 
+from_ip = 
+from_port = 
+to_ip = 151.101.16.204
+to_port = 80
+iface = 
+routed = 
+logging = 
+
+[Rule22]
+ufw_rule = 151.101.60.204 80 ALLOW OUT Anywhere (out)
+description = debian-fastly.60.204 HTTP OUT
+command = /usr/sbin/ufw allow out from any to 151.101.60.204 port 80
+policy = allow
+direction = out
+protocol = 
+from_ip = 
+from_port = 
+to_ip = 151.101.60.204
+to_port = 80
+iface = 
+routed = 
+logging = 
+
+[Rule23]
+ufw_rule = 151.101.120.204 80 ALLOW OUT Anywhere (out)
+description = debian-fastly.120.204 HTTP OUT
+command = /usr/sbin/ufw allow out from any to 151.101.120.204 port 80
+policy = allow
+direction = out
+protocol = 
+from_ip = 
+from_port = 
+to_ip = 151.101.120.204
+to_port = 80
+iface = 
+routed = 
+logging = 
+
+[Rule24]
+ufw_rule = 823/tcp DENY IN Anywhere (log)
+description = SSH IN 823/TCP
+command = /usr/sbin/ufw deny in log proto tcp from any to any port 823
+policy = deny
+direction = in
+protocol = 
+from_ip = 
+from_port = 
+to_ip = 
+to_port = 823/tcp
+iface = 
+routed = 
+logging = log
+
 [Rule25]
+ufw_rule = 53 ALLOW OUT Anywhere (out)
+description = DNS OUT
+command = /usr/sbin/ufw allow out from any to any port 53
+policy = allow
+direction = out
+protocol = 
+from_ip = 
+from_port = 
+to_ip = 
+to_port = 53
+iface = 
+routed = 
+logging = 
+
+[Rule26]
 ufw_rule = 993/tcp (v6) ALLOW OUT Anywhere (v6) (out)
 description = IMAPS OUT
 command = /usr/sbin/ufw allow out proto tcp from any to any port 993
@@ -394,7 +409,7 @@ iface =
 routed = 
 logging = 
 
-[Rule26]
+[Rule27]
 ufw_rule = 143/tcp (v6) ALLOW OUT Anywhere (v6) (out)
 description = IMAP  OUT
 command = /usr/sbin/ufw allow out proto tcp from any to any port 143
@@ -409,7 +424,7 @@ iface =
 routed = 
 logging = 
 
-[Rule27]
+[Rule28]
 ufw_rule = 50058/tcp (v6) ALLOW OUT Anywhere (v6) (out)
 description = Mumble OUT
 command = /usr/sbin/ufw allow out proto tcp from any to any port 50058
@@ -424,7 +439,7 @@ iface =
 routed = 
 logging = 
 
-[Rule28]
+[Rule29]
 ufw_rule = 123/udp (v6) ALLOW OUT Anywhere (v6) (out)
 description = NTP OUT
 command = /usr/sbin/ufw allow out proto udp from any to any port 123
@@ -439,7 +454,7 @@ iface =
 routed = 
 logging = 
 
-[Rule29]
+[Rule30]
 ufw_rule = 443/tcp (v6) ALLOW OUT Anywhere (v6) (out)
 description = HTTPS OUT
 command = /usr/sbin/ufw allow out proto tcp from any to any port 443
@@ -454,7 +469,7 @@ iface =
 routed = 
 logging = 
 
-[Rule30]
+[Rule31]
 ufw_rule = 22/tcp (v6) ALLOW OUT Anywhere (v6) (out)
 description = SSH OUT
 command = /usr/sbin/ufw allow out proto tcp from any to any port 22
@@ -469,7 +484,7 @@ iface =
 routed = 
 logging = 
 
-[Rule31]
+[Rule32]
 ufw_rule = 6697/tcp (v6) ALLOW OUT Anywhere (v6) (out)
 description = IRC SSL OUT
 command = /usr/sbin/ufw allow out proto tcp from any to any port 6697
@@ -484,7 +499,7 @@ iface =
 routed = 
 logging = 
 
-[Rule32]
+[Rule33]
 ufw_rule = 823/tcp (v6) ALLOW OUT Anywhere (v6) (out)
 description = SSH 823 OUT
 command = /usr/sbin/ufw allow out proto tcp from any to any port 823
@@ -499,7 +514,7 @@ iface =
 routed = 
 logging = 
 
-[Rule33]
+[Rule34]
 ufw_rule = Anywhere (v6) ALLOW OUT 52944 (v6) (out)
 description = Bittorrent 52944 OUT
 command = /usr/sbin/ufw allow out from any port 52944 to any
@@ -514,7 +529,7 @@ iface =
 routed = 
 logging = 
 
-[Rule34]
+[Rule35]
 ufw_rule = 67/udp (v6) ALLOW OUT Anywhere (v6) (out)
 description = DHCP
 command = /usr/sbin/ufw allow out proto udp from any to any port 67
@@ -529,7 +544,7 @@ iface =
 routed = 
 logging = 
 
-[Rule35]
+[Rule36]
 ufw_rule = 823/tcp (v6) DENY IN Anywhere (v6) (log)
 description = SSH IN 823/TCP
 command = /usr/sbin/ufw deny in log proto tcp from any to any port 823
@@ -544,7 +559,7 @@ iface =
 routed = 
 logging = log
 
-[Rule36]
+[Rule37]
 ufw_rule = 52944 (v6) DENY IN Anywhere (v6)
 description = Bittorrent 52944 IN
 command = /usr/sbin/ufw deny in from any to any port 52944
@@ -559,7 +574,7 @@ iface =
 routed = 
 logging = 
 
-[Rule37]
+[Rule38]
 ufw_rule = 53 (v6) ALLOW OUT Anywhere (v6) (out)
 description = DNS OUT
 command = /usr/sbin/ufw allow out from any to any port 53
@@ -574,7 +589,7 @@ iface =
 routed = 
 logging = 
 
-[Rule38]
+[Rule39]
 ufw_rule = 137,138/udp (v6) DENY IN Anywhere (v6)
 description = SAMBA
 command = /usr/sbin/ufw deny in proto udp from any to any port 137,138
@@ -589,7 +604,7 @@ iface =
 routed = 
 logging = 
 
-[Rule39]
+[Rule40]
 ufw_rule = 137,138/udp (v6) DENY OUT Anywhere (v6) (out)
 description = SAMBA
 command = /usr/sbin/ufw deny out proto udp from any to any port 137,138
@@ -604,7 +619,7 @@ iface =
 routed = 
 logging = 
 
-[Rule40]
+[Rule41]
 ufw_rule = 139,445/tcp (v6) DENY IN Anywhere (v6)
 description = SAMBA
 command = /usr/sbin/ufw deny in proto tcp from any to any port 139,445
@@ -619,7 +634,7 @@ iface =
 routed = 
 logging = 
 
-[Rule41]
+[Rule42]
 ufw_rule = 139,445/tcp (v6) DENY OUT Anywhere (v6) (out)
 description = SAMBA
 command = /usr/sbin/ufw deny out proto tcp from any to any port 139,445
@@ -634,7 +649,7 @@ iface =
 routed = 
 logging = 
 
-[Rule42]
+[Rule43]
 ufw_rule = 5353/udp (v6) DENY IN Anywhere (v6)
 description = Avahi/mDNS
 command = /usr/sbin/ufw deny in proto udp from any to any port 5353
@@ -649,7 +664,7 @@ iface =
 routed = 
 logging = 
 
-[Rule43]
+[Rule44]
 ufw_rule = 5353/udp (v6) DENY OUT Anywhere (v6) (log, out)
 description = Avahi/mDNS
 command = /usr/sbin/ufw deny out log proto udp from any to any port 5353
