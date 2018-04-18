@@ -27,7 +27,6 @@ fonts-droid-fallback
 fonts-ecolier-court
 fonts-f500
 fonts-fanwood
-fonts-lato
 fonts-dancingscript
 fonts-cabinsketch
 fonts-lobster
@@ -51,3 +50,5 @@ fonts-crosextra-caladea
 fonts-crosextra-carlito
 fonts-linuxlibertine
 fonts-sil-gentium-basic
+
+#Alt: fonts-lato
