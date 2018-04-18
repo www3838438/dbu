@@ -90,7 +90,7 @@ live-manual-pdf
 live-manual-html
 debootstrap
 live-images
-debian-handbook
+#Alt: debian-handbook
 #Alt: blends-tasks
 #Alt: live-task-lxde
 #Alt: live-task-base
