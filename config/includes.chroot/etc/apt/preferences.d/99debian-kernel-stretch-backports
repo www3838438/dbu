@@ -1,0 +1,15 @@
+Package: linux-image-*
+Pin: release n=stretch-backports
+Pin-Priority: 600
+
+Package: linux-headers-*
+Pin: release n=stretch-backports
+Pin-Priority: 600
+
+Package: firmware-linux-*
+Pin: release n=stretch-backports
+Pin-Priority: 600
+
+Package: *
+Pin: release n=stretch-backports
+Pin-Priority: 1
