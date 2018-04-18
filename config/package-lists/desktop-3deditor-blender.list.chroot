@@ -13,3 +13,10 @@ blender
 #Alt: sweethome3d-textures-editor
 #Alt: sweethome3d-furniture-nonfree
 
+# CAD editors (disabled)
+##Screenshot: librecad
+#Alt: librecad
+#Alt: kicad
+#Alt: freecad
+#Alt: pcb-gtk
+#Alt: qelectrotech
