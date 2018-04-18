@@ -1,13 +1,5 @@
-#Name: Science and cartography tools
-#NoDescription
+#Name: Marble map viewer
 #Cat: Utility
-
-#Screenshot: stellarium
-stellarium
-
-#Alt: lightspeed
-#Alt: wxmaxima
-#Alt: gramps
 
 # Cartography
 #Screenshot: marble-qt
@@ -26,3 +18,10 @@ geoclue-2.0
 #Alt: mkgmap
 #Alt: foxtrotgps
 #Alt: gis-tasks
+
+# Science
+#Alt: stellarium
+#Alt: lightspeed
+#Alt: wxmaxima
+#Alt: gramps
+
