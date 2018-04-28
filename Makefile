@@ -22,7 +22,7 @@ tests:
 	#Packages without descriptions in documentation:
 	@cd doc/packages/ && egrep "^ \* .* $$" *.md || continue
 	#Empty links in documentation:
-	@cd doc/packages/ && grep -r '()'
+	@cd doc/packages/ && grep -r '()' && echo "WARNING invalid markdown links found"
 
 documentation:
 	-mkdir doc/packages/
