@@ -1,0 +1,24 @@
+#Name: KVM/libvirt/virt-manager virtualization platform
+#Cat: System
+
+virt-manager
+virtinst
+virt-viewer
+gir1.2-spice-client-gtk-3.0
+ebtables
+dnsmasq-base
+
+# Virtualbox (disabled)
+##Screenshot: virtualbox
+#Alt: virtualbox
+#Alt: virtualbox-qt
+#Alt: virtualbox-dkms
+#Alt: virtualbox-guest-utils
+#Alt: virtualbox-guest-dkms
+#Alt: virtualbox-guest-x11
+
+# Other (disabled)
+#Alt: lxc
+#Alt: gnome-boxes
+#docker #not in debian packages
+#rkt #sid only
