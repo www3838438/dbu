@@ -1,16 +1,16 @@
 #!/bin/bash
 
 #package management
-function pkgl { apt-cache show $@ | egrep \"^Description\" |egrep -v \"Description-md5\"| uniq | cut -d \" \" -f2- ; } #get a package's short description
-alias pkgdel="sudo aptitude purge $@" #purge/delete packages
-function pkgi { apt-cache show $@ | less ; } #get info on packages
-alias pkgins="sudo aptitude install $@" #install packages
-function pkgl { dpkg -L $@ | less ; } #list files from a package
-function pkgs { apt-cache search $@ | less ; } #search for a package name or description
+function pkgl { apt-cache show "$@" | egrep \"^Description\" |egrep -v \"Description-md5\"| uniq | cut -d \" \" -f2- ; } #get a package's short description
+alias pkgdel="sudo aptitude purge $*" #purge/delete packages
+function pkgi { apt-cache show "$@" | less ; } #get info on packages
+alias pkgins="sudo aptitude install $*" #install packages
+function pkgl { dpkg -L "$@" | less ; } #list files from a package
+function pkgs { apt-cache search "$@" | less ; } #search for a package name or description
 alias pkgup="sudo aptitude update; sudo aptitude upgrade" #update and upgrade packages
-alias pkgver="apt-cache policy $@" #get package versions
-alias pkgdep="apt-cache depends $@" #get package dependencies
-alias pkgrdep="apt-cache rdepends $@" #get package reverse dependencies
+alias pkgver="apt-cache policy $*" #get package versions
+alias pkgdep="apt-cache depends $*" #get package dependencies
+alias pkgrdep="apt-cache rdepends $*" #get package reverse dependencies
 
 #shortcuts
 alias warn="for i in 1 2 3 ; do play -q /usr/share/sounds/freedesktop/stereo/complete.oga; done" #play a sound warning
@@ -21,9 +21,10 @@ alias m="mousepad" #mousepad editor shortcut
 alias o="xdg-open" #generic open command
 alias encrypt="gpg -c" #encrypt gpg encrypted file
 alias decrypt="gpg -d" #decrypt gpg encrypted file
-alias bak='cp -v "$1" "$1.`date +%Y-%m-%d_%H-%M-%S`.bak"' #Backup specified file, adding date after it
+function bak { cp -v "$1" "$1.`date +%Y-%m-%d_%H-%M-%S`.bak" ;} #Backup specified file, adding date after it
 alias chx='chmod a+x' #set execute permission
 alias clipboard='xclip -selection c; notify-send --icon=gtk-paste "Copied to clipboard." 2>/dev/null' #send a command output to clipboard
+alias sortclipboard='xclip -selection c -o | sort | xclip -selection c -i'
 alias timestamp='date +"%Y-%m-%d_%H%M%S"'
 alias genpass='openssl rand -base64 24' #generate a random base64 string
 alias lman='mank -k . |less' #list all manpages in pager
@@ -32,8 +33,9 @@ alias hman='man -Hx-www-browser' #manpages in browser/html
 function f { #find files
     find ./ -name "*$1*"
 }
-function psg { #find a process
-    ps -fp $(pgrep -f $@)
+
+function psg { #find processes
+    ps -fp $(pgrep -f "$@")
 }
 
 #aliases for going up multiple directories
@@ -54,9 +56,9 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-#do not delete files with rm, put them to trash
-alias rm="echo 'DO NOT USE RM. Use trash-put, or frm to force rm. Putting files to trash.'; trash-put $@"
-#add an alias for rm anyway
+#do not delete files with rm, put them to trash (default disabled)
+#alias rm="echo 'DO NOT USE RM. Use trash-put, or frm to force rm. Putting files to trash.'; trash-put $*"
+#add an alias for rm
 alias frm="\rm"
 
 #load autojump
