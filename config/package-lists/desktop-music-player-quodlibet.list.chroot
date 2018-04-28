@@ -1,4 +1,5 @@
 #Name: QuodLibet music player/library manager
+#Cat: Multimedia
 #Desc: quodlibet
 #Screenshot: quodlibet
 
@@ -15,40 +16,50 @@ libgpod4
 projectm-pulseaudio
 python-musicbrainzngs
 
+# Audacious (disabled)
+##Screenshot: audacious
+#Alt: audacious
+#Alt: audacious-plugins
 
+# Music library managers (disabled)
 #Alt: banshee
 #Alt: banshee-community-extensions
+#Alt: gnome-music
+#Alt: rhythmbox
+#Alt: rhythmbox-plugins
+#Alt: clementine
+#Alt: amarok
+#Alt: gmusicbrowser
+
+# ID3 tag management (disabled)
+#Alt: beets
 #Alt: cowbell
 #Alt: easytag
 #Alt: puddletag
-#Alt: beets
 #Alt: eyed3
 #Alt: kid3
 #Alt: picard
 #Alt: tagtool
 #Alt: mussort
+
+# Console music players (disabled)
 #Alt: moc
 #Alt: cmus
-#Alt: musique
-#Alt: audacious
-#Alt: audacious-plugins
-#Alt: gnome-music
-#Alt: clementine
-#Alt: amarok
-#Alt: gmusicbrowser
+
+# Other (disabled)
+#Alt: gtkpod
+#Alt: go-mtpfs
 #Alt: gpodder
+##Screenshot: radiotray
+#Alt: radiotray
+#Alt: musique
+#Alt: vagalume
+#Alt: streamtuner2
+
+# MPD (disabled)
+#Alt: mpd
 #Alt: sonata
 #Alt: ario
 #Alt: cantata
 #Alt: ncmpcpp
-#Alt: mpd
 #Alt: mpc
-#Alt: gtkpod
-#Alt: rhythmbox
-#Alt: rhythmbox-plugins
-#Alt: go-mtpfs
-#Alt: radiotray
-#Alt: vagalume
-#Alt: streamtuner2
-
-#Cat: Multimedia
