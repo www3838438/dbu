@@ -135,6 +135,8 @@ Can be changed through `Settings > Keyboard` and `Settings > Window manager`
  * `Alt + mouse wheel` Zoom-in/out display
  * Applications menu: `!some text` Search for `some text` on the Web
  * Applications menu: `?myfile.pdf` Search for `myfile.pdf` on this computer
+ * `Alt + Left click/drag` Move window
+ * `Alt + Right click/drag` Resize window
 
 --------------------------------------------
 
