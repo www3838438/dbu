@@ -2,3 +2,4 @@ remove_extra
 pymdownx.github
 toc
 nl2br
+pymdownx.tasklist
