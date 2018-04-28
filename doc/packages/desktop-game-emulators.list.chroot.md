@@ -16,9 +16,7 @@ is in turn based on the original PCSX.
 ```
 
 [![](https://screenshots.debian.net/thumbnail-with-version/pcsxr/9001)](https://screenshots.debian.net/screenshot-with-version/pcsxr/9001)
-[![](https://screenshots.debian.net/thumbnail-with-version/higan/9001)](https://screenshots.debian.net/screenshot-with-version/higan/9001)
-[![](https://screenshots.debian.net/thumbnail-with-version/desmume/9001)](https://screenshots.debian.net/screenshot-with-version/desmume/9001)
-[![](https://screenshots.debian.net/thumbnail-with-version/mupen64plus/9001)](https://screenshots.debian.net/screenshot-with-version/mupen64plus/9001)
+[![](https://screenshots.debian.net/thumbnail-with-version/zsnes/9001)](https://screenshots.debian.net/screenshot-with-version/zsnes/9001)
 
 
 
@@ -27,17 +25,18 @@ is in turn based on the original PCSX.
 ### Installed packages
 
 * [pcsxr](https://packages.debian.org/stretch/pcsxr) `1.9.94-2+b1` - Sony PlayStation emulator
-* [higan](https://packages.debian.org/stretch/higan) `098-2+b1` - Accurate Nintendo multi-system emulator
-* [desmume](https://packages.debian.org/stretch/desmume) `0.9.11-2` - Nintendo DS emulator
-* [mupen64plus](https://packages.debian.org/stretch/mupen64plus) `2.5+2` - plugin-based Nintendo 64 emulator (transitional dummy package)
-* [mupen64plus-qt](https://packages.debian.org/stretch/mupen64plus-qt) `1.9-1+b2` - Basic launcher for Mupen64Plus
-* [mupen64plus-input-all](https://packages.debian.org/stretch/mupen64plus-input-all) `2.5+2` - plugin-based Nintendo 64 emulator, input plugins
-* [mupen64plus-audio-all](https://packages.debian.org/stretch/mupen64plus-audio-all) `2.5+2` - plugin-based Nintendo 64 emulator, audio plugins
-* [mupen64plus-rsp-all](https://packages.debian.org/stretch/mupen64plus-rsp-all) `2.5+2` - plugin-based Nintendo 64 emulator, rsp plugins
-* [mupen64plus-video-all](https://packages.debian.org/stretch/mupen64plus-video-all) `2.5+2` - plugin-based Nintendo 64 emulator, video plugins
+* [zsnes](https://packages.debian.org/stretch/zsnes) `1.510+bz2-8+b2` - Emulator of the Super Nintendo Entertainment System
 
 ### Related packages
 
+ * [higan](https://packages.debian.org/stretch/higan) Accurate Nintendo multi-system emulator
+ * [desmume](https://packages.debian.org/stretch/desmume) Nintendo DS emulator
+ * [mupen64plus](https://packages.debian.org/stretch/mupen64plus) plugin-based Nintendo 64 emulator (transitional dummy package)
+ * [mupen64plus-qt](https://packages.debian.org/stretch/mupen64plus-qt) Basic launcher for Mupen64Plus
+ * [mupen64plus-input-all](https://packages.debian.org/stretch/mupen64plus-input-all) plugin-based Nintendo 64 emulator, input plugins
+ * [mupen64plus-audio-all](https://packages.debian.org/stretch/mupen64plus-audio-all) plugin-based Nintendo 64 emulator, audio plugins
+ * [mupen64plus-rsp-all](https://packages.debian.org/stretch/mupen64plus-rsp-all) plugin-based Nintendo 64 emulator, rsp plugins
+ * [mupen64plus-video-all](https://packages.debian.org/stretch/mupen64plus-video-all) plugin-based Nintendo 64 emulator, video plugins
  * [retroarch](https://packages.debian.org/stretch/retroarch) Simple frontend for the libretro library
  * [libretro-beetle-pce-fast](https://packages.debian.org/stretch/libretro-beetle-pce-fast) Libretro wrapper for the Beetle PCE FAST core
  * [libretro-beetle-psx](https://packages.debian.org/stretch/libretro-beetle-psx) Libretro wrapper for the Beetle PSX core
@@ -56,7 +55,6 @@ is in turn based on the original PCSX.
  * [yabause-gtk](https://packages.debian.org/stretch/yabause-gtk) beautiful and under-rated Saturn emulator - Gtk port
  * [games-emulator](https://packages.debian.org/stretch/games-emulator) Debian's emulators for games
  * [gnome-video-arcade](https://packages.debian.org/stretch/gnome-video-arcade) Simple MAME frontend
- * [zsnes](https://packages.debian.org/stretch/zsnes) Emulator of the Super Nintendo Entertainment System
  * [mednafen](https://packages.debian.org/stretch/mednafen) multi-platform emulator, including NES, GB/A, Lynx, PC Engine
  * [virtualjaguar](https://packages.debian.org/stretch/virtualjaguar) Cross-platform Atari Jaguar emulator
  * [mame](https://packages.debian.org/stretch/mame) Multiple Arcade Machine Emulator (MAME)

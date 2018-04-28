@@ -34,14 +34,14 @@ purposes.
 
 ### Installed packages
 
-* [openssh-server](https://packages.debian.org/stretch/openssh-server) `1:7.4p1-10+deb9u2` - secure shell (SSH) server, for secure access from remote machines
+* [openssh-server](https://packages.debian.org/stretch/openssh-server) `1:7.4p1-10+deb9u3` - secure shell (SSH) server, for secure access from remote machines
 
 ### Related packages
 
  * [vino](https://packages.debian.org/stretch/vino) VNC server for GNOME
  * [synergy](https://packages.debian.org/stretch/synergy) Share mouse, keyboard and clipboard over the network
  * [remmina](https://packages.debian.org/stretch/remmina) GTK+ Remote Desktop Client
- * [remmina-plugin-gnome](https://packages.debian.org/stretch/remmina-plugin-gnome) GNOME plugin for remmina remote desktop client
+ * [remmina-plugin-gnome](https://packages.debian.org/stretch/remmina-plugin-gnome) 
  * [remmina-plugin-nx](https://packages.debian.org/stretch/remmina-plugin-nx) NX plugin for Remmina
  * [remmina-plugin-rdp](https://packages.debian.org/stretch/remmina-plugin-rdp) RDP plugin for Remmina
  * [remmina-plugin-telepathy](https://packages.debian.org/stretch/remmina-plugin-telepathy) Telepathy plugin for Remmina

@@ -34,3 +34,8 @@ a standalone binary are common products of Blender use.
  * [sweethome3d-furniture-editor](https://packages.debian.org/stretch/sweethome3d-furniture-editor) Sweet Home 3D Furniture Library Editor
  * [sweethome3d-textures-editor](https://packages.debian.org/stretch/sweethome3d-textures-editor) Sweet Home 3D Textures Library Editor
  * [sweethome3d-furniture-nonfree](https://packages.debian.org/stretch/sweethome3d-furniture-nonfree) Interior 2D design application with 3D preview (additional non-free furniture)
+ * [librecad](https://packages.debian.org/stretch/librecad) Computer-aided design (CAD) system
+ * [kicad](https://packages.debian.org/stretch/kicad) Electronic schematic and PCB design software
+ * [freecad](https://packages.debian.org/stretch/freecad) Extensible Open Source CAx program (alpha)
+ * [pcb-gtk](https://packages.debian.org/stretch/pcb-gtk) printed circuit board (pcb) design program - GTK+ interface
+ * [qelectrotech](https://packages.debian.org/stretch/qelectrotech) Electric schematic editor

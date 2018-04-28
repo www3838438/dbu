@@ -29,14 +29,14 @@ remove this package.
 
 * [xfdesktop4](https://packages.debian.org/stretch/xfdesktop4) `4.12.3-3` - xfce desktop background, icons and root menu manager
 * [xfwm4](https://packages.debian.org/stretch/xfwm4) `4.12.4-1` - window manager of the Xfce project
-* [xfce4-panel](https://packages.debian.org/stretch/xfce4-panel) `4.12.1-2` - panel for Xfce4 desktop environment
 * [xfce4-session](https://packages.debian.org/stretch/xfce4-session) `4.12.1-5` - Xfce4 Session Manager
 * [xfce4-notifyd](https://packages.debian.org/stretch/xfce4-notifyd) `0.3.4-1` - simple, visually-appealing notification daemon for Xfce
-* [xfce4-whiskermenu-plugin](https://packages.debian.org/stretch/xfce4-whiskermenu-plugin) `1.6.2-1` - Alternate menu plugin for the Xfce desktop environment
+* [xfce4-panel](https://packages.debian.org/stretch/xfce4-panel) `4.12.1-2` - panel for Xfce4 desktop environment
 * [xfce4-places-plugin](https://packages.debian.org/stretch/xfce4-places-plugin) `1.7.0-3` - quick access to folders, documents and removable media
 * [xfce4-weather-plugin](https://packages.debian.org/stretch/xfce4-weather-plugin) `0.8.9-1` - weather information plugin for the Xfce4 panel
 * [xfce4-netload-plugin](https://packages.debian.org/stretch/xfce4-netload-plugin) `1.2.4-2` - network load monitor plugin for the Xfce4 panel
 * [xfce4-pulseaudio-plugin](https://packages.debian.org/stretch/xfce4-pulseaudio-plugin) `0.2.4-1` - Xfce4 panel plugin to control pulseaudio
+* [xfce4-whiskermenu-plugin](https://packages.debian.org/stretch/xfce4-whiskermenu-plugin) `1.6.2-1` - Alternate menu plugin for the Xfce desktop environment
 * [xfce4-settings](https://packages.debian.org/stretch/xfce4-settings) `4.12.1-1` - graphical application for managing Xfce settings
 * [gnome-system-tools](https://packages.debian.org/stretch/gnome-system-tools) `3.0.0-6` - Cross-platform configuration utilities for GNOME
 * [menulibre](https://packages.debian.org/stretch/menulibre) `2.0.7-1.1` - advanced FreeDesktop.org compliant menu editor
@@ -75,13 +75,21 @@ remove this package.
 * [seahorse-daemon](https://packages.debian.org/stretch/seahorse-daemon) `3.12.2-3` - Seahorse pass phrase caching agent
 * [python-gnomekeyring](https://packages.debian.org/stretch/python-gnomekeyring) `2.32.0+dfsg-3` - Python bindings for the GNOME keyring library
 * [gnome-keyring](https://packages.debian.org/stretch/gnome-keyring) `3.20.0-3` - GNOME keyring services (daemon and tools)
-* [ssh-askpass-gnome](https://packages.debian.org/stretch/ssh-askpass-gnome) `1:7.4p1-10+deb9u2` - interactive X program to prompt users for a passphrase for ssh-add
+* [ssh-askpass-gnome](https://packages.debian.org/stretch/ssh-askpass-gnome) `1:7.4p1-10+deb9u3` - interactive X program to prompt users for a passphrase for ssh-add
 * [libpam-gnome-keyring](https://packages.debian.org/stretch/libpam-gnome-keyring) `3.20.0-3` - PAM module to unlock the GNOME keyring upon login
 * [gnupg](https://packages.debian.org/stretch/gnupg) `2.1.18-8~deb9u1` - GNU privacy guard - a free PGP replacement
 * [gnupg2](https://packages.debian.org/stretch/gnupg2) `2.1.18-8~deb9u1` - GNU privacy guard - a free PGP replacement (dummy transitional package)
 
 ### Related packages
 
+ * [kupfer](https://packages.debian.org/stretch/kupfer) fast and lightweight desktop summoner/launcher
+ * [gnome-pie](https://packages.debian.org/stretch/gnome-pie) visual application launcher for GNOME
+ * [gnome-do](https://packages.debian.org/stretch/gnome-do) Quickly perform actions on your desktop
+ * [xfce4-appfinder](https://packages.debian.org/stretch/xfce4-appfinder) Application finder for the Xfce4 Desktop Environment
+ * [synapse](https://packages.debian.org/stretch/synapse) semantic file launcher
+ * [zeitgeist](https://packages.debian.org/stretch/zeitgeist) event logging framework
+ * [zeitgeist-datahub](https://packages.debian.org/stretch/zeitgeist-datahub) event logging framework - passive logging daemon
+ * [activity-log-manager](https://packages.debian.org/stretch/activity-log-manager) blacklist configuration user interface for Zeitgeist
  * [onboard](https://packages.debian.org/stretch/onboard) Simple On-screen Keyboard
  * [onboard-data](https://packages.debian.org/stretch/onboard-data) Language model files for the word suggestion feature of Onboard
  * [cellwriter](https://packages.debian.org/stretch/cellwriter) grid-entry handwriting input panel

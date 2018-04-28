@@ -65,7 +65,7 @@
 * [moc-ffmpeg-plugin](https://packages.debian.org/stretch/moc-ffmpeg-plugin) `1:2.6.0~svn-r2935-1` - ncurses based console audio player - ffmpeg plugin
 * [subliminal](https://packages.debian.org/stretch/subliminal) `1.1.1-2` - Command-line tool to search and download subtitles
 * [youtube-dl](https://packages.debian.org/stretch/youtube-dl) `2017.05.18.1-1` - downloader of videos from YouTube and other sites
-* [livestreamer](https://packages.debian.org/stretch/livestreamer) `1.12.2-1` - CLI that pipes video streams to video players
+* [livestreamer](https://packages.debian.org/stretch/livestreamer) `1.12.2-1` - transitional package - streamlink
 * [ffmpeg](https://packages.debian.org/stretch/ffmpeg) `7:3.2.10-1~deb9u1` - Tools for transcoding, streaming and playing of multimedia files
 * [imagemagick](https://packages.debian.org/stretch/imagemagick) `8:6.9.7.4+dfsg-11+deb9u4` - image manipulation programs -- binaries
 * [optipng](https://packages.debian.org/stretch/optipng) `0.7.6-1+deb9u1` - advanced PNG (Portable Network Graphics) optimizer
@@ -80,11 +80,12 @@
 * [hostname](https://packages.debian.org/stretch/hostname) `3.18+b1` - utility to set/show the host name or domain name
 * [bridge-utils](https://packages.debian.org/stretch/bridge-utils) `1.5-13+deb9u1` - Utilities for configuring the Linux Ethernet bridge
 * [ethtool](https://packages.debian.org/stretch/ethtool) `1:4.8-1+b1` - display or change Ethernet device settings
-* [curl](https://packages.debian.org/stretch/curl) `7.52.1-5+deb9u4` - command line tool for transferring data with URL syntax
+* [curl](https://packages.debian.org/stretch/curl) `7.52.1-5+deb9u5` - command line tool for transferring data with URL syntax
 * [wget](https://packages.debian.org/stretch/wget) `1.18-5+deb9u1` - retrieves files from the web
 * [rsync](https://packages.debian.org/stretch/rsync) `3.1.2-1+deb9u1` - fast, versatile, remote (and local) file-copying tool
 * [transmission-cli](https://packages.debian.org/stretch/transmission-cli) `2.92-2+deb9u1` - lightweight BitTorrent client (command line programs)
 * [elinks](https://packages.debian.org/stretch/elinks) `0.12~pre6-12` - advanced text-mode WWW browser
+* [traceroute](https://packages.debian.org/stretch/traceroute) `1:2.1.0-2` - Traces the route taken by packets over an IPv4/IPv6 network
 * [htop](https://packages.debian.org/stretch/htop) `2.0.2-1` - interactive processes viewer
 * [iotop](https://packages.debian.org/stretch/iotop) `0.6-2` - simple top-like I/O monitor
 * [lm-sensors](https://packages.debian.org/stretch/lm-sensors) `1:3.4.0-4` - utilities to read temperature/voltage/fan sensors
@@ -97,14 +98,14 @@
 * [less](https://packages.debian.org/stretch/less) `481-2.1` - pager program similar to more
 * [sed](https://packages.debian.org/stretch/sed) `4.4-1` - GNU stream editor for filtering/transforming text
 * [dos2unix](https://packages.debian.org/stretch/dos2unix) `7.3.4-3` - convert text file line endings between CRLF and LF
-* [util-linux](https://packages.debian.org/stretch/util-linux) `2.29.2-1` - miscellaneous system utilities
-* [util-linux-locales](https://packages.debian.org/stretch/util-linux-locales) `2.29.2-1` - locales files for util-linux
+* [util-linux](https://packages.debian.org/stretch/util-linux) `2.29.2-1+deb9u1` - miscellaneous system utilities
+* [util-linux-locales](https://packages.debian.org/stretch/util-linux-locales) `2.29.2-1+deb9u1` - locales files for util-linux
 * [bash-completion](https://packages.debian.org/stretch/bash-completion) `1:2.1-4.3` - programmable completion for the bash shell
-* [beep](https://packages.debian.org/stretch/beep) `1.3-4+b1` - advanced pc-speaker beeper
 * [moreutils](https://packages.debian.org/stretch/moreutils) `0.60-1` - additional Unix utilities
 * [autojump](https://packages.debian.org/stretch/autojump) `22.5.0-2` - shell extension to jump to frequently used directories
 * [tty-clock](https://packages.debian.org/stretch/tty-clock) `2.3-1` - simple terminal clock
-* [manpages-fr](https://packages.debian.org/stretch/manpages-fr) `3.65d1p1-1` - French version of the manual pages about using GNU/Linux
+* [manpages](https://packages.debian.org/stretch/manpages) `4.10-2` - Manual pages about using a GNU/Linux system
+* [manpages-dev](https://packages.debian.org/stretch/manpages-dev) `4.10-2` - Manual pages about using GNU/Linux for development
 * [at](https://packages.debian.org/stretch/at) `3.1.20-3` - Delayed job execution and batch processing
 * [colortail](https://packages.debian.org/stretch/colortail) `0.3.3-1+b2` - log colorizer that makes log checking easier
 * [pv](https://packages.debian.org/stretch/pv) `1.6.0-1+b1` - Shell pipeline element to meter data passing through
@@ -217,6 +218,7 @@
  * [gwakeonlan](https://packages.debian.org/stretch/gwakeonlan) wakes up your machines using Wake on LAN
  * [rclone](https://packages.debian.org/stretch/rclone) rsync for commercial cloud storage
  * [pastebinit](https://packages.debian.org/stretch/pastebinit) command-line pastebin client
+ * [netcat-openbsd](https://packages.debian.org/stretch/netcat-openbsd) TCP/IP swiss army knife
  * [screenfetch](https://packages.debian.org/stretch/screenfetch) Bash Screenshot Information Tool
  * [glances](https://packages.debian.org/stretch/glances) Curses-based monitoring tool
  * [cpulimit](https://packages.debian.org/stretch/cpulimit) tool for limiting the CPU usage of a process
@@ -251,3 +253,4 @@
  * [grc](https://packages.debian.org/stretch/grc) generic colouriser for everything
  * [bd](https://packages.debian.org/stretch/bd) quickly go back to a specific parent directory in bash
  * [pv](https://packages.debian.org/stretch/pv) Shell pipeline element to meter data passing through
+ * [beep](https://packages.debian.org/stretch/beep) advanced pc-speaker beeper

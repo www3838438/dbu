@@ -53,7 +53,6 @@ Superscript.
 * [fonts-ecolier-court](https://packages.debian.org/stretch/fonts-ecolier-court) `1.00-5` - cursive roman font with small descenders
 * [fonts-f500](https://packages.debian.org/stretch/fonts-f500) `1.0-5` - Wipeout 3 Font
 * [fonts-fanwood](https://packages.debian.org/stretch/fonts-fanwood) `1.1-3` - font similar to the Fairfield font
-* [fonts-lato](https://packages.debian.org/stretch/fonts-lato) `2.0-1` - sans-serif typeface family font
 * [fonts-dancingscript](https://packages.debian.org/stretch/fonts-dancingscript) `1.2-1` - lively casual script with bouncing letters and size changes
 * [fonts-cabinsketch](https://packages.debian.org/stretch/fonts-cabinsketch) `1.02-2` - playful sister of the Cabin font family
 * [fonts-lobster](https://packages.debian.org/stretch/fonts-lobster) `2.0-2` - bold condensed script with many ligatures and alternates
@@ -67,12 +66,17 @@ Superscript.
 * [fonts-ubuntu-title](https://packages.debian.org/stretch/fonts-ubuntu-title) `1:0.3-2` - font used to create the Ubuntu logo (2004??2010)
 * [fonts-knda](https://packages.debian.org/stretch/fonts-knda) `2:1.2` - Meta package for Kannada fonts
 * [xfonts-terminus](https://packages.debian.org/stretch/xfonts-terminus) `4.40-2` - Fixed-width fonts for fast reading
-* [fonts-opensymbol](https://packages.debian.org/stretch/fonts-opensymbol) `2:102.7+LibO5.2.7-1+deb9u2` - OpenSymbol TrueType font
+* [fonts-opensymbol](https://packages.debian.org/stretch/fonts-opensymbol) `2:102.7+LibO5.2.7-1+deb9u4` - OpenSymbol TrueType font
 * [fonts-roboto](https://packages.debian.org/stretch/fonts-roboto) `2:0~20160106-2` - metapackage to pull in Roboto fonts
 * [fonts-averia-gwf](https://packages.debian.org/stretch/fonts-averia-gwf) `1.00-3` - Aver?a GWF font family
 * [ttf-mscorefonts-installer](https://packages.debian.org/stretch/ttf-mscorefonts-installer) `3.6` - Installer for Microsoft TrueType core fonts
 * [fonts-freefont-ttf](https://packages.debian.org/stretch/fonts-freefont-ttf) `20120503-6` - Freefont Serif, Sans and Mono Truetype fonts
 * [fonts-hack-ttf](https://packages.debian.org/stretch/fonts-hack-ttf) `2.020-1` - Typeface designed for source code, TrueType fonts
+* [fonts-crosextra-caladea](https://packages.debian.org/stretch/fonts-crosextra-caladea) `20130214-1` - Sans-serif font metric-compatible with Cambria font
+* [fonts-crosextra-carlito](https://packages.debian.org/stretch/fonts-crosextra-carlito) `20130920-1` - Sans-serif font metric-compatible with Calibri font
+* [fonts-linuxlibertine](https://packages.debian.org/stretch/fonts-linuxlibertine) `5.3.0-2` - Linux Libertine family of fonts
+* [fonts-sil-gentium-basic](https://packages.debian.org/stretch/fonts-sil-gentium-basic) `1.1-7` - smart Unicode font families (Basic and Book Basic) based on Gentium
 
 ### Related packages
 
+ * [fonts-lato](https://packages.debian.org/stretch/fonts-lato) sans-serif typeface family font

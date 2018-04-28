@@ -9,7 +9,6 @@ removing or updating software packages.
  - [Fonts](packages/desktop-fonts.list.chroot.md)
  - [GNOME calculator](packages/desktop-calculator-gnome-calculator.list.chroot.md)
  - [Homebank personal finance manager](packages/desktop-finance-manager-homebank.list.chroot.md)
- - [LibreCAD CAD editor](packages/desktop-cad-editor-librecad.list.chroot.md)
  - [LibreOffice office suite](packages/desktop-office-libreoffice.list.chroot.md)
  - [Mousepad text editor](packages/desktop-text-editor-mousepad.list.chroot.md)
  - [PDFChain PDF editor](packages/desktop-pdfeditor-pdfchain.list.chroot.md)
@@ -65,10 +64,9 @@ removing or updating software packages.
  - [GNOME character map](packages/desktop-character-map-gucharmap.list.chroot.md)
  - [GTK-RecordMyDesktop screen recorder](packages/desktop-screen-recorder-gtk-recordmydesktop.list.chroot.md)
  - [KeepassX password manager](packages/desktop-password-manager-keepassx.list.chroot.md)
- - [Kupfer launcher](packages/desktop-launcher-kupfer.list.chroot.md)
+ - [Marble map viewer](packages/desktop-science-cartography.list.chroot.md)
  - [Mousepad text editor](packages/desktop-text-editor-mousepad.list.chroot.md)
  - [Redshift color temperature manager](packages/desktop-redshift.list.chroot.md)
- - [Science and cartography tools](packages/desktop-science-cartography.list.chroot.md)
  - [Screenruler](packages/desktop-screenruler.list.chroot.md)
  - [Thunar file manager](packages/desktop-file-manager-thunar.list.chroot.md)
  - [WINE/PlayOnLinux Windows compatibility layer](packages/desktop-wine-playonlinux.list.chroot.md)
@@ -91,6 +89,7 @@ removing or updating software packages.
  - [Disk utilities (graphical)](packages/desktop-disk-utilities.list.chroot.md)
  - [Free/Libre firmwares](packages/system-firmwares.list.chroot.md)
  - [GNOME system log viewer](packages/desktop-system-log-viewer.list.chroot.md)
+ - [KVM/libvirt/virt-manager virtualization platform](packages/desktop-virtualization-virtmanager-kvm.list.chroot.md)
  - [Language support: English](packages/system-localization-english.list.chroot.md)
  - [Language support: French](packages/system-localization-french.list.chroot.md)
  - [Light-locker screen locker](packages/desktop-screen-locker-light-locker.list.chroot.md)
@@ -102,10 +101,9 @@ removing or updating software packages.
  - [Plymouth boot screen](packages/desktop-bootscreen-plymouth.list.chroot.md)
  - [Power management utilities](packages/system-power-management.list.chroot.md)
  - [UFW firewall manager](packages/desktop-system-firewall-management-ufw.list.chroot.md)
- - [VirtualBox virtualization solution](packages/desktop-virtualization-virtualbox.list.chroot.md)
  - [Xfce4 task manager](packages/desktop-taskmanager-xfce4.list.chroot.md)
  - [Xorg display server](packages/desktop-system-display-server-xorg.list.chroot.md)
 
 ### Non-debian packages
 * []() - 
-* []() - 
+* [webtorrent-desktop](https://webtorrent.io) -  WebTorrent, the streaming torrent client. For Mac, Windows, and Linux.

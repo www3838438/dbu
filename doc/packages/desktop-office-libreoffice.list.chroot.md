@@ -138,25 +138,25 @@ packages:
 
 ### Installed packages
 
-* [libreoffice](https://packages.debian.org/stretch/libreoffice) `1:5.2.7-1+deb9u2` - office productivity suite (metapackage)
-* [libreoffice-writer](https://packages.debian.org/stretch/libreoffice-writer) `1:5.2.7-1+deb9u2` - office productivity suite -- word processor
-* [libreoffice-impress](https://packages.debian.org/stretch/libreoffice-impress) `1:5.2.7-1+deb9u2` - office productivity suite -- presentation
-* [libreoffice-draw](https://packages.debian.org/stretch/libreoffice-draw) `1:5.2.7-1+deb9u2` - office productivity suite -- drawing
-* [libreoffice-calc](https://packages.debian.org/stretch/libreoffice-calc) `1:5.2.7-1+deb9u2` - office productivity suite -- spreadsheet
-* [libreoffice-base](https://packages.debian.org/stretch/libreoffice-base) `1:5.2.7-1+deb9u2` - office productivity suite -- database
-* [libreoffice-gtk](https://packages.debian.org/stretch/libreoffice-gtk) `1:5.2.7-1+deb9u2` - transitional package to upgrade to libreoffice-gtk2/-systray
-* [libreoffice-gtk3](https://packages.debian.org/stretch/libreoffice-gtk3) `1:5.2.7-1+deb9u2` - office productivity suite -- GTK+ 3 integration
-* [libreoffice-style-tango](https://packages.debian.org/stretch/libreoffice-style-tango) `1:5.2.7-1+deb9u2` - office productivity suite -- Tango symbol style
-* [libreoffice-pdfimport](https://packages.debian.org/stretch/libreoffice-pdfimport) `1:5.2.7-1+deb9u2` - transitional package for PDF Import component for LibreOffice
-* [libreoffice-java-common](https://packages.debian.org/stretch/libreoffice-java-common) `1:5.2.7-1+deb9u2` - office productivity suite -- arch-independent Java support files
-* [libreoffice-gnome](https://packages.debian.org/stretch/libreoffice-gnome) `1:5.2.7-1+deb9u2` - office productivity suite -- GNOME integration
-* [libreoffice-avmedia-backend-gstreamer](https://packages.debian.org/stretch/libreoffice-avmedia-backend-gstreamer) `1:5.2.7-1+deb9u2` - GStreamer backend for LibreOffice
-* [libreoffice-avmedia-backend-vlc](https://packages.debian.org/stretch/libreoffice-avmedia-backend-vlc) `1:5.2.7-1+deb9u2` - VLC backend for LibreOffice
+* [libreoffice](https://packages.debian.org/stretch/libreoffice) `1:5.2.7-1+deb9u4` - office productivity suite (metapackage)
+* [libreoffice-writer](https://packages.debian.org/stretch/libreoffice-writer) `1:5.2.7-1+deb9u4` - office productivity suite -- word processor
+* [libreoffice-impress](https://packages.debian.org/stretch/libreoffice-impress) `1:5.2.7-1+deb9u4` - office productivity suite -- presentation
+* [libreoffice-draw](https://packages.debian.org/stretch/libreoffice-draw) `1:5.2.7-1+deb9u4` - office productivity suite -- drawing
+* [libreoffice-calc](https://packages.debian.org/stretch/libreoffice-calc) `1:5.2.7-1+deb9u4` - office productivity suite -- spreadsheet
+* [libreoffice-base](https://packages.debian.org/stretch/libreoffice-base) `1:5.2.7-1+deb9u4` - office productivity suite -- database
+* [libreoffice-gtk](https://packages.debian.org/stretch/libreoffice-gtk) `1:5.2.7-1+deb9u4` - transitional package to upgrade to libreoffice-gtk2/-systray
+* [libreoffice-gtk3](https://packages.debian.org/stretch/libreoffice-gtk3) `1:5.2.7-1+deb9u4` - office productivity suite -- GTK+ 3 integration
+* [libreoffice-style-tango](https://packages.debian.org/stretch/libreoffice-style-tango) `1:5.2.7-1+deb9u4` - office productivity suite -- Tango symbol style
+* [libreoffice-pdfimport](https://packages.debian.org/stretch/libreoffice-pdfimport) `1:5.2.7-1+deb9u4` - transitional package for PDF Import component for LibreOffice
+* [libreoffice-java-common](https://packages.debian.org/stretch/libreoffice-java-common) `1:5.2.7-1+deb9u4` - office productivity suite -- arch-independent Java support files
+* [libreoffice-gnome](https://packages.debian.org/stretch/libreoffice-gnome) `1:5.2.7-1+deb9u4` - office productivity suite -- GNOME integration
+* [libreoffice-avmedia-backend-gstreamer](https://packages.debian.org/stretch/libreoffice-avmedia-backend-gstreamer) `1:5.2.7-1+deb9u4` - GStreamer backend for LibreOffice
+* [libreoffice-avmedia-backend-vlc](https://packages.debian.org/stretch/libreoffice-avmedia-backend-vlc) `1:5.2.7-1+deb9u4` - VLC backend for LibreOffice
 * [libwmf-bin](https://packages.debian.org/stretch/libwmf-bin) `0.2.8.4-10.6` - Windows metafile conversion tools
 * [hyphen-fr](https://packages.debian.org/stretch/hyphen-fr) `1:5.2.5-1` - French hyphenation patterns
-* [libreoffice-l10n-fr](https://packages.debian.org/stretch/libreoffice-l10n-fr) `1:5.2.7-1+deb9u2` - office productivity suite -- French language package
+* [libreoffice-l10n-fr](https://packages.debian.org/stretch/libreoffice-l10n-fr) `1:5.2.7-1+deb9u4` - office productivity suite -- French language package
 * [mythes-fr](https://packages.debian.org/stretch/mythes-fr) `1:5.2.5-1` - French Thesaurus for LibreOffice
-* [libreoffice-help-fr](https://packages.debian.org/stretch/libreoffice-help-fr) `1:5.2.7-1+deb9u2` - office productivity suite -- French help
+* [libreoffice-help-fr](https://packages.debian.org/stretch/libreoffice-help-fr) `1:5.2.7-1+deb9u4` - office productivity suite -- French help
 
 ### Related packages
 

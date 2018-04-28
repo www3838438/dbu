@@ -36,7 +36,7 @@
 * [xmlstarlet](https://packages.debian.org/stretch/xmlstarlet) `1.6.1-2` - command line XML toolkit
 * [aha](https://packages.debian.org/stretch/aha) `0.4.10.3-1` - ANSI color to HTML converter
 * [groff](https://packages.debian.org/stretch/groff) `1.22.3-9` - GNU troff text-formatting system
-* [debhelper](https://packages.debian.org/stretch/debhelper) `10.2.5` - helper programs for debian/rules
+* [debhelper](https://packages.debian.org/stretch/debhelper) `11.1.6~bpo9+1` - helper programs for debian/rules
 * [autoconf](https://packages.debian.org/stretch/autoconf) `2.69-10` - automatic configure script builder
 * [devscripts](https://packages.debian.org/stretch/devscripts) `2.17.6+deb9u1` - scripts to make the life of a Debian Package maintainer easier
 * [dh-make](https://packages.debian.org/stretch/dh-make) `2.201608` - tool that converts source archives into Debian package source
@@ -61,12 +61,8 @@
 * [python-praw](https://packages.debian.org/stretch/python-praw) `3.3.0-1` - Python Reddit API Wrapper (Python 2 version)
 * [python-tox](https://packages.debian.org/stretch/python-tox) `2.5.0-1` - transitional dummy package for tox
 * [live-build](https://packages.debian.org/stretch/live-build) `1:20170213` - Live System Build Components
-* [live-config-doc](https://packages.debian.org/stretch/live-config-doc) `5.20170112+deb9u1` - Live System Configuration Components (documentation)
-* [live-manual-pdf](https://packages.debian.org/stretch/live-manual-pdf) `2:20151217.1` - Live Systems Documentation (pdf)
-* [live-manual-html](https://packages.debian.org/stretch/live-manual-html) `2:20151217.1` - Live Systems Documentation (html)
 * [debootstrap](https://packages.debian.org/stretch/debootstrap) `1.0.89` - Bootstrap a basic Debian system
 * [live-images](https://packages.debian.org/stretch/live-images) `5.0~a5-2` - Live System Image Components (metapackage)
-* [debian-handbook](https://packages.debian.org/stretch/debian-handbook) `8.20170125` - reference book for Debian users and system administrators
 * [rubygems](https://packages.debian.org/stretch/rubygems) `(none)` - 
 * [ruby-dev](https://packages.debian.org/stretch/ruby-dev) `1:2.3.3` - Header files for compiling extension modules for Ruby (default version)
 * [csstidy](https://packages.debian.org/stretch/csstidy) `1.4-5` - CSS parser and optimiser
@@ -90,6 +86,10 @@
  * [undistract-me](https://packages.debian.org/stretch/undistract-me) Notifies user when long-running terminal commands complete via libnotify
  * [man2html-base](https://packages.debian.org/stretch/man2html-base) convert man pages into HTML format
  * [txt2tags](https://packages.debian.org/stretch/txt2tags) conversion tool to generating several file formats
+ * [live-config-doc](https://packages.debian.org/stretch/live-config-doc) Live System Configuration Components (documentation)
+ * [live-manual-pdf](https://packages.debian.org/stretch/live-manual-pdf) Live Systems Documentation (pdf)
+ * [live-manual-html](https://packages.debian.org/stretch/live-manual-html) Live Systems Documentation (html)
+ * [debian-handbook](https://packages.debian.org/stretch/debian-handbook) reference book for Debian users and system administrators
  * [blends-tasks](https://packages.debian.org/stretch/blends-tasks) Debian Pure Blends tasks for new installations
  * [live-task-lxde](https://packages.debian.org/stretch/live-task-lxde) Live environment support for Lxde
  * [live-task-base](https://packages.debian.org/stretch/live-task-base) Live base environment support
