@@ -186,14 +186,14 @@ download_thunderbird_addons:
 # Adding .deb packages downloaded via HTTP is NOT recommended.
 WGETPACKAGES := wget -N -nv --show-progress -P config/packages.chroot/
 download_packageschroot:
-	-mkdir -pv config/packages.chroot
+	if [ ! -d config/packages.chroot ]; then mkdir -p config/packages.chroot; fi
 	# https://github.com/feross/webtorrent-desktop/
 	-$(WGETPACKAGES) https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
 
 # Download prebuilt binaries for unpackaged software
 download_binaries:
 	# https://github.com/EionRobb/pidgin-opensteamworks/
-	mkdir -pv config/includes.chroot/usr/lib/purple-2/
+	if [ ! -d config/includes.chroot/usr/lib/purple-2/ ]; then mkdir -p config/includes.chroot/usr/lib/purple-2/; fi
 	wget -N -nv --show-progress -P config/includes.chroot/usr/lib/purple-2/ \
 		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so \
 		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
@@ -205,7 +205,8 @@ firefox_addons_dir=config/includes.chroot/usr/share/firefox-esr/distribution/ext
 # Addons path (release/nightly)
 #firefox_addons_dir=config/includes.chroot/usr/share/firefox/distribution/extensions/
 rename_firefox_xpi:
-	rm $(firefox_addons_dir)/*.xpi
+	-rm $(firefox_addons_dir)/*.xpi
+	if [ ! -d $(firefox_addons_dir) ]; then mkdir -p $(firefox_addons_dir); fi
 	@for xpi in $$(find $(download_dir) -name '*.xpi'); do \
 	extid=$$(./scripts/get-xul-extension-id.sh "$$xpi"); \
 	echo "$$xpi - $$extid"; \
