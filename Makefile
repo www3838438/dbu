@@ -53,24 +53,21 @@ sign:
 #########################################
 
 # Download Firefox addons
-# Addons path (Firefox ESR)
-download_firefox_addonsdir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
-# Addons path (release/nightly)
-#addonsdir=config/includes.chroot/usr/share/firefox/distribution/extensions/
+download_dir=cache/firefox_addons/
 download_firefox_addons:
-	if [ ! -d $(download_firefox_addonsdir) ]; then mkdir -p $(download_firefox_addonsdir); fi
+	if [ ! -d $(download_dir) ]; then mkdir -p $(download_dir); fi
 	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/ [e10s] [security]
-	wget -N -nv --show-progress -P $(download_firefox_addonsdir) https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
+	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/ [e10s] [security]
-	wget -N -nv --show-progress -P $(download_firefox_addonsdir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
+	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/ [e10s] [security]
-	wget -N -nv --show-progress -P $(download_firefox_addonsdir) https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
+	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/ [e10s] [security] [FF52ESR]
-	wget -N -nv --show-progress -P $(download_firefox_addonsdir) https://addons.mozilla.org/firefox/downloads/file/710414/decentraleyes-1.3.10-an+fx+sm.xpi
+	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/file/710414/decentraleyes-1.3.10-an+fx+sm.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/ [security]
-	wget -N -nv --show-progress -P $(download_firefox_addonsdir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
+	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ [security] [FF52ESR]
-	wget -N -nv --show-progress -P $(download_firefox_addonsdir) https://addons.mozilla.org/firefox/downloads/file/717459/cookie_autodelete-1.4.4-an+fx.xpi
+	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/file/717459/cookie_autodelete-1.4.4-an+fx.xpi
 	#
 	# Other addons:
 	# https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/ [webextension] [ui]
@@ -203,11 +200,16 @@ download_binaries:
 
 ##################################################################
 # Rename downloaded XPIs from their ID
+# Addons path (Firefox ESR)
+firefox_addons_dir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
+# Addons path (release/nightly)
+#firefox_addons_dir=config/includes.chroot/usr/share/firefox/distribution/extensions/
 rename_firefox_xpi:
-	@for xpi in $$(find $(download_firefox_addonsdir) -name '*.xpi'); do \
+	rm $(firefox_addons_dir)/*.xpi
+	@for xpi in $$(find $(download_dir) -name '*.xpi'); do \
 	extid=$$(./scripts/get-xul-extension-id.sh "$$xpi"); \
 	echo "$$xpi - $$extid"; \
-	mv "$$xpi" $(download_firefox_addonsdir)/"$$extid".xpi ; \
+	cp "$$xpi" $(firefox_addons_dir)/"$$extid".xpi ; \
 	done
 
 rename_thunderbird_xpi:
