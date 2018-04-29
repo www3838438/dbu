@@ -27,7 +27,6 @@ pwgen
 # File management
 cfv
 jdupes
-ranger
 secure-delete
 trash-cli
 tree
@@ -132,21 +131,20 @@ sox
 ffmpeg
 mediainfo
 media-player-info
-moc
-moc-ffmpeg-plugin
 subliminal
 
+#Alt: moc
+#Alt: moc-ffmpeg-plugin
 #Alt: mpg123
 #Alt: oggvideotools
-#mp3splt #buster only
-# jessie without backports
 #Alt: libav-tools
 #Alt: go-mtpfs
+#mp3splt #buster only
 
 # Media download
 youtube-dl
-livestreamer
 ffmpeg
+livestreamer
 
 #Alt: get-flash-videos
 #Alt: mps-youtube

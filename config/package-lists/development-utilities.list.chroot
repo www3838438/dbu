@@ -70,18 +70,20 @@ git-buildpackage
 gdb
 
 # Python dev
-python-setuptools
-python-virtualenv
-virtualenv
-python3-venv
 python-all-dev
 python-demjson
-python-stdeb
-python3-wheel
 python-libtorrent
-pypi2deb
-python-praw
+python-setuptools
+python-stdeb
 python-tox
+python-virtualenv
+python3-wheel
+python3-pip
+python3-venv
+pypi2deb
+virtualenv
+
+#Alt: python-praw
 
 # Live system/debian
 live-build
@@ -115,4 +117,5 @@ sqlite3
 webcheck
 #php-cli
 vera
+ranger
 
