@@ -38,6 +38,12 @@ function psg { #find processes
     ps -fp $(pgrep -f "$@")
 }
 
+function alert { # run alert <command> to get a visible red/green return status for the command
+    $@
+    if [[ $? == 0 ]]; then color="32"; msg="OK"; else color="31"; msg="ERROR"; fi
+    for line in $(seq 1 10); do echo -e "\033[01;${color}m||||||||||||||| $msg |||||||||||||||\033[01;37m"; done
+}
+
 #aliases for going up multiple directories
 alias .1='cd ../'
 alias .2='cd ../../'
