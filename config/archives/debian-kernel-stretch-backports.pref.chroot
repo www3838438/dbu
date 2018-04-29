@@ -6,6 +6,10 @@ Package: linux-headers-*
 Pin: release n=stretch-backports
 Pin-Priority: 600
 
+Package: linux-compiler-gcc-6-x86
+Pin: release n=stretch-backports
+Pin-Priority: 600
+
 Package: firmware-*
 Pin: release n=stretch-backports
 Pin-Priority: 600
