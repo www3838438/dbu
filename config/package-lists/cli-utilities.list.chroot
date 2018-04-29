@@ -188,6 +188,7 @@ bridge-utils
 ethtool
 curl
 wget
+git
 rsync
 transmission-cli
 elinks
