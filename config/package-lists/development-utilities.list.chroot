@@ -54,6 +54,7 @@ groff
 
 #Alt: man2html-base
 #Alt: txt2tags
+#Alt: mkdocs
 
 # Packaging/C
 debhelper
@@ -118,4 +119,60 @@ webcheck
 #php-cli
 vera
 ranger
+
+#fswatch #buster only
+#Alt: snapd
+#Alt: fossil
+#Alt: aptly
+#Alt: apt-listbugs
+#Alt: vagrant
+#Alt: hexcurse
+#Alt: dhex
+#Alt: icdiff
+#Alt: lolcat
+#Alt: randtype
+#Alt: reglookup
+#Alt: roffit
+#Alt: bless
+#Alt: since
+#Alt: jsbeautifier
+#Alt: adb
+#Alt: android-sdk
+#Alt: android-sdk-platform-tools-common
+#Alt: fastboot
+#Alt: android-tools-fastboot
+#Alt: gplaycli
+#Alt: python-ndg-httpsclient
+#Alt: gperf
+#Alt: dgit
+#Alt: mdp
+#Alt: incron
+#Alt: faker
+#Alt: debian-cd libfile-fcntllock-perl libalgorithm-merge-perl
+#Alt: rinse
+#Alt: etckeeper
+
+# Image manipulation
+
+imagemagick
+optipng
+advancecomp
+jpegoptim
+pngcrush
+exifprobe
+findimagedupes
+librsvg2-bin
+figlet
+toilet
+
+#Alt: scrot
+#Alt: caca-utils
+#Alt: phatch
+#Alt: converseen
+#Alt: fbi
+#Alt: gifsicle
+#Alt: jp2a
+#Alt: pecomato
+#Alt: aview
+#Alt: fgallery liblcms2-utils
 

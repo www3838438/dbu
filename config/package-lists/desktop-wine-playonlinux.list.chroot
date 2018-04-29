@@ -1,4 +1,5 @@
 #Name: WINE/PlayOnLinux Windows compatibility layer
+#Cat: Utility
 #Desc: playonlinux
 #Desc: wine
 #Screenshot: playonlinux
@@ -12,13 +13,6 @@ wine64
 wine32:i386
 libgl1-mesa-dri:i386
 #endif
-
-
-#Cat: Utility
-
-
-
-
 
 #Alt: gnome-exe-thumbnailer
 #Alt: fonts-wine

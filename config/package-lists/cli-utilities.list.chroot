@@ -59,39 +59,6 @@ nrg2iso
 
 #Alt: p7zip-rar
 
-#fswatch #buster only
-#Alt: snapd
-#Alt: fossil
-#Alt: aptly
-#Alt: apt-listbugs
-#Alt: vagrant
-#Alt: hexcurse
-#Alt: dhex
-#Alt: icdiff
-#Alt: lolcat
-#Alt: mkdocs
-#Alt: randtype
-#Alt: reglookup
-#Alt: roffit
-#Alt: bless
-#Alt: since
-#Alt: jsbeautifier
-#Alt: adb
-#Alt: android-sdk
-#Alt: android-sdk-platform-tools-common
-#Alt: fastboot
-#Alt: android-tools-fastboot
-#Alt: gplaycli
-#Alt: python-ndg-httpsclient
-#Alt: gperf
-#Alt: dgit
-#Alt: mdp
-#Alt: incron
-#Alt: faker
-#Alt: debian-cd libfile-fcntllock-perl libalgorithm-merge-perl
-#Alt: rinse
-#Alt: etckeeper
-
 # Disk management
 dosfstools
 hfsprogs
@@ -131,7 +98,6 @@ sox
 ffmpeg
 mediainfo
 media-player-info
-subliminal
 
 #Alt: moc
 #Alt: moc-ffmpeg-plugin
@@ -145,6 +111,7 @@ subliminal
 youtube-dl
 ffmpeg
 livestreamer
+subliminal
 
 #Alt: get-flash-videos
 #Alt: mps-youtube
@@ -154,31 +121,6 @@ livestreamer
 #Alt: libav-tools
 #Alt: minitube
 #Alt: smtube
-
-# Image manipulation
-
-imagemagick
-optipng
-advancecomp
-jpegoptim
-pngcrush
-exifprobe
-findimagedupes
-librsvg2-bin
-figlet
-toilet
-
-#Alt: scrot
-#Alt: caca-utils
-#Alt: phatch
-#Alt: converseen
-#Alt: fbi
-#Alt: gifsicle
-#Alt: jp2a
-#Alt: pecomato
-#Alt: aview
-#Alt: fgallery liblcms2-utils
-
 
 # Networking
 hostname
@@ -233,7 +175,6 @@ debsums
 #Alt: usbview
 #Alt: stress
 #Alt: stressapptest
-
 #Alt: lshw
 #Alt: lshw-gtk
 #Alt: bonnie++

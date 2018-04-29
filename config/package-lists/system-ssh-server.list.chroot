@@ -10,9 +10,11 @@ openssh-server
 #Alt: vino
 
 #Mouse/keyboard sharing (disabled)
+##Screenshot: quicksynergy
+#Alt: quicksynergy
 #Alt: synergy
 
-# Remote access/remote desktop clients (disabled - use command-line ssh/thunar)
+# Remote access/remote desktop clients (disabled - use command-line ssh)
 ##Screenshot: remmina
 #Alt: remmina
 #Alt: remmina-plugin-gnome
@@ -24,4 +26,3 @@ openssh-server
 #Alt: libfreerdp-plugins-standard
 #Alt: xpra
 #Alt: vinagre
-
