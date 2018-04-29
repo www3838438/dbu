@@ -24,7 +24,7 @@ lb config noauto \
 --firmware-chroot true \
 --initramfs live-boot \
 --iso-publisher dbu \
---iso-volume dbu-1.4 \
+--iso-volume dbu-1.5 \
 --linux-packages "linux-image linux-headers" \
 --bootappend-live "boot=live config" \
 --memtest memtest86+ \

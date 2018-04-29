@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [v1.5](https://github.com/nodiscc/dbu/releases/tag/1.5) - UNRELEASED
+
+### Added
+
+ * Packages: add traceroute, localepurge (remove unused translations), manpages, manpages-dev, transmission-cli
+ * Transmission: on download completion, copy the original .torrent file to the download directory (script in /usr/share/transmission/)
+ * Add default configuration for liferea, xfce4-notes, update retext default config
+ * Add 'sortclipboard' bash alias (sort the X clipboard)
+
+### Changed
+
+ * Replace xfce applications menu with whiskermenu plugins, update default configuration
+ * Replace virtualbox with KVM/libvirt/virt-manager based setup (level 1 hypervisor, much better performance)
+ * Firewall policies "Low" and "High" are available in GUFW
+  * "Low" policy allows any output, and incoming samba/avahi connections from LAN 192.168.1.0/24
+  * "High" policy only allows output on secure protocols + DNS, and blocks the rest
+ * Update documentation
+ * Cleanup, improve tools and output
+
+### Removed
+
+ * Packages: Remove all game console emulators excep pcsxr and zsnes
+ * Packages: Remove 11 default fonts (save disk space)
+
+### Fixed
+
+ * Fixed qemu-utils package name
+ * Fixed iso signing procedure
+ * Fix live-build hooks
+ * Fix bootloader menu templates
+ * Fix some bash aliases
+
+<!--
+### Security
+### Deprecated
+-->
+
+
 ## [v1.4](https://github.com/nodiscc/dbu/releases/tag/1.4) - 2018-03-05
 
 ### Added
@@ -42,6 +80,7 @@ Other changes to default Debian installation:
  - see the [commit log](https://github.com/nodiscc/dbu/commits) and git repository contents for more details.
 
 <!--
+### Added
 ### Changed
 ### Removed
 ### Fixed
