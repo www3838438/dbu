@@ -6,7 +6,7 @@ Package: linux-headers-*
 Pin: release n=stretch-backports
 Pin-Priority: 600
 
-Package: firmware-linux-*
+Package: firmware-*
 Pin: release n=stretch-backports
 Pin-Priority: 600
 
