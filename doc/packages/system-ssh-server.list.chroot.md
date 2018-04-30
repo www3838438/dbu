@@ -39,6 +39,7 @@ purposes.
 ### Related packages
 
  * [vino](https://packages.debian.org/stretch/vino) VNC server for GNOME
+ * [quicksynergy](https://packages.debian.org/stretch/quicksynergy) GUI for easy configuration of Synergy
  * [synergy](https://packages.debian.org/stretch/synergy) Share mouse, keyboard and clipboard over the network
  * [remmina](https://packages.debian.org/stretch/remmina) GTK+ Remote Desktop Client
  * [remmina-plugin-gnome](https://packages.debian.org/stretch/remmina-plugin-gnome) 

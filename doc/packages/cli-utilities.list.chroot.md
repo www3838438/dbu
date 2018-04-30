@@ -18,7 +18,6 @@
 * [pwgen](https://packages.debian.org/stretch/pwgen) `2.07-1.1+b1` - Automatic Password generation
 * [cfv](https://packages.debian.org/stretch/cfv) `1.18.3-2` - versatile file checksum creator and verifier
 * [jdupes](https://packages.debian.org/stretch/jdupes) `1.7-2` - identify and delete or link duplicate files
-* [ranger](https://packages.debian.org/stretch/ranger) `1.7.1-1` - File manager with an ncurses frontend written in Python
 * [secure-delete](https://packages.debian.org/stretch/secure-delete) `3.1-6` - tools to wipe files, free disk space, swap and memory
 * [trash-cli](https://packages.debian.org/stretch/trash-cli) `0.12.9.14-2.1` - command line trashcan utility
 * [tree](https://packages.debian.org/stretch/tree) `1.7.0-5` - displays an indented directory tree, in color
@@ -61,27 +60,16 @@
 * [ffmpeg](https://packages.debian.org/stretch/ffmpeg) `7:3.2.10-1~deb9u1` - Tools for transcoding, streaming and playing of multimedia files
 * [mediainfo](https://packages.debian.org/stretch/mediainfo) `0.7.91-1` - command-line utility for reading information from audio/video files
 * [media-player-info](https://packages.debian.org/stretch/media-player-info) `22-3` - Media player identification files
-* [moc](https://packages.debian.org/stretch/moc) `1:2.6.0~svn-r2935-1` - ncurses based console audio player
-* [moc-ffmpeg-plugin](https://packages.debian.org/stretch/moc-ffmpeg-plugin) `1:2.6.0~svn-r2935-1` - ncurses based console audio player - ffmpeg plugin
-* [subliminal](https://packages.debian.org/stretch/subliminal) `1.1.1-2` - Command-line tool to search and download subtitles
 * [youtube-dl](https://packages.debian.org/stretch/youtube-dl) `2017.05.18.1-1` - downloader of videos from YouTube and other sites
-* [livestreamer](https://packages.debian.org/stretch/livestreamer) `1.12.2-1` - transitional package - streamlink
 * [ffmpeg](https://packages.debian.org/stretch/ffmpeg) `7:3.2.10-1~deb9u1` - Tools for transcoding, streaming and playing of multimedia files
-* [imagemagick](https://packages.debian.org/stretch/imagemagick) `8:6.9.7.4+dfsg-11+deb9u4` - image manipulation programs -- binaries
-* [optipng](https://packages.debian.org/stretch/optipng) `0.7.6-1+deb9u1` - advanced PNG (Portable Network Graphics) optimizer
-* [advancecomp](https://packages.debian.org/stretch/advancecomp) `1.20-1` - collection of recompression utilities
-* [jpegoptim](https://packages.debian.org/stretch/jpegoptim) `1.4.4-1+b1` - utility to optimize jpeg files
-* [pngcrush](https://packages.debian.org/stretch/pngcrush) `1.7.85-1+b2` - optimizes PNG (Portable Network Graphics) files
-* [exifprobe](https://packages.debian.org/stretch/exifprobe) `2.0.1-11` - read metadata from digital pictures
-* [findimagedupes](https://packages.debian.org/stretch/findimagedupes) `2.18-6+b2` - Finds visually similar or duplicate images
-* [librsvg2-bin](https://packages.debian.org/stretch/librsvg2-bin) `2.40.16-1+b1` - command-line and graphical viewers for SVG files
-* [figlet](https://packages.debian.org/stretch/figlet) `2.2.5-2+b1` - Make large character ASCII banners out of ordinary text
-* [toilet](https://packages.debian.org/stretch/toilet) `0.3-1.1` - display large colourful characters in text mode
+* [livestreamer](https://packages.debian.org/stretch/livestreamer) `1.12.2-1` - transitional package - streamlink
+* [subliminal](https://packages.debian.org/stretch/subliminal) `1.1.1-2` - Command-line tool to search and download subtitles
 * [hostname](https://packages.debian.org/stretch/hostname) `3.18+b1` - utility to set/show the host name or domain name
 * [bridge-utils](https://packages.debian.org/stretch/bridge-utils) `1.5-13+deb9u1` - Utilities for configuring the Linux Ethernet bridge
 * [ethtool](https://packages.debian.org/stretch/ethtool) `1:4.8-1+b1` - display or change Ethernet device settings
 * [curl](https://packages.debian.org/stretch/curl) `7.52.1-5+deb9u5` - command line tool for transferring data with URL syntax
 * [wget](https://packages.debian.org/stretch/wget) `1.18-5+deb9u1` - retrieves files from the web
+* [git](https://packages.debian.org/stretch/git) `1:2.11.0-3+deb9u2` - fast, scalable, distributed revision control system
 * [rsync](https://packages.debian.org/stretch/rsync) `3.1.2-1+deb9u1` - fast, versatile, remote (and local) file-copying tool
 * [transmission-cli](https://packages.debian.org/stretch/transmission-cli) `2.92-2+deb9u1` - lightweight BitTorrent client (command line programs)
 * [elinks](https://packages.debian.org/stretch/elinks) `0.12~pre6-12` - advanced text-mode WWW browser
@@ -134,39 +122,6 @@
  * [mmv](https://packages.debian.org/stretch/mmv) Move/Copy/Append/Link multiple files
  * [hardlink](https://packages.debian.org/stretch/hardlink) Hardlinks multiple copies of the same file
  * [p7zip-rar](https://packages.debian.org/stretch/p7zip-rar) non-free rar module for p7zip
- * [snapd](https://packages.debian.org/stretch/snapd) Tool to interact with Ubuntu Core Snappy.
- * [fossil](https://packages.debian.org/stretch/fossil) DSCM with built-in wiki, http interface and server, tickets database
- * [aptly](https://packages.debian.org/stretch/aptly) Swiss army knife for Debian repository management
- * [apt-listbugs](https://packages.debian.org/stretch/apt-listbugs) tool which lists critical bugs before each APT installation
- * [vagrant](https://packages.debian.org/stretch/vagrant) Tool for building and distributing virtualized development environments
- * [hexcurse](https://packages.debian.org/stretch/hexcurse) Ncurses-based hex editor with many features
- * [dhex](https://packages.debian.org/stretch/dhex) ncurses based hex editor with diff mode
- * [icdiff](https://packages.debian.org/stretch/icdiff) terminal side-by-side colorized word diff
- * [lolcat](https://packages.debian.org/stretch/lolcat) colorful `cat`
- * [mkdocs](https://packages.debian.org/stretch/mkdocs) Static site generator geared towards building project documentation
- * [randtype](https://packages.debian.org/stretch/randtype) semi-random text typer
- * [reglookup](https://packages.debian.org/stretch/reglookup) utility to analysis for Windows NT-based registry
- * [roffit](https://packages.debian.org/stretch/roffit) convert nroff manual pages into HTML
- * [bless](https://packages.debian.org/stretch/bless) A full featured hexadecimal editor
- * [since](https://packages.debian.org/stretch/since) tail(1) work-alike that saves and uses state information
- * [jsbeautifier](https://packages.debian.org/stretch/jsbeautifier) JavaScript unobfuscator and beautifier
- * [adb](https://packages.debian.org/stretch/adb) Android Debug Bridge
- * [android-sdk](https://packages.debian.org/stretch/android-sdk) Software development kit for Android platform
- * [android-sdk-platform-tools-common](https://packages.debian.org/stretch/android-sdk-platform-tools-common) Tools for interacting with an Android platform - Common files
- * [fastboot](https://packages.debian.org/stretch/fastboot) Android fastboot tool
- * [android-tools-fastboot](https://packages.debian.org/stretch/android-tools-fastboot) transitional package
- * [gplaycli](https://packages.debian.org/stretch/gplaycli) Google Play downloader command line interface
- * [python-ndg-httpsclient](https://packages.debian.org/stretch/python-ndg-httpsclient) enhanced HTTPS support for httplib and urllib2 using PyOpenSSL for Python2
- * [gperf](https://packages.debian.org/stretch/gperf) Perfect hash function generator
- * [dgit](https://packages.debian.org/stretch/dgit) git interoperability with the Debian archive
- * [mdp](https://packages.debian.org/stretch/mdp) command-line based Markdown presentation tool
- * [incron](https://packages.debian.org/stretch/incron) cron-like daemon which handles filesystem events
- * [faker](https://packages.debian.org/stretch/faker) Python program that generates fake data
- * [debian-cd](https://packages.debian.org/stretch/debian-cd) Tools for building (Official) Debian CD set
- * [libfile-fcntllock-perl](https://packages.debian.org/stretch/libfile-fcntllock-perl) Perl module for file locking with fcntl(2)
- * [libalgorithm-merge-perl](https://packages.debian.org/stretch/libalgorithm-merge-perl) Perl module for three-way merge of textual data
- * [rinse](https://packages.debian.org/stretch/rinse) RPM installation environment
- * [etckeeper](https://packages.debian.org/stretch/etckeeper) store /etc in git, mercurial, bzr or darcs
  * [pmount](https://packages.debian.org/stretch/pmount) mount removable devices as normal user
  * [ecryptfs-utils](https://packages.debian.org/stretch/ecryptfs-utils) ecryptfs cryptographic filesystem (utilities)
  * [fsarchiver](https://packages.debian.org/stretch/fsarchiver) file system archiver
@@ -179,6 +134,8 @@
  * [extundelete](https://packages.debian.org/stretch/extundelete) utility to recover deleted files from ext3/ext4 partition
  * [fatcat](https://packages.debian.org/stretch/fatcat) FAT filesystem explore, extract, repair, and forensic tool
  * [safecopy](https://packages.debian.org/stretch/safecopy) data recovery tool for problematic or damaged media
+ * [moc](https://packages.debian.org/stretch/moc) ncurses based console audio player
+ * [moc-ffmpeg-plugin](https://packages.debian.org/stretch/moc-ffmpeg-plugin) ncurses based console audio player - ffmpeg plugin
  * [mpg123](https://packages.debian.org/stretch/mpg123) MPEG layer 1/2/3 audio player
  * [oggvideotools](https://packages.debian.org/stretch/oggvideotools) toolbox for manipulating and creating Ogg video files
  * [libav-tools](https://packages.debian.org/stretch/libav-tools) Compatibility links for libav-tools (transitional package)
@@ -190,17 +147,6 @@
  * [libav-tools](https://packages.debian.org/stretch/libav-tools) Compatibility links for libav-tools (transitional package)
  * [minitube](https://packages.debian.org/stretch/minitube) Native YouTube client
  * [smtube](https://packages.debian.org/stretch/smtube) YouTube videos browser
- * [scrot](https://packages.debian.org/stretch/scrot) command line screen capture utility
- * [caca-utils](https://packages.debian.org/stretch/caca-utils) text mode graphics utilities
- * [phatch](https://packages.debian.org/stretch/phatch) simple to use Photo Batch Processor - GUI
- * [converseen](https://packages.debian.org/stretch/converseen) batch image converter and resizer
- * [fbi](https://packages.debian.org/stretch/fbi) Linux frame buffer image viewer
- * [gifsicle](https://packages.debian.org/stretch/gifsicle) Tool for manipulating GIF images
- * [jp2a](https://packages.debian.org/stretch/jp2a) converts jpg images to ascii
- * [pecomato](https://packages.debian.org/stretch/pecomato) Picture-embedded contents manipulation tool
- * [aview](https://packages.debian.org/stretch/aview) A high quality ASCII art image viewer and video player
- * [fgallery](https://packages.debian.org/stretch/fgallery) static HTML+JavaScript photo album generator
- * [liblcms2-utils](https://packages.debian.org/stretch/liblcms2-utils) Little CMS 2 color management library (utilities)
  * [ntopng](https://packages.debian.org/stretch/ntopng) High-Speed Web-based Traffic Analysis and Flow Collection Tool
  * [nmon](https://packages.debian.org/stretch/nmon) performance monitoring tool for Linux
  * [speedtest-cli](https://packages.debian.org/stretch/speedtest-cli) Command line interface for testing internet bandwidth using speedtest.net

@@ -48,18 +48,18 @@
 * [lintian](https://packages.debian.org/stretch/lintian) `2.5.50.4` - Debian package checker
 * [git-buildpackage](https://packages.debian.org/stretch/git-buildpackage) `0.8.12.2` - Suite to help with Debian packages in Git repositories
 * [gdb](https://packages.debian.org/stretch/gdb) `7.12-6` - GNU Debugger
-* [python-setuptools](https://packages.debian.org/stretch/python-setuptools) `33.1.1-1` - Python Distutils Enhancements
-* [python-virtualenv](https://packages.debian.org/stretch/python-virtualenv) `15.1.0+ds-1` - Python virtual environment creator
-* [virtualenv](https://packages.debian.org/stretch/virtualenv) `15.1.0+ds-1` - Python virtual environment creator
-* [python3-venv](https://packages.debian.org/stretch/python3-venv) `3.5.3-1` - pyvenv-3 binary for python3 (default python3 version)
 * [python-all-dev](https://packages.debian.org/stretch/python-all-dev) `2.7.13-2` - package depending on all supported Python development packages
 * [python-demjson](https://packages.debian.org/stretch/python-demjson) `2.2.4-1` - encoder, decoder, and lint/validator for JSON in Python
-* [python-stdeb](https://packages.debian.org/stretch/python-stdeb) `0.8.5-1` - Python to Debian source package conversion utility
-* [python3-wheel](https://packages.debian.org/stretch/python3-wheel) `0.29.0-2` - built-package format for Python
 * [python-libtorrent](https://packages.debian.org/stretch/python-libtorrent) `1.1.1-1+b1` - Python bindings for libtorrent-rasterbar
-* [pypi2deb](https://packages.debian.org/stretch/pypi2deb) `1.20160809` - PyPI to Debian converter
-* [python-praw](https://packages.debian.org/stretch/python-praw) `3.3.0-1` - Python Reddit API Wrapper (Python 2 version)
+* [python-setuptools](https://packages.debian.org/stretch/python-setuptools) `33.1.1-1` - Python Distutils Enhancements
+* [python-stdeb](https://packages.debian.org/stretch/python-stdeb) `0.8.5-1` - Python to Debian source package conversion utility
 * [python-tox](https://packages.debian.org/stretch/python-tox) `2.5.0-1` - transitional dummy package for tox
+* [python-virtualenv](https://packages.debian.org/stretch/python-virtualenv) `15.1.0+ds-1` - Python virtual environment creator
+* [python3-wheel](https://packages.debian.org/stretch/python3-wheel) `0.29.0-2` - built-package format for Python
+* [python3-pip](https://packages.debian.org/stretch/python3-pip) `9.0.1-2` - Python package installer
+* [python3-venv](https://packages.debian.org/stretch/python3-venv) `3.5.3-1` - pyvenv-3 binary for python3 (default python3 version)
+* [pypi2deb](https://packages.debian.org/stretch/pypi2deb) `1.20160809` - PyPI to Debian converter
+* [virtualenv](https://packages.debian.org/stretch/virtualenv) `15.1.0+ds-1` - Python virtual environment creator
 * [live-build](https://packages.debian.org/stretch/live-build) `1:20170213` - Live System Build Components
 * [debootstrap](https://packages.debian.org/stretch/debootstrap) `1.0.89` - Bootstrap a basic Debian system
 * [live-images](https://packages.debian.org/stretch/live-images) `5.0~a5-2` - Live System Image Components (metapackage)
@@ -69,6 +69,17 @@
 * [sqlite3](https://packages.debian.org/stretch/sqlite3) `3.16.2-5+deb9u1` - Command line interface for SQLite 3
 * [webcheck](https://packages.debian.org/stretch/webcheck) `1.10.4-1` - website link and structure checker
 * [vera](https://packages.debian.org/stretch/vera) `1.23-1` - Dictionary of computer related acronyms -- info format
+* [ranger](https://packages.debian.org/stretch/ranger) `1.7.1-1` - File manager with an ncurses frontend written in Python
+* [imagemagick](https://packages.debian.org/stretch/imagemagick) `8:6.9.7.4+dfsg-11+deb9u4` - image manipulation programs -- binaries
+* [optipng](https://packages.debian.org/stretch/optipng) `0.7.6-1+deb9u1` - advanced PNG (Portable Network Graphics) optimizer
+* [advancecomp](https://packages.debian.org/stretch/advancecomp) `1.20-1` - collection of recompression utilities
+* [jpegoptim](https://packages.debian.org/stretch/jpegoptim) `1.4.4-1+b1` - utility to optimize jpeg files
+* [pngcrush](https://packages.debian.org/stretch/pngcrush) `1.7.85-1+b2` - optimizes PNG (Portable Network Graphics) files
+* [exifprobe](https://packages.debian.org/stretch/exifprobe) `2.0.1-11` - read metadata from digital pictures
+* [findimagedupes](https://packages.debian.org/stretch/findimagedupes) `2.18-6+b2` - Finds visually similar or duplicate images
+* [librsvg2-bin](https://packages.debian.org/stretch/librsvg2-bin) `2.40.16-1+b1` - command-line and graphical viewers for SVG files
+* [figlet](https://packages.debian.org/stretch/figlet) `2.2.5-2+b1` - Make large character ASCII banners out of ordinary text
+* [toilet](https://packages.debian.org/stretch/toilet) `0.3-1.1` - display large colourful characters in text mode
 
 ### Related packages
 
@@ -86,6 +97,8 @@
  * [undistract-me](https://packages.debian.org/stretch/undistract-me) Notifies user when long-running terminal commands complete via libnotify
  * [man2html-base](https://packages.debian.org/stretch/man2html-base) convert man pages into HTML format
  * [txt2tags](https://packages.debian.org/stretch/txt2tags) conversion tool to generating several file formats
+ * [mkdocs](https://packages.debian.org/stretch/mkdocs) Static site generator geared towards building project documentation
+ * [python-praw](https://packages.debian.org/stretch/python-praw) Python Reddit API Wrapper (Python 2 version)
  * [live-config-doc](https://packages.debian.org/stretch/live-config-doc) Live System Configuration Components (documentation)
  * [live-manual-pdf](https://packages.debian.org/stretch/live-manual-pdf) Live Systems Documentation (pdf)
  * [live-manual-html](https://packages.debian.org/stretch/live-manual-html) Live Systems Documentation (html)
@@ -102,3 +115,46 @@
  * [live-task-mate](https://packages.debian.org/stretch/live-task-mate) Live environment support for Mate
  * [live-task-recommended](https://packages.debian.org/stretch/live-task-recommended) Live recommended environment support
  * [live-task-xfce](https://packages.debian.org/stretch/live-task-xfce) Live environment support for Xfce
+ * [snapd](https://packages.debian.org/stretch/snapd) Tool to interact with Ubuntu Core Snappy.
+ * [fossil](https://packages.debian.org/stretch/fossil) DSCM with built-in wiki, http interface and server, tickets database
+ * [aptly](https://packages.debian.org/stretch/aptly) Swiss army knife for Debian repository management
+ * [apt-listbugs](https://packages.debian.org/stretch/apt-listbugs) tool which lists critical bugs before each APT installation
+ * [vagrant](https://packages.debian.org/stretch/vagrant) Tool for building and distributing virtualized development environments
+ * [hexcurse](https://packages.debian.org/stretch/hexcurse) Ncurses-based hex editor with many features
+ * [dhex](https://packages.debian.org/stretch/dhex) ncurses based hex editor with diff mode
+ * [icdiff](https://packages.debian.org/stretch/icdiff) terminal side-by-side colorized word diff
+ * [lolcat](https://packages.debian.org/stretch/lolcat) colorful `cat`
+ * [randtype](https://packages.debian.org/stretch/randtype) semi-random text typer
+ * [reglookup](https://packages.debian.org/stretch/reglookup) utility to analysis for Windows NT-based registry
+ * [roffit](https://packages.debian.org/stretch/roffit) convert nroff manual pages into HTML
+ * [bless](https://packages.debian.org/stretch/bless) A full featured hexadecimal editor
+ * [since](https://packages.debian.org/stretch/since) tail(1) work-alike that saves and uses state information
+ * [jsbeautifier](https://packages.debian.org/stretch/jsbeautifier) JavaScript unobfuscator and beautifier
+ * [adb](https://packages.debian.org/stretch/adb) Android Debug Bridge
+ * [android-sdk](https://packages.debian.org/stretch/android-sdk) Software development kit for Android platform
+ * [android-sdk-platform-tools-common](https://packages.debian.org/stretch/android-sdk-platform-tools-common) Tools for interacting with an Android platform - Common files
+ * [fastboot](https://packages.debian.org/stretch/fastboot) Android fastboot tool
+ * [android-tools-fastboot](https://packages.debian.org/stretch/android-tools-fastboot) transitional package
+ * [gplaycli](https://packages.debian.org/stretch/gplaycli) Google Play downloader command line interface
+ * [python-ndg-httpsclient](https://packages.debian.org/stretch/python-ndg-httpsclient) enhanced HTTPS support for httplib and urllib2 using PyOpenSSL for Python2
+ * [gperf](https://packages.debian.org/stretch/gperf) Perfect hash function generator
+ * [dgit](https://packages.debian.org/stretch/dgit) git interoperability with the Debian archive
+ * [mdp](https://packages.debian.org/stretch/mdp) command-line based Markdown presentation tool
+ * [incron](https://packages.debian.org/stretch/incron) cron-like daemon which handles filesystem events
+ * [faker](https://packages.debian.org/stretch/faker) Python program that generates fake data
+ * [debian-cd](https://packages.debian.org/stretch/debian-cd) Tools for building (Official) Debian CD set
+ * [libfile-fcntllock-perl](https://packages.debian.org/stretch/libfile-fcntllock-perl) Perl module for file locking with fcntl(2)
+ * [libalgorithm-merge-perl](https://packages.debian.org/stretch/libalgorithm-merge-perl) Perl module for three-way merge of textual data
+ * [rinse](https://packages.debian.org/stretch/rinse) RPM installation environment
+ * [etckeeper](https://packages.debian.org/stretch/etckeeper) store /etc in git, mercurial, bzr or darcs
+ * [scrot](https://packages.debian.org/stretch/scrot) command line screen capture utility
+ * [caca-utils](https://packages.debian.org/stretch/caca-utils) text mode graphics utilities
+ * [phatch](https://packages.debian.org/stretch/phatch) simple to use Photo Batch Processor - GUI
+ * [converseen](https://packages.debian.org/stretch/converseen) batch image converter and resizer
+ * [fbi](https://packages.debian.org/stretch/fbi) Linux frame buffer image viewer
+ * [gifsicle](https://packages.debian.org/stretch/gifsicle) Tool for manipulating GIF images
+ * [jp2a](https://packages.debian.org/stretch/jp2a) converts jpg images to ascii
+ * [pecomato](https://packages.debian.org/stretch/pecomato) Picture-embedded contents manipulation tool
+ * [aview](https://packages.debian.org/stretch/aview) A high quality ASCII art image viewer and video player
+ * [fgallery](https://packages.debian.org/stretch/fgallery) static HTML+JavaScript photo album generator
+ * [liblcms2-utils](https://packages.debian.org/stretch/liblcms2-utils) Little CMS 2 color management library (utilities)
