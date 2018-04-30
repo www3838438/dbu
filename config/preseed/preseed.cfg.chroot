@@ -1,0 +1,2 @@
+# skip "continue without installng grub" debconf prompt at build time
+grub-pc	grub-pc/install_devices_empty	boolean	true
