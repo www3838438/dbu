@@ -10,7 +10,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
  * Packages: add traceroute, localepurge (remove unused translations), manpages, manpages-dev, transmission-cli
  * Transmission: on download completion, copy the original .torrent file to the download directory (script in /usr/share/transmission/)
  * Add default configuration for liferea, xfce4-notes, update retext default config
- * Add 'sortclipboard' bash alias (sort the X clipboard)
+ * Add 2 bash aliases: `sortclipboard` (sort the X clipboard), `alert <command>` (display a red/green block on command success/error)
 
 ### Changed
 
@@ -20,7 +20,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
   * "Low" policy allows any output, and incoming samba/avahi connections from LAN 192.168.1.0/24
   * "High" policy only allows output on secure protocols + DNS, and blocks the rest
  * Update documentation
- * Cleanup, improve tools and output
+ * Cleanup, reordering, improve build tools caching, error handling and output
 
 ### Removed
 
@@ -31,6 +31,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
  * Fixed qemu-utils package name
  * Fixed iso signing procedure
+ * Fix boot menu submenus not working
  * Fix live-build hooks
  * Fix bootloader menu templates
  * Fix some bash aliases
