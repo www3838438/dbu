@@ -1,4 +1,5 @@
-#set the keyboard layout to frenchat build time
+#set the keyboard layout to french at build time
 keyboard-configuration	keyboard-configuration/layoutcode	string	fr
+keyboard-configuration	keyboard-configuration/xkb-keymap	string	fr
 # skip "continue without installng grub" debconf prompt at build time
 grub-pc	grub-pc/install_devices_empty	boolean	true
