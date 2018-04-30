@@ -1,7 +1,6 @@
 ## dbu - TODO
 
 
- * [bug] check that apparmor is enabled
  * [bug] "open containing folder" in gnome-search-tool does not work (attempts to open selected file)
  * [enh] add a package list for audio workstations (see `desktop-audio-editor-audacity.list.chroot`, https://github.com/nodiscc/awesome-linuxaudio), linux-image-rt-amd64?
  * [enh] add persistence http://live.debian.net/manual/stable/html/live-manual/customizing-run-time-behaviours#persistence
