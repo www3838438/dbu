@@ -2,9 +2,9 @@
 
 all: install_buildenv tests update_deps rename_xpi build
 
-update_deps: download_firefox_addons download_dotfiles
+update_deps: download_firefox_addons download_thunderbird_addons download_dotfiles
 
-rename_xpi: rename_firefox_xpi
+rename_xpi: rename_firefox_xpi rename_thunderbird_xpi
 
 release: documentation tests checksums sign torrent
 
@@ -136,6 +136,44 @@ download_firefox_addons:
 	# https://addons.mozilla.org/en-US/firefox/addon/policy-control/ [legacy] [security]
 	# https://addons.mozilla.org/en-US/firefox/addon/rsstube/ [webextension] (broken) [ui]
 
+# Download Thunderbird addons
+# Addons path
+download_thunderbird_addonsdir="config/includes.chroot/usr/share/thunderbird/extensions/"
+download_thunderbird_addons:
+	if [ ! -d $(download_thunderbird_addonsdir) ]; then mkdir -p $(download_thunderbird_addonsdir); fi
+	#https://addons.mozilla.org/en-US/thunderbird/addon/gmail-conversation-view/
+	wget -N -nv --show-progress -P $(download_thunderbird_addonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/54035/addon-54035-latest.xpi
+	#https://addons.mozilla.org/fr/thunderbird/addon/importexporttools/
+	wget -N -nv --show-progress -P $(download_thunderbird_addonsdir) https://addons.mozilla.org/thunderbird/downloads/file/348080/addon-348080-latest.xpi
+	#https://addons.mozilla.org/en-US/thunderbird/addon/lightning/
+	wget -N -nv --show-progress -P $(download_thunderbird_addonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/2313/platform:2/addon-2313-latest.xpi
+	#https://addons.mozilla.org/en-US/thunderbird/addon/enigmail/
+	wget -N -nv --show-progress -P $(download_thunderbird_addonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/71/addon-71-latest.xpi
+	# https://addons.mozilla.org/fr/thunderbird/addon/cardbook/
+	wget -N -nv --show-progress -P $(download_thunderbird_addonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/cardbook/addon-634298-latest.xpi
+	#https://addons.mozilla.org/en-US/thunderbird/addon/duplicate-contact-manager/
+	wget -N -nv --show-progress -P $(download_thunderbird_addonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/2505/addon-2505-latest.xpi
+	#https://addons.mozilla.org/en-US/thunderbird/addon/send-later-3/
+	wget -N -nv --show-progress -P $(download_thunderbird_addonsdir) https://addons.mozilla.org/thunderbird/downloads/file/423919/addon-423919-latest.xpi
+	#https://addons.mozilla.org/fr/thunderbird/addon/account-colors/
+	wget -N -nv --show-progress -P $(download_thunderbird_addonsdir) https://addons.mozilla.org/thunderbird/downloads/latest/account-colors/addon-14385-latest.xpi
+	#
+	# more addons:
+	# https://addons.mozilla.org/en-US/thunderbird/addon/printingtools/
+	# https://addons.mozilla.org/fr/firefox/addon/minimizetotray-revived/
+	# https://addons.mozilla.org/fr/thunderbird/addon/gmailui/
+	# https://addons.mozilla.org/en-US/thunderbird/addon/timeline/
+	# https://addons.mozilla.org/en-US/thunderbird/addon/more-snooze/
+	# https://addons.mozilla.org/en-US/thunderbird/addon/automatic-export/
+	# https://addons.mozilla.org/fr/thunderbird/addon/contact-photos/
+	# https://addons.mozilla.org/en-us/thunderbird/addon/webdav-for-filelink/
+	# https://addons.mozilla.org/fr/thunderbird/addon/quickfolders-tabbed-folders/
+	# https://addons.mozilla.org/fr/thunderbird/addon/todotxt-extension/
+	# https://addons.mozilla.org/fr/thunderbird/addon/categorymanager/
+	# https://sogo.nu/download.html#/frontends
+	# https://addons.mozilla.org/en-US/thunderbird/addon/contact-tabs/
+	# https://addons.mozilla.org/en-US/thunderbird/addon/quote-colors/ (<52)
+
 # Download extra .deb packages for inclusion in the resulting system
 # Packages listed here will receive no automatic upgrades, unless someone packages
 # them under the same name in the Debian archive. Packages listed here will NOT
@@ -175,6 +213,12 @@ rename_firefox_xpi:
 	extid=$$(./scripts/get-xul-extension-id.sh "$$xpi"); \
 	echo "$$xpi - $$extid"; \
 	cp "$$xpi" $(firefox_addons_dir)/"$$extid".xpi ; \
+	done
+
+rename_thunderbird_xpi:
+	@for xpi in $$(find $(download_thunderbird_addonsdir) -name '*.xpi'); do \
+	extid=$$(./scripts/get-xul-extension-id.sh "$$xpi"); echo "$$xpi - $$extid"; \
+	mv "$$xpi" $(download_thunderbird_addonsdir)/"$$extid".xpi ; \
 	done
 
 ##################################################################
