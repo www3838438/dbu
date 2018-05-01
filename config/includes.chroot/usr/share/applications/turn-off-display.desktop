@@ -10,3 +10,4 @@ TryExec=xset
 Icon=preferences-desktop-screensaver
 Terminal=false
 StartupNotify=false
+Categories=System

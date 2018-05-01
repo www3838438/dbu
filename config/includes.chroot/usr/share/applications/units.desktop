@@ -9,3 +9,4 @@ TryExec=units
 Icon=applications-accessories
 Terminal=true
 StartupNotify=true
+Categories=Utility

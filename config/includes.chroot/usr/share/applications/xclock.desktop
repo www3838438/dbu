@@ -10,5 +10,5 @@ Icon=gnome-clocks
 Terminal=false
 Type=Application
 X-MultipleArgs=false
-Categories=Office;Application;Accessories;Utility
+Categories=Utility
 StartupNotify=true
