@@ -29,7 +29,6 @@ and it can optionally store them in the gnome-keyring.
 
 * [network-manager-gnome](https://packages.debian.org/stretch/network-manager-gnome) `1.4.4-1` - network management framework (GNOME frontend)
 * [network-manager-openvpn-gnome](https://packages.debian.org/stretch/network-manager-openvpn-gnome) `1.2.8-2` - network management framework (OpenVPN plugin GNOME GUI)
-* [network-manager-iodine-gnome](https://packages.debian.org/stretch/network-manager-iodine-gnome) `1.2.0-1+b1` - network management framework (iodine plugin GNOME GUI)
 * [crda](https://packages.debian.org/stretch/crda) `3.18-1` - wireless Central Regulatory Domain Agent
 * [wireless-regdb](https://packages.debian.org/stretch/wireless-regdb) `2016.06.10-1` - wireless regulatory database
 * [dnsmasq-base](https://packages.debian.org/stretch/dnsmasq-base) `2.76-5+deb9u1` - Small caching DNS proxy and DHCP/TFTP server
@@ -43,6 +42,7 @@ and it can optionally store them in the gnome-keyring.
  * [wicd-curses](https://packages.debian.org/stretch/wicd-curses) wired and wireless network manager - Curses client
  * [wpagui](https://packages.debian.org/stretch/wpagui) graphical user interface for wpa_supplicant
  * [network-manager-ssh](https://packages.debian.org/stretch/network-manager-ssh) network management framework (SSH plugin core)
+ * [network-manager-iodine-gnome](https://packages.debian.org/stretch/network-manager-iodine-gnome) network management framework (iodine plugin GNOME GUI)
  * [efax-gtk](https://packages.debian.org/stretch/efax-gtk) front end in GTK+ for the efax program
  * [wammu](https://packages.debian.org/stretch/wammu) GTK application to control your mobile phone
  * [modemmanager](https://packages.debian.org/stretch/modemmanager) D-Bus service for managing modems
