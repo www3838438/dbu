@@ -186,50 +186,52 @@ debsums
 #Alt: hwloc
 
 # Misc
-less
-sed
-dos2unix
-util-linux
-util-linux-locales
-bash-completion
-moreutils
-autojump
-tty-clock
-manpages
-manpages-dev
-at
-colortail
-pv
-colordiff
-dwdiff
-#lr (buster only)
-cloc
-asciinema
-nss-passwords
-mat
 ansible
-python-selinux
-dialog
-whiptail
-inotify-tools
+asciinema
+at
+autojump
+bash-completion
+cloc
 cmatrix
 cmatrix-xfont
+colordiff
+colortail
+dialog
+dos2unix
+dwdiff
+inotify-tools
+less
+#lr (buster only)
+manpages
+manpages-dev
+moreutils
+nss-passwords
+pv
+python-selinux
+sed
+tty-clock
+util-linux
+util-linux-locales
+whiptail
 
+
+#Alt: ack-grep
+#Alt: bd
+#Alt: beep
+#Alt: command-not-found
+#Alt: cowsay
+#Alt: detox
+#Alt: fortune-mod
+#Alt: grc
+#Alt: mat
+#Alt: multitail
+#Alt: nyancat
+#Alt: pv
+#Alt: reptyr
 #Alt: sl
 #Alt: source-highlight
-#Alt: detox
 #Alt: tmux
-#Alt: command-not-found
 #Alt: ttyrec
-#Alt: multitail
-#Alt: cowsay
-#Alt: fortune-mod
-#Alt: ack-grep
-#Alt: reptyr
-#Alt: nyancat
-#Alt: grc
-#pdd #buster only
 #fasd #buster only
-#Alt: bd
-#Alt: pv
-#Alt: beep
+#pdd #buster only
+
