@@ -199,62 +199,6 @@ download_dotfiles:
 	# mkdir -pv config/includes.binary/extra/
 	# cp /path/to/intro.html config/includes.binary/intro.html
 
-	## gtk themes (disabled)
-	#-mkdir -pv config/includes.chroot/usr/share/themes/
-	##https://github.com/shimmerproject/Albatross (disabled)
-	#-rm -rf config/includes.chroot/usr/share/themes/Albatross
-	#	git clone --depth=1 https://github.com/shimmerproject/Albatross config/includes.chroot/usr/share/themes/Albatross
-	#	rm -rf config/includes.chroot/usr/share/themes/Albatross/.git
-	## https://github.com/shimmerproject/Albatross (disabled)
-	#-rm -rf config/includes.chroot/usr/share/themes/Blackbird
-	#	git clone --depth=1 https://github.com/shimmerproject/Blackbird config/includes.chroot/usr/share/themes/Blackbird
-	#	rm -rf config/includes.chroot/usr/share/themes/Blackbird/.git
-	## https://github.com/shimmerproject/Albatross (disabled)
-	#-rm -rf config/includes.chroot/usr/share/themes/Bluebird
-	#	git clone --depth=1 https://github.com/shimmerproject/Bluebird config/includes.chroot/usr/share/themes/Bluebird
-	#	rm -rf config/includes.chroot/usr/share/themes/Bluebird/.git
-	## https://github.com/shimmerproject/Albatross (disabled)
-	#-rm -rf config/includes.chroot/usr/share/themes/Greybird
-	#	git clone --depth=1 https://github.com/shimmerproject/Greybird config/includes.chroot/usr/share/themes/Greybird
-	#	rm -rf config/includes.chroot/usr/share/themes/Greybird/.git
-	# https://github.com/shimmerproject/Albatross (disabled)
-	#-rm -rf config/includes.chroot/usr/share/themes/Numix
-	#	git clone --depth=1 https://github.com/shimmerproject/Numix config/includes.chroot/usr/share/themes/Numix
-	#	rm -rf config/includes.chroot/usr/share/themes/Numix/.git
-	## https://github.com/shimmerproject/Albatross (disabled)
-	#-rm -rf config/includes.chroot/usr/share/themes/Zukitre config/includes.chroot/usr/share/themes/Zukitwo
-	#	git clone --depth=1 https://github.com/lassekongo83/zuki-themes tmp-zuki-themes
-	#	mv tmp-zuki-themes/Zukitre tmp-zuki-themes/Zukitwo config/includes.chroot/usr/share/themes/
-	#	rm -rf tmp-zuki-themes
-
-
-
-
-######################################
-
-# Download extra .deb packages for inclusion in the resulting system
-# Packages listed here will receive no automatic upgrades, unless someone packages
-# them under the same name in the Debian archive. Packages listed here will NOT
-# be verified by GPG signing mechanisms, so it is advised to rely on a secure
-# transport (such as HTTPS + checksum verification) to ensure they are authentic.
-# If adding packages from an APT repository, you could download the Release,
-# Release signature, and Packages files, download the signing key by secure means,
-# Then verifying the signature and checksums as described in 
-# https://debian-handbook.info/browse/stable/sect.package-authentication.html
-# Adding .deb packages downloaded via HTTP is NOT recommended.
-#WGETPACKAGES := wget -N -nv --show-progress -P config/packages.chroot/
-#download_packageschroot:
-#   #example
-#	if [ ! -d config/packages.chroot ]; then mkdir -p config/packages.chroot; fi
-#	# https://github.com/feross/webtorrent-desktop/
-#	-$(WGETPACKAGES) https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
-
-# Download prebuilt binaries for unpackaged software
-# download_binaries:
-#   # example
-#	# https://github.com/EionRobb/pidgin-opensteamworks/
-#	if [ ! -d config/includes.chroot/usr/lib/purple-2/ ]; then mkdir -p config/includes.chroot/usr/lib/purple-2/; fi
-#	wget -N -nv --show-progress -P config/includes.chroot/usr/lib/purple-2/ \
-#		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so \
-#		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
+	# For examples of how to download/include custom packages, dotfiles, themes, libraries,
+	# check git branches extras/gtk-themes, extras/pidgin-opensteamworks, extras/webtorrent...
 
