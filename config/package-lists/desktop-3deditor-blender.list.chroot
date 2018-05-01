@@ -20,3 +20,27 @@ blender
 #Alt: freecad
 #Alt: pcb-gtk
 #Alt: qelectrotech
+
+# Video editors (disabled)
+##Screenshot: openshot
+#Alt: openshot
+#Alt: kdenlive
+#Alt: devede
+#Alt: dvdauthor
+#Alt: imagination
+#Alt: ffdiaporama
+#Alt: screenkey
+#Alt: dvgrab
+#Alt: vgrabbj
+#Alt: dvbcut
+#Alt: multimedia-video
+#Alt: flowblade
+#Alt: handbrake
+#Alt: lives
+#Alt: rtmpdump
+#Alt: shotdetect
+#Alt: tsdecrypt
+#Alt: videotrans
+#Alt: voctomix
+#stopmotion #buster only
+#education-video #buster only
