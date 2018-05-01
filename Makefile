@@ -8,8 +8,6 @@ rename_xpi: rename_firefox_xpi
 
 release: documentation tests checksums sign torrent
 
-download_dotfiles: dotfiles_themes dotfiles_utility
-
 ######
 
 install_buildenv:
@@ -68,7 +66,7 @@ download_firefox_addons:
 	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ [security] [FF52ESR]
 	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/file/717459/cookie_autodelete-1.4.4-an+fx.xpi
-	#
+
 	# Other addons:
 	# https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/ [webextension] [ui]
 	# https://addons.mozilla.org/en-US/firefox/addon/simple-youtube-repeater/ [webextension] [ui]
@@ -136,31 +134,6 @@ download_firefox_addons:
 	# https://addons.mozilla.org/en-US/firefox/addon/policy-control/ [legacy] [security]
 	# https://addons.mozilla.org/en-US/firefox/addon/rsstube/ [webextension] (broken) [ui]
 
-# Download extra .deb packages for inclusion in the resulting system
-# Packages listed here will receive no automatic upgrades, unless someone packages
-# them under the same name in the Debian archive. Packages listed here will NOT
-# be verified by GPG signing mechanisms, so it is advised to rely on a secure
-# transport (such as HTTPS + checksum verification) to ensure they are authentic.
-# If adding packages from an APT repository, you could download the Release,
-# Release signature, and Packages files, download the signing key by secure means,
-# Then verifying the signature and checksums as described in 
-# https://debian-handbook.info/browse/stable/sect.package-authentication.html
-# Adding .deb packages downloaded via HTTP is NOT recommended.
-#WGETPACKAGES := wget -N -nv --show-progress -P config/packages.chroot/
-#download_packageschroot:
-#   #example
-#	if [ ! -d config/packages.chroot ]; then mkdir -p config/packages.chroot; fi
-#	# https://github.com/feross/webtorrent-desktop/
-#	-$(WGETPACKAGES) https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
-
-# Download prebuilt binaries for unpackaged software
-# download_binaries:
-#   # example
-#	# https://github.com/EionRobb/pidgin-opensteamworks/
-#	if [ ! -d config/includes.chroot/usr/lib/purple-2/ ]; then mkdir -p config/includes.chroot/usr/lib/purple-2/; fi
-#	wget -N -nv --show-progress -P config/includes.chroot/usr/lib/purple-2/ \
-#		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so \
-#		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
 
 ##################################################################
 # Rename downloaded XPIs from their ID
@@ -179,44 +152,8 @@ rename_firefox_xpi:
 
 ##################################################################
 
-# Download gtk/wm/icon themes
-dotfiles_themes:
-	-mkdir -pv config/includes.chroot/usr/share/themes/
-	
-	-rm -rf config/includes.chroot/usr/share/themes/Albatross
-		git clone --depth=1 https://github.com/shimmerproject/Albatross config/includes.chroot/usr/share/themes/Albatross
-		rm -rf config/includes.chroot/usr/share/themes/Albatross/.git
-	
-	-rm -rf config/includes.chroot/usr/share/themes/Blackbird
-		git clone --depth=1 https://github.com/shimmerproject/Blackbird config/includes.chroot/usr/share/themes/Blackbird
-		rm -rf config/includes.chroot/usr/share/themes/Blackbird/.git
-	
-	-rm -rf config/includes.chroot/usr/share/themes/Bluebird
-		git clone --depth=1 https://github.com/shimmerproject/Bluebird config/includes.chroot/usr/share/themes/Bluebird
-		rm -rf config/includes.chroot/usr/share/themes/Bluebird/.git
-
-	-rm -rf config/includes.chroot/usr/share/themes/Greybird
-		git clone --depth=1 https://github.com/shimmerproject/Greybird config/includes.chroot/usr/share/themes/Greybird
-		rm -rf config/includes.chroot/usr/share/themes/Greybird/.git
-
-	-rm -rf config/includes.chroot/usr/share/themes/Numix
-		git clone --depth=1 https://github.com/shimmerproject/Numix config/includes.chroot/usr/share/themes/Numix
-		rm -rf config/includes.chroot/usr/share/themes/Numix/.git
-
-	-rm -rf config/includes.chroot/usr/share/themes/Zukitre config/includes.chroot/usr/share/themes/Zukitwo
-		git clone --depth=1 https://github.com/lassekongo83/zuki-themes tmp-zuki-themes
-		mv tmp-zuki-themes/Zukitre tmp-zuki-themes/Zukitwo config/includes.chroot/usr/share/themes/
-		rm -rf tmp-zuki-themes
-
-	-mkdir -pv config/includes.chroot/usr/share/icons/	
-
-	-rm -rf config/includes.chroot/usr/share/icons/Paper*
-		git clone --depth=1 https://github.com/snwh/paper-icon-theme tmp-paper-icon-theme
-		mv tmp-paper-icon-theme/Paper tmp-paper-icon-theme/Paper-Mono-Dark config/includes.chroot/usr/share/icons/
-		rm -rf tmp-paper-icon-theme
-
-# Download misc configuration files
-dotfiles_utility:
+# Download dotfiles/themes/...
+download_dotfiles:
 	# https://github.com/serialhex/nano-highlight
 	-rm -rf config/includes.chroot/etc/skel/.nano
 		git clone --depth=1 https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
@@ -246,6 +183,14 @@ dotfiles_utility:
 		cp tmp-userjs/systemwide_user.js config/includes.chroot/etc/firefox-esr/firefox-esr.js
 		rm -rf tmp-userjs
 
+    # icon themes
+	-mkdir -pv config/includes.chroot/usr/share/icons/	
+	# https://github.com/snwh/paper-icon-theme
+	-rm -rf config/includes.chroot/usr/share/icons/Paper*
+		git clone --depth=1 https://github.com/snwh/paper-icon-theme tmp-paper-icon-theme
+		mv tmp-paper-icon-theme/Paper tmp-paper-icon-theme/Paper-Mono-Dark config/includes.chroot/usr/share/icons/
+		rm -rf tmp-paper-icon-theme
+
 	# Example: add extra files to the live file system
 	# git clone --recursive https://github.com/nodiscc/toolbox config/includes.chroot/usr/share/dbu/toolbox
 	# git clone https://github.com/nodiscc/dbu config/includes.chroot/usr/share/dbu/src
@@ -254,4 +199,62 @@ dotfiles_utility:
 	# mkdir -pv config/includes.binary/extra/
 	# cp /path/to/intro.html config/includes.binary/intro.html
 
+	## gtk themes (disabled)
+	#-mkdir -pv config/includes.chroot/usr/share/themes/
+	##https://github.com/shimmerproject/Albatross (disabled)
+	#-rm -rf config/includes.chroot/usr/share/themes/Albatross
+	#	git clone --depth=1 https://github.com/shimmerproject/Albatross config/includes.chroot/usr/share/themes/Albatross
+	#	rm -rf config/includes.chroot/usr/share/themes/Albatross/.git
+	## https://github.com/shimmerproject/Albatross (disabled)
+	#-rm -rf config/includes.chroot/usr/share/themes/Blackbird
+	#	git clone --depth=1 https://github.com/shimmerproject/Blackbird config/includes.chroot/usr/share/themes/Blackbird
+	#	rm -rf config/includes.chroot/usr/share/themes/Blackbird/.git
+	## https://github.com/shimmerproject/Albatross (disabled)
+	#-rm -rf config/includes.chroot/usr/share/themes/Bluebird
+	#	git clone --depth=1 https://github.com/shimmerproject/Bluebird config/includes.chroot/usr/share/themes/Bluebird
+	#	rm -rf config/includes.chroot/usr/share/themes/Bluebird/.git
+	## https://github.com/shimmerproject/Albatross (disabled)
+	#-rm -rf config/includes.chroot/usr/share/themes/Greybird
+	#	git clone --depth=1 https://github.com/shimmerproject/Greybird config/includes.chroot/usr/share/themes/Greybird
+	#	rm -rf config/includes.chroot/usr/share/themes/Greybird/.git
+	# https://github.com/shimmerproject/Albatross (disabled)
+	#-rm -rf config/includes.chroot/usr/share/themes/Numix
+	#	git clone --depth=1 https://github.com/shimmerproject/Numix config/includes.chroot/usr/share/themes/Numix
+	#	rm -rf config/includes.chroot/usr/share/themes/Numix/.git
+	## https://github.com/shimmerproject/Albatross (disabled)
+	#-rm -rf config/includes.chroot/usr/share/themes/Zukitre config/includes.chroot/usr/share/themes/Zukitwo
+	#	git clone --depth=1 https://github.com/lassekongo83/zuki-themes tmp-zuki-themes
+	#	mv tmp-zuki-themes/Zukitre tmp-zuki-themes/Zukitwo config/includes.chroot/usr/share/themes/
+	#	rm -rf tmp-zuki-themes
+
+
+
+
+######################################
+
+# Download extra .deb packages for inclusion in the resulting system
+# Packages listed here will receive no automatic upgrades, unless someone packages
+# them under the same name in the Debian archive. Packages listed here will NOT
+# be verified by GPG signing mechanisms, so it is advised to rely on a secure
+# transport (such as HTTPS + checksum verification) to ensure they are authentic.
+# If adding packages from an APT repository, you could download the Release,
+# Release signature, and Packages files, download the signing key by secure means,
+# Then verifying the signature and checksums as described in 
+# https://debian-handbook.info/browse/stable/sect.package-authentication.html
+# Adding .deb packages downloaded via HTTP is NOT recommended.
+#WGETPACKAGES := wget -N -nv --show-progress -P config/packages.chroot/
+#download_packageschroot:
+#   #example
+#	if [ ! -d config/packages.chroot ]; then mkdir -p config/packages.chroot; fi
+#	# https://github.com/feross/webtorrent-desktop/
+#	-$(WGETPACKAGES) https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
+
+# Download prebuilt binaries for unpackaged software
+# download_binaries:
+#   # example
+#	# https://github.com/EionRobb/pidgin-opensteamworks/
+#	if [ ! -d config/includes.chroot/usr/lib/purple-2/ ]; then mkdir -p config/includes.chroot/usr/lib/purple-2/; fi
+#	wget -N -nv --show-progress -P config/includes.chroot/usr/lib/purple-2/ \
+#		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so \
+#		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
 
