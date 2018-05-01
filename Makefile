@@ -2,7 +2,7 @@
 
 all: install_buildenv tests update_deps rename_xpi build
 
-update_deps: download_firefox_addons download_dotfiles
+update_deps: download_firefox_addons download_binaries download_dotfiles
 
 rename_xpi: rename_firefox_xpi
 
@@ -66,7 +66,7 @@ download_firefox_addons:
 	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ [security] [FF52ESR]
 	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/file/717459/cookie_autodelete-1.4.4-an+fx.xpi
-
+	#
 	# Other addons:
 	# https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/ [webextension] [ui]
 	# https://addons.mozilla.org/en-US/firefox/addon/simple-youtube-repeater/ [webextension] [ui]
@@ -134,6 +134,13 @@ download_firefox_addons:
 	# https://addons.mozilla.org/en-US/firefox/addon/policy-control/ [legacy] [security]
 	# https://addons.mozilla.org/en-US/firefox/addon/rsstube/ [webextension] (broken) [ui]
 
+# Download prebuilt binaries for unpackaged software
+download_binaries:
+	# https://github.com/EionRobb/pidgin-opensteamworks/
+	if [ ! -d config/includes.chroot/usr/lib/purple-2/ ]; then mkdir -p config/includes.chroot/usr/lib/purple-2/; fi
+	wget -N -nv --show-progress -P config/includes.chroot/usr/lib/purple-2/ \
+		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so \
+		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
 
 ##################################################################
 # Rename downloaded XPIs from their ID
