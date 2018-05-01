@@ -47,13 +47,10 @@ The full live-build documentation can be found at `/usr/share/doc/live-manual/pd
 used to update and build dependencies not packaged for Debian, run basic tests, automate ISO 
 image build, checksums and signing, documentation generation...
 
-The following `make` targets are available:
-```
-all                          dotfiles_themes              download_firefox_addons      release                      sign                         
-build                        dotfiles_utility             download_packageschroot      rename_firefox_xpi           tests                        
-checksums                    download_binaries            download_thunderbird_addons  rename_thunderbird_xpi       update_deps                  
-documentation                download_dotfiles            install_buildenv             rename_xpi                   
-```
+Type `make <TAB><TAB>` to see available make targets.
+
+See branches named `extra/...` for examples of how to include downloaded 3 party software, packages,
+libraries, configuration files... (https://github.com/nodiscc/dbu/branches)
 
 ##### config/includes.chroot/
 
@@ -94,20 +91,17 @@ Putting binary .deb packages under git version control should be avoided.
  
 ##### config/includes.installer
 
-`preseed.cfg` is used to preconfigure the _installer_ using [preseeding](https://www.debian.org/releases/stable/i386/apb.html).
+`preseed.cfg`: used to preconfigure the _installer_ using [preseeding](https://www.debian.org/releases/stable/i386/apb.html).
 
 ##### config/preseed
 
-`*.chroot.cfg` is used to preseed debconf values for the actual live system.
+`*.chroot.cfg`: used to preseed debconf values for the resulting live system.
 
-### Documentation
 
-#### Packages documentation
- 
+### Documentation generator
 
-Some keywords in comment fields can be used to configure end-user package documentation 
-pages in [doc/packages](packages/). live-build ignores lines starting with `#` in 
-package lists. `scripts/docègenerator.sh` supports the following fields:
+Include one of the following fields in your package list to configure automatic
+generation of package documentation pages in [doc/packages](packages/), [doc/packages.md](packages.md):
 
  * `#Name`: Name for the package list (eg. Libreoffice office suite)
  * `#Screenshot`: package name to link to on screenshots.debian.net
@@ -119,8 +113,8 @@ package lists. `scripts/docègenerator.sh` supports the following fields:
  * `#ChrootPkg`: When this points to a package, package information will be fetched from the corresponding .deb in config/packages.chroot/ instead of the APT database
  * `#Replace`: When this field is present at least once, replace the package list description with its value (can be used more than once for multiline descriptions)
 
-`doc/packages/*, doc/packages.md` should not be edited manually. update package lists, then
-run `make documentation`
+`doc/packages/*, doc/packages.md` should not be edited manually.
+Update package lists, then run `make documentation`
 
 ### Setting the locale/language
 

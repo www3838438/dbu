@@ -4,24 +4,7 @@
  * Use the `Help` menu inside programs.
  * [More documentation](#more-documentation)
 
-_Note: The user account created during installation will have `sudo` administrator access (this account can perform administrator tasks, after password verification)_
- 
 -------------------------------------------
-
- * [Configuration](#configuration)
- * [Running programs and working with files](#running-programs-and-working-with-files)
- * [Installing/removing/updating software](#installingremovingupdating-software)
- * [Maintenance](#maintenance)
- * [Security](#security)
- 
--------------------------------------------
-
-#### Configuration
-
-Use the `Settings manager` to configure your desktop or `Options`/`Preferences` inside applications menus.  
-Other configuration files are generally found in `~/.config` or `/etc/` directories.
-
-------------------------------------------
 
 #### Running programs and working with files
 
@@ -34,6 +17,15 @@ and run programs.
 Use the _Terminal emulator_ to run command-line programs. Use the `man` command to get 
 help about any installed program, for example `man mpv`. Run `man --apropos --sections=1`
 to view a list of available manual pages .
+
+-------------------------------------------
+
+#### Configuration
+
+Use the `Settings manager` to configure your desktop or `Options`/`Preferences` inside applications menus.  
+Other configuration files are generally found in `~/.config` or `/etc/` directories.
+
+
 
 ------------------------------------------
 
@@ -85,24 +77,23 @@ you want to keep backups of. Refer to the [Backintime](http://backintime.readthe
 
 ------------------------------------------
 
-#### Maintenance
+#### Usage recommendations
 
- * Run `Back In Time` to backup your data periodically to an external storage.
- * Apply available upgrades as soon as possible.
- * Keep your hardware clean/free of dust, ensure good air flow.
-
-#### Basic security
-
- * Do not run untrusted software or commands.
+ * Backup your data periodically to an external storage.
+ * Apply available software upgrades as soon as possible.
+ * Keep your hardware in good condition.
+ * Do not run or install untrusted software or commands.
  * Only install software from your package manager.
  * Keep installed software up-to-date.
  * Only enter your administrator password to perform necessary system administration tasks.
  * Do not copy-paste commands from the web to your terminal emulator.
+ * Do not mark untrusted files as executable.
  * Use strong (long) passwords/phrases.
  * Do not reuse your passwords for different services/machines (use a password manager).
  * Use encrypted communication protocols over insecure networks (SFTP, HTTPS, SSH, OTR, GPG...), use disk encryption to mitigate theft.
  * Minimize installed/running software.
- * Do not mark untrusted files as executable.
+
+_Note: The user account created during installation will have `sudo` access (this account can perform administrator tasks, after password verification)_
 
 ------------------------------------------
 
