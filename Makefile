@@ -2,7 +2,7 @@
 
 all: install_buildenv tests update_deps rename_xpi build
 
-update_deps: download_firefox_addons download_thunderbird_addons download_packageschroot download_binaries download_dotfiles
+update_deps: download_firefox_addons download_thunderbird_addons download_binaries download_dotfiles
 
 rename_xpi: rename_firefox_xpi rename_thunderbird_xpi
 
@@ -184,11 +184,12 @@ download_thunderbird_addons:
 # Then verifying the signature and checksums as described in 
 # https://debian-handbook.info/browse/stable/sect.package-authentication.html
 # Adding .deb packages downloaded via HTTP is NOT recommended.
-WGETPACKAGES := wget -N -nv --show-progress -P config/packages.chroot/
-download_packageschroot:
-	if [ ! -d config/packages.chroot ]; then mkdir -p config/packages.chroot; fi
-	# https://github.com/feross/webtorrent-desktop/
-	-$(WGETPACKAGES) https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
+#WGETPACKAGES := wget -N -nv --show-progress -P config/packages.chroot/
+#download_packageschroot:
+#   #example
+#	if [ ! -d config/packages.chroot ]; then mkdir -p config/packages.chroot; fi
+#	# https://github.com/feross/webtorrent-desktop/
+#	-$(WGETPACKAGES) https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
 
 # Download prebuilt binaries for unpackaged software
 download_binaries:
