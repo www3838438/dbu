@@ -13,8 +13,9 @@ python-indicate
 python-pyinotify
 libgpod-common
 libgpod4
-projectm-pulseaudio
 python-musicbrainzngs
+
+#Alt: projectm-pulseaudio
 
 # Audacious (disabled)
 ##Screenshot: audacious
