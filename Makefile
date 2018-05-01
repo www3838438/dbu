@@ -2,7 +2,7 @@
 
 all: install_buildenv tests update_deps rename_xpi build
 
-update_deps: download_firefox_addons download_thunderbird_addons download_binaries download_dotfiles
+update_deps: download_firefox_addons download_thunderbird_addons download_dotfiles
 
 rename_xpi: rename_firefox_xpi rename_thunderbird_xpi
 
@@ -192,12 +192,13 @@ download_thunderbird_addons:
 #	-$(WGETPACKAGES) https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
 
 # Download prebuilt binaries for unpackaged software
-download_binaries:
-	# https://github.com/EionRobb/pidgin-opensteamworks/
-	if [ ! -d config/includes.chroot/usr/lib/purple-2/ ]; then mkdir -p config/includes.chroot/usr/lib/purple-2/; fi
-	wget -N -nv --show-progress -P config/includes.chroot/usr/lib/purple-2/ \
-		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so \
-		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
+# download_binaries:
+#   # example
+#	# https://github.com/EionRobb/pidgin-opensteamworks/
+#	if [ ! -d config/includes.chroot/usr/lib/purple-2/ ]; then mkdir -p config/includes.chroot/usr/lib/purple-2/; fi
+#	wget -N -nv --show-progress -P config/includes.chroot/usr/lib/purple-2/ \
+#		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so \
+#		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
 
 ##################################################################
 # Rename downloaded XPIs from their ID
