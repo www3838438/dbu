@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Added
 
- * Packages: add traceroute, localepurge (remove unused translations), manpages, manpages-dev, transmission-cli
+ * Packages: add traceroute, localepurge (remove unused translations), manpages, manpages-dev, transmission-cli, poedit
  * Transmission: on download completion, copy the original .torrent file to the download directory (script in /usr/share/transmission/)
  * Add default configuration for liferea, xfce4-notes, update retext default config
  * Add 2 bash aliases: `sortclipboard` (sort the X clipboard), `alert <command>` (display a red/green block on command success/error)
@@ -16,16 +16,21 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
  * Replace xfce applications menu with whiskermenu plugins, update default configuration
  * Replace virtualbox with KVM/libvirt/virt-manager based setup (level 1 hypervisor, much better performance)
+ * Replace gtk-recordmydesktop with vokoscreen screencast recorder
  * Firewall policies "Low" and "High" are available in GUFW
-  * "Low" policy allows any output, and incoming samba/avahi connections from LAN 192.168.1.0/24
-  * "High" policy only allows output on secure protocols + DNS, and blocks the rest
+   * "Low" policy allows any output, and incoming samba/avahi connections from LAN 192.168.1.0/24
+   * "High" policy only allows output on secure protocols + DNS, and blocks the rest
  * Update documentation
- * Cleanup, reordering, improve build tools caching, error handling and output
+ * Cleanup, reordering, improve build tools, caching, automation, error handling and output
 
 ### Removed
 
- * Packages: Remove all game console emulators excep pcsxr and zsnes
- * Packages: Remove 11 default fonts (save disk space)
+ * Packages: Remove less-used packages to save disk space / ISO file size: 
+   * All game console emulators except pcsxr and zsnes
+   * 11 fonts, font-manager
+   * Openshot video editor (use blender)
+   * network-manager-iodine, wxhexeditor, tdfsb, sqlitebrowser, asciio
+  
 
 ### Fixed
 
@@ -35,6 +40,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
  * Fix live-build hooks
  * Fix bootloader menu templates
  * Fix some bash aliases
+ * Fix custom application launchers icons/categories
 
 <!--
 ### Security
