@@ -40,6 +40,7 @@ qt4-qtconfig
 
 # Utilities
 gmrun
+gnome-font-viewer
 libnotify-bin
 zenity
 numlockx
@@ -49,6 +50,8 @@ wmctrl
 xclip
 xcalib
 xbacklight
+
+# Alt: font-manager
 
 # Misc
 gtk2-engines
