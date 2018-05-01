@@ -5,7 +5,6 @@
 
 network-manager-gnome
 network-manager-openvpn-gnome
-network-manager-iodine-gnome
 crda
 wireless-regdb
 # required for internet connection sharing and local DNS caching
@@ -18,6 +17,7 @@ dnsmasq-base
 #Alt: wicd-curses
 #Alt: wpagui
 #Alt: network-manager-ssh
+#Alt: network-manager-iodine-gnome
 #Alt: efax-gtk
 #Alt: wammu
 
