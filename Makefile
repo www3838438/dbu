@@ -148,6 +148,34 @@ download_dotfiles:
 	# mkdir -pv config/includes.binary/extra/
 	# cp /path/to/intro.html config/includes.binary/intro.html
 
+	# gtk themes
+	-mkdir -pv config/includes.chroot/usr/share/themes/
+	# https://github.com/shimmerproject/Albatross
+	-rm -rf config/includes.chroot/usr/share/themes/Albatross
+		git clone --depth=1 https://github.com/shimmerproject/Albatross config/includes.chroot/usr/share/themes/Albatross
+		rm -rf config/includes.chroot/usr/share/themes/Albatross/.git
+	# https://github.com/shimmerproject/Albatross
+	-rm -rf config/includes.chroot/usr/share/themes/Blackbird
+		git clone --depth=1 https://github.com/shimmerproject/Blackbird config/includes.chroot/usr/share/themes/Blackbird
+		rm -rf config/includes.chroot/usr/share/themes/Blackbird/.git
+	# https://github.com/shimmerproject/Albatross
+	-rm -rf config/includes.chroot/usr/share/themes/Bluebird
+		git clone --depth=1 https://github.com/shimmerproject/Bluebird config/includes.chroot/usr/share/themes/Bluebird
+		rm -rf config/includes.chroot/usr/share/themes/Bluebird/.git
+	# https://github.com/shimmerproject/Albatross
+	-rm -rf config/includes.chroot/usr/share/themes/Greybird
+		git clone --depth=1 https://github.com/shimmerproject/Greybird config/includes.chroot/usr/share/themes/Greybird
+		rm -rf config/includes.chroot/usr/share/themes/Greybird/.git
+	# https://github.com/shimmerproject/Albatross
+	-rm -rf config/includes.chroot/usr/share/themes/Numix
+		git clone --depth=1 https://github.com/shimmerproject/Numix config/includes.chroot/usr/share/themes/Numix
+		rm -rf config/includes.chroot/usr/share/themes/Numix/.git
+	# https://github.com/shimmerproject/Albatross
+	-rm -rf config/includes.chroot/usr/share/themes/Zukitre config/includes.chroot/usr/share/themes/Zukitwo
+		git clone --depth=1 https://github.com/lassekongo83/zuki-themes tmp-zuki-themes
+		mv tmp-zuki-themes/Zukitre tmp-zuki-themes/Zukitwo config/includes.chroot/usr/share/themes/
+		rm -rf tmp-zuki-themes
+
 	# For examples of how to download/include custom packages, dotfiles, themes, libraries,
 	# check git branches extras/gtk-themes, extras/pidgin-opensteamworks, extras/webtorrent...
 
