@@ -14,7 +14,6 @@ apt-config-auto-update
 deborphan
 software-properties-gtk
 synaptic
-gdebi
 
 # Command line
 aptitude
