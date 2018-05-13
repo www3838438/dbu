@@ -1,10 +1,10 @@
 #Name: Blueman Bluetooth manager
 #Desc: blueman
-#Screenshot: blueman
 
-blueman
-bluetooth
-blueman
+##Screenshot: blueman
+#Alt: blueman
+#Alt: bluetooth
+#Alt: blueman
 
 #Alt: gnome-bluetooth
 #Alt: gnome-user-share
