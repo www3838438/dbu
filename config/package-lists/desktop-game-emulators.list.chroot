@@ -1,10 +1,10 @@
 #Name: Game console emulators
 #Cat: Games
 
-#Screenshot: pcsxr
-pcsxr
-#Screenshot: zsnes
-zsnes
+##Screenshot: pcsxr
+#Alt: pcsxr
+##Screenshot: zsnes
+#Alt: zsnes
 
 ##Screenshot: higan
 #Alt: higan
