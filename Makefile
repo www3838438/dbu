@@ -2,7 +2,7 @@
 
 all: install_buildenv tests update_deps install_firefox_addons build
 
-update_deps: download_firefox_addons download_binaries download_dotfiles
+update_deps: download_firefox_addons download_dotfiles downloads_packageschroot
 
 release: documentation tests checksums sign_checksums
 
@@ -98,6 +98,7 @@ install_binaries:
 	# Install unpackaged binaries to the live config tree
 	@if [ ! -d config/includes.chroot/usr/lib/purple-2/ ]; then mkdir -p config/includes.chroot/usr/lib/purple-2/; fi
 	cp cache/downloads/libsteam64-1.6.1.so config/includes.chroot/usr/lib/purple-2/
+	done
 
 ##################################################################
 
@@ -150,4 +151,22 @@ download_dotfiles:
 
 	# For examples of how to download/include custom packages, dotfiles, themes, libraries,
 	# check git branches extras/gtk-themes, extras/pidgin-opensteamworks, extras/webtorrent...
+
+##############################
+
+# Download extra .deb packages for inclusion in the resulting system
+# Packages listed here will receive no automatic upgrades, unless someone packages
+# them under the same name in the Debian archive. Packages listed here will NOT
+# be verified by GPG signing mechanisms, so it is advised to rely on a secure
+# transport (such as HTTPS + checksum verification) to ensure they are authentic.
+# If adding packages from an APT repository, you could download the Release,
+# Release signature, and Packages files, download the signing key by secure means,
+# Then verifying the signature and checksums as described in 
+# https://debian-handbook.info/browse/stable/sect.package-authentication.html
+# Adding .deb packages downloaded via HTTP is NOT recommended.
+WGETPACKAGES := wget -N -nv --show-progress -P config/packages.chroot/
+download_packageschroot:
+	if [ ! -d config/packages.chroot ]; then mkdir -p config/packages.chroot; fi
+	# https://github.com/feross/webtorrent-desktop/
+	-$(WGETPACKAGES) https://github.com/feross/webtorrent-desktop/releases/download/v0.18.0/webtorrent-desktop_0.18.0-1_amd64.deb
 
