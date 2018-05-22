@@ -8,37 +8,35 @@
 
 #### Running programs and working with files
 
-Your _Home directory_ contains all personal files belonging to your user account on the 
-computer.
+Your [_Home directory_](https://en.wikipedia.org/wiki/Home_directory) contains personal files belonging to your user account on the computer.
 
-Use the Applications menu (`Windows + Space` key) or the file manager to open files
-and run programs.
+Other program and system files are stored in various locations of the _[File system](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)._
 
-Use the _Terminal emulator_ to run command-line programs. Use the `man` command to get 
-help about any installed program, for example `man mpv`. Run `man --apropos --sections=1`
-to view a list of available manual pages .
+Use the Applications menu (`Windows + Space` key) or the file manager to open files and run programs.
+
+Use the _Terminal emulator_ to run command-line programs. Use the `man` command to get  help about any installed program, for example `man mpv`. Run `man --apropos --sections=1` to view a list of available manual pages .
 
 -------------------------------------------
 
 #### Configuration
 
-Use the `Settings manager` to configure your desktop or `Options`/`Preferences` inside applications menus.  
+Use the `Settings manager` to configure your desktop, or `Options`/`Preferences` from application menus.  
 Other configuration files are generally found in `~/.config` or `/etc/` directories.
-
-
 
 ------------------------------------------
 
 #### Installing/removing/updating software
 
-The _package management_ system allows you to install, remove or upgrade all 
-component of your system (applications, system services, libraries, operating system...).
+The _package management_ system allows you to install, remove or upgrade all components of your system (applications, system services, libraries, operating system...).
 
  * **[All Debian packages](https://packages.debian.org)** (+40 000 packages)
 
 ##### Upgrading all software
 
+A notification will appear when software updates are available.
 Run `Package Updater`, click `Install updates` and follow the instructions.
+
+![](res/screenshot-gpk-update-viewer.png)
 
 <!--- * From the [Synaptic](packages/synaptic.md) package manager:
    * click `Reload`, `Mark all upgrades`, `Apply`.
@@ -70,28 +68,29 @@ Most package managers have similar usage:
 
 ##### Setting up backups
 
-Select the destination for backups in the 'General' tab (USB/external
-drive/network location...), a schedule for automatic backups (eg. every week),
-then go to the 'Include' tab and add files/directories (eg. Documents, Music...)
-you want to keep backups of. Refer to the [Backintime](http://backintime.readthedocs.io/en/latest/) backup tool documentation for more info.
+ * Run the **Back In Time** backup utility
+ * Select the destination for backups in the 'General' tab (USB/external drive/network location...)
+ * Select a schedule for automatic backups (eg. every week),
+ * In the the 'Include' tab, add files/directories to backup (eg. Documents, Music...)
+
+Refer to [Backintime](http://backintime.readthedocs.io/en/latest/) documentation for more information.
 
 ------------------------------------------
 
 #### Usage recommendations
 
  * Backup your data periodically to an external storage.
- * Apply available software upgrades as soon as possible.
- * Keep your hardware in good condition.
- * Do not run or install untrusted software or commands.
+ * Apply software upgrades as soon as possible.
  * Only install software from your package manager.
- * Keep installed software up-to-date.
+ * Do not run or install untrusted software or commands.
  * Only enter your administrator password to perform necessary system administration tasks.
  * Do not copy-paste commands from the web to your terminal emulator.
  * Do not mark untrusted files as executable.
  * Use strong (long) passwords/phrases.
- * Do not reuse your passwords for different services/machines (use a password manager).
- * Use encrypted communication protocols over insecure networks (SFTP, HTTPS, SSH, OTR, GPG...), use disk encryption to mitigate theft.
+ * Do not reuse your passwords for different services (use a password manager).
+ * Use encrypted communication protocols (SFTP, HTTPS, SSH, OTR, GPG...), use disk encryption to mitigate theft.
  * Minimize installed/running software.
+ * Keep your hardware in good condition.
 
 _Note: The user account created during installation will have `sudo` access (this account can perform administrator tasks, after password verification)_
 

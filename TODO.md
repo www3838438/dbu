@@ -27,7 +27,12 @@
  * [enh] irqbalance and battery life? https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_MRG/1.3/html/Realtime_Tuning_Guide/sect-Realtime_Tuning_Guide-General_System_Tuning-Interrupt_and_Process_Binding.html
  * [enh] use plymouth during live boot
  * [enh] voice recognition/control/dictation (pocketsphinx?)
+ * [enh] do not require passwords for package upgrades (see `org.freedesktop.packagekit.system-update` policykit policy)
  * [enh] [security] enable more apparmor profiles by default, create new profiles `aa-unconfined --paranoid -> find profiles -> set to complain -> aa-notify -> set to enforce -> (ps auxZ) -> dbu`
+ * [enh] [bug] [upstream] xfce4-notes does not remember window position https://bugzilla.xfce.org/show_bug.cgi?id=11158
+ * [enh] [bug] firefox: decentraleyes intro dialog is not disabled on first run
+ * [enh] firefox: place ublock/cookie-autodelete/https-everywhere button in menu
+ * [bug] firefox: user.js breaks display of ublock origin menu
 
 ### Unpackaged
 
