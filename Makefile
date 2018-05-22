@@ -48,6 +48,10 @@ sign:
 	gpg --detach-sign --armor SHA512SUMS; \
 	mv SHA512SUMS.asc SHA512SUMS.sign
 
+test_kvm:
+	# virt-manager must be installed, a VM using the correct ISO file must be configured
+	virt-manager --connect qemu:///system --show-domain-console dbu-test
+
 #########################################
 
 # Download Firefox addons
