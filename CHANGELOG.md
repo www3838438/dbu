@@ -21,7 +21,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
    * "Low" policy allows any output, and incoming samba/avahi connections from LAN 192.168.1.0/24
    * "High" policy only allows output on secure protocols + DNS, and blocks the rest
  * Update documentation
- * Cleanup, reordering, improve build tools, caching, automation, error handling and output
+ * Force https downloads for APT where possible
+ * Cleanup, reordering, improve build tools, Makefile, caching, automation, error handling and output
 
 ### Removed
 
@@ -30,7 +31,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
    * 11 fonts, font-manager
    * Openshot video editor (use blender)
    * network-manager-iodine, wxhexeditor, tdfsb, sqlitebrowser, asciio
-  
+ * Remove 3rd party package download (webtorrent) (see branch `extras/webtorrent`)
+ * Remove WIP thunderbird addons download/installation (see branch `extras/wip/thunderbird-addons`)
+ * Remove gdebi, removes dependency on gksu (unmaintained)
 
 ### Fixed
 
@@ -41,6 +44,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
  * Fix bootloader menu templates
  * Fix some bash aliases
  * Fix custom application launchers icons/categories
+
 
 <!--
 ### Security
