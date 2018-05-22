@@ -39,3 +39,22 @@ a standalone binary are common products of Blender use.
  * [freecad](https://packages.debian.org/stretch/freecad) Extensible Open Source CAx program (alpha)
  * [pcb-gtk](https://packages.debian.org/stretch/pcb-gtk) printed circuit board (pcb) design program - GTK+ interface
  * [qelectrotech](https://packages.debian.org/stretch/qelectrotech) Electric schematic editor
+ * [openshot](https://packages.debian.org/stretch/openshot) Create and edit videos and movies
+ * [kdenlive](https://packages.debian.org/stretch/kdenlive) non-linear video editor
+ * [devede](https://packages.debian.org/stretch/devede) simple application to create Video DVDs
+ * [dvdauthor](https://packages.debian.org/stretch/dvdauthor) create DVD-Video file system
+ * [imagination](https://packages.debian.org/stretch/imagination) DVD slide show maker
+ * [ffdiaporama](https://packages.debian.org/stretch/ffdiaporama) Movie creator from photos and video clips
+ * [screenkey](https://packages.debian.org/stretch/screenkey) screencast tool to display your keystrokes
+ * [dvgrab](https://packages.debian.org/stretch/dvgrab) grab digital video data via IEEE1394 and USB links
+ * [vgrabbj](https://packages.debian.org/stretch/vgrabbj) grabs an image from a camera and puts it in jpg/png format
+ * [dvbcut](https://packages.debian.org/stretch/dvbcut) Qt application for cutting parts out of DVB streams
+ * [multimedia-video](https://packages.debian.org/stretch/multimedia-video) Video packages
+ * [flowblade](https://packages.debian.org/stretch/flowblade) non-linear video editor
+ * [handbrake](https://packages.debian.org/stretch/handbrake) versatile DVD ripper and video transcoder (GTK+ GUI)
+ * [lives](https://packages.debian.org/stretch/lives) Video Editing system allowing users to edit and create video
+ * [rtmpdump](https://packages.debian.org/stretch/rtmpdump) small dumper for media content streamed over the RTMP protocol
+ * [shotdetect](https://packages.debian.org/stretch/shotdetect) scene change detector
+ * [tsdecrypt](https://packages.debian.org/stretch/tsdecrypt) decrypt MPEG transport stream
+ * [videotrans](https://packages.debian.org/stretch/videotrans) DVD authoring utilities
+ * [voctomix](https://packages.debian.org/stretch/voctomix) Full-HD Software Live-Video-Mixer

@@ -32,11 +32,11 @@ and MOD/XM/IT.
 * [python-pyinotify](https://packages.debian.org/stretch/python-pyinotify) `0.9.6-1` - simple Linux inotify Python bindings
 * [libgpod-common](https://packages.debian.org/stretch/libgpod-common) `0.8.3-8.2` - common files for libgpod
 * [libgpod4](https://packages.debian.org/stretch/libgpod4) `0.8.3-8.2` - library to read and write songs and artwork to an iPod
-* [projectm-pulseaudio](https://packages.debian.org/stretch/projectm-pulseaudio) `2.1.0+dfsg-4+b3` - projectM PulseAudio module
 * [python-musicbrainzngs](https://packages.debian.org/stretch/python-musicbrainzngs) `0.6-2` - Python bindings for the Musicbrainz NGS webservice interface
 
 ### Related packages
 
+ * [projectm-pulseaudio](https://packages.debian.org/stretch/projectm-pulseaudio) projectM PulseAudio module
  * [audacious](https://packages.debian.org/stretch/audacious) small and fast audio player which supports lots of formats
  * [audacious-plugins](https://packages.debian.org/stretch/audacious-plugins) Base plugins for audacious
  * [banshee](https://packages.debian.org/stretch/banshee) Media Management and Playback application

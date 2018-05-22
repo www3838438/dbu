@@ -1,10 +1,11 @@
 # Software development utilities
 
-[![](https://screenshots.debian.net/thumbnail-with-version/meld/9001)](https://screenshots.debian.net/screenshot-with-version/meld/9001)
 [![](https://screenshots.debian.net/thumbnail-with-version/gitg/9001)](https://screenshots.debian.net/screenshot-with-version/gitg/9001)
-[![](https://screenshots.debian.net/thumbnail-with-version/wxhexeditor/9001)](https://screenshots.debian.net/screenshot-with-version/wxhexeditor/9001)
-[![](https://screenshots.debian.net/thumbnail-with-version/gcolor2/9001)](https://screenshots.debian.net/screenshot-with-version/gcolor2/9001)
+[![](https://screenshots.debian.net/thumbnail-with-version/meld/9001)](https://screenshots.debian.net/screenshot-with-version/meld/9001)
+[![](https://screenshots.debian.net/thumbnail-with-version/gource/9001)](https://screenshots.debian.net/screenshot-with-version/gource/9001)
+[![](https://screenshots.debian.net/thumbnail-with-version/poedit/9001)](https://screenshots.debian.net/screenshot-with-version/poedit/9001)
 [![](https://screenshots.debian.net/thumbnail-with-version/tig/9001)](https://screenshots.debian.net/screenshot-with-version/tig/9001)
+[![](https://screenshots.debian.net/thumbnail-with-version/gcolor2/9001)](https://screenshots.debian.net/screenshot-with-version/gcolor2/9001)
 
 
 
@@ -14,12 +15,8 @@
 
 * [gitg](https://packages.debian.org/stretch/gitg) `3.23.0-1` - git repository viewer
 * [meld](https://packages.debian.org/stretch/meld) `3.16.4-1` - graphical tool to diff and merge files
-* [wxhexeditor](https://packages.debian.org/stretch/wxhexeditor) `0.23+repack-2+b2` - hexadecimal editor for massive files
-* [tdfsb](https://packages.debian.org/stretch/tdfsb) `0.0.10-2` - 3D filesystem browser
 * [gource](https://packages.debian.org/stretch/gource) `0.44-1+b3` - graphical source control visualisation
-* [gcolor2](https://packages.debian.org/stretch/gcolor2) `0.4-2.2+b1` - Simple GTK2 color selector and picker
-* [sqlitebrowser](https://packages.debian.org/stretch/sqlitebrowser) `3.9.1-2` - GUI editor for SQLite databases
-* [asciio](https://packages.debian.org/stretch/asciio) `1.02.71-1.1` - dynamically create ASCII charts and graphs with GTK+2
+* [poedit](https://packages.debian.org/stretch/poedit) `1.8.11-3` - gettext catalog editor
 * [git](https://packages.debian.org/stretch/git) `1:2.11.0-3+deb9u2` - fast, scalable, distributed revision control system
 * [git-svn](https://packages.debian.org/stretch/git-svn) `1:2.11.0-3+deb9u2` - fast, scalable, distributed revision control system (svn interoperability)
 * [git-mediawiki](https://packages.debian.org/stretch/git-mediawiki) `1:2.11.0-3+deb9u2` - fast, scalable, distributed revision control system (MediaWiki remote helper)
@@ -36,7 +33,7 @@
 * [xmlstarlet](https://packages.debian.org/stretch/xmlstarlet) `1.6.1-2` - command line XML toolkit
 * [aha](https://packages.debian.org/stretch/aha) `0.4.10.3-1` - ANSI color to HTML converter
 * [groff](https://packages.debian.org/stretch/groff) `1.22.3-9` - GNU troff text-formatting system
-* [debhelper](https://packages.debian.org/stretch/debhelper) `11.1.6~bpo9+1` - helper programs for debian/rules
+* [debhelper](https://packages.debian.org/stretch/debhelper) `11.2.1~bpo9+1` - helper programs for debian/rules
 * [autoconf](https://packages.debian.org/stretch/autoconf) `2.69-10` - automatic configure script builder
 * [devscripts](https://packages.debian.org/stretch/devscripts) `2.17.6+deb9u1` - scripts to make the life of a Debian Package maintainer easier
 * [dh-make](https://packages.debian.org/stretch/dh-make) `2.201608` - tool that converts source archives into Debian package source
@@ -70,6 +67,7 @@
 * [webcheck](https://packages.debian.org/stretch/webcheck) `1.10.4-1` - website link and structure checker
 * [vera](https://packages.debian.org/stretch/vera) `1.23-1` - Dictionary of computer related acronyms -- info format
 * [ranger](https://packages.debian.org/stretch/ranger) `1.7.1-1` - File manager with an ncurses frontend written in Python
+* [gcolor2](https://packages.debian.org/stretch/gcolor2) `0.4-2.2+b1` - Simple GTK2 color selector and picker
 * [imagemagick](https://packages.debian.org/stretch/imagemagick) `8:6.9.7.4+dfsg-11+deb9u4` - image manipulation programs -- binaries
 * [optipng](https://packages.debian.org/stretch/optipng) `0.7.6-1+deb9u1` - advanced PNG (Portable Network Graphics) optimizer
 * [advancecomp](https://packages.debian.org/stretch/advancecomp) `1.20-1` - collection of recompression utilities
@@ -83,6 +81,10 @@
 
 ### Related packages
 
+ * [tdfsb](https://packages.debian.org/stretch/tdfsb) 3D filesystem browser
+ * [wxhexeditor](https://packages.debian.org/stretch/wxhexeditor) hexadecimal editor for massive files
+ * [asciio](https://packages.debian.org/stretch/asciio) dynamically create ASCII charts and graphs with GTK+2
+ * [sqlitebrowser](https://packages.debian.org/stretch/sqlitebrowser) GUI editor for SQLite databases
  * [xserver-xephyr](https://packages.debian.org/stretch/xserver-xephyr) nested X server
  * [geany](https://packages.debian.org/stretch/geany) fast and lightweight IDE
  * [geany-plugins](https://packages.debian.org/stretch/geany-plugins) set of plugins for Geany
@@ -90,8 +92,6 @@
  * [qgit](https://packages.debian.org/stretch/qgit) Qt application for viewing GIT trees
  * [ghex](https://packages.debian.org/stretch/ghex) GNOME Hex editor for files
  * [thunar-vcs-plugin](https://packages.debian.org/stretch/thunar-vcs-plugin) VCS plugin for Thunar file manager
- * [poedit](https://packages.debian.org/stretch/poedit) gettext catalog editor
- * [retext](https://packages.debian.org/stretch/retext) Simple text editor for Markdown and reStructuredText
  * [pybootchartgui](https://packages.debian.org/stretch/pybootchartgui) viewer for boot process performance analysis results
  * [xpra](https://packages.debian.org/stretch/xpra) tool to detach/reattach running X programs
  * [undistract-me](https://packages.debian.org/stretch/undistract-me) Notifies user when long-running terminal commands complete via libnotify

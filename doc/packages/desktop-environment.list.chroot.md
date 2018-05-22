@@ -44,6 +44,7 @@ remove this package.
 * [dconf-tools](https://packages.debian.org/stretch/dconf-tools) `0.26.0-2` - transitional dummy package
 * [qt4-qtconfig](https://packages.debian.org/stretch/qt4-qtconfig) `4:4.8.7+dfsg-11` - Qt 4 configuration tool
 * [gmrun](https://packages.debian.org/stretch/gmrun) `0.9.2-2.2` - Featureful CLI-like GTK+ application launcher
+* [gnome-font-viewer](https://packages.debian.org/stretch/gnome-font-viewer) `3.22.0-1+b1` - font viewer for GNOME
 * [libnotify-bin](https://packages.debian.org/stretch/libnotify-bin) `0.7.7-2` - sends desktop notifications to a notification daemon (Utilities)
 * [zenity](https://packages.debian.org/stretch/zenity) `3.22.0-1+b1` - Display graphical dialog boxes from shell scripts
 * [numlockx](https://packages.debian.org/stretch/numlockx) `1.2-7+b2` - enable NumLock in X11 sessions

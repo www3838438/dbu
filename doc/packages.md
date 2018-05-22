@@ -26,15 +26,13 @@ removing or updating software packages.
  - [Cheese webcam utility](packages/desktop-webcam-cheese.list.chroot.md)
  - [GIMP image editor and graphics tools](packages/desktop-image-editor-gimp.list.chroot.md)
  - [GNOME sound recorder](packages/desktop-audio-recorder-gnome-sound-recorder.list.chroot.md)
- - [GTK-RecordMyDesktop screen recorder](packages/desktop-screen-recorder-gtk-recordmydesktop.list.chroot.md)
- - [Image manipulation utilities](packages/desktop-utils-images.list.chroot.md)
  - [Inkscape vector image editor](packages/desktop-vectoreditor-inkscape.list.chroot.md)
  - [MPV media player](packages/desktop-media-player-mpv.list.chroot.md)
  - [OBS Studio video recorder/streamer](packages/desktop-video-recorder-streamer-obs-studio.list.chroot.md)
- - [Openshot video editor](packages/desktop-video-editor-openshot.list.chroot.md)
  - [QuodLibet music player/library manager](packages/desktop-music-player-quodlibet.list.chroot.md)
  - [Ristretto image viewer](packages/desktop-image-viewer-ristretto.list.chroot.md)
  - [VLC media player](packages/desktop-media-player-vlc.list.chroot.md)
+ - [Vokoscreen screencast recorder](packages/desktop-screencast-recorder-vokoscreen.list.chroot.md)
  - [WinFF multimedia file converter](packages/desktop-media-converter-winff.list.chroot.md)
  - [Xfburn CD/DVD burning tool](packages/desktop-cd-burning-xfburn.list.chroot.md)
 
@@ -59,10 +57,8 @@ removing or updating software packages.
  - [Desktop environment](packages/desktop-environment.list.chroot.md)
  - [File search utility](packages/desktop-file-search-gnome-search-tool.list.chroot.md)
  - [File-roller archive manager](packages/desktop-archive-manager-file-roller.list.chroot.md)
- - [GNOME Font viewer and manager](packages/desktop-font-viewer-manager-gnome.list.chroot.md)
  - [GNOME calculator](packages/desktop-calculator-gnome-calculator.list.chroot.md)
  - [GNOME character map](packages/desktop-character-map-gucharmap.list.chroot.md)
- - [GTK-RecordMyDesktop screen recorder](packages/desktop-screen-recorder-gtk-recordmydesktop.list.chroot.md)
  - [KeepassX password manager](packages/desktop-password-manager-keepassx.list.chroot.md)
  - [Marble map viewer](packages/desktop-science-cartography.list.chroot.md)
  - [Mousepad text editor](packages/desktop-text-editor-mousepad.list.chroot.md)
@@ -106,4 +102,4 @@ removing or updating software packages.
 
 ### Non-debian packages
 * []() - 
-* [webtorrent-desktop](https://webtorrent.io) -  WebTorrent, the streaming torrent client. For Mac, Windows, and Linux.
+* []() - 

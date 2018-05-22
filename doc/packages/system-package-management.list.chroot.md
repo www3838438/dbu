@@ -28,14 +28,13 @@ Besides these basic functions the following features are provided:
 ### Installed packages
 
 * [gnome-packagekit](https://packages.debian.org/stretch/gnome-packagekit) `3.22.1-2` - Graphical distribution neutral package manager for GNOME
-* [packagekit](https://packages.debian.org/stretch/packagekit) `1.1.5-2` - Provides a package management service
-* [packagekit-tools](https://packages.debian.org/stretch/packagekit-tools) `1.1.5-2` - Provides PackageKit command-line tools
+* [packagekit](https://packages.debian.org/stretch/packagekit) `1.1.5-2+deb9u1` - Provides a package management service
+* [packagekit-tools](https://packages.debian.org/stretch/packagekit-tools) `1.1.5-2+deb9u1` - Provides PackageKit command-line tools
 * [pk-update-icon](https://packages.debian.org/stretch/pk-update-icon) `2.0.0-2` - Displays an update-notification tray icon
 * [apt-config-auto-update](https://packages.debian.org/stretch/apt-config-auto-update) `2.0.0-2` - Apt configuration for automatic cache updates
 * [deborphan](https://packages.debian.org/stretch/deborphan) `1.7.28.8-0.3+b1` - program that can find unused packages, e.g. libraries
 * [software-properties-gtk](https://packages.debian.org/stretch/software-properties-gtk) `0.96.20.2-1` - manage the repositories that you install software from (gtk)
 * [synaptic](https://packages.debian.org/stretch/synaptic) `0.84.2` - Graphical package manager
-* [gdebi](https://packages.debian.org/stretch/gdebi) `0.9.5.7+nmu1` - simple tool to view and install deb files - GNOME GUI
 * [aptitude](https://packages.debian.org/stretch/aptitude) `0.8.7-1` - terminal-based package manager
 * [aptitude-doc-fr](https://packages.debian.org/stretch/aptitude-doc-fr) `0.8.7-1` - French manual for aptitude, a terminal-based package manager
 * [debsecan](https://packages.debian.org/stretch/debsecan) `0.4.19~deb9u1` - Debian Security Analyzer
@@ -55,3 +54,4 @@ Besides these basic functions the following features are provided:
  * [packagekit-command-not-found](https://packages.debian.org/stretch/packagekit-command-not-found) Offer to install missing programs automatically
  * [packagekit-gtk3-module](https://packages.debian.org/stretch/packagekit-gtk3-module) Install fonts automatically using PackageKit
  * [gnome-software](https://packages.debian.org/stretch/gnome-software) Software Center for GNOME
+ * [debian-security-support](https://packages.debian.org/stretch/debian-security-support) Debian security support coverage checker

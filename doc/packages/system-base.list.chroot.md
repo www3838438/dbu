@@ -8,7 +8,7 @@
 
 ### Installed packages
 
-* [linux-headers-amd64](https://packages.debian.org/stretch/linux-headers-amd64) `4.15+91~bpo9+1` - Header files for Linux amd64 configuration (meta-package)
+* [linux-headers-amd64](https://packages.debian.org/stretch/linux-headers-amd64) `4.16+93~bpo9+1` - Header files for Linux amd64 configuration (meta-package)
 * [module-assistant](https://packages.debian.org/stretch/module-assistant) `0.11.9` - tool to make module package creation easier
 * [dkms](https://packages.debian.org/stretch/dkms) `2.3-2` - Dynamic Kernel Module Support Framework
 * [build-essential](https://packages.debian.org/stretch/build-essential) `12.3` - Informational list of build-essential packages

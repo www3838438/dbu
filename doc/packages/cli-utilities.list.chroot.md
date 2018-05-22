@@ -67,8 +67,8 @@
 * [hostname](https://packages.debian.org/stretch/hostname) `3.18+b1` - utility to set/show the host name or domain name
 * [bridge-utils](https://packages.debian.org/stretch/bridge-utils) `1.5-13+deb9u1` - Utilities for configuring the Linux Ethernet bridge
 * [ethtool](https://packages.debian.org/stretch/ethtool) `1:4.8-1+b1` - display or change Ethernet device settings
-* [curl](https://packages.debian.org/stretch/curl) `7.52.1-5+deb9u5` - command line tool for transferring data with URL syntax
-* [wget](https://packages.debian.org/stretch/wget) `1.18-5+deb9u1` - retrieves files from the web
+* [curl](https://packages.debian.org/stretch/curl) `7.52.1-5+deb9u6` - command line tool for transferring data with URL syntax
+* [wget](https://packages.debian.org/stretch/wget) `1.18-5+deb9u2` - retrieves files from the web
 * [git](https://packages.debian.org/stretch/git) `1:2.11.0-3+deb9u2` - fast, scalable, distributed revision control system
 * [rsync](https://packages.debian.org/stretch/rsync) `3.1.2-1+deb9u1` - fast, versatile, remote (and local) file-copying tool
 * [transmission-cli](https://packages.debian.org/stretch/transmission-cli) `2.92-2+deb9u1` - lightweight BitTorrent client (command line programs)
@@ -83,33 +83,32 @@
 * [strace](https://packages.debian.org/stretch/strace) `4.15-2` - System call tracer
 * [memtest86+](https://packages.debian.org/stretch/memtest86+) `5.01-3` - thorough real-mode memory tester
 * [debsums](https://packages.debian.org/stretch/debsums) `2.2.2` - tool for verification of installed package files against MD5 checksums
-* [less](https://packages.debian.org/stretch/less) `481-2.1` - pager program similar to more
-* [sed](https://packages.debian.org/stretch/sed) `4.4-1` - GNU stream editor for filtering/transforming text
-* [dos2unix](https://packages.debian.org/stretch/dos2unix) `7.3.4-3` - convert text file line endings between CRLF and LF
-* [util-linux](https://packages.debian.org/stretch/util-linux) `2.29.2-1+deb9u1` - miscellaneous system utilities
-* [util-linux-locales](https://packages.debian.org/stretch/util-linux-locales) `2.29.2-1+deb9u1` - locales files for util-linux
-* [bash-completion](https://packages.debian.org/stretch/bash-completion) `1:2.1-4.3` - programmable completion for the bash shell
-* [moreutils](https://packages.debian.org/stretch/moreutils) `0.60-1` - additional Unix utilities
-* [autojump](https://packages.debian.org/stretch/autojump) `22.5.0-2` - shell extension to jump to frequently used directories
-* [tty-clock](https://packages.debian.org/stretch/tty-clock) `2.3-1` - simple terminal clock
-* [manpages](https://packages.debian.org/stretch/manpages) `4.10-2` - Manual pages about using a GNU/Linux system
-* [manpages-dev](https://packages.debian.org/stretch/manpages-dev) `4.10-2` - Manual pages about using GNU/Linux for development
-* [at](https://packages.debian.org/stretch/at) `3.1.20-3` - Delayed job execution and batch processing
-* [colortail](https://packages.debian.org/stretch/colortail) `0.3.3-1+b2` - log colorizer that makes log checking easier
-* [pv](https://packages.debian.org/stretch/pv) `1.6.0-1+b1` - Shell pipeline element to meter data passing through
-* [colordiff](https://packages.debian.org/stretch/colordiff) `1.0.16-1` - tool to colorize 'diff' output
-* [dwdiff](https://packages.debian.org/stretch/dwdiff) `2.1.0-1+b3` - diff program that operates word by word
-* [cloc](https://packages.debian.org/stretch/cloc) `1.70-1` - statistics utility to count lines of code
-* [asciinema](https://packages.debian.org/stretch/asciinema) `1.3.0-2` - Record and share your terminal sessions, the right way
-* [nss-passwords](https://packages.debian.org/stretch/nss-passwords) `0.2-2+b1` - read passwords from a Mozilla keyring
-* [mat](https://packages.debian.org/stretch/mat) `0.6.1-4` - Metadata anonymisation toolkit
 * [ansible](https://packages.debian.org/stretch/ansible) `2.2.1.0-2` - Configuration management, deployment, and task execution system
-* [python-selinux](https://packages.debian.org/stretch/python-selinux) `2.6-3+b3` - Python bindings to SELinux shared libraries
-* [dialog](https://packages.debian.org/stretch/dialog) `1.3-20160828-2` - Displays user-friendly dialog boxes from shell scripts
-* [whiptail](https://packages.debian.org/stretch/whiptail) `0.52.19-1+b1` - Displays user-friendly dialog boxes from shell scripts
-* [inotify-tools](https://packages.debian.org/stretch/inotify-tools) `3.14-2` - command-line programs providing a simple interface to inotify
+* [asciinema](https://packages.debian.org/stretch/asciinema) `1.3.0-2` - Record and share your terminal sessions, the right way
+* [at](https://packages.debian.org/stretch/at) `3.1.20-3` - Delayed job execution and batch processing
+* [autojump](https://packages.debian.org/stretch/autojump) `22.5.0-2` - shell extension to jump to frequently used directories
+* [bash-completion](https://packages.debian.org/stretch/bash-completion) `1:2.1-4.3` - programmable completion for the bash shell
+* [cloc](https://packages.debian.org/stretch/cloc) `1.70-1` - statistics utility to count lines of code
 * [cmatrix](https://packages.debian.org/stretch/cmatrix) `1.2a-5+b2` - simulates the display from "The Matrix"
 * [cmatrix-xfont](https://packages.debian.org/stretch/cmatrix-xfont) `1.2a-5` - X11 font for cmatrix
+* [colordiff](https://packages.debian.org/stretch/colordiff) `1.0.16-1` - tool to colorize 'diff' output
+* [colortail](https://packages.debian.org/stretch/colortail) `0.3.3-1+b2` - log colorizer that makes log checking easier
+* [dialog](https://packages.debian.org/stretch/dialog) `1.3-20160828-2` - Displays user-friendly dialog boxes from shell scripts
+* [dos2unix](https://packages.debian.org/stretch/dos2unix) `7.3.4-3` - convert text file line endings between CRLF and LF
+* [dwdiff](https://packages.debian.org/stretch/dwdiff) `2.1.0-1+b3` - diff program that operates word by word
+* [inotify-tools](https://packages.debian.org/stretch/inotify-tools) `3.14-2` - command-line programs providing a simple interface to inotify
+* [less](https://packages.debian.org/stretch/less) `481-2.1` - pager program similar to more
+* [manpages](https://packages.debian.org/stretch/manpages) `4.10-2` - Manual pages about using a GNU/Linux system
+* [manpages-dev](https://packages.debian.org/stretch/manpages-dev) `4.10-2` - Manual pages about using GNU/Linux for development
+* [moreutils](https://packages.debian.org/stretch/moreutils) `0.60-1` - additional Unix utilities
+* [nss-passwords](https://packages.debian.org/stretch/nss-passwords) `0.2-2+b1` - read passwords from a Mozilla keyring
+* [pv](https://packages.debian.org/stretch/pv) `1.6.0-1+b1` - Shell pipeline element to meter data passing through
+* [python-selinux](https://packages.debian.org/stretch/python-selinux) `2.6-3+b3` - Python bindings to SELinux shared libraries
+* [sed](https://packages.debian.org/stretch/sed) `4.4-1` - GNU stream editor for filtering/transforming text
+* [tty-clock](https://packages.debian.org/stretch/tty-clock) `2.3-1` - simple terminal clock
+* [util-linux](https://packages.debian.org/stretch/util-linux) `2.29.2-1+deb9u1` - miscellaneous system utilities
+* [util-linux-locales](https://packages.debian.org/stretch/util-linux-locales) `2.29.2-1+deb9u1` - locales files for util-linux
+* [whiptail](https://packages.debian.org/stretch/whiptail) `0.52.19-1+b1` - Displays user-friendly dialog boxes from shell scripts
 
 ### Related packages
 
@@ -184,19 +183,20 @@
  * [sysstat](https://packages.debian.org/stretch/sysstat) system performance tools for Linux
  * [cacti](https://packages.debian.org/stretch/cacti) web interface for graphing of monitoring systems
  * [hwloc](https://packages.debian.org/stretch/hwloc) Hierarchical view of the machine - utilities
+ * [ack-grep](https://packages.debian.org/stretch/ack-grep) Transitional dummy package to pull in "ack"
+ * [bd](https://packages.debian.org/stretch/bd) quickly go back to a specific parent directory in bash
+ * [beep](https://packages.debian.org/stretch/beep) advanced pc-speaker beeper
+ * [command-not-found](https://packages.debian.org/stretch/command-not-found) Suggest installation of packages in interactive bash sessions
+ * [cowsay](https://packages.debian.org/stretch/cowsay) configurable talking cow
+ * [detox](https://packages.debian.org/stretch/detox) replace problematic characters in filenames
+ * [fortune-mod](https://packages.debian.org/stretch/fortune-mod) provides fortune cookies on demand
+ * [grc](https://packages.debian.org/stretch/grc) generic colouriser for everything
+ * [mat](https://packages.debian.org/stretch/mat) Metadata anonymisation toolkit
+ * [multitail](https://packages.debian.org/stretch/multitail) view multiple logfiles windowed on console
+ * [nyancat](https://packages.debian.org/stretch/nyancat) Animated terminal Nyancat
+ * [pv](https://packages.debian.org/stretch/pv) Shell pipeline element to meter data passing through
+ * [reptyr](https://packages.debian.org/stretch/reptyr) Tool for moving running programs between ptys
  * [sl](https://packages.debian.org/stretch/sl) Correct you if you type `sl' by mistake
  * [source-highlight](https://packages.debian.org/stretch/source-highlight) convert source code to syntax highlighted document
- * [detox](https://packages.debian.org/stretch/detox) replace problematic characters in filenames
  * [tmux](https://packages.debian.org/stretch/tmux) terminal multiplexer
- * [command-not-found](https://packages.debian.org/stretch/command-not-found) Suggest installation of packages in interactive bash sessions
  * [ttyrec](https://packages.debian.org/stretch/ttyrec) Terminal interaction recorder and player (for tty)
- * [multitail](https://packages.debian.org/stretch/multitail) view multiple logfiles windowed on console
- * [cowsay](https://packages.debian.org/stretch/cowsay) configurable talking cow
- * [fortune-mod](https://packages.debian.org/stretch/fortune-mod) provides fortune cookies on demand
- * [ack-grep](https://packages.debian.org/stretch/ack-grep) Transitional dummy package to pull in "ack"
- * [reptyr](https://packages.debian.org/stretch/reptyr) Tool for moving running programs between ptys
- * [nyancat](https://packages.debian.org/stretch/nyancat) Animated terminal Nyancat
- * [grc](https://packages.debian.org/stretch/grc) generic colouriser for everything
- * [bd](https://packages.debian.org/stretch/bd) quickly go back to a specific parent directory in bash
- * [pv](https://packages.debian.org/stretch/pv) Shell pipeline element to meter data passing through
- * [beep](https://packages.debian.org/stretch/beep) advanced pc-speaker beeper
