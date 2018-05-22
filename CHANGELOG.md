@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v1.5](https://github.com/nodiscc/dbu/releases/tag/1.5) - UNRELEASED
+## [v1.5](https://github.com/nodiscc/dbu/releases/tag/1.5) - 2018-05-22
 
 ### Added
 
@@ -44,13 +44,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
  * Fix bootloader menu templates
  * Fix some bash aliases
  * Fix custom application launchers icons/categories
-
-
-<!--
-### Security
-### Deprecated
--->
-
 
 ## [v1.4](https://github.com/nodiscc/dbu/releases/tag/1.4) - 2018-03-05
 
