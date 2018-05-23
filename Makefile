@@ -1,61 +1,64 @@
 #!/usr/bin/make -f
 
-all: install_buildenv tests update_deps rename_xpi build
+all: install_buildenv tests update_deps install_firefox_addons build
 
 update_deps: download_firefox_addons download_binaries download_dotfiles
 
-rename_xpi: rename_firefox_xpi
+release: documentation tests checksums sign_checksums torrent
 
-release: documentation tests checksums sign torrent
+tests: test_shellcheck test_doc_emptylinks
 
-######
+#########################################
 
 install_buildenv:
-	sudo apt install live-build make build-essential wget git xmlstarlet unzip colordiff \
-		shellcheck apt-transport-https
+	# Install packages required to build the image
+	sudo apt install live-build make build-essential wget git xmlstarlet unzip colordiff shellcheck apt-transport-https
 
-tests:
+test_shellcheck:
 	#Check scripts syntax
 	@shellcheck --exclude=SC2016,SC2086,SC1001 scripts/*.sh
-	#Packages without descriptions in documentation:
-	@cd doc/packages/ && egrep "^ \* .* $$" *.md || continue
+
+test_doc_emptylinks:
 	#Empty links in documentation:
 	@cd doc/packages/ && grep -r '()' && echo "WARNING invalid markdown links found"
 
+test_kvm:
+	# Run the resulting image in KVM/virt-manager
+	# virt-manager must be installed, a VM using the correct ISO file must be configured
+	virt-manager --connect qemu:///system --show-domain-console dbu-test
+
 documentation:
-	-mkdir doc/packages/
+	# Generate package documentation pages and index
+	if [ ! -d doc/packages/ ]; then mkdir -p doc/packages/; fi
 	-rm -r doc/packages/*.md
 	./scripts/doc-generator.sh
 
 build:
-	sudo lb clean --all
+	# Build the live system/ISO image
 	#sudo lb clean --purge #only required when changing the mirrors/architecture config
+	sudo lb clean --all
 	sudo lb config
 	sudo lb build
-	-mkdir iso/
-	mv *.iso iso/
 
 #########################################
 
 checksums:
+	# Generate checksums of the resulting ISO image
+	if [ ! -d iso/ ]; then mkdir -p iso/; fi
+	mv *.iso iso/
 	last_tag=$$(git tag | tail -n1); \
 	cd iso/; \
 	rename "s/live-image/dbu-$$last_tag-debian-stretch/" *; \
 	sha512sum *.iso  > SHA512SUMS; \
 
-sign:
+sign_checksums:
+	# SIgn checksums with a GPG private key
 	cd iso; \
 	gpg --detach-sign --armor SHA512SUMS; \
 	mv SHA512SUMS.asc SHA512SUMS.sign
 
-test_kvm:
-	# virt-manager must be installed, a VM using the correct ISO file must be configured
-	virt-manager --connect qemu:///system --show-domain-console dbu-test
-
 #########################################
 
-# Download cache directory
-download_dir=cache/firefox_addons/
 # Addons installation path (Firefox ESR)
 firefox_addons_dir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
 # Addons installation path (release/nightly)
@@ -63,39 +66,42 @@ firefox_addons_dir=config/includes.chroot/usr/share/firefox-esr/distribution/ext
 
 # Download Firefox addons
 download_firefox_addons:
-	if [ ! -d $(download_dir) ]; then mkdir -p $(download_dir); fi
+	if [ ! -d cache/downloads/firefox_addons/ ]; then mkdir -p cache/downloads/firefox_addons/; fi
 	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/ [e10s] [security] [installed]
-	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
+	wget -N -nv --show-progress -P cache/downloads/firefox_addons/ https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/ [e10s] [security] [installed]
-	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
+	wget -N -nv --show-progress -P cache/downloads/firefox_addons/ https://addons.mozilla.org/firefox/downloads/latest/607454/addon-607454-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/ [e10s] [security] [installed]
-	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
+	wget -N -nv --show-progress -P cache/downloads/firefox_addons/ https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/ [e10s] [security] [FF52ESR]
-	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/file/710414/decentraleyes-1.3.10-an+fx+sm.xpi
+	wget -N -nv --show-progress -P cache/downloads/firefox_addons/ https://addons.mozilla.org/firefox/downloads/file/710414/decentraleyes-1.3.10-an+fx+sm.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/ [security] [installed]
-	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
+	wget -N -nv --show-progress -P cache/downloads/firefox_addons/ https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ [security] [FF52ESR] [installed]
-	wget -N -nv --show-progress -P $(download_dir) https://addons.mozilla.org/firefox/downloads/file/717459/cookie_autodelete-1.4.4-an+fx.xpi
+	wget -N -nv --show-progress -P cache/downloads/firefox_addons/ https://addons.mozilla.org/firefox/downloads/file/717459/cookie_autodelete-1.4.4-an+fx.xpi
 
-
-# Download prebuilt binaries for unpackaged software
-download_binaries:
-	# https://github.com/EionRobb/pidgin-opensteamworks/
-	if [ ! -d config/includes.chroot/usr/lib/purple-2/ ]; then mkdir -p config/includes.chroot/usr/lib/purple-2/; fi
-	wget -N -nv --show-progress -P config/includes.chroot/usr/lib/purple-2/ \
-		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so \
-		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
+# Rename downloaded XPIs from their ID, install them to distribution directory
+install_firefox_addons:
+	@-rm $(firefox_addons_dir)/*.xpi
+	@if [ ! -d $(firefox_addons_dir) ]; then mkdir -p $(firefox_addons_dir); fi
+	@for xpi in $$(find cache/downloads/firefox_addons/ -name '*.xpi'); do \
+		extid=$$(./scripts/get-xul-extension-id.sh "$$xpi"); \
+		echo "$$xpi - $$extid"; \
+		cp "$$xpi" $(firefox_addons_dir)/"$$extid".xpi ; \
+	done
 
 ##################################################################
-# Rename downloaded XPIs from their ID, install them to distribution directory
-rename_firefox_xpi:
-	-rm $(firefox_addons_dir)/*.xpi
-	if [ ! -d $(firefox_addons_dir) ]; then mkdir -p $(firefox_addons_dir); fi
-	@for xpi in $$(find $(download_dir) -name '*.xpi'); do \
-	extid=$$(./scripts/get-xul-extension-id.sh "$$xpi"); \
-	echo "$$xpi - $$extid"; \
-	cp "$$xpi" $(firefox_addons_dir)/"$$extid".xpi ; \
-	done
+
+download_binaries:
+	# Download prebuilt binaries for unpackaged software
+	@if [ ! -d cache/downloads/ ]; then mkdir -p cache/downloads/; fi
+	# https://github.com/EionRobb/pidgin-opensteamworks/
+	wget -N -nv --show-progress -P cache/downloads/ https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam64-1.6.1.so
+
+install_binaries:
+	# Install unpackaged binaries to the live config tree
+	@if [ ! -d config/includes.chroot/usr/lib/purple-2/ ]; then mkdir -p config/includes.chroot/usr/lib/purple-2/; fi
+	cp cache/downloads/libsteam64-1.6.1.so config/includes.chroot/usr/lib/purple-2/
 
 ##################################################################
 

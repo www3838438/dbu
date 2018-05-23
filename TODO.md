@@ -33,6 +33,8 @@
  * [enh] [bug] firefox: decentraleyes intro dialog is not disabled on first run
  * [enh] firefox: place ublock/cookie-autodelete/https-everywhere button in menu
  * [bug] firefox: user.js breaks display of ublock origin menu
+ * [enh] [doc] find packages without descriptions in documentation: `cd doc/packages/ && egrep "^ \* .* $$" *.md`
+
 
 ### Unpackaged
 
