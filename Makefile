@@ -54,8 +54,14 @@ test_kvm:
 
 #########################################
 
-# Download Firefox addons
+# Download cache directory
 download_dir=cache/firefox_addons/
+# Addons installation path (Firefox ESR)
+firefox_addons_dir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
+# Addons installation path (release/nightly)
+#firefox_addons_dir=config/includes.chroot/usr/share/firefox/distribution/extensions/
+
+# Download Firefox addons
 download_firefox_addons:
 	if [ ! -d $(download_dir) ]; then mkdir -p $(download_dir); fi
 	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/ [e10s] [security]
@@ -147,11 +153,7 @@ download_binaries:
 		https://github.com/EionRobb/pidgin-opensteamworks/releases/download/1.6.1/libsteam-1.6.1.so
 
 ##################################################################
-# Rename downloaded XPIs from their ID
-# Addons path (Firefox ESR)
-firefox_addons_dir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
-# Addons path (release/nightly)
-#firefox_addons_dir=config/includes.chroot/usr/share/firefox/distribution/extensions/
+# Rename downloaded XPIs from their ID, install them to distribution directory
 rename_firefox_xpi:
 	-rm $(firefox_addons_dir)/*.xpi
 	if [ ! -d $(firefox_addons_dir) ]; then mkdir -p $(firefox_addons_dir); fi
