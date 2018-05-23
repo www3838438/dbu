@@ -120,6 +120,8 @@ function _gen_package_index {
 					fi
 			done | sort
 		done
+		
+		# Additional software from other sources
 		echo -e "\n### Non-debian packages";
 		for deb in config/packages.chroot/*{all,amd64}.deb; do
 			package=$(dpkg -I $deb | egrep "Package:" | awk -F' ' '{print $2}')
@@ -127,6 +129,12 @@ function _gen_package_index {
 			description=$(dpkg -I $deb | egrep "Description:" | awk '{$1=""; sub("  ", ""); print}')
 			echo "* [$package]($homepage) - $description"
 		done
+		echo -e "\n### Firefox addons";
+		echo "These [addons for Mozilla Firefox](https://addons.mozilla.org) are part of the default installation:"
+		for addon in $(grep "\[installed\]" Makefile  | sed 's/\t#/ * /'); do
+		    echo "$addon"
+		done
+		echo -e "\nFor a list of other interesting addons, see [this page](https://github.com/nodiscc/toolbox/blob/master/DOCS/FIREFOX-ADDONS.md)"
 	)
 	echo "$pageheader
 	$pkgindex" > doc/packages.md
