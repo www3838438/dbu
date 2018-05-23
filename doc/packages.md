@@ -101,5 +101,15 @@ removing or updating software packages.
  - [Xorg display server](packages/desktop-system-display-server-xorg.list.chroot.md)
 
 ### Non-debian packages
-* []() - 
-* []() - 
+
+### Firefox addons
+
+These [addons for Mozilla Firefox](https://addons.mozilla.org) are part of the default installation:
+
+ * https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/ [e10s] [security] [installed]
+ * https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/ [e10s] [security] [installed]
+ * https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/ [e10s] [security] [installed]
+ * https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/ [security] [installed]
+ * https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ [security] [FF52ESR] [installed]
+
+For a list of other interesting addons, see [this page](https://github.com/nodiscc/toolbox/blob/master/DOCS/FIREFOX-ADDONS.md)

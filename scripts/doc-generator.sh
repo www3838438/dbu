@@ -6,7 +6,7 @@
 set -o errexit
 set -o nounset
 
-###############################################################################
+################################################################################
 
 # CONFIGURATION
 #fail when a package list is missing a #Cat: field
@@ -21,7 +21,7 @@ See [Usage](usage.md#Installing-removing-updating-software) for documentation on
 removing or updating software packages.
 "
 
-###############################################################################
+################################################################################
 
 function _genPackagesDoc {
 	# gather information from a package list ($1), format it to markdown
@@ -31,25 +31,27 @@ function _genPackagesDoc {
 	mainpackage=$(echo "$packages " |head -n1 || echo "") # main package from the list
 	alt_packages=$(grep -E "^#Alt:" "$packagelist" | cut -d" " -f1 --complement) # alternative/suggested packages
 	md_title="# $(grep -E "^#Name" $packagelist | cut -d" " -f1 --complement)" # page title
+
+	# remove all descriptions if the package list has a #NoDescription field
 	if grep -E "^#NoDescription" "$packagelist" >/dev/null; then
-		# remove all descriptions if the package list has a #NoDescription field
 		md_description=""
 		md_shortdescription=""
 		md_homepage=""
+	# get description from the package list's #Replace field if it exists
 	elif grep -E "^#Replace" "$packagelist" >/dev/null; then
 		md_shortdescription=""
 		md_description="$(grep -E "^#Replace" $packagelist | cut -d" " -f1 --complement)"
+	# use the package list's #Desc field to specify the package to descript, if it exists, or use the first package in the list
 	else
-		# use #Desc field to specify the package to descript, or use the main package
 		if grep -E "^#Desc:" "$packagelist" >/dev/null; then
 			descriptionpackage=$(grep -E "^#Desc" "$packagelist" | cut -d" " -f1 --complement)
 		else descriptionpackage="$mainpackage"
 		fi
-		# generate markdown page title, desciptions, homepage links
 		md_description="$(apt-cache show $descriptionpackage | grep -E "^ " | grep -Ev "::" | sed -e 's/^ \.$/ /g' | cut -b1 --complement)"
 		md_shortdescription="_$(apt-cache show $descriptionpackage | grep -E "Description(-en|-fr)" | cut -d" " -f1 --complement | head -n1)_"
 		md_homepage="**[Homepage]($(apt-cache show $descriptionpackage | grep -E "^Homepage:" | head -n1 | cut -d" " -f1 --complement))**"
 	fi
+	# use the package list's #Screenshot to specify the screenshot to fetch, or use the first package in the list
 	if grep -E "^#Screenshot:" "$packagelist" >/dev/null; then
 		screenshotpackages=$(grep -E "^#Screenshot:" "$packagelist" | cut -d" " -f1 --complement)
 		else screenshotpackages="$mainpackage"
@@ -67,7 +69,6 @@ function _genPackagesDoc {
 
 
 function _renderMarkdown {
-	# 
 	echo -e "$md_title"
 	if [ ! -z "$md_shortdescription" ]; then echo -e "\n_${md_shortdescription}_\n"; fi
 	if [ ! -z "$md_description" ]; then
@@ -109,7 +110,7 @@ function _main {
 
 
 function _gen_package_index {
-	#generate an index of all markdown package lists
+	# Generate an index of all markdown package lists
 	pkgindex=$(
 		for category in $package_categories; do
 			echo -e "\n### $category";
@@ -120,27 +121,26 @@ function _gen_package_index {
 					fi
 			done | sort
 		done
-		
+
 		# Additional software from other sources
 		echo -e "\n### Non-debian packages";
-		for deb in config/packages.chroot/*{all,amd64}.deb; do
+		find config/packages.chroot/ -name "*{all,amd64}.deb" | while read -r deb; do
 			package=$(dpkg -I $deb | egrep "Package:" | awk -F' ' '{print $2}')
 			homepage=$(dpkg -I $deb | egrep "Homepage:" | awk -F' ' '{print $2}')
 			description=$(dpkg -I $deb | egrep "Description:" | awk '{$1=""; sub("  ", ""); print}')
 			echo "* [$package]($homepage) - $description"
 		done
 		echo -e "\n### Firefox addons";
-		echo "These [addons for Mozilla Firefox](https://addons.mozilla.org) are part of the default installation:"
-		for addon in $(grep "\[installed\]" Makefile  | sed 's/\t#/ * /'); do
-		    echo "$addon"
-		done
+		echo -e "\nThese [addons for Mozilla Firefox](https://addons.mozilla.org) are part of the default installation:\n"
+		grep "\[installed\]" Makefile  | sed 's/\t#/ * /'
 		echo -e "\nFor a list of other interesting addons, see [this page](https://github.com/nodiscc/toolbox/blob/master/DOCS/FIREFOX-ADDONS.md)"
 	)
 	echo "$pageheader
 	$pkgindex" > doc/packages.md
 }
 
-
+if [[ ! -d doc/packages/ ]]; then mkdir -p doc/packages/; fi
+find doc/packages/ -name "*.md" -exec rm -v '{}' \;
 _main
 _gen_package_index
 

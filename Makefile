@@ -29,8 +29,6 @@ test_kvm:
 
 documentation:
 	# Generate package documentation pages and index
-	if [ ! -d doc/packages/ ]; then mkdir -p doc/packages/; fi
-	-rm -r doc/packages/*.md
 	./scripts/doc-generator.sh
 
 build:
@@ -44,7 +42,7 @@ build:
 
 checksums:
 	# Generate checksums of the resulting ISO image
-	if [ ! -d iso/ ]; then mkdir -p iso/; fi
+	@if [ ! -d iso/ ]; then mkdir -p iso/; fi
 	mv *.iso iso/
 	last_tag=$$(git tag | tail -n1); \
 	cd iso/; \
@@ -66,7 +64,7 @@ firefox_addons_dir=config/includes.chroot/usr/share/firefox-esr/distribution/ext
 
 # Download Firefox addons
 download_firefox_addons:
-	if [ ! -d cache/downloads/firefox_addons/ ]; then mkdir -p cache/downloads/firefox_addons/; fi
+	@if [ ! -d cache/downloads/firefox_addons/ ]; then mkdir -p cache/downloads/firefox_addons/; fi
 	#https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/ [e10s] [security] [installed]
 	wget -N -nv --show-progress -P cache/downloads/firefox_addons/ https://addons.mozilla.org/firefox/downloads/latest/229918/addon-229918-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/ [e10s] [security] [installed]
