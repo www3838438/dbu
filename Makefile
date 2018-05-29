@@ -4,7 +4,7 @@ all: install_buildenv tests update_deps install_firefox_addons build
 
 update_deps: download_firefox_addons download_binaries download_dotfiles
 
-release: documentation tests checksums sign_checksums torrent
+release: documentation tests checksums sign_checksums
 
 tests: test_shellcheck test_doc_emptylinks
 
