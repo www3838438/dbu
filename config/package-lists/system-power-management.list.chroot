@@ -18,7 +18,6 @@ acpi
 acpi-support
 acpi-support-base
 laptop-mode-tools
-apmd
 fancontrol
 rfkill
 cpufrequtils
@@ -29,4 +28,5 @@ pm-utils
 #Alt: tlp
 #Alt: powerstat
 #Alt: i8kutils
+#Alt: apmd
 #eeepc-acpi-scripts #sid only
