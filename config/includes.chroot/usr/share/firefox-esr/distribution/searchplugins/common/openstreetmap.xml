@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>OpenStreetMap</os:ShortName>
+<os:Description>OpenStreetMap</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACvlBMVEX////+/v7S0tLY2Nj5+fnh4eHm5ub0++3T7rbd8cbv9eP6/fby+une8tC33qLC5K7p9tz5/PXy+unl89bf8sr///7T7bX2+/F9fX2DlHDX4NV6enpVYEmrvbeVpoLf4eHm5+bI4qzMz9ClqaHC2MpWWltERESrxY6AioosMjRPT090hmBJUk0vNTalpaVUYUZmc18rMTOBjnU8RT13enuZmZmsyZ+Tw3ojJCRgY1/C36x1nGJvb28+QD4+RjO3oVcsLCpgbVhpeVgsMCUICgc/STV9jm6dtYpphVc9UDMOEgy0tLQsMjNWUjYvMzElKixyc3O/v7+srKxra2tMTExvb2+ioqKtr69GS0xDR0mys7TK6ajJ26LS7bTN7LS74qay3Zutypm3ybfBz8i7zMKvx7HC2LDI6KfH1J7J4aXP67G/4qWiwZnS4djc7N7c7t3R59TJ386sx7jQ67HL56vJ2aTJ56i816C+0cbe7+Dd8ODk8+bi8uTN6M+z0rjW77vS67bS4rG13JaVuo7S5OXf7e7b6u7a6PPV5u683si23bmxzr3S7rXO5a/E2KGm1pGfuaTK3ezV5e7X5vDR4vHE2u292di33rm32sDK6KrN6q3L1qPB46G536OguJ/C2OnQ59vQ6tPC2+S+1unF4s3B48PG5aTI1Z/I5anD5LGowLeImaTE39bL58rM6MvM58/U7NTk8eXI1p/F4KrH4MKvxMFJTVKTpKbL583M6MrV7NTk7uW0xLzD4qG+26bF0KqEi3WDe2BmaVJ4iGuht5uzxa+yyrCmvp+pv6TK5bvL57F+jnJDQkU+QECbppvJ1qu40Z+swZGbtYGRvX2s0JjF5a57inI9Oz45OzuCjW/A0abA2cHP3a3R37Gr046d0IK636Z2gm42NDc2ODeInHbBx5vJ5q/D3cDJ5que04TpqZZgAAAAW3RSTlMAAAAAAAAAMdOkSB1TmdiwXxlLlM0C1DIBi2wBatCvJgPvOh39GwjesRQHp1MWAXx/Dp1ZAwLg8hgX/ccFFHz99+GyZDp5vN68hzUBGJaGMAgBAQkRCAICFBAB9nUSYAAAAAFiS0dEAIgFHUgAAAB7SURBVBiVY2RnRAGvWX6KuSLxNzKwSDDyIAkwM7AwowowMjLJJCKbMYVFjpEXWYCZhbkMmV8PFOirRxJgYWRhYWTgRhMQR1VxVR/VWhYjZHdEsJ5hYVkOZoauYWT8zsXC+IfRFtVzWxlZ3SEMHxC5/jcDI0M4kLGMAQ4ABVQSpisPTocAAAAASUVORK5CYII=</os:Image>
+<SearchForm>https://twitter.com/search</SearchForm>
+<os:Url type="text/html" method="GET" template="https://twitter.com/search">
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

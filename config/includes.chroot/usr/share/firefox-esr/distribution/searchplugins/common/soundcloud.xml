@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Soundcloud</os:ShortName>
+<os:Description>Soundcloud</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABX1BMVEX/ZgD/ZgD/ZgD/ZgD/ZgD/ZgD/ZgD/ZgD/iiX/lTH/kC/+jy/9jy//iyz+iiz9iiz8iSv7iSv+gyn9gyn8gin7gij6gSj4 gCj3gCj5gSj+ZgD+fSX9fCX7eyT6eyT4eiT3gjP1fSz82sP95NP7y6r2gjP8fCX9dSH7dCD5cyD3 ei35o2/83cr5xKP+9/L////72ML0cSD4cyD9ZQD7bB35axz6pnf83Mr6waL728n5waH+9vL4qHz2 fzz8ZQD7ZBr7pXr7vqD82sn5vqD72sn+9vH95dn4Yxn7ZAD7XRb9z7r7u5/82Mj5u5/72Mj5up/+9fH4Xxv7VRL8tZj8uJ3918f6uJ381sf5t538wqv5VBL8Tg76TQ75VRn5eUr3WyL4gVT2XST2bjv1bz32cD33aTb4TQ77Tg79Rwr8Rwr7Rwr6Rwr5Rgr4Rgr+QQf9QAf8QAf7QAf/SQP+PAT+SQP6BU+7 AAAAB3RSTlNa9u3q5Ejn0KnOPQAAAAFiS0dELyPUIBEAAACLSURBVBgZRcHBTsJQFEXRvcttI6Uz TAxTh879/88hkjiyqEHkWJDkrSUONKfYDdLkp/oOEIQQq1ghKpCE36LHK0x3zmWqrc0pD3MxeYeTn7vaeTeTydW62HiVboaPp9HajP5j8fb8VcdHb75ZvPherL0Zt7ig9q8qIpBLjsUgAkJI9nUoaTzYK03yB5C+Ki+uY7utAAAAAElFTkSuQmCC</os:Image>
+<SearchForm>https://soundcloud.com/search</SearchForm>
+<os:Url type="text/html" method="GET" template="https://soundcloud.com/search">
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

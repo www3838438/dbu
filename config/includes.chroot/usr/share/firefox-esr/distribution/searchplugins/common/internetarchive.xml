@@ -1,0 +1,9 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Internet Archive</os:ShortName>
+<os:Description>Internet Archive</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAACYktHRAAAqo0jMgAAAOVJREFUGNNj+A8G3+/d+w5hMfz//+nqmkoPRUX3smUX3oEEfs8Isrcwt7Q0t7Dzm/EXKPC3QElVTUNNVUNdVbkerGVu2PbJQRt2xNfvjJkFFpho/WOt7stfbq1/XZvBAu1GX5eoPv1uU/vTpgos0KjzaZ7i46/mld/MisECdVof58o/+mpa/tW4ACzQoP1xvuLjb+ZV30yLwAJtBl+Wqj37YVv/06oCLDDB8sdavVe/3Nr+uDSCBdbnXl4Zd/pK7qSrxQtBAn97nF1cXIHI1cW59BtQ4EVdXj4U5JXdAan4ggT+/AcAD1WpGSNIpA8AAAAASUVORK5CYII=</os:Image>
+<SearchForm>https://web.archive.org/web/</SearchForm>
+<os:Url type="text/html" method="POST" template="https://web.archive.org/web/{searchTerms}">
+</os:Url>
+</SearchPlugin>

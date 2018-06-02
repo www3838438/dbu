@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Reddit</os:ShortName>
+<os:Description>Reddit</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA/1BMVEXW8P/F3fbI4Pq/1u5SW2VlcX2ImKNianNkZWd8ipmMna5fanWtwclfbHpgXVv69/RKTlPJ4fvP6P5pdYKmuc5wfIhWWl6On7CxyN+NobR5ipspLzZ3h5iar8XC2vPJ4/6mu8ldZGtueYRvfoxkam2KjY2lo6G0s7Kfnp17gIBbYWZscHbe3No+PDqJh4bz9vT+/v53e4BxcG+urq7+pqT+EA/+w8GQo7hHR0f+srD+MjD+zsxucHLd+P5TXGXPzMmoqarS0tLw8PDd9/6sw9dGSk6+u7nLy8uBgYF+fn6xyN1VXmdqa2yvravT0c/Z19WjuM54iJhnc4BjbXj///8OCvRBAAAAAWJLR0RU5AOIpQAAAI9JREFUGBldwUFKQgEYRtF76fdlJOggbCYtJBfgqLU6agXtQ2wWiAYOXqJ8+h4h4jncE7mVoue/lqKXob2W4mLi9skNLwoivNr7nq2Jb179JVnVsx0uUkmoRk+lhyY5PiRUY8tAD4PkeBoGed9zNfpKzR3/MtFkxzhQjU5/HjVhmoC4sJPOJxHhQ02yBMK9My0sOcEKdWAwAAAAAElFTkSuQmCC</os:Image>
+<SearchForm>https://www.reddit.com/search</SearchForm>
+<os:Url type="text/html" method="GET" template="https://www.reddit.com/search">
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

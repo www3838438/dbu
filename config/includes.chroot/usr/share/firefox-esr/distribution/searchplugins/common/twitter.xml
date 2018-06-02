@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Twitter</os:ShortName>
+<os:Description>Twitter</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAApVBMVEX////u9/qOx91+v9iez+FPqcwvmsNAoMUfkr6e0OM/tuNgsM/O5/APrOjP6vSe2/MQi7pvvNmv5Pj///9ArNb////P7fgPsO4wvPF+0/Se3PS+5PMvuO3////////O7flQxfPv+f0QiLZfy/T////////P7/t+1fae3/je9Pz///////8AlMwAltAAkckApOMArO4Aod8AnNgAqeoAmdQAib0An9vBJTQnAAAALHRSTlMAD3CBYLHQv+Biyp8w80J+7pR4DMUUVvPbn4FX2xgPWsI/7rYDKGChiVcfB+Kv0VUAAAABYktHRACIBR1IAAAAfUlEQVQYGY3B6QKBQBgF0PuRdeyhLCEmEXJlef9HMzPxv3NQhcCSWt2DCIyGB6N5veWtdgdGN1eC3p3koz+AMWQxUmNaEx/GlHwWL1ozWPOAPyEcfxGwtERptaYTRihttjsaYQxH1P79IXmINRydHNM0PZ0TjT8/y7Logqq+F7UQFwvopAwAAAAASUVORK5CYII=</os:Image>
+<SearchForm>https://twitter.com/search</SearchForm>
+<os:Url type="text/html" method="GET" template="https://twitter.com/search">
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

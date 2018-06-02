@@ -1,6 +1,5 @@
 ## dbu - TODO
 
- * [bug] Firefox search engines are broken
  * [enh] do not require passwords for package upgrades (see `org.freedesktop.packagekit.system-update` policykit policy)
  * [bug] [upstream] "open containing folder" in gnome-search-tool does not work (attempts to open selected file)
  * [enh] Enable IPv6 support (sysctl, firewall, apt config...)

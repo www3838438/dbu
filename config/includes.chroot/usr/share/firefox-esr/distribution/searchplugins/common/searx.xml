@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Searx</os:ShortName>
+<os:Description>Searx</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAAAJiS0dEAP+Hj8y/AAABSklEQVQYGYXBTSiDYQAH8P+793n3brzWNjaGNpsWDUk5yEc4uEgOuwq5OclH5Kucqd04O9hNkoMUSj6yHSYXUaZwEFGKAyPzt/Icffx++J8BJzJMDrVBtItakyGQ4YCA1IIBCD1sOwg8V717H411cyMsmIAXUieSYr7oYZgxJrnNbuYl1XmcIggphEsbp/nCb/fspoWIwwlJVRcqeMRXxjnLY6a4xsJP07AByQHzSDNPecs+ujjKO+6wPKW1ZUHKgbmrOr3FC0YY5jKTjNL3pNVbIOkQZa6rMcaY4D4T3GUP7YfI1SCZAMU6HngfZJSrXGQfi+neKHN7MAlJQMm2Trluqj7rWP7hPNfOjLRnpdSfh2ZICqBqlXq/ZUbv1fwIKZvZLNgrqQGa8LMiZcmadp/4WvErOyL6m+sy2IFfWTFkvi6cwx8EKm35X+M0g4BZ1MTqAAAAAElFTkSuQmCC</os:Image>
+<SearchForm>https://searx.laquadrature.net/</SearchForm>
+<os:Url type="text/html" method="GET" template="https://searx.laquadrature.net/">
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

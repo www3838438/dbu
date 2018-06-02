@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>YouTube</os:ShortName>
+<os:Description>YouTube</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABYklEQVQ4jcXTzUoCURjG8XdTnnN0Zs7Yh4JIVyAEXUm0DVp0AW26gILAFiWJFJrYwo9FErQxAoMsjJxoNhUDQbgecSPjJgYGnhaVTCO1aOMLv9Xz375EE797It7RwzUjKkxDF64RDeMvHT38/NnyMhERtXWevtPD+I+2ztPUksK80QX8bmMSdq2Ch6UUgptfSwqTmlL0r3QBv+uFOFzXxftggKf1NQT3b00p+tTQuHchBX5IxuE4DhzHwXA4xFupiMt4FMGuoXGPzqXAmGQMtm2P9Ho9vBznxzspQHWNI+g0MY9utztitlrILKbGurrGQVWVeVWNw6+SmINlWbAsC2f7e9iYlcirDMGuqjKPSgrvn6gcfqXYDB4NA7sry9gUIRQD+6hTeJ8KKjcLKoffkcqxyqawHWEIbgEm5RSWPlQZ/iOnsDRliHhWYeWswswv+M2BEnoddRG2s0U0PdE/JCKiD2TAbGlHU6nxAAAAAElFTkSuQmCC</os:Image>
+<SearchForm>https://www.youtube.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="https://www.youtube.com/results">
+  <os:Param name="search_query" value="{searchTerms}"/>
+  <os:Param name="oq" value=""/>
+  <os:Param name="gs_l" value=""/>
+</os:Url>
+</SearchPlugin>
