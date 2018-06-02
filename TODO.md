@@ -1,19 +1,21 @@
 ## dbu - TODO
 
  * [enh] do not require passwords for package upgrades (see `org.freedesktop.packagekit.system-update` policykit policy)
- * [bug] [upstream] "open containing folder" in gnome-search-tool does not work (attempts to open selected file)
  * [enh] Enable IPv6 support (sysctl, firewall, apt config...)
  * [enh] installer: preseed "domain name" installer question to None, preseed "full user name" question to match the unix username
  * [enh] thunderbird: add default addons
  * [enh] [tools] add master switch in makefile to build without non-debian program dependencies
  * [enh] [tools] improve caching of dependencies (makefile)
  * [enh] [tools] keyboard-configuration interrupts unattended build
- * [bug] [upstream] xfce4-notes does not remember window position https://bugzilla.xfce.org/show_bug.cgi?id=11158
- * [bug] [upstream] firefox: decentraleyes intro dialog is not disabled on first run https://github.com/Synzvato/decentraleyes/issues/289
- * [enh] firefox: place ublock/cookie-autodelete/https-everywhere button in menu
- * [bug] firefox: user.js breaks display of ublock origin menu
+ * [enh] firefox: disaply the personal toolboar by default (requires including custom `xulstore.json` in profile defaults
  * [enh] [doc] find packages without descriptions in documentation: `cd doc/packages/ && egrep "^ \* .* $$" *.md`
 
+
+### Upstream
+
+ * [bug] [upstream] "open containing folder" in gnome-search-tool does not work (attempts to open selected file)
+ * [bug] [upstream] xfce4-notes does not remember window position https://bugzilla.xfce.org/show_bug.cgi?id=11158
+ * [bug] [upstream] firefox: decentraleyes intro dialog is not disabled on first run https://github.com/Synzvato/decentraleyes/issues/289
 
 ### Unpackaged
 
