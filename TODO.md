@@ -1,36 +1,16 @@
 ## dbu - TODO
 
-
- * [bug] "open containing folder" in gnome-search-tool does not work (attempts to open selected file)
- * [enh] add a package list for audio workstations (see `desktop-audio-editor-audacity.list.chroot`, https://github.com/nodiscc/awesome-linuxaudio), linux-image-rt-amd64?
- * [enh] add persistence http://live.debian.net/manual/stable/html/live-manual/customizing-run-time-behaviours#persistence
- * [enh] [cleanup] disable non-free repositories, fetch firmware with wget/makefile target before build (branch no-nonfree)
- * [enh] [cleanup] split devel-tools-base/devel-tools-advanced package lists, disable advanced list for chroot, enable it for binary, create a metapackage for advanced dev tools
- * [enh] Display more items in xfce4-settings-manager: `blueman-manager.desktop dbu-software-properties-gtk.desktop exo-preferred-applications.desktop gparted.desktop light-locker-settings.desktop menulibre.desktop network.desktop nm-connection-editor.desktop org.gnome.DiskUtility.desktop org.gnome.Packages.desktop org.gnome.FontManager.desktop org.gnome.PackageUpdater.desktop org.gnome.Software.desktop panel-preferences.desktop paprefs.desktop qtconfig-qt4.desktop seahorse.desktop services.desktop shares.desktop software-properties-drivers.desktop software-properties-gnome.desktop software-properties-gtk.desktop steam.desktop backintime-qt4.desktop backintime-qt4-root.desktop synaptic.desktop system-config-printer.desktop time.desktop users.desktop pavucontrol.desktop`
- * [enh] [doc] add icons to main package list/sublists (parse .list; find #Icon: field, or use first package name , copy/embed /usr/share/icons/$theme/$size/apps/$icon.png)
- * [enh] [doc] list installed/recommended firefox addons (parse makefile) on firefox package page
+ * [bug] Firefox search engines are broken
+ * [enh] do not require passwords for package upgrades (see `org.freedesktop.packagekit.system-update` policykit policy)
+ * [bug] [upstream] "open containing folder" in gnome-search-tool does not work (attempts to open selected file)
  * [enh] Enable IPv6 support (sysctl, firewall, apt config...)
- * [enh] Find e10s and/or Webextensions compatible addons for Firefox (https://addons.mozilla.org/en-US/firefox/search/?tag=firefox57)
- * [enh] firefox: setup default UI config/disposition `user_pref("browser.uiCustomization.state", "{\"placements\":{\"PanelUI-contents\":[\"zoom-controls\",\"new-window-button\",\"privatebrowsing-button\",\"save-page-button\",\"print-button\",\"history-panelmenu\",\"fullscreen-button\",\"find-button\",\"home-button\",\"preferences-button\",\"add-ons-button\",\"social-share-button\",\"email-link-button\",\"sidebar-button\",\"https-everywhere-button\",\"action-button--jid0-9xfbwuwnvpx4wwsfbwmcm4jj69ejetpack-self-destructing-cookies\"],\"addon-bar\":[\"addonbar-closebutton\",\"status-bar\"],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"urlbar-container\",\"bookmarks-menu-button\",\"search-container\",\"downloads-button\",\"loop-button\",\"ublock0-button\",\"feed-button\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\"]},\"seen\":[\"ublock0-button\",\"action-button--jid0-9xfbwuwnvpx4wwsfbwmcm4jj69ejetpack-self-destructing-cookies\"],\"dirtyAreaCache\":[\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\",\"PanelUI-contents\",\"addon-bar\"],\"currentVersion\":5,\"newElementCount\":0}");`
- * [enh] Host ISO on http://iso.linuxquestions.org/? Find a seedbox
- * [enh] Improve apparamor sandboxing (run `aa-unconfined --paranoid` to see unconfined processes)
- * [enh] improve bluetooth power saving: powertop still shows 100% power usage on bluetooth card even with rfkill block. Settings in /etc/laptop-mode-tools/bluetooth.conf
  * [enh] installer: preseed "domain name" installer question to None, preseed "full user name" question to match the unix username
- * [enh] package all unpackaged software (includes.chroot/usr...)
  * [enh] thunderbird: add default addons
  * [enh] [tools] add master switch in makefile to build without non-debian program dependencies
- * [enh] [tools] add travis config for tests/automated builds, add KVM/QEMU settings to run resulting ISO in KVM/QEMU
- * [enh] [tools] better caching for makefile dependencies
- * [enh] [tools] keyboard-configuration interrupts unattended build, preseed it in config/preseed/*.chroot.cfg
- * [enh] [tools] Makefile: automate torrent creation: transmission-create dbu-0.9n-debian-stretch-amd64.hybrid.iso -o dbu-0.9n-debian-stretch-amd64.hybrid.iso.torrent -t  udp://tracker.opentrackr.org:1337 -t  udp://tracker.coppersurfer.tk:6969   -t udp://tracker.leechers-paradise.org:6969 -t  udp://zer0day.ch:1337 -t  udp://explodie.org:6969
- * [enh] [tools] Update Firefox channel to latest/release, bump addons tagged [FF52ESR] to their latest versions
- * [enh] irqbalance and battery life? https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_MRG/1.3/html/Realtime_Tuning_Guide/sect-Realtime_Tuning_Guide-General_System_Tuning-Interrupt_and_Process_Binding.html
- * [enh] use plymouth during live boot
- * [enh] voice recognition/control/dictation (pocketsphinx?)
- * [enh] do not require passwords for package upgrades (see `org.freedesktop.packagekit.system-update` policykit policy)
- * [enh] [security] enable more apparmor profiles by default, create new profiles `aa-unconfined --paranoid -> find profiles -> set to complain -> aa-notify -> set to enforce -> (ps auxZ) -> dbu`
- * [enh] [bug] [upstream] xfce4-notes does not remember window position https://bugzilla.xfce.org/show_bug.cgi?id=11158
- * [enh] [bug] firefox: decentraleyes intro dialog is not disabled on first run
+ * [enh] [tools] improve caching of dependencies (makefile)
+ * [enh] [tools] keyboard-configuration interrupts unattended build
+ * [bug] [upstream] xfce4-notes does not remember window position https://bugzilla.xfce.org/show_bug.cgi?id=11158
+ * [bug] firefox: decentraleyes intro dialog is not disabled on first run
  * [enh] firefox: place ublock/cookie-autodelete/https-everywhere button in menu
  * [bug] firefox: user.js breaks display of ublock origin menu
  * [enh] [doc] find packages without descriptions in documentation: `cd doc/packages/ && egrep "^ \* .* $$" *.md`
@@ -52,3 +32,18 @@
 
 
 RFP QownNotes
+
+
+
+### Backlog
+
+ * [backlog] use plymouth during live boot
+ * [backlog] add a package list for audio workstations (see `desktop-audio-editor-audacity.list.chroot`, https://github.com/nodiscc/awesome-linuxaudio), linux-image-rt-amd64?, branch `feature/audio-workstation`
+ * [backlog] disable non-free repositories, fetch firmware with wget/makefile target before build (branch no-nonfree)
+ * [backlog] add persistence http://live.debian.net/manual/stable/html/live-manual/customizing-run-time-behaviours#persistence
+ * [backlog] Display more items in xfce4-settings-manager: `blueman-manager.desktop dbu-software-properties-gtk.desktop exo-preferred-applications.desktop gparted.desktop light-locker-settings.desktop menulibre.desktop network.desktop nm-connection-editor.desktop org.gnome.DiskUtility.desktop org.gnome.Packages.desktop org.gnome.FontManager.desktop org.gnome.PackageUpdater.desktop org.gnome.Software.desktop panel-preferences.desktop paprefs.desktop qtconfig-qt4.desktop seahorse.desktop services.desktop shares.desktop software-properties-drivers.desktop software-properties-gnome.desktop software-properties-gtk.desktop steam.desktop backintime-qt4.desktop backintime-qt4-root.desktop synaptic.desktop system-config-printer.desktop time.desktop users.desktop pavucontrol.desktop`
+ * [backlog] [doc] add icons to main package list/sublists (parse .list; find #Icon: field, or use first package name , copy/embed /usr/share/icons/$theme/$size/apps/$icon.png)
+ * [backlog] [tools] Makefile: automate torrent creation: transmission-create dbu-0.9n-debian-stretch-amd64.hybrid.iso -o dbu-0.9n-debian-stretch-amd64.hybrid.iso.torrent -t  udp://tracker.opentrackr.org:1337 -t  udp://tracker.coppersurfer.tk:6969   -t udp://tracker.leechers-paradise.org:6969 -t  udp://zer0day.ch:1337 -t  udp://explodie.org:6969
+ * [backlog] Improve apparmor sandboxing (run `aa-unconfined --paranoid` to see unconfined processes). enable more apparmor profiles by default, create new profiles `aa-unconfined --paranoid -> find profiles -> set to complain -> aa-notify -> set to enforce -> (ps auxZ) -> dbu`
+ * [backlog] [tools] add travis config for tests/automated builds, add KVM/QEMU settings to run resulting ISO in KVM/QEMU
+ * [backlog] voice recognition/control/dictation (pocketsphinx?)
