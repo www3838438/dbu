@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [v1.5.1](https://github.com/nodiscc/dbu/releases/tag/1.5.1) - 2018-06-02
+
+### Added
+ * Auto-generate documentation/links to installed Firefox addons pages.
+
+### Removed
+ * Remove unused packages at-spi2-core, apparmor-notify, apmd
+
+### Changed
+ * Don't disable bluetooth service by default, but boot with bluetooth devices powered down.
+ * Various build tools optimizations/improvements/cleanup.
+ * Cleanup obsolete desktop session autostart entries.
+
+### Fixed
+ * Fix broken selection of Firefox default search engine (revert back to Google), add 15 engines to search engines menu.
+
+
 ## [v1.5](https://github.com/nodiscc/dbu/releases/tag/1.5) - 2018-05-22
 
 ### Added
