@@ -53,7 +53,7 @@
 * [sdparm](https://packages.debian.org/stretch/sdparm) `1.08-1+b1` - Output and modify SCSI device parameters
 * [dfc](https://packages.debian.org/stretch/dfc) `3.0.5-0.1+b1` - display file system usage using graph and colors
 * [kpartx](https://packages.debian.org/stretch/kpartx) `0.6.4-5` - create device mappings for partitions
-* [qemu-utils](https://packages.debian.org/stretch/qemu-utils) `1:2.8+dfsg-6+deb9u3` - QEMU utilities
+* [qemu-utils](https://packages.debian.org/stretch/qemu-utils) `1:2.8+dfsg-6+deb9u4` - QEMU utilities
 * [xorriso](https://packages.debian.org/stretch/xorriso) `1.4.6-1+b1` - command line ISO-9660 and Rock Ridge manipulation tool
 * [testdisk](https://packages.debian.org/stretch/testdisk) `7.0-3` - Partition scanner and disk recovery tool, and PhotoRec file recovery tool
 * [sox](https://packages.debian.org/stretch/sox) `14.4.1-5+b2` - Swiss army knife of sound processing
@@ -69,7 +69,7 @@
 * [ethtool](https://packages.debian.org/stretch/ethtool) `1:4.8-1+b1` - display or change Ethernet device settings
 * [curl](https://packages.debian.org/stretch/curl) `7.52.1-5+deb9u6` - command line tool for transferring data with URL syntax
 * [wget](https://packages.debian.org/stretch/wget) `1.18-5+deb9u2` - retrieves files from the web
-* [git](https://packages.debian.org/stretch/git) `1:2.11.0-3+deb9u2` - fast, scalable, distributed revision control system
+* [git](https://packages.debian.org/stretch/git) `1:2.11.0-3+deb9u3` - fast, scalable, distributed revision control system
 * [rsync](https://packages.debian.org/stretch/rsync) `3.1.2-1+deb9u1` - fast, versatile, remote (and local) file-copying tool
 * [transmission-cli](https://packages.debian.org/stretch/transmission-cli) `2.92-2+deb9u1` - lightweight BitTorrent client (command line programs)
 * [elinks](https://packages.debian.org/stretch/elinks) `0.12~pre6-12` - advanced text-mode WWW browser

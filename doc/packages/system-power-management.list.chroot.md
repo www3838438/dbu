@@ -39,7 +39,6 @@ It features:
 * [acpi-support](https://packages.debian.org/stretch/acpi-support) `0.142-8` - scripts for handling many ACPI events
 * [acpi-support-base](https://packages.debian.org/stretch/acpi-support-base) `0.142-8` - scripts for handling base ACPI events such as the power button
 * [laptop-mode-tools](https://packages.debian.org/stretch/laptop-mode-tools) `1.71-2` - Tools for Power Savings based on battery/AC status
-* [apmd](https://packages.debian.org/stretch/apmd) `3.2.2-15+b2` - Utilities for Advanced Power Management (APM)
 * [fancontrol](https://packages.debian.org/stretch/fancontrol) `1:3.4.0-4` - utility to control the fan speed
 * [rfkill](https://packages.debian.org/stretch/rfkill) `0.5-1+b1` - tool for enabling and disabling wireless devices
 * [cpufrequtils](https://packages.debian.org/stretch/cpufrequtils) `008-1+b1` - utilities to deal with the cpufreq Linux kernel feature
@@ -52,3 +51,4 @@ It features:
  * [tlp](https://packages.debian.org/stretch/tlp) Save battery power on laptops
  * [powerstat](https://packages.debian.org/stretch/powerstat) laptop power measuring tool
  * [i8kutils](https://packages.debian.org/stretch/i8kutils) Fan control for Dell laptops
+ * [apmd](https://packages.debian.org/stretch/apmd) Utilities for Advanced Power Management (APM)

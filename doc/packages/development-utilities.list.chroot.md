@@ -17,9 +17,9 @@
 * [meld](https://packages.debian.org/stretch/meld) `3.16.4-1` - graphical tool to diff and merge files
 * [gource](https://packages.debian.org/stretch/gource) `0.44-1+b3` - graphical source control visualisation
 * [poedit](https://packages.debian.org/stretch/poedit) `1.8.11-3` - gettext catalog editor
-* [git](https://packages.debian.org/stretch/git) `1:2.11.0-3+deb9u2` - fast, scalable, distributed revision control system
-* [git-svn](https://packages.debian.org/stretch/git-svn) `1:2.11.0-3+deb9u2` - fast, scalable, distributed revision control system (svn interoperability)
-* [git-mediawiki](https://packages.debian.org/stretch/git-mediawiki) `1:2.11.0-3+deb9u2` - fast, scalable, distributed revision control system (MediaWiki remote helper)
+* [git](https://packages.debian.org/stretch/git) `1:2.11.0-3+deb9u3` - fast, scalable, distributed revision control system
+* [git-svn](https://packages.debian.org/stretch/git-svn) `1:2.11.0-3+deb9u3` - fast, scalable, distributed revision control system (svn interoperability)
+* [git-mediawiki](https://packages.debian.org/stretch/git-mediawiki) `1:2.11.0-3+deb9u3` - fast, scalable, distributed revision control system (MediaWiki remote helper)
 * [hg-fast-export](https://packages.debian.org/stretch/hg-fast-export) `20140308-1` - mercurial to git converter using git-fast-import
 * [mercurial](https://packages.debian.org/stretch/mercurial) `4.0-1+deb9u1` - easy-to-use, scalable distributed version control system
 * [subversion](https://packages.debian.org/stretch/subversion) `1.9.5-1+deb9u1` - Advanced version control system
@@ -33,7 +33,7 @@
 * [xmlstarlet](https://packages.debian.org/stretch/xmlstarlet) `1.6.1-2` - command line XML toolkit
 * [aha](https://packages.debian.org/stretch/aha) `0.4.10.3-1` - ANSI color to HTML converter
 * [groff](https://packages.debian.org/stretch/groff) `1.22.3-9` - GNU troff text-formatting system
-* [debhelper](https://packages.debian.org/stretch/debhelper) `11.2.1~bpo9+1` - helper programs for debian/rules
+* [debhelper](https://packages.debian.org/stretch/debhelper) `11.3.2~bpo9+1` - helper programs for debian/rules
 * [autoconf](https://packages.debian.org/stretch/autoconf) `2.69-10` - automatic configure script builder
 * [devscripts](https://packages.debian.org/stretch/devscripts) `2.17.6+deb9u1` - scripts to make the life of a Debian Package maintainer easier
 * [dh-make](https://packages.debian.org/stretch/dh-make) `2.201608` - tool that converts source archives into Debian package source

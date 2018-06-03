@@ -64,7 +64,6 @@ remove this package.
 * [python-appindicator](https://packages.debian.org/stretch/python-appindicator) `0.4.92-4` - Python bindings for libappindicator
 * [gnome-settings-daemon](https://packages.debian.org/stretch/gnome-settings-daemon) `3.22.2-2+deb9u2` - daemon handling the GNOME session settings
 * [dconf-gsettings-backend](https://packages.debian.org/stretch/dconf-gsettings-backend) `0.26.0-2+b1` - simple configuration storage system - GSettings back-end
-* [at-spi2-core](https://packages.debian.org/stretch/at-spi2-core) `2.22.0-6+deb9u1` - Assistive Technology Service Provider Interface (dbus core)
 * [desktop-base](https://packages.debian.org/stretch/desktop-base) `9.0.2+deb9u1` - common files for the Debian Desktop
 * [faenza-icon-theme](https://packages.debian.org/stretch/faenza-icon-theme) `1.3.1-1` - Faenza icon theme
 * [gnome-audio](https://packages.debian.org/stretch/gnome-audio) `2.22.2-1` - Audio files for GNOME

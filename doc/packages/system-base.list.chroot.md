@@ -26,16 +26,16 @@
 * [ulatencyd](https://packages.debian.org/stretch/ulatencyd) `0.5.0-9+b1` - scriptable latency regulator using cgroups (server)
 * [irqbalance](https://packages.debian.org/stretch/irqbalance) `1.1.0-2.3` - Daemon to balance interrupts for SMP systems
 * [haveged](https://packages.debian.org/stretch/haveged) `1.9.1-5+deb9u1` - Linux entropy source using the HAVEGE algorithm
+* [ntp](https://packages.debian.org/stretch/ntp) `1:4.2.8p10+dfsg-3+deb9u2` - Network Time Protocol daemon and utility programs
 * [debian-archive-keyring](https://packages.debian.org/stretch/debian-archive-keyring) `2017.5` - GnuPG archive keys of the Debian archive
 * [debian-keyring](https://packages.debian.org/stretch/debian-keyring) `2017.05.28` - GnuPG keys of Debian Developers and Maintainers
 * [apparmor](https://packages.debian.org/stretch/apparmor) `2.11.0-3+deb9u2` - user-space parser utility for AppArmor
 * [apparmor-easyprof](https://packages.debian.org/stretch/apparmor-easyprof) `2.11.0-3+deb9u2` - AppArmor easyprof profiling tool
-* [apparmor-notify](https://packages.debian.org/stretch/apparmor-notify) `2.11.0-3+deb9u2` - AppArmor notification system
 * [apparmor-profiles](https://packages.debian.org/stretch/apparmor-profiles) `2.11.0-3+deb9u2` - profiles for AppArmor Security policies
 * [apparmor-profiles-extra](https://packages.debian.org/stretch/apparmor-profiles-extra) `1.11` - Extra profiles for AppArmor Security policies
 * [apparmor-utils](https://packages.debian.org/stretch/apparmor-utils) `2.11.0-3+deb9u2` - utilities for controlling AppArmor
-* [ntp](https://packages.debian.org/stretch/ntp) `1:4.2.8p10+dfsg-3+deb9u2` - Network Time Protocol daemon and utility programs
 
 ### Related packages
 
  * [kexec-tools](https://packages.debian.org/stretch/kexec-tools) tools to support fast kexec reboots
+ * [apparmor-notify](https://packages.debian.org/stretch/apparmor-notify) AppArmor notification system
