@@ -56,12 +56,6 @@ sign_checksums:
 	mv SHA512SUMS.asc SHA512SUMS.sign
 
 #########################################
-
-# Addons installation path (Firefox ESR)
-firefox_addons_dir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
-# Addons installation path (release/nightly)
-#firefox_addons_dir=config/includes.chroot/usr/share/firefox/distribution/extensions/
-
 # Download Firefox addons
 download_firefox_addons:
 	@if [ ! -d cache/downloads/firefox_addons/ ]; then mkdir -p cache/downloads/firefox_addons/; fi
@@ -79,6 +73,10 @@ download_firefox_addons:
 	wget -N -nv --show-progress -P cache/downloads/firefox_addons/ https://addons.mozilla.org/firefox/downloads/file/717459/cookie_autodelete-1.4.4-an+fx.xpi
 
 # Rename downloaded XPIs from their ID, install them to distribution directory
+# Addons installation path (Firefox ESR)
+firefox_addons_dir=config/includes.chroot/usr/share/firefox-esr/distribution/extensions/
+# Addons installation path (release/nightly)
+#firefox_addons_dir=config/includes.chroot/usr/share/firefox/distribution/extensions/
 install_firefox_addons:
 	@-rm $(firefox_addons_dir)/*.xpi
 	@if [ ! -d $(firefox_addons_dir) ]; then mkdir -p $(firefox_addons_dir); fi
