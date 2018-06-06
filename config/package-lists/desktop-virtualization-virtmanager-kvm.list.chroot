@@ -7,6 +7,8 @@ virt-viewer
 gir1.2-spice-client-gtk-3.0
 ebtables
 dnsmasq-base
+libvirt-daemon-system
+qemu-kvm
 
 # Virtualbox (disabled)
 ##Screenshot: virtualbox
