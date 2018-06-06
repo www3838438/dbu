@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v1.5.1](https://github.com/nodiscc/dbu/releases/tag/1.5.1) - 2018-06-02
+## [v1.5.1](https://github.com/nodiscc/dbu/releases/tag/1.5.1) - 2018-06-06
 
 ### Added
  * Auto-generate documentation/links to installed Firefox addons pages.
@@ -17,6 +17,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
  * Cleanup obsolete desktop session autostart entries.
 
 ### Fixed
+ * Add missing packages for working virt-manager/KVM virtualization stack
  * Fix broken selection of Firefox default search engine (revert back to Google), add 15 engines to search engines menu.
 
 
