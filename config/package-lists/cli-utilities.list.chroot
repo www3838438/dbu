@@ -110,7 +110,7 @@ media-player-info
 # Media download
 youtube-dl
 ffmpeg
-livestreamer
+#Alt: livestreamer
 subliminal
 
 #Alt: get-flash-videos
@@ -187,7 +187,7 @@ debsums
 
 # Misc
 ansible
-asciinema
+#Alt: asciinema
 at
 autojump
 bash-completion
@@ -205,7 +205,7 @@ less
 manpages
 manpages-dev
 moreutils
-nss-passwords
+#Alt: nss-passwords
 pv
 python-selinux
 sed
