@@ -51,7 +51,9 @@ xclip
 xcalib
 xbacklight
 
-# Alt: font-manager
+##Screenshot: screenruler
+#Alt: screenruler
+#Alt: font-manager
 
 # Misc
 gtk2-engines
