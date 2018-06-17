@@ -2,9 +2,7 @@
 
 ### Downloading the ISO image
 
-[Download](https://github.com/nodiscc/dbu/releases) the latest release via bittorrent.  
-Recommended bittorrent clients: [Deluge](http://www.deluge-torrent.org/), [Transmission](https://transmissionbt.com/).
-
+[Download](https://github.com/nodiscc/dbu/releases) the latest ISO image from the releases page.  
 
 ### Verifying the ISO image
 
