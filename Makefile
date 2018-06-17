@@ -130,6 +130,8 @@ download_dotfiles:
 		mkdir -p config/includes.chroot/etc/firefox-esr/
 		cd tmp-userjs && make systemwide_user.js
 		cp tmp-userjs/systemwide_user.js config/includes.chroot/etc/firefox-esr/firefox-esr.js
+		cp tmp-userjs/autoconfig.js config/includes.chroot/usr/lib/firefox-esr/defaults/pref/autoconfig.js
+		cp tmp-userjs/mozilla.cfg config/includes.chroot/usr/lib/firefox-esr/mozilla.cfg
 		rm -rf tmp-userjs
 
     # icon themes
