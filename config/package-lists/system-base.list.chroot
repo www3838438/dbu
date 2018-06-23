@@ -39,4 +39,5 @@ apparmor-easyprof
 apparmor-profiles
 apparmor-profiles-extra
 apparmor-utils
+libpam-tmpdir
 #Alt: apparmor-notify
