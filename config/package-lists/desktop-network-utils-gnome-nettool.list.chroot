@@ -19,6 +19,8 @@ gnome-nettool
 #Alt: thc-ipv6
 #Alt: prips
 #Alt: usbip
+#ddupdate #buster only
+#natpmpc #buster only
 
 # SSH
 #Alt: sshuttle
@@ -50,9 +52,12 @@ gnome-nettool
 #Alt: arping
 #Alt: skipfish
 #Alt: whatweb
+#Alt: knockpy
+#Alt: spectre-meltdown-checker
 #dirb #buster only
 #dhcpig #buster only
-#Alt: knockpy
+#wafw00f #buster only
+
 
 #Alt: ndiff
 #Alt: zenmap

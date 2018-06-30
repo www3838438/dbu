@@ -5,6 +5,8 @@
 #Port 822/tcp
 openssh-server
 
+#tinysshd #buster only
+
 #VNC servers (disabled)
 #Port 15930/tcp|udp
 #Alt: vino

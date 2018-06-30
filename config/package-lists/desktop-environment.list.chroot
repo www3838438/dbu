@@ -19,16 +19,17 @@ xfce4-pulseaudio-plugin
 # launcher/apllication menu
 xfce4-whiskermenu-plugin
 
+##Screenshot: kupfer
 #Alt: kupfer
 #Alt: gnome-pie
 #Alt: gnome-do
 #Alt: xfce4-appfinder
+##Screenshot: synapse
 #Alt: synapse
 #Alt: zeitgeist
 #Alt: zeitgeist-datahub
 #Alt: activity-log-manager
-##Screenshot: synapse
-##Screenshot: kupfer
+
 
 # Desktop configuration utilities
 xfce4-settings
@@ -37,6 +38,8 @@ menulibre
 gconf-editor
 dconf-tools
 qt4-qtconfig
+
+#gnome-tweaks #buster only
 
 # Utilities
 gmrun
@@ -75,6 +78,9 @@ clearlooks-phenix-theme
 gnome-themes-standard
 sound-theme-freedesktop
 arc-theme
+
+#Alt: papirus-icon-theme
+#deepin-icon-theme #buster only
 
 # GNOME Keyring
 #Screenshot: seahorse

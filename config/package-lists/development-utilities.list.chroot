@@ -30,6 +30,7 @@ poedit
 #Alt: pybootchartgui
 #Alt: xpra
 #Alt: undistract-me
+#gitlint #buster only
 
 # Version control systems
 #Screenshot: tig
@@ -113,14 +114,14 @@ live-images
 # Ruby/Node/Webdev/other
 rubygems
 ruby-dev
-#npm #jessie only
-#nodejs
 csstidy
 sqlite3
 webcheck
-#php-cli
 vera
-ranger
+#Alt: php-cli
+#Alt: nodejs
+#csvkit #buster only
+#npm #jessie only
 
 #fswatch #buster only
 #Alt: snapd

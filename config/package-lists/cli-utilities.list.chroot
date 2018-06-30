@@ -35,6 +35,7 @@ tree
 #Alt: safe-rm
 #Alt: mmv
 #Alt: hardlink
+#Alt: ranger
 
 # Archive management/compression
 gzrt
@@ -73,7 +74,6 @@ hdparm
 sdparm
 dfc
 kpartx
-qemu-utils
 xorriso
 
 #Alt: pmount
@@ -105,7 +105,9 @@ media-player-info
 #Alt: oggvideotools
 #Alt: libav-tools
 #Alt: go-mtpfs
+#catimg #buster only
 #mp3splt #buster only
+#playerctl #buster only
 
 # Media download
 youtube-dl

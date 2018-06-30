@@ -12,6 +12,7 @@ pidgin-gnome-keyring
 
 #Alt: empathy
 #Alt: finch
+#Alt: telegram-desktop
 
 # XMPP (disabled - use pidgin)
 #dino-im #sid only
