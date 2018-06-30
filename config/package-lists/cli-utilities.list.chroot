@@ -112,7 +112,7 @@ media-player-info
 # Media download
 youtube-dl
 ffmpeg
-livestreamer
+streamlink
 subliminal
 
 #Alt: get-flash-videos
