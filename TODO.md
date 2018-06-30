@@ -6,7 +6,7 @@
  * [enh] thunderbird: add default addons
  * [enh] [tools] add master switch in makefile to build without non-debian program dependencies
  * [enh] [tools] improve caching of dependencies (makefile)
- * [enh] [tools] keyboard-configuration interrupts unattended build
+ * [enh] [tools] keyboard-configuration interrupts unattended build (see `debconf-get-selections  | grep keybo | grep d-i`)
  * [enh] firefox: disaply the personal toolboar by default (requires including custom `xulstore.json` in profile defaults
  * [enh] [doc] find packages without descriptions in documentation: `cd doc/packages/ && egrep "^ \* .* $$" *.md`
 
