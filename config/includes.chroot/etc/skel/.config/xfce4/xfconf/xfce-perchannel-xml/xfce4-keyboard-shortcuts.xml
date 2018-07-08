@@ -25,7 +25,7 @@
       <property name="&lt;Super&gt;e" type="string" value="Thunar">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Super&gt;f" type="string" value="gnome-search-tool">
+      <property name="&lt;Super&gt;f" type="string" value="catfish">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Super&gt;i" type="string" value="firefox">

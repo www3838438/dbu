@@ -1,11 +1,11 @@
-#Name: File search utility
-#Desc: gnome-search-tool
-#Screenshot: gnome-search-tool
-
-gnome-search-tool
+#Name: File search utilities
+#Desc: catfish
+#Screenshot: catfish
+catfish
 mlocate
 
-#Alt: catfish
+##Screenshot: gnome-search-tool
+#Alt: gnome-search-tool
 #Alt: recoll
 #Alt: tracker
 #Alt: tracker-miner-fs

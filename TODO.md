@@ -13,7 +13,6 @@
 
 ### Upstream
 
- * [bug] [upstream] "open containing folder" in gnome-search-tool does not work (attempts to open selected file)
  * [bug] [upstream] xfce4-notes does not remember window position https://bugzilla.xfce.org/show_bug.cgi?id=11158
 
 ### Unpackaged
