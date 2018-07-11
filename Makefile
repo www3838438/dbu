@@ -31,6 +31,9 @@ documentation:
 	# Generate package documentation pages and index
 	./scripts/doc-generator.sh
 
+clean:
+	git clean -df config/includes.chroot/
+
 build:
 	# Build the live system/ISO image
 	#sudo lb clean --purge #only required when changing the mirrors/architecture config
@@ -114,7 +117,6 @@ install_binaries:
 
 # Download dotfiles/themes/...
 DOTFILES_CACHE_DIR := "cache/downloads/dotfiles"
-
 download_dotfiles:
 	if [ ! -d $(DOTFILES_CACHE_DIR) ]; then mkdir -p $(DOTFILES_CACHE_DIR); fi
 
@@ -165,5 +167,3 @@ download_dotfiles:
 	@# For examples of how to download/include custom packages, dotfiles, themes, libraries,
 	@# check git branches extras/gtk-themes, extras/pidgin-opensteamworks, extras/webtorrent...
 
-clean:
-	git clean -di config/includes.chroot
